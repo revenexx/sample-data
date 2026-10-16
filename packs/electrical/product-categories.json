@@ -15,53 +15,588 @@
     "position": 2
   },
   {
+    "product": "DEMO-ELE-1004",
+    "category": "DEMO-ELE-CABLES",
+    "position": 3
+  },
+  {
+    "product": "DEMO-ELE-1005",
+    "category": "DEMO-ELE-CABLES",
+    "position": 4
+  },
+  {
+    "product": "DEMO-ELE-1006",
+    "category": "DEMO-ELE-CABLES",
+    "position": 5
+  },
+  {
+    "product": "DEMO-ELE-1007",
+    "category": "DEMO-ELE-CABLES",
+    "position": 6
+  },
+  {
+    "product": "DEMO-ELE-1008",
+    "category": "DEMO-ELE-CABLES",
+    "position": 7
+  },
+  {
+    "product": "DEMO-ELE-1009",
+    "category": "DEMO-ELE-CABLES",
+    "position": 8
+  },
+  {
+    "product": "DEMO-ELE-1010",
+    "category": "DEMO-ELE-CABLES",
+    "position": 9
+  },
+  {
+    "product": "DEMO-ELE-1011",
+    "category": "DEMO-ELE-CABLES",
+    "position": 10
+  },
+  {
+    "product": "DEMO-ELE-1012",
+    "category": "DEMO-ELE-CABLES",
+    "position": 11
+  },
+  {
     "product": "DEMO-ELE-2001",
     "category": "DEMO-ELE-SWITCHES",
-    "position": 3
+    "position": 12
   },
   {
     "product": "DEMO-ELE-2002",
     "category": "DEMO-ELE-SWITCHES",
-    "position": 4
+    "position": 13
   },
   {
     "product": "DEMO-ELE-2003",
     "category": "DEMO-ELE-SWITCHES",
-    "position": 5
+    "position": 14
   },
   {
     "product": "DEMO-ELE-2003-WHITE",
     "category": "DEMO-ELE-SWITCHES",
-    "position": 6
+    "position": 15
   },
   {
     "product": "DEMO-ELE-2003-BLACK",
     "category": "DEMO-ELE-SWITCHES",
-    "position": 7
+    "position": 16
   },
   {
     "product": "DEMO-ELE-2003-ANTHRACITE",
     "category": "DEMO-ELE-SWITCHES",
-    "position": 8
+    "position": 17
   },
   {
     "product": "DEMO-ELE-2004",
     "category": "DEMO-ELE-SWITCHES",
-    "position": 9
+    "position": 18
+  },
+  {
+    "product": "DEMO-ELE-2005",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 19
+  },
+  {
+    "product": "DEMO-ELE-2006",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 20
+  },
+  {
+    "product": "DEMO-ELE-2007",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 21
+  },
+  {
+    "product": "DEMO-ELE-2008",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 22
+  },
+  {
+    "product": "DEMO-ELE-2009",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 23
+  },
+  {
+    "product": "DEMO-ELE-2009-WHITE",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 24
+  },
+  {
+    "product": "DEMO-ELE-2009-BLACK",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 25
+  },
+  {
+    "product": "DEMO-ELE-2009-ANTHRACITE",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 26
+  },
+  {
+    "product": "DEMO-ELE-2009-ALUMINIUM",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 27
+  },
+  {
+    "product": "DEMO-ELE-2009-STAINLESS",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 28
+  },
+  {
+    "product": "DEMO-ELE-2010",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 29
+  },
+  {
+    "product": "DEMO-ELE-2011",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 30
+  },
+  {
+    "product": "DEMO-ELE-2011-WHITE",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 31
+  },
+  {
+    "product": "DEMO-ELE-2011-BLACK",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 32
+  },
+  {
+    "product": "DEMO-ELE-2011-ANTHRACITE",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 33
+  },
+  {
+    "product": "DEMO-ELE-2012",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 34
+  },
+  {
+    "product": "DEMO-ELE-2012-WHITE",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 35
+  },
+  {
+    "product": "DEMO-ELE-2012-BLACK",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 36
+  },
+  {
+    "product": "DEMO-ELE-2012-ANTHRACITE",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 37
+  },
+  {
+    "product": "DEMO-ELE-2013",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 38
+  },
+  {
+    "product": "DEMO-ELE-2013-WHITE",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 39
+  },
+  {
+    "product": "DEMO-ELE-2013-BLACK",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 40
+  },
+  {
+    "product": "DEMO-ELE-2013-ANTHRACITE",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 41
+  },
+  {
+    "product": "DEMO-ELE-2014",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 42
+  },
+  {
+    "product": "DEMO-ELE-2014-WHITE",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 43
+  },
+  {
+    "product": "DEMO-ELE-2014-BLACK",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 44
+  },
+  {
+    "product": "DEMO-ELE-2014-ANTHRACITE",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 45
+  },
+  {
+    "product": "DEMO-ELE-2015",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 46
+  },
+  {
+    "product": "DEMO-ELE-2017",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 47
+  },
+  {
+    "product": "DEMO-ELE-2018",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 48
   },
   {
     "product": "DEMO-ELE-3001",
     "category": "DEMO-ELE-LIGHTING",
-    "position": 10
+    "position": 49
   },
   {
     "product": "DEMO-ELE-3002",
     "category": "DEMO-ELE-LIGHTING",
-    "position": 11
+    "position": 50
   },
   {
     "product": "DEMO-ELE-3003",
     "category": "DEMO-ELE-LIGHTING",
-    "position": 12
+    "position": 51
+  },
+  {
+    "product": "DEMO-ELE-3004",
+    "category": "DEMO-ELE-LIGHTING",
+    "position": 52
+  },
+  {
+    "product": "DEMO-ELE-3005",
+    "category": "DEMO-ELE-LIGHTING",
+    "position": 53
+  },
+  {
+    "product": "DEMO-ELE-3006",
+    "category": "DEMO-ELE-LIGHTING",
+    "position": 54
+  },
+  {
+    "product": "DEMO-ELE-3007",
+    "category": "DEMO-ELE-LIGHTING",
+    "position": 55
+  },
+  {
+    "product": "DEMO-ELE-3008",
+    "category": "DEMO-ELE-LIGHTING",
+    "position": 56
+  },
+  {
+    "product": "DEMO-ELE-3009",
+    "category": "DEMO-ELE-LIGHTING",
+    "position": 57
+  },
+  {
+    "product": "DEMO-ELE-3009-WHITE",
+    "category": "DEMO-ELE-LIGHTING",
+    "position": 58
+  },
+  {
+    "product": "DEMO-ELE-3009-BLACK",
+    "category": "DEMO-ELE-LIGHTING",
+    "position": 59
+  },
+  {
+    "product": "DEMO-ELE-3009-ANTHRACITE",
+    "category": "DEMO-ELE-LIGHTING",
+    "position": 60
+  },
+  {
+    "product": "DEMO-ELE-3010",
+    "category": "DEMO-ELE-LIGHTING",
+    "position": 61
+  },
+  {
+    "product": "DEMO-ELE-3010-WHITE",
+    "category": "DEMO-ELE-LIGHTING",
+    "position": 62
+  },
+  {
+    "product": "DEMO-ELE-3010-BLACK",
+    "category": "DEMO-ELE-LIGHTING",
+    "position": 63
+  },
+  {
+    "product": "DEMO-ELE-3010-ANTHRACITE",
+    "category": "DEMO-ELE-LIGHTING",
+    "position": 64
+  },
+  {
+    "product": "DEMO-ELE-3011",
+    "category": "DEMO-ELE-LIGHTING",
+    "position": 65
+  },
+  {
+    "product": "DEMO-ELE-3012",
+    "category": "DEMO-ELE-LIGHTING",
+    "position": 66
+  },
+  {
+    "product": "DEMO-ELE-3013",
+    "category": "DEMO-ELE-LIGHTING",
+    "position": 67
+  },
+  {
+    "product": "DEMO-ELE-3014",
+    "category": "DEMO-ELE-LIGHTING",
+    "position": 68
+  },
+  {
+    "product": "DEMO-ELE-3015",
+    "category": "DEMO-ELE-LIGHTING",
+    "position": 69
+  },
+  {
+    "product": "DEMO-ELE-3016",
+    "category": "DEMO-ELE-LIGHTING",
+    "position": 70
+  },
+  {
+    "product": "DEMO-ELE-3017",
+    "category": "DEMO-ELE-LIGHTING",
+    "position": 71
+  },
+  {
+    "product": "DEMO-ELE-3018",
+    "category": "DEMO-ELE-LIGHTING",
+    "position": 72
+  },
+  {
+    "product": "DEMO-ELE-3019",
+    "category": "DEMO-ELE-LIGHTING",
+    "position": 73
+  },
+  {
+    "product": "DEMO-ELE-4001",
+    "category": "DEMO-ELE-PROTECTION",
+    "position": 74
+  },
+  {
+    "product": "DEMO-ELE-4002",
+    "category": "DEMO-ELE-PROTECTION",
+    "position": 75
+  },
+  {
+    "product": "DEMO-ELE-4003",
+    "category": "DEMO-ELE-PROTECTION",
+    "position": 76
+  },
+  {
+    "product": "DEMO-ELE-4004",
+    "category": "DEMO-ELE-PROTECTION",
+    "position": 77
+  },
+  {
+    "product": "DEMO-ELE-4005",
+    "category": "DEMO-ELE-PROTECTION",
+    "position": 78
+  },
+  {
+    "product": "DEMO-ELE-4006",
+    "category": "DEMO-ELE-PROTECTION",
+    "position": 79
+  },
+  {
+    "product": "DEMO-ELE-4007",
+    "category": "DEMO-ELE-PROTECTION",
+    "position": 80
+  },
+  {
+    "product": "DEMO-ELE-4008",
+    "category": "DEMO-ELE-PROTECTION",
+    "position": 81
+  },
+  {
+    "product": "DEMO-ELE-4009",
+    "category": "DEMO-ELE-PROTECTION",
+    "position": 82
+  },
+  {
+    "product": "DEMO-ELE-4010",
+    "category": "DEMO-ELE-PROTECTION",
+    "position": 83
+  },
+  {
+    "product": "DEMO-ELE-4011",
+    "category": "DEMO-ELE-PROTECTION",
+    "position": 84
+  },
+  {
+    "product": "DEMO-ELE-4012",
+    "category": "DEMO-ELE-PROTECTION",
+    "position": 85
+  },
+  {
+    "product": "DEMO-ELE-4013",
+    "category": "DEMO-ELE-PROTECTION",
+    "position": 86
+  },
+  {
+    "product": "DEMO-ELE-5001",
+    "category": "DEMO-ELE-MATERIAL",
+    "position": 87
+  },
+  {
+    "product": "DEMO-ELE-5002",
+    "category": "DEMO-ELE-MATERIAL",
+    "position": 88
+  },
+  {
+    "product": "DEMO-ELE-5003",
+    "category": "DEMO-ELE-MATERIAL",
+    "position": 89
+  },
+  {
+    "product": "DEMO-ELE-5004",
+    "category": "DEMO-ELE-MATERIAL",
+    "position": 90
+  },
+  {
+    "product": "DEMO-ELE-5005",
+    "category": "DEMO-ELE-MATERIAL",
+    "position": 91
+  },
+  {
+    "product": "DEMO-ELE-5006",
+    "category": "DEMO-ELE-MATERIAL",
+    "position": 92
+  },
+  {
+    "product": "DEMO-ELE-5007",
+    "category": "DEMO-ELE-MATERIAL",
+    "position": 93
+  },
+  {
+    "product": "DEMO-ELE-5008",
+    "category": "DEMO-ELE-MATERIAL",
+    "position": 94
+  },
+  {
+    "product": "DEMO-ELE-5009",
+    "category": "DEMO-ELE-MATERIAL",
+    "position": 95
+  },
+  {
+    "product": "DEMO-ELE-5010",
+    "category": "DEMO-ELE-MATERIAL",
+    "position": 96
+  },
+  {
+    "product": "DEMO-ELE-5011",
+    "category": "DEMO-ELE-MATERIAL",
+    "position": 97
+  },
+  {
+    "product": "DEMO-ELE-5012",
+    "category": "DEMO-ELE-MATERIAL",
+    "position": 98
+  },
+  {
+    "product": "DEMO-ELE-5013",
+    "category": "DEMO-ELE-MATERIAL",
+    "position": 99
+  },
+  {
+    "product": "DEMO-ELE-5014",
+    "category": "DEMO-ELE-MATERIAL",
+    "position": 100
+  },
+  {
+    "product": "DEMO-ELE-5015",
+    "category": "DEMO-ELE-MATERIAL",
+    "position": 101
+  },
+  {
+    "product": "DEMO-ELE-5016",
+    "category": "DEMO-ELE-MATERIAL",
+    "position": 102
+  },
+  {
+    "product": "DEMO-ELE-5017",
+    "category": "DEMO-ELE-MATERIAL",
+    "position": 103
+  },
+  {
+    "product": "DEMO-ELE-5018",
+    "category": "DEMO-ELE-MATERIAL",
+    "position": 104
+  },
+  {
+    "product": "DEMO-ELE-5019",
+    "category": "DEMO-ELE-MATERIAL",
+    "position": 105
+  },
+  {
+    "product": "DEMO-ELE-5020",
+    "category": "DEMO-ELE-MATERIAL",
+    "position": 106
+  },
+  {
+    "product": "DEMO-ELE-5021",
+    "category": "DEMO-ELE-MATERIAL",
+    "position": 107
+  },
+  {
+    "product": "DEMO-ELE-5022",
+    "category": "DEMO-ELE-MATERIAL",
+    "position": 108
+  },
+  {
+    "product": "DEMO-ELE-6001",
+    "category": "DEMO-ELE-TOOLS",
+    "position": 109
+  },
+  {
+    "product": "DEMO-ELE-6002",
+    "category": "DEMO-ELE-TOOLS",
+    "position": 110
+  },
+  {
+    "product": "DEMO-ELE-6003",
+    "category": "DEMO-ELE-TOOLS",
+    "position": 111
+  },
+  {
+    "product": "DEMO-ELE-6004",
+    "category": "DEMO-ELE-TOOLS",
+    "position": 112
+  },
+  {
+    "product": "DEMO-ELE-6005",
+    "category": "DEMO-ELE-TOOLS",
+    "position": 113
+  },
+  {
+    "product": "DEMO-ELE-6006",
+    "category": "DEMO-ELE-TOOLS",
+    "position": 114
+  },
+  {
+    "product": "DEMO-ELE-6007",
+    "category": "DEMO-ELE-TOOLS",
+    "position": 115
+  },
+  {
+    "product": "DEMO-ELE-6008",
+    "category": "DEMO-ELE-TOOLS",
+    "position": 116
+  },
+  {
+    "product": "DEMO-ELE-6009",
+    "category": "DEMO-ELE-TOOLS",
+    "position": 117
+  },
+  {
+    "product": "DEMO-ELE-6010",
+    "category": "DEMO-ELE-TOOLS",
+    "position": 118
+  },
+  {
+    "product": "DEMO-ELE-6011",
+    "category": "DEMO-ELE-TOOLS",
+    "position": 119
   }
 ]

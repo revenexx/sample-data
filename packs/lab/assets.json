@@ -78,6 +78,546 @@
     "external_id": "DEMO-LAB-3004-IMG"
   },
   {
+    "code": "DEMO-LAB-1005-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-1005.png",
+    "external_id": "DEMO-LAB-1005-IMG"
+  },
+  {
+    "code": "DEMO-LAB-1006-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-1006.png",
+    "external_id": "DEMO-LAB-1006-IMG"
+  },
+  {
+    "code": "DEMO-LAB-1007-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-1007.png",
+    "external_id": "DEMO-LAB-1007-IMG"
+  },
+  {
+    "code": "DEMO-LAB-1008-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-1008.png",
+    "external_id": "DEMO-LAB-1008-IMG"
+  },
+  {
+    "code": "DEMO-LAB-1009-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-1009.png",
+    "external_id": "DEMO-LAB-1009-IMG"
+  },
+  {
+    "code": "DEMO-LAB-1010-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-1010.png",
+    "external_id": "DEMO-LAB-1010-IMG"
+  },
+  {
+    "code": "DEMO-LAB-1011-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-1011.png",
+    "external_id": "DEMO-LAB-1011-IMG"
+  },
+  {
+    "code": "DEMO-LAB-1012-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-1012.png",
+    "external_id": "DEMO-LAB-1012-IMG"
+  },
+  {
+    "code": "DEMO-LAB-1013-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-1013.png",
+    "external_id": "DEMO-LAB-1013-IMG"
+  },
+  {
+    "code": "DEMO-LAB-1014-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-1014.png",
+    "external_id": "DEMO-LAB-1014-IMG"
+  },
+  {
+    "code": "DEMO-LAB-1015-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-1015.png",
+    "external_id": "DEMO-LAB-1015-IMG"
+  },
+  {
+    "code": "DEMO-LAB-1016-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-1016.png",
+    "external_id": "DEMO-LAB-1016-IMG"
+  },
+  {
+    "code": "DEMO-LAB-1017-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-1017.png",
+    "external_id": "DEMO-LAB-1017-IMG"
+  },
+  {
+    "code": "DEMO-LAB-1018-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-1018.png",
+    "external_id": "DEMO-LAB-1018-IMG"
+  },
+  {
+    "code": "DEMO-LAB-2003-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-2003.png",
+    "external_id": "DEMO-LAB-2003-IMG"
+  },
+  {
+    "code": "DEMO-LAB-2003-2UL-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-2003-2ul.png",
+    "external_id": "DEMO-LAB-2003-2UL-IMG"
+  },
+  {
+    "code": "DEMO-LAB-2003-20UL-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-2003-20ul.png",
+    "external_id": "DEMO-LAB-2003-20UL-IMG"
+  },
+  {
+    "code": "DEMO-LAB-2004-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-2004.png",
+    "external_id": "DEMO-LAB-2004-IMG"
+  },
+  {
+    "code": "DEMO-LAB-2004-20UL-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-2004-20ul.png",
+    "external_id": "DEMO-LAB-2004-20UL-IMG"
+  },
+  {
+    "code": "DEMO-LAB-2004-200UL-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-2004-200ul.png",
+    "external_id": "DEMO-LAB-2004-200UL-IMG"
+  },
+  {
+    "code": "DEMO-LAB-2004-1000UL-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-2004-1000ul.png",
+    "external_id": "DEMO-LAB-2004-1000UL-IMG"
+  },
+  {
+    "code": "DEMO-LAB-2005-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-2005.png",
+    "external_id": "DEMO-LAB-2005-IMG"
+  },
+  {
+    "code": "DEMO-LAB-2005-5ML-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-2005-5ml.png",
+    "external_id": "DEMO-LAB-2005-5ML-IMG"
+  },
+  {
+    "code": "DEMO-LAB-2005-10ML-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-2005-10ml.png",
+    "external_id": "DEMO-LAB-2005-10ML-IMG"
+  },
+  {
+    "code": "DEMO-LAB-2006-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-2006.png",
+    "external_id": "DEMO-LAB-2006-IMG"
+  },
+  {
+    "code": "DEMO-LAB-2006-10UL-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-2006-10ul.png",
+    "external_id": "DEMO-LAB-2006-10UL-IMG"
+  },
+  {
+    "code": "DEMO-LAB-2006-200UL-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-2006-200ul.png",
+    "external_id": "DEMO-LAB-2006-200UL-IMG"
+  },
+  {
+    "code": "DEMO-LAB-2006-1000UL-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-2006-1000ul.png",
+    "external_id": "DEMO-LAB-2006-1000UL-IMG"
+  },
+  {
+    "code": "DEMO-LAB-2007-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-2007.png",
+    "external_id": "DEMO-LAB-2007-IMG"
+  },
+  {
+    "code": "DEMO-LAB-2008-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-2008.png",
+    "external_id": "DEMO-LAB-2008-IMG"
+  },
+  {
+    "code": "DEMO-LAB-2009-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-2009.png",
+    "external_id": "DEMO-LAB-2009-IMG"
+  },
+  {
+    "code": "DEMO-LAB-2010-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-2010.png",
+    "external_id": "DEMO-LAB-2010-IMG"
+  },
+  {
+    "code": "DEMO-LAB-2011-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-2011.png",
+    "external_id": "DEMO-LAB-2011-IMG"
+  },
+  {
+    "code": "DEMO-LAB-2012-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-2012.png",
+    "external_id": "DEMO-LAB-2012-IMG"
+  },
+  {
+    "code": "DEMO-LAB-2013-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-2013.png",
+    "external_id": "DEMO-LAB-2013-IMG"
+  },
+  {
+    "code": "DEMO-LAB-3005-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-3005.png",
+    "external_id": "DEMO-LAB-3005-IMG"
+  },
+  {
+    "code": "DEMO-LAB-3006-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-3006.png",
+    "external_id": "DEMO-LAB-3006-IMG"
+  },
+  {
+    "code": "DEMO-LAB-3007-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-3007.png",
+    "external_id": "DEMO-LAB-3007-IMG"
+  },
+  {
+    "code": "DEMO-LAB-3008-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-3008.png",
+    "external_id": "DEMO-LAB-3008-IMG"
+  },
+  {
+    "code": "DEMO-LAB-3009-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-3009.png",
+    "external_id": "DEMO-LAB-3009-IMG"
+  },
+  {
+    "code": "DEMO-LAB-3010-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-3010.png",
+    "external_id": "DEMO-LAB-3010-IMG"
+  },
+  {
+    "code": "DEMO-LAB-3011-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-3011.png",
+    "external_id": "DEMO-LAB-3011-IMG"
+  },
+  {
+    "code": "DEMO-LAB-3012-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-3012.png",
+    "external_id": "DEMO-LAB-3012-IMG"
+  },
+  {
+    "code": "DEMO-LAB-3013-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-3013.png",
+    "external_id": "DEMO-LAB-3013-IMG"
+  },
+  {
+    "code": "DEMO-LAB-3014-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-3014.png",
+    "external_id": "DEMO-LAB-3014-IMG"
+  },
+  {
+    "code": "DEMO-LAB-3015-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-3015.png",
+    "external_id": "DEMO-LAB-3015-IMG"
+  },
+  {
+    "code": "DEMO-LAB-3016-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-3016.png",
+    "external_id": "DEMO-LAB-3016-IMG"
+  },
+  {
+    "code": "DEMO-LAB-3017-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-3017.png",
+    "external_id": "DEMO-LAB-3017-IMG"
+  },
+  {
+    "code": "DEMO-LAB-3018-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-3018.png",
+    "external_id": "DEMO-LAB-3018-IMG"
+  },
+  {
+    "code": "DEMO-LAB-4001-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-4001.png",
+    "external_id": "DEMO-LAB-4001-IMG"
+  },
+  {
+    "code": "DEMO-LAB-4002-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-4002.png",
+    "external_id": "DEMO-LAB-4002-IMG"
+  },
+  {
+    "code": "DEMO-LAB-4003-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-4003.png",
+    "external_id": "DEMO-LAB-4003-IMG"
+  },
+  {
+    "code": "DEMO-LAB-4004-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-4004.png",
+    "external_id": "DEMO-LAB-4004-IMG"
+  },
+  {
+    "code": "DEMO-LAB-4005-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-4005.png",
+    "external_id": "DEMO-LAB-4005-IMG"
+  },
+  {
+    "code": "DEMO-LAB-4006-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-4006.png",
+    "external_id": "DEMO-LAB-4006-IMG"
+  },
+  {
+    "code": "DEMO-LAB-4007-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-4007.png",
+    "external_id": "DEMO-LAB-4007-IMG"
+  },
+  {
+    "code": "DEMO-LAB-4008-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-4008.png",
+    "external_id": "DEMO-LAB-4008-IMG"
+  },
+  {
+    "code": "DEMO-LAB-4009-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-4009.png",
+    "external_id": "DEMO-LAB-4009-IMG"
+  },
+  {
+    "code": "DEMO-LAB-4010-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-4010.png",
+    "external_id": "DEMO-LAB-4010-IMG"
+  },
+  {
+    "code": "DEMO-LAB-4011-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-4011.png",
+    "external_id": "DEMO-LAB-4011-IMG"
+  },
+  {
+    "code": "DEMO-LAB-4012-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-4012.png",
+    "external_id": "DEMO-LAB-4012-IMG"
+  },
+  {
+    "code": "DEMO-LAB-4013-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-4013.png",
+    "external_id": "DEMO-LAB-4013-IMG"
+  },
+  {
+    "code": "DEMO-LAB-4014-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-4014.png",
+    "external_id": "DEMO-LAB-4014-IMG"
+  },
+  {
+    "code": "DEMO-LAB-4015-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-4015.png",
+    "external_id": "DEMO-LAB-4015-IMG"
+  },
+  {
+    "code": "DEMO-LAB-4016-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-4016.png",
+    "external_id": "DEMO-LAB-4016-IMG"
+  },
+  {
+    "code": "DEMO-LAB-4017-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-4017.png",
+    "external_id": "DEMO-LAB-4017-IMG"
+  },
+  {
+    "code": "DEMO-LAB-5001-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-5001.png",
+    "external_id": "DEMO-LAB-5001-IMG"
+  },
+  {
+    "code": "DEMO-LAB-5002-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-5002.png",
+    "external_id": "DEMO-LAB-5002-IMG"
+  },
+  {
+    "code": "DEMO-LAB-5003-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-5003.png",
+    "external_id": "DEMO-LAB-5003-IMG"
+  },
+  {
+    "code": "DEMO-LAB-5004-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-5004.png",
+    "external_id": "DEMO-LAB-5004-IMG"
+  },
+  {
+    "code": "DEMO-LAB-5005-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-5005.png",
+    "external_id": "DEMO-LAB-5005-IMG"
+  },
+  {
+    "code": "DEMO-LAB-5006-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-5006.png",
+    "external_id": "DEMO-LAB-5006-IMG"
+  },
+  {
+    "code": "DEMO-LAB-5007-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-5007.png",
+    "external_id": "DEMO-LAB-5007-IMG"
+  },
+  {
+    "code": "DEMO-LAB-5008-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-5008.png",
+    "external_id": "DEMO-LAB-5008-IMG"
+  },
+  {
+    "code": "DEMO-LAB-5009-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-5009.png",
+    "external_id": "DEMO-LAB-5009-IMG"
+  },
+  {
+    "code": "DEMO-LAB-5010-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-5010.png",
+    "external_id": "DEMO-LAB-5010-IMG"
+  },
+  {
+    "code": "DEMO-LAB-5011-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-5011.png",
+    "external_id": "DEMO-LAB-5011-IMG"
+  },
+  {
+    "code": "DEMO-LAB-5012-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-5012.png",
+    "external_id": "DEMO-LAB-5012-IMG"
+  },
+  {
+    "code": "DEMO-LAB-6001-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-6001.png",
+    "external_id": "DEMO-LAB-6001-IMG"
+  },
+  {
+    "code": "DEMO-LAB-6002-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-6002.png",
+    "external_id": "DEMO-LAB-6002-IMG"
+  },
+  {
+    "code": "DEMO-LAB-6003-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-6003.png",
+    "external_id": "DEMO-LAB-6003-IMG"
+  },
+  {
+    "code": "DEMO-LAB-6004-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-6004.png",
+    "external_id": "DEMO-LAB-6004-IMG"
+  },
+  {
+    "code": "DEMO-LAB-6005-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-6005.png",
+    "external_id": "DEMO-LAB-6005-IMG"
+  },
+  {
+    "code": "DEMO-LAB-6006-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-6006.png",
+    "external_id": "DEMO-LAB-6006-IMG"
+  },
+  {
+    "code": "DEMO-LAB-6007-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-6007.png",
+    "external_id": "DEMO-LAB-6007-IMG"
+  },
+  {
+    "code": "DEMO-LAB-6008-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-6008.png",
+    "external_id": "DEMO-LAB-6008-IMG"
+  },
+  {
+    "code": "DEMO-LAB-6009-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-6009.png",
+    "external_id": "DEMO-LAB-6009-IMG"
+  },
+  {
+    "code": "DEMO-LAB-6010-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-6010.png",
+    "external_id": "DEMO-LAB-6010-IMG"
+  },
+  {
+    "code": "DEMO-LAB-6011-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-6011.png",
+    "external_id": "DEMO-LAB-6011-IMG"
+  },
+  {
+    "code": "DEMO-LAB-6012-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-6012.png",
+    "external_id": "DEMO-LAB-6012-IMG"
+  },
+  {
     "code": "DEMO-LAB-3001-MICROCENTRIFUGE-TUBE-1-5ML-PDF",
     "family": "technical_drawings",
     "file": "assets/drawings/demo-lab-3001-microcentrifuge-tube-1-5ml.pdf",

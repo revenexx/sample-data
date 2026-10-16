@@ -130,6 +130,48 @@
     }
   },
   {
+    "code": "demo_lab_length",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Länge",
+      "en-US": "Length"
+    },
+    "position": 9,
+    "external_id": "demo_lab_length",
+    "config": {
+      "units": [
+        "MILLIMETER"
+      ]
+    }
+  },
+  {
+    "code": "demo_lab_max_temp",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Max. Temperatur (°C)",
+      "en-US": "Max. temperature (°C)"
+    },
+    "position": 10,
+    "external_id": "demo_lab_max_temp",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_lab_cut_level",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Schnittschutz-Stufe (EN 388)",
+      "en-US": "Cut level (EN 388)"
+    },
+    "position": 11,
+    "external_id": "demo_lab_cut_level"
+  },
+  {
     "code": "demo_lab_images",
     "entity_type": "product",
     "type": "asset_collection",

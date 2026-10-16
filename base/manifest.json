@@ -6,6 +6,15 @@
       "file": "defaults.json"
     },
     {
+      "name": "attributes",
+      "route": "/products/attributes",
+      "key": [
+        "entity_type",
+        "code"
+      ],
+      "file": "attributes.json"
+    },
+    {
       "name": "market",
       "route": "/markets",
       "key": "code",

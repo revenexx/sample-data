@@ -285,8 +285,14 @@ run_stock() {
     extra=$(jq -c 'del(.sku, .location, .on_hand)' <<<"$rec")
     if [ "$extra" != '{}' ]; then
       [ -z "$rowid" ] && rowid=$(lookup /inventories/stock "sku=$(uri "$sku")&location_id=$locid")
-      api PUT "/inventories/stock/$rowid" "$extra"
-      [ "$API_STATUS" = 200 ] || die "stock $sku fields answered $API_STATUS: $(api_error)"
+      if [ -n "$rowid" ]; then
+        api PUT "/inventories/stock/$rowid" "$extra"
+        [ "$API_STATUS" = 200 ] || die "stock $sku fields answered $API_STATUS: $(api_error)"
+      else
+        # A target of 0 moves nothing, so no stock row exists yet: create it.
+        api POST /inventories/stock "$(jq -c --arg s "$sku" --arg l "$locid" '{sku: $s, location_id: $l, on_hand: 0} + .' <<<"$extra")"
+        case "$API_STATUS" in 200|201) ;; *) die "stock $sku answered $API_STATUS: $(api_error)" ;; esac
+      fi
     fi
   done
   ok "$(printf '%-22s %s adjusted, %s already at target' "$(jq -r '.name' <<<"$step")" "$moved" "$same")"
@@ -311,6 +317,23 @@ storage_folder() {
     parent=$id
   done
   printf '%s' "$parent"
+}
+
+# folder_assets FOLDER_ID  ->  sets API_STATUS, and API_BODY to every file in
+# the folder as {"data": [...]}. Storage pages at most 200 files at a time, so a
+# folder that holds more is read page by page, sorted by name: the default
+# sort (upload time) ties within a batch, and pages would overlap.
+folder_assets() {
+  local folder=$1 page=1 last all='[]'
+  while :; do
+    api GET "/storage/assets?filter%5Bfolder_id%5D=$folder&limit=200&sort=original_name&page=$page"
+    [ "$API_STATUS" = 200 ] || return 0
+    all=$(jq -c --argjson a "$all" '$a + (.data // .)' <<<"$API_BODY")
+    last=$(jq -r '.meta.last_page // 1' <<<"$API_BODY")
+    [ "$page" -ge "$last" ] && break
+    page=$((page + 1))
+  done
+  API_BODY=$(jq -c '{data: unique_by(.id)}' <<<"$all")
 }
 
 # upload FILE FOLDER_ID TAGS_JSON  ->  sets API_STATUS / API_BODY
@@ -338,7 +361,7 @@ run_files() {
     return
   fi
   folder=$(storage_folder "$(jq -r '.folder' <<<"$step")")
-  api GET "/storage/assets?filter%5Bfolder_id%5D=$folder&limit=200"
+  folder_assets "$folder"
   [ "$API_STATUS" = 200 ] || die "listing storage folder answered $API_STATUS: $(api_error)"
   existing=$API_BODY
   for ((i = 0; i < count; i++)); do
@@ -545,7 +568,7 @@ remove_files() {
   [ "$API_STATUS" = 200 ] || { failed "storage folders answered $API_STATUS: $(api_error)"; return; }
   folder=$(printf '%s' "$API_BODY" | jq -r --arg p "/$path/" '(.data // .)[] | select(.path == $p) | .id' | head -1)
   [ -z "$folder" ] && return
-  api GET "/storage/assets?filter%5Bfolder_id%5D=$folder&limit=200"
+  folder_assets "$folder"
   [ "$API_STATUS" = 200 ] || { failed "listing storage folder $path answered $API_STATUS: $(api_error)"; return; }
   for sid in $(printf '%s' "$API_BODY" | jq -r '(.data // .)[].id'); do
     api DELETE "/storage/assets/$sid"

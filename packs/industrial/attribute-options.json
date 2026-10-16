@@ -1,12 +1,30 @@
 [
   {
     "attribute": "demo_ind_thread",
+    "code": "m4",
+    "labels": {
+      "de-DE": "M4",
+      "en-US": "M4"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ind_thread",
+    "code": "m5",
+    "labels": {
+      "de-DE": "M5",
+      "en-US": "M5"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ind_thread",
     "code": "m6",
     "labels": {
       "de-DE": "M6",
       "en-US": "M6"
     },
-    "position": 0
+    "position": 2
   },
   {
     "attribute": "demo_ind_thread",
@@ -15,7 +33,7 @@
       "de-DE": "M8",
       "en-US": "M8"
     },
-    "position": 1
+    "position": 3
   },
   {
     "attribute": "demo_ind_thread",
@@ -24,7 +42,16 @@
       "de-DE": "M10",
       "en-US": "M10"
     },
-    "position": 2
+    "position": 4
+  },
+  {
+    "attribute": "demo_ind_thread",
+    "code": "m12",
+    "labels": {
+      "de-DE": "M12",
+      "en-US": "M12"
+    },
+    "position": 5
   },
   {
     "attribute": "demo_ind_material",
@@ -61,6 +88,132 @@
       "en-US": "Polycarbonate"
     },
     "position": 3
+  },
+  {
+    "attribute": "demo_ind_material",
+    "code": "leather",
+    "labels": {
+      "de-DE": "Rindsleder",
+      "en-US": "Cowhide leather"
+    },
+    "position": 4
+  },
+  {
+    "attribute": "demo_ind_material",
+    "code": "chrome_vanadium",
+    "labels": {
+      "de-DE": "Chrom-Vanadium-Stahl",
+      "en-US": "Chrome vanadium steel"
+    },
+    "position": 5
+  },
+  {
+    "attribute": "demo_ind_material",
+    "code": "aluminium",
+    "labels": {
+      "de-DE": "Aluminium",
+      "en-US": "Aluminium"
+    },
+    "position": 6
+  },
+  {
+    "attribute": "demo_ind_material",
+    "code": "corundum",
+    "labels": {
+      "de-DE": "Korund",
+      "en-US": "Corundum"
+    },
+    "position": 7
+  },
+  {
+    "attribute": "demo_ind_material",
+    "code": "beech",
+    "labels": {
+      "de-DE": "Buche",
+      "en-US": "Beech wood"
+    },
+    "position": 8
+  },
+  {
+    "attribute": "demo_ind_material",
+    "code": "plastic_abs",
+    "labels": {
+      "de-DE": "ABS-Kunststoff",
+      "en-US": "ABS plastic"
+    },
+    "position": 9
+  },
+  {
+    "attribute": "demo_ind_grit",
+    "code": "p40",
+    "labels": {
+      "de-DE": "P40",
+      "en-US": "P40"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ind_grit",
+    "code": "p80",
+    "labels": {
+      "de-DE": "P80",
+      "en-US": "P80"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ind_grit",
+    "code": "p120",
+    "labels": {
+      "de-DE": "P120",
+      "en-US": "P120"
+    },
+    "position": 2
+  },
+  {
+    "attribute": "demo_ind_grit",
+    "code": "p180",
+    "labels": {
+      "de-DE": "P180",
+      "en-US": "P180"
+    },
+    "position": 3
+  },
+  {
+    "attribute": "demo_ind_grit",
+    "code": "p240",
+    "labels": {
+      "de-DE": "P240",
+      "en-US": "P240"
+    },
+    "position": 4
+  },
+  {
+    "attribute": "demo_ind_drive_size",
+    "code": "quarter",
+    "labels": {
+      "de-DE": "1/4 Zoll",
+      "en-US": "1/4 inch"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ind_drive_size",
+    "code": "three_eighth",
+    "labels": {
+      "de-DE": "3/8 Zoll",
+      "en-US": "3/8 inch"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ind_drive_size",
+    "code": "half",
+    "labels": {
+      "de-DE": "1/2 Zoll",
+      "en-US": "1/2 inch"
+    },
+    "position": 2
   },
   {
     "attribute": "demo_ind_glove_size",

@@ -168,6 +168,102 @@
     }
   },
   {
+    "code": "demo_ind_width",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Breite",
+      "en-US": "Width"
+    },
+    "position": 11,
+    "external_id": "demo_ind_width",
+    "config": {
+      "units": [
+        "MILLIMETER"
+      ]
+    },
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ind_power",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Leistung",
+      "en-US": "Power"
+    },
+    "position": 12,
+    "external_id": "demo_ind_power",
+    "config": {
+      "units": [
+        "WATT"
+      ]
+    },
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ind_volume",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Volumen",
+      "en-US": "Volume"
+    },
+    "position": 13,
+    "external_id": "demo_ind_volume",
+    "config": {
+      "units": [
+        "LITER"
+      ]
+    }
+  },
+  {
+    "code": "demo_ind_load_capacity",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Tragkraft",
+      "en-US": "Load capacity"
+    },
+    "position": 14,
+    "external_id": "demo_ind_load_capacity",
+    "config": {
+      "units": [
+        "KILOGRAM"
+      ]
+    }
+  },
+  {
+    "code": "demo_ind_grit",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Körnung",
+      "en-US": "Grit"
+    },
+    "position": 15,
+    "external_id": "demo_ind_grit",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ind_drive_size",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Antriebsvierkant",
+      "en-US": "Drive size"
+    },
+    "position": 16,
+    "external_id": "demo_ind_drive_size",
+    "is_filterable": true
+  },
+  {
     "code": "demo_ind_images",
     "entity_type": "product",
     "type": "asset_collection",

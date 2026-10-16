@@ -2,6 +2,8 @@
 // Drawn from scratch in the shared style; neutral product colours, the pack
 // accent only as a small detail, no logos and no real product designs.
 import { C, ACCENT, tile } from './style.mjs';
+import { illustrations as partA } from './lab-a.mjs';
+import { illustrations as partB } from './lab-b.mjs';
 
 const A = ACCENT.lab;
 const FONT = 'font-family="Helvetica, Arial, sans-serif"';
@@ -138,4 +140,6 @@ export const illustrations = {
   'DEMO-LAB-3002': rack50(),
   'DEMO-LAB-3003': dishes(),
   'DEMO-LAB-3004': gloveBox(),
+  ...partA,
+  ...partB,
 };

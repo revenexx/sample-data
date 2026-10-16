@@ -68,5 +68,515 @@
     "product": "DEMO-IND-3003",
     "category": "DEMO-IND-SAFETY",
     "position": 13
+  },
+  {
+    "product": "DEMO-IND-1005",
+    "category": "DEMO-IND-POWER-TOOLS",
+    "position": 14
+  },
+  {
+    "product": "DEMO-IND-1006",
+    "category": "DEMO-IND-POWER-TOOLS",
+    "position": 15
+  },
+  {
+    "product": "DEMO-IND-1007",
+    "category": "DEMO-IND-POWER-TOOLS",
+    "position": 16
+  },
+  {
+    "product": "DEMO-IND-1008",
+    "category": "DEMO-IND-POWER-TOOLS",
+    "position": 17
+  },
+  {
+    "product": "DEMO-IND-1009",
+    "category": "DEMO-IND-POWER-TOOLS",
+    "position": 18
+  },
+  {
+    "product": "DEMO-IND-1010",
+    "category": "DEMO-IND-POWER-TOOLS",
+    "position": 19
+  },
+  {
+    "product": "DEMO-IND-1011",
+    "category": "DEMO-IND-POWER-TOOLS",
+    "position": 20
+  },
+  {
+    "product": "DEMO-IND-1012",
+    "category": "DEMO-IND-POWER-TOOLS",
+    "position": 21
+  },
+  {
+    "product": "DEMO-IND-1013",
+    "category": "DEMO-IND-POWER-TOOLS",
+    "position": 22
+  },
+  {
+    "product": "DEMO-IND-1014",
+    "category": "DEMO-IND-POWER-TOOLS",
+    "position": 23
+  },
+  {
+    "product": "DEMO-IND-1015",
+    "category": "DEMO-IND-POWER-TOOLS",
+    "position": 24
+  },
+  {
+    "product": "DEMO-IND-1016",
+    "category": "DEMO-IND-POWER-TOOLS",
+    "position": 25
+  },
+  {
+    "product": "DEMO-IND-1017",
+    "category": "DEMO-IND-POWER-TOOLS",
+    "position": 26
+  },
+  {
+    "product": "DEMO-IND-1018",
+    "category": "DEMO-IND-POWER-TOOLS",
+    "position": 27
+  },
+  {
+    "product": "DEMO-IND-2004",
+    "category": "DEMO-IND-FASTENERS",
+    "position": 28
+  },
+  {
+    "product": "DEMO-IND-2005",
+    "category": "DEMO-IND-FASTENERS",
+    "position": 29
+  },
+  {
+    "product": "DEMO-IND-2006",
+    "category": "DEMO-IND-FASTENERS",
+    "position": 30
+  },
+  {
+    "product": "DEMO-IND-2007",
+    "category": "DEMO-IND-FASTENERS",
+    "position": 31
+  },
+  {
+    "product": "DEMO-IND-2008",
+    "category": "DEMO-IND-FASTENERS",
+    "position": 32
+  },
+  {
+    "product": "DEMO-IND-2009",
+    "category": "DEMO-IND-FASTENERS",
+    "position": 33
+  },
+  {
+    "product": "DEMO-IND-2010",
+    "category": "DEMO-IND-FASTENERS",
+    "position": 34
+  },
+  {
+    "product": "DEMO-IND-2011",
+    "category": "DEMO-IND-FASTENERS",
+    "position": 35
+  },
+  {
+    "product": "DEMO-IND-2012",
+    "category": "DEMO-IND-FASTENERS",
+    "position": 36
+  },
+  {
+    "product": "DEMO-IND-2013",
+    "category": "DEMO-IND-FASTENERS",
+    "position": 37
+  },
+  {
+    "product": "DEMO-IND-2014",
+    "category": "DEMO-IND-FASTENERS",
+    "position": 38
+  },
+  {
+    "product": "DEMO-IND-2015",
+    "category": "DEMO-IND-FASTENERS",
+    "position": 39
+  },
+  {
+    "product": "DEMO-IND-2016",
+    "category": "DEMO-IND-FASTENERS",
+    "position": 40
+  },
+  {
+    "product": "DEMO-IND-2017",
+    "category": "DEMO-IND-FASTENERS",
+    "position": 41
+  },
+  {
+    "product": "DEMO-IND-2018",
+    "category": "DEMO-IND-FASTENERS",
+    "position": 42
+  },
+  {
+    "product": "DEMO-IND-2019",
+    "category": "DEMO-IND-FASTENERS",
+    "position": 43
+  },
+  {
+    "product": "DEMO-IND-2020",
+    "category": "DEMO-IND-FASTENERS",
+    "position": 44
+  },
+  {
+    "product": "DEMO-IND-2021",
+    "category": "DEMO-IND-FASTENERS",
+    "position": 45
+  },
+  {
+    "product": "DEMO-IND-2022",
+    "category": "DEMO-IND-FASTENERS",
+    "position": 46
+  },
+  {
+    "product": "DEMO-IND-3004",
+    "category": "DEMO-IND-SAFETY",
+    "position": 47
+  },
+  {
+    "product": "DEMO-IND-3005",
+    "category": "DEMO-IND-SAFETY",
+    "position": 48
+  },
+  {
+    "product": "DEMO-IND-3006",
+    "category": "DEMO-IND-SAFETY",
+    "position": 49
+  },
+  {
+    "product": "DEMO-IND-3007",
+    "category": "DEMO-IND-SAFETY",
+    "position": 50
+  },
+  {
+    "product": "DEMO-IND-3008",
+    "category": "DEMO-IND-SAFETY",
+    "position": 51
+  },
+  {
+    "product": "DEMO-IND-3009",
+    "category": "DEMO-IND-SAFETY",
+    "position": 52
+  },
+  {
+    "product": "DEMO-IND-3010",
+    "category": "DEMO-IND-SAFETY",
+    "position": 53
+  },
+  {
+    "product": "DEMO-IND-3010-S",
+    "category": "DEMO-IND-SAFETY",
+    "position": 54
+  },
+  {
+    "product": "DEMO-IND-3010-M",
+    "category": "DEMO-IND-SAFETY",
+    "position": 55
+  },
+  {
+    "product": "DEMO-IND-3010-L",
+    "category": "DEMO-IND-SAFETY",
+    "position": 56
+  },
+  {
+    "product": "DEMO-IND-3010-XL",
+    "category": "DEMO-IND-SAFETY",
+    "position": 57
+  },
+  {
+    "product": "DEMO-IND-3011",
+    "category": "DEMO-IND-SAFETY",
+    "position": 58
+  },
+  {
+    "product": "DEMO-IND-3011-S",
+    "category": "DEMO-IND-SAFETY",
+    "position": 59
+  },
+  {
+    "product": "DEMO-IND-3011-M",
+    "category": "DEMO-IND-SAFETY",
+    "position": 60
+  },
+  {
+    "product": "DEMO-IND-3011-L",
+    "category": "DEMO-IND-SAFETY",
+    "position": 61
+  },
+  {
+    "product": "DEMO-IND-3011-XL",
+    "category": "DEMO-IND-SAFETY",
+    "position": 62
+  },
+  {
+    "product": "DEMO-IND-3012",
+    "category": "DEMO-IND-SAFETY",
+    "position": 63
+  },
+  {
+    "product": "DEMO-IND-3012-S",
+    "category": "DEMO-IND-SAFETY",
+    "position": 64
+  },
+  {
+    "product": "DEMO-IND-3012-M",
+    "category": "DEMO-IND-SAFETY",
+    "position": 65
+  },
+  {
+    "product": "DEMO-IND-3012-L",
+    "category": "DEMO-IND-SAFETY",
+    "position": 66
+  },
+  {
+    "product": "DEMO-IND-3012-XL",
+    "category": "DEMO-IND-SAFETY",
+    "position": 67
+  },
+  {
+    "product": "DEMO-IND-3013",
+    "category": "DEMO-IND-SAFETY",
+    "position": 68
+  },
+  {
+    "product": "DEMO-IND-3013-S",
+    "category": "DEMO-IND-SAFETY",
+    "position": 69
+  },
+  {
+    "product": "DEMO-IND-3013-M",
+    "category": "DEMO-IND-SAFETY",
+    "position": 70
+  },
+  {
+    "product": "DEMO-IND-3013-L",
+    "category": "DEMO-IND-SAFETY",
+    "position": 71
+  },
+  {
+    "product": "DEMO-IND-3013-XL",
+    "category": "DEMO-IND-SAFETY",
+    "position": 72
+  },
+  {
+    "product": "DEMO-IND-3014",
+    "category": "DEMO-IND-SAFETY",
+    "position": 73
+  },
+  {
+    "product": "DEMO-IND-3014-S",
+    "category": "DEMO-IND-SAFETY",
+    "position": 74
+  },
+  {
+    "product": "DEMO-IND-3014-M",
+    "category": "DEMO-IND-SAFETY",
+    "position": 75
+  },
+  {
+    "product": "DEMO-IND-3014-L",
+    "category": "DEMO-IND-SAFETY",
+    "position": 76
+  },
+  {
+    "product": "DEMO-IND-3014-XL",
+    "category": "DEMO-IND-SAFETY",
+    "position": 77
+  },
+  {
+    "product": "DEMO-IND-3015",
+    "category": "DEMO-IND-SAFETY",
+    "position": 78
+  },
+  {
+    "product": "DEMO-IND-3016",
+    "category": "DEMO-IND-SAFETY",
+    "position": 79
+  },
+  {
+    "product": "DEMO-IND-4001",
+    "category": "DEMO-IND-HAND-TOOLS",
+    "position": 80
+  },
+  {
+    "product": "DEMO-IND-4002",
+    "category": "DEMO-IND-HAND-TOOLS",
+    "position": 81
+  },
+  {
+    "product": "DEMO-IND-4003",
+    "category": "DEMO-IND-HAND-TOOLS",
+    "position": 82
+  },
+  {
+    "product": "DEMO-IND-4004",
+    "category": "DEMO-IND-HAND-TOOLS",
+    "position": 83
+  },
+  {
+    "product": "DEMO-IND-4005",
+    "category": "DEMO-IND-HAND-TOOLS",
+    "position": 84
+  },
+  {
+    "product": "DEMO-IND-4006",
+    "category": "DEMO-IND-HAND-TOOLS",
+    "position": 85
+  },
+  {
+    "product": "DEMO-IND-4007",
+    "category": "DEMO-IND-HAND-TOOLS",
+    "position": 86
+  },
+  {
+    "product": "DEMO-IND-4008",
+    "category": "DEMO-IND-HAND-TOOLS",
+    "position": 87
+  },
+  {
+    "product": "DEMO-IND-4009",
+    "category": "DEMO-IND-HAND-TOOLS",
+    "position": 88
+  },
+  {
+    "product": "DEMO-IND-4010",
+    "category": "DEMO-IND-HAND-TOOLS",
+    "position": 89
+  },
+  {
+    "product": "DEMO-IND-4011",
+    "category": "DEMO-IND-HAND-TOOLS",
+    "position": 90
+  },
+  {
+    "product": "DEMO-IND-4012",
+    "category": "DEMO-IND-HAND-TOOLS",
+    "position": 91
+  },
+  {
+    "product": "DEMO-IND-4013",
+    "category": "DEMO-IND-HAND-TOOLS",
+    "position": 92
+  },
+  {
+    "product": "DEMO-IND-4014",
+    "category": "DEMO-IND-HAND-TOOLS",
+    "position": 93
+  },
+  {
+    "product": "DEMO-IND-4015",
+    "category": "DEMO-IND-HAND-TOOLS",
+    "position": 94
+  },
+  {
+    "product": "DEMO-IND-4016",
+    "category": "DEMO-IND-HAND-TOOLS",
+    "position": 95
+  },
+  {
+    "product": "DEMO-IND-5001",
+    "category": "DEMO-IND-ABRASIVES",
+    "position": 96
+  },
+  {
+    "product": "DEMO-IND-5002",
+    "category": "DEMO-IND-ABRASIVES",
+    "position": 97
+  },
+  {
+    "product": "DEMO-IND-5003",
+    "category": "DEMO-IND-ABRASIVES",
+    "position": 98
+  },
+  {
+    "product": "DEMO-IND-5004",
+    "category": "DEMO-IND-ABRASIVES",
+    "position": 99
+  },
+  {
+    "product": "DEMO-IND-5005",
+    "category": "DEMO-IND-ABRASIVES",
+    "position": 100
+  },
+  {
+    "product": "DEMO-IND-5006",
+    "category": "DEMO-IND-ABRASIVES",
+    "position": 101
+  },
+  {
+    "product": "DEMO-IND-5007",
+    "category": "DEMO-IND-ABRASIVES",
+    "position": 102
+  },
+  {
+    "product": "DEMO-IND-5008",
+    "category": "DEMO-IND-ABRASIVES",
+    "position": 103
+  },
+  {
+    "product": "DEMO-IND-5009",
+    "category": "DEMO-IND-ABRASIVES",
+    "position": 104
+  },
+  {
+    "product": "DEMO-IND-5010",
+    "category": "DEMO-IND-ABRASIVES",
+    "position": 105
+  },
+  {
+    "product": "DEMO-IND-6001",
+    "category": "DEMO-IND-WORKSHOP",
+    "position": 106
+  },
+  {
+    "product": "DEMO-IND-6002",
+    "category": "DEMO-IND-WORKSHOP",
+    "position": 107
+  },
+  {
+    "product": "DEMO-IND-6003",
+    "category": "DEMO-IND-WORKSHOP",
+    "position": 108
+  },
+  {
+    "product": "DEMO-IND-6004",
+    "category": "DEMO-IND-WORKSHOP",
+    "position": 109
+  },
+  {
+    "product": "DEMO-IND-6005",
+    "category": "DEMO-IND-WORKSHOP",
+    "position": 110
+  },
+  {
+    "product": "DEMO-IND-6006",
+    "category": "DEMO-IND-WORKSHOP",
+    "position": 111
+  },
+  {
+    "product": "DEMO-IND-6007",
+    "category": "DEMO-IND-WORKSHOP",
+    "position": 112
+  },
+  {
+    "product": "DEMO-IND-6008",
+    "category": "DEMO-IND-WORKSHOP",
+    "position": 113
+  },
+  {
+    "product": "DEMO-IND-6009",
+    "category": "DEMO-IND-WORKSHOP",
+    "position": 114
+  },
+  {
+    "product": "DEMO-IND-6010",
+    "category": "DEMO-IND-WORKSHOP",
+    "position": 115
   }
 ]

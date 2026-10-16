@@ -1,12 +1,21 @@
 [
   {
     "attribute": "demo_off_format",
+    "code": "a3",
+    "labels": {
+      "de-DE": "A3",
+      "en-US": "A3"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_off_format",
     "code": "a4",
     "labels": {
       "de-DE": "A4",
       "en-US": "A4"
     },
-    "position": 0
+    "position": 1
   },
   {
     "attribute": "demo_off_format",
@@ -15,7 +24,43 @@
       "de-DE": "A5",
       "en-US": "A5"
     },
-    "position": 1
+    "position": 2
+  },
+  {
+    "attribute": "demo_off_format",
+    "code": "a6",
+    "labels": {
+      "de-DE": "A6",
+      "en-US": "A6"
+    },
+    "position": 3
+  },
+  {
+    "attribute": "demo_off_format",
+    "code": "c4",
+    "labels": {
+      "de-DE": "C4",
+      "en-US": "C4"
+    },
+    "position": 4
+  },
+  {
+    "attribute": "demo_off_format",
+    "code": "c5",
+    "labels": {
+      "de-DE": "C5",
+      "en-US": "C5"
+    },
+    "position": 5
+  },
+  {
+    "attribute": "demo_off_format",
+    "code": "dl",
+    "labels": {
+      "de-DE": "DL",
+      "en-US": "DL"
+    },
+    "position": 6
   },
   {
     "attribute": "demo_off_colour",
@@ -41,6 +86,60 @@
     "labels": {
       "de-DE": "Schwarz",
       "en-US": "Black"
+    },
+    "position": 2
+  },
+  {
+    "attribute": "demo_off_colour",
+    "code": "green",
+    "labels": {
+      "de-DE": "Grün",
+      "en-US": "Green"
+    },
+    "position": 3
+  },
+  {
+    "attribute": "demo_off_colour",
+    "code": "yellow",
+    "labels": {
+      "de-DE": "Gelb",
+      "en-US": "Yellow"
+    },
+    "position": 4
+  },
+  {
+    "attribute": "demo_off_colour",
+    "code": "grey",
+    "labels": {
+      "de-DE": "Grau",
+      "en-US": "Grey"
+    },
+    "position": 5
+  },
+  {
+    "attribute": "demo_off_material",
+    "code": "plastic",
+    "labels": {
+      "de-DE": "Kunststoff",
+      "en-US": "Plastic"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_off_material",
+    "code": "cardboard",
+    "labels": {
+      "de-DE": "Karton",
+      "en-US": "Cardboard"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_off_material",
+    "code": "paper",
+    "labels": {
+      "de-DE": "Papier",
+      "en-US": "Paper"
     },
     "position": 2
   }

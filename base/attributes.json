@@ -1,0 +1,14 @@
+[
+  {
+    "code": "demo_has_cad",
+    "entity_type": "product",
+    "type": "boolean",
+    "labels": {
+      "de-DE": "Mit CAD-Daten (STEP)",
+      "en-US": "With CAD files (STEP)"
+    },
+    "position": 30,
+    "is_filterable": true,
+    "external_id": "demo_has_cad"
+  }
+]

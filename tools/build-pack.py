@@ -90,6 +90,8 @@ def build(pack):
     write(out / "families.json", [{"code": family, "labels": L(*P["family"]["labels"]), "label_attribute": "name", "external_id": family}])
     fam_attrs = ["name", "description", "image"] + [f"{attr_pre}{a['code']}" for a in P["attributes"]]
     fam_attrs += [f"{attr_pre}images", f"{attr_pre}drawings", f"{attr_pre}downloads"]
+    # demo_has_cad lives in the base (one filter across every pack): products with a STEP model.
+    fam_attrs.append("demo_has_cad")
     write(out / "family-attributes.json", [{"family": family, "attribute": a, "position": i, "is_required": a == "name"}
                                            for i, a in enumerate(fam_attrs)])
     v = P["variant"]
@@ -148,6 +150,7 @@ def build(pack):
         for key in order:
             if f"{attr_pre}{key}" in media.get(rec["sku"], {}):
                 rec["attribute_values"]["common"][f"{attr_pre}{key}"] = media[rec["sku"]][f"{attr_pre}{key}"]
+        rec["attribute_values"]["common"]["demo_has_cad"] = rec["sku"] in P.get("cad", {}).values()
     write(out / "products.json", products)
     write(out / "product-categories.json", [{"product": sku, "category": cat, "position": i} for i, (sku, cat) in enumerate(links)])
     write(out / "assets.json", assets)

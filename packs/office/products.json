@@ -25,7 +25,8 @@
         ],
         "demo_off_downloads": [
           "DEMO-OFF-1001-DATA-SHEET"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -65,7 +66,8 @@
         "demo_off_drawings": [
           "DEMO-OFF-1002-RING-BINDER-A4-PDF",
           "DEMO-OFF-1002-RING-BINDER-A4-SVG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -103,7 +105,8 @@
         "image": "sample-data/office/demo-off-1002-blue.png",
         "demo_off_images": [
           "DEMO-OFF-1002-BLUE-IMG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -142,7 +145,8 @@
         "image": "sample-data/office/demo-off-1002-red.png",
         "demo_off_images": [
           "DEMO-OFF-1002-RED-IMG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -181,7 +185,8 @@
         "image": "sample-data/office/demo-off-1002-black.png",
         "demo_off_images": [
           "DEMO-OFF-1002-BLACK-IMG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -223,7 +228,8 @@
         "demo_off_drawings": [
           "DEMO-OFF-1003-LEVER-ARCH-80-PDF",
           "DEMO-OFF-1003-LEVER-ARCH-80-SVG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -255,7 +261,8 @@
         "image": "sample-data/office/demo-off-2001.png",
         "demo_off_images": [
           "DEMO-OFF-2001-IMG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -287,7 +294,8 @@
         "image": "sample-data/office/demo-off-2002.png",
         "demo_off_images": [
           "DEMO-OFF-2002-IMG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -319,7 +327,8 @@
         "image": "sample-data/office/demo-off-2003.png",
         "demo_off_images": [
           "DEMO-OFF-2003-IMG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -350,7 +359,8 @@
         "image": "sample-data/office/demo-off-2004.png",
         "demo_off_images": [
           "DEMO-OFF-2004-IMG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -381,7 +391,8 @@
         "image": "sample-data/office/demo-off-3001.png",
         "demo_off_images": [
           "DEMO-OFF-3001-IMG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -413,7 +424,8 @@
         "image": "sample-data/office/demo-off-3002.png",
         "demo_off_images": [
           "DEMO-OFF-3002-IMG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -448,7 +460,8 @@
         "image": "sample-data/office/demo-off-3003.png",
         "demo_off_images": [
           "DEMO-OFF-3003-IMG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -458,6 +471,3906 @@
         "en-US": {
           "name": "Hand soap refill 5 l",
           "description": "Mild liquid hand soap refill for wall dispensers, fragrance-free."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-1004",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1004",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_paper_weight": {
+          "amount": "70",
+          "unit": "GRAM_PER_SQUARE_METER"
+        },
+        "demo_off_sheets": 500,
+        "demo_off_weight": {
+          "amount": "2.2",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-1004.png",
+        "demo_off_images": [
+          "DEMO-OFF-1004-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Kopierpapier A4, 70 g/m², 500 Blatt",
+          "description": "Weißes Kopierpapier für Laser- und Tintenstrahldrucker, leichte Grammatur für Entwürfe."
+        },
+        "en-US": {
+          "name": "Copy paper A4, 70 g/m², 500 sheets",
+          "description": "White copy paper for laser and inkjet printers, a light weight for drafts."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-1005",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1005",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_paper_weight": {
+          "amount": "90",
+          "unit": "GRAM_PER_SQUARE_METER"
+        },
+        "demo_off_sheets": 500,
+        "demo_off_weight": {
+          "amount": "2.8",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-1005.png",
+        "demo_off_images": [
+          "DEMO-OFF-1005-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Kopierpapier A4, 90 g/m², 500 Blatt",
+          "description": "Weißes Kopierpapier mit 90 g/m² für Briefbögen und feste Ausdrucke."
+        },
+        "en-US": {
+          "name": "Copy paper A4, 90 g/m², 500 sheets",
+          "description": "White copy paper at 90 g/m² for letterheads and sturdy printouts."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-1006",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1006",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a3",
+        "demo_off_paper_weight": {
+          "amount": "80",
+          "unit": "GRAM_PER_SQUARE_METER"
+        },
+        "demo_off_sheets": 500,
+        "demo_off_weight": {
+          "amount": "5.0",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-1006.png",
+        "demo_off_images": [
+          "DEMO-OFF-1006-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Kopierpapier A3, 80 g/m², 500 Blatt",
+          "description": "Weißes Kopierpapier im Format A3 für Drucker mit A3-Schacht."
+        },
+        "en-US": {
+          "name": "Copy paper A3, 80 g/m², 500 sheets",
+          "description": "White copy paper in A3 format for printers with an A3 tray."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-1007",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1007",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_paper_weight": {
+          "amount": "80",
+          "unit": "GRAM_PER_SQUARE_METER"
+        },
+        "demo_off_sheets": 500,
+        "demo_off_weight": {
+          "amount": "2.5",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-1007.png",
+        "demo_off_images": [
+          "DEMO-OFF-1007-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Recyclingpapier A4, 80 g/m², 500 Blatt",
+          "description": "Kopierpapier aus Altpapier, für Laser- und Tintenstrahldrucker geeignet."
+        },
+        "en-US": {
+          "name": "Recycled paper A4, 80 g/m², 500 sheets",
+          "description": "Copy paper made from recycled fibre, suitable for laser and inkjet printers."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-1008",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1008",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_paper_weight": {
+          "amount": "100",
+          "unit": "GRAM_PER_SQUARE_METER"
+        },
+        "demo_off_sheets": 250,
+        "demo_off_weight": {
+          "amount": "1.6",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-1008.png",
+        "demo_off_images": [
+          "DEMO-OFF-1008-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Kopierpapier A4, 100 g/m², 250 Blatt",
+          "description": "Schweres Kopierpapier für Briefbögen, Umschlagseiten und Mappeneinlagen."
+        },
+        "en-US": {
+          "name": "Copy paper A4, 100 g/m², 250 sheets",
+          "description": "Heavy copy paper for letterheads, cover pages and folder inserts."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-1009",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1009",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a5",
+        "demo_off_spine_width": {
+          "amount": "50",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_weight": {
+          "amount": "0.42",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-1009.png",
+        "demo_off_images": [
+          "DEMO-OFF-1009-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Ringordner A5, 50 mm",
+          "description": "Ringordner im Format A5 mit Beschriftungsfeld, für Lochung 4 Ringe."
+        },
+        "en-US": {
+          "name": "Ring binder A5, 50 mm",
+          "description": "Ring binder in A5 format with label field, four-ring mechanism."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-1010",
+    "kind": "model",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1010",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_spine_width": {
+          "amount": "50",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_weight": {
+          "amount": "0.46",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-1010.png",
+        "demo_off_images": [
+          "DEMO-OFF-1010-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Ordner A4, 50 mm",
+          "description": "Ordner mit Hebelmechanik und Rückenschild, für bis zu 350 Blatt."
+        },
+        "en-US": {
+          "name": "Lever arch file A4, 50 mm",
+          "description": "Lever arch file with lever mechanism and spine label, for up to 350 sheets."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR"
+  },
+  {
+    "sku": "DEMO-OFF-1010-BLUE",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1010-BLUE",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_spine_width": {
+          "amount": "50",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_weight": {
+          "amount": "0.46",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "blue",
+        "image": "sample-data/office/demo-off-1010-blue.png",
+        "demo_off_images": [
+          "DEMO-OFF-1010-BLUE-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Ordner A4, 50 mm, blau",
+          "description": "Ordner mit Hebelmechanik und Rückenschild, für bis zu 350 Blatt."
+        },
+        "en-US": {
+          "name": "Lever arch file A4, 50 mm, blue",
+          "description": "Lever arch file with lever mechanism and spine label, for up to 350 sheets."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-1010"
+  },
+  {
+    "sku": "DEMO-OFF-1010-BLACK",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1010-BLACK",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_spine_width": {
+          "amount": "50",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_weight": {
+          "amount": "0.46",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "black",
+        "image": "sample-data/office/demo-off-1010-black.png",
+        "demo_off_images": [
+          "DEMO-OFF-1010-BLACK-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Ordner A4, 50 mm, schwarz",
+          "description": "Ordner mit Hebelmechanik und Rückenschild, für bis zu 350 Blatt."
+        },
+        "en-US": {
+          "name": "Lever arch file A4, 50 mm, black",
+          "description": "Lever arch file with lever mechanism and spine label, for up to 350 sheets."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-1010"
+  },
+  {
+    "sku": "DEMO-OFF-1010-GREY",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1010-GREY",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_spine_width": {
+          "amount": "50",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_weight": {
+          "amount": "0.46",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "grey",
+        "image": "sample-data/office/demo-off-1010-grey.png",
+        "demo_off_images": [
+          "DEMO-OFF-1010-GREY-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Ordner A4, 50 mm, grau",
+          "description": "Ordner mit Hebelmechanik und Rückenschild, für bis zu 350 Blatt."
+        },
+        "en-US": {
+          "name": "Lever arch file A4, 50 mm, grey",
+          "description": "Lever arch file with lever mechanism and spine label, for up to 350 sheets."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-1010"
+  },
+  {
+    "sku": "DEMO-OFF-1011",
+    "kind": "model",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1011",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_material": "plastic",
+        "demo_off_weight": {
+          "amount": "0.06",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-1011.png",
+        "demo_off_images": [
+          "DEMO-OFF-1011-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schnellhefter A4, Kunststoff",
+          "description": "Hefter mit Heftstreifen und Dreiecksfalz, für bis zu 250 Blatt."
+        },
+        "en-US": {
+          "name": "Clip folder A4, plastic",
+          "description": "Folder with clip strip and triangular fold, for up to 250 sheets."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR"
+  },
+  {
+    "sku": "DEMO-OFF-1011-BLUE",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1011-BLUE",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_material": "plastic",
+        "demo_off_weight": {
+          "amount": "0.06",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "blue",
+        "image": "sample-data/office/demo-off-1011-blue.png",
+        "demo_off_images": [
+          "DEMO-OFF-1011-BLUE-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schnellhefter A4, blau",
+          "description": "Hefter mit Heftstreifen und Dreiecksfalz, für bis zu 250 Blatt."
+        },
+        "en-US": {
+          "name": "Clip folder A4, blue",
+          "description": "Folder with clip strip and triangular fold, for up to 250 sheets."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-1011"
+  },
+  {
+    "sku": "DEMO-OFF-1011-RED",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1011-RED",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_material": "plastic",
+        "demo_off_weight": {
+          "amount": "0.06",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "red",
+        "image": "sample-data/office/demo-off-1011-red.png",
+        "demo_off_images": [
+          "DEMO-OFF-1011-RED-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schnellhefter A4, rot",
+          "description": "Hefter mit Heftstreifen und Dreiecksfalz, für bis zu 250 Blatt."
+        },
+        "en-US": {
+          "name": "Clip folder A4, red",
+          "description": "Folder with clip strip and triangular fold, for up to 250 sheets."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-1011"
+  },
+  {
+    "sku": "DEMO-OFF-1011-BLACK",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1011-BLACK",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_material": "plastic",
+        "demo_off_weight": {
+          "amount": "0.06",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "black",
+        "image": "sample-data/office/demo-off-1011-black.png",
+        "demo_off_images": [
+          "DEMO-OFF-1011-BLACK-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schnellhefter A4, schwarz",
+          "description": "Hefter mit Heftstreifen und Dreiecksfalz, für bis zu 250 Blatt."
+        },
+        "en-US": {
+          "name": "Clip folder A4, black",
+          "description": "Folder with clip strip and triangular fold, for up to 250 sheets."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-1011"
+  },
+  {
+    "sku": "DEMO-OFF-1011-GREEN",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1011-GREEN",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_material": "plastic",
+        "demo_off_weight": {
+          "amount": "0.06",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "green",
+        "image": "sample-data/office/demo-off-1011-green.png",
+        "demo_off_images": [
+          "DEMO-OFF-1011-GREEN-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schnellhefter A4, grün",
+          "description": "Hefter mit Heftstreifen und Dreiecksfalz, für bis zu 250 Blatt."
+        },
+        "en-US": {
+          "name": "Clip folder A4, green",
+          "description": "Folder with clip strip and triangular fold, for up to 250 sheets."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-1011"
+  },
+  {
+    "sku": "DEMO-OFF-1012",
+    "kind": "model",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1012",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_material": "cardboard",
+        "demo_off_weight": {
+          "amount": "0.07",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-1012.png",
+        "demo_off_images": [
+          "DEMO-OFF-1012-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Dokumentenmappe A4 mit Gummizug",
+          "description": "Mappe aus Karton mit Gummizug und Innenklappen, für bis zu 200 Blatt."
+        },
+        "en-US": {
+          "name": "Document wallet A4 with elastic band",
+          "description": "Card wallet with elastic band and inner flaps, for up to 200 sheets."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR"
+  },
+  {
+    "sku": "DEMO-OFF-1012-BLUE",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1012-BLUE",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_material": "cardboard",
+        "demo_off_weight": {
+          "amount": "0.07",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "blue",
+        "image": "sample-data/office/demo-off-1012-blue.png",
+        "demo_off_images": [
+          "DEMO-OFF-1012-BLUE-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Dokumentenmappe A4, blau",
+          "description": "Mappe aus Karton mit Gummizug und Innenklappen, für bis zu 200 Blatt."
+        },
+        "en-US": {
+          "name": "Document wallet A4, blue",
+          "description": "Card wallet with elastic band and inner flaps, for up to 200 sheets."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-1012"
+  },
+  {
+    "sku": "DEMO-OFF-1012-RED",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1012-RED",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_material": "cardboard",
+        "demo_off_weight": {
+          "amount": "0.07",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "red",
+        "image": "sample-data/office/demo-off-1012-red.png",
+        "demo_off_images": [
+          "DEMO-OFF-1012-RED-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Dokumentenmappe A4, rot",
+          "description": "Mappe aus Karton mit Gummizug und Innenklappen, für bis zu 200 Blatt."
+        },
+        "en-US": {
+          "name": "Document wallet A4, red",
+          "description": "Card wallet with elastic band and inner flaps, for up to 200 sheets."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-1012"
+  },
+  {
+    "sku": "DEMO-OFF-1012-BLACK",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1012-BLACK",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_material": "cardboard",
+        "demo_off_weight": {
+          "amount": "0.07",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "black",
+        "image": "sample-data/office/demo-off-1012-black.png",
+        "demo_off_images": [
+          "DEMO-OFF-1012-BLACK-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Dokumentenmappe A4, schwarz",
+          "description": "Mappe aus Karton mit Gummizug und Innenklappen, für bis zu 200 Blatt."
+        },
+        "en-US": {
+          "name": "Document wallet A4, black",
+          "description": "Card wallet with elastic band and inner flaps, for up to 200 sheets."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-1012"
+  },
+  {
+    "sku": "DEMO-OFF-1013",
+    "kind": "model",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1013",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_material": "plastic",
+        "demo_off_weight": {
+          "amount": "0.14",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-1013.png",
+        "demo_off_images": [
+          "DEMO-OFF-1013-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Klemmmappe A4 mit Klemmschiene",
+          "description": "Mappe mit Metallklemme oben und Innentaschen, für bis zu 50 Blatt."
+        },
+        "en-US": {
+          "name": "Clipboard folder A4 with clip",
+          "description": "Folder with metal clip at the top and inner pockets, for up to 50 sheets."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR"
+  },
+  {
+    "sku": "DEMO-OFF-1013-BLUE",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1013-BLUE",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_material": "plastic",
+        "demo_off_weight": {
+          "amount": "0.14",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "blue",
+        "image": "sample-data/office/demo-off-1013-blue.png",
+        "demo_off_images": [
+          "DEMO-OFF-1013-BLUE-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Klemmmappe A4, blau",
+          "description": "Mappe mit Metallklemme oben und Innentaschen, für bis zu 50 Blatt."
+        },
+        "en-US": {
+          "name": "Clipboard folder A4, blue",
+          "description": "Folder with metal clip at the top and inner pockets, for up to 50 sheets."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-1013"
+  },
+  {
+    "sku": "DEMO-OFF-1013-RED",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1013-RED",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_material": "plastic",
+        "demo_off_weight": {
+          "amount": "0.14",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "red",
+        "image": "sample-data/office/demo-off-1013-red.png",
+        "demo_off_images": [
+          "DEMO-OFF-1013-RED-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Klemmmappe A4, rot",
+          "description": "Mappe mit Metallklemme oben und Innentaschen, für bis zu 50 Blatt."
+        },
+        "en-US": {
+          "name": "Clipboard folder A4, red",
+          "description": "Folder with metal clip at the top and inner pockets, for up to 50 sheets."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-1013"
+  },
+  {
+    "sku": "DEMO-OFF-1013-GREEN",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1013-GREEN",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_material": "plastic",
+        "demo_off_weight": {
+          "amount": "0.14",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "green",
+        "image": "sample-data/office/demo-off-1013-green.png",
+        "demo_off_images": [
+          "DEMO-OFF-1013-GREEN-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Klemmmappe A4, grün",
+          "description": "Mappe mit Metallklemme oben und Innentaschen, für bis zu 50 Blatt."
+        },
+        "en-US": {
+          "name": "Clipboard folder A4, green",
+          "description": "Folder with metal clip at the top and inner pockets, for up to 50 sheets."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-1013"
+  },
+  {
+    "sku": "DEMO-OFF-1014",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1014",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_pack_size": 10,
+        "demo_off_material": "plastic",
+        "demo_off_weight": {
+          "amount": "0.10",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-1014.png",
+        "demo_off_images": [
+          "DEMO-OFF-1014-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Register A4, Kunststoff, 10-teilig",
+          "description": "Kunststoffregister in A4 mit zehn beschrifteten Reitern."
+        },
+        "en-US": {
+          "name": "Index dividers A4, plastic, 10 tabs",
+          "description": "Plastic index dividers in A4 with ten labelled tabs."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-1015",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1015",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_pack_size": 25,
+        "demo_off_material": "cardboard",
+        "demo_off_weight": {
+          "amount": "1.6",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-1015.png",
+        "demo_off_images": [
+          "DEMO-OFF-1015-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Hängemappen A4, 25 Stück",
+          "description": "Hängemappen aus Karton mit Reiterkarte, für Hängeregistraturen."
+        },
+        "en-US": {
+          "name": "Suspension files A4, 25 pcs",
+          "description": "Cardboard suspension files with tab card, for hanging file systems."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-1016",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1016",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_pack_size": 100,
+        "demo_off_material": "plastic",
+        "demo_off_weight": {
+          "amount": "0.50",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-1016.png",
+        "demo_off_images": [
+          "DEMO-OFF-1016-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Prospekthüllen A4, genarbt, 100 Stück",
+          "description": "Transparente Hüllen aus Polypropylen, oben offen, für lose Blätter."
+        },
+        "en-US": {
+          "name": "Document sleeves A4, textured, 100 pcs",
+          "description": "Clear polypropylene sleeves, open at the top, for loose sheets."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-1017",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1017",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_sheets": 100,
+        "demo_off_material": "cardboard",
+        "demo_off_weight": {
+          "amount": "0.8",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-1017.png",
+        "demo_off_images": [
+          "DEMO-OFF-1017-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Trennblätter A4, Karton, 100 Stück",
+          "description": "Trennblätter aus Karton mit Griffregister, für Ordner und Registraturen."
+        },
+        "en-US": {
+          "name": "Divider sheets A4, cardboard, 100 pcs",
+          "description": "Cardboard divider sheets with tab, for folders and filing systems."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-2005",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-2005",
+    "attribute_values": {
+      "common": {
+        "demo_off_pack_size": 12,
+        "demo_off_weight": {
+          "amount": "0.09",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-2005.png",
+        "demo_off_images": [
+          "DEMO-OFF-2005-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Bleistift HB, 12er-Pack",
+          "description": "Holzbleistifte mit Härtegrad HB, mit Radierer am Ende."
+        },
+        "en-US": {
+          "name": "Pencils HB, pack of 12",
+          "description": "Wooden pencils, grade HB, with eraser on the end."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-2006",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-2006",
+    "attribute_values": {
+      "common": {
+        "demo_off_pack_size": 12,
+        "demo_off_weight": {
+          "amount": "0.09",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-2006.png",
+        "demo_off_images": [
+          "DEMO-OFF-2006-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Bleistift 2B, 12er-Pack",
+          "description": "Holzbleistifte mit Härtegrad 2B für weiche Striche und Skizzen."
+        },
+        "en-US": {
+          "name": "Pencils 2B, pack of 12",
+          "description": "Wooden pencils, grade 2B, for soft lines and sketches."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-2007",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-2007",
+    "attribute_values": {
+      "common": {
+        "demo_off_weight": {
+          "amount": "0.06",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-2007.png",
+        "demo_off_images": [
+          "DEMO-OFF-2007-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Doppelspitzer, Metall",
+          "description": "Metallspitzer mit zwei Öffnungen für Bleistifte und Buntstifte, mit Auffangbehälter."
+        },
+        "en-US": {
+          "name": "Double-hole sharpener, metal",
+          "description": "Metal sharpener with two openings for pencils and coloured pencils, with catch box."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-2008",
+    "kind": "model",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-2008",
+    "attribute_values": {
+      "common": {
+        "demo_off_weight": {
+          "amount": "0.02",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-2008.png",
+        "demo_off_images": [
+          "DEMO-OFF-2008-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Gelschreiber 0,5 mm, Drehmechanik",
+          "description": "Gelschreiber mit Drehmechanik und Schreibspitze 0,5 mm, Gelschreibmine."
+        },
+        "en-US": {
+          "name": "Gel pens 0.5 mm, retractable",
+          "description": "Retractable gel pens with 0.5 mm tip and gel ink."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR"
+  },
+  {
+    "sku": "DEMO-OFF-2008-BLUE",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-2008-BLUE",
+    "attribute_values": {
+      "common": {
+        "demo_off_weight": {
+          "amount": "0.02",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "blue",
+        "image": "sample-data/office/demo-off-2008-blue.png",
+        "demo_off_images": [
+          "DEMO-OFF-2008-BLUE-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Gelschreiber 0,5 mm, blau",
+          "description": "Gelschreiber mit Drehmechanik und Schreibspitze 0,5 mm, Gelschreibmine."
+        },
+        "en-US": {
+          "name": "Gel pen 0.5 mm, blue",
+          "description": "Retractable gel pens with 0.5 mm tip and gel ink."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-2008"
+  },
+  {
+    "sku": "DEMO-OFF-2008-RED",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-2008-RED",
+    "attribute_values": {
+      "common": {
+        "demo_off_weight": {
+          "amount": "0.02",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "red",
+        "image": "sample-data/office/demo-off-2008-red.png",
+        "demo_off_images": [
+          "DEMO-OFF-2008-RED-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Gelschreiber 0,5 mm, rot",
+          "description": "Gelschreiber mit Drehmechanik und Schreibspitze 0,5 mm, Gelschreibmine."
+        },
+        "en-US": {
+          "name": "Gel pen 0.5 mm, red",
+          "description": "Retractable gel pens with 0.5 mm tip and gel ink."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-2008"
+  },
+  {
+    "sku": "DEMO-OFF-2008-BLACK",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-2008-BLACK",
+    "attribute_values": {
+      "common": {
+        "demo_off_weight": {
+          "amount": "0.02",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "black",
+        "image": "sample-data/office/demo-off-2008-black.png",
+        "demo_off_images": [
+          "DEMO-OFF-2008-BLACK-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Gelschreiber 0,5 mm, schwarz",
+          "description": "Gelschreiber mit Drehmechanik und Schreibspitze 0,5 mm, Gelschreibmine."
+        },
+        "en-US": {
+          "name": "Gel pen 0.5 mm, black",
+          "description": "Retractable gel pens with 0.5 mm tip and gel ink."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-2008"
+  },
+  {
+    "sku": "DEMO-OFF-2008-GREEN",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-2008-GREEN",
+    "attribute_values": {
+      "common": {
+        "demo_off_weight": {
+          "amount": "0.02",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "green",
+        "image": "sample-data/office/demo-off-2008-green.png",
+        "demo_off_images": [
+          "DEMO-OFF-2008-GREEN-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Gelschreiber 0,5 mm, grün",
+          "description": "Gelschreiber mit Drehmechanik und Schreibspitze 0,5 mm, Gelschreibmine."
+        },
+        "en-US": {
+          "name": "Gel pen 0.5 mm, green",
+          "description": "Retractable gel pens with 0.5 mm tip and gel ink."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-2008"
+  },
+  {
+    "sku": "DEMO-OFF-2009",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-2009",
+    "attribute_values": {
+      "common": {
+        "demo_off_pack_size": 10,
+        "demo_off_weight": {
+          "amount": "0.05",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-2009.png",
+        "demo_off_images": [
+          "DEMO-OFF-2009-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Fineliner 0,4 mm, schwarz, 10er-Pack",
+          "description": "Fineliner mit Faserspitze 0,4 mm und schwarzer Tinte."
+        },
+        "en-US": {
+          "name": "Fineliners 0.4 mm, black, pack of 10",
+          "description": "Fineliners with 0.4 mm fibre tip and black ink."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-2010",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-2010",
+    "attribute_values": {
+      "common": {
+        "demo_off_pack_size": 12,
+        "demo_off_weight": {
+          "amount": "0.10",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-2010.png",
+        "demo_off_images": [
+          "DEMO-OFF-2010-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Filzstifte, Rundspitze, 12 Farben",
+          "description": "Filzstifte mit Rundspitze 2 mm in zwölf Farben."
+        },
+        "en-US": {
+          "name": "Felt-tip pens, round tip, 12 colours",
+          "description": "Felt-tip pens with a 2 mm round tip in twelve colours."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-2011",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-2011",
+    "attribute_values": {
+      "common": {
+        "demo_off_length": {
+          "amount": "8",
+          "unit": "METER"
+        },
+        "demo_off_weight": {
+          "amount": "0.03",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-2011.png",
+        "demo_off_images": [
+          "DEMO-OFF-2011-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Korrekturroller 5 mm × 8 m",
+          "description": "Korrekturroller mit trockenem Korrekturband, 5 mm breit und 8 m lang."
+        },
+        "en-US": {
+          "name": "Correction roller 5 mm × 8 m",
+          "description": "Dry correction roller with 5 mm tape, 8 m long."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-2012",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-2012",
+    "attribute_values": {
+      "common": {
+        "demo_off_weight": {
+          "amount": "0.42",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-2012.png",
+        "demo_off_images": [
+          "DEMO-OFF-2012-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Locher 2-fach, bis 25 Blatt",
+          "description": "Metalllocher mit zwei Löchern im Abstand von 80 mm, stanzt bis zu 25 Blatt."
+        },
+        "en-US": {
+          "name": "Two-hole punch, up to 25 sheets",
+          "description": "Metal two-hole punch with 80 mm hole spacing, punches up to 25 sheets."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-2013",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-2013",
+    "attribute_values": {
+      "common": {
+        "demo_off_length": {
+          "amount": "300",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_material": "plastic",
+        "demo_off_weight": {
+          "amount": "0.02",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-2013.png",
+        "demo_off_images": [
+          "DEMO-OFF-2013-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Lineal 30 cm, Kunststoff",
+          "description": "Transparentes Lineal mit Skala in Millimetern und Zentimetern."
+        },
+        "en-US": {
+          "name": "Ruler 30 cm, plastic",
+          "description": "Transparent ruler with millimetre and centimetre scale."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-2014",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-2014",
+    "attribute_values": {
+      "common": {
+        "demo_off_length": {
+          "amount": "210",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_weight": {
+          "amount": "0.09",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-2014.png",
+        "demo_off_images": [
+          "DEMO-OFF-2014-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Büroschere 21 cm",
+          "description": "Büroschere mit Kunststoffgriffen und Klinge aus Edelstahl."
+        },
+        "en-US": {
+          "name": "Office scissors 21 cm",
+          "description": "Office scissors with plastic handles and stainless steel blades."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-2015",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-2015",
+    "attribute_values": {
+      "common": {
+        "demo_off_weight": {
+          "amount": "0.02",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-2015.png",
+        "demo_off_images": [
+          "DEMO-OFF-2015-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Klebestift 20 g",
+          "description": "Klebestift mit wasserlöslichem Kleber für Papier und Karton."
+        },
+        "en-US": {
+          "name": "Glue stick 20 g",
+          "description": "Glue stick with water-soluble adhesive for paper and cardboard."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-2016",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-2016",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a5",
+        "demo_off_sheets": 100,
+        "demo_off_weight": {
+          "amount": "0.20",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-2016.png",
+        "demo_off_images": [
+          "DEMO-OFF-2016-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Notizblock A5, liniert, 100 Blatt",
+          "description": "Notizblock mit Leimbindung, liniert, im Format A5 mit 100 Blatt."
+        },
+        "en-US": {
+          "name": "Notepad A5, ruled, 100 sheets",
+          "description": "Notepad with glued binding, ruled, A5 format, 100 sheets."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-2017",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-2017",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a5",
+        "demo_off_sheets": 96,
+        "demo_off_weight": {
+          "amount": "0.25",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-2017.png",
+        "demo_off_images": [
+          "DEMO-OFF-2017-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Notizbuch A5, kariert, 96 Blatt",
+          "description": "Notizbuch mit Fadenheftung und Karomuster, im Format A5 mit 96 Blatt."
+        },
+        "en-US": {
+          "name": "Notebook A5, squared, 96 sheets",
+          "description": "Notebook with thread binding and squared pages, A5 format, 96 sheets."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-2018",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-2018",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a6",
+        "demo_off_sheets": 100,
+        "demo_off_material": "cardboard",
+        "demo_off_weight": {
+          "amount": "0.20",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-2018.png",
+        "demo_off_images": [
+          "DEMO-OFF-2018-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Karteikarten A6, liniert, 100 Stück",
+          "description": "Karteikarten aus Karton mit Linien, im Format A6, 100 Stück."
+        },
+        "en-US": {
+          "name": "Index cards A6, ruled, 100 pcs",
+          "description": "Cardboard index cards with ruling, A6 format, 100 pieces."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-2019",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-2019",
+    "attribute_values": {
+      "common": {
+        "demo_off_pack_size": 12,
+        "demo_off_weight": {
+          "amount": "0.12",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-2019.png",
+        "demo_off_images": [
+          "DEMO-OFF-2019-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Tintenroller schwarz, 0,5 mm, 12er-Pack",
+          "description": "Tintenroller mit Metallspitze 0,5 mm und schwarzer Tinte, zwölf Stück."
+        },
+        "en-US": {
+          "name": "Rollerball pens black, 0.5 mm, pack of 12",
+          "description": "Rollerball pens with 0.5 mm metal tip and black ink, twelve pieces."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-4001",
+    "kind": "model",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-4001",
+    "attribute_values": {
+      "common": {
+        "demo_off_material": "plastic",
+        "demo_off_weight": {
+          "amount": "0.30",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-4001.png",
+        "demo_off_images": [
+          "DEMO-OFF-4001-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Stiftebehälter, Kunststoff, 3 Fächer",
+          "description": "Stiftebehälter mit drei Fächern für Stifte, Scheren und Lineale."
+        },
+        "en-US": {
+          "name": "Pen holder, plastic, 3 compartments",
+          "description": "Pen holder with three compartments for pens, scissors and rulers."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR"
+  },
+  {
+    "sku": "DEMO-OFF-4001-BLUE",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-4001-BLUE",
+    "attribute_values": {
+      "common": {
+        "demo_off_material": "plastic",
+        "demo_off_weight": {
+          "amount": "0.30",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "blue",
+        "image": "sample-data/office/demo-off-4001-blue.png",
+        "demo_off_images": [
+          "DEMO-OFF-4001-BLUE-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Stiftebehälter, 3 Fächer, blau",
+          "description": "Stiftebehälter mit drei Fächern für Stifte, Scheren und Lineale."
+        },
+        "en-US": {
+          "name": "Pen holder, 3 compartments, blue",
+          "description": "Pen holder with three compartments for pens, scissors and rulers."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-4001"
+  },
+  {
+    "sku": "DEMO-OFF-4001-RED",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-4001-RED",
+    "attribute_values": {
+      "common": {
+        "demo_off_material": "plastic",
+        "demo_off_weight": {
+          "amount": "0.30",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "red",
+        "image": "sample-data/office/demo-off-4001-red.png",
+        "demo_off_images": [
+          "DEMO-OFF-4001-RED-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Stiftebehälter, 3 Fächer, rot",
+          "description": "Stiftebehälter mit drei Fächern für Stifte, Scheren und Lineale."
+        },
+        "en-US": {
+          "name": "Pen holder, 3 compartments, red",
+          "description": "Pen holder with three compartments for pens, scissors and rulers."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-4001"
+  },
+  {
+    "sku": "DEMO-OFF-4001-BLACK",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-4001-BLACK",
+    "attribute_values": {
+      "common": {
+        "demo_off_material": "plastic",
+        "demo_off_weight": {
+          "amount": "0.30",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "black",
+        "image": "sample-data/office/demo-off-4001-black.png",
+        "demo_off_images": [
+          "DEMO-OFF-4001-BLACK-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Stiftebehälter, 3 Fächer, schwarz",
+          "description": "Stiftebehälter mit drei Fächern für Stifte, Scheren und Lineale."
+        },
+        "en-US": {
+          "name": "Pen holder, 3 compartments, black",
+          "description": "Pen holder with three compartments for pens, scissors and rulers."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-4001"
+  },
+  {
+    "sku": "DEMO-OFF-4001-GREEN",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-4001-GREEN",
+    "attribute_values": {
+      "common": {
+        "demo_off_material": "plastic",
+        "demo_off_weight": {
+          "amount": "0.30",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "green",
+        "image": "sample-data/office/demo-off-4001-green.png",
+        "demo_off_images": [
+          "DEMO-OFF-4001-GREEN-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Stiftebehälter, 3 Fächer, grün",
+          "description": "Stiftebehälter mit drei Fächern für Stifte, Scheren und Lineale."
+        },
+        "en-US": {
+          "name": "Pen holder, 3 compartments, green",
+          "description": "Pen holder with three compartments for pens, scissors and rulers."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-4001"
+  },
+  {
+    "sku": "DEMO-OFF-4002",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-4002",
+    "attribute_values": {
+      "common": {
+        "demo_off_length": {
+          "amount": "600",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_weight": {
+          "amount": "0.90",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-4002.png",
+        "demo_off_images": [
+          "DEMO-OFF-4002-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schreibunterlage 60 × 40 cm",
+          "description": "Schreibunterlage mit rutschfester Unterseite und Monatskalendarium."
+        },
+        "en-US": {
+          "name": "Desk pad 60 × 40 cm",
+          "description": "Desk pad with non-slip base and monthly calendar."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-4003",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-4003",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_material": "plastic",
+        "demo_off_weight": {
+          "amount": "0.25",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-4003.png",
+        "demo_off_images": [
+          "DEMO-OFF-4003-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Dokumentenhalter A4, Kunststoff",
+          "description": "Aufsteller aus Kunststoff für A4-Vorlagen, mit Klemmleiste."
+        },
+        "en-US": {
+          "name": "Document holder A4, plastic",
+          "description": "Plastic stand for A4 documents, with clip bar."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-4004",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-4004",
+    "attribute_values": {
+      "common": {
+        "demo_off_length": {
+          "amount": "33",
+          "unit": "METER"
+        },
+        "demo_off_weight": {
+          "amount": "0.05",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-4004.png",
+        "demo_off_images": [
+          "DEMO-OFF-4004-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Klebefilm 19 mm × 33 m",
+          "description": "Transparenter Klebefilm, 19 mm breit und 33 m lang, für Büro und Versand."
+        },
+        "en-US": {
+          "name": "Adhesive tape 19 mm × 33 m",
+          "description": "Clear adhesive tape, 19 mm wide and 33 m long, for office and shipping."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-4005",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-4005",
+    "attribute_values": {
+      "common": {
+        "demo_off_weight": {
+          "amount": "0.32",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-4005.png",
+        "demo_off_images": [
+          "DEMO-OFF-4005-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Tischabroller, Metall",
+          "description": "Tischabroller aus Metall mit Schneidkante und Antirutschfuß."
+        },
+        "en-US": {
+          "name": "Desk tape dispenser, metal",
+          "description": "Metal desk tape dispenser with cutting edge and non-slip base."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-4006",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-4006",
+    "attribute_values": {
+      "common": {
+        "demo_off_pack_size": 1000,
+        "demo_off_weight": {
+          "amount": "0.05",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-4006.png",
+        "demo_off_images": [
+          "DEMO-OFF-4006-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Heftklammern 24/6, 1000 Stück",
+          "description": "Heftklammern aus verzinktem Draht, Schenkellänge 6 mm, für gängige Heftgeräte."
+        },
+        "en-US": {
+          "name": "Staples 24/6, 1000 pcs",
+          "description": "Galvanised staples with 6 mm legs, for common staplers."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-4007",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-4007",
+    "attribute_values": {
+      "common": {
+        "demo_off_pack_size": 5000,
+        "demo_off_weight": {
+          "amount": "0.25",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-4007.png",
+        "demo_off_images": [
+          "DEMO-OFF-4007-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Heftklammern 26/6, 5000 Stück",
+          "description": "Heftklammern aus verzinktem Draht, Schenkellänge 6 mm, für Heftgeräte bis 30 Blatt."
+        },
+        "en-US": {
+          "name": "Staples 26/6, 5000 pcs",
+          "description": "Galvanised staples with 6 mm legs, for staplers up to 30 sheets."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-4008",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-4008",
+    "attribute_values": {
+      "common": {
+        "demo_off_pack_size": 1000,
+        "demo_off_weight": {
+          "amount": "0.09",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-4008.png",
+        "demo_off_images": [
+          "DEMO-OFF-4008-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Heftklammern 23/10, 1000 Stück",
+          "description": "Heftklammern aus verzinktem Draht, Schenkellänge 10 mm, für Heftgeräte bis 60 Blatt."
+        },
+        "en-US": {
+          "name": "Staples 23/10, 1000 pcs",
+          "description": "Galvanised staples with 10 mm legs, for staplers up to 60 sheets."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-4009",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-4009",
+    "attribute_values": {
+      "common": {
+        "demo_off_length": {
+          "amount": "28",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_pack_size": 100,
+        "demo_off_weight": {
+          "amount": "0.03",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-4009.png",
+        "demo_off_images": [
+          "DEMO-OFF-4009-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Büroklammern 28 mm, 100 Stück",
+          "description": "Büroklammern aus verzinktem Stahldraht, 28 mm lang, 100 Stück."
+        },
+        "en-US": {
+          "name": "Paper clips 28 mm, 100 pcs",
+          "description": "Paper clips made from galvanised steel wire, 28 mm long, 100 pieces."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-4010",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-4010",
+    "attribute_values": {
+      "common": {
+        "demo_off_weight": {
+          "amount": "0.35",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-4010.png",
+        "demo_off_images": [
+          "DEMO-OFF-4010-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Briefwaage bis 5 kg",
+          "description": "Briefwaage mit Wägeschale, Wägebereich bis 5 kg."
+        },
+        "en-US": {
+          "name": "Letter scale up to 5 kg",
+          "description": "Letter scale with weighing pan, capacity up to 5 kg."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-4011",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-4011",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_material": "plastic",
+        "demo_off_weight": {
+          "amount": "0.40",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-4011.png",
+        "demo_off_images": [
+          "DEMO-OFF-4011-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Ablagekorb A4, Kunststoff",
+          "description": "Ablagekorb aus Kunststoff für A4-Unterlagen, stapelbar."
+        },
+        "en-US": {
+          "name": "Letter tray A4, plastic",
+          "description": "Plastic letter tray for A4 documents, stackable."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-4012",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-4012",
+    "attribute_values": {
+      "common": {
+        "demo_off_weight": {
+          "amount": "0.20",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-4012.png",
+        "demo_off_images": [
+          "DEMO-OFF-4012-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Taschenrechner, 12-stellig",
+          "description": "Tischrechner mit zwölfstelligem Display und Grundrechenarten."
+        },
+        "en-US": {
+          "name": "Desk calculator, 12-digit",
+          "description": "Desktop calculator with twelve-digit display and basic functions."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-4013",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-4013",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a6",
+        "demo_off_pack_size": 10,
+        "demo_off_material": "cardboard",
+        "demo_off_weight": {
+          "amount": "0.10",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-4013.png",
+        "demo_off_images": [
+          "DEMO-OFF-4013-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Tischnamensschilder A6, 10 Stück",
+          "description": "Tischaufsteller aus Karton für Namensschilder, im Set mit 10 Stück."
+        },
+        "en-US": {
+          "name": "Desk name plates A6, 10 pcs",
+          "description": "Cardboard desk stands for name plates, set of 10 pieces."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-5001",
+    "kind": "model",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-5001",
+    "attribute_values": {
+      "common": {
+        "demo_off_pack_size": 10,
+        "demo_off_weight": {
+          "amount": "0.20",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-5001.png",
+        "demo_off_images": [
+          "DEMO-OFF-5001-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Mikrofasertuch 40 × 40 cm, 10er-Pack",
+          "description": "Mikrofasertücher aus Polyester und Polyamid, 40 × 40 cm, zehn Stück."
+        },
+        "en-US": {
+          "name": "Microfibre cloth 40 × 40 cm, pack of 10",
+          "description": "Microfibre cloths made from polyester and polyamide, 40 × 40 cm, ten pieces."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR"
+  },
+  {
+    "sku": "DEMO-OFF-5001-BLUE",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-5001-BLUE",
+    "attribute_values": {
+      "common": {
+        "demo_off_pack_size": 10,
+        "demo_off_weight": {
+          "amount": "0.20",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "blue",
+        "image": "sample-data/office/demo-off-5001-blue.png",
+        "demo_off_images": [
+          "DEMO-OFF-5001-BLUE-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Mikrofasertuch 40 × 40 cm, 10er-Pack, blau",
+          "description": "Mikrofasertücher aus Polyester und Polyamid, 40 × 40 cm, zehn Stück."
+        },
+        "en-US": {
+          "name": "Microfibre cloth 40 × 40 cm, pack of 10, blue",
+          "description": "Microfibre cloths made from polyester and polyamide, 40 × 40 cm, ten pieces."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-5001"
+  },
+  {
+    "sku": "DEMO-OFF-5001-RED",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-5001-RED",
+    "attribute_values": {
+      "common": {
+        "demo_off_pack_size": 10,
+        "demo_off_weight": {
+          "amount": "0.20",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "red",
+        "image": "sample-data/office/demo-off-5001-red.png",
+        "demo_off_images": [
+          "DEMO-OFF-5001-RED-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Mikrofasertuch 40 × 40 cm, 10er-Pack, rot",
+          "description": "Mikrofasertücher aus Polyester und Polyamid, 40 × 40 cm, zehn Stück."
+        },
+        "en-US": {
+          "name": "Microfibre cloth 40 × 40 cm, pack of 10, red",
+          "description": "Microfibre cloths made from polyester and polyamide, 40 × 40 cm, ten pieces."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-5001"
+  },
+  {
+    "sku": "DEMO-OFF-5001-GREEN",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-5001-GREEN",
+    "attribute_values": {
+      "common": {
+        "demo_off_pack_size": 10,
+        "demo_off_weight": {
+          "amount": "0.20",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "green",
+        "image": "sample-data/office/demo-off-5001-green.png",
+        "demo_off_images": [
+          "DEMO-OFF-5001-GREEN-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Mikrofasertuch 40 × 40 cm, 10er-Pack, grün",
+          "description": "Mikrofasertücher aus Polyester und Polyamid, 40 × 40 cm, zehn Stück."
+        },
+        "en-US": {
+          "name": "Microfibre cloth 40 × 40 cm, pack of 10, green",
+          "description": "Microfibre cloths made from polyester and polyamide, 40 × 40 cm, ten pieces."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-5001"
+  },
+  {
+    "sku": "DEMO-OFF-5001-YELLOW",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-5001-YELLOW",
+    "attribute_values": {
+      "common": {
+        "demo_off_pack_size": 10,
+        "demo_off_weight": {
+          "amount": "0.20",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "yellow",
+        "image": "sample-data/office/demo-off-5001-yellow.png",
+        "demo_off_images": [
+          "DEMO-OFF-5001-YELLOW-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Mikrofasertuch 40 × 40 cm, 10er-Pack, gelb",
+          "description": "Mikrofasertücher aus Polyester und Polyamid, 40 × 40 cm, zehn Stück."
+        },
+        "en-US": {
+          "name": "Microfibre cloth 40 × 40 cm, pack of 10, yellow",
+          "description": "Microfibre cloths made from polyester and polyamide, 40 × 40 cm, ten pieces."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-5001"
+  },
+  {
+    "sku": "DEMO-OFF-5002",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-5002",
+    "attribute_values": {
+      "common": {
+        "demo_off_volume": {
+          "amount": "1",
+          "unit": "LITER"
+        },
+        "demo_off_weight": {
+          "amount": "1.1",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-5002.png",
+        "demo_off_images": [
+          "DEMO-OFF-5002-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Allzweckreiniger, 1 l",
+          "description": "Konzentrierter Allzweckreiniger für Oberflächen in Büro und Pausenraum, 1 Liter."
+        },
+        "en-US": {
+          "name": "All-purpose cleaner, 1 l",
+          "description": "Concentrated all-purpose cleaner for surfaces in offices and breakrooms, 1 litre."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-5003",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-5003",
+    "attribute_values": {
+      "common": {
+        "demo_off_volume": {
+          "amount": "5",
+          "unit": "LITER"
+        },
+        "demo_off_weight": {
+          "amount": "5.3",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-5003.png",
+        "demo_off_images": [
+          "DEMO-OFF-5003-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Allzweckreiniger, 5 l Kanister",
+          "description": "Konzentrierter Allzweckreiniger im Kanister mit 5 Litern Inhalt."
+        },
+        "en-US": {
+          "name": "All-purpose cleaner, 5 l canister",
+          "description": "Concentrated all-purpose cleaner in a 5 litre canister."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-5004",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-5004",
+    "attribute_values": {
+      "common": {
+        "demo_off_volume": {
+          "amount": "0.75",
+          "unit": "LITER"
+        },
+        "demo_off_weight": {
+          "amount": "0.85",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-5004.png",
+        "demo_off_images": [
+          "DEMO-OFF-5004-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Glasreiniger, 750 ml, Sprühflasche",
+          "description": "Glasreiniger mit Sprühkopf für Fenster, Spiegel und Glasflächen."
+        },
+        "en-US": {
+          "name": "Glass cleaner, 750 ml, spray bottle",
+          "description": "Glass cleaner with spray head for windows, mirrors and glass surfaces."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-5005",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-5005",
+    "attribute_values": {
+      "common": {
+        "demo_off_volume": {
+          "amount": "0.75",
+          "unit": "LITER"
+        },
+        "demo_off_weight": {
+          "amount": "0.85",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-5005.png",
+        "demo_off_images": [
+          "DEMO-OFF-5005-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "WC-Reiniger, 750 ml",
+          "description": "WC-Reiniger mit Gel-Formel für Sanitärkeramik."
+        },
+        "en-US": {
+          "name": "Toilet cleaner, 750 ml",
+          "description": "Toilet cleaner with gel formula for sanitary ceramics."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-5006",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-5006",
+    "attribute_values": {
+      "common": {
+        "demo_off_volume": {
+          "amount": "60",
+          "unit": "LITER"
+        },
+        "demo_off_pack_size": 20,
+        "demo_off_weight": {
+          "amount": "0.60",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-5006.png",
+        "demo_off_images": [
+          "DEMO-OFF-5006-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Müllbeutel 60 l, 20 Stück",
+          "description": "Müllbeutel aus LDPE mit 60 Litern Füllvolumen, 20 Stück auf der Rolle."
+        },
+        "en-US": {
+          "name": "Waste bags 60 l, 20 pcs",
+          "description": "LDPE waste bags with 60 litre capacity, 20 on a roll."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-5007",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-5007",
+    "attribute_values": {
+      "common": {
+        "demo_off_volume": {
+          "amount": "120",
+          "unit": "LITER"
+        },
+        "demo_off_pack_size": 10,
+        "demo_off_weight": {
+          "amount": "0.70",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-5007.png",
+        "demo_off_images": [
+          "DEMO-OFF-5007-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Müllbeutel 120 l, 10 Stück",
+          "description": "Müllbeutel aus LDPE mit 120 Litern Füllvolumen, 10 Stück auf der Rolle."
+        },
+        "en-US": {
+          "name": "Waste bags 120 l, 10 pcs",
+          "description": "LDPE waste bags with 120 litre capacity, 10 on a roll."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-5008",
+    "kind": "model",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-5008",
+    "attribute_values": {
+      "common": {
+        "demo_off_volume": {
+          "amount": "15",
+          "unit": "LITER"
+        },
+        "demo_off_material": "plastic",
+        "demo_off_weight": {
+          "amount": "0.60",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-5008.png",
+        "demo_off_images": [
+          "DEMO-OFF-5008-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Papierkorb 15 l, Kunststoff",
+          "description": "Papierkorb mit Kunststoffkorb und Griffmulde, 15 Liter Volumen."
+        },
+        "en-US": {
+          "name": "Waste bin 15 l, plastic",
+          "description": "Waste bin with plastic body and finger grip, 15 litre volume."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR"
+  },
+  {
+    "sku": "DEMO-OFF-5008-BLACK",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-5008-BLACK",
+    "attribute_values": {
+      "common": {
+        "demo_off_volume": {
+          "amount": "15",
+          "unit": "LITER"
+        },
+        "demo_off_material": "plastic",
+        "demo_off_weight": {
+          "amount": "0.60",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "black",
+        "image": "sample-data/office/demo-off-5008-black.png",
+        "demo_off_images": [
+          "DEMO-OFF-5008-BLACK-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Papierkorb 15 l, schwarz",
+          "description": "Papierkorb mit Kunststoffkorb und Griffmulde, 15 Liter Volumen."
+        },
+        "en-US": {
+          "name": "Waste bin 15 l, black",
+          "description": "Waste bin with plastic body and finger grip, 15 litre volume."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-5008"
+  },
+  {
+    "sku": "DEMO-OFF-5008-GREY",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-5008-GREY",
+    "attribute_values": {
+      "common": {
+        "demo_off_volume": {
+          "amount": "15",
+          "unit": "LITER"
+        },
+        "demo_off_material": "plastic",
+        "demo_off_weight": {
+          "amount": "0.60",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "grey",
+        "image": "sample-data/office/demo-off-5008-grey.png",
+        "demo_off_images": [
+          "DEMO-OFF-5008-GREY-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Papierkorb 15 l, grau",
+          "description": "Papierkorb mit Kunststoffkorb und Griffmulde, 15 Liter Volumen."
+        },
+        "en-US": {
+          "name": "Waste bin 15 l, grey",
+          "description": "Waste bin with plastic body and finger grip, 15 litre volume."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-5008"
+  },
+  {
+    "sku": "DEMO-OFF-5008-BLUE",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-5008-BLUE",
+    "attribute_values": {
+      "common": {
+        "demo_off_volume": {
+          "amount": "15",
+          "unit": "LITER"
+        },
+        "demo_off_material": "plastic",
+        "demo_off_weight": {
+          "amount": "0.60",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "blue",
+        "image": "sample-data/office/demo-off-5008-blue.png",
+        "demo_off_images": [
+          "DEMO-OFF-5008-BLUE-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Papierkorb 15 l, blau",
+          "description": "Papierkorb mit Kunststoffkorb und Griffmulde, 15 Liter Volumen."
+        },
+        "en-US": {
+          "name": "Waste bin 15 l, blue",
+          "description": "Waste bin with plastic body and finger grip, 15 litre volume."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-5008"
+  },
+  {
+    "sku": "DEMO-OFF-5009",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-5009",
+    "attribute_values": {
+      "common": {
+        "demo_off_length": {
+          "amount": "400",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_weight": {
+          "amount": "0.20",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-5009.png",
+        "demo_off_images": [
+          "DEMO-OFF-5009-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Wischmopp-Bezug 40 cm",
+          "description": "Wischmopp-Bezug aus Baumwolle mit Taschen, 40 cm breit."
+        },
+        "en-US": {
+          "name": "Mop head cover 40 cm",
+          "description": "Cotton mop cover with pockets, 40 cm wide."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-5010",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-5010",
+    "attribute_values": {
+      "common": {
+        "demo_off_volume": {
+          "amount": "10",
+          "unit": "LITER"
+        },
+        "demo_off_material": "plastic",
+        "demo_off_weight": {
+          "amount": "1.2",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-5010.png",
+        "demo_off_images": [
+          "DEMO-OFF-5010-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Wischeimer 10 l mit Presse",
+          "description": "Kunststoff-Wischeimer mit Pressvorrichtung, Fassungsvermögen 10 Liter."
+        },
+        "en-US": {
+          "name": "Mop bucket 10 l with wringer",
+          "description": "Plastic mop bucket with wringer, 10 litre capacity."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-5011",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-5011",
+    "attribute_values": {
+      "common": {
+        "demo_off_pack_size": 5,
+        "demo_off_weight": {
+          "amount": "0.10",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-5011.png",
+        "demo_off_images": [
+          "DEMO-OFF-5011-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Scheuerschwamm, 5er-Pack",
+          "description": "Scheuerschwämme mit Schwammseite und Scheuerseite, fünf Stück."
+        },
+        "en-US": {
+          "name": "Scouring sponges, pack of 5",
+          "description": "Scouring sponges with soft and scouring side, five pieces."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-5012",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-5012",
+    "attribute_values": {
+      "common": {
+        "demo_off_volume": {
+          "amount": "2",
+          "unit": "LITER"
+        },
+        "demo_off_weight": {
+          "amount": "2.2",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-5012.png",
+        "demo_off_images": [
+          "DEMO-OFF-5012-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Bodenreiniger, Konzentrat, 2 l",
+          "description": "Bodenreiniger als Konzentrat zum Verdünnen für Hartböden, 2 Liter."
+        },
+        "en-US": {
+          "name": "Floor cleaner concentrate, 2 l",
+          "description": "Floor cleaner concentrate for dilution on hard floors, 2 litres."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-5013",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-5013",
+    "attribute_values": {
+      "common": {
+        "demo_off_material": "plastic",
+        "demo_off_weight": {
+          "amount": "0.90",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-5013.png",
+        "demo_off_images": [
+          "DEMO-OFF-5013-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Papierhandtuch-Spender, Kunststoff, weiß",
+          "description": "Wandspender aus Kunststoff für Falthandtücher, mit Sichtfenster."
+        },
+        "en-US": {
+          "name": "Paper towel dispenser, plastic, white",
+          "description": "Wall-mounted plastic dispenser for folded hand towels, with viewing window."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-5014",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-5014",
+    "attribute_values": {
+      "common": {
+        "demo_off_volume": {
+          "amount": "0.5",
+          "unit": "LITER"
+        },
+        "demo_off_material": "plastic",
+        "demo_off_weight": {
+          "amount": "0.30",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-5014.png",
+        "demo_off_images": [
+          "DEMO-OFF-5014-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Seifenspender Wandmontage, 500 ml",
+          "description": "Wandmontierter Seifenspender aus Kunststoff für Nachfüllungen, 500 ml."
+        },
+        "en-US": {
+          "name": "Soap dispenser wall-mounted, 500 ml",
+          "description": "Wall-mounted plastic soap dispenser for refills, 500 ml."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-5015",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-5015",
+    "attribute_values": {
+      "common": {
+        "demo_off_length": {
+          "amount": "1200",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_weight": {
+          "amount": "0.60",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-5015.png",
+        "demo_off_images": [
+          "DEMO-OFF-5015-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Kehrbesen mit Stiel, 120 cm",
+          "description": "Kehrbesen mit Kunststoffborsten und Holzstiel, Gesamtlänge 120 cm."
+        },
+        "en-US": {
+          "name": "Broom with handle, 120 cm",
+          "description": "Broom with plastic bristles and wooden handle, total length 120 cm."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-6001",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-6001",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "c5",
+        "demo_off_pack_size": 500,
+        "demo_off_weight": {
+          "amount": "2.4",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-6001.png",
+        "demo_off_images": [
+          "DEMO-OFF-6001-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Briefumschläge C5 mit Fenster, 500 Stück",
+          "description": "Briefumschläge mit Fenster rechts, haftklebend, 500 Stück."
+        },
+        "en-US": {
+          "name": "Envelopes C5 with window, 500 pcs",
+          "description": "Envelopes with right-hand window, self-adhesive, 500 pieces."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-6002",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-6002",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "dl",
+        "demo_off_pack_size": 100,
+        "demo_off_weight": {
+          "amount": "0.50",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-6002.png",
+        "demo_off_images": [
+          "DEMO-OFF-6002-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Briefumschläge DL ohne Fenster, 100 Stück",
+          "description": "Briefumschläge ohne Fenster, haftklebend, im DL-Format, 100 Stück."
+        },
+        "en-US": {
+          "name": "Envelopes DL without window, 100 pcs",
+          "description": "Envelopes without window, self-adhesive, DL format, 100 pieces."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-6003",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-6003",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "c4",
+        "demo_off_pack_size": 250,
+        "demo_off_weight": {
+          "amount": "3.0",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-6003.png",
+        "demo_off_images": [
+          "DEMO-OFF-6003-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Briefumschläge C4, 250 Stück",
+          "description": "Briefumschläge im C4-Format für ungefaltete DIN-A4-Unterlagen, 250 Stück."
+        },
+        "en-US": {
+          "name": "Envelopes C4, 250 pcs",
+          "description": "Envelopes in C4 format for unfolded DIN A4 documents, 250 pieces."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-6004",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-6004",
+    "attribute_values": {
+      "common": {
+        "demo_off_pack_size": 10,
+        "demo_off_weight": {
+          "amount": "0.40",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-6004.png",
+        "demo_off_images": [
+          "DEMO-OFF-6004-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Polstertaschen Größe 2, 10 Stück",
+          "description": "Versandtaschen mit Luftpolsterfolie, Größe 2, zehn Stück."
+        },
+        "en-US": {
+          "name": "Padded mailers size 2, 10 pcs",
+          "description": "Mailers with air-bubble lining, size 2, ten pieces."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-6005",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-6005",
+    "attribute_values": {
+      "common": {
+        "demo_off_pack_size": 10,
+        "demo_off_weight": {
+          "amount": "0.70",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-6005.png",
+        "demo_off_images": [
+          "DEMO-OFF-6005-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Polstertaschen Größe 4, 10 Stück",
+          "description": "Versandtaschen mit Luftpolsterfolie, Größe 4, zehn Stück."
+        },
+        "en-US": {
+          "name": "Padded mailers size 4, 10 pcs",
+          "description": "Mailers with air-bubble lining, size 4, ten pieces."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-6006",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-6006",
+    "attribute_values": {
+      "common": {
+        "demo_off_length": {
+          "amount": "66",
+          "unit": "METER"
+        },
+        "demo_off_weight": {
+          "amount": "0.20",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-6006.png",
+        "demo_off_images": [
+          "DEMO-OFF-6006-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Packband transparent, 50 mm × 66 m",
+          "description": "Packband aus Polypropylen mit Acrylkleber, 50 mm breit und 66 m lang."
+        },
+        "en-US": {
+          "name": "Packing tape clear, 50 mm × 66 m",
+          "description": "Polypropylene packing tape with acrylic adhesive, 50 mm wide and 66 m long."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-6007",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-6007",
+    "attribute_values": {
+      "common": {
+        "demo_off_length": {
+          "amount": "100",
+          "unit": "METER"
+        },
+        "demo_off_material": "paper",
+        "demo_off_weight": {
+          "amount": "3.0",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-6007.png",
+        "demo_off_images": [
+          "DEMO-OFF-6007-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Packpapier braun, Rolle 50 cm × 100 m",
+          "description": "Braunes Packpapier auf Rolle, 50 cm breit und 100 m lang, zum Verpacken und Polstern."
+        },
+        "en-US": {
+          "name": "Kraft wrapping paper brown, roll 50 cm × 100 m",
+          "description": "Brown kraft wrapping paper on a roll, 50 cm wide and 100 m long, for wrapping and padding."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-6008",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-6008",
+    "attribute_values": {
+      "common": {
+        "demo_off_length": {
+          "amount": "200",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_pack_size": 20,
+        "demo_off_material": "cardboard",
+        "demo_off_weight": {
+          "amount": "2.4",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-6008.png",
+        "demo_off_images": [
+          "DEMO-OFF-6008-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Versandkarton S, 200 × 140 × 80 mm, 20 Stück",
+          "description": "Versandkarton aus Wellpappe, Maße 200 × 140 × 80 mm, 20 Stück."
+        },
+        "en-US": {
+          "name": "Shipping carton S, 200 × 140 × 80 mm, 20 pcs",
+          "description": "Shipping carton made from corrugated board, 200 × 140 × 80 mm, 20 pieces."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-6009",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-6009",
+    "attribute_values": {
+      "common": {
+        "demo_off_length": {
+          "amount": "300",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_pack_size": 20,
+        "demo_off_material": "cardboard",
+        "demo_off_weight": {
+          "amount": "4.6",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-6009.png",
+        "demo_off_images": [
+          "DEMO-OFF-6009-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Versandkarton M, 300 × 200 × 150 mm, 20 Stück",
+          "description": "Versandkarton aus Wellpappe, Maße 300 × 200 × 150 mm, 20 Stück."
+        },
+        "en-US": {
+          "name": "Shipping carton M, 300 × 200 × 150 mm, 20 pcs",
+          "description": "Shipping carton made from corrugated board, 300 × 200 × 150 mm, 20 pieces."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-6010",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-6010",
+    "attribute_values": {
+      "common": {
+        "demo_off_length": {
+          "amount": "400",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_pack_size": 10,
+        "demo_off_material": "cardboard",
+        "demo_off_weight": {
+          "amount": "3.8",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-6010.png",
+        "demo_off_images": [
+          "DEMO-OFF-6010-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Versandkarton L, 400 × 300 × 200 mm, 10 Stück",
+          "description": "Versandkarton aus Wellpappe, Maße 400 × 300 × 200 mm, 10 Stück."
+        },
+        "en-US": {
+          "name": "Shipping carton L, 400 × 300 × 200 mm, 10 pcs",
+          "description": "Shipping carton made from corrugated board, 400 × 300 × 200 mm, 10 pieces."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-6011",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-6011",
+    "attribute_values": {
+      "common": {
+        "demo_off_length": {
+          "amount": "10",
+          "unit": "METER"
+        },
+        "demo_off_weight": {
+          "amount": "0.80",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-6011.png",
+        "demo_off_images": [
+          "DEMO-OFF-6011-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Luftpolsterfolie 1 m × 10 m",
+          "description": "Luftpolsterfolie mit 10 mm Noppen, 1 m breit und 10 m lang auf Rolle."
+        },
+        "en-US": {
+          "name": "Bubble wrap 1 m × 10 m",
+          "description": "Bubble wrap with 10 mm bubbles, 1 m wide and 10 m long on a roll."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-6012",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-6012",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_sheets": 100,
+        "demo_off_weight": {
+          "amount": "0.50",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-6012.png",
+        "demo_off_images": [
+          "DEMO-OFF-6012-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Etiketten 105 × 37 mm, 100 Blatt",
+          "description": "Etiketten auf A4-Bögen, 105 × 37 mm, weiß, 100 Blatt."
+        },
+        "en-US": {
+          "name": "Labels 105 × 37 mm, 100 sheets",
+          "description": "Labels on A4 sheets, 105 × 37 mm, white, 100 sheets."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-6013",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-6013",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_sheets": 100,
+        "demo_off_weight": {
+          "amount": "0.50",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-6013.png",
+        "demo_off_images": [
+          "DEMO-OFF-6013-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Etiketten 70 × 37 mm, 100 Blatt",
+          "description": "Etiketten auf A4-Bögen, 70 × 37 mm, weiß, 100 Blatt."
+        },
+        "en-US": {
+          "name": "Labels 70 × 37 mm, 100 sheets",
+          "description": "Labels on A4 sheets, 70 × 37 mm, white, 100 sheets."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-6014",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-6014",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_sheets": 100,
+        "demo_off_weight": {
+          "amount": "0.50",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-6014.png",
+        "demo_off_images": [
+          "DEMO-OFF-6014-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Etiketten A4 Vollblatt, 100 Blatt",
+          "description": "Etiketten als Vollblatt im A4-Format, weiß, 100 Blatt zum Bedrucken."
+        },
+        "en-US": {
+          "name": "Full-sheet labels A4, 100 sheets",
+          "description": "Full-sheet labels in A4 format, white, 100 sheets for printing."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-3004",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "reduced",
+    "enabled": true,
+    "external_id": "DEMO-OFF-3004",
+    "attribute_values": {
+      "common": {
+        "demo_off_weight": {
+          "amount": "1.05",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-3004.png",
+        "demo_off_images": [
+          "DEMO-OFF-3004-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Kaffeebohnen Espresso, 1 kg",
+          "description": "Ganze Kaffeebohnen, dunkle Röstung, für Espressomaschinen und Bohnenmühlen."
+        },
+        "en-US": {
+          "name": "Espresso coffee beans, 1 kg",
+          "description": "Whole coffee beans, dark roast, for espresso machines and grinders."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-3005",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "reduced",
+    "enabled": true,
+    "external_id": "DEMO-OFF-3005",
+    "attribute_values": {
+      "common": {
+        "demo_off_weight": {
+          "amount": "0.53",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-3005.png",
+        "demo_off_images": [
+          "DEMO-OFF-3005-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Filterkaffee gemahlen, 500 g",
+          "description": "Gemahlener Kaffee, mittlere Röstung, für Filterkaffeemaschinen."
+        },
+        "en-US": {
+          "name": "Filter coffee ground, 500 g",
+          "description": "Ground coffee, medium roast, for filter coffee machines."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-3006",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "reduced",
+    "enabled": true,
+    "external_id": "DEMO-OFF-3006",
+    "attribute_values": {
+      "common": {
+        "demo_off_pack_size": 100,
+        "demo_off_weight": {
+          "amount": "0.20",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-3006.png",
+        "demo_off_images": [
+          "DEMO-OFF-3006-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schwarzer Tee, 100 Beutel",
+          "description": "Schwarzer Tee in Aufgussbeuteln, 100 Beutel mit Faden und Etikett."
+        },
+        "en-US": {
+          "name": "Black tea, 100 tea bags",
+          "description": "Black tea in infusion bags, 100 bags with string and tag."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-3007",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "reduced",
+    "enabled": true,
+    "external_id": "DEMO-OFF-3007",
+    "attribute_values": {
+      "common": {
+        "demo_off_pack_size": 25,
+        "demo_off_weight": {
+          "amount": "0.05",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-3007.png",
+        "demo_off_images": [
+          "DEMO-OFF-3007-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Kräutertee Pfefferminz, 25 Beutel",
+          "description": "Pfefferminztee in Aufgussbeuteln, 25 Beutel."
+        },
+        "en-US": {
+          "name": "Herbal tea peppermint, 25 bags",
+          "description": "Peppermint tea in infusion bags, 25 bags."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-3008",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "reduced",
+    "enabled": true,
+    "external_id": "DEMO-OFF-3008",
+    "attribute_values": {
+      "common": {
+        "demo_off_weight": {
+          "amount": "1.05",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-3008.png",
+        "demo_off_images": [
+          "DEMO-OFF-3008-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Zucker, 1 kg Beutel",
+          "description": "Weißer Kristallzucker in Beuteln mit 1 kg Inhalt."
+        },
+        "en-US": {
+          "name": "Sugar, 1 kg bag",
+          "description": "White crystal sugar in 1 kg bags."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-3009",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-3009",
+    "attribute_values": {
+      "common": {
+        "demo_off_volume": {
+          "amount": "0.2",
+          "unit": "LITER"
+        },
+        "demo_off_pack_size": 100,
+        "demo_off_weight": {
+          "amount": "1.3",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-3009.png",
+        "demo_off_images": [
+          "DEMO-OFF-3009-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Pappbecher 200 ml, 100 Stück",
+          "description": "Einwegbecher aus Pappe mit Innenbeschichtung, 200 ml, 100 Stück."
+        },
+        "en-US": {
+          "name": "Paper cups 200 ml, 100 pcs",
+          "description": "Disposable paper cups with inner coating, 200 ml, 100 pieces."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-3010",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-3010",
+    "attribute_values": {
+      "common": {
+        "demo_off_volume": {
+          "amount": "0.3",
+          "unit": "LITER"
+        },
+        "demo_off_pack_size": 50,
+        "demo_off_weight": {
+          "amount": "1.0",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-3010.png",
+        "demo_off_images": [
+          "DEMO-OFF-3010-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Pappbecher 300 ml, 50 Stück",
+          "description": "Einwegbecher aus Pappe mit Innenbeschichtung, 300 ml, 50 Stück."
+        },
+        "en-US": {
+          "name": "Paper cups 300 ml, 50 pcs",
+          "description": "Disposable paper cups with inner coating, 300 ml, 50 pieces."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-3011",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-3011",
+    "attribute_values": {
+      "common": {
+        "demo_off_pack_size": 1000,
+        "demo_off_material": "paper",
+        "demo_off_weight": {
+          "amount": "0.50",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-3011.png",
+        "demo_off_images": [
+          "DEMO-OFF-3011-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Rührstäbchen aus Holz, 1000 Stück",
+          "description": "Rührstäbchen aus unbehandeltem Holz, 1000 Stück im Beutel."
+        },
+        "en-US": {
+          "name": "Wooden stirrers, 1000 pcs",
+          "description": "Untreated wooden stirrers, 1000 pieces in a bag."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-3012",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-3012",
+    "attribute_values": {
+      "common": {
+        "demo_off_pack_size": 6,
+        "demo_off_volume": {
+          "amount": "9",
+          "unit": "LITER"
+        },
+        "demo_off_weight": {
+          "amount": "9.3",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-3012.png",
+        "demo_off_images": [
+          "DEMO-OFF-3012-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Mineralwasser still, 6 × 1,5 l",
+          "description": "Stilles Mineralwasser in PET-Flaschen, sechs Flaschen à 1,5 Liter."
+        },
+        "en-US": {
+          "name": "Still mineral water, 6 × 1.5 l",
+          "description": "Still mineral water in PET bottles, six bottles of 1.5 litres each."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-3013",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-3013",
+    "attribute_values": {
+      "common": {
+        "demo_off_pack_size": 100,
+        "demo_off_material": "paper",
+        "demo_off_weight": {
+          "amount": "0.10",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-3013.png",
+        "demo_off_images": [
+          "DEMO-OFF-3013-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Kaffeefilter Größe 4, 100 Stück",
+          "description": "Papierfilter für Filterkaffeemaschinen, Größe 4, 100 Stück."
+        },
+        "en-US": {
+          "name": "Coffee filters size 4, 100 pcs",
+          "description": "Paper filters for filter coffee machines, size 4, 100 pieces."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-3014",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "reduced",
+    "enabled": true,
+    "external_id": "DEMO-OFF-3014",
+    "attribute_values": {
+      "common": {
+        "demo_off_pack_size": 20,
+        "demo_off_weight": {
+          "amount": "0.04",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-3014.png",
+        "demo_off_images": [
+          "DEMO-OFF-3014-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Früchtetee, 20 Beutel",
+          "description": "Früchtetee mit Apfel und Hibiskus in Aufgussbeuteln, 20 Beutel."
+        },
+        "en-US": {
+          "name": "Fruit tea, 20 bags",
+          "description": "Fruit tea with apple and hibiscus in infusion bags, 20 bags."
         }
       }
     }

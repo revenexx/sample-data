@@ -37,5 +37,35 @@
     },
     "position": 2,
     "external_id": "DEMO-IND-SAFETY"
+  },
+  {
+    "code": "DEMO-IND-HAND-TOOLS",
+    "parent": "DEMO-IND",
+    "labels": {
+      "de-DE": "Handwerkzeug",
+      "en-US": "Hand tools"
+    },
+    "position": 3,
+    "external_id": "DEMO-IND-HAND-TOOLS"
+  },
+  {
+    "code": "DEMO-IND-ABRASIVES",
+    "parent": "DEMO-IND",
+    "labels": {
+      "de-DE": "Schleif- & Trennmittel",
+      "en-US": "Abrasives & cutting"
+    },
+    "position": 4,
+    "external_id": "DEMO-IND-ABRASIVES"
+  },
+  {
+    "code": "DEMO-IND-WORKSHOP",
+    "parent": "DEMO-IND",
+    "labels": {
+      "de-DE": "Werkstattausstattung",
+      "en-US": "Workshop equipment"
+    },
+    "position": 5,
+    "external_id": "DEMO-IND-WORKSHOP"
   }
 ]

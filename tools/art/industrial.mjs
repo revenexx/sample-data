@@ -1,5 +1,7 @@
 // Illustrations for the industrial pack, keyed by SKU.
 import { C, ACCENT, tile, label } from './style.mjs';
+import { illustrations as partA } from './industrial-a.mjs';
+import { illustrations as partB } from './industrial-b.mjs';
 
 const A = ACCENT.industrial;
 
@@ -121,4 +123,6 @@ export const illustrations = {
   'DEMO-IND-3001-XL': glove('XL'),
   'DEMO-IND-3002': glasses(),
   'DEMO-IND-3003': earDefenders(),
+  ...partA,
+  ...partB,
 };

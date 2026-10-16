@@ -67,20 +67,38 @@
   },
   {
     "family": "DEMO-OFF-ARTICLE",
-    "attribute": "demo_off_images",
+    "attribute": "demo_off_length",
     "position": 11,
     "is_required": false
   },
   {
     "family": "DEMO-OFF-ARTICLE",
-    "attribute": "demo_off_drawings",
+    "attribute": "demo_off_material",
     "position": 12,
     "is_required": false
   },
   {
     "family": "DEMO-OFF-ARTICLE",
-    "attribute": "demo_off_downloads",
+    "attribute": "demo_off_images",
     "position": 13,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_drawings",
+    "position": 14,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_downloads",
+    "position": 15,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_has_cad",
+    "position": 16,
     "is_required": false
   }
 ]

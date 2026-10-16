@@ -23,7 +23,8 @@
         ],
         "demo_ind_downloads": [
           "DEMO-IND-1001-DATA-SHEET"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -58,7 +59,8 @@
         "image": "sample-data/industrial/demo-ind-1002.png",
         "demo_ind_images": [
           "DEMO-IND-1002-IMG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -93,7 +95,8 @@
         "image": "sample-data/industrial/demo-ind-1003.png",
         "demo_ind_images": [
           "DEMO-IND-1003-IMG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -132,7 +135,8 @@
         "image": "sample-data/industrial/demo-ind-1004.png",
         "demo_ind_images": [
           "DEMO-IND-1004-IMG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -172,7 +176,8 @@
         ],
         "demo_ind_downloads": [
           "DEMO-IND-2001-WOOD-SCREW-4X40-STEP"
-        ]
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -213,7 +218,8 @@
         ],
         "demo_ind_downloads": [
           "DEMO-IND-2002-HEX-BOLT-M8X40-STEP"
-        ]
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -252,7 +258,8 @@
         ],
         "demo_ind_downloads": [
           "DEMO-IND-2003-CUTTING-DISC-125-STEP"
-        ]
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -281,7 +288,8 @@
         "image": "sample-data/industrial/demo-ind-3001.png",
         "demo_ind_images": [
           "DEMO-IND-3001-IMG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -312,7 +320,8 @@
         "image": "sample-data/industrial/demo-ind-3001-s.png",
         "demo_ind_images": [
           "DEMO-IND-3001-S-IMG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -344,7 +353,8 @@
         "image": "sample-data/industrial/demo-ind-3001-m.png",
         "demo_ind_images": [
           "DEMO-IND-3001-M-IMG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -376,7 +386,8 @@
         "image": "sample-data/industrial/demo-ind-3001-l.png",
         "demo_ind_images": [
           "DEMO-IND-3001-L-IMG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -408,7 +419,8 @@
         "image": "sample-data/industrial/demo-ind-3001-xl.png",
         "demo_ind_images": [
           "DEMO-IND-3001-XL-IMG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -442,7 +454,8 @@
         "image": "sample-data/industrial/demo-ind-3002.png",
         "demo_ind_images": [
           "DEMO-IND-3002-IMG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -477,7 +490,8 @@
         "image": "sample-data/industrial/demo-ind-3003.png",
         "demo_ind_images": [
           "DEMO-IND-3003-IMG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -487,6 +501,3513 @@
         "en-US": {
           "name": "Ear defenders SNR 30 dB",
           "description": "Cushioned ear defenders with adjustable headband."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-1005",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-1005",
+    "attribute_values": {
+      "common": {
+        "demo_ind_power": {
+          "amount": "710",
+          "unit": "WATT"
+        },
+        "demo_ind_weight": {
+          "amount": "2.3",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-1005.png",
+        "demo_ind_images": [
+          "DEMO-IND-1005-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schlagbohrmaschine 710 W",
+          "description": "Netzbetriebene Schlagbohrmaschine mit Tiefenanschlag und Zusatzhandgriff."
+        },
+        "en-US": {
+          "name": "Percussion drill 710 W",
+          "description": "Corded percussion drill with depth stop and side handle."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-1006",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-1006",
+    "attribute_values": {
+      "common": {
+        "demo_ind_power": {
+          "amount": "650",
+          "unit": "WATT"
+        },
+        "demo_ind_weight": {
+          "amount": "2.0",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-1006.png",
+        "demo_ind_images": [
+          "DEMO-IND-1006-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Stichsäge 650 W",
+          "description": "Stichsäge mit Pendelhub und Gehrungsverstellung bis 45 Grad."
+        },
+        "en-US": {
+          "name": "Jigsaw 650 W",
+          "description": "Jigsaw with orbital action and bevel adjustment up to 45 degrees."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-1007",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-1007",
+    "attribute_values": {
+      "common": {
+        "demo_ind_disc_diameter": {
+          "amount": "190",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_power": {
+          "amount": "1500",
+          "unit": "WATT"
+        },
+        "demo_ind_weight": {
+          "amount": "4.6",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-1007.png",
+        "demo_ind_images": [
+          "DEMO-IND-1007-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Handkreissäge 190 mm",
+          "description": "Handkreissäge mit 190-mm-Sägeblatt, Schnitttiefe bis 65 mm bei 90 Grad."
+        },
+        "en-US": {
+          "name": "Circular hand saw 190 mm",
+          "description": "Circular hand saw with 190 mm blade, cutting depth up to 65 mm at 90 degrees."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-1008",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-1008",
+    "attribute_values": {
+      "common": {
+        "demo_ind_voltage": {
+          "amount": "18",
+          "unit": "VOLT"
+        },
+        "demo_ind_weight": {
+          "amount": "1.9",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-1008.png",
+        "demo_ind_images": [
+          "DEMO-IND-1008-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Akku-Stichsäge 18 V",
+          "description": "Akku-Stichsäge mit Pendelhub. Ohne Akku."
+        },
+        "en-US": {
+          "name": "Cordless jigsaw 18 V",
+          "description": "Cordless jigsaw with orbital action. Battery not included."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-1009",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-1009",
+    "attribute_values": {
+      "common": {
+        "demo_ind_voltage": {
+          "amount": "18",
+          "unit": "VOLT"
+        },
+        "demo_ind_disc_diameter": {
+          "amount": "165",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_weight": {
+          "amount": "3.9",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-1009.png",
+        "demo_ind_images": [
+          "DEMO-IND-1009-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Akku-Kreissäge 18 V, 165 mm",
+          "description": "Akku-Handkreissäge mit 165-mm-Sägeblatt und Spanabweiser. Ohne Akku."
+        },
+        "en-US": {
+          "name": "Cordless circular saw 18 V, 165 mm",
+          "description": "Cordless circular saw with 165 mm blade and chip deflector. Battery not included."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-1010",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-1010",
+    "attribute_values": {
+      "common": {
+        "demo_ind_voltage": {
+          "amount": "12",
+          "unit": "VOLT"
+        },
+        "demo_ind_weight": {
+          "amount": "0.9",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-1010.png",
+        "demo_ind_images": [
+          "DEMO-IND-1010-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Akku-Multifunktionswerkzeug 12 V",
+          "description": "Oszillierendes Multifunktionswerkzeug mit Schnellwechsel. Ohne Akku."
+        },
+        "en-US": {
+          "name": "Cordless multi-tool 12 V",
+          "description": "Oscillating multi-tool with quick-change head. Battery not included."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-1011",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-1011",
+    "attribute_values": {
+      "common": {
+        "demo_ind_disc_diameter": {
+          "amount": "125",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_power": {
+          "amount": "350",
+          "unit": "WATT"
+        },
+        "demo_ind_weight": {
+          "amount": "1.6",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-1011.png",
+        "demo_ind_images": [
+          "DEMO-IND-1011-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Exzenterschleifer 125 mm",
+          "description": "Exzenterschleifer mit Staubabsaugung und stufenloser Drehzahlregelung."
+        },
+        "en-US": {
+          "name": "Random orbital sander 125 mm",
+          "description": "Random orbital sander with dust extraction and variable speed."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-1012",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-1012",
+    "attribute_values": {
+      "common": {
+        "demo_ind_power": {
+          "amount": "280",
+          "unit": "WATT"
+        },
+        "demo_ind_weight": {
+          "amount": "1.3",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-1012.png",
+        "demo_ind_images": [
+          "DEMO-IND-1012-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Deltaschleifer 280 W",
+          "description": "Deltaschleifer für Ecken und Kanten, mit Schnellspannung für Schleifblätter."
+        },
+        "en-US": {
+          "name": "Detail sander 280 W",
+          "description": "Detail sander for corners and edges, with quick-clamp sheet fixing."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-1013",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-1013",
+    "attribute_values": {
+      "common": {
+        "demo_ind_power": {
+          "amount": "2000",
+          "unit": "WATT"
+        },
+        "demo_ind_weight": {
+          "amount": "0.7",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-1013.png",
+        "demo_ind_images": [
+          "DEMO-IND-1013-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Heißluftpistole 2000 W",
+          "description": "Heißluftpistole mit zwei Heizstufen für Lackabtrag und Schrumpfschläuche."
+        },
+        "en-US": {
+          "name": "Hot air gun 2000 W",
+          "description": "Hot air gun with two heat levels for paint stripping and heat shrink tubing."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-1014",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-1014",
+    "attribute_values": {
+      "common": {
+        "demo_ind_power": {
+          "amount": "1010",
+          "unit": "WATT"
+        },
+        "demo_ind_weight": {
+          "amount": "3.8",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-1014.png",
+        "demo_ind_images": [
+          "DEMO-IND-1014-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Bandschleifer 1010 W",
+          "description": "Bandschleifer für Holz und Metall, mit Bandspannhebel und Staubsack."
+        },
+        "en-US": {
+          "name": "Belt sander 1010 W",
+          "description": "Belt sander for wood and metal, with tensioning lever and dust bag."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-1015",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-1015",
+    "attribute_values": {
+      "common": {
+        "demo_ind_voltage": {
+          "amount": "18",
+          "unit": "VOLT"
+        },
+        "demo_ind_weight": {
+          "amount": "0.5",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-1015.png",
+        "demo_ind_images": [
+          "DEMO-IND-1015-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schnellladegerät 18 V",
+          "description": "Schnellladegerät für alle 18-V-Akkus von Brakkwerk, Ladezeit etwa 60 Minuten."
+        },
+        "en-US": {
+          "name": "Fast charger 18 V",
+          "description": "Fast charger for all Brakkwerk 18 V batteries, charge time about 60 minutes."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-1016",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-1016",
+    "attribute_values": {
+      "common": {
+        "demo_ind_voltage": {
+          "amount": "12",
+          "unit": "VOLT"
+        },
+        "demo_ind_battery_capacity": {
+          "amount": "2.0",
+          "unit": "AMPERE_HOUR"
+        },
+        "demo_ind_weight": {
+          "amount": "0.3",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-1016.png",
+        "demo_ind_images": [
+          "DEMO-IND-1016-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Akku 12 V 2,0 Ah",
+          "description": "Wechselakku für 12-V-Geräte von Brakkwerk, mit Ladestandsanzeige."
+        },
+        "en-US": {
+          "name": "Battery pack 12 V 2.0 Ah",
+          "description": "Interchangeable battery for Brakkwerk 12 V tools, with charge indicator."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-1017",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-1017",
+    "attribute_values": {
+      "common": {
+        "demo_ind_power": {
+          "amount": "1200",
+          "unit": "WATT"
+        },
+        "demo_ind_volume": {
+          "amount": "20",
+          "unit": "LITER"
+        },
+        "demo_ind_weight": {
+          "amount": "8.5",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-1017.png",
+        "demo_ind_images": [
+          "DEMO-IND-1017-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Industriesauger 20 Liter, 1200 W",
+          "description": "Nass- und Trockensauger mit 20-Liter-Behälter und Anschluss für Elektrowerkzeuge."
+        },
+        "en-US": {
+          "name": "Wet and dry vacuum 20 liter, 1200 W",
+          "description": "Wet and dry vacuum with 20 liter tank and power tool take-off."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-1018",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-1018",
+    "attribute_values": {
+      "common": {
+        "demo_ind_voltage": {
+          "amount": "18",
+          "unit": "VOLT"
+        },
+        "demo_ind_disc_diameter": {
+          "amount": "115",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_weight": {
+          "amount": "1.8",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-1018.png",
+        "demo_ind_images": [
+          "DEMO-IND-1018-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Akku-Winkelschleifer 115 mm, 18 V",
+          "description": "Akku-Winkelschleifer mit Wiederanlaufschutz. Ohne Akku."
+        },
+        "en-US": {
+          "name": "Cordless angle grinder 115 mm, 18 V",
+          "description": "Cordless angle grinder with restart protection. Battery not included."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-2004",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-2004",
+    "attribute_values": {
+      "common": {
+        "demo_ind_length": {
+          "amount": "30",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_material": "steel_zinc",
+        "demo_ind_pack_size": 500,
+        "image": "sample-data/industrial/demo-ind-2004.png",
+        "demo_ind_images": [
+          "DEMO-IND-2004-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Holzschrauben 3,5 × 30 mm, 500 Stück",
+          "description": "Senkkopf-Holzschrauben mit Vollgewinde, verzinkt."
+        },
+        "en-US": {
+          "name": "Wood screws 3.5 × 30 mm, box of 500",
+          "description": "Countersunk wood screws, fully threaded, zinc-plated."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-2005",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-2005",
+    "attribute_values": {
+      "common": {
+        "demo_ind_length": {
+          "amount": "60",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_material": "steel_zinc",
+        "demo_ind_pack_size": 200,
+        "image": "sample-data/industrial/demo-ind-2005.png",
+        "demo_ind_images": [
+          "DEMO-IND-2005-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Holzschrauben 5 × 60 mm, 200 Stück",
+          "description": "Senkkopf-Holzschrauben mit Teilgewinde, verzinkt."
+        },
+        "en-US": {
+          "name": "Wood screws 5 × 60 mm, box of 200",
+          "description": "Countersunk wood screws, partial thread, zinc-plated."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-2006",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-2006",
+    "attribute_values": {
+      "common": {
+        "demo_ind_length": {
+          "amount": "80",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_material": "stainless_a2",
+        "demo_ind_pack_size": 100,
+        "image": "sample-data/industrial/demo-ind-2006.png",
+        "demo_ind_images": [
+          "DEMO-IND-2006-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Holzschrauben 5 × 80 mm, Edelstahl, 100 Stück",
+          "description": "Holzschrauben aus Edelstahl A2 für Außenbereiche."
+        },
+        "en-US": {
+          "name": "Wood screws 5 × 80 mm, stainless, box of 100",
+          "description": "Wood screws in stainless steel A2 for outdoor use."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-2007",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-2007",
+    "attribute_values": {
+      "common": {
+        "demo_ind_thread": "m6",
+        "demo_ind_length": {
+          "amount": "30",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_material": "steel_zinc",
+        "demo_ind_pack_size": 200,
+        "image": "sample-data/industrial/demo-ind-2007.png",
+        "demo_ind_images": [
+          "DEMO-IND-2007-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Sechskantschrauben M6 × 30 mm, 200 Stück",
+          "description": "Sechskantschrauben mit Vollgewinde, Festigkeitsklasse 8.8, verzinkt."
+        },
+        "en-US": {
+          "name": "Hex bolts M6 × 30 mm, box of 200",
+          "description": "Hex head bolts, fully threaded, property class 8.8, zinc-plated."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-2008",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-2008",
+    "attribute_values": {
+      "common": {
+        "demo_ind_thread": "m10",
+        "demo_ind_length": {
+          "amount": "60",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_material": "steel_zinc",
+        "demo_ind_pack_size": 50,
+        "image": "sample-data/industrial/demo-ind-2008.png",
+        "demo_ind_images": [
+          "DEMO-IND-2008-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Sechskantschrauben M10 × 60 mm, 50 Stück",
+          "description": "Sechskantschrauben mit Teilgewinde, Festigkeitsklasse 8.8, verzinkt."
+        },
+        "en-US": {
+          "name": "Hex bolts M10 × 60 mm, box of 50",
+          "description": "Hex head bolts, partial thread, property class 8.8, zinc-plated."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-2009",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-2009",
+    "attribute_values": {
+      "common": {
+        "demo_ind_thread": "m8",
+        "demo_ind_material": "steel_zinc",
+        "demo_ind_pack_size": 100,
+        "image": "sample-data/industrial/demo-ind-2009.png",
+        "demo_ind_images": [
+          "DEMO-IND-2009-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Sechskantmuttern M8, 100 Stück",
+          "description": "Sechskantmuttern mit Regelgewinde, verzinkt."
+        },
+        "en-US": {
+          "name": "Hex nuts M8, box of 100",
+          "description": "Hex nuts with standard thread, zinc-plated."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-2010",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-2010",
+    "attribute_values": {
+      "common": {
+        "demo_ind_thread": "m6",
+        "demo_ind_material": "steel_zinc",
+        "demo_ind_pack_size": 200,
+        "image": "sample-data/industrial/demo-ind-2010.png",
+        "demo_ind_images": [
+          "DEMO-IND-2010-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Sechskantmuttern M6, 200 Stück",
+          "description": "Sechskantmuttern mit Regelgewinde, verzinkt."
+        },
+        "en-US": {
+          "name": "Hex nuts M6, box of 200",
+          "description": "Hex nuts with standard thread, zinc-plated."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-2011",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-2011",
+    "attribute_values": {
+      "common": {
+        "demo_ind_thread": "m8",
+        "demo_ind_material": "steel_zinc",
+        "demo_ind_pack_size": 200,
+        "image": "sample-data/industrial/demo-ind-2011.png",
+        "demo_ind_images": [
+          "DEMO-IND-2011-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Unterlegscheiben M8, 200 Stück",
+          "description": "Unterlegscheiben mit glatter Oberfläche, verzinkt."
+        },
+        "en-US": {
+          "name": "Flat washers M8, box of 200",
+          "description": "Flat washers with smooth surface, zinc-plated."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-2012",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-2012",
+    "attribute_values": {
+      "common": {
+        "demo_ind_thread": "m8",
+        "demo_ind_length": {
+          "amount": "1000",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_material": "steel_zinc",
+        "demo_ind_pack_size": 1,
+        "image": "sample-data/industrial/demo-ind-2012.png",
+        "demo_ind_images": [
+          "DEMO-IND-2012-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Gewindestange M8 × 1000 mm",
+          "description": "Gewindestange mit Vollgewinde, 1 Meter lang, zum Ablängen."
+        },
+        "en-US": {
+          "name": "Threaded rod M8 × 1000 mm",
+          "description": "Threaded rod, fully threaded, 1 metre long, cut to length."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-2013",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-2013",
+    "attribute_values": {
+      "common": {
+        "demo_ind_length": {
+          "amount": "40",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_material": "plastic_abs",
+        "demo_ind_pack_size": 100,
+        "image": "sample-data/industrial/demo-ind-2013.png",
+        "demo_ind_images": [
+          "DEMO-IND-2013-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Spreizdübel 8 × 40 mm, 100 Stück",
+          "description": "Kunststoffdübel für Beton, Mauerwerk und Hohlblock."
+        },
+        "en-US": {
+          "name": "Expansion plugs 8 × 40 mm, box of 100",
+          "description": "Plastic expansion plugs for concrete, masonry and hollow block."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-2014",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-2014",
+    "attribute_values": {
+      "common": {
+        "demo_ind_length": {
+          "amount": "200",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_material": "plastic_abs",
+        "demo_ind_pack_size": 100,
+        "image": "sample-data/industrial/demo-ind-2014.png",
+        "demo_ind_images": [
+          "DEMO-IND-2014-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Kabelbinder 200 mm, schwarz, 100 Stück",
+          "description": "Kabelbinder aus Kunststoff mit Sperrklinke, schwarz."
+        },
+        "en-US": {
+          "name": "Cable ties 200 mm, black, pack of 100",
+          "description": "Plastic cable ties with locking pawl, black."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-2015",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-2015",
+    "attribute_values": {
+      "common": {
+        "demo_ind_length": {
+          "amount": "60",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_material": "steel_zinc",
+        "demo_ind_weight": {
+          "amount": "1.0",
+          "unit": "KILOGRAM"
+        },
+        "demo_ind_pack_size": 1,
+        "image": "sample-data/industrial/demo-ind-2015.png",
+        "demo_ind_images": [
+          "DEMO-IND-2015-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Drahtstifte 60 mm, 1 kg",
+          "description": "Glatte Drahtstifte aus verzinktem Stahl, für Holzkonstruktionen."
+        },
+        "en-US": {
+          "name": "Wire nails 60 mm, 1 kg",
+          "description": "Smooth wire nails in zinc-plated steel, for timber construction."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-2016",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-2016",
+    "attribute_values": {
+      "common": {
+        "demo_ind_thread": "m6",
+        "demo_ind_length": {
+          "amount": "20",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_material": "stainless_a2",
+        "demo_ind_pack_size": 100,
+        "image": "sample-data/industrial/demo-ind-2016.png",
+        "demo_ind_images": [
+          "DEMO-IND-2016-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Gewindestifte M6 × 20 mm, 100 Stück",
+          "description": "Gewindestifte mit Innensechskant und Ringschneide, Edelstahl A2."
+        },
+        "en-US": {
+          "name": "Grub screws M6 × 20 mm, box of 100",
+          "description": "Grub screws with hex socket and cup point, stainless steel A2."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-2017",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-2017",
+    "attribute_values": {
+      "common": {
+        "demo_ind_thread": "m5",
+        "demo_ind_length": {
+          "amount": "16",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_material": "stainless_a2",
+        "demo_ind_pack_size": 200,
+        "image": "sample-data/industrial/demo-ind-2017.png",
+        "demo_ind_images": [
+          "DEMO-IND-2017-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Zylinderschrauben M5 × 16 mm, 200 Stück",
+          "description": "Zylinderschrauben mit Innensechskant aus Edelstahl A2."
+        },
+        "en-US": {
+          "name": "Cheese head screws M5 × 16 mm, box of 200",
+          "description": "Cheese head screws with hex socket in stainless steel A2."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-2018",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-2018",
+    "attribute_values": {
+      "common": {
+        "demo_ind_thread": "m4",
+        "demo_ind_length": {
+          "amount": "12",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_material": "steel_zinc",
+        "demo_ind_pack_size": 500,
+        "image": "sample-data/industrial/demo-ind-2018.png",
+        "demo_ind_images": [
+          "DEMO-IND-2018-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schrauben M4 × 12 mm, Kreuzschlitz, 500 Stück",
+          "description": "Linsenkopfschrauben mit Kreuzschlitz, verzinkt."
+        },
+        "en-US": {
+          "name": "Screws M4 × 12 mm, cross recess, box of 500",
+          "description": "Pan head screws with cross recess, zinc-plated."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-2019",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-2019",
+    "attribute_values": {
+      "common": {
+        "demo_ind_length": {
+          "amount": "19",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_material": "steel_zinc",
+        "demo_ind_pack_size": 500,
+        "image": "sample-data/industrial/demo-ind-2019.png",
+        "demo_ind_images": [
+          "DEMO-IND-2019-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Blechschrauben 4,2 × 19 mm, 500 Stück",
+          "description": "Blechschrauben mit Bohrspitze für Stahlblech bis 2 mm."
+        },
+        "en-US": {
+          "name": "Sheet metal screws 4.2 × 19 mm, box of 500",
+          "description": "Sheet metal screws with drill point for steel sheet up to 2 mm."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-2020",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-2020",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "steel_zinc",
+        "demo_ind_pack_size": 300,
+        "image": "sample-data/industrial/demo-ind-2020.png",
+        "demo_ind_images": [
+          "DEMO-IND-2020-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schrauben-Sortiment M4 bis M8, 300 Teile",
+          "description": "Sortiment aus Sechskant- und Zylinderschrauben, Muttern und Scheiben in einer Kunststoffbox."
+        },
+        "en-US": {
+          "name": "Screw assortment M4 to M8, 300 pieces",
+          "description": "Assortment of hex and cheese head screws, nuts and washers in a plastic box."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-2021",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-2021",
+    "attribute_values": {
+      "common": {
+        "demo_ind_thread": "m10",
+        "demo_ind_material": "steel_zinc",
+        "demo_ind_pack_size": 50,
+        "image": "sample-data/industrial/demo-ind-2021.png",
+        "demo_ind_images": [
+          "DEMO-IND-2021-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Vierkantmuttern M10, 50 Stück",
+          "description": "Vierkantmuttern für Holzkonstruktionen und Schienenbefestigungen, verzinkt."
+        },
+        "en-US": {
+          "name": "Square nuts M10, box of 50",
+          "description": "Square nuts for timber construction and rail fixing, zinc-plated."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-2022",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-2022",
+    "attribute_values": {
+      "common": {
+        "demo_ind_thread": "m12",
+        "demo_ind_length": {
+          "amount": "80",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_material": "steel_zinc",
+        "demo_ind_pack_size": 25,
+        "image": "sample-data/industrial/demo-ind-2022.png",
+        "demo_ind_images": [
+          "DEMO-IND-2022-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Sechskantschrauben M12 × 80 mm, 25 Stück",
+          "description": "Sechskantschrauben mit Teilgewinde, Festigkeitsklasse 8.8, verzinkt."
+        },
+        "en-US": {
+          "name": "Hex bolts M12 × 80 mm, box of 25",
+          "description": "Hex head bolts, partial thread, property class 8.8, zinc-plated."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-3004",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3004",
+    "attribute_values": {
+      "common": {
+        "demo_ind_weight": {
+          "amount": "0.37",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-3004.png",
+        "demo_ind_images": [
+          "DEMO-IND-3004-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schutzhelm, weiß",
+          "description": "Schutzhelm mit Kopfband und Schweißband, verstellbar."
+        },
+        "en-US": {
+          "name": "Safety helmet, white",
+          "description": "Safety helmet with headband and sweatband, adjustable."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-3005",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3005",
+    "attribute_values": {
+      "common": {
+        "demo_ind_noise_reduction": {
+          "amount": "35",
+          "unit": "DECIBEL"
+        },
+        "demo_ind_pack_size": 200,
+        "image": "sample-data/industrial/demo-ind-3005.png",
+        "demo_ind_images": [
+          "DEMO-IND-3005-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Gehörschutzstöpsel SNR 35 dB, 200 Paar",
+          "description": "Einweg-Gehörschutzstöpsel mit Schnur, in Spenderbox."
+        },
+        "en-US": {
+          "name": "Ear plugs SNR 35 dB, 200 pairs",
+          "description": "Disposable ear plugs with cord, in dispenser box."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-3006",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3006",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "polycarbonate",
+        "demo_ind_weight": {
+          "amount": "0.03",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-3006.png",
+        "demo_ind_images": [
+          "DEMO-IND-3006-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schutzbrille, getönt",
+          "description": "Schutzbrille mit getönten Gläsern und Seitenschutz."
+        },
+        "en-US": {
+          "name": "Safety glasses, tinted",
+          "description": "Safety glasses with tinted lenses and side shields."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-3007",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3007",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "polycarbonate",
+        "demo_ind_weight": {
+          "amount": "0.18",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-3007.png",
+        "demo_ind_images": [
+          "DEMO-IND-3007-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Gesichtsschutzschirm, klar",
+          "description": "Gesichtsschutzschirm aus klarem Polycarbonat mit Kopfbügel."
+        },
+        "en-US": {
+          "name": "Face shield, clear",
+          "description": "Face shield in clear polycarbonate with headgear."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-3008",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3008",
+    "attribute_values": {
+      "common": {
+        "demo_ind_weight": {
+          "amount": "0.15",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-3008.png",
+        "demo_ind_images": [
+          "DEMO-IND-3008-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Warnweste, orange",
+          "description": "Warnweste mit Reißverschluss und zwei Reflexstreifen."
+        },
+        "en-US": {
+          "name": "High-visibility vest, orange",
+          "description": "High-visibility vest with zip closure and two reflective stripes."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-3009",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3009",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "leather",
+        "demo_ind_weight": {
+          "amount": "0.9",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-3009.png",
+        "demo_ind_images": [
+          "DEMO-IND-3009-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schweißerschürze, Rindsleder",
+          "description": "Schürze aus Rindsleder mit Nackenband und Bindebändern."
+        },
+        "en-US": {
+          "name": "Welding apron, cowhide leather",
+          "description": "Apron in cowhide leather with neck strap and ties."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-3010",
+    "kind": "model",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3010",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "nitrile",
+        "demo_ind_cut_level": "a",
+        "image": "sample-data/industrial/demo-ind-3010.png",
+        "demo_ind_images": [
+          "DEMO-IND-3010-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Montagehandschuhe, Nitril",
+          "description": "Dünne Nitril-Handschuhe mit Griffbeschichtung für Montagearbeiten."
+        },
+        "en-US": {
+          "name": "Assembly gloves, nitrile",
+          "description": "Thin nitrile gloves with grip coating for assembly work."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE"
+  },
+  {
+    "sku": "DEMO-IND-3010-S",
+    "kind": "variant",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3010-S",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "nitrile",
+        "demo_ind_cut_level": "a",
+        "demo_ind_glove_size": "s",
+        "image": "sample-data/industrial/demo-ind-3010-s.png",
+        "demo_ind_images": [
+          "DEMO-IND-3010-S-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Montagehandschuhe, Größe S",
+          "description": "Dünne Nitril-Handschuhe mit Griffbeschichtung für Montagearbeiten."
+        },
+        "en-US": {
+          "name": "Assembly gloves, size S",
+          "description": "Thin nitrile gloves with grip coating for assembly work."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE",
+    "parent": "DEMO-IND-3010"
+  },
+  {
+    "sku": "DEMO-IND-3010-M",
+    "kind": "variant",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3010-M",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "nitrile",
+        "demo_ind_cut_level": "a",
+        "demo_ind_glove_size": "m",
+        "image": "sample-data/industrial/demo-ind-3010-m.png",
+        "demo_ind_images": [
+          "DEMO-IND-3010-M-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Montagehandschuhe, Größe M",
+          "description": "Dünne Nitril-Handschuhe mit Griffbeschichtung für Montagearbeiten."
+        },
+        "en-US": {
+          "name": "Assembly gloves, size M",
+          "description": "Thin nitrile gloves with grip coating for assembly work."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE",
+    "parent": "DEMO-IND-3010"
+  },
+  {
+    "sku": "DEMO-IND-3010-L",
+    "kind": "variant",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3010-L",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "nitrile",
+        "demo_ind_cut_level": "a",
+        "demo_ind_glove_size": "l",
+        "image": "sample-data/industrial/demo-ind-3010-l.png",
+        "demo_ind_images": [
+          "DEMO-IND-3010-L-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Montagehandschuhe, Größe L",
+          "description": "Dünne Nitril-Handschuhe mit Griffbeschichtung für Montagearbeiten."
+        },
+        "en-US": {
+          "name": "Assembly gloves, size L",
+          "description": "Thin nitrile gloves with grip coating for assembly work."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE",
+    "parent": "DEMO-IND-3010"
+  },
+  {
+    "sku": "DEMO-IND-3010-XL",
+    "kind": "variant",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3010-XL",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "nitrile",
+        "demo_ind_cut_level": "a",
+        "demo_ind_glove_size": "xl",
+        "image": "sample-data/industrial/demo-ind-3010-xl.png",
+        "demo_ind_images": [
+          "DEMO-IND-3010-XL-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Montagehandschuhe, Größe XL",
+          "description": "Dünne Nitril-Handschuhe mit Griffbeschichtung für Montagearbeiten."
+        },
+        "en-US": {
+          "name": "Assembly gloves, size XL",
+          "description": "Thin nitrile gloves with grip coating for assembly work."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE",
+    "parent": "DEMO-IND-3010"
+  },
+  {
+    "sku": "DEMO-IND-3011",
+    "kind": "model",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3011",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "leather",
+        "demo_ind_cut_level": "a",
+        "image": "sample-data/industrial/demo-ind-3011.png",
+        "demo_ind_images": [
+          "DEMO-IND-3011-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Lederhandschuhe Allzweck",
+          "description": "Handschuhe aus Rindsleder mit verstärkten Fingerkuppen."
+        },
+        "en-US": {
+          "name": "Leather general-purpose gloves",
+          "description": "Gloves in cowhide leather with reinforced fingertips."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE"
+  },
+  {
+    "sku": "DEMO-IND-3011-S",
+    "kind": "variant",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3011-S",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "leather",
+        "demo_ind_cut_level": "a",
+        "demo_ind_glove_size": "s",
+        "image": "sample-data/industrial/demo-ind-3011-s.png",
+        "demo_ind_images": [
+          "DEMO-IND-3011-S-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Lederhandschuhe, Größe S",
+          "description": "Handschuhe aus Rindsleder mit verstärkten Fingerkuppen."
+        },
+        "en-US": {
+          "name": "Leather gloves, size S",
+          "description": "Gloves in cowhide leather with reinforced fingertips."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE",
+    "parent": "DEMO-IND-3011"
+  },
+  {
+    "sku": "DEMO-IND-3011-M",
+    "kind": "variant",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3011-M",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "leather",
+        "demo_ind_cut_level": "a",
+        "demo_ind_glove_size": "m",
+        "image": "sample-data/industrial/demo-ind-3011-m.png",
+        "demo_ind_images": [
+          "DEMO-IND-3011-M-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Lederhandschuhe, Größe M",
+          "description": "Handschuhe aus Rindsleder mit verstärkten Fingerkuppen."
+        },
+        "en-US": {
+          "name": "Leather gloves, size M",
+          "description": "Gloves in cowhide leather with reinforced fingertips."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE",
+    "parent": "DEMO-IND-3011"
+  },
+  {
+    "sku": "DEMO-IND-3011-L",
+    "kind": "variant",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3011-L",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "leather",
+        "demo_ind_cut_level": "a",
+        "demo_ind_glove_size": "l",
+        "image": "sample-data/industrial/demo-ind-3011-l.png",
+        "demo_ind_images": [
+          "DEMO-IND-3011-L-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Lederhandschuhe, Größe L",
+          "description": "Handschuhe aus Rindsleder mit verstärkten Fingerkuppen."
+        },
+        "en-US": {
+          "name": "Leather gloves, size L",
+          "description": "Gloves in cowhide leather with reinforced fingertips."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE",
+    "parent": "DEMO-IND-3011"
+  },
+  {
+    "sku": "DEMO-IND-3011-XL",
+    "kind": "variant",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3011-XL",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "leather",
+        "demo_ind_cut_level": "a",
+        "demo_ind_glove_size": "xl",
+        "image": "sample-data/industrial/demo-ind-3011-xl.png",
+        "demo_ind_images": [
+          "DEMO-IND-3011-XL-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Lederhandschuhe, Größe XL",
+          "description": "Handschuhe aus Rindsleder mit verstärkten Fingerkuppen."
+        },
+        "en-US": {
+          "name": "Leather gloves, size XL",
+          "description": "Gloves in cowhide leather with reinforced fingertips."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE",
+    "parent": "DEMO-IND-3011"
+  },
+  {
+    "sku": "DEMO-IND-3012",
+    "kind": "model",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3012",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "stainless_a2",
+        "demo_ind_cut_level": "c",
+        "image": "sample-data/industrial/demo-ind-3012.png",
+        "demo_ind_images": [
+          "DEMO-IND-3012-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Stechschutzhandschuhe aus Edelstahlgeflecht",
+          "description": "Handschuh aus Edelstahlgeflecht mit Schnittschutz, für Zerlegearbeiten."
+        },
+        "en-US": {
+          "name": "Stab-resistant gloves in stainless mesh",
+          "description": "Glove in stainless steel mesh with cut protection, for cutting and deboning work."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE"
+  },
+  {
+    "sku": "DEMO-IND-3012-S",
+    "kind": "variant",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3012-S",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "stainless_a2",
+        "demo_ind_cut_level": "c",
+        "demo_ind_glove_size": "s",
+        "image": "sample-data/industrial/demo-ind-3012-s.png",
+        "demo_ind_images": [
+          "DEMO-IND-3012-S-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Edelstahlhandschuhe, Größe S",
+          "description": "Handschuh aus Edelstahlgeflecht mit Schnittschutz, für Zerlegearbeiten."
+        },
+        "en-US": {
+          "name": "Stainless mesh gloves, size S",
+          "description": "Glove in stainless steel mesh with cut protection, for cutting and deboning work."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE",
+    "parent": "DEMO-IND-3012"
+  },
+  {
+    "sku": "DEMO-IND-3012-M",
+    "kind": "variant",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3012-M",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "stainless_a2",
+        "demo_ind_cut_level": "c",
+        "demo_ind_glove_size": "m",
+        "image": "sample-data/industrial/demo-ind-3012-m.png",
+        "demo_ind_images": [
+          "DEMO-IND-3012-M-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Edelstahlhandschuhe, Größe M",
+          "description": "Handschuh aus Edelstahlgeflecht mit Schnittschutz, für Zerlegearbeiten."
+        },
+        "en-US": {
+          "name": "Stainless mesh gloves, size M",
+          "description": "Glove in stainless steel mesh with cut protection, for cutting and deboning work."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE",
+    "parent": "DEMO-IND-3012"
+  },
+  {
+    "sku": "DEMO-IND-3012-L",
+    "kind": "variant",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3012-L",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "stainless_a2",
+        "demo_ind_cut_level": "c",
+        "demo_ind_glove_size": "l",
+        "image": "sample-data/industrial/demo-ind-3012-l.png",
+        "demo_ind_images": [
+          "DEMO-IND-3012-L-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Edelstahlhandschuhe, Größe L",
+          "description": "Handschuh aus Edelstahlgeflecht mit Schnittschutz, für Zerlegearbeiten."
+        },
+        "en-US": {
+          "name": "Stainless mesh gloves, size L",
+          "description": "Glove in stainless steel mesh with cut protection, for cutting and deboning work."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE",
+    "parent": "DEMO-IND-3012"
+  },
+  {
+    "sku": "DEMO-IND-3012-XL",
+    "kind": "variant",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3012-XL",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "stainless_a2",
+        "demo_ind_cut_level": "c",
+        "demo_ind_glove_size": "xl",
+        "image": "sample-data/industrial/demo-ind-3012-xl.png",
+        "demo_ind_images": [
+          "DEMO-IND-3012-XL-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Edelstahlhandschuhe, Größe XL",
+          "description": "Handschuh aus Edelstahlgeflecht mit Schnittschutz, für Zerlegearbeiten."
+        },
+        "en-US": {
+          "name": "Stainless mesh gloves, size XL",
+          "description": "Glove in stainless steel mesh with cut protection, for cutting and deboning work."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE",
+    "parent": "DEMO-IND-3012"
+  },
+  {
+    "sku": "DEMO-IND-3013",
+    "kind": "model",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3013",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "nitrile",
+        "demo_ind_cut_level": "c",
+        "image": "sample-data/industrial/demo-ind-3013.png",
+        "demo_ind_images": [
+          "DEMO-IND-3013-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schnittschutzhandschuhe Nitril, Klasse C",
+          "description": "Nitril-beschichtete Handschuhe mit hohem Schnittschutz."
+        },
+        "en-US": {
+          "name": "Cut-resistant nitrile gloves, class C",
+          "description": "Nitrile-coated gloves with high cut protection."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE"
+  },
+  {
+    "sku": "DEMO-IND-3013-S",
+    "kind": "variant",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3013-S",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "nitrile",
+        "demo_ind_cut_level": "c",
+        "demo_ind_glove_size": "s",
+        "image": "sample-data/industrial/demo-ind-3013-s.png",
+        "demo_ind_images": [
+          "DEMO-IND-3013-S-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schnittschutzhandschuhe Klasse C, Größe S",
+          "description": "Nitril-beschichtete Handschuhe mit hohem Schnittschutz."
+        },
+        "en-US": {
+          "name": "Cut-resistant gloves class C, size S",
+          "description": "Nitrile-coated gloves with high cut protection."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE",
+    "parent": "DEMO-IND-3013"
+  },
+  {
+    "sku": "DEMO-IND-3013-M",
+    "kind": "variant",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3013-M",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "nitrile",
+        "demo_ind_cut_level": "c",
+        "demo_ind_glove_size": "m",
+        "image": "sample-data/industrial/demo-ind-3013-m.png",
+        "demo_ind_images": [
+          "DEMO-IND-3013-M-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schnittschutzhandschuhe Klasse C, Größe M",
+          "description": "Nitril-beschichtete Handschuhe mit hohem Schnittschutz."
+        },
+        "en-US": {
+          "name": "Cut-resistant gloves class C, size M",
+          "description": "Nitrile-coated gloves with high cut protection."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE",
+    "parent": "DEMO-IND-3013"
+  },
+  {
+    "sku": "DEMO-IND-3013-L",
+    "kind": "variant",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3013-L",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "nitrile",
+        "demo_ind_cut_level": "c",
+        "demo_ind_glove_size": "l",
+        "image": "sample-data/industrial/demo-ind-3013-l.png",
+        "demo_ind_images": [
+          "DEMO-IND-3013-L-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schnittschutzhandschuhe Klasse C, Größe L",
+          "description": "Nitril-beschichtete Handschuhe mit hohem Schnittschutz."
+        },
+        "en-US": {
+          "name": "Cut-resistant gloves class C, size L",
+          "description": "Nitrile-coated gloves with high cut protection."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE",
+    "parent": "DEMO-IND-3013"
+  },
+  {
+    "sku": "DEMO-IND-3013-XL",
+    "kind": "variant",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3013-XL",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "nitrile",
+        "demo_ind_cut_level": "c",
+        "demo_ind_glove_size": "xl",
+        "image": "sample-data/industrial/demo-ind-3013-xl.png",
+        "demo_ind_images": [
+          "DEMO-IND-3013-XL-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schnittschutzhandschuhe Klasse C, Größe XL",
+          "description": "Nitril-beschichtete Handschuhe mit hohem Schnittschutz."
+        },
+        "en-US": {
+          "name": "Cut-resistant gloves class C, size XL",
+          "description": "Nitrile-coated gloves with high cut protection."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE",
+    "parent": "DEMO-IND-3013"
+  },
+  {
+    "sku": "DEMO-IND-3014",
+    "kind": "model",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3014",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "leather",
+        "image": "sample-data/industrial/demo-ind-3014.png",
+        "demo_ind_images": [
+          "DEMO-IND-3014-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schweißerhandschuhe, Rindsleder",
+          "description": "Lange Schweißerhandschuhe aus Rindsleder mit Baumwollfutter."
+        },
+        "en-US": {
+          "name": "Welding gloves, cowhide leather",
+          "description": "Long welding gloves in cowhide leather with cotton lining."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE"
+  },
+  {
+    "sku": "DEMO-IND-3014-S",
+    "kind": "variant",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3014-S",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "leather",
+        "demo_ind_glove_size": "s",
+        "image": "sample-data/industrial/demo-ind-3014-s.png",
+        "demo_ind_images": [
+          "DEMO-IND-3014-S-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schweißerhandschuhe, Größe S",
+          "description": "Lange Schweißerhandschuhe aus Rindsleder mit Baumwollfutter."
+        },
+        "en-US": {
+          "name": "Welding gloves, size S",
+          "description": "Long welding gloves in cowhide leather with cotton lining."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE",
+    "parent": "DEMO-IND-3014"
+  },
+  {
+    "sku": "DEMO-IND-3014-M",
+    "kind": "variant",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3014-M",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "leather",
+        "demo_ind_glove_size": "m",
+        "image": "sample-data/industrial/demo-ind-3014-m.png",
+        "demo_ind_images": [
+          "DEMO-IND-3014-M-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schweißerhandschuhe, Größe M",
+          "description": "Lange Schweißerhandschuhe aus Rindsleder mit Baumwollfutter."
+        },
+        "en-US": {
+          "name": "Welding gloves, size M",
+          "description": "Long welding gloves in cowhide leather with cotton lining."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE",
+    "parent": "DEMO-IND-3014"
+  },
+  {
+    "sku": "DEMO-IND-3014-L",
+    "kind": "variant",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3014-L",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "leather",
+        "demo_ind_glove_size": "l",
+        "image": "sample-data/industrial/demo-ind-3014-l.png",
+        "demo_ind_images": [
+          "DEMO-IND-3014-L-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schweißerhandschuhe, Größe L",
+          "description": "Lange Schweißerhandschuhe aus Rindsleder mit Baumwollfutter."
+        },
+        "en-US": {
+          "name": "Welding gloves, size L",
+          "description": "Long welding gloves in cowhide leather with cotton lining."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE",
+    "parent": "DEMO-IND-3014"
+  },
+  {
+    "sku": "DEMO-IND-3014-XL",
+    "kind": "variant",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3014-XL",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "leather",
+        "demo_ind_glove_size": "xl",
+        "image": "sample-data/industrial/demo-ind-3014-xl.png",
+        "demo_ind_images": [
+          "DEMO-IND-3014-XL-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schweißerhandschuhe, Größe XL",
+          "description": "Lange Schweißerhandschuhe aus Rindsleder mit Baumwollfutter."
+        },
+        "en-US": {
+          "name": "Welding gloves, size XL",
+          "description": "Long welding gloves in cowhide leather with cotton lining."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE",
+    "parent": "DEMO-IND-3014"
+  },
+  {
+    "sku": "DEMO-IND-3015",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3015",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "plastic_abs",
+        "demo_ind_weight": {
+          "amount": "0.45",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-3015.png",
+        "demo_ind_images": [
+          "DEMO-IND-3015-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Knieschoner mit Gelpolster",
+          "description": "Knieschoner mit Kunststoffschale und Gelpolster, verstellbare Riemen."
+        },
+        "en-US": {
+          "name": "Knee pads with gel cushion",
+          "description": "Knee pads with plastic shell and gel cushion, adjustable straps."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-3016",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3016",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "plastic_abs",
+        "demo_ind_weight": {
+          "amount": "1.2",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-3016.png",
+        "demo_ind_images": [
+          "DEMO-IND-3016-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Absperrband rot-weiß, 500 m",
+          "description": "Absperrband aus Kunststoff, rot-weiß, reißfest."
+        },
+        "en-US": {
+          "name": "Barrier tape red-white, 500 m",
+          "description": "Plastic barrier tape, red and white, tear-resistant."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-4001",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-4001",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "chrome_vanadium",
+        "demo_ind_pack_size": 6,
+        "image": "sample-data/industrial/demo-ind-4001.png",
+        "demo_ind_images": [
+          "DEMO-IND-4001-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schraubendreher-Set, 6-teilig",
+          "description": "Schraubendreher mit Schlitz- und Kreuzschlitzklingen aus Chrom-Vanadium-Stahl."
+        },
+        "en-US": {
+          "name": "Screwdriver set, 6 pieces",
+          "description": "Screwdrivers with slotted and cross recess tips, chrome vanadium steel."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-4002",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-4002",
+    "attribute_values": {
+      "common": {
+        "demo_ind_drive_size": "quarter",
+        "demo_ind_material": "chrome_vanadium",
+        "demo_ind_pack_size": 26,
+        "image": "sample-data/industrial/demo-ind-4002.png",
+        "demo_ind_images": [
+          "DEMO-IND-4002-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Steckschlüsselsatz 1/4 Zoll, 26-teilig",
+          "description": "Steckschlüsselsatz mit Nüssen von 4 bis 13 mm in Kunststoffkoffer."
+        },
+        "en-US": {
+          "name": "Socket set 1/4 inch, 26 pieces",
+          "description": "Socket set with sockets from 4 to 13 mm in a plastic case."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-4003",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-4003",
+    "attribute_values": {
+      "common": {
+        "demo_ind_drive_size": "half",
+        "demo_ind_material": "chrome_vanadium",
+        "demo_ind_pack_size": 20,
+        "image": "sample-data/industrial/demo-ind-4003.png",
+        "demo_ind_images": [
+          "DEMO-IND-4003-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Steckschlüsselsatz 1/2 Zoll, 20-teilig",
+          "description": "Steckschlüsselsatz mit Nüssen von 10 bis 32 mm und Verlängerung."
+        },
+        "en-US": {
+          "name": "Socket set 1/2 inch, 20 pieces",
+          "description": "Socket set with sockets from 10 to 32 mm and extension bar."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-4004",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-4004",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "chrome_vanadium",
+        "demo_ind_pack_size": 8,
+        "image": "sample-data/industrial/demo-ind-4004.png",
+        "demo_ind_images": [
+          "DEMO-IND-4004-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Maulschlüsselsatz, 8-teilig",
+          "description": "Doppelmaulschlüssel von 8 bis 19 mm, verchromt."
+        },
+        "en-US": {
+          "name": "Open-end spanner set, 8 pieces",
+          "description": "Double open-end spanners from 8 to 19 mm, chrome-plated."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-4005",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-4005",
+    "attribute_values": {
+      "common": {
+        "demo_ind_length": {
+          "amount": "250",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_material": "chrome_vanadium",
+        "demo_ind_weight": {
+          "amount": "0.45",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-4005.png",
+        "demo_ind_images": [
+          "DEMO-IND-4005-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Rohrzange 250 mm",
+          "description": "Rohrzange mit Gelenkverstellung für Rohre und runde Teile."
+        },
+        "en-US": {
+          "name": "Pipe wrench 250 mm",
+          "description": "Pipe wrench with adjustable pivot for pipes and round parts."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-4006",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-4006",
+    "attribute_values": {
+      "common": {
+        "demo_ind_length": {
+          "amount": "200",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_material": "chrome_vanadium",
+        "demo_ind_weight": {
+          "amount": "0.25",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-4006.png",
+        "demo_ind_images": [
+          "DEMO-IND-4006-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Kombizange 200 mm",
+          "description": "Kombizange zum Greifen, Biegen und Abisolieren."
+        },
+        "en-US": {
+          "name": "Combination pliers 200 mm",
+          "description": "Combination pliers for gripping, bending and stripping."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-4007",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-4007",
+    "attribute_values": {
+      "common": {
+        "demo_ind_length": {
+          "amount": "160",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_weight": {
+          "amount": "0.12",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-4007.png",
+        "demo_ind_images": [
+          "DEMO-IND-4007-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Seitenschneider 160 mm",
+          "description": "Seitenschneider für Draht bis 2,5 mm, Griffe mit Kunststoffüberzug."
+        },
+        "en-US": {
+          "name": "Side cutters 160 mm",
+          "description": "Side cutters for wire up to 2.5 mm, plastic-coated grips."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-4008",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-4008",
+    "attribute_values": {
+      "common": {
+        "demo_ind_length": {
+          "amount": "250",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_weight": {
+          "amount": "0.3",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-4008.png",
+        "demo_ind_images": [
+          "DEMO-IND-4008-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Wasserpumpenzange 250 mm",
+          "description": "Wasserpumpenzange mit verstellbarem Gelenk und Zangenmaul."
+        },
+        "en-US": {
+          "name": "Water pump pliers 250 mm",
+          "description": "Water pump pliers with adjustable joint and jaws."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-4009",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-4009",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "beech",
+        "demo_ind_weight": {
+          "amount": "0.7",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-4009.png",
+        "demo_ind_images": [
+          "DEMO-IND-4009-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schlosserhammer 500 g",
+          "description": "Schlosserhammer mit Stiel aus Buchenholz."
+        },
+        "en-US": {
+          "name": "Engineer's hammer 500 g",
+          "description": "Engineer's hammer with beech wood handle."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-4010",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-4010",
+    "attribute_values": {
+      "common": {
+        "demo_ind_weight": {
+          "amount": "0.6",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-4010.png",
+        "demo_ind_images": [
+          "DEMO-IND-4010-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Gummihammer 500 g",
+          "description": "Gummihammer mit Kunststoffgehäuse für Montagearbeiten ohne Kratzer."
+        },
+        "en-US": {
+          "name": "Rubber mallet 500 g",
+          "description": "Rubber mallet with plastic housing for scratch-free assembly work."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-4011",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-4011",
+    "attribute_values": {
+      "common": {
+        "demo_ind_length": {
+          "amount": "200",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_material": "chrome_vanadium",
+        "image": "sample-data/industrial/demo-ind-4011.png",
+        "demo_ind_images": [
+          "DEMO-IND-4011-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Flachfeile 200 mm",
+          "description": "Flachfeile mit Hieb 2, für Metall und Holz."
+        },
+        "en-US": {
+          "name": "Flat file 200 mm",
+          "description": "Flat file with cut 2, for metal and wood."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-4012",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-4012",
+    "attribute_values": {
+      "common": {
+        "demo_ind_length": {
+          "amount": "300",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_weight": {
+          "amount": "0.3",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-4012.png",
+        "demo_ind_images": [
+          "DEMO-IND-4012-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Bügelsäge 300 mm",
+          "description": "Bügelsäge mit Sägeblatt für Metall und Kunststoff, verstellbarer Bügel."
+        },
+        "en-US": {
+          "name": "Hacksaw 300 mm",
+          "description": "Hacksaw with blade for metal and plastic, adjustable frame."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-4013",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-4013",
+    "attribute_values": {
+      "common": {
+        "demo_ind_length": {
+          "amount": "600",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_material": "aluminium",
+        "demo_ind_weight": {
+          "amount": "0.9",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-4013.png",
+        "demo_ind_images": [
+          "DEMO-IND-4013-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Wasserwaage 600 mm, Aluminium",
+          "description": "Wasserwaage mit drei Libellen und Aluprofil."
+        },
+        "en-US": {
+          "name": "Spirit level 600 mm, aluminium",
+          "description": "Spirit level with three vials and aluminium profile."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-4014",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-4014",
+    "attribute_values": {
+      "common": {
+        "demo_ind_length": {
+          "amount": "5000",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_weight": {
+          "amount": "0.2",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-4014.png",
+        "demo_ind_images": [
+          "DEMO-IND-4014-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Maßband 5 m",
+          "description": "Taschenmaßband mit 5 Metern Länge und Gürtelclip."
+        },
+        "en-US": {
+          "name": "Tape measure 5 m",
+          "description": "Pocket tape measure, 5 metres long, with belt clip."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-4015",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-4015",
+    "attribute_values": {
+      "common": {
+        "demo_ind_length": {
+          "amount": "150",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_material": "chrome_vanadium",
+        "image": "sample-data/industrial/demo-ind-4015.png",
+        "demo_ind_images": [
+          "DEMO-IND-4015-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Körner 150 mm",
+          "description": "Körner zum Vorkörnen von Bohrungen, Spitze gehärtet."
+        },
+        "en-US": {
+          "name": "Centre punch 150 mm",
+          "description": "Centre punch for marking drill holes, hardened tip."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-4016",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-4016",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "chrome_vanadium",
+        "demo_ind_pack_size": 9,
+        "image": "sample-data/industrial/demo-ind-4016.png",
+        "demo_ind_images": [
+          "DEMO-IND-4016-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Innensechskant-Schlüsselsatz, 9-teilig",
+          "description": "Winkelschlüssel mit Innensechskant von 1,5 bis 10 mm."
+        },
+        "en-US": {
+          "name": "Hex key set, 9 pieces",
+          "description": "L-shaped hex keys from 1.5 to 10 mm."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-5001",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-5001",
+    "attribute_values": {
+      "common": {
+        "demo_ind_disc_diameter": {
+          "amount": "115",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_grit": "p80",
+        "demo_ind_material": "corundum",
+        "demo_ind_pack_size": 10,
+        "image": "sample-data/industrial/demo-ind-5001.png",
+        "demo_ind_images": [
+          "DEMO-IND-5001-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Fächerschleifscheibe 115 mm, P80, 10 Stück",
+          "description": "Fächerschleifscheibe mit Korund für Stahl und Edelstahl."
+        },
+        "en-US": {
+          "name": "Flap disc 115 mm, P80, pack of 10",
+          "description": "Flap disc with corundum for steel and stainless steel."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-5002",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-5002",
+    "attribute_values": {
+      "common": {
+        "demo_ind_disc_diameter": {
+          "amount": "115",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_grit": "p120",
+        "demo_ind_material": "corundum",
+        "demo_ind_pack_size": 10,
+        "image": "sample-data/industrial/demo-ind-5002.png",
+        "demo_ind_images": [
+          "DEMO-IND-5002-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Fächerschleifscheibe 115 mm, P120, 10 Stück",
+          "description": "Fächerschleifscheibe mit Korund für feines Entgraten und Finish."
+        },
+        "en-US": {
+          "name": "Flap disc 115 mm, P120, pack of 10",
+          "description": "Flap disc with corundum for fine deburring and finishing."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-5003",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-5003",
+    "attribute_values": {
+      "common": {
+        "demo_ind_width": {
+          "amount": "100",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_length": {
+          "amount": "610",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_grit": "p120",
+        "demo_ind_material": "corundum",
+        "demo_ind_pack_size": 5,
+        "image": "sample-data/industrial/demo-ind-5003.png",
+        "demo_ind_images": [
+          "DEMO-IND-5003-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schleifbänder 100 × 610 mm, P120, 5 Stück",
+          "description": "Schleifbänder mit Korund für Bandschleifer, Stoßverbindung."
+        },
+        "en-US": {
+          "name": "Sanding belts 100 × 610 mm, P120, pack of 5",
+          "description": "Sanding belts with corundum for belt sanders, butt-joined."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-5004",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-5004",
+    "attribute_values": {
+      "common": {
+        "demo_ind_width": {
+          "amount": "230",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_grit": "p180",
+        "demo_ind_pack_size": 50,
+        "image": "sample-data/industrial/demo-ind-5004.png",
+        "demo_ind_images": [
+          "DEMO-IND-5004-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schleifpapier-Bogen 230 × 280 mm, P180, 50 Stück",
+          "description": "Schleifbogen für Handschleifen, geeignet für Holz und Lack."
+        },
+        "en-US": {
+          "name": "Sanding sheets 230 × 280 mm, P180, pack of 50",
+          "description": "Sanding sheets for hand sanding, suitable for wood and paint."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-5005",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-5005",
+    "attribute_values": {
+      "common": {
+        "demo_ind_width": {
+          "amount": "230",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_grit": "p80",
+        "demo_ind_pack_size": 50,
+        "image": "sample-data/industrial/demo-ind-5005.png",
+        "demo_ind_images": [
+          "DEMO-IND-5005-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schleifpapier-Bogen 230 × 280 mm, P80, 50 Stück",
+          "description": "Schleifbogen mit grober Körnung für Grundschliff an Holz."
+        },
+        "en-US": {
+          "name": "Sanding sheets 230 × 280 mm, P80, pack of 50",
+          "description": "Sanding sheets with coarse grit for rough sanding of wood."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-5006",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-5006",
+    "attribute_values": {
+      "common": {
+        "demo_ind_width": {
+          "amount": "115",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_length": {
+          "amount": "5000",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_grit": "p120",
+        "demo_ind_material": "corundum",
+        "image": "sample-data/industrial/demo-ind-5006.png",
+        "demo_ind_images": [
+          "DEMO-IND-5006-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schleifrolle 115 mm × 5 m, P120",
+          "description": "Schleifrolle zum Abrollen auf Maß, für Handschleifer."
+        },
+        "en-US": {
+          "name": "Sanding roll 115 mm × 5 m, P120",
+          "description": "Sanding roll to tear off to size, for hand sanding."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-5007",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-5007",
+    "attribute_values": {
+      "common": {
+        "demo_ind_disc_diameter": {
+          "amount": "115",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_pack_size": 25,
+        "image": "sample-data/industrial/demo-ind-5007.png",
+        "demo_ind_images": [
+          "DEMO-IND-5007-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Trennscheiben 115 mm, Edelstahl, 25 Stück",
+          "description": "Dünne Trennscheiben für Edelstahl, 1,0 mm stark."
+        },
+        "en-US": {
+          "name": "Cutting discs 115 mm, stainless steel, pack of 25",
+          "description": "Thin cutting discs for stainless steel, 1.0 mm thick."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-5008",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-5008",
+    "attribute_values": {
+      "common": {
+        "demo_ind_disc_diameter": {
+          "amount": "230",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_weight": {
+          "amount": "0.9",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-5008.png",
+        "demo_ind_images": [
+          "DEMO-IND-5008-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Diamanttrennscheibe 230 mm, Beton",
+          "description": "Diamanttrennscheibe mit Segmenten für Beton und Naturstein."
+        },
+        "en-US": {
+          "name": "Diamond cutting disc 230 mm, concrete",
+          "description": "Diamond cutting disc with segments for concrete and natural stone."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-5009",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-5009",
+    "attribute_values": {
+      "common": {
+        "demo_ind_width": {
+          "amount": "150",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_length": {
+          "amount": "10000",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_material": "corundum",
+        "demo_ind_pack_size": 1,
+        "image": "sample-data/industrial/demo-ind-5009.png",
+        "demo_ind_images": [
+          "DEMO-IND-5009-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schleifvlies, fein, 150 mm × 10 m",
+          "description": "Schleifvlies mit Korund, fein, für Oberflächen vor dem Lackieren."
+        },
+        "en-US": {
+          "name": "Abrasive fleece, fine, 150 mm × 10 m",
+          "description": "Abrasive fleece with corundum, fine, for surfaces before painting."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-5010",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-5010",
+    "attribute_values": {
+      "common": {
+        "demo_ind_disc_diameter": {
+          "amount": "150",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_pack_size": 5,
+        "image": "sample-data/industrial/demo-ind-5010.png",
+        "demo_ind_images": [
+          "DEMO-IND-5010-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Polierpads 150 mm, 5 Stück",
+          "description": "Schaumstoff-Polierpads mit Rückseite zum Aufstecken für Poliermaschinen."
+        },
+        "en-US": {
+          "name": "Polishing pads 150 mm, pack of 5",
+          "description": "Foam polishing pads with backing pad for polishers."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-6001",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-6001",
+    "attribute_values": {
+      "common": {
+        "demo_ind_length": {
+          "amount": "1500",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_load_capacity": {
+          "amount": "300",
+          "unit": "KILOGRAM"
+        },
+        "demo_ind_weight": {
+          "amount": "48",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-6001.png",
+        "demo_ind_images": [
+          "DEMO-IND-6001-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Werkbank 1500 mm",
+          "description": "Stabile Werkbank mit Arbeitsplatte und Ablageboden, 300 kg Tragkraft."
+        },
+        "en-US": {
+          "name": "Workbench 1500 mm",
+          "description": "Sturdy workbench with work top and shelf, 300 kg load capacity."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-6002",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-6002",
+    "attribute_values": {
+      "common": {
+        "demo_ind_width": {
+          "amount": "125",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_weight": {
+          "amount": "9.5",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-6002.png",
+        "demo_ind_images": [
+          "DEMO-IND-6002-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schraubstock 125 mm",
+          "description": "Schraubstock mit Drehteller und 125 mm Backenbreite."
+        },
+        "en-US": {
+          "name": "Bench vise 125 mm",
+          "description": "Bench vise with swivel base and 125 mm jaw width."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-6003",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-6003",
+    "attribute_values": {
+      "common": {
+        "demo_ind_load_capacity": {
+          "amount": "120",
+          "unit": "KILOGRAM"
+        },
+        "demo_ind_weight": {
+          "amount": "28",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-6003.png",
+        "demo_ind_images": [
+          "DEMO-IND-6003-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Werkstattwagen, 3 Etagen",
+          "description": "Fahrbarer Werkstattwagen mit drei Ablagen, 120 kg je Etage."
+        },
+        "en-US": {
+          "name": "Workshop trolley, 3 shelves",
+          "description": "Mobile workshop trolley with three shelves, 120 kg per shelf."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-6004",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-6004",
+    "attribute_values": {
+      "common": {
+        "demo_ind_power": {
+          "amount": "1200",
+          "unit": "WATT"
+        },
+        "demo_ind_volume": {
+          "amount": "50",
+          "unit": "LITER"
+        },
+        "demo_ind_weight": {
+          "amount": "14",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-6004.png",
+        "demo_ind_images": [
+          "DEMO-IND-6004-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Mobile Absauganlage 1200 W, 50 Liter",
+          "description": "Mobile Absauganlage mit 50-Liter-Behälter, für Holz- und Metallstaub."
+        },
+        "en-US": {
+          "name": "Mobile extraction unit 1200 W, 50 liter",
+          "description": "Mobile extraction unit with 50 liter tank, for wood and metal dust."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-6005",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-6005",
+    "attribute_values": {
+      "common": {
+        "demo_ind_volume": {
+          "amount": "24",
+          "unit": "LITER"
+        },
+        "demo_ind_power": {
+          "amount": "1500",
+          "unit": "WATT"
+        },
+        "demo_ind_weight": {
+          "amount": "22",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-6005.png",
+        "demo_ind_images": [
+          "DEMO-IND-6005-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Druckluft-Kompressor 24 Liter",
+          "description": "Ölfreier Kompressor mit 24-Liter-Druckbehälter und Manometer."
+        },
+        "en-US": {
+          "name": "Air compressor 24 liter",
+          "description": "Oil-free compressor with 24 liter receiver and pressure gauge."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-6006",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-6006",
+    "attribute_values": {
+      "common": {
+        "demo_ind_load_capacity": {
+          "amount": "200",
+          "unit": "KILOGRAM"
+        },
+        "demo_ind_weight": {
+          "amount": "9.5",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-6006.png",
+        "demo_ind_images": [
+          "DEMO-IND-6006-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Sackkarre 200 kg",
+          "description": "Sackkarre mit Vollgummirädern und Ladeschaufel."
+        },
+        "en-US": {
+          "name": "Sack truck 200 kg",
+          "description": "Sack truck with solid rubber wheels and loading plate."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-6007",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-6007",
+    "attribute_values": {
+      "common": {
+        "demo_ind_width": {
+          "amount": "900",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_load_capacity": {
+          "amount": "150",
+          "unit": "KILOGRAM"
+        },
+        "demo_ind_weight": {
+          "amount": "21",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-6007.png",
+        "demo_ind_images": [
+          "DEMO-IND-6007-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Aufbewahrungsregal, 4 Fächer",
+          "description": "Stahlregal mit vier Fächern, je 150 kg belastbar."
+        },
+        "en-US": {
+          "name": "Storage shelf, 4 compartments",
+          "description": "Steel shelving with four compartments, 150 kg each."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-6008",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-6008",
+    "attribute_values": {
+      "common": {
+        "demo_ind_pack_size": 3,
+        "demo_ind_weight": {
+          "amount": "1.1",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-6008.png",
+        "demo_ind_images": [
+          "DEMO-IND-6008-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Sortimentskasten, 3 Fächer",
+          "description": "Kunststoff-Sortimentskasten mit drei herausnehmbaren Fächern."
+        },
+        "en-US": {
+          "name": "Assortment box, 3 compartments",
+          "description": "Plastic assortment box with three removable compartments."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-6009",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-6009",
+    "attribute_values": {
+      "common": {
+        "demo_ind_power": {
+          "amount": "20",
+          "unit": "WATT"
+        },
+        "demo_ind_weight": {
+          "amount": "1.8",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-6009.png",
+        "demo_ind_images": [
+          "DEMO-IND-6009-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "LED-Arbeitsleuchte 20 W",
+          "description": "Arbeitsleuchte mit LED, 20 W, Stativ und Kabel mit Schutzkontakt-Stecker."
+        },
+        "en-US": {
+          "name": "LED work light 20 W",
+          "description": "LED work light, 20 W, with stand and cable with earthed plug."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-6010",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-6010",
+    "attribute_values": {
+      "common": {
+        "demo_ind_length": {
+          "amount": "10000",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_weight": {
+          "amount": "2.6",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-6010.png",
+        "demo_ind_images": [
+          "DEMO-IND-6010-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Druckluftschlauch 10 m",
+          "description": "Druckluftschlauch mit Schnellkupplung, 10 Meter lang."
+        },
+        "en-US": {
+          "name": "Compressed air hose 10 m",
+          "description": "Compressed air hose with quick coupling, 10 metres long."
         }
       }
     }

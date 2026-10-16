@@ -1,6 +1,8 @@
 // Illustrations for the electrical pack, keyed by SKU. Drawn from scratch:
 // no brand marks, no certification marks.
 import { C, ACCENT, tile, label } from './style.mjs';
+import { illustrations as partA } from './electrical-a.mjs';
+import { illustrations as partB } from './electrical-b.mjs';
 
 const A = ACCENT.electrical;
 const FONT = 'font-family="Helvetica, Arial, sans-serif"';
@@ -114,4 +116,6 @@ export const illustrations = {
   'DEMO-ELE-3001': ledPanel(),
   'DEMO-ELE-3002': tube(),
   'DEMO-ELE-3003': motion(),
+  ...partA,
+  ...partB,
 };

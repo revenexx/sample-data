@@ -1,5 +1,7 @@
 // Illustrations for the office pack, keyed by SKU (variants included).
 import { C, ACCENT, tile, label } from './style.mjs';
+import { illustrations as partA } from './office-a.mjs';
+import { illustrations as partB } from './office-b.mjs';
 
 const A = ACCENT.office;
 
@@ -128,4 +130,6 @@ export const illustrations = {
   'DEMO-OFF-3001': coffeeBag(),
   'DEMO-OFF-3002': towels(),
   'DEMO-OFF-3003': soapRefill(),
+  ...partA,
+  ...partB,
 };

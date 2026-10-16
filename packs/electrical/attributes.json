@@ -174,6 +174,178 @@
     }
   },
   {
+    "code": "demo_ele_rated_current",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Nennstrom",
+      "en-US": "Rated current"
+    },
+    "position": 11,
+    "external_id": "demo_ele_rated_current",
+    "config": {
+      "units": [
+        "AMPERE"
+      ]
+    },
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ele_poles",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Polzahl",
+      "en-US": "Poles"
+    },
+    "position": 12,
+    "external_id": "demo_ele_poles",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ele_trip_curve",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Auslösecharakteristik",
+      "en-US": "Trip characteristic"
+    },
+    "position": 13,
+    "external_id": "demo_ele_trip_curve",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ele_sensitivity",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Auslösestrom (FI)",
+      "en-US": "Residual current sensitivity"
+    },
+    "position": 14,
+    "external_id": "demo_ele_sensitivity",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ele_modules",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Teilungseinheiten",
+      "en-US": "Module units"
+    },
+    "position": 15,
+    "external_id": "demo_ele_modules",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ele_box_depth",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Einbautiefe",
+      "en-US": "Installation depth"
+    },
+    "position": 16,
+    "external_id": "demo_ele_box_depth",
+    "config": {
+      "units": [
+        "MILLIMETER"
+      ]
+    }
+  },
+  {
+    "code": "demo_ele_diameter",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Durchmesser",
+      "en-US": "Diameter"
+    },
+    "position": 17,
+    "external_id": "demo_ele_diameter",
+    "config": {
+      "units": [
+        "MILLIMETER"
+      ]
+    }
+  },
+  {
+    "code": "demo_ele_item_length",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Länge (mm)",
+      "en-US": "Length (mm)"
+    },
+    "position": 18,
+    "external_id": "demo_ele_item_length",
+    "config": {
+      "units": [
+        "MILLIMETER"
+      ]
+    }
+  },
+  {
+    "code": "demo_ele_pack_size",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ele_general",
+    "labels": {
+      "de-DE": "Stück je Packung",
+      "en-US": "Pieces per pack"
+    },
+    "position": 19,
+    "external_id": "demo_ele_pack_size"
+  },
+  {
+    "code": "demo_ele_wire_size",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Leiterquerschnitt",
+      "en-US": "Conductor cross section"
+    },
+    "position": 20,
+    "external_id": "demo_ele_wire_size",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ele_thread",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Gewinde",
+      "en-US": "Thread"
+    },
+    "position": 21,
+    "external_id": "demo_ele_thread",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ele_lamp_base",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Lampensockel",
+      "en-US": "Lamp base"
+    },
+    "position": 22,
+    "external_id": "demo_ele_lamp_base",
+    "is_filterable": true
+  },
+  {
     "code": "demo_ele_images",
     "entity_type": "product",
     "type": "asset_collection",

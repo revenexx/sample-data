@@ -1,12 +1,30 @@
 [
   {
     "attribute": "demo_lab_volume_range",
+    "code": "2ul",
+    "labels": {
+      "de-DE": "0,1–2 µl",
+      "en-US": "0.1–2 µl"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_lab_volume_range",
     "code": "10ul",
     "labels": {
       "de-DE": "0,5–10 µl",
       "en-US": "0.5–10 µl"
     },
-    "position": 0
+    "position": 1
+  },
+  {
+    "attribute": "demo_lab_volume_range",
+    "code": "20ul",
+    "labels": {
+      "de-DE": "2–20 µl",
+      "en-US": "2–20 µl"
+    },
+    "position": 2
   },
   {
     "attribute": "demo_lab_volume_range",
@@ -15,7 +33,7 @@
       "de-DE": "20–200 µl",
       "en-US": "20–200 µl"
     },
-    "position": 1
+    "position": 3
   },
   {
     "attribute": "demo_lab_volume_range",
@@ -24,7 +42,25 @@
       "de-DE": "100–1000 µl",
       "en-US": "100–1000 µl"
     },
-    "position": 2
+    "position": 4
+  },
+  {
+    "attribute": "demo_lab_volume_range",
+    "code": "5ml",
+    "labels": {
+      "de-DE": "1–5 ml",
+      "en-US": "1–5 ml"
+    },
+    "position": 5
+  },
+  {
+    "attribute": "demo_lab_volume_range",
+    "code": "10ml",
+    "labels": {
+      "de-DE": "2–10 ml",
+      "en-US": "2–10 ml"
+    },
+    "position": 6
   },
   {
     "attribute": "demo_lab_material",
@@ -52,5 +88,50 @@
       "en-US": "Nitrile"
     },
     "position": 2
+  },
+  {
+    "attribute": "demo_lab_material",
+    "code": "borosilicate",
+    "labels": {
+      "de-DE": "Borosilikatglas",
+      "en-US": "Borosilicate glass"
+    },
+    "position": 3
+  },
+  {
+    "attribute": "demo_lab_material",
+    "code": "glass",
+    "labels": {
+      "de-DE": "Glas",
+      "en-US": "Glass"
+    },
+    "position": 4
+  },
+  {
+    "attribute": "demo_lab_material",
+    "code": "polyethylene",
+    "labels": {
+      "de-DE": "Polyethylen",
+      "en-US": "Polyethylene"
+    },
+    "position": 5
+  },
+  {
+    "attribute": "demo_lab_material",
+    "code": "polycarbonate",
+    "labels": {
+      "de-DE": "Polycarbonat",
+      "en-US": "Polycarbonate"
+    },
+    "position": 6
+  },
+  {
+    "attribute": "demo_lab_material",
+    "code": "stainless",
+    "labels": {
+      "de-DE": "Edelstahl",
+      "en-US": "Stainless steel"
+    },
+    "position": 7
   }
 ]

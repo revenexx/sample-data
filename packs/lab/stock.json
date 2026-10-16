@@ -70,5 +70,519 @@
     "location": "main",
     "on_hand": 120,
     "reorder_point": 30
+  },
+  {
+    "sku": "DEMO-LAB-1005",
+    "location": "main",
+    "on_hand": 1,
+    "reorder_point": 3
+  },
+  {
+    "sku": "DEMO-LAB-1006",
+    "location": "main",
+    "on_hand": 8,
+    "reorder_point": 3
+  },
+  {
+    "sku": "DEMO-LAB-1007",
+    "location": "main",
+    "on_hand": 12,
+    "reorder_point": 4
+  },
+  {
+    "sku": "DEMO-LAB-1008",
+    "location": "main",
+    "on_hand": 5,
+    "reorder_point": 2
+  },
+  {
+    "sku": "DEMO-LAB-1009",
+    "location": "main",
+    "on_hand": 6,
+    "reorder_point": 2
+  },
+  {
+    "sku": "DEMO-LAB-1010",
+    "location": "main",
+    "on_hand": 4,
+    "reorder_point": 2
+  },
+  {
+    "sku": "DEMO-LAB-1011",
+    "location": "main",
+    "on_hand": 10,
+    "reorder_point": 3
+  },
+  {
+    "sku": "DEMO-LAB-1012",
+    "location": "main",
+    "on_hand": 0,
+    "reorder_point": 2
+  },
+  {
+    "sku": "DEMO-LAB-1013",
+    "location": "main",
+    "on_hand": 3,
+    "reorder_point": 2
+  },
+  {
+    "sku": "DEMO-LAB-1014",
+    "location": "main",
+    "on_hand": 5,
+    "reorder_point": 2
+  },
+  {
+    "sku": "DEMO-LAB-1015",
+    "location": "main",
+    "on_hand": 2,
+    "reorder_point": 1
+  },
+  {
+    "sku": "DEMO-LAB-1016",
+    "location": "main",
+    "on_hand": 7,
+    "reorder_point": 2
+  },
+  {
+    "sku": "DEMO-LAB-1017",
+    "location": "main",
+    "on_hand": 30,
+    "reorder_point": 8
+  },
+  {
+    "sku": "DEMO-LAB-1018",
+    "location": "main",
+    "on_hand": 9,
+    "reorder_point": 3
+  },
+  {
+    "sku": "DEMO-LAB-2003-2UL",
+    "location": "main",
+    "on_hand": 8,
+    "reorder_point": 3
+  },
+  {
+    "sku": "DEMO-LAB-2003-20UL",
+    "location": "main",
+    "on_hand": 14,
+    "reorder_point": 4
+  },
+  {
+    "sku": "DEMO-LAB-2004-20UL",
+    "location": "main",
+    "on_hand": 6,
+    "reorder_point": 3
+  },
+  {
+    "sku": "DEMO-LAB-2004-200UL",
+    "location": "main",
+    "on_hand": 11,
+    "reorder_point": 4
+  },
+  {
+    "sku": "DEMO-LAB-2004-1000UL",
+    "location": "main",
+    "on_hand": 5,
+    "reorder_point": 3
+  },
+  {
+    "sku": "DEMO-LAB-2005-5ML",
+    "location": "main",
+    "on_hand": 10,
+    "reorder_point": 3
+  },
+  {
+    "sku": "DEMO-LAB-2005-10ML",
+    "location": "main",
+    "on_hand": 7,
+    "reorder_point": 3
+  },
+  {
+    "sku": "DEMO-LAB-2006-10UL",
+    "location": "main",
+    "on_hand": 9,
+    "reorder_point": 4
+  },
+  {
+    "sku": "DEMO-LAB-2006-200UL",
+    "location": "main",
+    "on_hand": 16,
+    "reorder_point": 5
+  },
+  {
+    "sku": "DEMO-LAB-2006-1000UL",
+    "location": "main",
+    "on_hand": 7,
+    "reorder_point": 4
+  },
+  {
+    "sku": "DEMO-LAB-2007",
+    "location": "main",
+    "on_hand": 22,
+    "reorder_point": 6
+  },
+  {
+    "sku": "DEMO-LAB-2008",
+    "location": "main",
+    "on_hand": 140
+  },
+  {
+    "sku": "DEMO-LAB-2009",
+    "location": "main",
+    "on_hand": 95,
+    "reorder_point": 40
+  },
+  {
+    "sku": "DEMO-LAB-2010",
+    "location": "main",
+    "on_hand": 110,
+    "reorder_point": 40
+  },
+  {
+    "sku": "DEMO-LAB-2011",
+    "location": "main",
+    "on_hand": 0,
+    "reorder_point": 30
+  },
+  {
+    "sku": "DEMO-LAB-2012",
+    "location": "main",
+    "on_hand": 18,
+    "reorder_point": 5
+  },
+  {
+    "sku": "DEMO-LAB-2013",
+    "location": "main",
+    "on_hand": 60,
+    "reorder_point": 20
+  },
+  {
+    "sku": "DEMO-LAB-3005",
+    "location": "main",
+    "on_hand": 240,
+    "reorder_point": 80
+  },
+  {
+    "sku": "DEMO-LAB-3006",
+    "location": "main",
+    "on_hand": 180,
+    "reorder_point": 60
+  },
+  {
+    "sku": "DEMO-LAB-3007",
+    "location": "main",
+    "on_hand": 6,
+    "reorder_point": 20
+  },
+  {
+    "sku": "DEMO-LAB-3008",
+    "location": "main",
+    "on_hand": 48,
+    "reorder_point": 15
+  },
+  {
+    "sku": "DEMO-LAB-3009",
+    "location": "main",
+    "on_hand": 70,
+    "reorder_point": 20
+  },
+  {
+    "sku": "DEMO-LAB-3010",
+    "location": "main",
+    "on_hand": 52,
+    "reorder_point": 15
+  },
+  {
+    "sku": "DEMO-LAB-3011",
+    "location": "main",
+    "on_hand": 34,
+    "reorder_point": 10
+  },
+  {
+    "sku": "DEMO-LAB-3012",
+    "location": "main",
+    "on_hand": 28,
+    "reorder_point": 10
+  },
+  {
+    "sku": "DEMO-LAB-3013",
+    "location": "main",
+    "on_hand": 40,
+    "reorder_point": 12
+  },
+  {
+    "sku": "DEMO-LAB-3014",
+    "location": "main",
+    "on_hand": 65,
+    "reorder_point": 20
+  },
+  {
+    "sku": "DEMO-LAB-3015",
+    "location": "main",
+    "on_hand": 88,
+    "reorder_point": 25
+  },
+  {
+    "sku": "DEMO-LAB-3016",
+    "location": "main",
+    "on_hand": 75,
+    "reorder_point": 25
+  },
+  {
+    "sku": "DEMO-LAB-3017",
+    "location": "main",
+    "on_hand": 30
+  },
+  {
+    "sku": "DEMO-LAB-3018",
+    "location": "main",
+    "on_hand": 22,
+    "reorder_point": 10
+  },
+  {
+    "sku": "DEMO-LAB-4001",
+    "location": "main",
+    "on_hand": 45,
+    "reorder_point": 12
+  },
+  {
+    "sku": "DEMO-LAB-4002",
+    "location": "main",
+    "on_hand": 28,
+    "reorder_point": 10
+  },
+  {
+    "sku": "DEMO-LAB-4003",
+    "location": "main",
+    "on_hand": 4,
+    "reorder_point": 10
+  },
+  {
+    "sku": "DEMO-LAB-4004",
+    "location": "main",
+    "on_hand": 60,
+    "reorder_point": 15
+  },
+  {
+    "sku": "DEMO-LAB-4005",
+    "location": "main",
+    "on_hand": 32,
+    "reorder_point": 10
+  },
+  {
+    "sku": "DEMO-LAB-4006",
+    "location": "main",
+    "on_hand": 18,
+    "reorder_point": 6
+  },
+  {
+    "sku": "DEMO-LAB-4007",
+    "location": "main",
+    "on_hand": 40,
+    "reorder_point": 12
+  },
+  {
+    "sku": "DEMO-LAB-4008",
+    "location": "main",
+    "on_hand": 25,
+    "reorder_point": 8
+  },
+  {
+    "sku": "DEMO-LAB-4009",
+    "location": "main",
+    "on_hand": 14,
+    "reorder_point": 4
+  },
+  {
+    "sku": "DEMO-LAB-4010",
+    "location": "main",
+    "on_hand": 11,
+    "reorder_point": 4
+  },
+  {
+    "sku": "DEMO-LAB-4011",
+    "location": "main",
+    "on_hand": 22,
+    "reorder_point": 6
+  },
+  {
+    "sku": "DEMO-LAB-4012",
+    "location": "main",
+    "on_hand": 9,
+    "reorder_point": 3
+  },
+  {
+    "sku": "DEMO-LAB-4013",
+    "location": "main",
+    "on_hand": 12,
+    "reorder_point": 4
+  },
+  {
+    "sku": "DEMO-LAB-4014",
+    "location": "main",
+    "on_hand": 5,
+    "reorder_point": 2
+  },
+  {
+    "sku": "DEMO-LAB-4015",
+    "location": "main",
+    "on_hand": 8,
+    "reorder_point": 3
+  },
+  {
+    "sku": "DEMO-LAB-4016",
+    "location": "main",
+    "on_hand": 60,
+    "reorder_point": 15
+  },
+  {
+    "sku": "DEMO-LAB-4017",
+    "location": "main",
+    "on_hand": 30,
+    "reorder_point": 8
+  },
+  {
+    "sku": "DEMO-LAB-5001",
+    "location": "main",
+    "on_hand": 80,
+    "reorder_point": 20
+  },
+  {
+    "sku": "DEMO-LAB-5002",
+    "location": "main",
+    "on_hand": 45,
+    "reorder_point": 12
+  },
+  {
+    "sku": "DEMO-LAB-5003",
+    "location": "main",
+    "on_hand": 24,
+    "reorder_point": 8
+  },
+  {
+    "sku": "DEMO-LAB-5004",
+    "location": "main",
+    "on_hand": 3,
+    "reorder_point": 10
+  },
+  {
+    "sku": "DEMO-LAB-5005",
+    "location": "main",
+    "on_hand": 40,
+    "reorder_point": 12
+  },
+  {
+    "sku": "DEMO-LAB-5006",
+    "location": "main",
+    "on_hand": 28,
+    "reorder_point": 8
+  },
+  {
+    "sku": "DEMO-LAB-5007",
+    "location": "main",
+    "on_hand": 18,
+    "reorder_point": 5
+  },
+  {
+    "sku": "DEMO-LAB-5008",
+    "location": "main",
+    "on_hand": 9,
+    "reorder_point": 3
+  },
+  {
+    "sku": "DEMO-LAB-5009",
+    "location": "main",
+    "on_hand": 14,
+    "reorder_point": 4
+  },
+  {
+    "sku": "DEMO-LAB-5010",
+    "location": "main",
+    "on_hand": 25,
+    "reorder_point": 6
+  },
+  {
+    "sku": "DEMO-LAB-5011",
+    "location": "main",
+    "on_hand": 16,
+    "reorder_point": 5
+  },
+  {
+    "sku": "DEMO-LAB-5012",
+    "location": "main",
+    "on_hand": 50,
+    "reorder_point": 15
+  },
+  {
+    "sku": "DEMO-LAB-6001",
+    "location": "main",
+    "on_hand": 38,
+    "reorder_point": 10
+  },
+  {
+    "sku": "DEMO-LAB-6002",
+    "location": "main",
+    "on_hand": 2,
+    "reorder_point": 5
+  },
+  {
+    "sku": "DEMO-LAB-6003",
+    "location": "main",
+    "on_hand": 27,
+    "reorder_point": 8
+  },
+  {
+    "sku": "DEMO-LAB-6004",
+    "location": "main",
+    "on_hand": 19,
+    "reorder_point": 6
+  },
+  {
+    "sku": "DEMO-LAB-6005",
+    "location": "main",
+    "on_hand": 34,
+    "reorder_point": 8
+  },
+  {
+    "sku": "DEMO-LAB-6006",
+    "location": "main",
+    "on_hand": 22,
+    "reorder_point": 6
+  },
+  {
+    "sku": "DEMO-LAB-6007",
+    "location": "main",
+    "on_hand": 13,
+    "reorder_point": 4
+  },
+  {
+    "sku": "DEMO-LAB-6008",
+    "location": "main",
+    "on_hand": 30,
+    "reorder_point": 8
+  },
+  {
+    "sku": "DEMO-LAB-6009",
+    "location": "main",
+    "on_hand": 42,
+    "reorder_point": 10
+  },
+  {
+    "sku": "DEMO-LAB-6010",
+    "location": "main",
+    "on_hand": 60,
+    "reorder_point": 20
+  },
+  {
+    "sku": "DEMO-LAB-6011",
+    "location": "main",
+    "on_hand": 12,
+    "reorder_point": 4
+  },
+  {
+    "sku": "DEMO-LAB-6012",
+    "location": "main",
+    "on_hand": 17,
+    "reorder_point": 5
   }
 ]

@@ -37,5 +37,35 @@
     },
     "position": 2,
     "external_id": "DEMO-ELE-LIGHTING"
+  },
+  {
+    "code": "DEMO-ELE-PROTECTION",
+    "parent": "DEMO-ELE",
+    "labels": {
+      "de-DE": "Schutz & Verteilung",
+      "en-US": "Protection & distribution"
+    },
+    "position": 3,
+    "external_id": "DEMO-ELE-PROTECTION"
+  },
+  {
+    "code": "DEMO-ELE-MATERIAL",
+    "parent": "DEMO-ELE",
+    "labels": {
+      "de-DE": "Installationsmaterial",
+      "en-US": "Installation material"
+    },
+    "position": 4,
+    "external_id": "DEMO-ELE-MATERIAL"
+  },
+  {
+    "code": "DEMO-ELE-TOOLS",
+    "parent": "DEMO-ELE",
+    "labels": {
+      "de-DE": "Werkzeug & Prüftechnik",
+      "en-US": "Tools & testers"
+    },
+    "position": 5,
+    "external_id": "DEMO-ELE-TOOLS"
   }
 ]

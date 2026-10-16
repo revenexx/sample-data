@@ -120,6 +120,38 @@
     }
   },
   {
+    "code": "demo_off_length",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Länge",
+      "en-US": "Length"
+    },
+    "position": 8,
+    "external_id": "demo_off_length",
+    "config": {
+      "units": [
+        "MILLIMETER",
+        "METER"
+      ]
+    },
+    "is_filterable": true
+  },
+  {
+    "code": "demo_off_material",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Material",
+      "en-US": "Material"
+    },
+    "position": 9,
+    "external_id": "demo_off_material",
+    "is_filterable": true
+  },
+  {
     "code": "demo_off_images",
     "entity_type": "product",
     "type": "asset_collection",

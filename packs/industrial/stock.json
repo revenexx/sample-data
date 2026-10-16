@@ -72,5 +72,567 @@
     "location": "main",
     "on_hand": 35,
     "reorder_point": 10
+  },
+  {
+    "sku": "DEMO-IND-1005",
+    "location": "main",
+    "on_hand": 30,
+    "reorder_point": 8
+  },
+  {
+    "sku": "DEMO-IND-1006",
+    "location": "main",
+    "on_hand": 22,
+    "reorder_point": 6
+  },
+  {
+    "sku": "DEMO-IND-1007",
+    "location": "main",
+    "on_hand": 12,
+    "reorder_point": 4
+  },
+  {
+    "sku": "DEMO-IND-1008",
+    "location": "main",
+    "on_hand": 16,
+    "reorder_point": 5
+  },
+  {
+    "sku": "DEMO-IND-1009",
+    "location": "main",
+    "on_hand": 9,
+    "reorder_point": 4
+  },
+  {
+    "sku": "DEMO-IND-1010",
+    "location": "main",
+    "on_hand": 3,
+    "reorder_point": 8
+  },
+  {
+    "sku": "DEMO-IND-1011",
+    "location": "main",
+    "on_hand": 18,
+    "reorder_point": 5
+  },
+  {
+    "sku": "DEMO-IND-1012",
+    "location": "main",
+    "on_hand": 25,
+    "reorder_point": 6
+  },
+  {
+    "sku": "DEMO-IND-1013",
+    "location": "main",
+    "on_hand": 14,
+    "reorder_point": 4
+  },
+  {
+    "sku": "DEMO-IND-1014",
+    "location": "main",
+    "on_hand": 7,
+    "reorder_point": 3
+  },
+  {
+    "sku": "DEMO-IND-1015",
+    "location": "main",
+    "on_hand": 40,
+    "reorder_point": 10
+  },
+  {
+    "sku": "DEMO-IND-1016",
+    "location": "main",
+    "on_hand": 55,
+    "reorder_point": 15
+  },
+  {
+    "sku": "DEMO-IND-1017",
+    "location": "main",
+    "on_hand": 8,
+    "reorder_point": 3
+  },
+  {
+    "sku": "DEMO-IND-1018",
+    "location": "main",
+    "on_hand": 20,
+    "reorder_point": 6
+  },
+  {
+    "sku": "DEMO-IND-2004",
+    "location": "main",
+    "on_hand": 260,
+    "reorder_point": 60
+  },
+  {
+    "sku": "DEMO-IND-2005",
+    "location": "main",
+    "on_hand": 140,
+    "reorder_point": 40
+  },
+  {
+    "sku": "DEMO-IND-2006",
+    "location": "main",
+    "on_hand": 80,
+    "reorder_point": 30
+  },
+  {
+    "sku": "DEMO-IND-2007",
+    "location": "main",
+    "on_hand": 190,
+    "reorder_point": 50
+  },
+  {
+    "sku": "DEMO-IND-2008",
+    "location": "main",
+    "on_hand": 40,
+    "reorder_point": 80
+  },
+  {
+    "sku": "DEMO-IND-2009",
+    "location": "main",
+    "on_hand": 150,
+    "reorder_point": 40
+  },
+  {
+    "sku": "DEMO-IND-2010",
+    "location": "main",
+    "on_hand": 220,
+    "reorder_point": 60
+  },
+  {
+    "sku": "DEMO-IND-2011",
+    "location": "main",
+    "on_hand": 300,
+    "reorder_point": 80
+  },
+  {
+    "sku": "DEMO-IND-2012",
+    "location": "main",
+    "on_hand": 45,
+    "reorder_point": 15
+  },
+  {
+    "sku": "DEMO-IND-2013",
+    "location": "main",
+    "on_hand": 120,
+    "reorder_point": 40
+  },
+  {
+    "sku": "DEMO-IND-2014",
+    "location": "main",
+    "on_hand": 400,
+    "reorder_point": 100
+  },
+  {
+    "sku": "DEMO-IND-2015",
+    "location": "main",
+    "on_hand": 75,
+    "reorder_point": 20
+  },
+  {
+    "sku": "DEMO-IND-2016",
+    "location": "main",
+    "on_hand": 60,
+    "reorder_point": 20
+  },
+  {
+    "sku": "DEMO-IND-2017",
+    "location": "main",
+    "on_hand": 110,
+    "reorder_point": 40
+  },
+  {
+    "sku": "DEMO-IND-2018",
+    "location": "main",
+    "on_hand": 320,
+    "reorder_point": 80
+  },
+  {
+    "sku": "DEMO-IND-2019",
+    "location": "main",
+    "on_hand": 95,
+    "reorder_point": 30
+  },
+  {
+    "sku": "DEMO-IND-2020",
+    "location": "main",
+    "on_hand": 28,
+    "reorder_point": 10
+  },
+  {
+    "sku": "DEMO-IND-2021",
+    "location": "main",
+    "on_hand": 88,
+    "reorder_point": 30
+  },
+  {
+    "sku": "DEMO-IND-2022",
+    "location": "main",
+    "on_hand": 34,
+    "reorder_point": 12
+  },
+  {
+    "sku": "DEMO-IND-3004",
+    "location": "main",
+    "on_hand": 38,
+    "reorder_point": 10
+  },
+  {
+    "sku": "DEMO-IND-3005",
+    "location": "main",
+    "on_hand": 85,
+    "reorder_point": 20
+  },
+  {
+    "sku": "DEMO-IND-3006",
+    "location": "main",
+    "on_hand": 120,
+    "reorder_point": 30
+  },
+  {
+    "sku": "DEMO-IND-3007",
+    "location": "main",
+    "on_hand": 44,
+    "reorder_point": 12
+  },
+  {
+    "sku": "DEMO-IND-3008",
+    "location": "main",
+    "on_hand": 210,
+    "reorder_point": 40
+  },
+  {
+    "sku": "DEMO-IND-3009",
+    "location": "main",
+    "on_hand": 16,
+    "reorder_point": 5
+  },
+  {
+    "sku": "DEMO-IND-3015",
+    "location": "main",
+    "on_hand": 52,
+    "reorder_point": 15
+  },
+  {
+    "sku": "DEMO-IND-3016",
+    "location": "main",
+    "on_hand": 66,
+    "reorder_point": 20
+  },
+  {
+    "sku": "DEMO-IND-3010-S",
+    "location": "main",
+    "on_hand": 60
+  },
+  {
+    "sku": "DEMO-IND-3010-M",
+    "location": "main",
+    "on_hand": 120
+  },
+  {
+    "sku": "DEMO-IND-3010-L",
+    "location": "main",
+    "on_hand": 110
+  },
+  {
+    "sku": "DEMO-IND-3010-XL",
+    "location": "main",
+    "on_hand": 40
+  },
+  {
+    "sku": "DEMO-IND-3011-S",
+    "location": "main",
+    "on_hand": 14
+  },
+  {
+    "sku": "DEMO-IND-3011-M",
+    "location": "main",
+    "on_hand": 28
+  },
+  {
+    "sku": "DEMO-IND-3011-L",
+    "location": "main",
+    "on_hand": 26
+  },
+  {
+    "sku": "DEMO-IND-3011-XL",
+    "location": "main",
+    "on_hand": 10
+  },
+  {
+    "sku": "DEMO-IND-3012-S",
+    "location": "main",
+    "on_hand": 4
+  },
+  {
+    "sku": "DEMO-IND-3012-M",
+    "location": "main",
+    "on_hand": 6
+  },
+  {
+    "sku": "DEMO-IND-3012-L",
+    "location": "main",
+    "on_hand": 5
+  },
+  {
+    "sku": "DEMO-IND-3012-XL",
+    "location": "main",
+    "on_hand": 3
+  },
+  {
+    "sku": "DEMO-IND-3013-S",
+    "location": "main",
+    "on_hand": 25
+  },
+  {
+    "sku": "DEMO-IND-3013-M",
+    "location": "main",
+    "on_hand": 48
+  },
+  {
+    "sku": "DEMO-IND-3013-L",
+    "location": "main",
+    "on_hand": 50
+  },
+  {
+    "sku": "DEMO-IND-3013-XL",
+    "location": "main",
+    "on_hand": 22
+  },
+  {
+    "sku": "DEMO-IND-3014-S",
+    "location": "main",
+    "on_hand": 9
+  },
+  {
+    "sku": "DEMO-IND-3014-M",
+    "location": "main",
+    "on_hand": 18
+  },
+  {
+    "sku": "DEMO-IND-3014-L",
+    "location": "main",
+    "on_hand": 16
+  },
+  {
+    "sku": "DEMO-IND-3014-XL",
+    "location": "main",
+    "on_hand": 7
+  },
+  {
+    "sku": "DEMO-IND-4001",
+    "location": "main",
+    "on_hand": 48,
+    "reorder_point": 12
+  },
+  {
+    "sku": "DEMO-IND-4002",
+    "location": "main",
+    "on_hand": 22,
+    "reorder_point": 8
+  },
+  {
+    "sku": "DEMO-IND-4003",
+    "location": "main",
+    "on_hand": 14,
+    "reorder_point": 5
+  },
+  {
+    "sku": "DEMO-IND-4004",
+    "location": "main",
+    "on_hand": 30,
+    "reorder_point": 10
+  },
+  {
+    "sku": "DEMO-IND-4005",
+    "location": "main",
+    "on_hand": 4,
+    "reorder_point": 10
+  },
+  {
+    "sku": "DEMO-IND-4006",
+    "location": "main",
+    "on_hand": 60,
+    "reorder_point": 15
+  },
+  {
+    "sku": "DEMO-IND-4007",
+    "location": "main",
+    "on_hand": 75,
+    "reorder_point": 20
+  },
+  {
+    "sku": "DEMO-IND-4008",
+    "location": "main",
+    "on_hand": 40,
+    "reorder_point": 12
+  },
+  {
+    "sku": "DEMO-IND-4009",
+    "location": "main",
+    "on_hand": 36,
+    "reorder_point": 10
+  },
+  {
+    "sku": "DEMO-IND-4010",
+    "location": "main",
+    "on_hand": 28,
+    "reorder_point": 8
+  },
+  {
+    "sku": "DEMO-IND-4011",
+    "location": "main",
+    "on_hand": 52,
+    "reorder_point": 12
+  },
+  {
+    "sku": "DEMO-IND-4012",
+    "location": "main",
+    "on_hand": 44,
+    "reorder_point": 12
+  },
+  {
+    "sku": "DEMO-IND-4013",
+    "location": "main",
+    "on_hand": 19,
+    "reorder_point": 6
+  },
+  {
+    "sku": "DEMO-IND-4014",
+    "location": "main",
+    "on_hand": 90,
+    "reorder_point": 25
+  },
+  {
+    "sku": "DEMO-IND-4015",
+    "location": "main",
+    "on_hand": 33,
+    "reorder_point": 10
+  },
+  {
+    "sku": "DEMO-IND-4016",
+    "location": "main",
+    "on_hand": 26,
+    "reorder_point": 8
+  },
+  {
+    "sku": "DEMO-IND-5001",
+    "location": "main",
+    "on_hand": 110,
+    "reorder_point": 30
+  },
+  {
+    "sku": "DEMO-IND-5002",
+    "location": "main",
+    "on_hand": 95,
+    "reorder_point": 30
+  },
+  {
+    "sku": "DEMO-IND-5003",
+    "location": "main",
+    "on_hand": 3,
+    "reorder_point": 10
+  },
+  {
+    "sku": "DEMO-IND-5004",
+    "location": "main",
+    "on_hand": 150,
+    "reorder_point": 40
+  },
+  {
+    "sku": "DEMO-IND-5005",
+    "location": "main",
+    "on_hand": 130,
+    "reorder_point": 40
+  },
+  {
+    "sku": "DEMO-IND-5006",
+    "location": "main",
+    "on_hand": 42,
+    "reorder_point": 12
+  },
+  {
+    "sku": "DEMO-IND-5007",
+    "location": "main",
+    "on_hand": 0,
+    "reorder_point": 6
+  },
+  {
+    "sku": "DEMO-IND-5008",
+    "location": "main",
+    "on_hand": 28,
+    "reorder_point": 8
+  },
+  {
+    "sku": "DEMO-IND-5009",
+    "location": "main",
+    "on_hand": 36,
+    "reorder_point": 10
+  },
+  {
+    "sku": "DEMO-IND-5010",
+    "location": "main",
+    "on_hand": 61,
+    "reorder_point": 15
+  },
+  {
+    "sku": "DEMO-IND-6001",
+    "location": "main",
+    "on_hand": 6,
+    "reorder_point": 2
+  },
+  {
+    "sku": "DEMO-IND-6002",
+    "location": "main",
+    "on_hand": 12,
+    "reorder_point": 4
+  },
+  {
+    "sku": "DEMO-IND-6003",
+    "location": "main",
+    "on_hand": 9,
+    "reorder_point": 3
+  },
+  {
+    "sku": "DEMO-IND-6004",
+    "location": "main",
+    "on_hand": 5,
+    "reorder_point": 10
+  },
+  {
+    "sku": "DEMO-IND-6005",
+    "location": "main",
+    "on_hand": 7,
+    "reorder_point": 3
+  },
+  {
+    "sku": "DEMO-IND-6006",
+    "location": "main",
+    "on_hand": 14,
+    "reorder_point": 5
+  },
+  {
+    "sku": "DEMO-IND-6007",
+    "location": "main",
+    "on_hand": 0,
+    "reorder_point": 4
+  },
+  {
+    "sku": "DEMO-IND-6008",
+    "location": "main",
+    "on_hand": 64,
+    "reorder_point": 20
+  },
+  {
+    "sku": "DEMO-IND-6009",
+    "location": "main",
+    "on_hand": 38,
+    "reorder_point": 10
+  },
+  {
+    "sku": "DEMO-IND-6010",
+    "location": "main",
+    "on_hand": 23,
+    "reorder_point": 8
   }
 ]

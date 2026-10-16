@@ -73,20 +73,44 @@
   },
   {
     "family": "DEMO-LAB-ARTICLE",
-    "attribute": "demo_lab_images",
+    "attribute": "demo_lab_length",
     "position": 12,
     "is_required": false
   },
   {
     "family": "DEMO-LAB-ARTICLE",
-    "attribute": "demo_lab_drawings",
+    "attribute": "demo_lab_max_temp",
     "position": 13,
     "is_required": false
   },
   {
     "family": "DEMO-LAB-ARTICLE",
-    "attribute": "demo_lab_downloads",
+    "attribute": "demo_lab_cut_level",
     "position": 14,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_images",
+    "position": 15,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_drawings",
+    "position": 16,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_downloads",
+    "position": 17,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_has_cad",
+    "position": 18,
     "is_required": false
   }
 ]

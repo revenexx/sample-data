@@ -37,5 +37,35 @@
     },
     "position": 2,
     "external_id": "DEMO-OFF-BREAKROOM"
+  },
+  {
+    "code": "DEMO-OFF-DESK",
+    "parent": "DEMO-OFF",
+    "labels": {
+      "de-DE": "Schreibtischzubehör",
+      "en-US": "Desk accessories"
+    },
+    "position": 3,
+    "external_id": "DEMO-OFF-DESK"
+  },
+  {
+    "code": "DEMO-OFF-CLEAN",
+    "parent": "DEMO-OFF",
+    "labels": {
+      "de-DE": "Reinigung & Pflege",
+      "en-US": "Cleaning & care"
+    },
+    "position": 4,
+    "external_id": "DEMO-OFF-CLEAN"
+  },
+  {
+    "code": "DEMO-OFF-MAIL",
+    "parent": "DEMO-OFF",
+    "labels": {
+      "de-DE": "Versand & Verpackung",
+      "en-US": "Mailing & packaging"
+    },
+    "position": 5,
+    "external_id": "DEMO-OFF-MAIL"
   }
 ]

@@ -85,20 +85,98 @@
   },
   {
     "family": "DEMO-ELE-ARTICLE",
-    "attribute": "demo_ele_images",
+    "attribute": "demo_ele_rated_current",
     "position": 14,
     "is_required": false
   },
   {
     "family": "DEMO-ELE-ARTICLE",
-    "attribute": "demo_ele_drawings",
+    "attribute": "demo_ele_poles",
     "position": 15,
     "is_required": false
   },
   {
     "family": "DEMO-ELE-ARTICLE",
-    "attribute": "demo_ele_downloads",
+    "attribute": "demo_ele_trip_curve",
     "position": 16,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_sensitivity",
+    "position": 17,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_modules",
+    "position": 18,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_box_depth",
+    "position": 19,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_diameter",
+    "position": 20,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_item_length",
+    "position": 21,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_pack_size",
+    "position": 22,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_wire_size",
+    "position": 23,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_thread",
+    "position": 24,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_lamp_base",
+    "position": 25,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_images",
+    "position": 26,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_drawings",
+    "position": 27,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_downloads",
+    "position": 28,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_has_cad",
+    "position": 29,
     "is_required": false
   }
 ]

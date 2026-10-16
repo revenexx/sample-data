@@ -28,7 +28,8 @@
         ],
         "demo_ele_downloads": [
           "DEMO-ELE-1001-DATA-SHEET"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -68,7 +69,8 @@
         "image": "sample-data/electrical/demo-ele-1002.png",
         "demo_ele_images": [
           "DEMO-ELE-1002-IMG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -108,7 +110,8 @@
         "image": "sample-data/electrical/demo-ele-1003.png",
         "demo_ele_images": [
           "DEMO-ELE-1003-IMG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -118,6 +121,371 @@
         "en-US": {
           "name": "Single-core wire 1.5 mm², 100 m ring",
           "description": "Single-core installation wire for pulling into conduit."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-1004",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-1004",
+    "attribute_values": {
+      "common": {
+        "demo_ele_cores_cross_section": "c3x2_5",
+        "demo_ele_length": {
+          "amount": "100",
+          "unit": "METER"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "300",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "13.2",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-1004.png",
+        "demo_ele_images": [
+          "DEMO-ELE-1004-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Installationsleitung 3 × 2,5 mm², 100 m Ring",
+          "description": "Feste Installationsleitung mit Kupferleitern, für Steckdosenstromkreise mit größerer Last."
+        },
+        "en-US": {
+          "name": "Installation cable 3 × 2.5 mm², 100 m ring",
+          "description": "Fixed installation cable with copper conductors, for socket circuits with higher loads."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-1005",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-1005",
+    "attribute_values": {
+      "common": {
+        "demo_ele_cores_cross_section": "c3x1_5",
+        "demo_ele_length": {
+          "amount": "50",
+          "unit": "METER"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "300",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "4.8",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-1005.png",
+        "demo_ele_images": [
+          "DEMO-ELE-1005-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Installationsleitung 3 × 1,5 mm², 50 m Ring",
+          "description": "Feste Installationsleitung mit Kupferleitern für Steckdosen- und Lichtstromkreise, kurze Ringlänge."
+        },
+        "en-US": {
+          "name": "Installation cable 3 × 1.5 mm², 50 m ring",
+          "description": "Fixed installation cable with copper conductors for socket and lighting circuits, short ring length."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-1006",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-1006",
+    "attribute_values": {
+      "common": {
+        "demo_ele_cores_cross_section": "c5x1_5",
+        "demo_ele_length": {
+          "amount": "100",
+          "unit": "METER"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "300",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "11.0",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-1006.png",
+        "demo_ele_images": [
+          "DEMO-ELE-1006-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Installationsleitung 5 × 1,5 mm², 100 m Ring",
+          "description": "Feste Installationsleitung mit fünf Kupferleitern, für Drehstromkreise mit kleinem Querschnitt."
+        },
+        "en-US": {
+          "name": "Installation cable 5 × 1.5 mm², 100 m ring",
+          "description": "Fixed installation cable with five copper conductors, for three-phase circuits with small cross section."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-1007",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-1007",
+    "attribute_values": {
+      "common": {
+        "demo_ele_cores_cross_section": "c5x4",
+        "demo_ele_length": {
+          "amount": "50",
+          "unit": "METER"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "300",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "9.6",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-1007.png",
+        "demo_ele_images": [
+          "DEMO-ELE-1007-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Installationsleitung 5 × 4 mm², 50 m Ring",
+          "description": "Feste Installationsleitung mit fünf Kupferleitern für Zuleitungen zu Verteilern."
+        },
+        "en-US": {
+          "name": "Installation cable 5 × 4 mm², 50 m ring",
+          "description": "Fixed installation cable with five copper conductors for feeders to distribution boards."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-1008",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-1008",
+    "attribute_values": {
+      "common": {
+        "demo_ele_cores_cross_section": "c3x4",
+        "demo_ele_length": {
+          "amount": "50",
+          "unit": "METER"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "300",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "7.0",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-1008.png",
+        "demo_ele_images": [
+          "DEMO-ELE-1008-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Installationsleitung 3 × 4 mm², 50 m Ring",
+          "description": "Feste Installationsleitung mit Kupferleitern für Herde, Durchlauferhitzer und Zuleitungen."
+        },
+        "en-US": {
+          "name": "Installation cable 3 × 4 mm², 50 m ring",
+          "description": "Fixed installation cable with copper conductors for cookers, instantaneous water heaters and feeders."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-1009",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-1009",
+    "attribute_values": {
+      "common": {
+        "demo_ele_cores_cross_section": "c1x2_5",
+        "demo_ele_length": {
+          "amount": "100",
+          "unit": "METER"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "300",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "2.9",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-1009.png",
+        "demo_ele_images": [
+          "DEMO-ELE-1009-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Einzelader 2,5 mm², 100 m Ring",
+          "description": "Einadriger Installationsdraht mit Kupferleiter, zum Einziehen in Leerrohre."
+        },
+        "en-US": {
+          "name": "Single-core wire 2.5 mm², 100 m ring",
+          "description": "Single-core installation wire with copper conductor, for pulling into conduit."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-1010",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-1010",
+    "attribute_values": {
+      "common": {
+        "demo_ele_cores_cross_section": "c1x4",
+        "demo_ele_length": {
+          "amount": "100",
+          "unit": "METER"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "300",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "4.3",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-1010.png",
+        "demo_ele_images": [
+          "DEMO-ELE-1010-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Einzelader 4 mm², 100 m Ring",
+          "description": "Einadriger Installationsdraht mit großem Querschnitt, zum Einziehen in Leerrohre."
+        },
+        "en-US": {
+          "name": "Single-core wire 4 mm², 100 m ring",
+          "description": "Single-core installation wire with large cross section, for pulling into conduit."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-1011",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-1011",
+    "attribute_values": {
+      "common": {
+        "demo_ele_cores_cross_section": "c3x1_5",
+        "demo_ele_length": {
+          "amount": "25",
+          "unit": "METER"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "300",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "2.1",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-1011.png",
+        "demo_ele_images": [
+          "DEMO-ELE-1011-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Flexible Leitung 3 × 1,5 mm², 25 m Trommel",
+          "description": "Flexible Leitung mit feindrähtigen Kupferleitern für Geräte und Verlängerungen."
+        },
+        "en-US": {
+          "name": "Flexible cable 3 × 1.5 mm², 25 m drum",
+          "description": "Flexible cable with fine-wire copper conductors for appliances and extensions."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-1012",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-1012",
+    "attribute_values": {
+      "common": {
+        "demo_ele_cores_cross_section": "dp4x0_5",
+        "demo_ele_length": {
+          "amount": "100",
+          "unit": "METER"
+        },
+        "demo_ele_weight": {
+          "amount": "6.5",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-1012.png",
+        "demo_ele_images": [
+          "DEMO-ELE-1012-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Datenleitung 4 Paare, 0,5 mm², 100 m Ring",
+          "description": "Paarverseilte Datenleitung mit Kupferleitern für Signal- und Steuerleitungen."
+        },
+        "en-US": {
+          "name": "Data cable 4 pairs, 0.5 mm², 100 m ring",
+          "description": "Twisted-pair data cable with copper conductors for signal and control wiring."
         }
       }
     }
@@ -145,7 +513,8 @@
         "image": "sample-data/electrical/demo-ele-2001.png",
         "demo_ele_images": [
           "DEMO-ELE-2001-IMG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -177,7 +546,8 @@
         "image": "sample-data/electrical/demo-ele-2002.png",
         "demo_ele_images": [
           "DEMO-ELE-2002-IMG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -221,7 +591,8 @@
         ],
         "demo_ele_downloads": [
           "DEMO-ELE-2003-SOCKET-OUTLET-STEP"
-        ]
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -260,7 +631,8 @@
         "image": "sample-data/electrical/demo-ele-2003-white.png",
         "demo_ele_images": [
           "DEMO-ELE-2003-WHITE-IMG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -300,7 +672,8 @@
         "image": "sample-data/electrical/demo-ele-2003-black.png",
         "demo_ele_images": [
           "DEMO-ELE-2003-BLACK-IMG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -340,7 +713,8 @@
         "image": "sample-data/electrical/demo-ele-2003-anthracite.png",
         "demo_ele_images": [
           "DEMO-ELE-2003-ANTHRACITE-IMG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -382,7 +756,8 @@
         ],
         "demo_ele_downloads": [
           "DEMO-ELE-2004-JUNCTION-BOX-IP55-STEP"
-        ]
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -392,6 +767,1199 @@
         "en-US": {
           "name": "Junction box IP55, 100 × 100 mm",
           "description": "Surface-mounted junction box with gasket and pre-cut cable entries."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-2005",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2005",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "flush",
+        "demo_ele_ip_rating": "ip20",
+        "demo_ele_rated_voltage": {
+          "amount": "250",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.05",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-2005.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2005-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Wechselschalter Unterputz, einpolig",
+          "description": "Wippschalter zum Schalten von zwei Stellen aus, für Unterputzdosen."
+        },
+        "en-US": {
+          "name": "Two-way switch flush-mounted, single pole",
+          "description": "Rocker switch for switching from two locations, for flush-mounted boxes."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-2006",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2006",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "flush",
+        "demo_ele_ip_rating": "ip20",
+        "demo_ele_rated_voltage": {
+          "amount": "250",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.05",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-2006.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2006-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Kreuzschalter Unterputz",
+          "description": "Wippschalter für Schaltungen mit drei oder mehr Stellen, für Unterputzdosen."
+        },
+        "en-US": {
+          "name": "Intermediate switch flush-mounted",
+          "description": "Rocker switch for circuits with three or more switching points, for flush-mounted boxes."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-2007",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2007",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "flush",
+        "demo_ele_ip_rating": "ip20",
+        "demo_ele_rated_voltage": {
+          "amount": "24",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.03",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-2007.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2007-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Klingeltaster Unterputz",
+          "description": "Taster für Klingelanlagen, für Unterputzdosen."
+        },
+        "en-US": {
+          "name": "Doorbell push button flush-mounted",
+          "description": "Push button for door bell systems, for flush-mounted boxes."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-2008",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2008",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "flush",
+        "demo_ele_ip_rating": "ip20",
+        "demo_ele_rated_voltage": {
+          "amount": "250",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.05",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-2008.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2008-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Lichtschalter Unterputz, zweipolig",
+          "description": "Wippschalter mit zwei Polen für Unterputzdosen, 10 A bei 250 V."
+        },
+        "en-US": {
+          "name": "Light switch flush-mounted, double pole",
+          "description": "Rocker switch with two poles for flush-mounted boxes, 10 A at 250 V."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-2009",
+    "kind": "model",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2009",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "flush",
+        "demo_ele_weight": {
+          "amount": "0.02",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-2009.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2009-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Abdeckrahmen 1-fach",
+          "description": "Abdeckrahmen für einen Geräteeinsatz in Unterputzdosen, in mehreren Farben und Oberflächen."
+        },
+        "en-US": {
+          "name": "Cover frame 1-gang",
+          "description": "Cover frame for one device insert in flush-mounted boxes, in several colours and finishes."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR"
+  },
+  {
+    "sku": "DEMO-ELE-2009-WHITE",
+    "kind": "variant",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2009-WHITE",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "flush",
+        "demo_ele_weight": {
+          "amount": "0.02",
+          "unit": "KILOGRAM"
+        },
+        "demo_ele_colour": "white",
+        "image": "sample-data/electrical/demo-ele-2009-white.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2009-WHITE-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Abdeckrahmen 1-fach, weiß",
+          "description": "Abdeckrahmen für einen Geräteeinsatz in Unterputzdosen, in mehreren Farben und Oberflächen."
+        },
+        "en-US": {
+          "name": "Cover frame 1-gang, white",
+          "description": "Cover frame for one device insert in flush-mounted boxes, in several colours and finishes."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR",
+    "parent": "DEMO-ELE-2009"
+  },
+  {
+    "sku": "DEMO-ELE-2009-BLACK",
+    "kind": "variant",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2009-BLACK",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "flush",
+        "demo_ele_weight": {
+          "amount": "0.02",
+          "unit": "KILOGRAM"
+        },
+        "demo_ele_colour": "black",
+        "image": "sample-data/electrical/demo-ele-2009-black.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2009-BLACK-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Abdeckrahmen 1-fach, schwarz",
+          "description": "Abdeckrahmen für einen Geräteeinsatz in Unterputzdosen, in mehreren Farben und Oberflächen."
+        },
+        "en-US": {
+          "name": "Cover frame 1-gang, black",
+          "description": "Cover frame for one device insert in flush-mounted boxes, in several colours and finishes."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR",
+    "parent": "DEMO-ELE-2009"
+  },
+  {
+    "sku": "DEMO-ELE-2009-ANTHRACITE",
+    "kind": "variant",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2009-ANTHRACITE",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "flush",
+        "demo_ele_weight": {
+          "amount": "0.02",
+          "unit": "KILOGRAM"
+        },
+        "demo_ele_colour": "anthracite",
+        "image": "sample-data/electrical/demo-ele-2009-anthracite.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2009-ANTHRACITE-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Abdeckrahmen 1-fach, anthrazit",
+          "description": "Abdeckrahmen für einen Geräteeinsatz in Unterputzdosen, in mehreren Farben und Oberflächen."
+        },
+        "en-US": {
+          "name": "Cover frame 1-gang, anthracite",
+          "description": "Cover frame for one device insert in flush-mounted boxes, in several colours and finishes."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR",
+    "parent": "DEMO-ELE-2009"
+  },
+  {
+    "sku": "DEMO-ELE-2009-ALUMINIUM",
+    "kind": "variant",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2009-ALUMINIUM",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "flush",
+        "demo_ele_weight": {
+          "amount": "0.02",
+          "unit": "KILOGRAM"
+        },
+        "demo_ele_colour": "aluminium",
+        "image": "sample-data/electrical/demo-ele-2009-aluminium.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2009-ALUMINIUM-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Abdeckrahmen 1-fach, aluminium",
+          "description": "Abdeckrahmen für einen Geräteeinsatz in Unterputzdosen, in mehreren Farben und Oberflächen."
+        },
+        "en-US": {
+          "name": "Cover frame 1-gang, aluminium",
+          "description": "Cover frame for one device insert in flush-mounted boxes, in several colours and finishes."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR",
+    "parent": "DEMO-ELE-2009"
+  },
+  {
+    "sku": "DEMO-ELE-2009-STAINLESS",
+    "kind": "variant",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2009-STAINLESS",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "flush",
+        "demo_ele_weight": {
+          "amount": "0.02",
+          "unit": "KILOGRAM"
+        },
+        "demo_ele_colour": "stainless",
+        "image": "sample-data/electrical/demo-ele-2009-stainless.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2009-STAINLESS-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Abdeckrahmen 1-fach, edelstahl",
+          "description": "Abdeckrahmen für einen Geräteeinsatz in Unterputzdosen, in mehreren Farben und Oberflächen."
+        },
+        "en-US": {
+          "name": "Cover frame 1-gang, stainless",
+          "description": "Cover frame for one device insert in flush-mounted boxes, in several colours and finishes."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR",
+    "parent": "DEMO-ELE-2009"
+  },
+  {
+    "sku": "DEMO-ELE-2010",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2010",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "flush",
+        "demo_ele_weight": {
+          "amount": "0.06",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-2010.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2010-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Abdeckrahmen 3-fach",
+          "description": "Abdeckrahmen für drei Geräteeinsätze in Unterputzdosen."
+        },
+        "en-US": {
+          "name": "Cover frame 3-gang",
+          "description": "Cover frame for three device inserts in flush-mounted boxes."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-2011",
+    "kind": "model",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2011",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "surface",
+        "demo_ele_ip_rating": "ip44",
+        "demo_ele_rated_voltage": {
+          "amount": "250",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.12",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-2011.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2011-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schutzkontakt-Steckdose Aufputz IP44, 16 A",
+          "description": "Aufputz-Steckdose mit Schutzkontakt und Spritzwasserschutz für Feuchträume."
+        },
+        "en-US": {
+          "name": "Earthed socket outlet surface-mounted IP44, 16 A",
+          "description": "Surface-mounted earthed socket outlet with splash protection for damp rooms."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR"
+  },
+  {
+    "sku": "DEMO-ELE-2011-WHITE",
+    "kind": "variant",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2011-WHITE",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "surface",
+        "demo_ele_ip_rating": "ip44",
+        "demo_ele_rated_voltage": {
+          "amount": "250",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.12",
+          "unit": "KILOGRAM"
+        },
+        "demo_ele_colour": "white",
+        "image": "sample-data/electrical/demo-ele-2011-white.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2011-WHITE-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schutzkontakt-Steckdose Aufputz IP44, weiß",
+          "description": "Aufputz-Steckdose mit Schutzkontakt und Spritzwasserschutz für Feuchträume."
+        },
+        "en-US": {
+          "name": "Earthed socket outlet surface-mounted IP44, white",
+          "description": "Surface-mounted earthed socket outlet with splash protection for damp rooms."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR",
+    "parent": "DEMO-ELE-2011"
+  },
+  {
+    "sku": "DEMO-ELE-2011-BLACK",
+    "kind": "variant",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2011-BLACK",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "surface",
+        "demo_ele_ip_rating": "ip44",
+        "demo_ele_rated_voltage": {
+          "amount": "250",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.12",
+          "unit": "KILOGRAM"
+        },
+        "demo_ele_colour": "black",
+        "image": "sample-data/electrical/demo-ele-2011-black.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2011-BLACK-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schutzkontakt-Steckdose Aufputz IP44, schwarz",
+          "description": "Aufputz-Steckdose mit Schutzkontakt und Spritzwasserschutz für Feuchträume."
+        },
+        "en-US": {
+          "name": "Earthed socket outlet surface-mounted IP44, black",
+          "description": "Surface-mounted earthed socket outlet with splash protection for damp rooms."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR",
+    "parent": "DEMO-ELE-2011"
+  },
+  {
+    "sku": "DEMO-ELE-2011-ANTHRACITE",
+    "kind": "variant",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2011-ANTHRACITE",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "surface",
+        "demo_ele_ip_rating": "ip44",
+        "demo_ele_rated_voltage": {
+          "amount": "250",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.12",
+          "unit": "KILOGRAM"
+        },
+        "demo_ele_colour": "anthracite",
+        "image": "sample-data/electrical/demo-ele-2011-anthracite.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2011-ANTHRACITE-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schutzkontakt-Steckdose Aufputz IP44, anthrazit",
+          "description": "Aufputz-Steckdose mit Schutzkontakt und Spritzwasserschutz für Feuchträume."
+        },
+        "en-US": {
+          "name": "Earthed socket outlet surface-mounted IP44, anthracite",
+          "description": "Surface-mounted earthed socket outlet with splash protection for damp rooms."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR",
+    "parent": "DEMO-ELE-2011"
+  },
+  {
+    "sku": "DEMO-ELE-2012",
+    "kind": "model",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2012",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "flush",
+        "demo_ele_ip_rating": "ip20",
+        "demo_ele_rated_voltage": {
+          "amount": "250",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.14",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-2012.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2012-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Doppel-Steckdose Unterputz, Schutzkontakt",
+          "description": "Zwei Schutzkontakt-Steckdosen für Unterputzmontage, mit Kinderschutz."
+        },
+        "en-US": {
+          "name": "Double socket outlet flush-mounted, earthed",
+          "description": "Two earthed socket outlets for flush mounting, with child protection."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR"
+  },
+  {
+    "sku": "DEMO-ELE-2012-WHITE",
+    "kind": "variant",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2012-WHITE",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "flush",
+        "demo_ele_ip_rating": "ip20",
+        "demo_ele_rated_voltage": {
+          "amount": "250",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.14",
+          "unit": "KILOGRAM"
+        },
+        "demo_ele_colour": "white",
+        "image": "sample-data/electrical/demo-ele-2012-white.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2012-WHITE-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Doppel-Steckdose Unterputz, weiß",
+          "description": "Zwei Schutzkontakt-Steckdosen für Unterputzmontage, mit Kinderschutz."
+        },
+        "en-US": {
+          "name": "Double socket outlet flush-mounted, white",
+          "description": "Two earthed socket outlets for flush mounting, with child protection."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR",
+    "parent": "DEMO-ELE-2012"
+  },
+  {
+    "sku": "DEMO-ELE-2012-BLACK",
+    "kind": "variant",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2012-BLACK",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "flush",
+        "demo_ele_ip_rating": "ip20",
+        "demo_ele_rated_voltage": {
+          "amount": "250",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.14",
+          "unit": "KILOGRAM"
+        },
+        "demo_ele_colour": "black",
+        "image": "sample-data/electrical/demo-ele-2012-black.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2012-BLACK-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Doppel-Steckdose Unterputz, schwarz",
+          "description": "Zwei Schutzkontakt-Steckdosen für Unterputzmontage, mit Kinderschutz."
+        },
+        "en-US": {
+          "name": "Double socket outlet flush-mounted, black",
+          "description": "Two earthed socket outlets for flush mounting, with child protection."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR",
+    "parent": "DEMO-ELE-2012"
+  },
+  {
+    "sku": "DEMO-ELE-2012-ANTHRACITE",
+    "kind": "variant",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2012-ANTHRACITE",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "flush",
+        "demo_ele_ip_rating": "ip20",
+        "demo_ele_rated_voltage": {
+          "amount": "250",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.14",
+          "unit": "KILOGRAM"
+        },
+        "demo_ele_colour": "anthracite",
+        "image": "sample-data/electrical/demo-ele-2012-anthracite.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2012-ANTHRACITE-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Doppel-Steckdose Unterputz, anthrazit",
+          "description": "Zwei Schutzkontakt-Steckdosen für Unterputzmontage, mit Kinderschutz."
+        },
+        "en-US": {
+          "name": "Double socket outlet flush-mounted, anthracite",
+          "description": "Two earthed socket outlets for flush mounting, with child protection."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR",
+    "parent": "DEMO-ELE-2012"
+  },
+  {
+    "sku": "DEMO-ELE-2013",
+    "kind": "model",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2013",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "flush",
+        "demo_ele_ip_rating": "ip20",
+        "demo_ele_rated_voltage": {
+          "amount": "250",
+          "unit": "VOLT"
+        },
+        "demo_ele_wattage": {
+          "amount": "30",
+          "unit": "WATT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.12",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-2013.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2013-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Steckdose Unterputz mit 2 USB-Ladebuchsen",
+          "description": "Schutzkontakt-Steckdose mit zwei integrierten USB-Ladebuchsen für Unterputzmontage."
+        },
+        "en-US": {
+          "name": "Socket outlet flush-mounted with 2 USB charging ports",
+          "description": "Earthed socket outlet with two built-in USB charging ports, for flush mounting."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR"
+  },
+  {
+    "sku": "DEMO-ELE-2013-WHITE",
+    "kind": "variant",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2013-WHITE",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "flush",
+        "demo_ele_ip_rating": "ip20",
+        "demo_ele_rated_voltage": {
+          "amount": "250",
+          "unit": "VOLT"
+        },
+        "demo_ele_wattage": {
+          "amount": "30",
+          "unit": "WATT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.12",
+          "unit": "KILOGRAM"
+        },
+        "demo_ele_colour": "white",
+        "image": "sample-data/electrical/demo-ele-2013-white.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2013-WHITE-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Steckdose Unterputz mit 2 USB-Ladebuchsen, weiß",
+          "description": "Schutzkontakt-Steckdose mit zwei integrierten USB-Ladebuchsen für Unterputzmontage."
+        },
+        "en-US": {
+          "name": "Socket outlet flush-mounted with 2 USB charging ports, white",
+          "description": "Earthed socket outlet with two built-in USB charging ports, for flush mounting."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR",
+    "parent": "DEMO-ELE-2013"
+  },
+  {
+    "sku": "DEMO-ELE-2013-BLACK",
+    "kind": "variant",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2013-BLACK",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "flush",
+        "demo_ele_ip_rating": "ip20",
+        "demo_ele_rated_voltage": {
+          "amount": "250",
+          "unit": "VOLT"
+        },
+        "demo_ele_wattage": {
+          "amount": "30",
+          "unit": "WATT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.12",
+          "unit": "KILOGRAM"
+        },
+        "demo_ele_colour": "black",
+        "image": "sample-data/electrical/demo-ele-2013-black.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2013-BLACK-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Steckdose Unterputz mit 2 USB-Ladebuchsen, schwarz",
+          "description": "Schutzkontakt-Steckdose mit zwei integrierten USB-Ladebuchsen für Unterputzmontage."
+        },
+        "en-US": {
+          "name": "Socket outlet flush-mounted with 2 USB charging ports, black",
+          "description": "Earthed socket outlet with two built-in USB charging ports, for flush mounting."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR",
+    "parent": "DEMO-ELE-2013"
+  },
+  {
+    "sku": "DEMO-ELE-2013-ANTHRACITE",
+    "kind": "variant",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2013-ANTHRACITE",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "flush",
+        "demo_ele_ip_rating": "ip20",
+        "demo_ele_rated_voltage": {
+          "amount": "250",
+          "unit": "VOLT"
+        },
+        "demo_ele_wattage": {
+          "amount": "30",
+          "unit": "WATT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.12",
+          "unit": "KILOGRAM"
+        },
+        "demo_ele_colour": "anthracite",
+        "image": "sample-data/electrical/demo-ele-2013-anthracite.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2013-ANTHRACITE-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Steckdose Unterputz mit 2 USB-Ladebuchsen, anthrazit",
+          "description": "Schutzkontakt-Steckdose mit zwei integrierten USB-Ladebuchsen für Unterputzmontage."
+        },
+        "en-US": {
+          "name": "Socket outlet flush-mounted with 2 USB charging ports, anthracite",
+          "description": "Earthed socket outlet with two built-in USB charging ports, for flush mounting."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR",
+    "parent": "DEMO-ELE-2013"
+  },
+  {
+    "sku": "DEMO-ELE-2014",
+    "kind": "model",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2014",
+    "attribute_values": {
+      "common": {
+        "demo_ele_length": {
+          "amount": "2",
+          "unit": "METER"
+        },
+        "demo_ele_ip_rating": "ip20",
+        "demo_ele_rated_voltage": {
+          "amount": "250",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.85",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-2014.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2014-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Steckdosenleiste 4-fach, 2 m, mit Schalter",
+          "description": "Steckdosenleiste mit vier Schutzkontakt-Steckdosen, 2 m Leitung und Schalter."
+        },
+        "en-US": {
+          "name": "Power strip 4-way, 2 m, with switch",
+          "description": "Power strip with four earthed socket outlets, 2 m cable and switch."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR"
+  },
+  {
+    "sku": "DEMO-ELE-2014-WHITE",
+    "kind": "variant",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2014-WHITE",
+    "attribute_values": {
+      "common": {
+        "demo_ele_length": {
+          "amount": "2",
+          "unit": "METER"
+        },
+        "demo_ele_ip_rating": "ip20",
+        "demo_ele_rated_voltage": {
+          "amount": "250",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.85",
+          "unit": "KILOGRAM"
+        },
+        "demo_ele_colour": "white",
+        "image": "sample-data/electrical/demo-ele-2014-white.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2014-WHITE-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Steckdosenleiste 4-fach, 2 m, weiß",
+          "description": "Steckdosenleiste mit vier Schutzkontakt-Steckdosen, 2 m Leitung und Schalter."
+        },
+        "en-US": {
+          "name": "Power strip 4-way, 2 m, white",
+          "description": "Power strip with four earthed socket outlets, 2 m cable and switch."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR",
+    "parent": "DEMO-ELE-2014"
+  },
+  {
+    "sku": "DEMO-ELE-2014-BLACK",
+    "kind": "variant",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2014-BLACK",
+    "attribute_values": {
+      "common": {
+        "demo_ele_length": {
+          "amount": "2",
+          "unit": "METER"
+        },
+        "demo_ele_ip_rating": "ip20",
+        "demo_ele_rated_voltage": {
+          "amount": "250",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.85",
+          "unit": "KILOGRAM"
+        },
+        "demo_ele_colour": "black",
+        "image": "sample-data/electrical/demo-ele-2014-black.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2014-BLACK-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Steckdosenleiste 4-fach, 2 m, schwarz",
+          "description": "Steckdosenleiste mit vier Schutzkontakt-Steckdosen, 2 m Leitung und Schalter."
+        },
+        "en-US": {
+          "name": "Power strip 4-way, 2 m, black",
+          "description": "Power strip with four earthed socket outlets, 2 m cable and switch."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR",
+    "parent": "DEMO-ELE-2014"
+  },
+  {
+    "sku": "DEMO-ELE-2014-ANTHRACITE",
+    "kind": "variant",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2014-ANTHRACITE",
+    "attribute_values": {
+      "common": {
+        "demo_ele_length": {
+          "amount": "2",
+          "unit": "METER"
+        },
+        "demo_ele_ip_rating": "ip20",
+        "demo_ele_rated_voltage": {
+          "amount": "250",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.85",
+          "unit": "KILOGRAM"
+        },
+        "demo_ele_colour": "anthracite",
+        "image": "sample-data/electrical/demo-ele-2014-anthracite.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2014-ANTHRACITE-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Steckdosenleiste 4-fach, 2 m, anthrazit",
+          "description": "Steckdosenleiste mit vier Schutzkontakt-Steckdosen, 2 m Leitung und Schalter."
+        },
+        "en-US": {
+          "name": "Power strip 4-way, 2 m, anthracite",
+          "description": "Power strip with four earthed socket outlets, 2 m cable and switch."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR",
+    "parent": "DEMO-ELE-2014"
+  },
+  {
+    "sku": "DEMO-ELE-2015",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2015",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "flush",
+        "demo_ele_ip_rating": "ip20",
+        "demo_ele_wattage": {
+          "amount": "400",
+          "unit": "WATT"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "230",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.09",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-2015.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2015-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Drehdimmer Unterputz, 60–400 W",
+          "description": "Drehdimmer für Glüh- und LED-Lampen, für Unterputzdosen."
+        },
+        "en-US": {
+          "name": "Rotary dimmer flush-mounted, 60–400 W",
+          "description": "Rotary dimmer for incandescent and LED lamps, for flush-mounted boxes."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-2017",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2017",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "surface",
+        "demo_ele_ip_rating": "ip44",
+        "demo_ele_rated_voltage": {
+          "amount": "250",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.06",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-2017.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2017-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Lichtschalter Aufputz IP44, einpolig",
+          "description": "Wippschalter für Aufputzmontage mit Spritzwasserschutz, für Feuchträume."
+        },
+        "en-US": {
+          "name": "Light switch surface-mounted IP44, single pole",
+          "description": "Rocker switch for surface mounting with splash protection, for damp rooms."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-2018",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-2018",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "flush",
+        "demo_ele_ip_rating": "ip20",
+        "demo_ele_rated_voltage": {
+          "amount": "250",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.07",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-2018.png",
+        "demo_ele_images": [
+          "DEMO-ELE-2018-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Rollladentaster Unterputz, Doppeltaster",
+          "description": "Doppeltaster zur Steuerung von Rollläden und Markisen, für Unterputzdosen."
+        },
+        "en-US": {
+          "name": "Blind control push button flush-mounted, two-button",
+          "description": "Two-button control for roller shutters and awnings, for flush-mounted boxes."
         }
       }
     }
@@ -437,7 +2005,8 @@
         ],
         "demo_ele_downloads": [
           "DEMO-ELE-3001-LED-PANEL-62X62-STEP"
-        ]
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -489,7 +2058,8 @@
         "image": "sample-data/electrical/demo-ele-3002.png",
         "demo_ele_images": [
           "DEMO-ELE-3002-IMG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -530,7 +2100,8 @@
         "image": "sample-data/electrical/demo-ele-3003.png",
         "demo_ele_images": [
           "DEMO-ELE-3003-IMG"
-        ]
+        ],
+        "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
@@ -540,6 +2111,2859 @@
         "en-US": {
           "name": "Motion sensor 180°, surface-mounted",
           "description": "Infrared motion sensor with 180° detection angle and adjustable hold time."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-3004",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-HELLGRUND",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-3004",
+    "attribute_values": {
+      "common": {
+        "demo_ele_wattage": {
+          "amount": "40",
+          "unit": "WATT"
+        },
+        "demo_ele_luminous_flux": {
+          "amount": "4000",
+          "unit": "LUMEN"
+        },
+        "demo_ele_colour_temperature": {
+          "amount": "4000",
+          "unit": "KELVIN"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "230",
+          "unit": "VOLT"
+        },
+        "demo_ele_ip_rating": "ip20",
+        "demo_ele_weight": {
+          "amount": "2.6",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-3004.png",
+        "demo_ele_images": [
+          "DEMO-ELE-3004-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "LED-Panel 60 × 60 cm, 40 W, neutralweiß",
+          "description": "LED-Deckenpanel mit 4000 K für Büro- und Schulräume, für abgehängte Decken."
+        },
+        "en-US": {
+          "name": "LED panel 60 × 60 cm, 40 W, neutral white",
+          "description": "LED ceiling panel with 4000 K for office and school rooms, for suspended ceilings."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-3005",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-HELLGRUND",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-3005",
+    "attribute_values": {
+      "common": {
+        "demo_ele_wattage": {
+          "amount": "40",
+          "unit": "WATT"
+        },
+        "demo_ele_luminous_flux": {
+          "amount": "3800",
+          "unit": "LUMEN"
+        },
+        "demo_ele_colour_temperature": {
+          "amount": "3000",
+          "unit": "KELVIN"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "230",
+          "unit": "VOLT"
+        },
+        "demo_ele_ip_rating": "ip20",
+        "demo_ele_weight": {
+          "amount": "2.6",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-3005.png",
+        "demo_ele_images": [
+          "DEMO-ELE-3005-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "LED-Panel 60 × 60 cm, 40 W, warmweiß",
+          "description": "LED-Deckenpanel mit 3000 K für Wohn- und Flurbereiche, für abgehängte Decken."
+        },
+        "en-US": {
+          "name": "LED panel 60 × 60 cm, 40 W, warm white",
+          "description": "LED ceiling panel with 3000 K for living and hallway areas, for suspended ceilings."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-3006",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-HELLGRUND",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-3006",
+    "attribute_values": {
+      "common": {
+        "demo_ele_wattage": {
+          "amount": "36",
+          "unit": "WATT"
+        },
+        "demo_ele_luminous_flux": {
+          "amount": "3600",
+          "unit": "LUMEN"
+        },
+        "demo_ele_colour_temperature": {
+          "amount": "4000",
+          "unit": "KELVIN"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "230",
+          "unit": "VOLT"
+        },
+        "demo_ele_ip_rating": "ip20",
+        "demo_ele_weight": {
+          "amount": "2.9",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-3006.png",
+        "demo_ele_images": [
+          "DEMO-ELE-3006-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "LED-Panel 30 × 120 cm, 36 W, neutralweiß",
+          "description": "Schmales LED-Deckenpanel mit 4000 K, für Büros und Gänge in abgehängten Decken."
+        },
+        "en-US": {
+          "name": "LED panel 30 × 120 cm, 36 W, neutral white",
+          "description": "Narrow LED ceiling panel with 4000 K, for offices and corridors in suspended ceilings."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-3007",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-HELLGRUND",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-3007",
+    "attribute_values": {
+      "common": {
+        "demo_ele_length": {
+          "amount": "0.6",
+          "unit": "METER"
+        },
+        "demo_ele_wattage": {
+          "amount": "9",
+          "unit": "WATT"
+        },
+        "demo_ele_luminous_flux": {
+          "amount": "1000",
+          "unit": "LUMEN"
+        },
+        "demo_ele_colour_temperature": {
+          "amount": "4000",
+          "unit": "KELVIN"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "230",
+          "unit": "VOLT"
+        },
+        "demo_ele_ip_rating": "ip20",
+        "demo_ele_weight": {
+          "amount": "0.1",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-3007.png",
+        "demo_ele_images": [
+          "DEMO-ELE-3007-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "LED-Röhre T8, 600 mm, 9 W",
+          "description": "LED-Röhre im T8-Format mit Glasröhre, für kurze Leuchten mit Lampenfassung."
+        },
+        "en-US": {
+          "name": "LED tube T8, 600 mm, 9 W",
+          "description": "T8-format LED tube with glass body, for short luminaires with lamp holders."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-3008",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-HELLGRUND",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-3008",
+    "attribute_values": {
+      "common": {
+        "demo_ele_length": {
+          "amount": "1.2",
+          "unit": "METER"
+        },
+        "demo_ele_wattage": {
+          "amount": "18",
+          "unit": "WATT"
+        },
+        "demo_ele_luminous_flux": {
+          "amount": "2100",
+          "unit": "LUMEN"
+        },
+        "demo_ele_colour_temperature": {
+          "amount": "4000",
+          "unit": "KELVIN"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "230",
+          "unit": "VOLT"
+        },
+        "demo_ele_ip_rating": "ip20",
+        "demo_ele_weight": {
+          "amount": "0.18",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-3008.png",
+        "demo_ele_images": [
+          "DEMO-ELE-3008-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "LED-Röhre T8, 1200 mm, 18 W",
+          "description": "LED-Röhre im T8-Format mit Glasröhre, für Leuchten mit Lampenfassung."
+        },
+        "en-US": {
+          "name": "LED tube T8, 1200 mm, 18 W",
+          "description": "T8-format LED tube with glass body, for luminaires with lamp holders."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-3009",
+    "kind": "model",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-HELLGRUND",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-3009",
+    "attribute_values": {
+      "common": {
+        "demo_ele_wattage": {
+          "amount": "8",
+          "unit": "WATT"
+        },
+        "demo_ele_luminous_flux": {
+          "amount": "640",
+          "unit": "LUMEN"
+        },
+        "demo_ele_colour_temperature": {
+          "amount": "3000",
+          "unit": "KELVIN"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "230",
+          "unit": "VOLT"
+        },
+        "demo_ele_ip_rating": "ip44",
+        "demo_ele_diameter": {
+          "amount": "90",
+          "unit": "MILLIMETER"
+        },
+        "demo_ele_weight": {
+          "amount": "0.3",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-3009.png",
+        "demo_ele_images": [
+          "DEMO-ELE-3009-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Einbaustrahler LED 8 W, Ø 90 mm",
+          "description": "Schwenkbarer LED-Einbaustrahler mit 90 mm Einbaudurchmesser und 3000 K."
+        },
+        "en-US": {
+          "name": "Recessed LED downlight 8 W, Ø 90 mm",
+          "description": "Tiltable recessed LED downlight with 90 mm cut-out diameter and 3000 K."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR"
+  },
+  {
+    "sku": "DEMO-ELE-3009-WHITE",
+    "kind": "variant",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-HELLGRUND",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-3009-WHITE",
+    "attribute_values": {
+      "common": {
+        "demo_ele_wattage": {
+          "amount": "8",
+          "unit": "WATT"
+        },
+        "demo_ele_luminous_flux": {
+          "amount": "640",
+          "unit": "LUMEN"
+        },
+        "demo_ele_colour_temperature": {
+          "amount": "3000",
+          "unit": "KELVIN"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "230",
+          "unit": "VOLT"
+        },
+        "demo_ele_ip_rating": "ip44",
+        "demo_ele_diameter": {
+          "amount": "90",
+          "unit": "MILLIMETER"
+        },
+        "demo_ele_weight": {
+          "amount": "0.3",
+          "unit": "KILOGRAM"
+        },
+        "demo_ele_colour": "white",
+        "image": "sample-data/electrical/demo-ele-3009-white.png",
+        "demo_ele_images": [
+          "DEMO-ELE-3009-WHITE-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Einbaustrahler LED 8 W, weiß",
+          "description": "Schwenkbarer LED-Einbaustrahler mit 90 mm Einbaudurchmesser und 3000 K."
+        },
+        "en-US": {
+          "name": "Recessed LED downlight 8 W, white",
+          "description": "Tiltable recessed LED downlight with 90 mm cut-out diameter and 3000 K."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR",
+    "parent": "DEMO-ELE-3009"
+  },
+  {
+    "sku": "DEMO-ELE-3009-BLACK",
+    "kind": "variant",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-HELLGRUND",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-3009-BLACK",
+    "attribute_values": {
+      "common": {
+        "demo_ele_wattage": {
+          "amount": "8",
+          "unit": "WATT"
+        },
+        "demo_ele_luminous_flux": {
+          "amount": "640",
+          "unit": "LUMEN"
+        },
+        "demo_ele_colour_temperature": {
+          "amount": "3000",
+          "unit": "KELVIN"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "230",
+          "unit": "VOLT"
+        },
+        "demo_ele_ip_rating": "ip44",
+        "demo_ele_diameter": {
+          "amount": "90",
+          "unit": "MILLIMETER"
+        },
+        "demo_ele_weight": {
+          "amount": "0.3",
+          "unit": "KILOGRAM"
+        },
+        "demo_ele_colour": "black",
+        "image": "sample-data/electrical/demo-ele-3009-black.png",
+        "demo_ele_images": [
+          "DEMO-ELE-3009-BLACK-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Einbaustrahler LED 8 W, schwarz",
+          "description": "Schwenkbarer LED-Einbaustrahler mit 90 mm Einbaudurchmesser und 3000 K."
+        },
+        "en-US": {
+          "name": "Recessed LED downlight 8 W, black",
+          "description": "Tiltable recessed LED downlight with 90 mm cut-out diameter and 3000 K."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR",
+    "parent": "DEMO-ELE-3009"
+  },
+  {
+    "sku": "DEMO-ELE-3009-ANTHRACITE",
+    "kind": "variant",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-HELLGRUND",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-3009-ANTHRACITE",
+    "attribute_values": {
+      "common": {
+        "demo_ele_wattage": {
+          "amount": "8",
+          "unit": "WATT"
+        },
+        "demo_ele_luminous_flux": {
+          "amount": "640",
+          "unit": "LUMEN"
+        },
+        "demo_ele_colour_temperature": {
+          "amount": "3000",
+          "unit": "KELVIN"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "230",
+          "unit": "VOLT"
+        },
+        "demo_ele_ip_rating": "ip44",
+        "demo_ele_diameter": {
+          "amount": "90",
+          "unit": "MILLIMETER"
+        },
+        "demo_ele_weight": {
+          "amount": "0.3",
+          "unit": "KILOGRAM"
+        },
+        "demo_ele_colour": "anthracite",
+        "image": "sample-data/electrical/demo-ele-3009-anthracite.png",
+        "demo_ele_images": [
+          "DEMO-ELE-3009-ANTHRACITE-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Einbaustrahler LED 8 W, anthrazit",
+          "description": "Schwenkbarer LED-Einbaustrahler mit 90 mm Einbaudurchmesser und 3000 K."
+        },
+        "en-US": {
+          "name": "Recessed LED downlight 8 W, anthracite",
+          "description": "Tiltable recessed LED downlight with 90 mm cut-out diameter and 3000 K."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR",
+    "parent": "DEMO-ELE-3009"
+  },
+  {
+    "sku": "DEMO-ELE-3010",
+    "kind": "model",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-HELLGRUND",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-3010",
+    "attribute_values": {
+      "common": {
+        "demo_ele_wattage": {
+          "amount": "12",
+          "unit": "WATT"
+        },
+        "demo_ele_luminous_flux": {
+          "amount": "1100",
+          "unit": "LUMEN"
+        },
+        "demo_ele_colour_temperature": {
+          "amount": "3000",
+          "unit": "KELVIN"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "230",
+          "unit": "VOLT"
+        },
+        "demo_ele_ip_rating": "ip44",
+        "demo_ele_weight": {
+          "amount": "0.9",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-3010.png",
+        "demo_ele_images": [
+          "DEMO-ELE-3010-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Wandleuchte LED 12 W, IP44",
+          "description": "Wandleuchte mit LED-Modul und Spritzwasserschutz, 3000 K."
+        },
+        "en-US": {
+          "name": "LED wall luminaire 12 W, IP44",
+          "description": "Wall luminaire with LED module and splash protection, 3000 K."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR"
+  },
+  {
+    "sku": "DEMO-ELE-3010-WHITE",
+    "kind": "variant",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-HELLGRUND",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-3010-WHITE",
+    "attribute_values": {
+      "common": {
+        "demo_ele_wattage": {
+          "amount": "12",
+          "unit": "WATT"
+        },
+        "demo_ele_luminous_flux": {
+          "amount": "1100",
+          "unit": "LUMEN"
+        },
+        "demo_ele_colour_temperature": {
+          "amount": "3000",
+          "unit": "KELVIN"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "230",
+          "unit": "VOLT"
+        },
+        "demo_ele_ip_rating": "ip44",
+        "demo_ele_weight": {
+          "amount": "0.9",
+          "unit": "KILOGRAM"
+        },
+        "demo_ele_colour": "white",
+        "image": "sample-data/electrical/demo-ele-3010-white.png",
+        "demo_ele_images": [
+          "DEMO-ELE-3010-WHITE-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Wandleuchte LED 12 W, weiß",
+          "description": "Wandleuchte mit LED-Modul und Spritzwasserschutz, 3000 K."
+        },
+        "en-US": {
+          "name": "LED wall luminaire 12 W, white",
+          "description": "Wall luminaire with LED module and splash protection, 3000 K."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR",
+    "parent": "DEMO-ELE-3010"
+  },
+  {
+    "sku": "DEMO-ELE-3010-BLACK",
+    "kind": "variant",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-HELLGRUND",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-3010-BLACK",
+    "attribute_values": {
+      "common": {
+        "demo_ele_wattage": {
+          "amount": "12",
+          "unit": "WATT"
+        },
+        "demo_ele_luminous_flux": {
+          "amount": "1100",
+          "unit": "LUMEN"
+        },
+        "demo_ele_colour_temperature": {
+          "amount": "3000",
+          "unit": "KELVIN"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "230",
+          "unit": "VOLT"
+        },
+        "demo_ele_ip_rating": "ip44",
+        "demo_ele_weight": {
+          "amount": "0.9",
+          "unit": "KILOGRAM"
+        },
+        "demo_ele_colour": "black",
+        "image": "sample-data/electrical/demo-ele-3010-black.png",
+        "demo_ele_images": [
+          "DEMO-ELE-3010-BLACK-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Wandleuchte LED 12 W, schwarz",
+          "description": "Wandleuchte mit LED-Modul und Spritzwasserschutz, 3000 K."
+        },
+        "en-US": {
+          "name": "LED wall luminaire 12 W, black",
+          "description": "Wall luminaire with LED module and splash protection, 3000 K."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR",
+    "parent": "DEMO-ELE-3010"
+  },
+  {
+    "sku": "DEMO-ELE-3010-ANTHRACITE",
+    "kind": "variant",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-HELLGRUND",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-3010-ANTHRACITE",
+    "attribute_values": {
+      "common": {
+        "demo_ele_wattage": {
+          "amount": "12",
+          "unit": "WATT"
+        },
+        "demo_ele_luminous_flux": {
+          "amount": "1100",
+          "unit": "LUMEN"
+        },
+        "demo_ele_colour_temperature": {
+          "amount": "3000",
+          "unit": "KELVIN"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "230",
+          "unit": "VOLT"
+        },
+        "demo_ele_ip_rating": "ip44",
+        "demo_ele_weight": {
+          "amount": "0.9",
+          "unit": "KILOGRAM"
+        },
+        "demo_ele_colour": "anthracite",
+        "image": "sample-data/electrical/demo-ele-3010-anthracite.png",
+        "demo_ele_images": [
+          "DEMO-ELE-3010-ANTHRACITE-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Wandleuchte LED 12 W, anthrazit",
+          "description": "Wandleuchte mit LED-Modul und Spritzwasserschutz, 3000 K."
+        },
+        "en-US": {
+          "name": "LED wall luminaire 12 W, anthracite",
+          "description": "Wall luminaire with LED module and splash protection, 3000 K."
+        }
+      }
+    },
+    "family_variant": "DEMO-ELE-BY-COLOUR",
+    "parent": "DEMO-ELE-3010"
+  },
+  {
+    "sku": "DEMO-ELE-3011",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-HELLGRUND",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-3011",
+    "attribute_values": {
+      "common": {
+        "demo_ele_wattage": {
+          "amount": "24",
+          "unit": "WATT"
+        },
+        "demo_ele_luminous_flux": {
+          "amount": "2400",
+          "unit": "LUMEN"
+        },
+        "demo_ele_colour_temperature": {
+          "amount": "4000",
+          "unit": "KELVIN"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "230",
+          "unit": "VOLT"
+        },
+        "demo_ele_ip_rating": "ip20",
+        "demo_ele_diameter": {
+          "amount": "400",
+          "unit": "MILLIMETER"
+        },
+        "demo_ele_weight": {
+          "amount": "1.6",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-3011.png",
+        "demo_ele_images": [
+          "DEMO-ELE-3011-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Pendelleuchte LED 24 W, Ø 40 cm",
+          "description": "Pendelleuchte mit LED-Modul und 40 cm Durchmesser, für Wohn- und Büroräume."
+        },
+        "en-US": {
+          "name": "LED pendant luminaire 24 W, Ø 40 cm",
+          "description": "LED pendant luminaire with 40 cm diameter, for living and office spaces."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-3012",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-HELLGRUND",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-3012",
+    "attribute_values": {
+      "common": {
+        "demo_ele_wattage": {
+          "amount": "18",
+          "unit": "WATT"
+        },
+        "demo_ele_luminous_flux": {
+          "amount": "1800",
+          "unit": "LUMEN"
+        },
+        "demo_ele_colour_temperature": {
+          "amount": "4000",
+          "unit": "KELVIN"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "230",
+          "unit": "VOLT"
+        },
+        "demo_ele_ip_rating": "ip20",
+        "demo_ele_diameter": {
+          "amount": "300",
+          "unit": "MILLIMETER"
+        },
+        "demo_ele_weight": {
+          "amount": "0.9",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-3012.png",
+        "demo_ele_images": [
+          "DEMO-ELE-3012-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Deckenleuchte LED 18 W, Ø 30 cm",
+          "description": "Flache Deckenleuchte mit LED-Modul und 30 cm Durchmesser."
+        },
+        "en-US": {
+          "name": "LED ceiling luminaire 18 W, Ø 30 cm",
+          "description": "Flat LED ceiling luminaire with 30 cm diameter."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-3013",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-HELLGRUND",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-3013",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "surface",
+        "demo_ele_ip_rating": "ip20",
+        "demo_ele_detection_angle": {
+          "amount": "360",
+          "unit": "DEGREE"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "230",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.1",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-3013.png",
+        "demo_ele_images": [
+          "DEMO-ELE-3013-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Bewegungsmelder 360°, Decke",
+          "description": "Infrarot-Bewegungsmelder mit 360° Erfassungswinkel für Deckenmontage."
+        },
+        "en-US": {
+          "name": "Motion sensor 360°, ceiling",
+          "description": "Infrared motion sensor with 360° detection angle, for ceiling mounting."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-3014",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-HELLGRUND",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-3014",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "surface",
+        "demo_ele_ip_rating": "ip20",
+        "demo_ele_detection_angle": {
+          "amount": "360",
+          "unit": "DEGREE"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "230",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.12",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-3014.png",
+        "demo_ele_images": [
+          "DEMO-ELE-3014-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Präsenzmelder 360°, Decke",
+          "description": "Präsenzmelder mit 360° Erfassungswinkel und einstellbarer Nachlaufzeit, für Deckenmontage."
+        },
+        "en-US": {
+          "name": "Presence detector 360°, ceiling",
+          "description": "Presence detector with 360° detection angle and adjustable hold time, for ceiling mounting."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-3015",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-HELLGRUND",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-3015",
+    "attribute_values": {
+      "common": {
+        "demo_ele_lamp_base": "e27",
+        "demo_ele_wattage": {
+          "amount": "6",
+          "unit": "WATT"
+        },
+        "demo_ele_luminous_flux": {
+          "amount": "470",
+          "unit": "LUMEN"
+        },
+        "demo_ele_colour_temperature": {
+          "amount": "2700",
+          "unit": "KELVIN"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "230",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.06",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-3015.png",
+        "demo_ele_images": [
+          "DEMO-ELE-3015-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "LED-Lampe E27, 6 W, 2700 K",
+          "description": "LED-Lampe mit E27-Sockel, 470 Lumen, warmweißes Licht."
+        },
+        "en-US": {
+          "name": "LED lamp E27, 6 W, 2700 K",
+          "description": "LED lamp with E27 base, 470 lumen, warm white light."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-3016",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-HELLGRUND",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-3016",
+    "attribute_values": {
+      "common": {
+        "demo_ele_lamp_base": "e27",
+        "demo_ele_wattage": {
+          "amount": "9",
+          "unit": "WATT"
+        },
+        "demo_ele_luminous_flux": {
+          "amount": "806",
+          "unit": "LUMEN"
+        },
+        "demo_ele_colour_temperature": {
+          "amount": "2700",
+          "unit": "KELVIN"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "230",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.07",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-3016.png",
+        "demo_ele_images": [
+          "DEMO-ELE-3016-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "LED-Lampe E27, 9 W, 2700 K",
+          "description": "LED-Lampe mit E27-Sockel, 806 Lumen, warmweißes Licht."
+        },
+        "en-US": {
+          "name": "LED lamp E27, 9 W, 2700 K",
+          "description": "LED lamp with E27 base, 806 lumen, warm white light."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-3017",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-HELLGRUND",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-3017",
+    "attribute_values": {
+      "common": {
+        "demo_ele_lamp_base": "e27",
+        "demo_ele_wattage": {
+          "amount": "13",
+          "unit": "WATT"
+        },
+        "demo_ele_luminous_flux": {
+          "amount": "1521",
+          "unit": "LUMEN"
+        },
+        "demo_ele_colour_temperature": {
+          "amount": "2700",
+          "unit": "KELVIN"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "230",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.09",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-3017.png",
+        "demo_ele_images": [
+          "DEMO-ELE-3017-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "LED-Lampe E27, 13 W, 2700 K",
+          "description": "LED-Lampe mit E27-Sockel, 1521 Lumen, warmweißes Licht."
+        },
+        "en-US": {
+          "name": "LED lamp E27, 13 W, 2700 K",
+          "description": "LED lamp with E27 base, 1521 lumen, warm white light."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-3018",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-HELLGRUND",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-3018",
+    "attribute_values": {
+      "common": {
+        "demo_ele_length": {
+          "amount": "5",
+          "unit": "METER"
+        },
+        "demo_ele_wattage": {
+          "amount": "72",
+          "unit": "WATT"
+        },
+        "demo_ele_colour_temperature": {
+          "amount": "3000",
+          "unit": "KELVIN"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "24",
+          "unit": "VOLT"
+        },
+        "demo_ele_ip_rating": "ip20",
+        "demo_ele_weight": {
+          "amount": "0.6",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-3018.png",
+        "demo_ele_images": [
+          "DEMO-ELE-3018-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "LED-Streifen 5 m, 24 V, warmweiß",
+          "description": "Flexibler LED-Streifen mit 3000 K auf 5 m Rolle, für indirekte Beleuchtung."
+        },
+        "en-US": {
+          "name": "LED strip 5 m, 24 V, warm white",
+          "description": "Flexible LED strip with 3000 K on a 5 m reel, for indirect lighting."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-3019",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-HELLGRUND",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-3019",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "surface",
+        "demo_ele_ip_rating": "ip44",
+        "demo_ele_wattage": {
+          "amount": "14",
+          "unit": "WATT"
+        },
+        "demo_ele_luminous_flux": {
+          "amount": "1300",
+          "unit": "LUMEN"
+        },
+        "demo_ele_colour_temperature": {
+          "amount": "4000",
+          "unit": "KELVIN"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "230",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "1.1",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-3019.png",
+        "demo_ele_images": [
+          "DEMO-ELE-3019-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Spiegelleuchte LED 14 W, IP44",
+          "description": "Spiegelleuchte mit LED-Modul und Spritzwasserschutz für Bäder, 4000 K."
+        },
+        "en-US": {
+          "name": "LED mirror light 14 W, IP44",
+          "description": "Mirror light with LED module and splash protection for bathrooms, 4000 K."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-4001",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-4001",
+    "attribute_values": {
+      "common": {
+        "demo_ele_poles": "1p",
+        "demo_ele_trip_curve": "b",
+        "demo_ele_rated_current": {
+          "amount": "10",
+          "unit": "AMPERE"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "230",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.07",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-4001.png",
+        "demo_ele_images": [
+          "DEMO-ELE-4001-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Leitungsschutzschalter 1-polig, B 10 A",
+          "description": "Leitungsschutzschalter mit Auslösecharakteristik B für Stromkreise bis 10 A."
+        },
+        "en-US": {
+          "name": "Circuit breaker 1-pole, B 10 A",
+          "description": "Miniature circuit breaker with trip characteristic B for circuits up to 10 A."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-4002",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-4002",
+    "attribute_values": {
+      "common": {
+        "demo_ele_poles": "1p",
+        "demo_ele_trip_curve": "b",
+        "demo_ele_rated_current": {
+          "amount": "16",
+          "unit": "AMPERE"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "230",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.07",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-4002.png",
+        "demo_ele_images": [
+          "DEMO-ELE-4002-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Leitungsschutzschalter 1-polig, B 16 A",
+          "description": "Leitungsschutzschalter mit Auslösecharakteristik B für Stromkreise bis 16 A."
+        },
+        "en-US": {
+          "name": "Circuit breaker 1-pole, B 16 A",
+          "description": "Miniature circuit breaker with trip characteristic B for circuits up to 16 A."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-4003",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-4003",
+    "attribute_values": {
+      "common": {
+        "demo_ele_poles": "1p",
+        "demo_ele_trip_curve": "c",
+        "demo_ele_rated_current": {
+          "amount": "16",
+          "unit": "AMPERE"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "230",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.07",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-4003.png",
+        "demo_ele_images": [
+          "DEMO-ELE-4003-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Leitungsschutzschalter 1-polig, C 16 A",
+          "description": "Leitungsschutzschalter mit Auslösecharakteristik C, für Stromkreise mit Anlaufströmen bis 16 A."
+        },
+        "en-US": {
+          "name": "Circuit breaker 1-pole, C 16 A",
+          "description": "Miniature circuit breaker with trip characteristic C, for circuits with inrush currents up to 16 A."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-4004",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-4004",
+    "attribute_values": {
+      "common": {
+        "demo_ele_poles": "3p",
+        "demo_ele_trip_curve": "b",
+        "demo_ele_rated_current": {
+          "amount": "16",
+          "unit": "AMPERE"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "400",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.2",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-4004.png",
+        "demo_ele_images": [
+          "DEMO-ELE-4004-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Leitungsschutzschalter 3-polig, B 16 A",
+          "description": "Leitungsschutzschalter für Drehstromkreise bis 16 A, Charakteristik B."
+        },
+        "en-US": {
+          "name": "Circuit breaker 3-pole, B 16 A",
+          "description": "Miniature circuit breaker for three-phase circuits up to 16 A, characteristic B."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-4005",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-4005",
+    "attribute_values": {
+      "common": {
+        "demo_ele_poles": "3p",
+        "demo_ele_trip_curve": "b",
+        "demo_ele_rated_current": {
+          "amount": "32",
+          "unit": "AMPERE"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "400",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.2",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-4005.png",
+        "demo_ele_images": [
+          "DEMO-ELE-4005-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Leitungsschutzschalter 3-polig, B 32 A",
+          "description": "Leitungsschutzschalter für Drehstromkreise bis 32 A, Charakteristik B."
+        },
+        "en-US": {
+          "name": "Circuit breaker 3-pole, B 32 A",
+          "description": "Miniature circuit breaker for three-phase circuits up to 32 A, characteristic B."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-4006",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-4006",
+    "attribute_values": {
+      "common": {
+        "demo_ele_poles": "2p",
+        "demo_ele_rated_current": {
+          "amount": "40",
+          "unit": "AMPERE"
+        },
+        "demo_ele_sensitivity": "ma30",
+        "demo_ele_rated_voltage": {
+          "amount": "230",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.2",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-4006.png",
+        "demo_ele_images": [
+          "DEMO-ELE-4006-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "FI-Schutzschalter 2-polig, 40 A, 30 mA",
+          "description": "Fehlerstrom-Schutzschalter mit 30 mA Auslösestrom für Stromkreise bis 40 A."
+        },
+        "en-US": {
+          "name": "Residual current device 2-pole, 40 A, 30 mA",
+          "description": "Residual current device with 30 mA tripping current for circuits up to 40 A."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-4007",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-4007",
+    "attribute_values": {
+      "common": {
+        "demo_ele_poles": "4p",
+        "demo_ele_rated_current": {
+          "amount": "40",
+          "unit": "AMPERE"
+        },
+        "demo_ele_sensitivity": "ma30",
+        "demo_ele_rated_voltage": {
+          "amount": "400",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.4",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-4007.png",
+        "demo_ele_images": [
+          "DEMO-ELE-4007-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "FI-Schutzschalter 4-polig, 40 A, 30 mA",
+          "description": "Fehlerstrom-Schutzschalter für Drehstromkreise bis 40 A, mit 30 mA Auslösestrom."
+        },
+        "en-US": {
+          "name": "Residual current device 4-pole, 40 A, 30 mA",
+          "description": "Residual current device for three-phase circuits up to 40 A, with 30 mA tripping current."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-4008",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-4008",
+    "attribute_values": {
+      "common": {
+        "demo_ele_poles": "4p",
+        "demo_ele_rated_current": {
+          "amount": "63",
+          "unit": "AMPERE"
+        },
+        "demo_ele_sensitivity": "ma300",
+        "demo_ele_rated_voltage": {
+          "amount": "400",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.4",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-4008.png",
+        "demo_ele_images": [
+          "DEMO-ELE-4008-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "FI-Schutzschalter 4-polig, 63 A, 300 mA",
+          "description": "Fehlerstrom-Schutzschalter für Hauptstromkreise bis 63 A, mit 300 mA Auslösestrom."
+        },
+        "en-US": {
+          "name": "Residual current device 4-pole, 63 A, 300 mA",
+          "description": "Residual current device for main circuits up to 63 A, with 300 mA tripping current."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-4009",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-4009",
+    "attribute_values": {
+      "common": {
+        "demo_ele_poles": "1pn",
+        "demo_ele_trip_curve": "b",
+        "demo_ele_rated_current": {
+          "amount": "16",
+          "unit": "AMPERE"
+        },
+        "demo_ele_sensitivity": "ma30",
+        "demo_ele_rated_voltage": {
+          "amount": "230",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.2",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-4009.png",
+        "demo_ele_images": [
+          "DEMO-ELE-4009-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "FI/LS-Kombination 1-polig + N, B 16 A, 30 mA",
+          "description": "Kombination aus Leitungsschutz und Fehlerstrom-Schutz mit 30 mA, Charakteristik B."
+        },
+        "en-US": {
+          "name": "Combined RCD and circuit breaker 1-pole + N, B 16 A, 30 mA",
+          "description": "Combined circuit breaker and residual current protection with 30 mA, characteristic B."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-4010",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-4010",
+    "attribute_values": {
+      "common": {
+        "demo_ele_poles": "1pn",
+        "demo_ele_rated_voltage": {
+          "amount": "230",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.3",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-4010.png",
+        "demo_ele_images": [
+          "DEMO-ELE-4010-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Überspannungsschutz Typ 2, 1-polig + N",
+          "description": "Überspannungsableiter für den Einbau in Verteiler, mit Zustandsanzeige."
+        },
+        "en-US": {
+          "name": "Surge protective device type 2, 1-pole + N",
+          "description": "Surge protective device for installation in distribution boards, with status indicator."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-4011",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-4011",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "surface",
+        "demo_ele_ip_rating": "ip40",
+        "demo_ele_modules": 12,
+        "demo_ele_rated_voltage": {
+          "amount": "400",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "1.1",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-4011.png",
+        "demo_ele_images": [
+          "DEMO-ELE-4011-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Kleinverteiler Aufputz, 12 Module, IP40",
+          "description": "Kunststoff-Kleinverteiler mit Hutschiene und Tür für 12 Teilungseinheiten."
+        },
+        "en-US": {
+          "name": "Surface-mounted distribution board, 12 modules, IP40",
+          "description": "Plastic distribution board with top-hat rail and door for 12 module units."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-4012",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-4012",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "surface",
+        "demo_ele_ip_rating": "ip40",
+        "demo_ele_modules": 24,
+        "demo_ele_rated_voltage": {
+          "amount": "400",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "1.9",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-4012.png",
+        "demo_ele_images": [
+          "DEMO-ELE-4012-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Kleinverteiler Aufputz, 24 Module, IP40",
+          "description": "Kunststoff-Kleinverteiler mit Hutschiene und Tür für 24 Teilungseinheiten."
+        },
+        "en-US": {
+          "name": "Surface-mounted distribution board, 24 modules, IP40",
+          "description": "Plastic distribution board with top-hat rail and door for 24 module units."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-4013",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-4013",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "flush",
+        "demo_ele_ip_rating": "ip40",
+        "demo_ele_modules": 24,
+        "demo_ele_rated_voltage": {
+          "amount": "400",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "2.2",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-4013.png",
+        "demo_ele_images": [
+          "DEMO-ELE-4013-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Kleinverteiler Unterputz, 24 Module, IP40",
+          "description": "Kleinverteiler für die Unterputzmontage mit Hutschiene und Tür für 24 Teilungseinheiten."
+        },
+        "en-US": {
+          "name": "Flush-mounted distribution board, 24 modules, IP40",
+          "description": "Distribution board for flush mounting with top-hat rail and door for 24 module units."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-5001",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-5001",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "flush",
+        "demo_ele_diameter": {
+          "amount": "60",
+          "unit": "MILLIMETER"
+        },
+        "demo_ele_box_depth": {
+          "amount": "60",
+          "unit": "MILLIMETER"
+        },
+        "demo_ele_weight": {
+          "amount": "0.05",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-5001.png",
+        "demo_ele_images": [
+          "DEMO-ELE-5001-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Unterputzdose Ø 60 mm, 60 mm tief",
+          "description": "Gerätedose für Massivwände und Beton, mit Schraublöchern für Geräteeinsätze."
+        },
+        "en-US": {
+          "name": "Flush-mounted box Ø 60 mm, 60 mm deep",
+          "description": "Device box for solid walls and concrete, with screw holes for device inserts."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-5002",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-5002",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "cavity",
+        "demo_ele_diameter": {
+          "amount": "68",
+          "unit": "MILLIMETER"
+        },
+        "demo_ele_box_depth": {
+          "amount": "42",
+          "unit": "MILLIMETER"
+        },
+        "demo_ele_weight": {
+          "amount": "0.04",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-5002.png",
+        "demo_ele_images": [
+          "DEMO-ELE-5002-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Hohlwanddose Ø 68 mm, 42 mm tief",
+          "description": "Gerätedose für Hohlwände aus Gipskarton, mit Befestigungsklammern."
+        },
+        "en-US": {
+          "name": "Cavity wall box Ø 68 mm, 42 mm deep",
+          "description": "Device box for cavity walls made of plasterboard, with fixing clamps."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-5003",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-5003",
+    "attribute_values": {
+      "common": {
+        "demo_ele_mounting": "surface",
+        "demo_ele_ip_rating": "ip44",
+        "demo_ele_weight": {
+          "amount": "0.08",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-5003.png",
+        "demo_ele_images": [
+          "DEMO-ELE-5003-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Aufputzgehäuse 1-fach, IP44",
+          "description": "Gehäuse für ein Schalter- oder Steckdosengerät in Aufputzmontage."
+        },
+        "en-US": {
+          "name": "Surface-mounted housing 1-gang, IP44",
+          "description": "Housing for one switch or socket device in surface mounting."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-5004",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-5004",
+    "attribute_values": {
+      "common": {
+        "demo_ele_item_length": {
+          "amount": "100",
+          "unit": "MILLIMETER"
+        },
+        "demo_ele_pack_size": 100,
+        "demo_ele_weight": {
+          "amount": "0.01",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-5004.png",
+        "demo_ele_images": [
+          "DEMO-ELE-5004-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Kabelbinder 100 × 2,5 mm, 100 Stück",
+          "description": "Kabelbinder aus Kunststoff, UV-stabilisiert, zum Bündeln von Leitungen."
+        },
+        "en-US": {
+          "name": "Cable ties 100 × 2.5 mm, pack of 100",
+          "description": "Plastic cable ties, UV-stabilised, for bundling cables."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-5005",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-5005",
+    "attribute_values": {
+      "common": {
+        "demo_ele_item_length": {
+          "amount": "200",
+          "unit": "MILLIMETER"
+        },
+        "demo_ele_pack_size": 100,
+        "demo_ele_weight": {
+          "amount": "0.03",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-5005.png",
+        "demo_ele_images": [
+          "DEMO-ELE-5005-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Kabelbinder 200 × 3,6 mm, 100 Stück",
+          "description": "Kabelbinder aus Kunststoff, UV-stabilisiert, für mittlere Leitungsbündel."
+        },
+        "en-US": {
+          "name": "Cable ties 200 × 3.6 mm, pack of 100",
+          "description": "Plastic cable ties, UV-stabilised, for medium cable bundles."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-5006",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-5006",
+    "attribute_values": {
+      "common": {
+        "demo_ele_item_length": {
+          "amount": "300",
+          "unit": "MILLIMETER"
+        },
+        "demo_ele_pack_size": 100,
+        "demo_ele_weight": {
+          "amount": "0.07",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-5006.png",
+        "demo_ele_images": [
+          "DEMO-ELE-5006-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Kabelbinder 300 × 4,8 mm, 100 Stück",
+          "description": "Kabelbinder aus Kunststoff, UV-stabilisiert, für große Leitungsbündel."
+        },
+        "en-US": {
+          "name": "Cable ties 300 × 4.8 mm, pack of 100",
+          "description": "Plastic cable ties, UV-stabilised, for large cable bundles."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-5007",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-5007",
+    "attribute_values": {
+      "common": {
+        "demo_ele_colour": "white",
+        "demo_ele_length": {
+          "amount": "2",
+          "unit": "METER"
+        },
+        "demo_ele_weight": {
+          "amount": "0.3",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-5007.png",
+        "demo_ele_images": [
+          "DEMO-ELE-5007-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Kabelkanal 40 × 25 mm, 2 m, weiß",
+          "description": "Kunststoff-Kabelkanal mit Deckel für Leitungen in trockenen Räumen."
+        },
+        "en-US": {
+          "name": "Cable trunking 40 × 25 mm, 2 m, white",
+          "description": "Plastic cable trunking with lid for cables in dry rooms."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-5008",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-5008",
+    "attribute_values": {
+      "common": {
+        "demo_ele_colour": "white",
+        "demo_ele_length": {
+          "amount": "2",
+          "unit": "METER"
+        },
+        "demo_ele_weight": {
+          "amount": "0.5",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-5008.png",
+        "demo_ele_images": [
+          "DEMO-ELE-5008-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Kabelkanal 60 × 40 mm, 2 m, weiß",
+          "description": "Kunststoff-Kabelkanal mit Deckel für größere Leitungsbündel in trockenen Räumen."
+        },
+        "en-US": {
+          "name": "Cable trunking 60 × 40 mm, 2 m, white",
+          "description": "Plastic cable trunking with lid for larger cable bundles in dry rooms."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-5009",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-5009",
+    "attribute_values": {
+      "common": {
+        "demo_ele_diameter": {
+          "amount": "16",
+          "unit": "MILLIMETER"
+        },
+        "demo_ele_length": {
+          "amount": "50",
+          "unit": "METER"
+        },
+        "demo_ele_weight": {
+          "amount": "3.1",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-5009.png",
+        "demo_ele_images": [
+          "DEMO-ELE-5009-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Installationsrohr flexibel Ø 16 mm, 50 m",
+          "description": "Flexibles Installationsrohr aus Kunststoff zum Einziehen von Leitungen in Putz und Estrich."
+        },
+        "en-US": {
+          "name": "Flexible conduit Ø 16 mm, 50 m",
+          "description": "Flexible plastic conduit for pulling cables into plaster and screed."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-5010",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-5010",
+    "attribute_values": {
+      "common": {
+        "demo_ele_diameter": {
+          "amount": "20",
+          "unit": "MILLIMETER"
+        },
+        "demo_ele_length": {
+          "amount": "50",
+          "unit": "METER"
+        },
+        "demo_ele_weight": {
+          "amount": "4.2",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-5010.png",
+        "demo_ele_images": [
+          "DEMO-ELE-5010-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Installationsrohr flexibel Ø 20 mm, 50 m",
+          "description": "Flexibles Installationsrohr aus Kunststoff zum Einziehen von Leitungen in Putz und Estrich."
+        },
+        "en-US": {
+          "name": "Flexible conduit Ø 20 mm, 50 m",
+          "description": "Flexible plastic conduit for pulling cables into plaster and screed."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-5011",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-5011",
+    "attribute_values": {
+      "common": {
+        "demo_ele_diameter": {
+          "amount": "25",
+          "unit": "MILLIMETER"
+        },
+        "demo_ele_length": {
+          "amount": "50",
+          "unit": "METER"
+        },
+        "demo_ele_weight": {
+          "amount": "5.6",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-5011.png",
+        "demo_ele_images": [
+          "DEMO-ELE-5011-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Installationsrohr flexibel Ø 25 mm, 50 m",
+          "description": "Flexibles Installationsrohr aus Kunststoff für mehrere Leitungen in Putz und Estrich."
+        },
+        "en-US": {
+          "name": "Flexible conduit Ø 25 mm, 50 m",
+          "description": "Flexible plastic conduit for several cables in plaster and screed."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-5012",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-5012",
+    "attribute_values": {
+      "common": {
+        "demo_ele_thread": "m16",
+        "demo_ele_ip_rating": "ip68",
+        "demo_ele_weight": {
+          "amount": "0.01",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-5012.png",
+        "demo_ele_images": [
+          "DEMO-ELE-5012-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Kabelverschraubung M16, IP68",
+          "description": "Kunststoff-Kabelverschraubung mit Dichteinsatz für Leitungen bis 10 mm Außendurchmesser."
+        },
+        "en-US": {
+          "name": "Cable gland M16, IP68",
+          "description": "Plastic cable gland with sealing insert for cables up to 10 mm outer diameter."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-5013",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-5013",
+    "attribute_values": {
+      "common": {
+        "demo_ele_thread": "m20",
+        "demo_ele_ip_rating": "ip68",
+        "demo_ele_weight": {
+          "amount": "0.02",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-5013.png",
+        "demo_ele_images": [
+          "DEMO-ELE-5013-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Kabelverschraubung M20, IP68",
+          "description": "Kunststoff-Kabelverschraubung mit Dichteinsatz für Leitungen bis 14 mm Außendurchmesser."
+        },
+        "en-US": {
+          "name": "Cable gland M20, IP68",
+          "description": "Plastic cable gland with sealing insert for cables up to 14 mm outer diameter."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-5014",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-5014",
+    "attribute_values": {
+      "common": {
+        "demo_ele_thread": "m25",
+        "demo_ele_ip_rating": "ip68",
+        "demo_ele_weight": {
+          "amount": "0.03",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-5014.png",
+        "demo_ele_images": [
+          "DEMO-ELE-5014-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Kabelverschraubung M25, IP68",
+          "description": "Kunststoff-Kabelverschraubung mit Dichteinsatz für Leitungen bis 18 mm Außendurchmesser."
+        },
+        "en-US": {
+          "name": "Cable gland M25, IP68",
+          "description": "Plastic cable gland with sealing insert for cables up to 18 mm outer diameter."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-5015",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-5015",
+    "attribute_values": {
+      "common": {
+        "demo_ele_wire_size": "w1_5",
+        "demo_ele_weight": {
+          "amount": "0.01",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-5015.png",
+        "demo_ele_images": [
+          "DEMO-ELE-5015-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Reihenklemme 1,5 mm², grau",
+          "description": "Reihenklemme für Leiter bis 1,5 mm² auf Tragschiene."
+        },
+        "en-US": {
+          "name": "Terminal block 1.5 mm², grey",
+          "description": "Terminal block for conductors up to 1.5 mm² on a top-hat rail."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-5016",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-5016",
+    "attribute_values": {
+      "common": {
+        "demo_ele_wire_size": "w2_5",
+        "demo_ele_weight": {
+          "amount": "0.01",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-5016.png",
+        "demo_ele_images": [
+          "DEMO-ELE-5016-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Reihenklemme 2,5 mm², grau",
+          "description": "Reihenklemme für Leiter bis 2,5 mm² auf Tragschiene."
+        },
+        "en-US": {
+          "name": "Terminal block 2.5 mm², grey",
+          "description": "Terminal block for conductors up to 2.5 mm² on a top-hat rail."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-5017",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-5017",
+    "attribute_values": {
+      "common": {
+        "demo_ele_wire_size": "w4",
+        "demo_ele_weight": {
+          "amount": "0.02",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-5017.png",
+        "demo_ele_images": [
+          "DEMO-ELE-5017-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Reihenklemme 4 mm², grau",
+          "description": "Reihenklemme für Leiter bis 4 mm² auf Tragschiene."
+        },
+        "en-US": {
+          "name": "Terminal block 4 mm², grey",
+          "description": "Terminal block for conductors up to 4 mm² on a top-hat rail."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-5018",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-5018",
+    "attribute_values": {
+      "common": {
+        "demo_ele_wire_size": "w6",
+        "demo_ele_weight": {
+          "amount": "0.03",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-5018.png",
+        "demo_ele_images": [
+          "DEMO-ELE-5018-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Reihenklemme 6 mm², grau",
+          "description": "Reihenklemme für Leiter bis 6 mm² auf Tragschiene."
+        },
+        "en-US": {
+          "name": "Terminal block 6 mm², grey",
+          "description": "Terminal block for conductors up to 6 mm² on a top-hat rail."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-5019",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-5019",
+    "attribute_values": {
+      "common": {
+        "demo_ele_wire_size": "w0_75",
+        "demo_ele_pack_size": 100,
+        "demo_ele_weight": {
+          "amount": "0.02",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-5019.png",
+        "demo_ele_images": [
+          "DEMO-ELE-5019-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Aderendhülsen 0,75 mm², 100 Stück",
+          "description": "Isolierte Aderendhülsen für Litze mit 0,75 mm² Querschnitt."
+        },
+        "en-US": {
+          "name": "Wire ferrules 0.75 mm², pack of 100",
+          "description": "Insulated wire ferrules for stranded wire with 0.75 mm² cross section."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-5020",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-5020",
+    "attribute_values": {
+      "common": {
+        "demo_ele_wire_size": "w1_5",
+        "demo_ele_pack_size": 100,
+        "demo_ele_weight": {
+          "amount": "0.03",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-5020.png",
+        "demo_ele_images": [
+          "DEMO-ELE-5020-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Aderendhülsen 1,5 mm², 100 Stück",
+          "description": "Isolierte Aderendhülsen für Litze mit 1,5 mm² Querschnitt."
+        },
+        "en-US": {
+          "name": "Wire ferrules 1.5 mm², pack of 100",
+          "description": "Insulated wire ferrules for stranded wire with 1.5 mm² cross section."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-5021",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-5021",
+    "attribute_values": {
+      "common": {
+        "demo_ele_wire_size": "w2_5",
+        "demo_ele_pack_size": 100,
+        "demo_ele_weight": {
+          "amount": "0.04",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-5021.png",
+        "demo_ele_images": [
+          "DEMO-ELE-5021-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Aderendhülsen 2,5 mm², 100 Stück",
+          "description": "Isolierte Aderendhülsen für Litze mit 2,5 mm² Querschnitt."
+        },
+        "en-US": {
+          "name": "Wire ferrules 2.5 mm², pack of 100",
+          "description": "Insulated wire ferrules for stranded wire with 2.5 mm² cross section."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-5022",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-5022",
+    "attribute_values": {
+      "common": {
+        "demo_ele_wire_size": "w2_5",
+        "demo_ele_weight": {
+          "amount": "0.01",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-5022.png",
+        "demo_ele_images": [
+          "DEMO-ELE-5022-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Lüsterklemme 5-polig, 2,5 mm²",
+          "description": "Klemmstelle mit fünf Polen für Abzweigungen in Unterputzdosen."
+        },
+        "en-US": {
+          "name": "Connector terminal 5-pole, 2.5 mm²",
+          "description": "Connector terminal with five poles for branch circuits in flush-mounted boxes."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-6001",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-6001",
+    "attribute_values": {
+      "common": {
+        "demo_ele_item_length": {
+          "amount": "160",
+          "unit": "MILLIMETER"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "1000",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.2",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-6001.png",
+        "demo_ele_images": [
+          "DEMO-ELE-6001-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Abisolierzange 160 mm, 0,5–6 mm²",
+          "description": "Abisolierzange mit verstellbarem Anschlag für Leiter von 0,5 bis 6 mm²."
+        },
+        "en-US": {
+          "name": "Wire stripper 160 mm, 0.5–6 mm²",
+          "description": "Wire stripper with adjustable stop for conductors from 0.5 to 6 mm²."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-6002",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-6002",
+    "attribute_values": {
+      "common": {
+        "demo_ele_item_length": {
+          "amount": "160",
+          "unit": "MILLIMETER"
+        },
+        "demo_ele_weight": {
+          "amount": "0.2",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-6002.png",
+        "demo_ele_images": [
+          "DEMO-ELE-6002-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Automatik-Abisolierzange 160 mm",
+          "description": "Abisolierzange mit selbsttätiger Klemmung, für Leiter bis 6 mm²."
+        },
+        "en-US": {
+          "name": "Automatic wire stripper 160 mm",
+          "description": "Wire stripper with automatic jaw action, for conductors up to 6 mm²."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-6003",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-6003",
+    "attribute_values": {
+      "common": {
+        "demo_ele_item_length": {
+          "amount": "200",
+          "unit": "MILLIMETER"
+        },
+        "demo_ele_weight": {
+          "amount": "0.3",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-6003.png",
+        "demo_ele_images": [
+          "DEMO-ELE-6003-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Crimpzange für Aderendhülsen, 0,25–6 mm²",
+          "description": "Crimpzange für isolierte und nicht isolierte Aderendhülsen."
+        },
+        "en-US": {
+          "name": "Crimping tool for wire ferrules, 0.25–6 mm²",
+          "description": "Crimping tool for insulated and non-insulated wire ferrules."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-6004",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-6004",
+    "attribute_values": {
+      "common": {
+        "demo_ele_item_length": {
+          "amount": "160",
+          "unit": "MILLIMETER"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "1000",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.2",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-6004.png",
+        "demo_ele_images": [
+          "DEMO-ELE-6004-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Seitenschneider isoliert 1000 V, 160 mm",
+          "description": "Seitenschneider mit isolierten Griffen für Arbeiten bis 1000 V."
+        },
+        "en-US": {
+          "name": "Side cutters insulated 1000 V, 160 mm",
+          "description": "Side cutters with insulated handles for work up to 1000 V."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-6005",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-6005",
+    "attribute_values": {
+      "common": {
+        "demo_ele_item_length": {
+          "amount": "200",
+          "unit": "MILLIMETER"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "1000",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.3",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-6005.png",
+        "demo_ele_images": [
+          "DEMO-ELE-6005-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Seitenschneider isoliert 1000 V, 200 mm",
+          "description": "Seitenschneider mit isolierten Griffen und langen Hebeln für Arbeiten bis 1000 V."
+        },
+        "en-US": {
+          "name": "Side cutters insulated 1000 V, 200 mm",
+          "description": "Side cutters with insulated handles and long levers for work up to 1000 V."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-6006",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-6006",
+    "attribute_values": {
+      "common": {
+        "demo_ele_rated_voltage": {
+          "amount": "1000",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.1",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-6006.png",
+        "demo_ele_images": [
+          "DEMO-ELE-6006-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Spannungsprüfer zweipolig, 1000 V",
+          "description": "Zweipoliger Spannungsprüfer für Spannungen bis 1000 V mit optischer Anzeige."
+        },
+        "en-US": {
+          "name": "Two-pole voltage tester, 1000 V",
+          "description": "Two-pole voltage tester for voltages up to 1000 V with visual indication."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-6007",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-6007",
+    "attribute_values": {
+      "common": {
+        "demo_ele_rated_voltage": {
+          "amount": "230",
+          "unit": "VOLT"
+        },
+        "demo_ele_item_length": {
+          "amount": "130",
+          "unit": "MILLIMETER"
+        },
+        "demo_ele_weight": {
+          "amount": "0.05",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-6007.png",
+        "demo_ele_images": [
+          "DEMO-ELE-6007-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Phasenprüfer 230 V, Schraubendreher-Form",
+          "description": "Phasenprüfer mit Leuchtanzeige für Netzspannungen bis 230 V."
+        },
+        "en-US": {
+          "name": "Phase tester 230 V, screwdriver type",
+          "description": "Phase tester with light indicator for mains voltages up to 230 V."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-6008",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-6008",
+    "attribute_values": {
+      "common": {
+        "demo_ele_rated_voltage": {
+          "amount": "600",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "0.35",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-6008.png",
+        "demo_ele_images": [
+          "DEMO-ELE-6008-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Digital-Multimeter, Messkategorie III",
+          "description": "Digitales Multimeter für Spannung, Strom und Widerstand, Messkategorie III bis 600 V."
+        },
+        "en-US": {
+          "name": "Digital multimeter, measurement category III",
+          "description": "Digital multimeter for voltage, current and resistance, measurement category III up to 600 V."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-6009",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-6009",
+    "attribute_values": {
+      "common": {
+        "demo_ele_rated_voltage": {
+          "amount": "1000",
+          "unit": "VOLT"
+        },
+        "demo_ele_pack_size": 6,
+        "demo_ele_weight": {
+          "amount": "0.4",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-6009.png",
+        "demo_ele_images": [
+          "DEMO-ELE-6009-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schraubendreher-Set isoliert 1000 V, 6-teilig",
+          "description": "Sechsteiliges Schraubendreher-Set mit isolierten Griffen für Arbeiten bis 1000 V."
+        },
+        "en-US": {
+          "name": "Insulated screwdriver set 1000 V, 6 pieces",
+          "description": "Six-piece screwdriver set with insulated handles for work up to 1000 V."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-6010",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-6010",
+    "attribute_values": {
+      "common": {
+        "demo_ele_item_length": {
+          "amount": "165",
+          "unit": "MILLIMETER"
+        },
+        "demo_ele_weight": {
+          "amount": "0.2",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-6010.png",
+        "demo_ele_images": [
+          "DEMO-ELE-6010-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Abmantelwerkzeug für Rundleitungen",
+          "description": "Abmantelwerkzeug mit Einstellung für den Leitungsdurchmesser, für Mantelleitungen."
+        },
+        "en-US": {
+          "name": "Cable sheath stripper for round cables",
+          "description": "Sheath stripper with diameter setting, for sheathed cables."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-6011",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-6011",
+    "attribute_values": {
+      "common": {
+        "demo_ele_item_length": {
+          "amount": "250",
+          "unit": "MILLIMETER"
+        },
+        "demo_ele_weight": {
+          "amount": "0.6",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-6011.png",
+        "demo_ele_images": [
+          "DEMO-ELE-6011-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Kabelschneider 250 mm",
+          "description": "Kabelschneider für Kupferleiter und Litze, mit langen Hebeln."
+        },
+        "en-US": {
+          "name": "Cable cutter 250 mm",
+          "description": "Cable cutter for copper conductors and stranded wire, with long levers."
         }
       }
     }

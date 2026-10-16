@@ -85,20 +85,62 @@
   },
   {
     "family": "DEMO-IND-ARTICLE",
-    "attribute": "demo_ind_images",
+    "attribute": "demo_ind_width",
     "position": 14,
     "is_required": false
   },
   {
     "family": "DEMO-IND-ARTICLE",
-    "attribute": "demo_ind_drawings",
+    "attribute": "demo_ind_power",
     "position": 15,
     "is_required": false
   },
   {
     "family": "DEMO-IND-ARTICLE",
-    "attribute": "demo_ind_downloads",
+    "attribute": "demo_ind_volume",
     "position": 16,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_load_capacity",
+    "position": 17,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_grit",
+    "position": 18,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_drive_size",
+    "position": 19,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_images",
+    "position": 20,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_drawings",
+    "position": 21,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_downloads",
+    "position": 22,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_has_cad",
+    "position": 23,
     "is_required": false
   }
 ]

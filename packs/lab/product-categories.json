@@ -63,5 +63,455 @@
     "product": "DEMO-LAB-3004",
     "category": "DEMO-LAB-CONSUMABLES",
     "position": 12
+  },
+  {
+    "product": "DEMO-LAB-1005",
+    "category": "DEMO-LAB-INSTRUMENTS",
+    "position": 13
+  },
+  {
+    "product": "DEMO-LAB-1006",
+    "category": "DEMO-LAB-INSTRUMENTS",
+    "position": 14
+  },
+  {
+    "product": "DEMO-LAB-1007",
+    "category": "DEMO-LAB-INSTRUMENTS",
+    "position": 15
+  },
+  {
+    "product": "DEMO-LAB-1008",
+    "category": "DEMO-LAB-INSTRUMENTS",
+    "position": 16
+  },
+  {
+    "product": "DEMO-LAB-1009",
+    "category": "DEMO-LAB-INSTRUMENTS",
+    "position": 17
+  },
+  {
+    "product": "DEMO-LAB-1010",
+    "category": "DEMO-LAB-INSTRUMENTS",
+    "position": 18
+  },
+  {
+    "product": "DEMO-LAB-1011",
+    "category": "DEMO-LAB-INSTRUMENTS",
+    "position": 19
+  },
+  {
+    "product": "DEMO-LAB-1012",
+    "category": "DEMO-LAB-INSTRUMENTS",
+    "position": 20
+  },
+  {
+    "product": "DEMO-LAB-1013",
+    "category": "DEMO-LAB-INSTRUMENTS",
+    "position": 21
+  },
+  {
+    "product": "DEMO-LAB-1014",
+    "category": "DEMO-LAB-INSTRUMENTS",
+    "position": 22
+  },
+  {
+    "product": "DEMO-LAB-1015",
+    "category": "DEMO-LAB-INSTRUMENTS",
+    "position": 23
+  },
+  {
+    "product": "DEMO-LAB-1016",
+    "category": "DEMO-LAB-INSTRUMENTS",
+    "position": 24
+  },
+  {
+    "product": "DEMO-LAB-1017",
+    "category": "DEMO-LAB-INSTRUMENTS",
+    "position": 25
+  },
+  {
+    "product": "DEMO-LAB-1018",
+    "category": "DEMO-LAB-INSTRUMENTS",
+    "position": 26
+  },
+  {
+    "product": "DEMO-LAB-2003",
+    "category": "DEMO-LAB-PIPETTES",
+    "position": 27
+  },
+  {
+    "product": "DEMO-LAB-2003-2UL",
+    "category": "DEMO-LAB-PIPETTES",
+    "position": 28
+  },
+  {
+    "product": "DEMO-LAB-2003-20UL",
+    "category": "DEMO-LAB-PIPETTES",
+    "position": 29
+  },
+  {
+    "product": "DEMO-LAB-2004",
+    "category": "DEMO-LAB-PIPETTES",
+    "position": 30
+  },
+  {
+    "product": "DEMO-LAB-2004-20UL",
+    "category": "DEMO-LAB-PIPETTES",
+    "position": 31
+  },
+  {
+    "product": "DEMO-LAB-2004-200UL",
+    "category": "DEMO-LAB-PIPETTES",
+    "position": 32
+  },
+  {
+    "product": "DEMO-LAB-2004-1000UL",
+    "category": "DEMO-LAB-PIPETTES",
+    "position": 33
+  },
+  {
+    "product": "DEMO-LAB-2005",
+    "category": "DEMO-LAB-PIPETTES",
+    "position": 34
+  },
+  {
+    "product": "DEMO-LAB-2005-5ML",
+    "category": "DEMO-LAB-PIPETTES",
+    "position": 35
+  },
+  {
+    "product": "DEMO-LAB-2005-10ML",
+    "category": "DEMO-LAB-PIPETTES",
+    "position": 36
+  },
+  {
+    "product": "DEMO-LAB-2006",
+    "category": "DEMO-LAB-PIPETTES",
+    "position": 37
+  },
+  {
+    "product": "DEMO-LAB-2006-10UL",
+    "category": "DEMO-LAB-PIPETTES",
+    "position": 38
+  },
+  {
+    "product": "DEMO-LAB-2006-200UL",
+    "category": "DEMO-LAB-PIPETTES",
+    "position": 39
+  },
+  {
+    "product": "DEMO-LAB-2006-1000UL",
+    "category": "DEMO-LAB-PIPETTES",
+    "position": 40
+  },
+  {
+    "product": "DEMO-LAB-2007",
+    "category": "DEMO-LAB-PIPETTES",
+    "position": 41
+  },
+  {
+    "product": "DEMO-LAB-2008",
+    "category": "DEMO-LAB-PIPETTES",
+    "position": 42
+  },
+  {
+    "product": "DEMO-LAB-2009",
+    "category": "DEMO-LAB-PIPETTES",
+    "position": 43
+  },
+  {
+    "product": "DEMO-LAB-2010",
+    "category": "DEMO-LAB-PIPETTES",
+    "position": 44
+  },
+  {
+    "product": "DEMO-LAB-2011",
+    "category": "DEMO-LAB-PIPETTES",
+    "position": 45
+  },
+  {
+    "product": "DEMO-LAB-2012",
+    "category": "DEMO-LAB-PIPETTES",
+    "position": 46
+  },
+  {
+    "product": "DEMO-LAB-2013",
+    "category": "DEMO-LAB-PIPETTES",
+    "position": 47
+  },
+  {
+    "product": "DEMO-LAB-3005",
+    "category": "DEMO-LAB-CONSUMABLES",
+    "position": 48
+  },
+  {
+    "product": "DEMO-LAB-3006",
+    "category": "DEMO-LAB-CONSUMABLES",
+    "position": 49
+  },
+  {
+    "product": "DEMO-LAB-3007",
+    "category": "DEMO-LAB-CONSUMABLES",
+    "position": 50
+  },
+  {
+    "product": "DEMO-LAB-3008",
+    "category": "DEMO-LAB-CONSUMABLES",
+    "position": 51
+  },
+  {
+    "product": "DEMO-LAB-3009",
+    "category": "DEMO-LAB-CONSUMABLES",
+    "position": 52
+  },
+  {
+    "product": "DEMO-LAB-3010",
+    "category": "DEMO-LAB-CONSUMABLES",
+    "position": 53
+  },
+  {
+    "product": "DEMO-LAB-3011",
+    "category": "DEMO-LAB-CONSUMABLES",
+    "position": 54
+  },
+  {
+    "product": "DEMO-LAB-3012",
+    "category": "DEMO-LAB-CONSUMABLES",
+    "position": 55
+  },
+  {
+    "product": "DEMO-LAB-3013",
+    "category": "DEMO-LAB-CONSUMABLES",
+    "position": 56
+  },
+  {
+    "product": "DEMO-LAB-3014",
+    "category": "DEMO-LAB-CONSUMABLES",
+    "position": 57
+  },
+  {
+    "product": "DEMO-LAB-3015",
+    "category": "DEMO-LAB-CONSUMABLES",
+    "position": 58
+  },
+  {
+    "product": "DEMO-LAB-3016",
+    "category": "DEMO-LAB-CONSUMABLES",
+    "position": 59
+  },
+  {
+    "product": "DEMO-LAB-3017",
+    "category": "DEMO-LAB-CONSUMABLES",
+    "position": 60
+  },
+  {
+    "product": "DEMO-LAB-3018",
+    "category": "DEMO-LAB-CONSUMABLES",
+    "position": 61
+  },
+  {
+    "product": "DEMO-LAB-4001",
+    "category": "DEMO-LAB-GLASSWARE",
+    "position": 62
+  },
+  {
+    "product": "DEMO-LAB-4002",
+    "category": "DEMO-LAB-GLASSWARE",
+    "position": 63
+  },
+  {
+    "product": "DEMO-LAB-4003",
+    "category": "DEMO-LAB-GLASSWARE",
+    "position": 64
+  },
+  {
+    "product": "DEMO-LAB-4004",
+    "category": "DEMO-LAB-GLASSWARE",
+    "position": 65
+  },
+  {
+    "product": "DEMO-LAB-4005",
+    "category": "DEMO-LAB-GLASSWARE",
+    "position": 66
+  },
+  {
+    "product": "DEMO-LAB-4006",
+    "category": "DEMO-LAB-GLASSWARE",
+    "position": 67
+  },
+  {
+    "product": "DEMO-LAB-4007",
+    "category": "DEMO-LAB-GLASSWARE",
+    "position": 68
+  },
+  {
+    "product": "DEMO-LAB-4008",
+    "category": "DEMO-LAB-GLASSWARE",
+    "position": 69
+  },
+  {
+    "product": "DEMO-LAB-4009",
+    "category": "DEMO-LAB-GLASSWARE",
+    "position": 70
+  },
+  {
+    "product": "DEMO-LAB-4010",
+    "category": "DEMO-LAB-GLASSWARE",
+    "position": 71
+  },
+  {
+    "product": "DEMO-LAB-4011",
+    "category": "DEMO-LAB-GLASSWARE",
+    "position": 72
+  },
+  {
+    "product": "DEMO-LAB-4012",
+    "category": "DEMO-LAB-GLASSWARE",
+    "position": 73
+  },
+  {
+    "product": "DEMO-LAB-4013",
+    "category": "DEMO-LAB-GLASSWARE",
+    "position": 74
+  },
+  {
+    "product": "DEMO-LAB-4014",
+    "category": "DEMO-LAB-GLASSWARE",
+    "position": 75
+  },
+  {
+    "product": "DEMO-LAB-4015",
+    "category": "DEMO-LAB-GLASSWARE",
+    "position": 76
+  },
+  {
+    "product": "DEMO-LAB-4016",
+    "category": "DEMO-LAB-GLASSWARE",
+    "position": 77
+  },
+  {
+    "product": "DEMO-LAB-4017",
+    "category": "DEMO-LAB-GLASSWARE",
+    "position": 78
+  },
+  {
+    "product": "DEMO-LAB-5001",
+    "category": "DEMO-LAB-SAFETY",
+    "position": 79
+  },
+  {
+    "product": "DEMO-LAB-5002",
+    "category": "DEMO-LAB-SAFETY",
+    "position": 80
+  },
+  {
+    "product": "DEMO-LAB-5003",
+    "category": "DEMO-LAB-SAFETY",
+    "position": 81
+  },
+  {
+    "product": "DEMO-LAB-5004",
+    "category": "DEMO-LAB-SAFETY",
+    "position": 82
+  },
+  {
+    "product": "DEMO-LAB-5005",
+    "category": "DEMO-LAB-SAFETY",
+    "position": 83
+  },
+  {
+    "product": "DEMO-LAB-5006",
+    "category": "DEMO-LAB-SAFETY",
+    "position": 84
+  },
+  {
+    "product": "DEMO-LAB-5007",
+    "category": "DEMO-LAB-SAFETY",
+    "position": 85
+  },
+  {
+    "product": "DEMO-LAB-5008",
+    "category": "DEMO-LAB-SAFETY",
+    "position": 86
+  },
+  {
+    "product": "DEMO-LAB-5009",
+    "category": "DEMO-LAB-SAFETY",
+    "position": 87
+  },
+  {
+    "product": "DEMO-LAB-5010",
+    "category": "DEMO-LAB-SAFETY",
+    "position": 88
+  },
+  {
+    "product": "DEMO-LAB-5011",
+    "category": "DEMO-LAB-SAFETY",
+    "position": 89
+  },
+  {
+    "product": "DEMO-LAB-5012",
+    "category": "DEMO-LAB-SAFETY",
+    "position": 90
+  },
+  {
+    "product": "DEMO-LAB-6001",
+    "category": "DEMO-LAB-STORAGE",
+    "position": 91
+  },
+  {
+    "product": "DEMO-LAB-6002",
+    "category": "DEMO-LAB-STORAGE",
+    "position": 92
+  },
+  {
+    "product": "DEMO-LAB-6003",
+    "category": "DEMO-LAB-STORAGE",
+    "position": 93
+  },
+  {
+    "product": "DEMO-LAB-6004",
+    "category": "DEMO-LAB-STORAGE",
+    "position": 94
+  },
+  {
+    "product": "DEMO-LAB-6005",
+    "category": "DEMO-LAB-STORAGE",
+    "position": 95
+  },
+  {
+    "product": "DEMO-LAB-6006",
+    "category": "DEMO-LAB-STORAGE",
+    "position": 96
+  },
+  {
+    "product": "DEMO-LAB-6007",
+    "category": "DEMO-LAB-STORAGE",
+    "position": 97
+  },
+  {
+    "product": "DEMO-LAB-6008",
+    "category": "DEMO-LAB-STORAGE",
+    "position": 98
+  },
+  {
+    "product": "DEMO-LAB-6009",
+    "category": "DEMO-LAB-STORAGE",
+    "position": 99
+  },
+  {
+    "product": "DEMO-LAB-6010",
+    "category": "DEMO-LAB-STORAGE",
+    "position": 100
+  },
+  {
+    "product": "DEMO-LAB-6011",
+    "category": "DEMO-LAB-STORAGE",
+    "position": 101
+  },
+  {
+    "product": "DEMO-LAB-6012",
+    "category": "DEMO-LAB-STORAGE",
+    "position": 102
   }
 ]

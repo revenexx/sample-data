@@ -37,5 +37,35 @@
     },
     "position": 2,
     "external_id": "DEMO-LAB-CONSUMABLES"
+  },
+  {
+    "code": "DEMO-LAB-GLASSWARE",
+    "parent": "DEMO-LAB",
+    "labels": {
+      "de-DE": "Glaswaren",
+      "en-US": "Glassware"
+    },
+    "position": 3,
+    "external_id": "DEMO-LAB-GLASSWARE"
+  },
+  {
+    "code": "DEMO-LAB-SAFETY",
+    "parent": "DEMO-LAB",
+    "labels": {
+      "de-DE": "Laborsicherheit",
+      "en-US": "Lab safety"
+    },
+    "position": 4,
+    "external_id": "DEMO-LAB-SAFETY"
+  },
+  {
+    "code": "DEMO-LAB-STORAGE",
+    "parent": "DEMO-LAB",
+    "labels": {
+      "de-DE": "Aufbewahrung & Racks",
+      "en-US": "Storage & racks"
+    },
+    "position": 5,
+    "external_id": "DEMO-LAB-STORAGE"
   }
 ]
