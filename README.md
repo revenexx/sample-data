@@ -21,10 +21,10 @@ Every load brings the **base**, plus the **packs** you choose.
 | | What's in it |
 | --- | --- |
 | **Base** | A market `demo_de` (Germany, EUR, German and English, 19 % and 7 % VAT) and the buyer company *Muster Bau & Technik GmbH*, with a buyer, an approver, and billing and shipping addresses. Also an automatic promotion (5 % off from 100 €), two voucher codes and a shipping method priced by weight. The base also calls your tenant's setup routes, which create the standard sales channel and channel types, shipping carriers and methods, payment methods, order and return number ranges, customer roles and value lists (payment terms, lifecycle stages), the standard price list, and the stock location `main` with its availability states if they are missing, and leave existing ones alone. |
-| **`industrial`** | Workshop and industrial supply: power tools, fasteners, safety gear, hand tools, abrasives, workshop equipment. 92 products, 6 of them work gloves in 4 sizes. |
-| **`electrical`** | Electrical installation: cables, switches and sockets, lighting, protection and distribution, installation material, tools and testers. 94 products, 8 of them in several colours. |
-| **`office`** | Office and facility supplies: paper and filing, writing, breakroom, desk accessories, cleaning, mailing and packaging. 92 products, 9 of them in several colours. |
-| **`lab`** | Laboratory supplies: instruments, pipettes and tips, consumables, glassware, lab safety, storage and racks. 90 products, 5 of them pipettes in several volume ranges. |
+| **`industrial`** | Workshop and industrial supply: power tools, fasteners, safety gear, hand tools, abrasives, workshop equipment. 101 products, 6 of them work gloves in 4 sizes. |
+| **`electrical`** | Electrical installation: cables, switches and sockets, lighting, protection and distribution, installation material, tools and testers. 99 products, 8 of them in several colours. |
+| **`office`** | Office and facility supplies: paper and filing, writing, breakroom, desk accessories, cleaning, mailing and packaging. 94 products, 9 of them in several colours. |
+| **`lab`** | Laboratory supplies: instruments, pipettes and tips, consumables, glassware, lab safety, storage and racks. 112 products, 5 of them pipettes in several volume ranges. |
 
 Each pack has the following:
 
@@ -33,9 +33,9 @@ Each pack has the following:
 - **Two fictional manufacturers.**
 - **A list price list** with quantity breaks, plus contract prices for the buyer company.
 - **Stock**, with a few products below their reorder point and two out of stock.
-- **About 120 files:** an illustration for every product, dimension drawings (SVG and PDF), a data sheet (PDF) and, in every pack except `office`, 3D models (STEP). The base adds one filterable yes/no attribute, *With CAD files (STEP)* (`demo_has_cad`), which finds the products with a 3D model across every pack.
+- **About 130 files:** an illustration for every product, dimension drawings (SVG and PDF), a data sheet (PDF) and, in every pack except `office`, 3D models (STEP). The base adds one filterable yes/no attribute, *With CAD files (STEP)* (`demo_has_cad`), which finds the products with a 3D model across every pack.
 
-A model and each of its variants are separate product records, so `seed.sh` reports 103 to 123 products per pack.
+A model and each of its variants are separate product records, so `seed.sh` reports 125 products per pack, 500 for all four.
 
 All names, products and companies are invented. Every record you look up by code carries the prefix `DEMO-` (`demo_` where a code takes no hyphen, such as attributes and the market `demo_de`), so you can tell sample data from your own as long as you don't use these prefixes yourself. Values inside those records, such as option codes (`black`, `a4`), the market's tax classes (`standard`, `reduced`), locales and the currency, are plain. [What it changes on your tenant](#what-it-changes-on-your-tenant) lists everything it writes.
 
@@ -67,7 +67,7 @@ Every load includes the base; `--pack` adds packs: `industrial`, `electrical`, `
 ./seed.sh --pack lab --dry-run       # show what would happen, change nothing
 ```
 
-The first run uploads about 120 files per pack, and storage accepts 60 uploads a minute, so loading the base and one pack takes about three minutes; `seed.sh` waits out the limit on its own. Later runs upload only what changed, but still check every record, so they take a little over a minute per pack. You see one line per step:
+The first run uploads about 130 files per pack, and storage accepts 60 uploads a minute, so loading the base and one pack takes about three minutes; `seed.sh` waits out the limit on its own. Later runs upload only what changed, but still check every record, so they take a little over a minute per pack. You see one line per step:
 
 ```
 Seeding tenant your-tenant
@@ -77,8 +77,8 @@ base
   …
 pack: industrial
   ✓ categories             7 created, 0 updated
-  ✓ files                  126 uploaded, 0 unchanged; 126 assets created, 0 updated
-  ✓ products               116 created, 0 updated
+  ✓ files                  135 uploaded, 0 unchanged; 135 assets created, 0 updated
+  ✓ products               125 created, 0 updated
   …
 done
 ```
@@ -271,7 +271,7 @@ Each pack is generated from a short spec in `tools/packs/<pack>.py`. To add one:
 
 1. Copy a spec to `tools/packs/<yours>.py`. Use your own prefix, categories, attributes and products.
 2. Run `python3 tools/build-pack.py <yours>` to write `packs/<yours>/`.
-3. Add illustrations in `tools/art/<yours>.mjs`, then run `node tools/build-art.mjs <yours>` (needs Google Chrome).
+3. Add illustrations in `tools/art/<yours>.mjs`, then run `node tools/build-art.mjs <yours>` (needs `rsvg-convert`, from librsvg).
 4. Add drawings and data sheets in `tools/docs/<yours>.mjs`, then run `node tools/build-docs.mjs <yours>`.
 5. Optionally add 3D parts in `tools/cad/<yours>.py` (needs `pip install cadquery`).
 6. Run `./seed.sh --pack <yours>` twice. The second run must report `0 created`.

@@ -4967,5 +4967,200 @@
         }
       }
     }
+  },
+  {
+    "sku": "DEMO-ELE-1013",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-1013",
+    "attribute_values": {
+      "common": {
+        "demo_ele_cores_cross_section": "c1x6",
+        "demo_ele_length": {
+          "amount": "100",
+          "unit": "METER"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "300",
+          "unit": "VOLT"
+        },
+        "demo_ele_weight": {
+          "amount": "6.3",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-1013.png",
+        "demo_ele_images": [
+          "DEMO-ELE-1013-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Einzelader 6 mm², 100 m Ring",
+          "description": "Einadriger Installationsdraht mit 6 mm² Querschnitt, für Zuleitungen und Herdanschlüsse."
+        },
+        "en-US": {
+          "name": "Single-core wire 6 mm², 100 m ring",
+          "description": "Single-core installation wire with a 6 mm² cross section, for supply lines and cooker connections."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-3020",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-HELLGRUND",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-3020",
+    "attribute_values": {
+      "common": {
+        "demo_ele_wattage": {
+          "amount": "3",
+          "unit": "WATT"
+        },
+        "demo_ele_luminous_flux": {
+          "amount": "150",
+          "unit": "LUMEN"
+        },
+        "demo_ele_ip_rating": "ip44",
+        "demo_ele_mounting": "surface",
+        "demo_ele_weight": {
+          "amount": "0.4",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-3020.png",
+        "demo_ele_images": [
+          "DEMO-ELE-3020-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Notleuchte LED 3 W, IP44, Aufputz",
+          "description": "Aufputz-Notleuchte mit 3 W LED und Schutzart IP44."
+        },
+        "en-US": {
+          "name": "Emergency light LED 3 W, IP44, surface-mounted",
+          "description": "Surface-mounted emergency luminaire with a 3 W LED and IP44 protection."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-4014",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-4014",
+    "attribute_values": {
+      "common": {
+        "demo_ele_poles": "3p",
+        "demo_ele_rated_current": {
+          "amount": "63",
+          "unit": "AMPERE"
+        },
+        "demo_ele_rated_voltage": {
+          "amount": "400",
+          "unit": "VOLT"
+        },
+        "demo_ele_modules": 3,
+        "demo_ele_weight": {
+          "amount": "0.3",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-4014.png",
+        "demo_ele_images": [
+          "DEMO-ELE-4014-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Hauptschalter 3-polig, 63 A",
+          "description": "Lasttrennschalter für die Hauptleitung im Verteiler, auf Hutschiene montiert."
+        },
+        "en-US": {
+          "name": "Main switch 3-pole, 63 A",
+          "description": "Load-break switch for the main supply in a distribution board, DIN-rail mounted."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-5023",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-5023",
+    "attribute_values": {
+      "common": {
+        "demo_ele_wire_size": "w4",
+        "demo_ele_pack_size": 100,
+        "demo_ele_weight": {
+          "amount": "0.03",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-5023.png",
+        "demo_ele_images": [
+          "DEMO-ELE-5023-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Aderendhülsen 4 mm², 100 Stück",
+          "description": "Aderendhülsen mit Isolierkragen für Leiter mit 4 mm² Querschnitt."
+        },
+        "en-US": {
+          "name": "Wire end ferrules 4 mm², 100 pieces",
+          "description": "Wire end ferrules with insulating collar for conductors with a 4 mm² cross section."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-ELE-6012",
+    "kind": "simple",
+    "family": "DEMO-ELE-ARTICLE",
+    "manufacturer": "DEMO-KABELFUX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-ELE-6012",
+    "attribute_values": {
+      "common": {
+        "demo_ele_item_length": {
+          "amount": "180",
+          "unit": "MILLIMETER"
+        },
+        "demo_ele_weight": {
+          "amount": "0.15",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/electrical/demo-ele-6012.png",
+        "demo_ele_images": [
+          "DEMO-ELE-6012-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Kabelmesser 180 mm",
+          "description": "Kabelmesser mit Klinge und Griffschale, für das Ablängen und Abmanteln von Leitungen."
+        },
+        "en-US": {
+          "name": "Cable knife 180 mm",
+          "description": "Cable knife with blade and handle shells, for cutting to length and stripping cable sheaths."
+        }
+      }
+    }
   }
 ]

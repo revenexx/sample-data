@@ -720,6 +720,36 @@
     "external_id": "DEMO-ELE-6011-IMG"
   },
   {
+    "code": "DEMO-ELE-1013-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-ele-1013.png",
+    "external_id": "DEMO-ELE-1013-IMG"
+  },
+  {
+    "code": "DEMO-ELE-3020-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-ele-3020.png",
+    "external_id": "DEMO-ELE-3020-IMG"
+  },
+  {
+    "code": "DEMO-ELE-4014-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-ele-4014.png",
+    "external_id": "DEMO-ELE-4014-IMG"
+  },
+  {
+    "code": "DEMO-ELE-5023-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-ele-5023.png",
+    "external_id": "DEMO-ELE-5023-IMG"
+  },
+  {
+    "code": "DEMO-ELE-6012-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-ele-6012.png",
+    "external_id": "DEMO-ELE-6012-IMG"
+  },
+  {
     "code": "DEMO-ELE-2004-JUNCTION-BOX-IP55-PDF",
     "family": "technical_drawings",
     "file": "assets/drawings/demo-ele-2004-junction-box-ip55.pdf",

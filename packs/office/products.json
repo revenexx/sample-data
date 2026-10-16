@@ -2707,6 +2707,71 @@
     }
   },
   {
+    "sku": "DEMO-OFF-4014",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-4014",
+    "attribute_values": {
+      "common": {
+        "demo_off_pack_size": 50,
+        "demo_off_weight": {
+          "amount": "0.02",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-4014.png",
+        "demo_off_images": [
+          "DEMO-OFF-4014-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Heftzwecken, 50 Stück",
+          "description": "Heftzwecken mit Kunststoffkopf und Stahlstift zum Befestigen auf Pinnwänden, 50 Stück."
+        },
+        "en-US": {
+          "name": "Push pins, 50 pcs",
+          "description": "Push pins with plastic heads and steel points for pinboards, 50 pieces."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-4015",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-4015",
+    "attribute_values": {
+      "common": {
+        "demo_off_weight": {
+          "amount": "0.03",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-4015.png",
+        "demo_off_images": [
+          "DEMO-OFF-4015-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Brieföffner aus Metall",
+          "description": "Brieföffner mit schmaler Klinge und Griff aus Metall zum Öffnen von Briefumschlägen."
+        },
+        "en-US": {
+          "name": "Letter opener, metal",
+          "description": "Letter opener with a narrow blade and metal handle for opening envelopes."
+        }
+      }
+    }
+  },
+  {
     "sku": "DEMO-OFF-5001",
     "kind": "model",
     "family": "DEMO-OFF-ARTICLE",

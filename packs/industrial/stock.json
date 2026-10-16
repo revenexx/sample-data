@@ -634,5 +634,59 @@
     "location": "main",
     "on_hand": 23,
     "reorder_point": 8
+  },
+  {
+    "sku": "DEMO-IND-2023",
+    "location": "main",
+    "on_hand": 180,
+    "reorder_point": 40
+  },
+  {
+    "sku": "DEMO-IND-3017",
+    "location": "main",
+    "on_hand": 2,
+    "reorder_point": 6
+  },
+  {
+    "sku": "DEMO-IND-3018",
+    "location": "main",
+    "on_hand": 58,
+    "reorder_point": 15
+  },
+  {
+    "sku": "DEMO-IND-4017",
+    "location": "main",
+    "on_hand": 24,
+    "reorder_point": 8
+  },
+  {
+    "sku": "DEMO-IND-4018",
+    "location": "main",
+    "on_hand": 11,
+    "reorder_point": 4
+  },
+  {
+    "sku": "DEMO-IND-5011",
+    "location": "main",
+    "on_hand": 4,
+    "reorder_point": 10
+  },
+  {
+    "sku": "DEMO-IND-5012",
+    "location": "main",
+    "on_hand": 70,
+    "reorder_point": 20
+  },
+  {
+    "sku": "DEMO-IND-6011",
+    "location": "main",
+    "on_hand": 0,
+    "reorder_point": 2
+  },
+  {
+    "sku": "DEMO-IND-6012",
+    "location": "main",
+    "on_hand": 17,
+    "reorder_point": 5
   }
 ]

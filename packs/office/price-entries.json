@@ -598,6 +598,21 @@
         "unit_price": 6.5
       },
       {
+        "sku": "DEMO-OFF-4014",
+        "quantity_min": 1,
+        "unit_price": 2.4
+      },
+      {
+        "sku": "DEMO-OFF-4014",
+        "quantity_min": 10,
+        "unit_price": 2.1
+      },
+      {
+        "sku": "DEMO-OFF-4015",
+        "quantity_min": 1,
+        "unit_price": 6.9
+      },
+      {
         "sku": "DEMO-OFF-5001-BLUE",
         "quantity_min": 1,
         "unit_price": 8.9
@@ -871,6 +886,16 @@
         "sku": "DEMO-OFF-6001",
         "quantity_min": 1,
         "unit_price": 22.9
+      },
+      {
+        "sku": "DEMO-OFF-4014",
+        "quantity_min": 1,
+        "unit_price": 2.0
+      },
+      {
+        "sku": "DEMO-OFF-4015",
+        "quantity_min": 1,
+        "unit_price": 5.8
       }
     ]
   }

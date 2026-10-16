@@ -601,6 +601,146 @@
         "sku": "DEMO-LAB-6012",
         "quantity_min": 1,
         "unit_price": 16.9
+      },
+      {
+        "sku": "DEMO-LAB-1019",
+        "quantity_min": 1,
+        "unit_price": 149.0
+      },
+      {
+        "sku": "DEMO-LAB-1020",
+        "quantity_min": 1,
+        "unit_price": 459.0
+      },
+      {
+        "sku": "DEMO-LAB-1021",
+        "quantity_min": 1,
+        "unit_price": 890.0
+      },
+      {
+        "sku": "DEMO-LAB-1022",
+        "quantity_min": 1,
+        "unit_price": 649.0
+      },
+      {
+        "sku": "DEMO-LAB-2014",
+        "quantity_min": 1,
+        "unit_price": 12.9
+      },
+      {
+        "sku": "DEMO-LAB-2014",
+        "quantity_min": 10,
+        "unit_price": 11.4
+      },
+      {
+        "sku": "DEMO-LAB-2014",
+        "quantity_min": 50,
+        "unit_price": 9.9
+      },
+      {
+        "sku": "DEMO-LAB-2015",
+        "quantity_min": 1,
+        "unit_price": 14.9
+      },
+      {
+        "sku": "DEMO-LAB-2015",
+        "quantity_min": 10,
+        "unit_price": 13.2
+      },
+      {
+        "sku": "DEMO-LAB-2015",
+        "quantity_min": 50,
+        "unit_price": 11.5
+      },
+      {
+        "sku": "DEMO-LAB-2016",
+        "quantity_min": 1,
+        "unit_price": 189.0
+      },
+      {
+        "sku": "DEMO-LAB-3019",
+        "quantity_min": 1,
+        "unit_price": 17.9
+      },
+      {
+        "sku": "DEMO-LAB-3020",
+        "quantity_min": 1,
+        "unit_price": 9.9
+      },
+      {
+        "sku": "DEMO-LAB-3021",
+        "quantity_min": 1,
+        "unit_price": 12.9
+      },
+      {
+        "sku": "DEMO-LAB-3022",
+        "quantity_min": 1,
+        "unit_price": 29.9
+      },
+      {
+        "sku": "DEMO-LAB-3022",
+        "quantity_min": 10,
+        "unit_price": 26.4
+      },
+      {
+        "sku": "DEMO-LAB-3022",
+        "quantity_min": 50,
+        "unit_price": 23.1
+      },
+      {
+        "sku": "DEMO-LAB-3023",
+        "quantity_min": 1,
+        "unit_price": 24.9
+      },
+      {
+        "sku": "DEMO-LAB-3024",
+        "quantity_min": 1,
+        "unit_price": 14.9
+      },
+      {
+        "sku": "DEMO-LAB-4018",
+        "quantity_min": 1,
+        "unit_price": 10.9
+      },
+      {
+        "sku": "DEMO-LAB-4019",
+        "quantity_min": 1,
+        "unit_price": 22.9
+      },
+      {
+        "sku": "DEMO-LAB-4020",
+        "quantity_min": 1,
+        "unit_price": 19.9
+      },
+      {
+        "sku": "DEMO-LAB-4021",
+        "quantity_min": 1,
+        "unit_price": 34.9
+      },
+      {
+        "sku": "DEMO-LAB-5013",
+        "quantity_min": 1,
+        "unit_price": 39.9
+      },
+      {
+        "sku": "DEMO-LAB-5014",
+        "quantity_min": 1,
+        "unit_price": 24.9
+      },
+      {
+        "sku": "DEMO-LAB-6013",
+        "quantity_min": 1,
+        "unit_price": 32.9
+      },
+      {
+        "sku": "DEMO-LAB-6014",
+        "quantity_min": 1,
+        "unit_price": 89.0
+      },
+      {
+        "sku": "DEMO-LAB-6015",
+        "quantity_min": 1,
+        "unit_price": 27.9
       }
     ]
   },
@@ -656,6 +796,46 @@
         "sku": "DEMO-LAB-6001",
         "quantity_min": 1,
         "unit_price": 15.9
+      },
+      {
+        "sku": "DEMO-LAB-1019",
+        "quantity_min": 1,
+        "unit_price": 139.0
+      },
+      {
+        "sku": "DEMO-LAB-1022",
+        "quantity_min": 1,
+        "unit_price": 599.0
+      },
+      {
+        "sku": "DEMO-LAB-2014",
+        "quantity_min": 1,
+        "unit_price": 9.8
+      },
+      {
+        "sku": "DEMO-LAB-2016",
+        "quantity_min": 1,
+        "unit_price": 169.0
+      },
+      {
+        "sku": "DEMO-LAB-3022",
+        "quantity_min": 1,
+        "unit_price": 22.9
+      },
+      {
+        "sku": "DEMO-LAB-4021",
+        "quantity_min": 1,
+        "unit_price": 29.9
+      },
+      {
+        "sku": "DEMO-LAB-5013",
+        "quantity_min": 1,
+        "unit_price": 35.9
+      },
+      {
+        "sku": "DEMO-LAB-6014",
+        "quantity_min": 1,
+        "unit_price": 79.0
       }
     ]
   }

@@ -342,6 +342,22 @@ const penHolderVariants = {
   'DEMO-OFF-4001-GREEN': penHolder(COL.green),
 };
 
+// Push pins standing up out of a small card box, one accent-coloured head each.
+const pushPins = () => tile(
+  [[146, 222], [178, 216], [210, 224], [242, 218], [274, 226]].map(([x, top]) =>
+    L(x, top + 9, x, 268, C.metal, 4) + E(x, top + 6, 9, 9, A)).join('') +
+  R(118, 262, 164, 60, C.paper, 6) + R(118, 262, 164, 10, C.paperDark, 4) +
+  label(138, 290, 124, 24, '50 pcs', A, 13),
+);
+
+// Letter opener lying flat: a metal blade, a dark handle with an accent band and a hole.
+const letterOpener = () => tile(
+  P('M206 286 L316 290 Q334 298 336 302 Q334 306 316 312 L206 318 Z', C.metal) +
+  R(100, 282, 120, 38, C.dark, 19) + R(156, 282, 12, 38, A, 0) +
+  E(124, 301, 7, 7, C.white) +
+  label(140, 232, 120, 28, '210 mm', A, 16),
+);
+
 export const illustrations = {
   ...penHolderVariants,
   'DEMO-OFF-4002': deskPad(),
@@ -356,6 +372,8 @@ export const illustrations = {
   'DEMO-OFF-4011': letterTray(),
   'DEMO-OFF-4012': calculator(),
   'DEMO-OFF-4013': namePlates(),
+  'DEMO-OFF-4014': pushPins(),
+  'DEMO-OFF-4015': letterOpener(),
   'DEMO-OFF-5001': cloths(COL.grey),
   'DEMO-OFF-5001-BLUE': cloths(COL.blue),
   'DEMO-OFF-5001-RED': cloths(COL.red),

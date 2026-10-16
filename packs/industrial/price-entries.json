@@ -726,6 +726,71 @@
         "sku": "DEMO-IND-6010",
         "quantity_min": 1,
         "unit_price": 34.9
+      },
+      {
+        "sku": "DEMO-IND-2023",
+        "quantity_min": 1,
+        "unit_price": 9.5
+      },
+      {
+        "sku": "DEMO-IND-2023",
+        "quantity_min": 10,
+        "unit_price": 8.2
+      },
+      {
+        "sku": "DEMO-IND-3017",
+        "quantity_min": 1,
+        "unit_price": 39.9
+      },
+      {
+        "sku": "DEMO-IND-3018",
+        "quantity_min": 1,
+        "unit_price": 18.9
+      },
+      {
+        "sku": "DEMO-IND-3018",
+        "quantity_min": 10,
+        "unit_price": 16.9
+      },
+      {
+        "sku": "DEMO-IND-4017",
+        "quantity_min": 1,
+        "unit_price": 16.9
+      },
+      {
+        "sku": "DEMO-IND-4018",
+        "quantity_min": 1,
+        "unit_price": 27.9
+      },
+      {
+        "sku": "DEMO-IND-5011",
+        "quantity_min": 1,
+        "unit_price": 9.8
+      },
+      {
+        "sku": "DEMO-IND-5011",
+        "quantity_min": 10,
+        "unit_price": 8.6
+      },
+      {
+        "sku": "DEMO-IND-5012",
+        "quantity_min": 1,
+        "unit_price": 4.9
+      },
+      {
+        "sku": "DEMO-IND-5012",
+        "quantity_min": 10,
+        "unit_price": 4.2
+      },
+      {
+        "sku": "DEMO-IND-6011",
+        "quantity_min": 1,
+        "unit_price": 189.0
+      },
+      {
+        "sku": "DEMO-IND-6012",
+        "quantity_min": 1,
+        "unit_price": 46.9
       }
     ]
   },
@@ -781,6 +846,31 @@
         "sku": "DEMO-IND-6001",
         "quantity_min": 1,
         "unit_price": 589.0
+      },
+      {
+        "sku": "DEMO-IND-2023",
+        "quantity_min": 1,
+        "unit_price": 8.4
+      },
+      {
+        "sku": "DEMO-IND-4017",
+        "quantity_min": 1,
+        "unit_price": 14.9
+      },
+      {
+        "sku": "DEMO-IND-4018",
+        "quantity_min": 1,
+        "unit_price": 24.9
+      },
+      {
+        "sku": "DEMO-IND-5011",
+        "quantity_min": 1,
+        "unit_price": 8.9
+      },
+      {
+        "sku": "DEMO-IND-6011",
+        "quantity_min": 1,
+        "unit_price": 169.0
       }
     ]
   }

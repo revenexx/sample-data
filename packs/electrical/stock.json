@@ -670,5 +670,35 @@
     "location": "main",
     "on_hand": 11,
     "reorder_point": 6
+  },
+  {
+    "sku": "DEMO-ELE-1013",
+    "location": "main",
+    "on_hand": 38,
+    "reorder_point": 15
+  },
+  {
+    "sku": "DEMO-ELE-3020",
+    "location": "main",
+    "on_hand": 22,
+    "reorder_point": 10
+  },
+  {
+    "sku": "DEMO-ELE-4014",
+    "location": "main",
+    "on_hand": 7,
+    "reorder_point": 8
+  },
+  {
+    "sku": "DEMO-ELE-5023",
+    "location": "main",
+    "on_hand": 140,
+    "reorder_point": 50
+  },
+  {
+    "sku": "DEMO-ELE-6012",
+    "location": "main",
+    "on_hand": 19,
+    "reorder_point": 8
   }
 ]

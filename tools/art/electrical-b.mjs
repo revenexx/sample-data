@@ -294,6 +294,61 @@ const screwdrivers = () => {
   return tile(s);
 };
 
+
+// Five new SKUs (part b, batch 2): single-core coil, emergency luminaire, main switch,
+// large copper ferrules, cable knife.
+const coil = (text) => {
+  let s = '';
+  for (let k = 4; k >= 0; k--) {
+    s += E(200, 236 + k * 14, 124, 44, k === 0 ? '#C47A4A' : C.body);
+  }
+  s += E(200, 236, 46, 16, C.tile);
+  s += PL('M324 236 Q360 236 360 270', '#C47A4A', 12);
+  return tile(s + label(128, 294, 144, 30, text, A, 16));
+};
+
+const emergency = () => tile(
+  R(104, 158, 192, 120, C.white, 12, `stroke="${C.light}" stroke-width="3"`) +
+  R(124, 172, 152, 44, C.paper, 6) +
+  Cc(118, 166, 4, C.mid) + Cc(282, 166, 4, C.mid) + Cc(118, 268, 4, C.mid) + Cc(282, 268, 4, C.mid) +
+  label(144, 226, 112, 30, '3 W · IP44', A, 16),
+);
+
+// Three-pole main switch: 84 px per pole, one large lever on the front.
+const mainSwitch = () => {
+  const m = 84;
+  const w = m * 3;
+  const x0 = 200 - w / 2;
+  let s = R(x0, 150, w, 150, C.body, 8);
+  for (let i = 0; i < 3; i++) {
+    const cx = x0 + m * i + m / 2;
+    s += R(cx - 12, 136, 24, 16, C.metal, 3) + R(cx - 12, 298, 24, 14, C.metal, 3);
+  }
+  s += R(158, 96, 84, 56, C.light, 8) + R(158, 96, 84, 12, A, 4);
+  s += label(x0 + 24, 218, w - 48, 48, '63 A', A, 22);
+  return tile(s);
+};
+
+const bigFerrule = (text) => {
+  let s = '';
+  for (let i = 0; i < 3; i++) {
+    const x = 200 + (i - 1) * 52;
+    s += R(x - 22, 150, 44, 170, '#C47A4A', 22);
+    s += E(x, 150, 22, 5, C.dark);
+    s += R(x - 25, 300, 50, 12, A, 4);
+  }
+  return tile(s + label(120, 112, 160, 30, text, A, 16));
+};
+
+const cableKnife = (text) => tile(
+  POLY('64,300 236,262 236,318', C.light) +
+  LN(72, 300, 226, 272, C.white, 3) +
+  R(234, 260, 98, 62, C.body, 26) +
+  R(302, 260, 12, 62, A, 3) +
+  Cc(262, 291, 7, C.light) +
+  label(24, 28, 120, 30, text, A, 16),
+);
+
 export const illustrations = {
   // Circuit breakers
   'DEMO-ELE-4001': mcb(1, 'B 10 A'),
@@ -359,4 +414,9 @@ export const illustrations = {
   'DEMO-ELE-6009': screwdrivers(),
   'DEMO-ELE-6010': sheathStripper('165 mm'),
   'DEMO-ELE-6011': plier({ jl: 74, js: 24, hl: 182, hs: 40, jaw: 'beak', grip: C.body, gripW: 40, text: '250 mm' }),
+  'DEMO-ELE-1013': coil('1 × 6 mm²'),
+  'DEMO-ELE-3020': emergency(),
+  'DEMO-ELE-4014': mainSwitch(),
+  'DEMO-ELE-5023': bigFerrule('4 mm²'),
+  'DEMO-ELE-6012': cableKnife('180 mm'),
 };

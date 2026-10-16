@@ -584,5 +584,137 @@
     "location": "main",
     "on_hand": 17,
     "reorder_point": 5
+  },
+  {
+    "sku": "DEMO-LAB-1019",
+    "location": "main",
+    "on_hand": 6,
+    "reorder_point": 2
+  },
+  {
+    "sku": "DEMO-LAB-1020",
+    "location": "main",
+    "on_hand": 0,
+    "reorder_point": 2
+  },
+  {
+    "sku": "DEMO-LAB-1021",
+    "location": "main",
+    "on_hand": 1,
+    "reorder_point": 3
+  },
+  {
+    "sku": "DEMO-LAB-1022",
+    "location": "main",
+    "on_hand": 4,
+    "reorder_point": 2
+  },
+  {
+    "sku": "DEMO-LAB-2014",
+    "location": "main",
+    "on_hand": 48,
+    "reorder_point": 20
+  },
+  {
+    "sku": "DEMO-LAB-2015",
+    "location": "main",
+    "on_hand": 30,
+    "reorder_point": 12
+  },
+  {
+    "sku": "DEMO-LAB-2016",
+    "location": "main",
+    "on_hand": 2,
+    "reorder_point": 3
+  },
+  {
+    "sku": "DEMO-LAB-3019",
+    "location": "main",
+    "on_hand": 55,
+    "reorder_point": 15
+  },
+  {
+    "sku": "DEMO-LAB-3020",
+    "location": "main",
+    "on_hand": 120,
+    "reorder_point": 30
+  },
+  {
+    "sku": "DEMO-LAB-3021",
+    "location": "main",
+    "on_hand": 44,
+    "reorder_point": 12
+  },
+  {
+    "sku": "DEMO-LAB-3022",
+    "location": "main",
+    "on_hand": 96,
+    "reorder_point": 30
+  },
+  {
+    "sku": "DEMO-LAB-3023",
+    "location": "main",
+    "on_hand": 70,
+    "reorder_point": 20
+  },
+  {
+    "sku": "DEMO-LAB-3024",
+    "location": "main",
+    "on_hand": 26,
+    "reorder_point": 8
+  },
+  {
+    "sku": "DEMO-LAB-4018",
+    "location": "main",
+    "on_hand": 22,
+    "reorder_point": 6
+  },
+  {
+    "sku": "DEMO-LAB-4019",
+    "location": "main",
+    "on_hand": 3,
+    "reorder_point": 6
+  },
+  {
+    "sku": "DEMO-LAB-4020",
+    "location": "main",
+    "on_hand": 16,
+    "reorder_point": 5
+  },
+  {
+    "sku": "DEMO-LAB-4021",
+    "location": "main",
+    "on_hand": 38,
+    "reorder_point": 10
+  },
+  {
+    "sku": "DEMO-LAB-5013",
+    "location": "main",
+    "on_hand": 64,
+    "reorder_point": 20
+  },
+  {
+    "sku": "DEMO-LAB-5014",
+    "location": "main",
+    "on_hand": 12,
+    "reorder_point": 4
+  },
+  {
+    "sku": "DEMO-LAB-6013",
+    "location": "main",
+    "on_hand": 0,
+    "reorder_point": 6
+  },
+  {
+    "sku": "DEMO-LAB-6014",
+    "location": "main",
+    "on_hand": 7,
+    "reorder_point": 3
+  },
+  {
+    "sku": "DEMO-LAB-6015",
+    "location": "main",
+    "on_hand": 33,
+    "reorder_point": 10
   }
 ]

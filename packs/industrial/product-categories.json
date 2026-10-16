@@ -578,5 +578,50 @@
     "product": "DEMO-IND-6010",
     "category": "DEMO-IND-WORKSHOP",
     "position": 115
+  },
+  {
+    "product": "DEMO-IND-2023",
+    "category": "DEMO-IND-FASTENERS",
+    "position": 116
+  },
+  {
+    "product": "DEMO-IND-3017",
+    "category": "DEMO-IND-SAFETY",
+    "position": 117
+  },
+  {
+    "product": "DEMO-IND-3018",
+    "category": "DEMO-IND-SAFETY",
+    "position": 118
+  },
+  {
+    "product": "DEMO-IND-4017",
+    "category": "DEMO-IND-HAND-TOOLS",
+    "position": 119
+  },
+  {
+    "product": "DEMO-IND-4018",
+    "category": "DEMO-IND-HAND-TOOLS",
+    "position": 120
+  },
+  {
+    "product": "DEMO-IND-5011",
+    "category": "DEMO-IND-ABRASIVES",
+    "position": 121
+  },
+  {
+    "product": "DEMO-IND-5012",
+    "category": "DEMO-IND-ABRASIVES",
+    "position": 122
+  },
+  {
+    "product": "DEMO-IND-6011",
+    "category": "DEMO-IND-WORKSHOP",
+    "position": 123
+  },
+  {
+    "product": "DEMO-IND-6012",
+    "category": "DEMO-IND-WORKSHOP",
+    "position": 124
   }
 ]

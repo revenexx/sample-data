@@ -696,6 +696,60 @@
     "external_id": "DEMO-IND-6010-IMG"
   },
   {
+    "code": "DEMO-IND-2023-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-2023.png",
+    "external_id": "DEMO-IND-2023-IMG"
+  },
+  {
+    "code": "DEMO-IND-3017-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3017.png",
+    "external_id": "DEMO-IND-3017-IMG"
+  },
+  {
+    "code": "DEMO-IND-3018-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3018.png",
+    "external_id": "DEMO-IND-3018-IMG"
+  },
+  {
+    "code": "DEMO-IND-4017-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-4017.png",
+    "external_id": "DEMO-IND-4017-IMG"
+  },
+  {
+    "code": "DEMO-IND-4018-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-4018.png",
+    "external_id": "DEMO-IND-4018-IMG"
+  },
+  {
+    "code": "DEMO-IND-5011-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-5011.png",
+    "external_id": "DEMO-IND-5011-IMG"
+  },
+  {
+    "code": "DEMO-IND-5012-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-5012.png",
+    "external_id": "DEMO-IND-5012-IMG"
+  },
+  {
+    "code": "DEMO-IND-6011-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-6011.png",
+    "external_id": "DEMO-IND-6011-IMG"
+  },
+  {
+    "code": "DEMO-IND-6012-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-6012.png",
+    "external_id": "DEMO-IND-6012-IMG"
+  },
+  {
     "code": "DEMO-IND-2002-HEX-BOLT-M8X40-PDF",
     "family": "technical_drawings",
     "file": "assets/drawings/demo-ind-2002-hex-bolt-m8x40.pdf",

@@ -90,6 +90,15 @@
     "position": 9
   },
   {
+    "attribute": "demo_ele_cores_cross_section",
+    "code": "c1x6",
+    "labels": {
+      "de-DE": "1 × 6 mm²",
+      "en-US": "1 × 6 mm²"
+    },
+    "position": 10
+  },
+  {
     "attribute": "demo_ele_ip_rating",
     "code": "ip20",
     "labels": {

@@ -598,5 +598,30 @@
     "product": "DEMO-ELE-6011",
     "category": "DEMO-ELE-TOOLS",
     "position": 119
+  },
+  {
+    "product": "DEMO-ELE-1013",
+    "category": "DEMO-ELE-CABLES",
+    "position": 120
+  },
+  {
+    "product": "DEMO-ELE-3020",
+    "category": "DEMO-ELE-LIGHTING",
+    "position": 121
+  },
+  {
+    "product": "DEMO-ELE-4014",
+    "category": "DEMO-ELE-PROTECTION",
+    "position": 122
+  },
+  {
+    "product": "DEMO-ELE-5023",
+    "category": "DEMO-ELE-MATERIAL",
+    "position": 123
+  },
+  {
+    "product": "DEMO-ELE-6012",
+    "category": "DEMO-ELE-TOOLS",
+    "position": 124
   }
 ]

@@ -456,6 +456,18 @@
     "external_id": "DEMO-OFF-4013-IMG"
   },
   {
+    "code": "DEMO-OFF-4014-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-off-4014.png",
+    "external_id": "DEMO-OFF-4014-IMG"
+  },
+  {
+    "code": "DEMO-OFF-4015-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-off-4015.png",
+    "external_id": "DEMO-OFF-4015-IMG"
+  },
+  {
     "code": "DEMO-OFF-5001-IMG",
     "family": "product_images",
     "file": "assets/images/demo-off-5001.png",

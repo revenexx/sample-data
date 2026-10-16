@@ -373,6 +373,100 @@ const airHose = () => tile(
   label(120, 176, 90, 26, '10 m', A, 15),
 );
 
+// ---- nine drawings added for the 125-product build (DEMO-IND-2023 … 6012) ----
+
+// Flat washers: a short stack seen from slightly above, each with its bore.
+const washerStack = () => tile(
+  [0, 1, 2, 3, 4].map((i) => {
+    const cy = 300 - i * 12;
+    return `<ellipse cx="200" cy="${cy + 8}" rx="64" ry="20" fill="${C.mid}"/>` +
+      `<ellipse cx="200" cy="${cy}" rx="64" ry="20" fill="${C.metal}"/>` +
+      `<ellipse cx="200" cy="${cy}" rx="26" ry="8" fill="${C.tile}"/>`;
+  }).join('') +
+  label(132, 176, 136, 28, 'M10 · 100', A, 15),
+);
+
+// Rain jacket: hooded body with a zip line and one reflective accent band.
+const rainJacket = () => tile(
+  `<path d="M150 116 L122 140 L98 232 L134 242 L140 200 L140 318 L260 318 L260 200 L266 242 L302 232 L278 140 L250 116 Q200 132 150 116 Z" fill="#E9C23F" stroke="#C9A72E" stroke-width="3" stroke-linejoin="round"/>` +
+  `<path d="M160 118 Q200 58 240 118 Q200 136 160 118 Z" fill="#E9C23F" stroke="#C9A72E" stroke-width="3" stroke-linejoin="round"/>` +
+  `<path d="M200 134 V318" stroke="${C.dark}" stroke-width="3" stroke-dasharray="7 6"/>` +
+  `<rect x="140" y="268" width="120" height="8" fill="${A}"/>` +
+  label(150, 178, 80, 26, '0.6 kg', A, 14),
+);
+
+// Dust mask box: a stack of masks in a white carton, one folded mask standing on top.
+const dustMask = () => tile(
+  `<rect x="112" y="232" width="176" height="90" rx="6" fill="${C.white}" stroke="${C.light}" stroke-width="3"/>` +
+  `<rect x="112" y="252" width="176" height="10" fill="${A}"/>` +
+  `<path d="M138 232 Q200 124 262 232 Z" fill="${C.white}" stroke="${C.light}" stroke-width="3" stroke-linejoin="round"/>` +
+  [170, 200, 230].map((x) => `<path d="M${x} 230 Q${x + 4} 170 ${x - 2} 150" fill="none" stroke="${C.light}" stroke-width="2"/>`).join('') +
+  label(132, 282, 136, 30, 'FFP2 × 20', A, 16),
+);
+
+// Locking pliers: a clamp body with a top adjusting screw and knob, not the plain pliers profile.
+const lockingPliers = () => tile(
+  stroke('M160 322 Q136 220 176 152', 24, C.body) +
+  stroke('M240 322 Q264 220 224 152', 24, C.dark) +
+  stroke('M166 300 Q148 250 170 214', 30, A) +
+  `<rect x="184" y="98" width="32" height="56" rx="6" fill="${C.metal}" stroke="${C.mid}" stroke-width="2"/>` +
+  [108, 118, 128, 138].map((y) => `<path d="M188 ${y} H212" stroke="${C.mid}" stroke-width="2"/>`).join('') +
+  `<rect x="196" y="72" width="8" height="30" fill="${C.mid}"/>` +
+  `<circle cx="200" cy="68" r="10" fill="${A}"/>` +
+  `<circle cx="200" cy="152" r="11" fill="${C.mid}"/><circle cx="200" cy="152" r="4" fill="${A}"/>` +
+  label(256, 100, 96, 26, '180 mm', A, 15),
+);
+
+// Ratchet handle: a long bar, a round head with a dashed knurl ring, a square drive stub.
+const ratchet = () => tile(
+  `<rect x="66" y="184" width="220" height="26" rx="12" fill="${C.body}"/>` +
+  `<rect x="66" y="184" width="220" height="8" rx="4" fill="${A}"/>` +
+  `<circle cx="292" cy="197" r="44" fill="${C.metal}" stroke="${C.mid}" stroke-width="3"/>` +
+  `<circle cx="292" cy="197" r="32" fill="none" stroke="${C.mid}" stroke-width="3" stroke-dasharray="4 6"/>` +
+  `<rect x="326" y="183" width="30" height="28" fill="${C.dark}"/>` +
+  label(96, 236, 130, 28, '1/2 in · 72', A, 14),
+);
+
+// Narrow sanding roll: a short, slim roll of coarse abrasive on a core.
+const slimRoll = () => tile(
+  `<rect x="124" y="250" width="152" height="58" fill="#9C7448"/>` +
+  `<ellipse cx="124" cy="279" rx="14" ry="29" fill="${ABR_L}"/>` +
+  `<ellipse cx="276" cy="279" rx="14" ry="29" fill="${ABR_L}"/>` +
+  `<ellipse cx="276" cy="279" rx="6" ry="12" fill="${C.mid}"/>` +
+  label(125, 206, 150, 28, '93 mm · P40', A, 14),
+);
+
+// Sanding sponge: a soft block with a coloured top edge and a grit label.
+const spongeBlock = () => tile(
+  `<rect x="116" y="226" width="168" height="90" rx="14" fill="#E3D6B0"/>` +
+  `<rect x="116" y="226" width="168" height="12" rx="6" fill="${A}"/>` +
+  [0, 1, 2, 3, 4].map((c) => `<circle cx="${140 + c * 30}" cy="262" r="5" fill="${C.paperDark}"/>`).join('') +
+  label(150, 276, 100, 28, 'P180', A, 16),
+);
+
+// Assembly stand: a steel frame with an X brace, a top plate and a height crank.
+const assemblyStand = () => tile(
+  `<rect x="110" y="160" width="180" height="16" rx="4" fill="${C.dark}"/>` +
+  stroke('M124 176 L92 322', 12, C.body) + stroke('M276 176 L308 322', 12, C.body) +
+  stroke('M108 240 L292 300', 6, C.mid) + stroke('M292 240 L108 300', 6, C.mid) +
+  `<rect x="82" y="318" width="50" height="8" rx="3" fill="${C.dark}"/>` +
+  `<rect x="268" y="318" width="50" height="8" rx="3" fill="${C.dark}"/>` +
+  `<rect x="196" y="220" width="8" height="40" fill="${C.mid}"/>` +
+  `<circle cx="200" cy="216" r="9" fill="${A}"/>` +
+  label(246, 118, 130, 28, '700–1000 mm', A, 14),
+);
+
+// Drip tray: a shallow tray with oil in it, a rim and an accent edge.
+const drainTray = () => tile(
+  `<path d="M96 262 L304 262 L288 306 L112 306 Z" fill="${C.body}"/>` +
+  `<rect x="92" y="252" width="216" height="14" rx="4" fill="${C.dark}"/>` +
+  `<ellipse cx="200" cy="262" rx="92" ry="5" fill="#6B4A33"/>` +
+  `<rect x="112" y="280" width="176" height="6" fill="${A}"/>` +
+  `<rect x="120" y="306" width="28" height="10" fill="${C.dark}"/>` +
+  `<rect x="252" y="306" width="28" height="10" fill="${C.dark}"/>` +
+  label(146, 212, 108, 28, '20 l', A, 15),
+);
+
 export const illustrations = {
   'DEMO-IND-4001': screwdriverSet(),
   'DEMO-IND-4002': socketSet(7, 4, 9, 26, '1/4 in · 26 pcs'),
@@ -410,4 +504,13 @@ export const illustrations = {
   'DEMO-IND-6008': assortmentBox(),
   'DEMO-IND-6009': workLight(),
   'DEMO-IND-6010': airHose(),
+  'DEMO-IND-2023': washerStack(),
+  'DEMO-IND-3017': rainJacket(),
+  'DEMO-IND-3018': dustMask(),
+  'DEMO-IND-4017': lockingPliers(),
+  'DEMO-IND-4018': ratchet(),
+  'DEMO-IND-5011': slimRoll(),
+  'DEMO-IND-5012': spongeBlock(),
+  'DEMO-IND-6011': assemblyStand(),
+  'DEMO-IND-6012': drainTray(),
 };

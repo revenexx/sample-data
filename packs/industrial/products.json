@@ -4011,5 +4011,309 @@
         }
       }
     }
+  },
+  {
+    "sku": "DEMO-IND-2023",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-2023",
+    "attribute_values": {
+      "common": {
+        "demo_ind_thread": "m10",
+        "demo_ind_material": "steel_zinc",
+        "demo_ind_pack_size": 100,
+        "image": "sample-data/industrial/demo-ind-2023.png",
+        "demo_ind_images": [
+          "DEMO-IND-2023-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Unterlegscheiben M10, 100 Stück",
+          "description": "Unterlegscheiben für Schrauben M10, verzinkt."
+        },
+        "en-US": {
+          "name": "Flat washers M10, box of 100",
+          "description": "Flat washers for M10 screws, zinc-plated."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-3017",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3017",
+    "attribute_values": {
+      "common": {
+        "demo_ind_weight": {
+          "amount": "0.6",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-3017.png",
+        "demo_ind_images": [
+          "DEMO-IND-3017-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Regenjacke, gelb",
+          "description": "Wasserdichte Regenjacke mit Kapuze und verklebten Nähten."
+        },
+        "en-US": {
+          "name": "Rain jacket, yellow",
+          "description": "Waterproof rain jacket with hood and taped seams."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-3018",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3018",
+    "attribute_values": {
+      "common": {
+        "demo_ind_pack_size": 20,
+        "image": "sample-data/industrial/demo-ind-3018.png",
+        "demo_ind_images": [
+          "DEMO-IND-3018-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Staubmaske FFP2, 20 Stück",
+          "description": "Einweg-Staubmaske der Klasse FFP2 mit Nasenbügel, 20 Stück im Karton."
+        },
+        "en-US": {
+          "name": "Dust mask FFP2, box of 20",
+          "description": "Disposable FFP2 dust mask with nose clip, 20 pieces per box."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-4017",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-4017",
+    "attribute_values": {
+      "common": {
+        "demo_ind_length": {
+          "amount": "180",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_material": "chrome_vanadium",
+        "demo_ind_weight": {
+          "amount": "0.3",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-4017.png",
+        "demo_ind_images": [
+          "DEMO-IND-4017-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Gripzange 180 mm",
+          "description": "Gripzange mit Klemmfunktion und Stellschraube, 180 mm lang."
+        },
+        "en-US": {
+          "name": "Locking pliers 180 mm",
+          "description": "Locking pliers with clamping function and adjusting screw, 180 mm long."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-4018",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-4018",
+    "attribute_values": {
+      "common": {
+        "demo_ind_drive_size": "half",
+        "demo_ind_weight": {
+          "amount": "0.6",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-4018.png",
+        "demo_ind_images": [
+          "DEMO-IND-4018-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Ratschenkasten 1/2 Zoll, 72 Zähne",
+          "description": "Umschaltknarre mit 1/2-Zoll-Antrieb und 72 Zähnen."
+        },
+        "en-US": {
+          "name": "Ratchet handle 1/2 inch, 72 teeth",
+          "description": "Reversible ratchet with 1/2 inch drive and 72 teeth."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-5011",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-5011",
+    "attribute_values": {
+      "common": {
+        "demo_ind_grit": "p40",
+        "demo_ind_width": {
+          "amount": "93",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_length": {
+          "amount": "5000",
+          "unit": "MILLIMETER"
+        },
+        "image": "sample-data/industrial/demo-ind-5011.png",
+        "demo_ind_images": [
+          "DEMO-IND-5011-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schleifpapier-Rolle 93 mm × 5 m, P40",
+          "description": "Schleifpapier auf Rolle, grobe Körnung zum Materialabtrag."
+        },
+        "en-US": {
+          "name": "Sanding roll 93 mm × 5 m, P40",
+          "description": "Sanding paper on a roll, coarse grit for stock removal."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-5012",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-5012",
+    "attribute_values": {
+      "common": {
+        "demo_ind_grit": "p180",
+        "demo_ind_width": {
+          "amount": "115",
+          "unit": "MILLIMETER"
+        },
+        "image": "sample-data/industrial/demo-ind-5012.png",
+        "demo_ind_images": [
+          "DEMO-IND-5012-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schleifschwamm 115 × 70 mm, P180",
+          "description": "Schleifschwamm mit feiner Körnung für Lacke und Spachtelmassen."
+        },
+        "en-US": {
+          "name": "Sanding sponge 115 × 70 mm, P180",
+          "description": "Sanding sponge with fine grit for paint and filler."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-6011",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-6011",
+    "attribute_values": {
+      "common": {
+        "demo_ind_load_capacity": {
+          "amount": "120",
+          "unit": "KILOGRAM"
+        },
+        "demo_ind_weight": {
+          "amount": "24",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-6011.png",
+        "demo_ind_images": [
+          "DEMO-IND-6011-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Montageständer, höhenverstellbar",
+          "description": "Stahlständer mit Ablagefläche, höhenverstellbar von 700 bis 1000 mm."
+        },
+        "en-US": {
+          "name": "Assembly stand, height-adjustable",
+          "description": "Steel stand with work surface, height-adjustable from 700 to 1000 mm."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-6012",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-6012",
+    "attribute_values": {
+      "common": {
+        "demo_ind_volume": {
+          "amount": "20",
+          "unit": "LITER"
+        },
+        "demo_ind_weight": {
+          "amount": "3.2",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-6012.png",
+        "demo_ind_images": [
+          "DEMO-IND-6012-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Ölauffangwanne 20 Liter",
+          "description": "Auffangwanne aus Kunststoff für Öl und Kühlschmierstoffe."
+        },
+        "en-US": {
+          "name": "Oil drip tray 20 liter",
+          "description": "Plastic drip tray for oil and coolants."
+        }
+      }
+    }
   }
 ]

@@ -380,238 +380,248 @@
     "position": 75
   },
   {
-    "product": "DEMO-OFF-5001",
-    "category": "DEMO-OFF-CLEAN",
+    "product": "DEMO-OFF-4014",
+    "category": "DEMO-OFF-DESK",
     "position": 76
   },
   {
-    "product": "DEMO-OFF-5001-BLUE",
-    "category": "DEMO-OFF-CLEAN",
+    "product": "DEMO-OFF-4015",
+    "category": "DEMO-OFF-DESK",
     "position": 77
   },
   {
-    "product": "DEMO-OFF-5001-RED",
+    "product": "DEMO-OFF-5001",
     "category": "DEMO-OFF-CLEAN",
     "position": 78
   },
   {
-    "product": "DEMO-OFF-5001-GREEN",
+    "product": "DEMO-OFF-5001-BLUE",
     "category": "DEMO-OFF-CLEAN",
     "position": 79
   },
   {
-    "product": "DEMO-OFF-5001-YELLOW",
+    "product": "DEMO-OFF-5001-RED",
     "category": "DEMO-OFF-CLEAN",
     "position": 80
   },
   {
-    "product": "DEMO-OFF-5002",
+    "product": "DEMO-OFF-5001-GREEN",
     "category": "DEMO-OFF-CLEAN",
     "position": 81
   },
   {
-    "product": "DEMO-OFF-5003",
+    "product": "DEMO-OFF-5001-YELLOW",
     "category": "DEMO-OFF-CLEAN",
     "position": 82
   },
   {
-    "product": "DEMO-OFF-5004",
+    "product": "DEMO-OFF-5002",
     "category": "DEMO-OFF-CLEAN",
     "position": 83
   },
   {
-    "product": "DEMO-OFF-5005",
+    "product": "DEMO-OFF-5003",
     "category": "DEMO-OFF-CLEAN",
     "position": 84
   },
   {
-    "product": "DEMO-OFF-5006",
+    "product": "DEMO-OFF-5004",
     "category": "DEMO-OFF-CLEAN",
     "position": 85
   },
   {
-    "product": "DEMO-OFF-5007",
+    "product": "DEMO-OFF-5005",
     "category": "DEMO-OFF-CLEAN",
     "position": 86
   },
   {
-    "product": "DEMO-OFF-5008",
+    "product": "DEMO-OFF-5006",
     "category": "DEMO-OFF-CLEAN",
     "position": 87
   },
   {
-    "product": "DEMO-OFF-5008-BLACK",
+    "product": "DEMO-OFF-5007",
     "category": "DEMO-OFF-CLEAN",
     "position": 88
   },
   {
-    "product": "DEMO-OFF-5008-GREY",
+    "product": "DEMO-OFF-5008",
     "category": "DEMO-OFF-CLEAN",
     "position": 89
   },
   {
-    "product": "DEMO-OFF-5008-BLUE",
+    "product": "DEMO-OFF-5008-BLACK",
     "category": "DEMO-OFF-CLEAN",
     "position": 90
   },
   {
-    "product": "DEMO-OFF-5009",
+    "product": "DEMO-OFF-5008-GREY",
     "category": "DEMO-OFF-CLEAN",
     "position": 91
   },
   {
-    "product": "DEMO-OFF-5010",
+    "product": "DEMO-OFF-5008-BLUE",
     "category": "DEMO-OFF-CLEAN",
     "position": 92
   },
   {
-    "product": "DEMO-OFF-5011",
+    "product": "DEMO-OFF-5009",
     "category": "DEMO-OFF-CLEAN",
     "position": 93
   },
   {
-    "product": "DEMO-OFF-5012",
+    "product": "DEMO-OFF-5010",
     "category": "DEMO-OFF-CLEAN",
     "position": 94
   },
   {
-    "product": "DEMO-OFF-5013",
+    "product": "DEMO-OFF-5011",
     "category": "DEMO-OFF-CLEAN",
     "position": 95
   },
   {
-    "product": "DEMO-OFF-5014",
+    "product": "DEMO-OFF-5012",
     "category": "DEMO-OFF-CLEAN",
     "position": 96
   },
   {
-    "product": "DEMO-OFF-5015",
+    "product": "DEMO-OFF-5013",
     "category": "DEMO-OFF-CLEAN",
     "position": 97
   },
   {
-    "product": "DEMO-OFF-6001",
-    "category": "DEMO-OFF-MAIL",
+    "product": "DEMO-OFF-5014",
+    "category": "DEMO-OFF-CLEAN",
     "position": 98
   },
   {
-    "product": "DEMO-OFF-6002",
-    "category": "DEMO-OFF-MAIL",
+    "product": "DEMO-OFF-5015",
+    "category": "DEMO-OFF-CLEAN",
     "position": 99
   },
   {
-    "product": "DEMO-OFF-6003",
+    "product": "DEMO-OFF-6001",
     "category": "DEMO-OFF-MAIL",
     "position": 100
   },
   {
-    "product": "DEMO-OFF-6004",
+    "product": "DEMO-OFF-6002",
     "category": "DEMO-OFF-MAIL",
     "position": 101
   },
   {
-    "product": "DEMO-OFF-6005",
+    "product": "DEMO-OFF-6003",
     "category": "DEMO-OFF-MAIL",
     "position": 102
   },
   {
-    "product": "DEMO-OFF-6006",
+    "product": "DEMO-OFF-6004",
     "category": "DEMO-OFF-MAIL",
     "position": 103
   },
   {
-    "product": "DEMO-OFF-6007",
+    "product": "DEMO-OFF-6005",
     "category": "DEMO-OFF-MAIL",
     "position": 104
   },
   {
-    "product": "DEMO-OFF-6008",
+    "product": "DEMO-OFF-6006",
     "category": "DEMO-OFF-MAIL",
     "position": 105
   },
   {
-    "product": "DEMO-OFF-6009",
+    "product": "DEMO-OFF-6007",
     "category": "DEMO-OFF-MAIL",
     "position": 106
   },
   {
-    "product": "DEMO-OFF-6010",
+    "product": "DEMO-OFF-6008",
     "category": "DEMO-OFF-MAIL",
     "position": 107
   },
   {
-    "product": "DEMO-OFF-6011",
+    "product": "DEMO-OFF-6009",
     "category": "DEMO-OFF-MAIL",
     "position": 108
   },
   {
-    "product": "DEMO-OFF-6012",
+    "product": "DEMO-OFF-6010",
     "category": "DEMO-OFF-MAIL",
     "position": 109
   },
   {
-    "product": "DEMO-OFF-6013",
+    "product": "DEMO-OFF-6011",
     "category": "DEMO-OFF-MAIL",
     "position": 110
   },
   {
-    "product": "DEMO-OFF-6014",
+    "product": "DEMO-OFF-6012",
     "category": "DEMO-OFF-MAIL",
     "position": 111
   },
   {
-    "product": "DEMO-OFF-3004",
-    "category": "DEMO-OFF-BREAKROOM",
+    "product": "DEMO-OFF-6013",
+    "category": "DEMO-OFF-MAIL",
     "position": 112
   },
   {
-    "product": "DEMO-OFF-3005",
-    "category": "DEMO-OFF-BREAKROOM",
+    "product": "DEMO-OFF-6014",
+    "category": "DEMO-OFF-MAIL",
     "position": 113
   },
   {
-    "product": "DEMO-OFF-3006",
+    "product": "DEMO-OFF-3004",
     "category": "DEMO-OFF-BREAKROOM",
     "position": 114
   },
   {
-    "product": "DEMO-OFF-3007",
+    "product": "DEMO-OFF-3005",
     "category": "DEMO-OFF-BREAKROOM",
     "position": 115
   },
   {
-    "product": "DEMO-OFF-3008",
+    "product": "DEMO-OFF-3006",
     "category": "DEMO-OFF-BREAKROOM",
     "position": 116
   },
   {
-    "product": "DEMO-OFF-3009",
+    "product": "DEMO-OFF-3007",
     "category": "DEMO-OFF-BREAKROOM",
     "position": 117
   },
   {
-    "product": "DEMO-OFF-3010",
+    "product": "DEMO-OFF-3008",
     "category": "DEMO-OFF-BREAKROOM",
     "position": 118
   },
   {
-    "product": "DEMO-OFF-3011",
+    "product": "DEMO-OFF-3009",
     "category": "DEMO-OFF-BREAKROOM",
     "position": 119
   },
   {
-    "product": "DEMO-OFF-3012",
+    "product": "DEMO-OFF-3010",
     "category": "DEMO-OFF-BREAKROOM",
     "position": 120
   },
   {
-    "product": "DEMO-OFF-3013",
+    "product": "DEMO-OFF-3011",
     "category": "DEMO-OFF-BREAKROOM",
     "position": 121
   },
   {
-    "product": "DEMO-OFF-3014",
+    "product": "DEMO-OFF-3012",
     "category": "DEMO-OFF-BREAKROOM",
     "position": 122
+  },
+  {
+    "product": "DEMO-OFF-3013",
+    "category": "DEMO-OFF-BREAKROOM",
+    "position": 123
+  },
+  {
+    "product": "DEMO-OFF-3014",
+    "category": "DEMO-OFF-BREAKROOM",
+    "position": 124
   }
 ]

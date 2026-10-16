@@ -3664,5 +3664,737 @@
         }
       }
     }
+  },
+  {
+    "sku": "DEMO-LAB-1019",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PROBARA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-1019",
+    "attribute_values": {
+      "common": {
+        "demo_lab_max_speed": {
+          "amount": "1500",
+          "unit": "REVOLUTIONS_PER_MINUTE"
+        },
+        "demo_lab_weight": {
+          "amount": "1.6",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/lab/demo-lab-1019.png",
+        "demo_lab_images": [
+          "DEMO-LAB-1019-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Magnetrührer ohne Heizung, 1 l",
+          "description": "Magnetrührer ohne Heizplatte für Gefäße bis 1 l, stufenlos regelbar."
+        },
+        "en-US": {
+          "name": "Magnetic stirrer without heating, 1 l",
+          "description": "Magnetic stirrer without hotplate for vessels up to 1 l, variable speed."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-LAB-1020",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PROBARA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-1020",
+    "attribute_values": {
+      "common": {
+        "demo_lab_max_temp": 100,
+        "demo_lab_weight": {
+          "amount": "6.5",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/lab/demo-lab-1020.png",
+        "demo_lab_images": [
+          "DEMO-LAB-1020-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Laborwasserbad 10 l, mit Deckel",
+          "description": "Wasserbad mit 10 l Füllvolumen und Deckel, Temperatur bis 100 °C."
+        },
+        "en-US": {
+          "name": "Laboratory water bath 10 l, with lid",
+          "description": "Water bath with 10 l capacity and lid, temperature up to 100 °C."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-LAB-1021",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PROBARA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-1021",
+    "attribute_values": {
+      "common": {
+        "demo_lab_max_temp": 200,
+        "demo_lab_weight": {
+          "amount": "35",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/lab/demo-lab-1021.png",
+        "demo_lab_images": [
+          "DEMO-LAB-1021-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Vakuumtrockenschrank, 23 l",
+          "description": "Vakuumtrockenschrank mit 23 l Innenvolumen, Temperatur bis 200 °C."
+        },
+        "en-US": {
+          "name": "Vacuum drying oven, 23 l",
+          "description": "Vacuum drying oven with 23 l interior volume, temperature up to 200 °C."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-LAB-1022",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PROBARA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-1022",
+    "attribute_values": {
+      "common": {
+        "demo_lab_weight": {
+          "amount": "38",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/lab/demo-lab-1022.png",
+        "demo_lab_images": [
+          "DEMO-LAB-1022-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Labor-Kühlschrank, 85 l",
+          "description": "Labor-Kühlschrank mit 85 l Nutzinhalt und drei Einlegeböden."
+        },
+        "en-US": {
+          "name": "Laboratory refrigerator, 85 l",
+          "description": "Laboratory refrigerator with 85 l usable volume and three shelves."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-LAB-2014",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PIPETRIX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-2014",
+    "attribute_values": {
+      "common": {
+        "demo_lab_volume_range": "2ul",
+        "demo_lab_material": "polypropylene",
+        "demo_lab_pack_size": 96,
+        "image": "sample-data/lab/demo-lab-2014.png",
+        "demo_lab_images": [
+          "DEMO-LAB-2014-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Pipettenspitzen 2 µl, Rack à 96",
+          "description": "Pipettenspitzen aus Polypropylen, 96 Stück im Rack, für 2-µl-Pipetten."
+        },
+        "en-US": {
+          "name": "Pipette tips 2 µl, rack of 96",
+          "description": "Polypropylene pipette tips, 96 pieces per rack, for 2 µl pipettes."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-LAB-2015",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PIPETRIX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-2015",
+    "attribute_values": {
+      "common": {
+        "demo_lab_volume_range": "1000ul",
+        "demo_lab_material": "polypropylene",
+        "demo_lab_pack_size": 96,
+        "image": "sample-data/lab/demo-lab-2015.png",
+        "demo_lab_images": [
+          "DEMO-LAB-2015-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Pipettenspitzen 1000 µl mit Filter, Rack à 96",
+          "description": "Pipettenspitzen mit Filtereinsatz aus Polypropylen, 96 Stück im Rack."
+        },
+        "en-US": {
+          "name": "Filter pipette tips 1000 µl, rack of 96",
+          "description": "Polypropylene pipette tips with filter insert, 96 pieces per rack."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-LAB-2016",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PIPETRIX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-2016",
+    "attribute_values": {
+      "common": {
+        "demo_lab_weight": {
+          "amount": "0.4",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/lab/demo-lab-2016.png",
+        "demo_lab_images": [
+          "DEMO-LAB-2016-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Pipettierhilfe, elektronisch, mit Akku",
+          "description": "Elektronische Pipettierhilfe mit Akku für Pipetten mit Standardschaft."
+        },
+        "en-US": {
+          "name": "Electronic pipette controller, rechargeable",
+          "description": "Electronic pipette controller with rechargeable battery for standard-shaft pipettes."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-LAB-3019",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PIPETRIX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-3019",
+    "attribute_values": {
+      "common": {
+        "demo_lab_material": "polyethylene",
+        "demo_lab_weight": {
+          "amount": "0.2",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/lab/demo-lab-3019.png",
+        "demo_lab_images": [
+          "DEMO-LAB-3019-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Verschlussfolie, Rolle 10 m",
+          "description": "Verschlussfolie aus Polyethylen, Rolle mit 10 m Länge und 100 mm Breite."
+        },
+        "en-US": {
+          "name": "Sealing film, roll 10 m",
+          "description": "Polyethylene sealing film, roll of 10 m length and 100 mm width."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-LAB-3020",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PIPETRIX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-3020",
+    "attribute_values": {
+      "common": {
+        "demo_lab_material": "polyethylene",
+        "demo_lab_pack_size": 100,
+        "image": "sample-data/lab/demo-lab-3020.png",
+        "demo_lab_images": [
+          "DEMO-LAB-3020-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Steckkappen für Röhrchen, Beutel à 100",
+          "description": "Steckkappen aus Polyethylen für Röhrchen, 100 Stück im Beutel."
+        },
+        "en-US": {
+          "name": "Snap-on caps for tubes, bag of 100",
+          "description": "Polyethylene snap-on caps for tubes, 100 pieces per bag."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-LAB-3021",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PIPETRIX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-3021",
+    "attribute_values": {
+      "common": {
+        "demo_lab_pack_size": 4,
+        "image": "sample-data/lab/demo-lab-3021.png",
+        "demo_lab_images": [
+          "DEMO-LAB-3021-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Permanentmarker, Set à 4, 1 mm",
+          "description": "Set mit vier Permanentmarkern, Strichstärke 1 mm, für Beschriftungen auf Glas und Kunststoff."
+        },
+        "en-US": {
+          "name": "Permanent markers, set of 4, 1 mm",
+          "description": "Set of four permanent markers, 1 mm line width, for marking glass and plastic."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-LAB-3022",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PIPETRIX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-3022",
+    "attribute_values": {
+      "common": {
+        "demo_lab_volume": {
+          "amount": "4",
+          "unit": "MILLILITER"
+        },
+        "demo_lab_material": "polypropylene",
+        "demo_lab_pack_size": 100,
+        "demo_lab_weight": {
+          "amount": "0.3",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/lab/demo-lab-3022.png",
+        "demo_lab_images": [
+          "DEMO-LAB-3022-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schraubröhrchen 4 ml, Beutel à 100",
+          "description": "Schraubröhrchen aus Polypropylen mit 4 ml Nennvolumen, 100 Stück im Beutel."
+        },
+        "en-US": {
+          "name": "Screw-cap tubes 4 ml, bag of 100",
+          "description": "Polypropylene screw-cap tubes with 4 ml nominal volume, 100 pieces per bag."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-LAB-3023",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PROBARA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-3023",
+    "attribute_values": {
+      "common": {
+        "demo_lab_pack_size": 200,
+        "demo_lab_weight": {
+          "amount": "0.6",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/lab/demo-lab-3023.png",
+        "demo_lab_images": [
+          "DEMO-LAB-3023-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Laborwischtücher, fusselfrei, Box à 200",
+          "description": "Fusselfreie Laborwischtücher, 200 Tücher in einer Spenderbox."
+        },
+        "en-US": {
+          "name": "Lab wipes, lint-free, box of 200",
+          "description": "Lint-free lab wipes, 200 sheets in a dispenser box."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-LAB-3024",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PIPETRIX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-3024",
+    "attribute_values": {
+      "common": {
+        "demo_lab_pack_size": 20,
+        "image": "sample-data/lab/demo-lab-3024.png",
+        "demo_lab_images": [
+          "DEMO-LAB-3024-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Silikonstopfen, Sortiment à 20",
+          "description": "Sortiment aus 20 Silikonstopfen in fünf Größen für Reagenzgläser und Kolben."
+        },
+        "en-US": {
+          "name": "Silicone stoppers, assortment of 20",
+          "description": "Assortment of 20 silicone stoppers in five sizes for test tubes and flasks."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-LAB-4018",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PROBARA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-4018",
+    "attribute_values": {
+      "common": {
+        "demo_lab_material": "borosilicate",
+        "demo_lab_volume": {
+          "amount": "100",
+          "unit": "MILLILITER"
+        },
+        "demo_lab_weight": {
+          "amount": "0.2",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/lab/demo-lab-4018.png",
+        "demo_lab_images": [
+          "DEMO-LAB-4018-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Erlenmeyerkolben 100 ml, Borosilikatglas",
+          "description": "Erlenmeyerkolben aus Borosilikatglas mit 100 ml Nennvolumen."
+        },
+        "en-US": {
+          "name": "Erlenmeyer flask 100 ml, borosilicate glass",
+          "description": "Erlenmeyer flask made of borosilicate glass, nominal volume 100 ml."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-LAB-4019",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PROBARA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-4019",
+    "attribute_values": {
+      "common": {
+        "demo_lab_material": "borosilicate",
+        "demo_lab_volume": {
+          "amount": "250",
+          "unit": "MILLILITER"
+        },
+        "demo_lab_weight": {
+          "amount": "0.3",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/lab/demo-lab-4019.png",
+        "demo_lab_images": [
+          "DEMO-LAB-4019-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Rundkolben 250 ml, Schliff NS 29/32",
+          "description": "Rundkolben aus Borosilikatglas mit 250 ml Nennvolumen und Normschliff NS 29/32."
+        },
+        "en-US": {
+          "name": "Round-bottom flask 250 ml, NS 29/32 joint",
+          "description": "Round-bottom flask made of borosilicate glass, nominal volume 250 ml, standard taper joint NS 29/32."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-LAB-4020",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PROBARA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-4020",
+    "attribute_values": {
+      "common": {
+        "demo_lab_material": "borosilicate",
+        "demo_lab_volume": {
+          "amount": "10",
+          "unit": "MILLILITER"
+        },
+        "demo_lab_weight": {
+          "amount": "0.1",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/lab/demo-lab-4020.png",
+        "demo_lab_images": [
+          "DEMO-LAB-4020-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Messzylinder 10 ml, Klasse B",
+          "description": "Messzylinder aus Borosilikatglas, Nennvolumen 10 ml, Toleranzklasse B."
+        },
+        "en-US": {
+          "name": "Measuring cylinder 10 ml, class B",
+          "description": "Measuring cylinder made of borosilicate glass, nominal volume 10 ml, tolerance class B."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-LAB-4021",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PIPETRIX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-4021",
+    "attribute_values": {
+      "common": {
+        "demo_lab_material": "glass",
+        "demo_lab_volume": {
+          "amount": "20",
+          "unit": "MILLILITER"
+        },
+        "demo_lab_pack_size": 12,
+        "image": "sample-data/lab/demo-lab-4021.png",
+        "demo_lab_images": [
+          "DEMO-LAB-4021-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schraubglas 20 ml mit Deckel, Packung à 12",
+          "description": "Schraubgläser aus Glas mit 20 ml Nennvolumen und Schraubdeckel, 12 Stück je Packung."
+        },
+        "en-US": {
+          "name": "Screw-cap glass vial 20 ml, pack of 12",
+          "description": "Glass vials with 20 ml nominal volume and screw cap, 12 pieces per pack."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-LAB-5013",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PIPETRIX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-5013",
+    "attribute_values": {
+      "common": {
+        "demo_lab_pack_size": 100,
+        "demo_lab_weight": {
+          "amount": "0.3",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/lab/demo-lab-5013.png",
+        "demo_lab_images": [
+          "DEMO-LAB-5013-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Einmalhandschuhe aus Vinyl, Box à 100",
+          "description": "Einmalhandschuhe aus Vinyl, puderfrei, 100 Stück in einer Box."
+        },
+        "en-US": {
+          "name": "Disposable vinyl gloves, box of 100",
+          "description": "Disposable vinyl gloves, powder-free, 100 pieces in a box."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-LAB-5014",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PROBARA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-5014",
+    "attribute_values": {
+      "common": {
+        "demo_lab_weight": {
+          "amount": "0.2",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/lab/demo-lab-5014.png",
+        "demo_lab_images": [
+          "DEMO-LAB-5014-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Überbrille mit Seitenschutz",
+          "description": "Schutzbrille zum Überziehen über eigene Brillen, mit Seitenschutz und klarer Scheibe."
+        },
+        "en-US": {
+          "name": "Over-spectacle goggles with side shields",
+          "description": "Protective goggles worn over spectacles, with side shields and a clear lens."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-LAB-6013",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PIPETRIX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-6013",
+    "attribute_values": {
+      "common": {
+        "demo_lab_capacity": 48,
+        "demo_lab_material": "polypropylene",
+        "demo_lab_weight": {
+          "amount": "0.4",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/lab/demo-lab-6013.png",
+        "demo_lab_images": [
+          "DEMO-LAB-6013-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Rack für 2-ml-Röhrchen, 48 Plätze",
+          "description": "Rack aus Polypropylen für 48 Röhrchen à 2 ml."
+        },
+        "en-US": {
+          "name": "Rack for 2 ml tubes, 48 positions",
+          "description": "Polypropylene rack for 48 tubes of 2 ml."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-LAB-6014",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PROBARA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-6014",
+    "attribute_values": {
+      "common": {
+        "demo_lab_capacity": 81,
+        "demo_lab_material": "polycarbonate",
+        "demo_lab_max_temp": -80,
+        "demo_lab_weight": {
+          "amount": "0.5",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/lab/demo-lab-6014.png",
+        "demo_lab_images": [
+          "DEMO-LAB-6014-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Kryobox für 81 Gefäße, Polycarbonat",
+          "description": "Kryobox aus Polycarbonat mit Raster für 81 Gefäße, Deckel mit Griffmulde."
+        },
+        "en-US": {
+          "name": "Cryo box for 81 vessels, polycarbonate",
+          "description": "Polycarbonate cryo box with a grid for 81 vessels and a lid with finger recess."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-LAB-6015",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PIPETRIX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-6015",
+    "attribute_values": {
+      "common": {
+        "demo_lab_capacity": 100,
+        "demo_lab_weight": {
+          "amount": "0.3",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/lab/demo-lab-6015.png",
+        "demo_lab_images": [
+          "DEMO-LAB-6015-IMG"
+        ],
+        "demo_has_cad": false
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Probenarchivbox aus Karton, 100 Plätze",
+          "description": "Archivbox aus Karton mit 100 Plätzen für Probenröhrchen, mit Steckdeckel."
+        },
+        "en-US": {
+          "name": "Sample archive box of card, 100 positions",
+          "description": "Card archive box with 100 positions for sample tubes, with push-fit lid."
+        }
+      }
+    }
   }
 ]

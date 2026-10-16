@@ -479,6 +479,18 @@
     "reorder_point": 15
   },
   {
+    "sku": "DEMO-OFF-4014",
+    "location": "main",
+    "on_hand": 74,
+    "reorder_point": 20
+  },
+  {
+    "sku": "DEMO-OFF-4015",
+    "location": "main",
+    "on_hand": 4,
+    "reorder_point": 8
+  },
+  {
     "sku": "DEMO-OFF-5001-BLUE",
     "location": "main",
     "on_hand": 40,

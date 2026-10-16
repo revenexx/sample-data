@@ -67,6 +67,8 @@ Drawn as code in `tools/art/electrical.mjs`, rendered to PNG by `tools/build-art
 | `packs/electrical/assets/images/demo-ele-1011.svg` | 2 KB |
 | `packs/electrical/assets/images/demo-ele-1012.png` | 28 KB |
 | `packs/electrical/assets/images/demo-ele-1012.svg` | 2 KB |
+| `packs/electrical/assets/images/demo-ele-1013.png` | 24 KB |
+| `packs/electrical/assets/images/demo-ele-1013.svg` | 1 KB |
 | `packs/electrical/assets/images/demo-ele-2001.png` | 10 KB |
 | `packs/electrical/assets/images/demo-ele-2001.svg` | 1 KB |
 | `packs/electrical/assets/images/demo-ele-2002.png` | 10 KB |
@@ -191,6 +193,8 @@ Drawn as code in `tools/art/electrical.mjs`, rendered to PNG by `tools/build-art
 | `packs/electrical/assets/images/demo-ele-3018.svg` | 1 KB |
 | `packs/electrical/assets/images/demo-ele-3019.png` | 13 KB |
 | `packs/electrical/assets/images/demo-ele-3019.svg` | 1 KB |
+| `packs/electrical/assets/images/demo-ele-3020.png` | 12 KB |
+| `packs/electrical/assets/images/demo-ele-3020.svg` | 1 KB |
 | `packs/electrical/assets/images/demo-ele-4001.png` | 10 KB |
 | `packs/electrical/assets/images/demo-ele-4001.svg` | 1 KB |
 | `packs/electrical/assets/images/demo-ele-4002.png` | 10 KB |
@@ -217,6 +221,8 @@ Drawn as code in `tools/art/electrical.mjs`, rendered to PNG by `tools/build-art
 | `packs/electrical/assets/images/demo-ele-4012.svg` | 3 KB |
 | `packs/electrical/assets/images/demo-ele-4013.png` | 10 KB |
 | `packs/electrical/assets/images/demo-ele-4013.svg` | 3 KB |
+| `packs/electrical/assets/images/demo-ele-4014.png` | 11 KB |
+| `packs/electrical/assets/images/demo-ele-4014.svg` | 2 KB |
 | `packs/electrical/assets/images/demo-ele-5001.png` | 16 KB |
 | `packs/electrical/assets/images/demo-ele-5001.svg` | 1 KB |
 | `packs/electrical/assets/images/demo-ele-5002.png` | 16 KB |
@@ -261,6 +267,8 @@ Drawn as code in `tools/art/electrical.mjs`, rendered to PNG by `tools/build-art
 | `packs/electrical/assets/images/demo-ele-5021.svg` | 2 KB |
 | `packs/electrical/assets/images/demo-ele-5022.png` | 11 KB |
 | `packs/electrical/assets/images/demo-ele-5022.svg` | 2 KB |
+| `packs/electrical/assets/images/demo-ele-5023.png` | 11 KB |
+| `packs/electrical/assets/images/demo-ele-5023.svg` | 2 KB |
 | `packs/electrical/assets/images/demo-ele-6001.png` | 21 KB |
 | `packs/electrical/assets/images/demo-ele-6001.svg` | 2 KB |
 | `packs/electrical/assets/images/demo-ele-6002.png` | 23 KB |
@@ -283,6 +291,8 @@ Drawn as code in `tools/art/electrical.mjs`, rendered to PNG by `tools/build-art
 | `packs/electrical/assets/images/demo-ele-6010.svg` | 2 KB |
 | `packs/electrical/assets/images/demo-ele-6011.png` | 24 KB |
 | `packs/electrical/assets/images/demo-ele-6011.svg` | 2 KB |
+| `packs/electrical/assets/images/demo-ele-6012.png` | 15 KB |
+| `packs/electrical/assets/images/demo-ele-6012.svg` | 1 KB |
 
 ## industrial
 
@@ -403,6 +413,8 @@ Drawn as code in `tools/art/industrial.mjs`, rendered to PNG by `tools/build-art
 | `packs/industrial/assets/images/demo-ind-2021.svg` | 2 KB |
 | `packs/industrial/assets/images/demo-ind-2022.png` | 25 KB |
 | `packs/industrial/assets/images/demo-ind-2022.svg` | 5 KB |
+| `packs/industrial/assets/images/demo-ind-2023.png` | 22 KB |
+| `packs/industrial/assets/images/demo-ind-2023.svg` | 2 KB |
 | `packs/industrial/assets/images/demo-ind-3001-l.png` | 13 KB |
 | `packs/industrial/assets/images/demo-ind-3001-l.svg` | 1 KB |
 | `packs/industrial/assets/images/demo-ind-3001-m.png` | 13 KB |
@@ -483,6 +495,10 @@ Drawn as code in `tools/art/industrial.mjs`, rendered to PNG by `tools/build-art
 | `packs/industrial/assets/images/demo-ind-3015.svg` | 1 KB |
 | `packs/industrial/assets/images/demo-ind-3016.png` | 23 KB |
 | `packs/industrial/assets/images/demo-ind-3016.svg` | 1 KB |
+| `packs/industrial/assets/images/demo-ind-3017.png` | 21 KB |
+| `packs/industrial/assets/images/demo-ind-3017.svg` | 1 KB |
+| `packs/industrial/assets/images/demo-ind-3018.png` | 16 KB |
+| `packs/industrial/assets/images/demo-ind-3018.svg` | 2 KB |
 | `packs/industrial/assets/images/demo-ind-4001.png` | 16 KB |
 | `packs/industrial/assets/images/demo-ind-4001.svg` | 2 KB |
 | `packs/industrial/assets/images/demo-ind-4002.png` | 17 KB |
@@ -515,6 +531,10 @@ Drawn as code in `tools/art/industrial.mjs`, rendered to PNG by `tools/build-art
 | `packs/industrial/assets/images/demo-ind-4015.svg` | 1 KB |
 | `packs/industrial/assets/images/demo-ind-4016.png` | 11 KB |
 | `packs/industrial/assets/images/demo-ind-4016.svg` | 2 KB |
+| `packs/industrial/assets/images/demo-ind-4017.png` | 23 KB |
+| `packs/industrial/assets/images/demo-ind-4017.svg` | 2 KB |
+| `packs/industrial/assets/images/demo-ind-4018.png` | 18 KB |
+| `packs/industrial/assets/images/demo-ind-4018.svg` | 1 KB |
 | `packs/industrial/assets/images/demo-ind-5001.png` | 41 KB |
 | `packs/industrial/assets/images/demo-ind-5001.svg` | 3 KB |
 | `packs/industrial/assets/images/demo-ind-5002.png` | 41 KB |
@@ -535,6 +555,10 @@ Drawn as code in `tools/art/industrial.mjs`, rendered to PNG by `tools/build-art
 | `packs/industrial/assets/images/demo-ind-5009.svg` | 1 KB |
 | `packs/industrial/assets/images/demo-ind-5010.png` | 24 KB |
 | `packs/industrial/assets/images/demo-ind-5010.svg` | 1 KB |
+| `packs/industrial/assets/images/demo-ind-5011.png` | 13 KB |
+| `packs/industrial/assets/images/demo-ind-5011.svg` | 1 KB |
+| `packs/industrial/assets/images/demo-ind-5012.png` | 10 KB |
+| `packs/industrial/assets/images/demo-ind-5012.svg` | 1 KB |
 | `packs/industrial/assets/images/demo-ind-6001.png` | 10 KB |
 | `packs/industrial/assets/images/demo-ind-6001.svg` | 1 KB |
 | `packs/industrial/assets/images/demo-ind-6002.png` | 10 KB |
@@ -555,6 +579,10 @@ Drawn as code in `tools/art/industrial.mjs`, rendered to PNG by `tools/build-art
 | `packs/industrial/assets/images/demo-ind-6009.svg` | 2 KB |
 | `packs/industrial/assets/images/demo-ind-6010.png` | 26 KB |
 | `packs/industrial/assets/images/demo-ind-6010.svg` | 1 KB |
+| `packs/industrial/assets/images/demo-ind-6011.png` | 26 KB |
+| `packs/industrial/assets/images/demo-ind-6011.svg` | 2 KB |
+| `packs/industrial/assets/images/demo-ind-6012.png` | 10 KB |
+| `packs/industrial/assets/images/demo-ind-6012.svg` | 1 KB |
 
 ## lab
 
@@ -631,6 +659,14 @@ Drawn as code in `tools/art/lab.mjs`, rendered to PNG by `tools/build-art.mjs`. 
 | `packs/lab/assets/images/demo-lab-1017.svg` | 1 KB |
 | `packs/lab/assets/images/demo-lab-1018.png` | 13 KB |
 | `packs/lab/assets/images/demo-lab-1018.svg` | 1 KB |
+| `packs/lab/assets/images/demo-lab-1019.png` | 10 KB |
+| `packs/lab/assets/images/demo-lab-1019.svg` | 1 KB |
+| `packs/lab/assets/images/demo-lab-1020.png` | 11 KB |
+| `packs/lab/assets/images/demo-lab-1020.svg` | 1 KB |
+| `packs/lab/assets/images/demo-lab-1021.png` | 18 KB |
+| `packs/lab/assets/images/demo-lab-1021.svg` | 1 KB |
+| `packs/lab/assets/images/demo-lab-1022.png` | 10 KB |
+| `packs/lab/assets/images/demo-lab-1022.svg` | 1 KB |
 | `packs/lab/assets/images/demo-lab-2001-1000ul.png` | 14 KB |
 | `packs/lab/assets/images/demo-lab-2001-1000ul.svg` | 1 KB |
 | `packs/lab/assets/images/demo-lab-2001-10ul.png` | 13 KB |
@@ -683,6 +719,12 @@ Drawn as code in `tools/art/lab.mjs`, rendered to PNG by `tools/build-art.mjs`. 
 | `packs/lab/assets/images/demo-lab-2012.svg` | 1 KB |
 | `packs/lab/assets/images/demo-lab-2013.png` | 13 KB |
 | `packs/lab/assets/images/demo-lab-2013.svg` | 2 KB |
+| `packs/lab/assets/images/demo-lab-2014.png` | 12 KB |
+| `packs/lab/assets/images/demo-lab-2014.svg` | 2 KB |
+| `packs/lab/assets/images/demo-lab-2015.png` | 15 KB |
+| `packs/lab/assets/images/demo-lab-2015.svg` | 2 KB |
+| `packs/lab/assets/images/demo-lab-2016.png` | 15 KB |
+| `packs/lab/assets/images/demo-lab-2016.svg` | 1 KB |
 | `packs/lab/assets/images/demo-lab-3001.png` | 10 KB |
 | `packs/lab/assets/images/demo-lab-3001.svg` | 2 KB |
 | `packs/lab/assets/images/demo-lab-3002.png` | 10 KB |
@@ -719,6 +761,18 @@ Drawn as code in `tools/art/lab.mjs`, rendered to PNG by `tools/build-art.mjs`. 
 | `packs/lab/assets/images/demo-lab-3017.svg` | 4 KB |
 | `packs/lab/assets/images/demo-lab-3018.png` | 14 KB |
 | `packs/lab/assets/images/demo-lab-3018.svg` | 1 KB |
+| `packs/lab/assets/images/demo-lab-3019.png` | 27 KB |
+| `packs/lab/assets/images/demo-lab-3019.svg` | 1 KB |
+| `packs/lab/assets/images/demo-lab-3020.png` | 11 KB |
+| `packs/lab/assets/images/demo-lab-3020.svg` | 1 KB |
+| `packs/lab/assets/images/demo-lab-3021.png` | 15 KB |
+| `packs/lab/assets/images/demo-lab-3021.svg` | 2 KB |
+| `packs/lab/assets/images/demo-lab-3022.png` | 10 KB |
+| `packs/lab/assets/images/demo-lab-3022.svg` | 2 KB |
+| `packs/lab/assets/images/demo-lab-3023.png` | 10 KB |
+| `packs/lab/assets/images/demo-lab-3023.svg` | 1 KB |
+| `packs/lab/assets/images/demo-lab-3024.png` | 18 KB |
+| `packs/lab/assets/images/demo-lab-3024.svg` | 2 KB |
 | `packs/lab/assets/images/demo-lab-4001.png` | 10 KB |
 | `packs/lab/assets/images/demo-lab-4001.svg` | 2 KB |
 | `packs/lab/assets/images/demo-lab-4002.png` | 10 KB |
@@ -753,6 +807,14 @@ Drawn as code in `tools/art/lab.mjs`, rendered to PNG by `tools/build-art.mjs`. 
 | `packs/lab/assets/images/demo-lab-4016.svg` | 1 KB |
 | `packs/lab/assets/images/demo-lab-4017.png` | 27 KB |
 | `packs/lab/assets/images/demo-lab-4017.svg` | 2 KB |
+| `packs/lab/assets/images/demo-lab-4018.png` | 11 KB |
+| `packs/lab/assets/images/demo-lab-4018.svg` | 1 KB |
+| `packs/lab/assets/images/demo-lab-4019.png` | 18 KB |
+| `packs/lab/assets/images/demo-lab-4019.svg` | 1 KB |
+| `packs/lab/assets/images/demo-lab-4020.png` | 10 KB |
+| `packs/lab/assets/images/demo-lab-4020.svg` | 2 KB |
+| `packs/lab/assets/images/demo-lab-4021.png` | 11 KB |
+| `packs/lab/assets/images/demo-lab-4021.svg` | 2 KB |
 | `packs/lab/assets/images/demo-lab-5001.png` | 14 KB |
 | `packs/lab/assets/images/demo-lab-5001.svg` | 1 KB |
 | `packs/lab/assets/images/demo-lab-5002.png` | 16 KB |
@@ -777,6 +839,10 @@ Drawn as code in `tools/art/lab.mjs`, rendered to PNG by `tools/build-art.mjs`. 
 | `packs/lab/assets/images/demo-lab-5011.svg` | 2 KB |
 | `packs/lab/assets/images/demo-lab-5012.png` | 12 KB |
 | `packs/lab/assets/images/demo-lab-5012.svg` | 1 KB |
+| `packs/lab/assets/images/demo-lab-5013.png` | 13 KB |
+| `packs/lab/assets/images/demo-lab-5013.svg` | 2 KB |
+| `packs/lab/assets/images/demo-lab-5014.png` | 20 KB |
+| `packs/lab/assets/images/demo-lab-5014.svg` | 1 KB |
 | `packs/lab/assets/images/demo-lab-6001.png` | 11 KB |
 | `packs/lab/assets/images/demo-lab-6001.svg` | 2 KB |
 | `packs/lab/assets/images/demo-lab-6002.png` | 13 KB |
@@ -801,6 +867,12 @@ Drawn as code in `tools/art/lab.mjs`, rendered to PNG by `tools/build-art.mjs`. 
 | `packs/lab/assets/images/demo-lab-6011.svg` | 1 KB |
 | `packs/lab/assets/images/demo-lab-6012.png` | 11 KB |
 | `packs/lab/assets/images/demo-lab-6012.svg` | 2 KB |
+| `packs/lab/assets/images/demo-lab-6013.png` | 13 KB |
+| `packs/lab/assets/images/demo-lab-6013.svg` | 3 KB |
+| `packs/lab/assets/images/demo-lab-6014.png` | 15 KB |
+| `packs/lab/assets/images/demo-lab-6014.svg` | 7 KB |
+| `packs/lab/assets/images/demo-lab-6015.png` | 9 KB |
+| `packs/lab/assets/images/demo-lab-6015.svg` | 1 KB |
 
 ## office
 
@@ -1003,6 +1075,10 @@ Drawn as code in `tools/art/office.mjs`, rendered to PNG by `tools/build-art.mjs
 | `packs/office/assets/images/demo-off-4012.svg` | 2 KB |
 | `packs/office/assets/images/demo-off-4013.png` | 16 KB |
 | `packs/office/assets/images/demo-off-4013.svg` | 1 KB |
+| `packs/office/assets/images/demo-off-4014.png` | 11 KB |
+| `packs/office/assets/images/demo-off-4014.svg` | 2 KB |
+| `packs/office/assets/images/demo-off-4015.png` | 12 KB |
+| `packs/office/assets/images/demo-off-4015.svg` | 1 KB |
 | `packs/office/assets/images/demo-off-5001-blue.png` | 10 KB |
 | `packs/office/assets/images/demo-off-5001-blue.svg` | 1 KB |
 | `packs/office/assets/images/demo-off-5001-green.png` | 10 KB |

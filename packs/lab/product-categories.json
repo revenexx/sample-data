@@ -513,5 +513,115 @@
     "product": "DEMO-LAB-6012",
     "category": "DEMO-LAB-STORAGE",
     "position": 102
+  },
+  {
+    "product": "DEMO-LAB-1019",
+    "category": "DEMO-LAB-INSTRUMENTS",
+    "position": 103
+  },
+  {
+    "product": "DEMO-LAB-1020",
+    "category": "DEMO-LAB-INSTRUMENTS",
+    "position": 104
+  },
+  {
+    "product": "DEMO-LAB-1021",
+    "category": "DEMO-LAB-INSTRUMENTS",
+    "position": 105
+  },
+  {
+    "product": "DEMO-LAB-1022",
+    "category": "DEMO-LAB-INSTRUMENTS",
+    "position": 106
+  },
+  {
+    "product": "DEMO-LAB-2014",
+    "category": "DEMO-LAB-PIPETTES",
+    "position": 107
+  },
+  {
+    "product": "DEMO-LAB-2015",
+    "category": "DEMO-LAB-PIPETTES",
+    "position": 108
+  },
+  {
+    "product": "DEMO-LAB-2016",
+    "category": "DEMO-LAB-PIPETTES",
+    "position": 109
+  },
+  {
+    "product": "DEMO-LAB-3019",
+    "category": "DEMO-LAB-CONSUMABLES",
+    "position": 110
+  },
+  {
+    "product": "DEMO-LAB-3020",
+    "category": "DEMO-LAB-CONSUMABLES",
+    "position": 111
+  },
+  {
+    "product": "DEMO-LAB-3021",
+    "category": "DEMO-LAB-CONSUMABLES",
+    "position": 112
+  },
+  {
+    "product": "DEMO-LAB-3022",
+    "category": "DEMO-LAB-CONSUMABLES",
+    "position": 113
+  },
+  {
+    "product": "DEMO-LAB-3023",
+    "category": "DEMO-LAB-CONSUMABLES",
+    "position": 114
+  },
+  {
+    "product": "DEMO-LAB-3024",
+    "category": "DEMO-LAB-CONSUMABLES",
+    "position": 115
+  },
+  {
+    "product": "DEMO-LAB-4018",
+    "category": "DEMO-LAB-GLASSWARE",
+    "position": 116
+  },
+  {
+    "product": "DEMO-LAB-4019",
+    "category": "DEMO-LAB-GLASSWARE",
+    "position": 117
+  },
+  {
+    "product": "DEMO-LAB-4020",
+    "category": "DEMO-LAB-GLASSWARE",
+    "position": 118
+  },
+  {
+    "product": "DEMO-LAB-4021",
+    "category": "DEMO-LAB-GLASSWARE",
+    "position": 119
+  },
+  {
+    "product": "DEMO-LAB-5013",
+    "category": "DEMO-LAB-SAFETY",
+    "position": 120
+  },
+  {
+    "product": "DEMO-LAB-5014",
+    "category": "DEMO-LAB-SAFETY",
+    "position": 121
+  },
+  {
+    "product": "DEMO-LAB-6013",
+    "category": "DEMO-LAB-STORAGE",
+    "position": 122
+  },
+  {
+    "product": "DEMO-LAB-6014",
+    "category": "DEMO-LAB-STORAGE",
+    "position": 123
+  },
+  {
+    "product": "DEMO-LAB-6015",
+    "category": "DEMO-LAB-STORAGE",
+    "position": 124
   }
 ]

@@ -341,6 +341,184 @@ const labelSheet = () => {
   );
 };
 
+// ---- Batch 2 (SKUs added with the 125-record build): one drawing per SKU ----
+const nSvg = (x, y, w, h, fill, rx = 0, extra = '') =>
+  `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${rx}" fill="${fill}" ${extra}/>`;
+const nWhite = (x, y, w, h, rx) => nSvg(x, y, w, h, '#FFFFFF', rx, `stroke="${C.light}" stroke-width="2"`);
+
+// Magnetic stirrer without heating: plain plate, one knob, a stir bar in a beaker.
+const nStirrer = () => tile(
+  rect(112, 290, 176, 36, C.dark, 8) +
+  rect(100, 274, 200, 18, C.metal, 6) +
+  glassRect(150, 186, 100, 88, 6) +
+  rect(168, 256, 64, 10, C.dark, 4) +
+  dot(256, 310, 7, A) +
+  label(146, 293, 84, 24, '1 l', A, 16),
+);
+
+// Laboratory water bath: tank with a glass window, a lid on top.
+const nBath = () => tile(
+  rect(96, 200, 208, 126, C.body, 10) +
+  glassRect(116, 224, 168, 62, 6) +
+  rect(84, 186, 232, 16, C.mid, 8) +
+  rect(186, 170, 28, 16, C.dark, 6) +
+  label(150, 294, 100, 24, '10 l', A, 16),
+);
+
+// Vacuum drying oven: box with a round door window and a hose to the pump port.
+const nVacOven = () => tile(
+  rect(104, 176, 192, 150, C.body, 8) +
+  rect(104, 176, 192, 14, C.mid, 6) +
+  `<circle cx="200" cy="240" r="36" ${GLASS}/>` +
+  `<path d="M296 214 C 336 186, 344 256, 320 300" fill="none" stroke="${C.dark}" stroke-width="7" stroke-linecap="round"/>` +
+  dot(296, 214, 9, C.light) +
+  label(150, 284, 100, 26, '23 l', A, 16),
+);
+
+// Laboratory refrigerator: white two-door cabinet with a split line and handles.
+const nFridge = () => tile(
+  `<rect x="128" y="120" width="144" height="206" rx="12" fill="#FFFFFF" stroke="${C.light}" stroke-width="3"/>` +
+  line(130, 200, 270, 200, C.light, 3) +
+  rect(244, 150, 8, 36, C.mid, 4) +
+  rect(244, 226, 8, 44, C.mid, 4) +
+  rect(128, 120, 144, 8, A, 3) +
+  label(142, 290, 100, 26, '85 l', A, 16),
+);
+
+// Pipette tips in a rack: tall tip, optional dark filter band near the top.
+const nTipRack = (tipH, text, band) => {
+  const RT = 250;
+  let tips = '';
+  [96, 136, 176, 216, 256, 296].forEach((x) => {
+    tips += `<path d="M${x - 14} ${RT - tipH} H${x + 14} L${x + 4} ${RT} H${x - 4} Z" fill="#FFFFFF" stroke="${C.light}" stroke-width="2"/>`;
+    if (band) tips += rect(x - 12, RT - tipH + 14, 24, 10, C.dark, 3);
+  });
+  return tile(
+    tips +
+    rect(64, RT - 4, 272, 10, C.mid, 4) +
+    rect(72, RT + 6, 256, 64, C.body, 6) +
+    label(150, 282, 100, 26, text, A, 16),
+  );
+};
+
+// Electronic pipette controller: rounded handset with a display, buttons and one accent button.
+const nController = () => tile(
+  rect(140, 142, 120, 184, C.body, 44) +
+  rect(154, 162, 92, 44, C.dark, 8) +
+  dot(172, 240, 9, C.mid) + dot(200, 240, 9, C.mid) + dot(228, 240, 9, C.mid) +
+  dot(200, 282, 16, A) +
+  label(150, 300, 100, 22, '0.4 kg', A, 14),
+);
+
+// Sealing film: a roll standing on its edge, seen face-on, with a hollow core.
+const nRoll = () => tile(
+  `<circle cx="200" cy="236" r="88" fill="#FFFFFF" stroke="${C.light}" stroke-width="3"/>` +
+  `<circle cx="200" cy="236" r="60" fill="none" stroke="${C.light}" stroke-width="2"/>` +
+  dot(200, 236, 30, C.body) +
+  label(150, 268, 100, 30, '10 m', A, 17),
+);
+
+// Snap-on caps: a bag with three domed caps standing out of it.
+const nCaps = () => tile(
+  [146, 200, 254].map((x) =>
+    `<path d="M${x - 24} 280 V262 Q${x - 24} 232 ${x} 232 Q${x + 24} 232 ${x + 24} 262 V280 Z" fill="#FFFFFF" stroke="${C.light}" stroke-width="2"/>`).join('') +
+  rect(120, 276, 160, 50, C.light, 6) +
+  label(150, 290, 100, 26, '100', A, 16),
+);
+
+// Permanent markers: four pens standing side by side, each with its own cap colour.
+const nMarkers = () => tile(
+  [[124, C.dark], [168, C.body], [212, '#FFFFFF'], [256, C.mid]].map(([x, c]) =>
+    `<rect x="${x - 15}" y="150" width="30" height="30" rx="8" fill="${c}" stroke="${C.light}" stroke-width="2"/>` +
+    `<rect x="${x - 13}" y="176" width="26" height="150" rx="8" fill="${c}" stroke="${C.light}" stroke-width="2"/>` +
+    rect(x - 13, 230, 26, 8, A, 2)).join('') +
+  label(150, 96, 100, 30, '1 mm', A, 17),
+);
+
+// Screw-cap tube: translucent body with a flat-topped ribbed cap.
+const nScrewTube = () => tile(
+  `<path d="M164 186 H236 V306 Q236 326 216 326 H184 Q164 326 164 306 Z" fill="#FFFFFF" fill-opacity="0.6" stroke="${C.light}" stroke-width="3"/>` +
+  rect(154, 160, 92, 34, C.body, 6) +
+  [166, 180, 194, 208, 222, 236].map((x) => line(x, 166, x, 188, C.mid, 2)).join('') +
+  label(150, 240, 100, 30, '4 ml', A, 17),
+);
+
+// Lab wipes: a dispenser box with a sheet pulled up through the slot.
+const nWipes = () => tile(
+  `<rect x="150" y="170" width="100" height="100" fill="#FFFFFF" stroke="${C.light}" stroke-width="2"/>` +
+  line(160, 196, 240, 196, C.light, 2) + line(160, 220, 240, 220, C.light, 2) +
+  rect(112, 258, 176, 68, C.body, 8) +
+  rect(132, 250, 136, 14, C.dark, 5) +
+  label(150, 286, 100, 26, '200', A, 16),
+);
+
+// Silicone stoppers: five truncated cones, wide head up, growing in size.
+const nStoppers = () => tile(
+  [[70, 44, 60], [134, 54, 70], [198, 64, 80], [262, 74, 90], [326, 84, 100]].map(([x, w, h]) => {
+    const top = 326 - h;
+    return `<path d="M${x - w / 2} ${top} H${x + w / 2} L${x + w * 0.36} 326 H${x - w * 0.36} Z" fill="#E3DCCD" stroke="${C.light}" stroke-width="2"/>` +
+      rect(x - w / 2, top, w, 8, C.paperDark, 3);
+  }).join('') +
+  label(150, 96, 100, 26, '× 20', A, 16),
+);
+
+// Round-bottom flask with a standard ground joint on the neck.
+const nRoundFlask = (text, r, neckW) => {
+  const top = BOTTOM - 2 * r;
+  return tile(
+    `<circle cx="200" cy="${BOTTOM - r}" r="${r}" ${GLASS}/>` +
+    glassRect(200 - neckW / 2, top - 46, neckW, 60, 3) +
+    rect(200 - neckW / 2 - 6, top - 56, neckW + 12, 12, C.light, 3) +
+    label(150, BOTTOM - r - 17, 100, 34, text, A, 18),
+  );
+};
+
+// Glass vial with a dark screw cap; three standing, the middle one labelled.
+const nVial = (x, h, w) => {
+  const top = BOTTOM - h, l = x - w / 2, r = x + w / 2;
+  return `<path d="M${l} ${top} V${BOTTOM - 12} Q${l} ${BOTTOM} ${x} ${BOTTOM} Q${r} ${BOTTOM} ${r} ${BOTTOM - 12} V${top} Z" ${GLASS}/>` +
+    rect(l - 3, top - 14, w + 6, 20, C.dark, 4);
+};
+const nVials = () => tile(
+  nVial(124, 150, 56) + nVial(276, 150, 56) + nVial(200, 190, 56) +
+  label(150, 262, 100, 30, '20 ml', A, 17),
+);
+
+// Vinyl gloves: one glove standing out of a dispenser box.
+const nGloveBox = () => tile(
+  nWhite(164, 118, 16, 70, 8) + nWhite(184, 108, 16, 80, 8) + nWhite(204, 112, 16, 76, 8) + nWhite(222, 130, 14, 58, 7) +
+  nWhite(160, 170, 80, 80, 22) +
+  rect(100, 246, 200, 80, C.body, 8) +
+  rect(96, 238, 208, 14, C.mid, 6) +
+  label(150, 286, 100, 26, '100', A, 16),
+);
+
+// Over-spectacle goggles: a thick frame over two thin spectacle outlines.
+const nOverGoggles = () => tile(
+  `<rect x="112" y="210" width="84" height="56" rx="24" fill="none" stroke="${C.mid}" stroke-width="4"/>` +
+  `<rect x="204" y="210" width="84" height="56" rx="24" fill="none" stroke="${C.mid}" stroke-width="4"/>` +
+  `<rect x="90" y="192" width="220" height="92" rx="42" fill="${G}" fill-opacity="0.5" stroke="${C.dark}" stroke-width="14"/>` +
+  label(140, 296, 120, 26, '0.2 kg', A, 14),
+);
+
+// Rack for 48 tubes: a tray with a 8 x 6 grid of openings.
+const nRack48 = () => {
+  let holes = '';
+  for (let i = 0; i < 8; i++) for (let j = 0; j < 6; j++) holes += dot(104 + i * 26, 232 + j * 15, 5.5, C.dark);
+  return tile(
+    rect(80, 218, 240, 106, C.body, 10) + holes +
+    label(150, 178, 100, 26, '48', A, 16),
+  );
+};
+
+// Card archive box: paper-coloured carton with a hand hole and a lid flap.
+const nCardBox = () => tile(
+  rect(104, 196, 192, 130, C.paper, 6) +
+  rect(100, 186, 200, 16, C.paperDark, 5) +
+  rect(170, 218, 60, 14, C.paperDark, 6) +
+  label(150, 262, 100, 30, '100', A, 17),
+);
+
 export const illustrations = {
   'DEMO-LAB-4001': cylinder('100 ml', 74, 170),
   'DEMO-LAB-4002': cylinder('250 ml', 92, 230),
@@ -383,4 +561,26 @@ export const illustrations = {
   'DEMO-LAB-6010': labelSheet(),
   'DEMO-LAB-6011': storage25(),
   'DEMO-LAB-6012': gridBox({ x: 120, yF: 268, w: 160, h: 54, dx: 50, dy: 30, cols: 5, rows: 5, r: 6, front: C.body, right: C.dark, top: G, dots: C.mid, text: '25' }),
+  'DEMO-LAB-1019': nStirrer(),
+  'DEMO-LAB-1020': nBath(),
+  'DEMO-LAB-1021': nVacOven(),
+  'DEMO-LAB-1022': nFridge(),
+  'DEMO-LAB-2014': nTipRack(70, '2 µl', false),
+  'DEMO-LAB-2015': nTipRack(120, '1000 µl', true),
+  'DEMO-LAB-2016': nController(),
+  'DEMO-LAB-3019': nRoll(),
+  'DEMO-LAB-3020': nCaps(),
+  'DEMO-LAB-3021': nMarkers(),
+  'DEMO-LAB-3022': nScrewTube(),
+  'DEMO-LAB-3023': nWipes(),
+  'DEMO-LAB-3024': nStoppers(),
+  'DEMO-LAB-4018': erlenmeyer('100 ml', 100, 96, 34, 44),
+  'DEMO-LAB-4019': nRoundFlask('250 ml', 66, 30),
+  'DEMO-LAB-4020': cylinder('10 ml', 64, 150),
+  'DEMO-LAB-4021': nVials(),
+  'DEMO-LAB-5013': nGloveBox(),
+  'DEMO-LAB-5014': nOverGoggles(),
+  'DEMO-LAB-6013': nRack48(),
+  'DEMO-LAB-6014': gridBox({ x: 116, yF: 250, w: 150, h: 70, dx: 40, dy: 40, cols: 9, rows: 9, r: 3, front: C.body, right: C.dark, top: G, dots: C.mid, text: '81' }),
+  'DEMO-LAB-6015': nCardBox(),
 };
