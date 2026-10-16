@@ -1,0 +1,47 @@
+[
+  {
+    "attribute": "demo_off_format",
+    "code": "a4",
+    "labels": {
+      "de-DE": "A4",
+      "en-US": "A4"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_off_format",
+    "code": "a5",
+    "labels": {
+      "de-DE": "A5",
+      "en-US": "A5"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_off_colour",
+    "code": "blue",
+    "labels": {
+      "de-DE": "Blau",
+      "en-US": "Blue"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_off_colour",
+    "code": "red",
+    "labels": {
+      "de-DE": "Rot",
+      "en-US": "Red"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_off_colour",
+    "code": "black",
+    "labels": {
+      "de-DE": "Schwarz",
+      "en-US": "Black"
+    },
+    "position": 2
+  }
+]

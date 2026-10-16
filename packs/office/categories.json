@@ -1,0 +1,41 @@
+[
+  {
+    "code": "DEMO-OFF",
+    "labels": {
+      "de-DE": "Büro- & Objektbedarf",
+      "en-US": "Office & facility supplies"
+    },
+    "position": 0,
+    "external_id": "DEMO-OFF"
+  },
+  {
+    "code": "DEMO-OFF-PAPER",
+    "parent": "DEMO-OFF",
+    "labels": {
+      "de-DE": "Papier & Ablage",
+      "en-US": "Paper & filing"
+    },
+    "position": 0,
+    "external_id": "DEMO-OFF-PAPER"
+  },
+  {
+    "code": "DEMO-OFF-WRITING",
+    "parent": "DEMO-OFF",
+    "labels": {
+      "de-DE": "Schreiben & Schreibtisch",
+      "en-US": "Writing & desk"
+    },
+    "position": 1,
+    "external_id": "DEMO-OFF-WRITING"
+  },
+  {
+    "code": "DEMO-OFF-BREAKROOM",
+    "parent": "DEMO-OFF",
+    "labels": {
+      "de-DE": "Pause & Hygiene",
+      "en-US": "Breakroom & facility"
+    },
+    "position": 2,
+    "external_id": "DEMO-OFF-BREAKROOM"
+  }
+]

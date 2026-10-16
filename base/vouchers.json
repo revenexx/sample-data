@@ -1,0 +1,17 @@
+[
+  {
+    "promotion": "DEMO-PROMO-WELCOME",
+    "batch": "DEMO-BATCH-WELCOME",
+    "code": "DEMO-WELCOME10",
+    "usage_limit": 100,
+    "status": "active"
+  },
+  {
+    "promotion": "DEMO-PROMO-CREDIT-150",
+    "code": "DEMO-CREDIT150",
+    "residual_value": 150,
+    "currency": "EUR",
+    "usage_limit": 20,
+    "status": "active"
+  }
+]

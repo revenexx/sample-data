@@ -1,0 +1,170 @@
+[
+  {
+    "code": "demo_off_format",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Format",
+      "en-US": "Format"
+    },
+    "position": 0,
+    "external_id": "demo_off_format",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_off_paper_weight",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Grammatur",
+      "en-US": "Paper weight"
+    },
+    "position": 1,
+    "external_id": "demo_off_paper_weight",
+    "config": {
+      "units": [
+        "GRAM_PER_SQUARE_METER"
+      ]
+    },
+    "is_filterable": true
+  },
+  {
+    "code": "demo_off_sheets",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Blatt pro Packung",
+      "en-US": "Sheets per pack"
+    },
+    "position": 2,
+    "external_id": "demo_off_sheets"
+  },
+  {
+    "code": "demo_off_colour",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Farbe",
+      "en-US": "Colour"
+    },
+    "position": 3,
+    "external_id": "demo_off_colour",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_off_spine_width",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Rückenbreite",
+      "en-US": "Spine width"
+    },
+    "position": 4,
+    "external_id": "demo_off_spine_width",
+    "config": {
+      "units": [
+        "MILLIMETER"
+      ]
+    },
+    "is_filterable": true
+  },
+  {
+    "code": "demo_off_pack_size",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_off_general",
+    "labels": {
+      "de-DE": "Verpackungseinheit",
+      "en-US": "Pack size"
+    },
+    "position": 5,
+    "external_id": "demo_off_pack_size"
+  },
+  {
+    "code": "demo_off_volume",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Volumen",
+      "en-US": "Volume"
+    },
+    "position": 6,
+    "external_id": "demo_off_volume",
+    "config": {
+      "units": [
+        "LITER"
+      ]
+    }
+  },
+  {
+    "code": "demo_off_weight",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Gewicht",
+      "en-US": "Weight"
+    },
+    "position": 7,
+    "external_id": "demo_off_weight",
+    "config": {
+      "units": [
+        "KILOGRAM"
+      ]
+    }
+  },
+  {
+    "code": "demo_off_images",
+    "entity_type": "product",
+    "type": "asset_collection",
+    "entity_ref": "product_images",
+    "group": "demo_off_media",
+    "labels": {
+      "de-DE": "Bilder",
+      "en-US": "Images"
+    },
+    "position": 20,
+    "external_id": "demo_off_images",
+    "config": {
+      "asset_family": "product_images"
+    }
+  },
+  {
+    "code": "demo_off_drawings",
+    "entity_type": "product",
+    "type": "asset_collection",
+    "entity_ref": "technical_drawings",
+    "group": "demo_off_media",
+    "labels": {
+      "de-DE": "Technische Zeichnungen",
+      "en-US": "Technical drawings"
+    },
+    "position": 21,
+    "external_id": "demo_off_drawings",
+    "config": {
+      "asset_family": "technical_drawings"
+    }
+  },
+  {
+    "code": "demo_off_downloads",
+    "entity_type": "product",
+    "type": "asset_collection",
+    "entity_ref": "downloads",
+    "group": "demo_off_media",
+    "labels": {
+      "de-DE": "Downloads",
+      "en-US": "Downloads"
+    },
+    "position": 22,
+    "external_id": "demo_off_downloads",
+    "config": {
+      "asset_family": "downloads"
+    }
+  }
+]

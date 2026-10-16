@@ -1,0 +1,67 @@
+[
+  {
+    "product": "DEMO-ELE-1001",
+    "category": "DEMO-ELE-CABLES",
+    "position": 0
+  },
+  {
+    "product": "DEMO-ELE-1002",
+    "category": "DEMO-ELE-CABLES",
+    "position": 1
+  },
+  {
+    "product": "DEMO-ELE-1003",
+    "category": "DEMO-ELE-CABLES",
+    "position": 2
+  },
+  {
+    "product": "DEMO-ELE-2001",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 3
+  },
+  {
+    "product": "DEMO-ELE-2002",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 4
+  },
+  {
+    "product": "DEMO-ELE-2003",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 5
+  },
+  {
+    "product": "DEMO-ELE-2003-WHITE",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 6
+  },
+  {
+    "product": "DEMO-ELE-2003-BLACK",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 7
+  },
+  {
+    "product": "DEMO-ELE-2003-ANTHRACITE",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 8
+  },
+  {
+    "product": "DEMO-ELE-2004",
+    "category": "DEMO-ELE-SWITCHES",
+    "position": 9
+  },
+  {
+    "product": "DEMO-ELE-3001",
+    "category": "DEMO-ELE-LIGHTING",
+    "position": 10
+  },
+  {
+    "product": "DEMO-ELE-3002",
+    "category": "DEMO-ELE-LIGHTING",
+    "position": 11
+  },
+  {
+    "product": "DEMO-ELE-3003",
+    "category": "DEMO-ELE-LIGHTING",
+    "position": 12
+  }
+]

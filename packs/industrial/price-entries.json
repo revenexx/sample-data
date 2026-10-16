@@ -1,0 +1,117 @@
+[
+  {
+    "list": "DEMO-IND-LIST",
+    "entries": [
+      {
+        "sku": "DEMO-IND-1001",
+        "quantity_min": 1,
+        "unit_price": 129.0
+      },
+      {
+        "sku": "DEMO-IND-1002",
+        "quantity_min": 1,
+        "unit_price": 149.0
+      },
+      {
+        "sku": "DEMO-IND-1003",
+        "quantity_min": 1,
+        "unit_price": 89.0
+      },
+      {
+        "sku": "DEMO-IND-1004",
+        "quantity_min": 1,
+        "unit_price": 79.0
+      },
+      {
+        "sku": "DEMO-IND-2001",
+        "quantity_min": 1,
+        "unit_price": 18.9
+      },
+      {
+        "sku": "DEMO-IND-2001",
+        "quantity_min": 10,
+        "unit_price": 16.9
+      },
+      {
+        "sku": "DEMO-IND-2001",
+        "quantity_min": 50,
+        "unit_price": 14.9
+      },
+      {
+        "sku": "DEMO-IND-2002",
+        "quantity_min": 1,
+        "unit_price": 12.5
+      },
+      {
+        "sku": "DEMO-IND-2002",
+        "quantity_min": 10,
+        "unit_price": 10.9
+      },
+      {
+        "sku": "DEMO-IND-2002",
+        "quantity_min": 50,
+        "unit_price": 9.4
+      },
+      {
+        "sku": "DEMO-IND-2003",
+        "quantity_min": 1,
+        "unit_price": 14.9
+      },
+      {
+        "sku": "DEMO-IND-2003",
+        "quantity_min": 10,
+        "unit_price": 12.9
+      },
+      {
+        "sku": "DEMO-IND-3001-S",
+        "quantity_min": 1,
+        "unit_price": 6.9
+      },
+      {
+        "sku": "DEMO-IND-3001-M",
+        "quantity_min": 1,
+        "unit_price": 6.9
+      },
+      {
+        "sku": "DEMO-IND-3001-L",
+        "quantity_min": 1,
+        "unit_price": 6.9
+      },
+      {
+        "sku": "DEMO-IND-3001-XL",
+        "quantity_min": 1,
+        "unit_price": 6.9
+      },
+      {
+        "sku": "DEMO-IND-3002",
+        "quantity_min": 1,
+        "unit_price": 5.4
+      },
+      {
+        "sku": "DEMO-IND-3003",
+        "quantity_min": 1,
+        "unit_price": 24.9
+      }
+    ]
+  },
+  {
+    "list": "DEMO-IND-CONTRACT",
+    "entries": [
+      {
+        "sku": "DEMO-IND-1001",
+        "quantity_min": 1,
+        "unit_price": 109.0
+      },
+      {
+        "sku": "DEMO-IND-1004",
+        "quantity_min": 1,
+        "unit_price": 69.0
+      },
+      {
+        "sku": "DEMO-IND-2002",
+        "quantity_min": 1,
+        "unit_price": 8.9
+      }
+    ]
+  }
+]

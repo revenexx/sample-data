@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1188 840" width="1188" height="840" font-family="Helvetica, Arial, sans-serif">
+  <rect x="10" y="10" width="1168" height="820" fill="#fff" stroke="#1f2329" stroke-width="2"/>
+  <g stroke="#1f2329" fill="none" stroke-width="2"><defs><marker id="a" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 2 L10 5 L0 8 z" fill="#1f2329" stroke="none"/></marker></defs><circle cx="380" cy="360" r="187.5"/><circle cx="380" cy="360" r="33.345"/><line x1="162.5" y1="360" x2="597.5" y2="360" stroke-width="1" stroke-dasharray="18 4 3 4"/><line x1="380" y1="142.5" x2="380" y2="577.5" stroke-width="1" stroke-dasharray="18 4 3 4"/><line x1="192.5" y1="370" x2="192.5" y2="615.5" stroke-width="1"/><line x1="567.5" y1="370" x2="567.5" y2="615.5" stroke-width="1"/><line x1="192.5" y1="607.5" x2="567.5" y2="607.5" stroke-width="1" marker-start="url(#a)" marker-end="url(#a)"/><text x="380" y="599.5" font-size="18" text-anchor="middle" stroke="none" fill="#1f2329">Ø 125</text><line x1="346.655" y1="326.655" x2="346.655" y2="130.5" stroke-width="1"/><line x1="413.345" y1="326.655" x2="413.345" y2="130.5" stroke-width="1"/><line x1="346.655" y1="122.5" x2="413.345" y2="122.5" stroke-width="1" marker-start="url(#a)" marker-end="url(#a)"/><text x="380" y="114.5" font-size="18" text-anchor="middle" stroke="none" fill="#1f2329">Ø 22.23</text><rect x="760" y="172.5" width="12" height="375" fill="#d9dde3"/><text x="790" y="360" font-size="18" stroke="none" fill="#1f2329">1.0 (drawn at 12:1)</text></g>
+  <g transform="translate(748 700)">
+    <rect width="420" height="120" fill="#fff" stroke="#1f2329" stroke-width="2"/>
+    <line x1="0" y1="40" x2="420" y2="40" stroke="#1f2329"/><line x1="0" y1="80" x2="420" y2="80" stroke="#1f2329"/>
+    <line x1="280" y1="40" x2="280" y2="120" stroke="#1f2329"/>
+    <text x="12" y="27" font-size="17" font-weight="700">Cutting discs 125 mm, pack of 10</text>
+    <text x="12" y="66" font-size="14">DEMO-IND-2003</text><text x="292" y="66" font-size="14">Not to scale</text>
+    <text x="12" y="106" font-size="13" fill="#b42318" font-weight="700">SAMPLE — fictional product</text><text x="292" y="106" font-size="14">mm</text>
+  </g></svg>

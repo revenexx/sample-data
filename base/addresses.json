@@ -1,0 +1,26 @@
+[
+  {
+    "external_id": "DEMO-A-1001-BILL",
+    "organization": "DEMO-C-1001",
+    "type": "billing",
+    "company": "Muster Bau & Technik GmbH",
+    "street": "Musterstraße 1",
+    "zip": "12345",
+    "city": "Musterstadt",
+    "country": "DE",
+    "email": "rechnung@muster-bau.example",
+    "is_default": true
+  },
+  {
+    "external_id": "DEMO-A-1001-SHIP",
+    "organization": "DEMO-C-1001",
+    "type": "shipping",
+    "company": "Muster Bau & Technik GmbH",
+    "name": "Warenannahme Halle 2",
+    "street": "Industriering 7",
+    "zip": "12345",
+    "city": "Musterstadt",
+    "country": "DE",
+    "is_default": true
+  }
+]

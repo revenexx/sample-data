@@ -1,0 +1,11 @@
+[
+  {
+    "code": "DEMO-IND-ARTICLE",
+    "labels": {
+      "de-DE": "Werkstattartikel",
+      "en-US": "Workshop article"
+    },
+    "label_attribute": "name",
+    "external_id": "DEMO-IND-ARTICLE"
+  }
+]

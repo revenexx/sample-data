@@ -1,0 +1,180 @@
+[
+  {
+    "code": "demo_lab_max_speed",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Maximale Drehzahl",
+      "en-US": "Max. speed"
+    },
+    "position": 0,
+    "external_id": "demo_lab_max_speed",
+    "config": {
+      "units": [
+        "REVOLUTIONS_PER_MINUTE"
+      ]
+    },
+    "is_filterable": true
+  },
+  {
+    "code": "demo_lab_max_rcf",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Maximale RZB (× g)",
+      "en-US": "Max. RCF (× g)"
+    },
+    "position": 1,
+    "external_id": "demo_lab_max_rcf",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_lab_capacity",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Kapazität (Gefäße)",
+      "en-US": "Capacity (vessels)"
+    },
+    "position": 2,
+    "external_id": "demo_lab_capacity"
+  },
+  {
+    "code": "demo_lab_volume",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Volumen",
+      "en-US": "Volume"
+    },
+    "position": 3,
+    "external_id": "demo_lab_volume",
+    "config": {
+      "units": [
+        "MICROLITER",
+        "MILLILITER"
+      ]
+    },
+    "is_filterable": true
+  },
+  {
+    "code": "demo_lab_volume_range",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Volumenbereich",
+      "en-US": "Volume range"
+    },
+    "position": 4,
+    "external_id": "demo_lab_volume_range",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_lab_material",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Material",
+      "en-US": "Material"
+    },
+    "position": 5,
+    "external_id": "demo_lab_material",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_lab_sterile",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Steril verpackt",
+      "en-US": "Packed sterile"
+    },
+    "position": 6,
+    "external_id": "demo_lab_sterile",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_lab_pack_size",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_lab_general",
+    "labels": {
+      "de-DE": "Verpackungseinheit",
+      "en-US": "Pack size"
+    },
+    "position": 7,
+    "external_id": "demo_lab_pack_size"
+  },
+  {
+    "code": "demo_lab_weight",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Gewicht",
+      "en-US": "Weight"
+    },
+    "position": 8,
+    "external_id": "demo_lab_weight",
+    "config": {
+      "units": [
+        "KILOGRAM"
+      ]
+    }
+  },
+  {
+    "code": "demo_lab_images",
+    "entity_type": "product",
+    "type": "asset_collection",
+    "entity_ref": "product_images",
+    "group": "demo_lab_media",
+    "labels": {
+      "de-DE": "Bilder",
+      "en-US": "Images"
+    },
+    "position": 20,
+    "external_id": "demo_lab_images",
+    "config": {
+      "asset_family": "product_images"
+    }
+  },
+  {
+    "code": "demo_lab_drawings",
+    "entity_type": "product",
+    "type": "asset_collection",
+    "entity_ref": "technical_drawings",
+    "group": "demo_lab_media",
+    "labels": {
+      "de-DE": "Technische Zeichnungen",
+      "en-US": "Technical drawings"
+    },
+    "position": 21,
+    "external_id": "demo_lab_drawings",
+    "config": {
+      "asset_family": "technical_drawings"
+    }
+  },
+  {
+    "code": "demo_lab_downloads",
+    "entity_type": "product",
+    "type": "asset_collection",
+    "entity_ref": "downloads",
+    "group": "demo_lab_media",
+    "labels": {
+      "de-DE": "Downloads",
+      "en-US": "Downloads"
+    },
+    "position": 22,
+    "external_id": "demo_lab_downloads",
+    "config": {
+      "asset_family": "downloads"
+    }
+  }
+]

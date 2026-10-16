@@ -1,0 +1,26 @@
+[
+  {
+    "code": "DEMO-PROBARA",
+    "name": "Probara",
+    "legal_name": "Probara Laborgeräte GmbH (fictional)",
+    "country": "DE",
+    "city": "Musterstadt",
+    "external_id": "DEMO-PROBARA",
+    "descriptions": {
+      "de-DE": "Fiktiver Hersteller von Laborgeräten (Beispieldaten).",
+      "en-US": "Fictional maker of laboratory instruments (sample data)."
+    }
+  },
+  {
+    "code": "DEMO-PIPETRIX",
+    "name": "Pipetrix",
+    "legal_name": "Pipetrix GmbH (fictional)",
+    "country": "DE",
+    "city": "Musterstadt",
+    "external_id": "DEMO-PIPETRIX",
+    "descriptions": {
+      "de-DE": "Fiktiver Hersteller von Pipetten und Laborverbrauchsmaterial (Beispieldaten).",
+      "en-US": "Fictional maker of pipettes and laboratory consumables (sample data)."
+    }
+  }
+]

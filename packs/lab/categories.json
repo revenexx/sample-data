@@ -1,0 +1,41 @@
+[
+  {
+    "code": "DEMO-LAB",
+    "labels": {
+      "de-DE": "Laborbedarf",
+      "en-US": "Laboratory supplies"
+    },
+    "position": 0,
+    "external_id": "DEMO-LAB"
+  },
+  {
+    "code": "DEMO-LAB-INSTRUMENTS",
+    "parent": "DEMO-LAB",
+    "labels": {
+      "de-DE": "Geräte",
+      "en-US": "Instruments"
+    },
+    "position": 0,
+    "external_id": "DEMO-LAB-INSTRUMENTS"
+  },
+  {
+    "code": "DEMO-LAB-PIPETTES",
+    "parent": "DEMO-LAB",
+    "labels": {
+      "de-DE": "Pipetten & Spitzen",
+      "en-US": "Pipettes & tips"
+    },
+    "position": 1,
+    "external_id": "DEMO-LAB-PIPETTES"
+  },
+  {
+    "code": "DEMO-LAB-CONSUMABLES",
+    "parent": "DEMO-LAB",
+    "labels": {
+      "de-DE": "Verbrauchsmaterial",
+      "en-US": "Consumables"
+    },
+    "position": 2,
+    "external_id": "DEMO-LAB-CONSUMABLES"
+  }
+]

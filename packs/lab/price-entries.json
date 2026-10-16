@@ -1,0 +1,107 @@
+[
+  {
+    "list": "DEMO-LAB-LIST",
+    "entries": [
+      {
+        "sku": "DEMO-LAB-1001",
+        "quantity_min": 1,
+        "unit_price": 239.0
+      },
+      {
+        "sku": "DEMO-LAB-1002",
+        "quantity_min": 1,
+        "unit_price": 649.0
+      },
+      {
+        "sku": "DEMO-LAB-1003",
+        "quantity_min": 1,
+        "unit_price": 119.0
+      },
+      {
+        "sku": "DEMO-LAB-1004",
+        "quantity_min": 1,
+        "unit_price": 24.9
+      },
+      {
+        "sku": "DEMO-LAB-2001-10UL",
+        "quantity_min": 1,
+        "unit_price": 139.0
+      },
+      {
+        "sku": "DEMO-LAB-2001-200UL",
+        "quantity_min": 1,
+        "unit_price": 139.0
+      },
+      {
+        "sku": "DEMO-LAB-2001-1000UL",
+        "quantity_min": 1,
+        "unit_price": 149.0
+      },
+      {
+        "sku": "DEMO-LAB-2002",
+        "quantity_min": 1,
+        "unit_price": 14.9
+      },
+      {
+        "sku": "DEMO-LAB-2002",
+        "quantity_min": 10,
+        "unit_price": 13.2
+      },
+      {
+        "sku": "DEMO-LAB-2002",
+        "quantity_min": 50,
+        "unit_price": 11.5
+      },
+      {
+        "sku": "DEMO-LAB-3001",
+        "quantity_min": 1,
+        "unit_price": 19.9
+      },
+      {
+        "sku": "DEMO-LAB-3001",
+        "quantity_min": 10,
+        "unit_price": 17.5
+      },
+      {
+        "sku": "DEMO-LAB-3001",
+        "quantity_min": 50,
+        "unit_price": 15.2
+      },
+      {
+        "sku": "DEMO-LAB-3002",
+        "quantity_min": 1,
+        "unit_price": 24.9
+      },
+      {
+        "sku": "DEMO-LAB-3003",
+        "quantity_min": 1,
+        "unit_price": 58.0
+      },
+      {
+        "sku": "DEMO-LAB-3004",
+        "quantity_min": 1,
+        "unit_price": 9.9
+      }
+    ]
+  },
+  {
+    "list": "DEMO-LAB-CONTRACT",
+    "entries": [
+      {
+        "sku": "DEMO-LAB-1001",
+        "quantity_min": 1,
+        "unit_price": 199.0
+      },
+      {
+        "sku": "DEMO-LAB-2002",
+        "quantity_min": 1,
+        "unit_price": 9.9
+      },
+      {
+        "sku": "DEMO-LAB-3001",
+        "quantity_min": 1,
+        "unit_price": 13.9
+      }
+    ]
+  }
+]

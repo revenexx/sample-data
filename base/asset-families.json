@@ -1,0 +1,5 @@
+[
+  { "code": "product_images", "labels": { "de-DE": "Produktbilder", "en-US": "Product images" } },
+  { "code": "technical_drawings", "labels": { "de-DE": "Technische Zeichnungen", "en-US": "Technical drawings" } },
+  { "code": "downloads", "labels": { "de-DE": "Downloads", "en-US": "Downloads" } }
+]

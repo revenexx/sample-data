@@ -1,0 +1,11 @@
+[
+  "/channels/defaults",
+  "/shipping/carriers/defaults",
+  "/shipping/methods/defaults",
+  "/payments/methods/defaults",
+  "/orders/number-ranges/defaults",
+  "/customers/roles/defaults",
+  "/customers/defaults",
+  "/prices/lists/defaults",
+  "/inventories/locations/defaults"
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "code": "DEMO-BRAKKWERK",
+    "name": "Brakkwerk",
+    "legal_name": "Brakkwerk Werkzeuge GmbH (fictional)",
+    "country": "DE",
+    "city": "Musterstadt",
+    "external_id": "DEMO-BRAKKWERK",
+    "descriptions": {
+      "de-DE": "Fiktiver Hersteller von Elektrowerkzeugen und Befestigungstechnik (Beispieldaten).",
+      "en-US": "Fictional maker of power tools and fasteners (sample data)."
+    }
+  },
+  {
+    "code": "DEMO-HARTFELL",
+    "name": "Hartfell",
+    "legal_name": "Hartfell Arbeitsschutz GmbH (fictional)",
+    "country": "DE",
+    "city": "Musterstadt",
+    "external_id": "DEMO-HARTFELL",
+    "descriptions": {
+      "de-DE": "Fiktiver Hersteller von Arbeitsschutz (Beispieldaten).",
+      "en-US": "Fictional maker of personal protective equipment (sample data)."
+    }
+  }
+]

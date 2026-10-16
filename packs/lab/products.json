@@ -1,0 +1,478 @@
+[
+  {
+    "sku": "DEMO-LAB-1001",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PROBARA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-1001",
+    "attribute_values": {
+      "common": {
+        "demo_lab_max_speed": {
+          "amount": "15000",
+          "unit": "REVOLUTIONS_PER_MINUTE"
+        },
+        "demo_lab_max_rcf": 21000,
+        "demo_lab_capacity": 24,
+        "demo_lab_weight": {
+          "amount": "3.6",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/lab/demo-lab-1001.png",
+        "demo_lab_images": [
+          "DEMO-LAB-1001-IMG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-1001-DATA-SHEET"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Mikrozentrifuge 24 × 1,5/2,0 ml",
+          "description": "Tischmikrozentrifuge für 24 Gefäße à 1,5 bzw. 2,0 ml, mit Deckelverriegelung."
+        },
+        "en-US": {
+          "name": "Microcentrifuge 24 × 1.5/2.0 ml",
+          "description": "Benchtop microcentrifuge for 24 vessels of 1.5 or 2.0 ml, with lid lock."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-LAB-1002",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PROBARA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-1002",
+    "attribute_values": {
+      "common": {
+        "demo_lab_max_speed": {
+          "amount": "6000",
+          "unit": "REVOLUTIONS_PER_MINUTE"
+        },
+        "demo_lab_max_rcf": 4000,
+        "demo_lab_capacity": 12,
+        "demo_lab_weight": {
+          "amount": "14.8",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/lab/demo-lab-1002.png",
+        "demo_lab_images": [
+          "DEMO-LAB-1002-IMG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Tischzentrifuge für 15 und 50 ml",
+          "description": "Tischzentrifuge mit Winkelrotor für 12 Gefäße à 15 ml oder 6 à 50 ml."
+        },
+        "en-US": {
+          "name": "Benchtop centrifuge for 15 and 50 ml tubes",
+          "description": "Benchtop centrifuge with fixed-angle rotor for 12 tubes of 15 ml or 6 of 50 ml."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-LAB-1003",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PROBARA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-1003",
+    "attribute_values": {
+      "common": {
+        "demo_lab_max_speed": {
+          "amount": "3000",
+          "unit": "REVOLUTIONS_PER_MINUTE"
+        },
+        "demo_lab_weight": {
+          "amount": "1.9",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/lab/demo-lab-1003.png",
+        "demo_lab_images": [
+          "DEMO-LAB-1003-IMG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Vortex-Mischer",
+          "description": "Vortex-Mischer mit Berührungsstart und stufenloser Drehzahl."
+        },
+        "en-US": {
+          "name": "Vortex mixer",
+          "description": "Vortex mixer with touch activation and variable speed."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-LAB-1004",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PROBARA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-1004",
+    "attribute_values": {
+      "common": {
+        "demo_lab_weight": {
+          "amount": "0.12",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/lab/demo-lab-1004.png",
+        "demo_lab_images": [
+          "DEMO-LAB-1004-IMG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Laborzeitschaltuhr",
+          "description": "Digitale Laborzeitschaltuhr mit Alarm, Messbereich 99 Minuten."
+        },
+        "en-US": {
+          "name": "Lab timer",
+          "description": "Digital lab timer with alarm, range 99 minutes."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-LAB-2001",
+    "kind": "model",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PIPETRIX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-2001",
+    "attribute_values": {
+      "common": {
+        "demo_lab_weight": {
+          "amount": "0.12",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/lab/demo-lab-2001.png",
+        "demo_lab_images": [
+          "DEMO-LAB-2001-IMG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Einkanalpipette, volumenverstellbar",
+          "description": "Volumenverstellbare Einkanalpipette für Laborarbeiten. Der Volumenbereich wird über die Variante gewählt."
+        },
+        "en-US": {
+          "name": "Single-channel pipette, adjustable",
+          "description": "Adjustable single-channel pipette for laboratory work. Choose the volume range via the variant."
+        }
+      }
+    },
+    "family_variant": "DEMO-LAB-BY-VOLUME-RANGE"
+  },
+  {
+    "sku": "DEMO-LAB-2001-10UL",
+    "kind": "variant",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PIPETRIX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-2001-10UL",
+    "attribute_values": {
+      "common": {
+        "demo_lab_weight": {
+          "amount": "0.12",
+          "unit": "KILOGRAM"
+        },
+        "demo_lab_volume_range": "10ul",
+        "image": "sample-data/lab/demo-lab-2001-10ul.png",
+        "demo_lab_images": [
+          "DEMO-LAB-2001-10UL-IMG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Einkanalpipette 0,5–10 µl",
+          "description": "Volumenverstellbare Einkanalpipette für Laborarbeiten, im angegebenen Volumenbereich."
+        },
+        "en-US": {
+          "name": "Single-channel pipette 0.5–10 µl",
+          "description": "Adjustable single-channel pipette for laboratory work, in the volume range given."
+        }
+      }
+    },
+    "family_variant": "DEMO-LAB-BY-VOLUME-RANGE",
+    "parent": "DEMO-LAB-2001"
+  },
+  {
+    "sku": "DEMO-LAB-2001-200UL",
+    "kind": "variant",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PIPETRIX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-2001-200UL",
+    "attribute_values": {
+      "common": {
+        "demo_lab_weight": {
+          "amount": "0.12",
+          "unit": "KILOGRAM"
+        },
+        "demo_lab_volume_range": "200ul",
+        "image": "sample-data/lab/demo-lab-2001-200ul.png",
+        "demo_lab_images": [
+          "DEMO-LAB-2001-200UL-IMG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Einkanalpipette 20–200 µl",
+          "description": "Volumenverstellbare Einkanalpipette für Laborarbeiten, im angegebenen Volumenbereich."
+        },
+        "en-US": {
+          "name": "Single-channel pipette 20–200 µl",
+          "description": "Adjustable single-channel pipette for laboratory work, in the volume range given."
+        }
+      }
+    },
+    "family_variant": "DEMO-LAB-BY-VOLUME-RANGE",
+    "parent": "DEMO-LAB-2001"
+  },
+  {
+    "sku": "DEMO-LAB-2001-1000UL",
+    "kind": "variant",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PIPETRIX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-2001-1000UL",
+    "attribute_values": {
+      "common": {
+        "demo_lab_weight": {
+          "amount": "0.12",
+          "unit": "KILOGRAM"
+        },
+        "demo_lab_volume_range": "1000ul",
+        "image": "sample-data/lab/demo-lab-2001-1000ul.png",
+        "demo_lab_images": [
+          "DEMO-LAB-2001-1000UL-IMG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Einkanalpipette 100–1000 µl",
+          "description": "Volumenverstellbare Einkanalpipette für Laborarbeiten, im angegebenen Volumenbereich."
+        },
+        "en-US": {
+          "name": "Single-channel pipette 100–1000 µl",
+          "description": "Adjustable single-channel pipette for laboratory work, in the volume range given."
+        }
+      }
+    },
+    "family_variant": "DEMO-LAB-BY-VOLUME-RANGE",
+    "parent": "DEMO-LAB-2001"
+  },
+  {
+    "sku": "DEMO-LAB-2002",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PIPETRIX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-2002",
+    "attribute_values": {
+      "common": {
+        "demo_lab_material": "polypropylene",
+        "demo_lab_volume": {
+          "amount": "200",
+          "unit": "MICROLITER"
+        },
+        "demo_lab_pack_size": 96,
+        "demo_lab_weight": {
+          "amount": "0.1",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/lab/demo-lab-2002.png",
+        "demo_lab_images": [
+          "DEMO-LAB-2002-IMG"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-2002-PIPETTE-TIP-200UL-PDF",
+          "DEMO-LAB-2002-PIPETTE-TIP-200UL-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-2002-PIPETTE-TIP-200UL-STEP"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Pipettenspitzen 200 µl, Rack à 96",
+          "description": "Pipettenspitzen aus Polypropylen, 96 Stück im Rack, für 200-µl-Pipetten."
+        },
+        "en-US": {
+          "name": "Pipette tips 200 µl, rack of 96",
+          "description": "Pipette tips of polypropylene, 96 per rack, for 200 µl pipettes."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-LAB-3001",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PIPETRIX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-3001",
+    "attribute_values": {
+      "common": {
+        "demo_lab_material": "polypropylene",
+        "demo_lab_volume": {
+          "amount": "1.5",
+          "unit": "MILLILITER"
+        },
+        "demo_lab_pack_size": 500,
+        "demo_lab_weight": {
+          "amount": "0.2",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/lab/demo-lab-3001.png",
+        "demo_lab_images": [
+          "DEMO-LAB-3001-IMG"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-3001-MICROCENTRIFUGE-TUBE-1-5ML-PDF",
+          "DEMO-LAB-3001-MICROCENTRIFUGE-TUBE-1-5ML-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-3001-MICROCENTRIFUGE-TUBE-1-5ML-STEP"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Mikrozentrifugenröhrchen 1,5 ml, Beutel à 500",
+          "description": "Röhrchen mit Klappdeckel aus Polypropylen, Beutel à 500 Stück."
+        },
+        "en-US": {
+          "name": "Microcentrifuge tubes 1.5 ml, bag of 500",
+          "description": "Polypropylene tubes with snap cap, bag of 500."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-LAB-3002",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PIPETRIX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-3002",
+    "attribute_values": {
+      "common": {
+        "demo_lab_material": "polypropylene",
+        "demo_lab_volume": {
+          "amount": "50",
+          "unit": "MILLILITER"
+        },
+        "demo_lab_pack_size": 25,
+        "demo_lab_weight": {
+          "amount": "1.1",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/lab/demo-lab-3002.png",
+        "demo_lab_images": [
+          "DEMO-LAB-3002-IMG"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-3002-CENTRIFUGE-TUBE-50ML-PDF",
+          "DEMO-LAB-3002-CENTRIFUGE-TUBE-50ML-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-3002-CENTRIFUGE-TUBE-50ML-STEP"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Zentrifugenröhrchen 50 ml, Rack à 25",
+          "description": "Konische Zentrifugenröhrchen mit Schraubdeckel, Rack à 25 Stück."
+        },
+        "en-US": {
+          "name": "Centrifuge tubes 50 ml, rack of 25",
+          "description": "Conical centrifuge tubes with screw cap, rack of 25."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-LAB-3003",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PIPETRIX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-3003",
+    "attribute_values": {
+      "common": {
+        "demo_lab_material": "polystyrene",
+        "demo_lab_sterile": true,
+        "demo_lab_pack_size": 500,
+        "demo_lab_weight": {
+          "amount": "2.4",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/lab/demo-lab-3003.png",
+        "demo_lab_images": [
+          "DEMO-LAB-3003-IMG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Petrischalen 90 mm, 500 Stück",
+          "description": "Petrischalen aus Polystyrol mit Belüftungsnocken, steril verpackt."
+        },
+        "en-US": {
+          "name": "Petri dishes 90 mm, pack of 500",
+          "description": "Polystyrene petri dishes with vent ridges, packed sterile."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-LAB-3004",
+    "kind": "simple",
+    "family": "DEMO-LAB-ARTICLE",
+    "manufacturer": "DEMO-PIPETRIX",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-LAB-3004",
+    "attribute_values": {
+      "common": {
+        "demo_lab_material": "nitrile",
+        "demo_lab_pack_size": 100,
+        "demo_lab_weight": {
+          "amount": "0.4",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/lab/demo-lab-3004.png",
+        "demo_lab_images": [
+          "DEMO-LAB-3004-IMG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Nitril-Laborhandschuhe, Box à 100",
+          "description": "Puderfreie Nitril-Handschuhe für Laborarbeiten, Box à 100 Stück."
+        },
+        "en-US": {
+          "name": "Nitrile lab gloves, box of 100",
+          "description": "Powder-free nitrile gloves for laboratory work, box of 100."
+        }
+      }
+    }
+  }
+]

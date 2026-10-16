@@ -1,0 +1,11 @@
+[
+  {
+    "code": "DEMO-ELE-ARTICLE",
+    "labels": {
+      "de-DE": "Elektroartikel",
+      "en-US": "Electrical article"
+    },
+    "label_attribute": "name",
+    "external_id": "DEMO-ELE-ARTICLE"
+  }
+]

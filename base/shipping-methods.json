@@ -1,0 +1,23 @@
+[
+  {
+    "code": "DEMO-FREIGHT-WEIGHT",
+    "name": "Freight by weight (demo)",
+    "labels": {
+      "de-DE": "Spedition nach Gewicht (Demo)",
+      "en-US": "Freight by weight (demo)"
+    },
+    "description": "Priced by the weight of the order: from 6.90 € up to 5 kg to 29.90 € from 50 kg.",
+    "enabled": true,
+    "pricing_type": "matrix",
+    "matrix_basis": "weight",
+    "currency": "EUR",
+    "tax_class": "standard",
+    "countries": [
+      "DE"
+    ],
+    "eta_days_min": 2,
+    "eta_days_max": 4,
+    "position": 10,
+    "external_id": "DEMO-FREIGHT-WEIGHT"
+  }
+]

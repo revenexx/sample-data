@@ -1,0 +1,11 @@
+[
+  {
+    "code": "DEMO-LAB-ARTICLE",
+    "labels": {
+      "de-DE": "Laborartikel",
+      "en-US": "Laboratory article"
+    },
+    "label_attribute": "name",
+    "external_id": "DEMO-LAB-ARTICLE"
+  }
+]

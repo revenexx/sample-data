@@ -1,0 +1,74 @@
+[
+  {
+    "sku": "DEMO-ELE-1001",
+    "location": "main",
+    "on_hand": 64,
+    "reorder_point": 20
+  },
+  {
+    "sku": "DEMO-ELE-1002",
+    "location": "main",
+    "on_hand": 28,
+    "reorder_point": 10
+  },
+  {
+    "sku": "DEMO-ELE-1003",
+    "location": "main",
+    "on_hand": 45,
+    "reorder_point": 20
+  },
+  {
+    "sku": "DEMO-ELE-2001",
+    "location": "main",
+    "on_hand": 120,
+    "reorder_point": 30
+  },
+  {
+    "sku": "DEMO-ELE-2002",
+    "location": "main",
+    "on_hand": 200,
+    "reorder_point": 40
+  },
+  {
+    "sku": "DEMO-ELE-2003-WHITE",
+    "location": "main",
+    "on_hand": 120,
+    "reorder_point": 30
+  },
+  {
+    "sku": "DEMO-ELE-2003-BLACK",
+    "location": "main",
+    "on_hand": 48,
+    "reorder_point": 20
+  },
+  {
+    "sku": "DEMO-ELE-2003-ANTHRACITE",
+    "location": "main",
+    "on_hand": 35,
+    "reorder_point": 20
+  },
+  {
+    "sku": "DEMO-ELE-2004",
+    "location": "main",
+    "on_hand": 120,
+    "reorder_point": 40
+  },
+  {
+    "sku": "DEMO-ELE-3001",
+    "location": "main",
+    "on_hand": 14,
+    "reorder_point": 20
+  },
+  {
+    "sku": "DEMO-ELE-3002",
+    "location": "main",
+    "on_hand": 60,
+    "reorder_point": 20
+  },
+  {
+    "sku": "DEMO-ELE-3003",
+    "location": "main",
+    "on_hand": 25,
+    "reorder_point": 10
+  }
+]

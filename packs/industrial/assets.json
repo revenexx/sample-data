@@ -1,0 +1,146 @@
+[
+  {
+    "code": "DEMO-IND-1001-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-1001.png",
+    "external_id": "DEMO-IND-1001-IMG"
+  },
+  {
+    "code": "DEMO-IND-1002-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-1002.png",
+    "external_id": "DEMO-IND-1002-IMG"
+  },
+  {
+    "code": "DEMO-IND-1003-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-1003.png",
+    "external_id": "DEMO-IND-1003-IMG"
+  },
+  {
+    "code": "DEMO-IND-1004-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-1004.png",
+    "external_id": "DEMO-IND-1004-IMG"
+  },
+  {
+    "code": "DEMO-IND-2001-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-2001.png",
+    "external_id": "DEMO-IND-2001-IMG"
+  },
+  {
+    "code": "DEMO-IND-2002-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-2002.png",
+    "external_id": "DEMO-IND-2002-IMG"
+  },
+  {
+    "code": "DEMO-IND-2003-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-2003.png",
+    "external_id": "DEMO-IND-2003-IMG"
+  },
+  {
+    "code": "DEMO-IND-3001-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3001.png",
+    "external_id": "DEMO-IND-3001-IMG"
+  },
+  {
+    "code": "DEMO-IND-3001-S-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3001-s.png",
+    "external_id": "DEMO-IND-3001-S-IMG"
+  },
+  {
+    "code": "DEMO-IND-3001-M-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3001-m.png",
+    "external_id": "DEMO-IND-3001-M-IMG"
+  },
+  {
+    "code": "DEMO-IND-3001-L-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3001-l.png",
+    "external_id": "DEMO-IND-3001-L-IMG"
+  },
+  {
+    "code": "DEMO-IND-3001-XL-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3001-xl.png",
+    "external_id": "DEMO-IND-3001-XL-IMG"
+  },
+  {
+    "code": "DEMO-IND-3002-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3002.png",
+    "external_id": "DEMO-IND-3002-IMG"
+  },
+  {
+    "code": "DEMO-IND-3003-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3003.png",
+    "external_id": "DEMO-IND-3003-IMG"
+  },
+  {
+    "code": "DEMO-IND-2002-HEX-BOLT-M8X40-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2002-hex-bolt-m8x40.pdf",
+    "external_id": "DEMO-IND-2002-HEX-BOLT-M8X40-PDF"
+  },
+  {
+    "code": "DEMO-IND-2002-HEX-BOLT-M8X40-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2002-hex-bolt-m8x40.svg",
+    "external_id": "DEMO-IND-2002-HEX-BOLT-M8X40-SVG"
+  },
+  {
+    "code": "DEMO-IND-2001-WOOD-SCREW-4X40-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2001-wood-screw-4x40.pdf",
+    "external_id": "DEMO-IND-2001-WOOD-SCREW-4X40-PDF"
+  },
+  {
+    "code": "DEMO-IND-2001-WOOD-SCREW-4X40-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2001-wood-screw-4x40.svg",
+    "external_id": "DEMO-IND-2001-WOOD-SCREW-4X40-SVG"
+  },
+  {
+    "code": "DEMO-IND-2003-CUTTING-DISC-125-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2003-cutting-disc-125.pdf",
+    "external_id": "DEMO-IND-2003-CUTTING-DISC-125-PDF"
+  },
+  {
+    "code": "DEMO-IND-2003-CUTTING-DISC-125-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2003-cutting-disc-125.svg",
+    "external_id": "DEMO-IND-2003-CUTTING-DISC-125-SVG"
+  },
+  {
+    "code": "DEMO-IND-2002-HEX-BOLT-M8X40-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-ind-2002-hex-bolt-m8x40.step",
+    "external_id": "DEMO-IND-2002-HEX-BOLT-M8X40-STEP"
+  },
+  {
+    "code": "DEMO-IND-2001-WOOD-SCREW-4X40-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-ind-2001-wood-screw-4x40.step",
+    "external_id": "DEMO-IND-2001-WOOD-SCREW-4X40-STEP"
+  },
+  {
+    "code": "DEMO-IND-2003-CUTTING-DISC-125-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-ind-2003-cutting-disc-125.step",
+    "external_id": "DEMO-IND-2003-CUTTING-DISC-125-STEP"
+  },
+  {
+    "code": "DEMO-IND-1001-DATA-SHEET",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-1001-data-sheet.pdf",
+    "external_id": "DEMO-IND-1001-DATA-SHEET"
+  }
+]

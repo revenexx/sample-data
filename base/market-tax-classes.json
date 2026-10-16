@@ -1,0 +1,4 @@
+[
+  { "market": "demo_de", "code": "standard", "name": "Standard rate", "labels": { "de-DE": "Regelsteuersatz", "en-US": "Standard rate" }, "rate": 19, "is_default": true, "position": 0 },
+  { "market": "demo_de", "code": "reduced", "name": "Reduced rate", "labels": { "de-DE": "Ermäßigter Steuersatz", "en-US": "Reduced rate" }, "rate": 7, "is_default": false, "position": 1 }
+]

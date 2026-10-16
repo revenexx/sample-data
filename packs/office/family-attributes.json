@@ -1,0 +1,86 @@
+[
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "name",
+    "position": 0,
+    "is_required": true
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "description",
+    "position": 1,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "image",
+    "position": 2,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_format",
+    "position": 3,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_paper_weight",
+    "position": 4,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_sheets",
+    "position": 5,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_colour",
+    "position": 6,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_spine_width",
+    "position": 7,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_pack_size",
+    "position": 8,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_volume",
+    "position": 9,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_weight",
+    "position": 10,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_images",
+    "position": 11,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_drawings",
+    "position": 12,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_downloads",
+    "position": 13,
+    "is_required": false
+  }
+]

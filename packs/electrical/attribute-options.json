@@ -1,0 +1,101 @@
+[
+  {
+    "attribute": "demo_ele_cores_cross_section",
+    "code": "c1x1_5",
+    "labels": {
+      "de-DE": "1 × 1,5 mm²",
+      "en-US": "1 × 1.5 mm²"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ele_cores_cross_section",
+    "code": "c3x1_5",
+    "labels": {
+      "de-DE": "3 × 1,5 mm²",
+      "en-US": "3 × 1.5 mm²"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ele_cores_cross_section",
+    "code": "c5x2_5",
+    "labels": {
+      "de-DE": "5 × 2,5 mm²",
+      "en-US": "5 × 2.5 mm²"
+    },
+    "position": 2
+  },
+  {
+    "attribute": "demo_ele_ip_rating",
+    "code": "ip20",
+    "labels": {
+      "de-DE": "IP20",
+      "en-US": "IP20"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ele_ip_rating",
+    "code": "ip44",
+    "labels": {
+      "de-DE": "IP44",
+      "en-US": "IP44"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ele_ip_rating",
+    "code": "ip55",
+    "labels": {
+      "de-DE": "IP55",
+      "en-US": "IP55"
+    },
+    "position": 2
+  },
+  {
+    "attribute": "demo_ele_mounting",
+    "code": "flush",
+    "labels": {
+      "de-DE": "Unterputz",
+      "en-US": "Flush-mounted"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ele_mounting",
+    "code": "surface",
+    "labels": {
+      "de-DE": "Aufputz",
+      "en-US": "Surface-mounted"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ele_colour",
+    "code": "white",
+    "labels": {
+      "de-DE": "Weiß",
+      "en-US": "White"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ele_colour",
+    "code": "black",
+    "labels": {
+      "de-DE": "Schwarz",
+      "en-US": "Black"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ele_colour",
+    "code": "anthracite",
+    "labels": {
+      "de-DE": "Anthrazit",
+      "en-US": "Anthracite"
+    },
+    "position": 2
+  }
+]

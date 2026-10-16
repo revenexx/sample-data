@@ -1,0 +1,26 @@
+[
+  {
+    "code": "demo_lab_general",
+    "labels": {
+      "de-DE": "Allgemein",
+      "en-US": "General"
+    },
+    "position": 0
+  },
+  {
+    "code": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Technische Daten",
+      "en-US": "Technical data"
+    },
+    "position": 1
+  },
+  {
+    "code": "demo_lab_media",
+    "labels": {
+      "de-DE": "Medien & Downloads",
+      "en-US": "Media & downloads"
+    },
+    "position": 2
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "code": "DEMO-LAB-LIST",
+    "name": "Lab list prices (demo)",
+    "labels": {
+      "de-DE": "Listenpreise Labor (Demo)",
+      "en-US": "Lab list prices (demo)"
+    },
+    "currency": "EUR",
+    "status": "active",
+    "priority": 10,
+    "tax_basis": "net",
+    "external_id": "DEMO-LAB-LIST"
+  },
+  {
+    "code": "DEMO-LAB-CONTRACT",
+    "name": "Contract prices Muster Labor (demo)",
+    "labels": {
+      "de-DE": "Vertragspreise Muster Labor (Demo)",
+      "en-US": "Contract prices Muster Labor (demo)"
+    },
+    "organization": "DEMO-C-1001",
+    "currency": "EUR",
+    "status": "active",
+    "priority": 100,
+    "tax_basis": "net",
+    "external_id": "DEMO-LAB-CONTRACT"
+  }
+]

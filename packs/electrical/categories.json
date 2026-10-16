@@ -1,0 +1,41 @@
+[
+  {
+    "code": "DEMO-ELE",
+    "labels": {
+      "de-DE": "Elektroinstallation",
+      "en-US": "Electrical installation"
+    },
+    "position": 0,
+    "external_id": "DEMO-ELE"
+  },
+  {
+    "code": "DEMO-ELE-CABLES",
+    "parent": "DEMO-ELE",
+    "labels": {
+      "de-DE": "Kabel & Leitungen",
+      "en-US": "Cables & wires"
+    },
+    "position": 0,
+    "external_id": "DEMO-ELE-CABLES"
+  },
+  {
+    "code": "DEMO-ELE-SWITCHES",
+    "parent": "DEMO-ELE",
+    "labels": {
+      "de-DE": "Schalter & Steckdosen",
+      "en-US": "Switches & sockets"
+    },
+    "position": 1,
+    "external_id": "DEMO-ELE-SWITCHES"
+  },
+  {
+    "code": "DEMO-ELE-LIGHTING",
+    "parent": "DEMO-ELE",
+    "labels": {
+      "de-DE": "Beleuchtung",
+      "en-US": "Lighting"
+    },
+    "position": 2,
+    "external_id": "DEMO-ELE-LIGHTING"
+  }
+]

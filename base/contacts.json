@@ -1,0 +1,29 @@
+[
+  {
+    "external_id": "DEMO-P-1001",
+    "organization": "DEMO-C-1001",
+    "email": "anna.becker@muster-bau.example",
+    "first_name": "Anna",
+    "last_name": "Becker",
+    "job_title": "Einkauf",
+    "role": "buyer",
+    "order_approval_mode": "none",
+    "locale": "de-DE",
+    "is_primary": true,
+    "status": "active"
+  },
+  {
+    "external_id": "DEMO-P-1002",
+    "organization": "DEMO-C-1001",
+    "email": "jonas.keller@muster-bau.example",
+    "first_name": "Jonas",
+    "last_name": "Keller",
+    "job_title": "Leitung Einkauf",
+    "role": "approver",
+    "order_approval_mode": "limited",
+    "locale": "de-DE",
+    "is_primary": false,
+    "status": "active",
+    "order_approval_limit": 5000
+  }
+]

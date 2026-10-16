@@ -1,0 +1,29 @@
+[
+  {
+    "code": "DEMO-OFF-LIST",
+    "name": "Office list prices (demo)",
+    "labels": {
+      "de-DE": "Listenpreise Büro (Demo)",
+      "en-US": "Office list prices (demo)"
+    },
+    "currency": "EUR",
+    "status": "active",
+    "priority": 10,
+    "tax_basis": "net",
+    "external_id": "DEMO-OFF-LIST"
+  },
+  {
+    "code": "DEMO-OFF-CONTRACT",
+    "name": "Contract prices Muster Büro (demo)",
+    "labels": {
+      "de-DE": "Vertragspreise Muster Büro (Demo)",
+      "en-US": "Contract prices Muster Büro (demo)"
+    },
+    "organization": "DEMO-C-1001",
+    "currency": "EUR",
+    "status": "active",
+    "priority": 100,
+    "tax_basis": "net",
+    "external_id": "DEMO-OFF-CONTRACT"
+  }
+]

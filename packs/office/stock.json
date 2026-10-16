@@ -1,0 +1,74 @@
+[
+  {
+    "sku": "DEMO-OFF-1001",
+    "location": "main",
+    "on_hand": 420,
+    "reorder_point": 60
+  },
+  {
+    "sku": "DEMO-OFF-1002-BLUE",
+    "location": "main",
+    "on_hand": 46,
+    "reorder_point": 10
+  },
+  {
+    "sku": "DEMO-OFF-1002-RED",
+    "location": "main",
+    "on_hand": 38,
+    "reorder_point": 10
+  },
+  {
+    "sku": "DEMO-OFF-1002-BLACK",
+    "location": "main",
+    "on_hand": 52,
+    "reorder_point": 10
+  },
+  {
+    "sku": "DEMO-OFF-1003",
+    "location": "main",
+    "on_hand": 95,
+    "reorder_point": 20
+  },
+  {
+    "sku": "DEMO-OFF-2001",
+    "location": "main",
+    "on_hand": 64,
+    "reorder_point": 15
+  },
+  {
+    "sku": "DEMO-OFF-2002",
+    "location": "main",
+    "on_hand": 110,
+    "reorder_point": 25
+  },
+  {
+    "sku": "DEMO-OFF-2003",
+    "location": "main",
+    "on_hand": 58,
+    "reorder_point": 15
+  },
+  {
+    "sku": "DEMO-OFF-2004",
+    "location": "main",
+    "on_hand": 27,
+    "reorder_point": 8
+  },
+  {
+    "sku": "DEMO-OFF-3001",
+    "location": "main",
+    "on_hand": 4,
+    "reorder_point": 12
+  },
+  {
+    "sku": "DEMO-OFF-3002",
+    "location": "main",
+    "on_hand": 48,
+    "reorder_point": 12
+  },
+  {
+    "sku": "DEMO-OFF-3003",
+    "location": "main",
+    "on_hand": 33,
+    "reorder_point": 10
+  }
+]

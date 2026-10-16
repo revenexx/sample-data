@@ -1,0 +1,3 @@
+[
+  { "promotion": "DEMO-PROMO-5PCT-100", "position": 0, "kind": "question", "subject": "cart_value", "comparison": "gte", "compare_value": 100 }
+]

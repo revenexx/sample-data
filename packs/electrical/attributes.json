@@ -1,0 +1,224 @@
+[
+  {
+    "code": "demo_ele_cores_cross_section",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Adern & Querschnitt",
+      "en-US": "Cores & cross section"
+    },
+    "position": 0,
+    "external_id": "demo_ele_cores_cross_section",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ele_length",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Länge",
+      "en-US": "Length"
+    },
+    "position": 1,
+    "external_id": "demo_ele_length",
+    "config": {
+      "units": [
+        "METER"
+      ]
+    },
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ele_rated_voltage",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Nennspannung",
+      "en-US": "Rated voltage"
+    },
+    "position": 2,
+    "external_id": "demo_ele_rated_voltage",
+    "config": {
+      "units": [
+        "VOLT"
+      ]
+    },
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ele_ip_rating",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Schutzart (IP)",
+      "en-US": "Ingress protection (IP)"
+    },
+    "position": 3,
+    "external_id": "demo_ele_ip_rating",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ele_mounting",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Montageart",
+      "en-US": "Mounting"
+    },
+    "position": 4,
+    "external_id": "demo_ele_mounting",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ele_colour",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ele_general",
+    "labels": {
+      "de-DE": "Farbe",
+      "en-US": "Colour"
+    },
+    "position": 5,
+    "external_id": "demo_ele_colour",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ele_wattage",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Leistung",
+      "en-US": "Power"
+    },
+    "position": 6,
+    "external_id": "demo_ele_wattage",
+    "config": {
+      "units": [
+        "WATT"
+      ]
+    },
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ele_luminous_flux",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Lichtstrom",
+      "en-US": "Luminous flux"
+    },
+    "position": 7,
+    "external_id": "demo_ele_luminous_flux",
+    "config": {
+      "units": [
+        "LUMEN"
+      ]
+    }
+  },
+  {
+    "code": "demo_ele_colour_temperature",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Lichtfarbe (CCT)",
+      "en-US": "Colour temperature (CCT)"
+    },
+    "position": 8,
+    "external_id": "demo_ele_colour_temperature",
+    "config": {
+      "units": [
+        "KELVIN"
+      ]
+    }
+  },
+  {
+    "code": "demo_ele_detection_angle",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Erfassungswinkel",
+      "en-US": "Detection angle"
+    },
+    "position": 9,
+    "external_id": "demo_ele_detection_angle",
+    "config": {
+      "units": [
+        "DEGREE"
+      ]
+    }
+  },
+  {
+    "code": "demo_ele_weight",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Gewicht",
+      "en-US": "Weight"
+    },
+    "position": 10,
+    "external_id": "demo_ele_weight",
+    "config": {
+      "units": [
+        "KILOGRAM"
+      ]
+    }
+  },
+  {
+    "code": "demo_ele_images",
+    "entity_type": "product",
+    "type": "asset_collection",
+    "entity_ref": "product_images",
+    "group": "demo_ele_media",
+    "labels": {
+      "de-DE": "Bilder",
+      "en-US": "Images"
+    },
+    "position": 20,
+    "external_id": "demo_ele_images",
+    "config": {
+      "asset_family": "product_images"
+    }
+  },
+  {
+    "code": "demo_ele_drawings",
+    "entity_type": "product",
+    "type": "asset_collection",
+    "entity_ref": "technical_drawings",
+    "group": "demo_ele_media",
+    "labels": {
+      "de-DE": "Technische Zeichnungen",
+      "en-US": "Technical drawings"
+    },
+    "position": 21,
+    "external_id": "demo_ele_drawings",
+    "config": {
+      "asset_family": "technical_drawings"
+    }
+  },
+  {
+    "code": "demo_ele_downloads",
+    "entity_type": "product",
+    "type": "asset_collection",
+    "entity_ref": "downloads",
+    "group": "demo_ele_media",
+    "labels": {
+      "de-DE": "Downloads",
+      "en-US": "Downloads"
+    },
+    "position": 22,
+    "external_id": "demo_ele_downloads",
+    "config": {
+      "asset_family": "downloads"
+    }
+  }
+]

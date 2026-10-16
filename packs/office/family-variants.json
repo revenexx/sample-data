@@ -1,0 +1,14 @@
+[
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "code": "DEMO-OFF-BY-COLOUR",
+    "labels": {
+      "de-DE": "Nach Farbe",
+      "en-US": "By colour"
+    },
+    "axes": [
+      "demo_off_colour"
+    ],
+    "external_id": "DEMO-OFF-BY-COLOUR"
+  }
+]

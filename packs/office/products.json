@@ -1,0 +1,465 @@
+[
+  {
+    "sku": "DEMO-OFF-1001",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1001",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_paper_weight": {
+          "amount": "80",
+          "unit": "GRAM_PER_SQUARE_METER"
+        },
+        "demo_off_sheets": 500,
+        "demo_off_weight": {
+          "amount": "2.5",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-1001.png",
+        "demo_off_images": [
+          "DEMO-OFF-1001-IMG"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1001-DATA-SHEET"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Kopierpapier A4, 80 g/m², 500 Blatt",
+          "description": "Weißes Kopierpapier für Laser- und Tintenstrahldrucker, beidseitig bedruckbar."
+        },
+        "en-US": {
+          "name": "Copy paper A4, 80 g/m², 500 sheets",
+          "description": "White copy paper for laser and inkjet printers, printable on both sides."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-1002",
+    "kind": "model",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1002",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_spine_width": {
+          "amount": "75",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_weight": {
+          "amount": "0.62",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-1002.png",
+        "demo_off_images": [
+          "DEMO-OFF-1002-IMG"
+        ],
+        "demo_off_drawings": [
+          "DEMO-OFF-1002-RING-BINDER-A4-PDF",
+          "DEMO-OFF-1002-RING-BINDER-A4-SVG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Ringordner A4, 75 mm",
+          "description": "Ringordner mit Taschen am Rücken und Beschriftungsfeld, für Lochung 4 Ringe."
+        },
+        "en-US": {
+          "name": "Ring binder A4, 75 mm",
+          "description": "Ring binder with spine pocket and label field, four-ring mechanism."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR"
+  },
+  {
+    "sku": "DEMO-OFF-1002-BLUE",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1002-BLUE",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_spine_width": {
+          "amount": "75",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_weight": {
+          "amount": "0.62",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "blue",
+        "image": "sample-data/office/demo-off-1002-blue.png",
+        "demo_off_images": [
+          "DEMO-OFF-1002-BLUE-IMG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Ringordner A4, 75 mm, blau",
+          "description": "Ringordner A4 mit Beschriftungsfeld, 75 mm Rückenbreite."
+        },
+        "en-US": {
+          "name": "Ring binder A4, 75 mm, blue",
+          "description": "Ring binder A4 with label field, 75 mm spine width."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-1002"
+  },
+  {
+    "sku": "DEMO-OFF-1002-RED",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1002-RED",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_spine_width": {
+          "amount": "75",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_weight": {
+          "amount": "0.62",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "red",
+        "image": "sample-data/office/demo-off-1002-red.png",
+        "demo_off_images": [
+          "DEMO-OFF-1002-RED-IMG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Ringordner A4, 75 mm, rot",
+          "description": "Ringordner A4 mit Beschriftungsfeld, 75 mm Rückenbreite."
+        },
+        "en-US": {
+          "name": "Ring binder A4, 75 mm, red",
+          "description": "Ring binder A4 with label field, 75 mm spine width."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-1002"
+  },
+  {
+    "sku": "DEMO-OFF-1002-BLACK",
+    "kind": "variant",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1002-BLACK",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_spine_width": {
+          "amount": "75",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_weight": {
+          "amount": "0.62",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_colour": "black",
+        "image": "sample-data/office/demo-off-1002-black.png",
+        "demo_off_images": [
+          "DEMO-OFF-1002-BLACK-IMG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Ringordner A4, 75 mm, schwarz",
+          "description": "Ringordner A4 mit Beschriftungsfeld, 75 mm Rückenbreite."
+        },
+        "en-US": {
+          "name": "Ring binder A4, 75 mm, black",
+          "description": "Ring binder A4 with label field, 75 mm spine width."
+        }
+      }
+    },
+    "family_variant": "DEMO-OFF-BY-COLOUR",
+    "parent": "DEMO-OFF-1002"
+  },
+  {
+    "sku": "DEMO-OFF-1003",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-FOLIANTA",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-1003",
+    "attribute_values": {
+      "common": {
+        "demo_off_format": "a4",
+        "demo_off_spine_width": {
+          "amount": "80",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_weight": {
+          "amount": "0.58",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-1003.png",
+        "demo_off_images": [
+          "DEMO-OFF-1003-IMG"
+        ],
+        "demo_off_drawings": [
+          "DEMO-OFF-1003-LEVER-ARCH-80-PDF",
+          "DEMO-OFF-1003-LEVER-ARCH-80-SVG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Ordner A4, 80 mm",
+          "description": "Ordner mit Hebelmechanik und breitem Rücken für viele Blätter."
+        },
+        "en-US": {
+          "name": "Lever arch file A4, 80 mm",
+          "description": "Lever arch file with lever mechanism and a wide spine for many sheets."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-2001",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-2001",
+    "attribute_values": {
+      "common": {
+        "demo_off_pack_size": 50,
+        "demo_off_weight": {
+          "amount": "0.12",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-2001.png",
+        "demo_off_images": [
+          "DEMO-OFF-2001-IMG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Kugelschreiber blau, 50er-Box",
+          "description": "Kugelschreiber mit Drehmechanik und Schreibspitze 0,7 mm, Schreibfarbe blau."
+        },
+        "en-US": {
+          "name": "Ballpoint pens blue, box of 50",
+          "description": "Retractable ballpoint pens with 0.7 mm tip, blue ink."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-2002",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-2002",
+    "attribute_values": {
+      "common": {
+        "demo_off_pack_size": 4,
+        "demo_off_weight": {
+          "amount": "0.10",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-2002.png",
+        "demo_off_images": [
+          "DEMO-OFF-2002-IMG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Textmarker-Set, 4 Farben",
+          "description": "Vier Textmarker mit Keilspitze in gelb, grün, rosa und blau."
+        },
+        "en-US": {
+          "name": "Highlighters, set of 4",
+          "description": "Four chisel-tip highlighters in yellow, green, pink and blue."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-2003",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-2003",
+    "attribute_values": {
+      "common": {
+        "demo_off_pack_size": 12,
+        "demo_off_weight": {
+          "amount": "0.45",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-2003.png",
+        "demo_off_images": [
+          "DEMO-OFF-2003-IMG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Haftnotizen 76 × 76 mm, 12 Blöcke",
+          "description": "Haftnotizen mit wiederablösbarem Klebestreifen, zwölf Blöcke in Pastellfarben."
+        },
+        "en-US": {
+          "name": "Sticky notes 76 × 76 mm, 12 pads",
+          "description": "Sticky notes with a removable adhesive strip, twelve pastel pads."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-2004",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-2004",
+    "attribute_values": {
+      "common": {
+        "demo_off_weight": {
+          "amount": "0.45",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-2004.png",
+        "demo_off_images": [
+          "DEMO-OFF-2004-IMG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Heftgerät, 30 Blatt",
+          "description": "Heftgerät aus Metall mit Antirutschfuß, heftet bis zu 30 Blatt."
+        },
+        "en-US": {
+          "name": "Stapler, 30 sheets",
+          "description": "Metal stapler with a non-slip base, staples up to 30 sheets."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-3001",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "reduced",
+    "enabled": true,
+    "external_id": "DEMO-OFF-3001",
+    "attribute_values": {
+      "common": {
+        "demo_off_weight": {
+          "amount": "1.05",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-3001.png",
+        "demo_off_images": [
+          "DEMO-OFF-3001-IMG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Kaffeebohnen 1 kg",
+          "description": "Ganze Kaffeebohnen, mittlere Röstung, für Vollautomaten und Bohnenmühlen."
+        },
+        "en-US": {
+          "name": "Coffee beans 1 kg",
+          "description": "Whole coffee beans, medium roast, for bean-to-cup machines and grinders."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-3002",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-3002",
+    "attribute_values": {
+      "common": {
+        "demo_off_pack_size": 20,
+        "demo_off_weight": {
+          "amount": "3.2",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-3002.png",
+        "demo_off_images": [
+          "DEMO-OFF-3002-IMG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Papierhandtücher, 20 Packungen",
+          "description": "Zweilagige Falthandtücher für Spender, 20 Packungen mit je 150 Blatt."
+        },
+        "en-US": {
+          "name": "Paper towels, 20 packs",
+          "description": "Two-ply folded hand towels for dispensers, 20 packs of 150 sheets each."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-OFF-3003",
+    "kind": "simple",
+    "family": "DEMO-OFF-ARTICLE",
+    "manufacturer": "DEMO-KLARBUERO",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-OFF-3003",
+    "attribute_values": {
+      "common": {
+        "demo_off_volume": {
+          "amount": "5",
+          "unit": "LITER"
+        },
+        "demo_off_weight": {
+          "amount": "5.3",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/office/demo-off-3003.png",
+        "demo_off_images": [
+          "DEMO-OFF-3003-IMG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Flüssigseife, Nachfüllung 5 l",
+          "description": "Milde Flüssigseife als Nachfüllung für Seifenspender, parfümfrei."
+        },
+        "en-US": {
+          "name": "Hand soap refill 5 l",
+          "description": "Mild liquid hand soap refill for wall dispensers, fragrance-free."
+        }
+      }
+    }
+  }
+]

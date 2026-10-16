@@ -1,0 +1,9 @@
+[
+  {
+    "code": "demo_de",
+    "name": "Demo Germany",
+    "labels": { "de-DE": "Demo Deutschland", "en-US": "Demo Germany" },
+    "currency": "EUR",
+    "ship_from_country": "DE"
+  }
+]

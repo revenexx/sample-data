@@ -1,0 +1,56 @@
+[
+  {
+    "attribute": "demo_lab_volume_range",
+    "code": "10ul",
+    "labels": {
+      "de-DE": "0,5–10 µl",
+      "en-US": "0.5–10 µl"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_lab_volume_range",
+    "code": "200ul",
+    "labels": {
+      "de-DE": "20–200 µl",
+      "en-US": "20–200 µl"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_lab_volume_range",
+    "code": "1000ul",
+    "labels": {
+      "de-DE": "100–1000 µl",
+      "en-US": "100–1000 µl"
+    },
+    "position": 2
+  },
+  {
+    "attribute": "demo_lab_material",
+    "code": "polypropylene",
+    "labels": {
+      "de-DE": "Polypropylen",
+      "en-US": "Polypropylene"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_lab_material",
+    "code": "polystyrene",
+    "labels": {
+      "de-DE": "Polystyrol",
+      "en-US": "Polystyrene"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_lab_material",
+    "code": "nitrile",
+    "labels": {
+      "de-DE": "Nitril",
+      "en-US": "Nitrile"
+    },
+    "position": 2
+  }
+]

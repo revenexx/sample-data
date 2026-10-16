@@ -1,0 +1,26 @@
+[
+  {
+    "promotion": "DEMO-PROMO-5PCT-100",
+    "position": 0,
+    "kind": "discount",
+    "value_type": "percentage",
+    "amount": 5,
+    "target_scope": "cart_subtotal"
+  },
+  {
+    "promotion": "DEMO-PROMO-WELCOME",
+    "position": 0,
+    "kind": "discount",
+    "value_type": "percentage",
+    "amount": 10,
+    "target_scope": "cart_subtotal"
+  },
+  {
+    "promotion": "DEMO-PROMO-CREDIT-150",
+    "position": 0,
+    "kind": "discount",
+    "value_type": "amount",
+    "amount": 50,
+    "target_scope": "cart_subtotal"
+  }
+]

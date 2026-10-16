@@ -1,0 +1,41 @@
+[
+  {
+    "code": "DEMO-IND",
+    "labels": {
+      "de-DE": "Werkstatt & Industriebedarf",
+      "en-US": "Workshop & industrial supply"
+    },
+    "position": 0,
+    "external_id": "DEMO-IND"
+  },
+  {
+    "code": "DEMO-IND-POWER-TOOLS",
+    "parent": "DEMO-IND",
+    "labels": {
+      "de-DE": "Elektrowerkzeuge",
+      "en-US": "Power tools"
+    },
+    "position": 0,
+    "external_id": "DEMO-IND-POWER-TOOLS"
+  },
+  {
+    "code": "DEMO-IND-FASTENERS",
+    "parent": "DEMO-IND",
+    "labels": {
+      "de-DE": "Befestigung & Verbrauchsmaterial",
+      "en-US": "Fasteners & consumables"
+    },
+    "position": 1,
+    "external_id": "DEMO-IND-FASTENERS"
+  },
+  {
+    "code": "DEMO-IND-SAFETY",
+    "parent": "DEMO-IND",
+    "labels": {
+      "de-DE": "Arbeitsschutz",
+      "en-US": "Workwear & safety"
+    },
+    "position": 2,
+    "external_id": "DEMO-IND-SAFETY"
+  }
+]

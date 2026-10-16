@@ -1,0 +1,29 @@
+[
+  {
+    "code": "DEMO-IND-LIST",
+    "name": "Industrial list prices (demo)",
+    "labels": {
+      "de-DE": "Listenpreise Werkstatt (Demo)",
+      "en-US": "Industrial list prices (demo)"
+    },
+    "currency": "EUR",
+    "status": "active",
+    "priority": 10,
+    "tax_basis": "net",
+    "external_id": "DEMO-IND-LIST"
+  },
+  {
+    "code": "DEMO-IND-CONTRACT",
+    "name": "Contract prices Muster Bau (demo)",
+    "labels": {
+      "de-DE": "Vertragspreise Muster Bau (Demo)",
+      "en-US": "Contract prices Muster Bau (demo)"
+    },
+    "organization": "DEMO-C-1001",
+    "currency": "EUR",
+    "status": "active",
+    "priority": 100,
+    "tax_basis": "net",
+    "external_id": "DEMO-IND-CONTRACT"
+  }
+]

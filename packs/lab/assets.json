@@ -1,0 +1,140 @@
+[
+  {
+    "code": "DEMO-LAB-1001-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-1001.png",
+    "external_id": "DEMO-LAB-1001-IMG"
+  },
+  {
+    "code": "DEMO-LAB-1002-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-1002.png",
+    "external_id": "DEMO-LAB-1002-IMG"
+  },
+  {
+    "code": "DEMO-LAB-1003-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-1003.png",
+    "external_id": "DEMO-LAB-1003-IMG"
+  },
+  {
+    "code": "DEMO-LAB-1004-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-1004.png",
+    "external_id": "DEMO-LAB-1004-IMG"
+  },
+  {
+    "code": "DEMO-LAB-2001-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-2001.png",
+    "external_id": "DEMO-LAB-2001-IMG"
+  },
+  {
+    "code": "DEMO-LAB-2001-10UL-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-2001-10ul.png",
+    "external_id": "DEMO-LAB-2001-10UL-IMG"
+  },
+  {
+    "code": "DEMO-LAB-2001-200UL-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-2001-200ul.png",
+    "external_id": "DEMO-LAB-2001-200UL-IMG"
+  },
+  {
+    "code": "DEMO-LAB-2001-1000UL-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-2001-1000ul.png",
+    "external_id": "DEMO-LAB-2001-1000UL-IMG"
+  },
+  {
+    "code": "DEMO-LAB-2002-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-2002.png",
+    "external_id": "DEMO-LAB-2002-IMG"
+  },
+  {
+    "code": "DEMO-LAB-3001-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-3001.png",
+    "external_id": "DEMO-LAB-3001-IMG"
+  },
+  {
+    "code": "DEMO-LAB-3002-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-3002.png",
+    "external_id": "DEMO-LAB-3002-IMG"
+  },
+  {
+    "code": "DEMO-LAB-3003-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-3003.png",
+    "external_id": "DEMO-LAB-3003-IMG"
+  },
+  {
+    "code": "DEMO-LAB-3004-IMG",
+    "family": "product_images",
+    "file": "assets/images/demo-lab-3004.png",
+    "external_id": "DEMO-LAB-3004-IMG"
+  },
+  {
+    "code": "DEMO-LAB-3001-MICROCENTRIFUGE-TUBE-1-5ML-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-lab-3001-microcentrifuge-tube-1-5ml.pdf",
+    "external_id": "DEMO-LAB-3001-MICROCENTRIFUGE-TUBE-1-5ML-PDF"
+  },
+  {
+    "code": "DEMO-LAB-3001-MICROCENTRIFUGE-TUBE-1-5ML-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-lab-3001-microcentrifuge-tube-1-5ml.svg",
+    "external_id": "DEMO-LAB-3001-MICROCENTRIFUGE-TUBE-1-5ML-SVG"
+  },
+  {
+    "code": "DEMO-LAB-3002-CENTRIFUGE-TUBE-50ML-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-lab-3002-centrifuge-tube-50ml.pdf",
+    "external_id": "DEMO-LAB-3002-CENTRIFUGE-TUBE-50ML-PDF"
+  },
+  {
+    "code": "DEMO-LAB-3002-CENTRIFUGE-TUBE-50ML-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-lab-3002-centrifuge-tube-50ml.svg",
+    "external_id": "DEMO-LAB-3002-CENTRIFUGE-TUBE-50ML-SVG"
+  },
+  {
+    "code": "DEMO-LAB-2002-PIPETTE-TIP-200UL-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-lab-2002-pipette-tip-200ul.pdf",
+    "external_id": "DEMO-LAB-2002-PIPETTE-TIP-200UL-PDF"
+  },
+  {
+    "code": "DEMO-LAB-2002-PIPETTE-TIP-200UL-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-lab-2002-pipette-tip-200ul.svg",
+    "external_id": "DEMO-LAB-2002-PIPETTE-TIP-200UL-SVG"
+  },
+  {
+    "code": "DEMO-LAB-3001-MICROCENTRIFUGE-TUBE-1-5ML-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-lab-3001-microcentrifuge-tube-1-5ml.step",
+    "external_id": "DEMO-LAB-3001-MICROCENTRIFUGE-TUBE-1-5ML-STEP"
+  },
+  {
+    "code": "DEMO-LAB-3002-CENTRIFUGE-TUBE-50ML-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-lab-3002-centrifuge-tube-50ml.step",
+    "external_id": "DEMO-LAB-3002-CENTRIFUGE-TUBE-50ML-STEP"
+  },
+  {
+    "code": "DEMO-LAB-2002-PIPETTE-TIP-200UL-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-lab-2002-pipette-tip-200ul.step",
+    "external_id": "DEMO-LAB-2002-PIPETTE-TIP-200UL-STEP"
+  },
+  {
+    "code": "DEMO-LAB-1001-DATA-SHEET",
+    "family": "downloads",
+    "file": "assets/downloads/demo-lab-1001-data-sheet.pdf",
+    "external_id": "DEMO-LAB-1001-DATA-SHEET"
+  }
+]

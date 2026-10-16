@@ -1,0 +1,11 @@
+[
+  {
+    "code": "DEMO-OFF-ARTICLE",
+    "labels": {
+      "de-DE": "Büroartikel",
+      "en-US": "Office article"
+    },
+    "label_attribute": "name",
+    "external_id": "DEMO-OFF-ARTICLE"
+  }
+]

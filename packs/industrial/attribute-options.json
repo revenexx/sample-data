@@ -1,0 +1,128 @@
+[
+  {
+    "attribute": "demo_ind_thread",
+    "code": "m6",
+    "labels": {
+      "de-DE": "M6",
+      "en-US": "M6"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ind_thread",
+    "code": "m8",
+    "labels": {
+      "de-DE": "M8",
+      "en-US": "M8"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ind_thread",
+    "code": "m10",
+    "labels": {
+      "de-DE": "M10",
+      "en-US": "M10"
+    },
+    "position": 2
+  },
+  {
+    "attribute": "demo_ind_material",
+    "code": "steel_zinc",
+    "labels": {
+      "de-DE": "Stahl verzinkt",
+      "en-US": "Zinc-plated steel"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ind_material",
+    "code": "stainless_a2",
+    "labels": {
+      "de-DE": "Edelstahl A2",
+      "en-US": "Stainless steel A2"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ind_material",
+    "code": "nitrile",
+    "labels": {
+      "de-DE": "Nitril-beschichtet",
+      "en-US": "Nitrile-coated"
+    },
+    "position": 2
+  },
+  {
+    "attribute": "demo_ind_material",
+    "code": "polycarbonate",
+    "labels": {
+      "de-DE": "Polycarbonat",
+      "en-US": "Polycarbonate"
+    },
+    "position": 3
+  },
+  {
+    "attribute": "demo_ind_glove_size",
+    "code": "s",
+    "labels": {
+      "de-DE": "S (7)",
+      "en-US": "S (7)"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ind_glove_size",
+    "code": "m",
+    "labels": {
+      "de-DE": "M (8)",
+      "en-US": "M (8)"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ind_glove_size",
+    "code": "l",
+    "labels": {
+      "de-DE": "L (9)",
+      "en-US": "L (9)"
+    },
+    "position": 2
+  },
+  {
+    "attribute": "demo_ind_glove_size",
+    "code": "xl",
+    "labels": {
+      "de-DE": "XL (10)",
+      "en-US": "XL (10)"
+    },
+    "position": 3
+  },
+  {
+    "attribute": "demo_ind_cut_level",
+    "code": "a",
+    "labels": {
+      "de-DE": "A",
+      "en-US": "A"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ind_cut_level",
+    "code": "b",
+    "labels": {
+      "de-DE": "B",
+      "en-US": "B"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ind_cut_level",
+    "code": "c",
+    "labels": {
+      "de-DE": "C",
+      "en-US": "C"
+    },
+    "position": 2
+  }
+]

@@ -1,0 +1,232 @@
+{
+  "steps": [
+    {
+      "name": "categories",
+      "route": "/products/categories",
+      "key": "code",
+      "file": "categories.json",
+      "refs": {
+        "parent_id": {
+          "field": "parent",
+          "route": "/products/categories",
+          "key": "code",
+          "in": "body"
+        }
+      }
+    },
+    {
+      "name": "attribute groups",
+      "route": "/products/attribute_groups",
+      "key": "code",
+      "file": "attribute-groups.json"
+    },
+    {
+      "name": "shared attributes",
+      "mode": "ensure",
+      "route": "/products/attributes",
+      "key": [
+        "entity_type",
+        "code"
+      ],
+      "file": "../../base/shared-attributes.json"
+    },
+    {
+      "name": "attributes",
+      "route": "/products/attributes",
+      "key": [
+        "entity_type",
+        "code"
+      ],
+      "file": "attributes.json",
+      "refs": {
+        "group_id": {
+          "field": "group",
+          "route": "/products/attribute_groups",
+          "key": "code",
+          "in": "body"
+        }
+      }
+    },
+    {
+      "name": "attribute options",
+      "route": "/products/attribute_options",
+      "key": [
+        "attribute_id",
+        "code"
+      ],
+      "file": "attribute-options.json",
+      "refs": {
+        "attribute_id": {
+          "field": "attribute",
+          "route": "/products/attributes",
+          "key": "code",
+          "in": "body",
+          "where": {
+            "entity_type": "product"
+          }
+        }
+      }
+    },
+    {
+      "name": "family",
+      "route": "/products/families",
+      "key": "code",
+      "file": "families.json"
+    },
+    {
+      "name": "family attributes",
+      "route": "/products/family_attributes",
+      "key": [
+        "family_id",
+        "attribute_id"
+      ],
+      "file": "family-attributes.json",
+      "refs": {
+        "family_id": {
+          "field": "family",
+          "route": "/products/families",
+          "key": "code",
+          "in": "body"
+        },
+        "attribute_id": {
+          "field": "attribute",
+          "route": "/products/attributes",
+          "key": "code",
+          "in": "body",
+          "where": {
+            "entity_type": "product"
+          }
+        }
+      }
+    },
+    {
+      "name": "family variants",
+      "route": "/products/family_variants",
+      "key": "code",
+      "file": "family-variants.json",
+      "refs": {
+        "family_id": {
+          "field": "family",
+          "route": "/products/families",
+          "key": "code",
+          "in": "body"
+        }
+      }
+    },
+    {
+      "name": "manufacturers",
+      "route": "/products/manufacturers",
+      "key": "code",
+      "file": "manufacturers.json"
+    },
+    {
+      "name": "asset families",
+      "mode": "ensure",
+      "route": "/products/asset_families",
+      "key": "code",
+      "file": "../../base/asset-families.json"
+    },
+    {
+      "name": "files",
+      "kind": "files",
+      "folder": "sample-data/lab",
+      "tags": [
+        "revenexx-sample-data",
+        "pack-lab"
+      ],
+      "route": "/products/assets",
+      "key": [
+        "asset_family_id",
+        "code"
+      ],
+      "file": "assets.json",
+      "refs": {
+        "asset_family_id": {
+          "field": "family",
+          "route": "/products/asset_families",
+          "key": "code",
+          "in": "body"
+        }
+      }
+    },
+    {
+      "name": "products",
+      "route": "/products",
+      "key": "sku",
+      "file": "products.json",
+      "refs": {
+        "family_id": {
+          "field": "family",
+          "route": "/products/families",
+          "key": "code",
+          "in": "body"
+        },
+        "manufacturer_id": {
+          "field": "manufacturer",
+          "route": "/products/manufacturers",
+          "key": "code",
+          "in": "body"
+        },
+        "family_variant_id": {
+          "field": "family_variant",
+          "route": "/products/family_variants",
+          "key": "code",
+          "in": "body"
+        },
+        "parent_id": {
+          "field": "parent",
+          "route": "/products",
+          "key": "sku",
+          "in": "body"
+        }
+      }
+    },
+    {
+      "name": "product categories",
+      "route": "/products/product_categories",
+      "key": [
+        "product_id",
+        "category_id"
+      ],
+      "file": "product-categories.json",
+      "refs": {
+        "product_id": {
+          "field": "product",
+          "route": "/products",
+          "key": "sku",
+          "in": "body"
+        },
+        "category_id": {
+          "field": "category",
+          "route": "/products/categories",
+          "key": "code",
+          "in": "body"
+        }
+      }
+    },
+    {
+      "name": "price lists",
+      "route": "/prices/lists",
+      "key": "code",
+      "file": "price-lists.json",
+      "refs": {
+        "organization_id": {
+          "field": "organization",
+          "route": "/customers/organizations",
+          "key": "customer_number",
+          "in": "body"
+        }
+      }
+    },
+    {
+      "name": "price entries",
+      "kind": "price_entries",
+      "file": "price-entries.json"
+    },
+    {
+      "name": "stock",
+      "kind": "stock",
+      "file": "stock.json"
+    }
+  ]
+}

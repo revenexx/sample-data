@@ -1,0 +1,5 @@
+[
+  { "code": "name", "entity_type": "product", "type": "text", "localizable": true, "labels": { "de-DE": "Name", "en-US": "Name" }, "position": 0 },
+  { "code": "description", "entity_type": "product", "type": "textarea", "localizable": true, "labels": { "de-DE": "Beschreibung", "en-US": "Description" }, "position": 1 },
+  { "code": "image", "entity_type": "product", "type": "text", "labels": { "de-DE": "Bild", "en-US": "Image" }, "position": 2 }
+]

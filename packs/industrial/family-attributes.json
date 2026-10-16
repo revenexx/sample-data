@@ -1,0 +1,104 @@
+[
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "name",
+    "position": 0,
+    "is_required": true
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "description",
+    "position": 1,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "image",
+    "position": 2,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_voltage",
+    "position": 3,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_battery_capacity",
+    "position": 4,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_disc_diameter",
+    "position": 5,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_thread",
+    "position": 6,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_length",
+    "position": 7,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_material",
+    "position": 8,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_pack_size",
+    "position": 9,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_glove_size",
+    "position": 10,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_cut_level",
+    "position": 11,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_noise_reduction",
+    "position": 12,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_weight",
+    "position": 13,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_images",
+    "position": 14,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_drawings",
+    "position": 15,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_downloads",
+    "position": 16,
+    "is_required": false
+  }
+]

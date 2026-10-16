@@ -1,0 +1,185 @@
+{
+  "steps": [
+    {
+      "name": "tenant defaults",
+      "kind": "defaults",
+      "file": "defaults.json"
+    },
+    {
+      "name": "market",
+      "route": "/markets",
+      "key": "code",
+      "file": "markets.json"
+    },
+    {
+      "name": "market currencies",
+      "route": "/markets/{market_id}/currencies",
+      "key": "code",
+      "file": "market-currencies.json",
+      "refs": {
+        "market_id": {
+          "field": "market",
+          "route": "/markets",
+          "in": "path"
+        }
+      },
+      "remove": "with_parent"
+    },
+    {
+      "name": "market locales",
+      "route": "/markets/{market_id}/locales",
+      "key": "code",
+      "file": "market-locales.json",
+      "refs": {
+        "market_id": {
+          "field": "market",
+          "route": "/markets",
+          "in": "path"
+        }
+      },
+      "remove": "with_parent"
+    },
+    {
+      "name": "market tax classes",
+      "route": "/markets/{market_id}/tax_classes",
+      "key": "code",
+      "file": "market-tax-classes.json",
+      "refs": {
+        "market_id": {
+          "field": "market",
+          "route": "/markets",
+          "in": "path"
+        }
+      },
+      "remove": "with_parent"
+    },
+    {
+      "name": "freight method",
+      "route": "/shipping/methods",
+      "key": "code",
+      "file": "shipping-methods.json"
+    },
+    {
+      "name": "freight rate tiers",
+      "kind": "replace",
+      "route": "/shipping/methods/{method_id}/tiers",
+      "file": "shipping-rate-tiers.json",
+      "refs": {
+        "method_id": {
+          "field": "method",
+          "route": "/shipping/methods",
+          "key": "code",
+          "in": "path"
+        }
+      }
+    },
+    {
+      "name": "buyer company",
+      "route": "/customers/organizations",
+      "key": "customer_number",
+      "file": "organizations.json",
+      "if_in_use": {
+        "status": "blocked"
+      }
+    },
+    {
+      "name": "buyer contacts",
+      "route": "/customers/contacts",
+      "key": "external_id",
+      "file": "contacts.json",
+      "refs": {
+        "organization_id": {
+          "field": "organization",
+          "route": "/customers/organizations",
+          "key": "customer_number"
+        }
+      },
+      "if_in_use": {
+        "status": "blocked"
+      }
+    },
+    {
+      "name": "company addresses",
+      "route": "/customers/addresses",
+      "key": "external_id",
+      "file": "addresses.json",
+      "refs": {
+        "organization_id": {
+          "field": "organization",
+          "route": "/customers/organizations",
+          "key": "customer_number"
+        }
+      }
+    },
+    {
+      "name": "promotions",
+      "route": "/promotions/promotions",
+      "key": "code",
+      "file": "promotions.json",
+      "if_in_use": {
+        "status": "archived"
+      }
+    },
+    {
+      "name": "promotion effects",
+      "kind": "children",
+      "parent": "promotion_id",
+      "route": "/promotions/effects",
+      "file": "promotion-effects.json",
+      "refs": {
+        "promotion_id": {
+          "field": "promotion",
+          "route": "/promotions/promotions"
+        }
+      }
+    },
+    {
+      "name": "promotion conditions",
+      "kind": "children",
+      "parent": "promotion_id",
+      "route": "/promotions/conditions",
+      "file": "promotion-conditions.json",
+      "refs": {
+        "promotion_id": {
+          "field": "promotion",
+          "route": "/promotions/promotions"
+        }
+      }
+    },
+    {
+      "name": "voucher batches",
+      "route": "/promotions/batches",
+      "key": "request_ref",
+      "file": "voucher-batches.json",
+      "refs": {
+        "promotion_id": {
+          "field": "promotion",
+          "route": "/promotions/promotions"
+        }
+      },
+      "if_in_use": {
+        "status": "disabled"
+      }
+    },
+    {
+      "name": "vouchers",
+      "route": "/promotions/vouchers",
+      "key": "code",
+      "file": "vouchers.json",
+      "refs": {
+        "promotion_id": {
+          "field": "promotion",
+          "route": "/promotions/promotions"
+        },
+        "batch_id": {
+          "field": "batch",
+          "route": "/promotions/batches",
+          "key": "request_ref"
+        }
+      },
+      "if_in_use": {
+        "status": "disabled"
+      }
+    }
+  ]
+}

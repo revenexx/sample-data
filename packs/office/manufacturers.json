@@ -1,0 +1,26 @@
+[
+  {
+    "code": "DEMO-FOLIANTA",
+    "name": "Folianta",
+    "legal_name": "Folianta Papierwaren GmbH (fictional)",
+    "country": "DE",
+    "city": "Musterstadt",
+    "external_id": "DEMO-FOLIANTA",
+    "descriptions": {
+      "de-DE": "Fiktiver Hersteller von Papier und Ablagesystemen (Beispieldaten).",
+      "en-US": "Fictional maker of paper and filing systems (sample data)."
+    }
+  },
+  {
+    "code": "DEMO-KLARBUERO",
+    "name": "Klarbüro",
+    "legal_name": "Klarbüro GmbH (fictional)",
+    "country": "DE",
+    "city": "Musterstadt",
+    "external_id": "DEMO-KLARBUERO",
+    "descriptions": {
+      "de-DE": "Fiktiver Lieferant für Schreibtisch- und Pausenbedarf (Beispieldaten).",
+      "en-US": "Fictional supplier of desk and breakroom supplies (sample data)."
+    }
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "product": "DEMO-LAB-1001",
+    "category": "DEMO-LAB-INSTRUMENTS",
+    "position": 0
+  },
+  {
+    "product": "DEMO-LAB-1002",
+    "category": "DEMO-LAB-INSTRUMENTS",
+    "position": 1
+  },
+  {
+    "product": "DEMO-LAB-1003",
+    "category": "DEMO-LAB-INSTRUMENTS",
+    "position": 2
+  },
+  {
+    "product": "DEMO-LAB-1004",
+    "category": "DEMO-LAB-INSTRUMENTS",
+    "position": 3
+  },
+  {
+    "product": "DEMO-LAB-2001",
+    "category": "DEMO-LAB-PIPETTES",
+    "position": 4
+  },
+  {
+    "product": "DEMO-LAB-2001-10UL",
+    "category": "DEMO-LAB-PIPETTES",
+    "position": 5
+  },
+  {
+    "product": "DEMO-LAB-2001-200UL",
+    "category": "DEMO-LAB-PIPETTES",
+    "position": 6
+  },
+  {
+    "product": "DEMO-LAB-2001-1000UL",
+    "category": "DEMO-LAB-PIPETTES",
+    "position": 7
+  },
+  {
+    "product": "DEMO-LAB-2002",
+    "category": "DEMO-LAB-PIPETTES",
+    "position": 8
+  },
+  {
+    "product": "DEMO-LAB-3001",
+    "category": "DEMO-LAB-CONSUMABLES",
+    "position": 9
+  },
+  {
+    "product": "DEMO-LAB-3002",
+    "category": "DEMO-LAB-CONSUMABLES",
+    "position": 10
+  },
+  {
+    "product": "DEMO-LAB-3003",
+    "category": "DEMO-LAB-CONSUMABLES",
+    "position": 11
+  },
+  {
+    "product": "DEMO-LAB-3004",
+    "category": "DEMO-LAB-CONSUMABLES",
+    "position": 12
+  }
+]

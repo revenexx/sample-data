@@ -1,0 +1,26 @@
+[
+  {
+    "code": "DEMO-KABELFUX",
+    "name": "Kabelfux",
+    "legal_name": "Kabelfux Elektrotechnik GmbH (fictional)",
+    "country": "DE",
+    "city": "Musterstadt",
+    "external_id": "DEMO-KABELFUX",
+    "descriptions": {
+      "de-DE": "Fiktiver Hersteller von Leitungen und Installationsmaterial (Beispieldaten).",
+      "en-US": "Fictional maker of cables and installation material (sample data)."
+    }
+  },
+  {
+    "code": "DEMO-HELLGRUND",
+    "name": "Hellgrund",
+    "legal_name": "Hellgrund Licht GmbH (fictional)",
+    "country": "DE",
+    "city": "Musterstadt",
+    "external_id": "DEMO-HELLGRUND",
+    "descriptions": {
+      "de-DE": "Fiktiver Hersteller von Leuchten und Lichtsteuerung (Beispieldaten).",
+      "en-US": "Fictional maker of luminaires and lighting controls (sample data)."
+    }
+  }
+]

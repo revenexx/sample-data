@@ -1,0 +1,92 @@
+[
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "name",
+    "position": 0,
+    "is_required": true
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "description",
+    "position": 1,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "image",
+    "position": 2,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_max_speed",
+    "position": 3,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_max_rcf",
+    "position": 4,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_capacity",
+    "position": 5,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_volume",
+    "position": 6,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_volume_range",
+    "position": 7,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_material",
+    "position": 8,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_sterile",
+    "position": 9,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_pack_size",
+    "position": 10,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_weight",
+    "position": 11,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_images",
+    "position": 12,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_drawings",
+    "position": 13,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_downloads",
+    "position": 14,
+    "is_required": false
+  }
+]

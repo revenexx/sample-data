@@ -1,0 +1,14 @@
+[
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "code": "DEMO-LAB-BY-VOLUME-RANGE",
+    "labels": {
+      "de-DE": "Nach Volumenbereich",
+      "en-US": "By volume range"
+    },
+    "axes": [
+      "demo_lab_volume_range"
+    ],
+    "external_id": "DEMO-LAB-BY-VOLUME-RANGE"
+  }
+]

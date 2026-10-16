@@ -1,0 +1,104 @@
+[
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "name",
+    "position": 0,
+    "is_required": true
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "description",
+    "position": 1,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "image",
+    "position": 2,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_cores_cross_section",
+    "position": 3,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_length",
+    "position": 4,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_rated_voltage",
+    "position": 5,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_ip_rating",
+    "position": 6,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_mounting",
+    "position": 7,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_colour",
+    "position": 8,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_wattage",
+    "position": 9,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_luminous_flux",
+    "position": 10,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_colour_temperature",
+    "position": 11,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_detection_angle",
+    "position": 12,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_weight",
+    "position": 13,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_images",
+    "position": 14,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_drawings",
+    "position": 15,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_downloads",
+    "position": 16,
+    "is_required": false
+  }
+]

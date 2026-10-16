@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Muster Bau & Technik GmbH",
+    "customer_number": "DEMO-C-1001",
+    "external_id": "DEMO-C-1001",
+    "lifecycle_stage": "customer",
+    "payment_terms": "net_30",
+    "credit_limit_mode": "limited",
+    "credit_limit": 10000,
+    "status": "active"
+  }
+]

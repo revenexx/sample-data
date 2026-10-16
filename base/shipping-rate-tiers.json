@@ -1,0 +1,23 @@
+[
+  {
+    "method": "DEMO-FREIGHT-WEIGHT",
+    "tiers": [
+      {
+        "from_value": 0,
+        "price": 6.9
+      },
+      {
+        "from_value": 5,
+        "price": 9.9
+      },
+      {
+        "from_value": 20,
+        "price": 14.9
+      },
+      {
+        "from_value": 50,
+        "price": 29.9
+      }
+    ]
+  }
+]

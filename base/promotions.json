@@ -1,0 +1,50 @@
+[
+  {
+    "code": "DEMO-PROMO-5PCT-100",
+    "name": "5 % off from 100 € order value",
+    "labels": {
+      "de-DE": "5 % Rabatt ab 100 € Bestellwert",
+      "en-US": "5 % off from 100 € order value"
+    },
+    "description": "Applies automatically to every cart of at least 100 € (net).",
+    "reach": "automatic",
+    "status": "active",
+    "currency": "EUR",
+    "priority": 10,
+    "tags": [
+      "demo"
+    ]
+  },
+  {
+    "code": "DEMO-PROMO-WELCOME",
+    "name": "Welcome vouchers",
+    "labels": {
+      "de-DE": "Willkommensgutscheine",
+      "en-US": "Welcome vouchers"
+    },
+    "description": "Voucher code DEMO-WELCOME10 takes 10 % off the cart.",
+    "reach": "code",
+    "status": "active",
+    "currency": "EUR",
+    "priority": 20,
+    "tags": [
+      "demo"
+    ]
+  },
+  {
+    "code": "DEMO-PROMO-CREDIT-150",
+    "name": "150 € voucher, up to 50 € per order",
+    "labels": {
+      "de-DE": "150-€-Gutschein, bis 50 € pro Bestellung",
+      "en-US": "150 € voucher, up to 50 € per order"
+    },
+    "description": "Voucher code DEMO-CREDIT150 is worth 150 € in total. Each order takes up to 50 € off, and the value draws down until nothing is left.",
+    "reach": "code",
+    "status": "active",
+    "currency": "EUR",
+    "priority": 30,
+    "tags": [
+      "demo"
+    ]
+  }
+]

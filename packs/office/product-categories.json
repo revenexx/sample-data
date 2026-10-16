@@ -1,0 +1,67 @@
+[
+  {
+    "product": "DEMO-OFF-1001",
+    "category": "DEMO-OFF-PAPER",
+    "position": 0
+  },
+  {
+    "product": "DEMO-OFF-1002",
+    "category": "DEMO-OFF-PAPER",
+    "position": 1
+  },
+  {
+    "product": "DEMO-OFF-1002-BLUE",
+    "category": "DEMO-OFF-PAPER",
+    "position": 2
+  },
+  {
+    "product": "DEMO-OFF-1002-RED",
+    "category": "DEMO-OFF-PAPER",
+    "position": 3
+  },
+  {
+    "product": "DEMO-OFF-1002-BLACK",
+    "category": "DEMO-OFF-PAPER",
+    "position": 4
+  },
+  {
+    "product": "DEMO-OFF-1003",
+    "category": "DEMO-OFF-PAPER",
+    "position": 5
+  },
+  {
+    "product": "DEMO-OFF-2001",
+    "category": "DEMO-OFF-WRITING",
+    "position": 6
+  },
+  {
+    "product": "DEMO-OFF-2002",
+    "category": "DEMO-OFF-WRITING",
+    "position": 7
+  },
+  {
+    "product": "DEMO-OFF-2003",
+    "category": "DEMO-OFF-WRITING",
+    "position": 8
+  },
+  {
+    "product": "DEMO-OFF-2004",
+    "category": "DEMO-OFF-WRITING",
+    "position": 9
+  },
+  {
+    "product": "DEMO-OFF-3001",
+    "category": "DEMO-OFF-BREAKROOM",
+    "position": 10
+  },
+  {
+    "product": "DEMO-OFF-3002",
+    "category": "DEMO-OFF-BREAKROOM",
+    "position": 11
+  },
+  {
+    "product": "DEMO-OFF-3003",
+    "category": "DEMO-OFF-BREAKROOM",
+    "position": 12
+  }
+]

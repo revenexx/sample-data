@@ -1,0 +1,494 @@
+[
+  {
+    "sku": "DEMO-IND-1001",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-1001",
+    "attribute_values": {
+      "common": {
+        "demo_ind_voltage": {
+          "amount": "18",
+          "unit": "VOLT"
+        },
+        "demo_ind_weight": {
+          "amount": "1.4",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-1001.png",
+        "demo_ind_images": [
+          "DEMO-IND-1001-IMG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-1001-DATA-SHEET"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Akku-Bohrschrauber 18 V",
+          "description": "Kompakter Bohrschrauber für Holz und Metall, 2 Gänge, LED-Arbeitslicht. Ohne Akku."
+        },
+        "en-US": {
+          "name": "Cordless drill driver 18 V",
+          "description": "Compact drill driver for wood and metal, 2 speeds, LED work light. Battery not included."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-1002",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-1002",
+    "attribute_values": {
+      "common": {
+        "demo_ind_voltage": {
+          "amount": "18",
+          "unit": "VOLT"
+        },
+        "demo_ind_weight": {
+          "amount": "1.2",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-1002.png",
+        "demo_ind_images": [
+          "DEMO-IND-1002-IMG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Akku-Schlagschrauber 18 V",
+          "description": "Schlagschrauber mit 1/4\"-Innensechskant für Serienverschraubungen. Ohne Akku."
+        },
+        "en-US": {
+          "name": "Cordless impact driver 18 V",
+          "description": "Impact driver with 1/4\" hex chuck for repetitive fastening. Battery not included."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-1003",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-1003",
+    "attribute_values": {
+      "common": {
+        "demo_ind_disc_diameter": {
+          "amount": "125",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_weight": {
+          "amount": "2.1",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-1003.png",
+        "demo_ind_images": [
+          "DEMO-IND-1003-IMG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Winkelschleifer 125 mm",
+          "description": "Netzbetriebener Winkelschleifer mit Wiederanlaufschutz und Schutzhaube."
+        },
+        "en-US": {
+          "name": "Angle grinder 125 mm",
+          "description": "Corded angle grinder with restart protection and guard."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-1004",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-1004",
+    "attribute_values": {
+      "common": {
+        "demo_ind_voltage": {
+          "amount": "18",
+          "unit": "VOLT"
+        },
+        "demo_ind_battery_capacity": {
+          "amount": "5.0",
+          "unit": "AMPERE_HOUR"
+        },
+        "demo_ind_weight": {
+          "amount": "0.6",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-1004.png",
+        "demo_ind_images": [
+          "DEMO-IND-1004-IMG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Akku 18 V 5,0 Ah",
+          "description": "Wechselakku für alle 18-V-Geräte von Brakkwerk, mit Ladestandsanzeige."
+        },
+        "en-US": {
+          "name": "Battery pack 18 V 5.0 Ah",
+          "description": "Interchangeable battery for all Brakkwerk 18 V tools, with charge indicator."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-2001",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-2001",
+    "attribute_values": {
+      "common": {
+        "demo_ind_length": {
+          "amount": "40",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_material": "steel_zinc",
+        "demo_ind_pack_size": 500,
+        "image": "sample-data/industrial/demo-ind-2001.png",
+        "demo_ind_images": [
+          "DEMO-IND-2001-IMG"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-2001-WOOD-SCREW-4X40-PDF",
+          "DEMO-IND-2001-WOOD-SCREW-4X40-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-2001-WOOD-SCREW-4X40-STEP"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Holzschrauben 4 × 40 mm, 500 Stück",
+          "description": "Senkkopf-Holzschrauben mit Teilgewinde, Innensechsrund-Antrieb T20."
+        },
+        "en-US": {
+          "name": "Wood screws 4 × 40 mm, box of 500",
+          "description": "Countersunk wood screws, partial thread, T20 hexalobular drive."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-2002",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-2002",
+    "attribute_values": {
+      "common": {
+        "demo_ind_thread": "m8",
+        "demo_ind_length": {
+          "amount": "40",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_material": "steel_zinc",
+        "demo_ind_pack_size": 100,
+        "image": "sample-data/industrial/demo-ind-2002.png",
+        "demo_ind_images": [
+          "DEMO-IND-2002-IMG"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-2002-HEX-BOLT-M8X40-PDF",
+          "DEMO-IND-2002-HEX-BOLT-M8X40-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-2002-HEX-BOLT-M8X40-STEP"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Sechskantschrauben M8 × 40 mm, 100 Stück",
+          "description": "Sechskantschrauben mit Vollgewinde, Festigkeitsklasse 8.8."
+        },
+        "en-US": {
+          "name": "Hex bolts M8 × 40 mm, box of 100",
+          "description": "Hex head bolts, fully threaded, property class 8.8."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-2003",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-BRAKKWERK",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-2003",
+    "attribute_values": {
+      "common": {
+        "demo_ind_disc_diameter": {
+          "amount": "125",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_pack_size": 10,
+        "image": "sample-data/industrial/demo-ind-2003.png",
+        "demo_ind_images": [
+          "DEMO-IND-2003-IMG"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-2003-CUTTING-DISC-125-PDF",
+          "DEMO-IND-2003-CUTTING-DISC-125-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-2003-CUTTING-DISC-125-STEP"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Trennscheiben 125 mm, 10 Stück",
+          "description": "Dünne Trennscheiben für Stahl und Edelstahl, 1,0 mm stark."
+        },
+        "en-US": {
+          "name": "Cutting discs 125 mm, pack of 10",
+          "description": "Thin cutting discs for steel and stainless steel, 1.0 mm thick."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-3001",
+    "kind": "model",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3001",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "nitrile",
+        "demo_ind_cut_level": "b",
+        "image": "sample-data/industrial/demo-ind-3001.png",
+        "demo_ind_images": [
+          "DEMO-IND-3001-IMG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schnittschutzhandschuhe",
+          "description": "Nitril-beschichtete Arbeitshandschuhe mit Schnittschutz. In vier Größen."
+        },
+        "en-US": {
+          "name": "Cut-resistant work gloves",
+          "description": "Nitrile-coated work gloves with cut protection. Available in four sizes."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE"
+  },
+  {
+    "sku": "DEMO-IND-3001-S",
+    "kind": "variant",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3001-S",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "nitrile",
+        "demo_ind_cut_level": "b",
+        "demo_ind_glove_size": "s",
+        "image": "sample-data/industrial/demo-ind-3001-s.png",
+        "demo_ind_images": [
+          "DEMO-IND-3001-S-IMG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schnittschutzhandschuhe, Größe S",
+          "description": "Nitril-beschichtete Arbeitshandschuhe mit Schnittschutz."
+        },
+        "en-US": {
+          "name": "Cut-resistant work gloves, size S",
+          "description": "Nitrile-coated work gloves with cut protection."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE",
+    "parent": "DEMO-IND-3001"
+  },
+  {
+    "sku": "DEMO-IND-3001-M",
+    "kind": "variant",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3001-M",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "nitrile",
+        "demo_ind_cut_level": "b",
+        "demo_ind_glove_size": "m",
+        "image": "sample-data/industrial/demo-ind-3001-m.png",
+        "demo_ind_images": [
+          "DEMO-IND-3001-M-IMG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schnittschutzhandschuhe, Größe M",
+          "description": "Nitril-beschichtete Arbeitshandschuhe mit Schnittschutz."
+        },
+        "en-US": {
+          "name": "Cut-resistant work gloves, size M",
+          "description": "Nitrile-coated work gloves with cut protection."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE",
+    "parent": "DEMO-IND-3001"
+  },
+  {
+    "sku": "DEMO-IND-3001-L",
+    "kind": "variant",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3001-L",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "nitrile",
+        "demo_ind_cut_level": "b",
+        "demo_ind_glove_size": "l",
+        "image": "sample-data/industrial/demo-ind-3001-l.png",
+        "demo_ind_images": [
+          "DEMO-IND-3001-L-IMG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schnittschutzhandschuhe, Größe L",
+          "description": "Nitril-beschichtete Arbeitshandschuhe mit Schnittschutz."
+        },
+        "en-US": {
+          "name": "Cut-resistant work gloves, size L",
+          "description": "Nitrile-coated work gloves with cut protection."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE",
+    "parent": "DEMO-IND-3001"
+  },
+  {
+    "sku": "DEMO-IND-3001-XL",
+    "kind": "variant",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3001-XL",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "nitrile",
+        "demo_ind_cut_level": "b",
+        "demo_ind_glove_size": "xl",
+        "image": "sample-data/industrial/demo-ind-3001-xl.png",
+        "demo_ind_images": [
+          "DEMO-IND-3001-XL-IMG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schnittschutzhandschuhe, Größe XL",
+          "description": "Nitril-beschichtete Arbeitshandschuhe mit Schnittschutz."
+        },
+        "en-US": {
+          "name": "Cut-resistant work gloves, size XL",
+          "description": "Nitrile-coated work gloves with cut protection."
+        }
+      }
+    },
+    "family_variant": "DEMO-IND-BY-GLOVE-SIZE",
+    "parent": "DEMO-IND-3001"
+  },
+  {
+    "sku": "DEMO-IND-3002",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3002",
+    "attribute_values": {
+      "common": {
+        "demo_ind_material": "polycarbonate",
+        "demo_ind_weight": {
+          "amount": "0.03",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-3002.png",
+        "demo_ind_images": [
+          "DEMO-IND-3002-IMG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Schutzbrille, klar",
+          "description": "Leichte Schutzbrille mit Seitenschutz, beschlagfrei beschichtet."
+        },
+        "en-US": {
+          "name": "Safety glasses, clear",
+          "description": "Lightweight safety glasses with side shields, anti-fog coating."
+        }
+      }
+    }
+  },
+  {
+    "sku": "DEMO-IND-3003",
+    "kind": "simple",
+    "family": "DEMO-IND-ARTICLE",
+    "manufacturer": "DEMO-HARTFELL",
+    "tax_class": "standard",
+    "enabled": true,
+    "external_id": "DEMO-IND-3003",
+    "attribute_values": {
+      "common": {
+        "demo_ind_noise_reduction": {
+          "amount": "30",
+          "unit": "DECIBEL"
+        },
+        "demo_ind_weight": {
+          "amount": "0.22",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-3003.png",
+        "demo_ind_images": [
+          "DEMO-IND-3003-IMG"
+        ]
+      },
+      "locale_specific": {
+        "de-DE": {
+          "name": "Kapselgehörschutz SNR 30 dB",
+          "description": "Gepolsterter Kapselgehörschutz mit verstellbarem Kopfbügel."
+        },
+        "en-US": {
+          "name": "Ear defenders SNR 30 dB",
+          "description": "Cushioned ear defenders with adjustable headband."
+        }
+      }
+    }
+  }
+]

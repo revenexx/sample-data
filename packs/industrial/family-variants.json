@@ -1,0 +1,14 @@
+[
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "code": "DEMO-IND-BY-GLOVE-SIZE",
+    "labels": {
+      "de-DE": "Nach Handschuhgröße",
+      "en-US": "By glove size"
+    },
+    "axes": [
+      "demo_ind_glove_size"
+    ],
+    "external_id": "DEMO-IND-BY-GLOVE-SIZE"
+  }
+]

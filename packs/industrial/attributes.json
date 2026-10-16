@@ -1,0 +1,218 @@
+[
+  {
+    "code": "demo_ind_voltage",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Spannung",
+      "en-US": "Voltage"
+    },
+    "position": 0,
+    "external_id": "demo_ind_voltage",
+    "config": {
+      "units": [
+        "VOLT"
+      ]
+    },
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ind_battery_capacity",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Akkukapazität",
+      "en-US": "Battery capacity"
+    },
+    "position": 1,
+    "external_id": "demo_ind_battery_capacity",
+    "config": {
+      "units": [
+        "AMPERE_HOUR"
+      ]
+    }
+  },
+  {
+    "code": "demo_ind_disc_diameter",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Scheibendurchmesser",
+      "en-US": "Disc diameter"
+    },
+    "position": 2,
+    "external_id": "demo_ind_disc_diameter",
+    "config": {
+      "units": [
+        "MILLIMETER"
+      ]
+    },
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ind_thread",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Gewinde",
+      "en-US": "Thread"
+    },
+    "position": 3,
+    "external_id": "demo_ind_thread",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ind_length",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Länge",
+      "en-US": "Length"
+    },
+    "position": 4,
+    "external_id": "demo_ind_length",
+    "config": {
+      "units": [
+        "MILLIMETER"
+      ]
+    },
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ind_material",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Material",
+      "en-US": "Material"
+    },
+    "position": 5,
+    "external_id": "demo_ind_material",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ind_pack_size",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ind_general",
+    "labels": {
+      "de-DE": "Verpackungseinheit",
+      "en-US": "Pack size"
+    },
+    "position": 6,
+    "external_id": "demo_ind_pack_size"
+  },
+  {
+    "code": "demo_ind_glove_size",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Handschuhgröße",
+      "en-US": "Glove size"
+    },
+    "position": 7,
+    "external_id": "demo_ind_glove_size",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ind_cut_level",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Schnittschutzklasse (EN 388)",
+      "en-US": "Cut level (EN 388)"
+    },
+    "position": 8,
+    "external_id": "demo_ind_cut_level"
+  },
+  {
+    "code": "demo_ind_noise_reduction",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Dämmwert (SNR)",
+      "en-US": "Noise reduction (SNR)"
+    },
+    "position": 9,
+    "external_id": "demo_ind_noise_reduction",
+    "config": {
+      "units": [
+        "DECIBEL"
+      ]
+    }
+  },
+  {
+    "code": "demo_ind_weight",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Gewicht",
+      "en-US": "Weight"
+    },
+    "position": 10,
+    "external_id": "demo_ind_weight",
+    "config": {
+      "units": [
+        "KILOGRAM"
+      ]
+    }
+  },
+  {
+    "code": "demo_ind_images",
+    "entity_type": "product",
+    "type": "asset_collection",
+    "entity_ref": "product_images",
+    "group": "demo_ind_media",
+    "labels": {
+      "de-DE": "Bilder",
+      "en-US": "Images"
+    },
+    "position": 20,
+    "external_id": "demo_ind_images",
+    "config": {
+      "asset_family": "product_images"
+    }
+  },
+  {
+    "code": "demo_ind_drawings",
+    "entity_type": "product",
+    "type": "asset_collection",
+    "entity_ref": "technical_drawings",
+    "group": "demo_ind_media",
+    "labels": {
+      "de-DE": "Technische Zeichnungen",
+      "en-US": "Technical drawings"
+    },
+    "position": 21,
+    "external_id": "demo_ind_drawings",
+    "config": {
+      "asset_family": "technical_drawings"
+    }
+  },
+  {
+    "code": "demo_ind_downloads",
+    "entity_type": "product",
+    "type": "asset_collection",
+    "entity_ref": "downloads",
+    "group": "demo_ind_media",
+    "labels": {
+      "de-DE": "Downloads",
+      "en-US": "Downloads"
+    },
+    "position": 22,
+    "external_id": "demo_ind_downloads",
+    "config": {
+      "asset_family": "downloads"
+    }
+  }
+]
