@@ -19,12 +19,14 @@
           "amount": "2.5",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-1001.png",
+        "demo_off_whiteness": 160,
+        "image": "sample-data/office/demo-off-1001.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1001-IMG"
+          "DEMO-OFF-1001-IMG",
+          "DEMO-OFF-1001-IMG-2"
         ],
         "demo_off_downloads": [
-          "DEMO-OFF-1001-DATA-SHEET"
+          "DEMO-OFF-1001-DS"
         ],
         "demo_has_cad": false
       },
@@ -59,13 +61,24 @@
           "amount": "0.62",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-1002.png",
+        "demo_off_ring_count": 4,
+        "demo_off_hole_spacing": {
+          "amount": "80",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_capacity_sheets": 400,
+        "demo_off_material": "plastic",
+        "image": "sample-data/office/demo-off-1002.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1002-IMG"
+          "DEMO-OFF-1002-IMG",
+          "DEMO-OFF-1002-IMG-2"
         ],
         "demo_off_drawings": [
           "DEMO-OFF-1002-RING-BINDER-A4-PDF",
           "DEMO-OFF-1002-RING-BINDER-A4-SVG"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1002-DS"
         ],
         "demo_has_cad": false
       },
@@ -101,10 +114,21 @@
           "amount": "0.62",
           "unit": "KILOGRAM"
         },
+        "demo_off_ring_count": 4,
+        "demo_off_hole_spacing": {
+          "amount": "80",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_capacity_sheets": 400,
+        "demo_off_material": "plastic",
         "demo_off_colour": "blue",
-        "image": "sample-data/office/demo-off-1002-blue.png",
+        "image": "sample-data/office/demo-off-1002-blue.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1002-BLUE-IMG"
+          "DEMO-OFF-1002-BLUE-IMG",
+          "DEMO-OFF-1002-BLUE-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1002-DS"
         ],
         "demo_has_cad": false
       },
@@ -141,10 +165,21 @@
           "amount": "0.62",
           "unit": "KILOGRAM"
         },
+        "demo_off_ring_count": 4,
+        "demo_off_hole_spacing": {
+          "amount": "80",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_capacity_sheets": 400,
+        "demo_off_material": "plastic",
         "demo_off_colour": "red",
-        "image": "sample-data/office/demo-off-1002-red.png",
+        "image": "sample-data/office/demo-off-1002-red.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1002-RED-IMG"
+          "DEMO-OFF-1002-RED-IMG",
+          "DEMO-OFF-1002-RED-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1002-DS"
         ],
         "demo_has_cad": false
       },
@@ -181,10 +216,21 @@
           "amount": "0.62",
           "unit": "KILOGRAM"
         },
+        "demo_off_ring_count": 4,
+        "demo_off_hole_spacing": {
+          "amount": "80",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_capacity_sheets": 400,
+        "demo_off_material": "plastic",
         "demo_off_colour": "black",
-        "image": "sample-data/office/demo-off-1002-black.png",
+        "image": "sample-data/office/demo-off-1002-black.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1002-BLACK-IMG"
+          "DEMO-OFF-1002-BLACK-IMG",
+          "DEMO-OFF-1002-BLACK-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1002-DS"
         ],
         "demo_has_cad": false
       },
@@ -221,13 +267,23 @@
           "amount": "0.58",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-1003.png",
+        "demo_off_material": "plastic",
+        "demo_off_capacity_sheets": 700,
+        "demo_off_hole_spacing": {
+          "amount": "80",
+          "unit": "MILLIMETER"
+        },
+        "image": "sample-data/office/demo-off-1003.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1003-IMG"
+          "DEMO-OFF-1003-IMG",
+          "DEMO-OFF-1003-IMG-2"
         ],
         "demo_off_drawings": [
           "DEMO-OFF-1003-LEVER-ARCH-80-PDF",
           "DEMO-OFF-1003-LEVER-ARCH-80-SVG"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1003-DS"
         ],
         "demo_has_cad": false
       },
@@ -258,9 +314,20 @@
           "amount": "0.12",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-2001.png",
+        "demo_off_writing_tip": "ball",
+        "demo_off_line_width": {
+          "amount": "0.7",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_refillable": true,
+        "demo_off_material": "plastic",
+        "image": "sample-data/office/demo-off-2001.jpg",
         "demo_off_images": [
-          "DEMO-OFF-2001-IMG"
+          "DEMO-OFF-2001-IMG",
+          "DEMO-OFF-2001-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-2001-DS"
         ],
         "demo_has_cad": false
       },
@@ -291,9 +358,20 @@
           "amount": "0.10",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-2002.png",
+        "demo_off_writing_tip": "chisel",
+        "demo_off_line_width": {
+          "amount": "3.5",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_refillable": false,
+        "demo_off_material": "plastic",
+        "image": "sample-data/office/demo-off-2002.jpg",
         "demo_off_images": [
-          "DEMO-OFF-2002-IMG"
+          "DEMO-OFF-2002-IMG",
+          "DEMO-OFF-2002-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-2002-DS"
         ],
         "demo_has_cad": false
       },
@@ -324,9 +402,19 @@
           "amount": "0.45",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-2003.png",
+        "demo_off_sheets": 1200,
+        "demo_off_paper_weight": {
+          "amount": "80",
+          "unit": "GRAM_PER_SQUARE_METER"
+        },
+        "demo_off_material": "paper",
+        "image": "sample-data/office/demo-off-2003.jpg",
         "demo_off_images": [
-          "DEMO-OFF-2003-IMG"
+          "DEMO-OFF-2003-IMG",
+          "DEMO-OFF-2003-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-2003-DS"
         ],
         "demo_has_cad": false
       },
@@ -356,9 +444,21 @@
           "amount": "0.45",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-2004.png",
+        "demo_off_capacity_sheets": 30,
+        "demo_off_staple_size": "24_6",
+        "demo_off_material": "metal",
+        "demo_off_warranty_years": 2,
+        "image": "sample-data/office/demo-off-2004.jpg",
         "demo_off_images": [
-          "DEMO-OFF-2004-IMG"
+          "DEMO-OFF-2004-IMG",
+          "DEMO-OFF-2004-IMG-2"
+        ],
+        "demo_off_drawings": [
+          "DEMO-OFF-2004-DRW-PDF",
+          "DEMO-OFF-2004-DRW-SVG"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-2004-DS"
         ],
         "demo_has_cad": false
       },
@@ -388,9 +488,18 @@
           "amount": "1.05",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-3001.png",
+        "demo_off_roast": "medium",
+        "demo_off_shelf_life": 12,
+        "demo_off_caffeine_free": false,
+        "demo_off_blend": "arabica",
+        "demo_off_organic": false,
+        "image": "sample-data/office/demo-off-3001.jpg",
         "demo_off_images": [
-          "DEMO-OFF-3001-IMG"
+          "DEMO-OFF-3001-IMG",
+          "DEMO-OFF-3001-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-3001-DS"
         ],
         "demo_has_cad": false
       },
@@ -421,9 +530,21 @@
           "amount": "3.2",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-3002.png",
+        "demo_off_plies": 2,
+        "demo_off_recycled_share": 100,
+        "demo_off_sheets": 150,
+        "demo_off_material": "paper",
+        "demo_off_paper_weight": {
+          "amount": "35",
+          "unit": "GRAM_PER_SQUARE_METER"
+        },
+        "image": "sample-data/office/demo-off-3002.jpg",
         "demo_off_images": [
-          "DEMO-OFF-3002-IMG"
+          "DEMO-OFF-3002-IMG",
+          "DEMO-OFF-3002-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-3002-DS"
         ],
         "demo_has_cad": false
       },
@@ -457,9 +578,17 @@
           "amount": "5.3",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-3003.png",
+        "demo_off_shelf_life": 24,
+        "demo_off_refillable": true,
+        "demo_off_material": "plastic",
+        "demo_off_ph_value": 5.5,
+        "image": "sample-data/office/demo-off-3003.jpg",
         "demo_off_images": [
-          "DEMO-OFF-3003-IMG"
+          "DEMO-OFF-3003-IMG",
+          "DEMO-OFF-3003-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-3003-DS"
         ],
         "demo_has_cad": false
       },
@@ -495,9 +624,14 @@
           "amount": "2.2",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-1004.png",
+        "demo_off_whiteness": 160,
+        "image": "sample-data/office/demo-off-1004.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1004-IMG"
+          "DEMO-OFF-1004-IMG",
+          "DEMO-OFF-1004-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1004-DS"
         ],
         "demo_has_cad": false
       },
@@ -533,9 +667,14 @@
           "amount": "2.8",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-1005.png",
+        "demo_off_whiteness": 160,
+        "image": "sample-data/office/demo-off-1005.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1005-IMG"
+          "DEMO-OFF-1005-IMG",
+          "DEMO-OFF-1005-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1005-DS"
         ],
         "demo_has_cad": false
       },
@@ -571,9 +710,14 @@
           "amount": "5.0",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-1006.png",
+        "demo_off_whiteness": 160,
+        "image": "sample-data/office/demo-off-1006.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1006-IMG"
+          "DEMO-OFF-1006-IMG",
+          "DEMO-OFF-1006-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1006-DS"
         ],
         "demo_has_cad": false
       },
@@ -609,9 +753,15 @@
           "amount": "2.5",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-1007.png",
+        "demo_off_whiteness": 110,
+        "demo_off_recycled_share": 100,
+        "image": "sample-data/office/demo-off-1007.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1007-IMG"
+          "DEMO-OFF-1007-IMG",
+          "DEMO-OFF-1007-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1007-DS"
         ],
         "demo_has_cad": false
       },
@@ -647,9 +797,14 @@
           "amount": "1.6",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-1008.png",
+        "demo_off_whiteness": 160,
+        "image": "sample-data/office/demo-off-1008.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1008-IMG"
+          "DEMO-OFF-1008-IMG",
+          "DEMO-OFF-1008-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1008-DS"
         ],
         "demo_has_cad": false
       },
@@ -684,9 +839,24 @@
           "amount": "0.42",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-1009.png",
+        "demo_off_ring_count": 4,
+        "demo_off_hole_spacing": {
+          "amount": "80",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_capacity_sheets": 250,
+        "demo_off_material": "plastic",
+        "image": "sample-data/office/demo-off-1009.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1009-IMG"
+          "DEMO-OFF-1009-IMG",
+          "DEMO-OFF-1009-IMG-2"
+        ],
+        "demo_off_drawings": [
+          "DEMO-OFF-1009-DRW-PDF",
+          "DEMO-OFF-1009-DRW-SVG"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1009-DS"
         ],
         "demo_has_cad": false
       },
@@ -721,9 +891,23 @@
           "amount": "0.46",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-1010.png",
+        "demo_off_material": "plastic",
+        "demo_off_capacity_sheets": 350,
+        "demo_off_hole_spacing": {
+          "amount": "80",
+          "unit": "MILLIMETER"
+        },
+        "image": "sample-data/office/demo-off-1010.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1010-IMG"
+          "DEMO-OFF-1010-IMG",
+          "DEMO-OFF-1010-IMG-2"
+        ],
+        "demo_off_drawings": [
+          "DEMO-OFF-1010-DRW-PDF",
+          "DEMO-OFF-1010-DRW-SVG"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1010-DS"
         ],
         "demo_has_cad": false
       },
@@ -759,10 +943,20 @@
           "amount": "0.46",
           "unit": "KILOGRAM"
         },
+        "demo_off_material": "plastic",
+        "demo_off_capacity_sheets": 350,
+        "demo_off_hole_spacing": {
+          "amount": "80",
+          "unit": "MILLIMETER"
+        },
         "demo_off_colour": "blue",
-        "image": "sample-data/office/demo-off-1010-blue.png",
+        "image": "sample-data/office/demo-off-1010-blue.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1010-BLUE-IMG"
+          "DEMO-OFF-1010-BLUE-IMG",
+          "DEMO-OFF-1010-BLUE-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1010-DS"
         ],
         "demo_has_cad": false
       },
@@ -799,10 +993,20 @@
           "amount": "0.46",
           "unit": "KILOGRAM"
         },
+        "demo_off_material": "plastic",
+        "demo_off_capacity_sheets": 350,
+        "demo_off_hole_spacing": {
+          "amount": "80",
+          "unit": "MILLIMETER"
+        },
         "demo_off_colour": "black",
-        "image": "sample-data/office/demo-off-1010-black.png",
+        "image": "sample-data/office/demo-off-1010-black.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1010-BLACK-IMG"
+          "DEMO-OFF-1010-BLACK-IMG",
+          "DEMO-OFF-1010-BLACK-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1010-DS"
         ],
         "demo_has_cad": false
       },
@@ -839,10 +1043,20 @@
           "amount": "0.46",
           "unit": "KILOGRAM"
         },
+        "demo_off_material": "plastic",
+        "demo_off_capacity_sheets": 350,
+        "demo_off_hole_spacing": {
+          "amount": "80",
+          "unit": "MILLIMETER"
+        },
         "demo_off_colour": "grey",
-        "image": "sample-data/office/demo-off-1010-grey.png",
+        "image": "sample-data/office/demo-off-1010-grey.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1010-GREY-IMG"
+          "DEMO-OFF-1010-GREY-IMG",
+          "DEMO-OFF-1010-GREY-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1010-DS"
         ],
         "demo_has_cad": false
       },
@@ -876,9 +1090,19 @@
           "amount": "0.06",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-1011.png",
+        "demo_off_capacity_sheets": 250,
+        "demo_off_film_thickness": 180,
+        "image": "sample-data/office/demo-off-1011.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1011-IMG"
+          "DEMO-OFF-1011-IMG",
+          "DEMO-OFF-1011-IMG-2"
+        ],
+        "demo_off_drawings": [
+          "DEMO-OFF-1011-DRW-PDF",
+          "DEMO-OFF-1011-DRW-SVG"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1011-DS"
         ],
         "demo_has_cad": false
       },
@@ -911,10 +1135,16 @@
           "amount": "0.06",
           "unit": "KILOGRAM"
         },
+        "demo_off_capacity_sheets": 250,
+        "demo_off_film_thickness": 180,
         "demo_off_colour": "blue",
-        "image": "sample-data/office/demo-off-1011-blue.png",
+        "image": "sample-data/office/demo-off-1011-blue.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1011-BLUE-IMG"
+          "DEMO-OFF-1011-BLUE-IMG",
+          "DEMO-OFF-1011-BLUE-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1011-DS"
         ],
         "demo_has_cad": false
       },
@@ -948,10 +1178,16 @@
           "amount": "0.06",
           "unit": "KILOGRAM"
         },
+        "demo_off_capacity_sheets": 250,
+        "demo_off_film_thickness": 180,
         "demo_off_colour": "red",
-        "image": "sample-data/office/demo-off-1011-red.png",
+        "image": "sample-data/office/demo-off-1011-red.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1011-RED-IMG"
+          "DEMO-OFF-1011-RED-IMG",
+          "DEMO-OFF-1011-RED-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1011-DS"
         ],
         "demo_has_cad": false
       },
@@ -985,10 +1221,16 @@
           "amount": "0.06",
           "unit": "KILOGRAM"
         },
+        "demo_off_capacity_sheets": 250,
+        "demo_off_film_thickness": 180,
         "demo_off_colour": "black",
-        "image": "sample-data/office/demo-off-1011-black.png",
+        "image": "sample-data/office/demo-off-1011-black.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1011-BLACK-IMG"
+          "DEMO-OFF-1011-BLACK-IMG",
+          "DEMO-OFF-1011-BLACK-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1011-DS"
         ],
         "demo_has_cad": false
       },
@@ -1022,10 +1264,16 @@
           "amount": "0.06",
           "unit": "KILOGRAM"
         },
+        "demo_off_capacity_sheets": 250,
+        "demo_off_film_thickness": 180,
         "demo_off_colour": "green",
-        "image": "sample-data/office/demo-off-1011-green.png",
+        "image": "sample-data/office/demo-off-1011-green.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1011-GREEN-IMG"
+          "DEMO-OFF-1011-GREEN-IMG",
+          "DEMO-OFF-1011-GREEN-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1011-DS"
         ],
         "demo_has_cad": false
       },
@@ -1059,9 +1307,22 @@
           "amount": "0.07",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-1012.png",
+        "demo_off_capacity_sheets": 200,
+        "demo_off_paper_weight": {
+          "amount": "250",
+          "unit": "GRAM_PER_SQUARE_METER"
+        },
+        "image": "sample-data/office/demo-off-1012.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1012-IMG"
+          "DEMO-OFF-1012-IMG",
+          "DEMO-OFF-1012-IMG-2"
+        ],
+        "demo_off_drawings": [
+          "DEMO-OFF-1012-DRW-PDF",
+          "DEMO-OFF-1012-DRW-SVG"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1012-DS"
         ],
         "demo_has_cad": false
       },
@@ -1094,10 +1355,19 @@
           "amount": "0.07",
           "unit": "KILOGRAM"
         },
+        "demo_off_capacity_sheets": 200,
+        "demo_off_paper_weight": {
+          "amount": "250",
+          "unit": "GRAM_PER_SQUARE_METER"
+        },
         "demo_off_colour": "blue",
-        "image": "sample-data/office/demo-off-1012-blue.png",
+        "image": "sample-data/office/demo-off-1012-blue.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1012-BLUE-IMG"
+          "DEMO-OFF-1012-BLUE-IMG",
+          "DEMO-OFF-1012-BLUE-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1012-DS"
         ],
         "demo_has_cad": false
       },
@@ -1131,10 +1401,19 @@
           "amount": "0.07",
           "unit": "KILOGRAM"
         },
+        "demo_off_capacity_sheets": 200,
+        "demo_off_paper_weight": {
+          "amount": "250",
+          "unit": "GRAM_PER_SQUARE_METER"
+        },
         "demo_off_colour": "red",
-        "image": "sample-data/office/demo-off-1012-red.png",
+        "image": "sample-data/office/demo-off-1012-red.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1012-RED-IMG"
+          "DEMO-OFF-1012-RED-IMG",
+          "DEMO-OFF-1012-RED-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1012-DS"
         ],
         "demo_has_cad": false
       },
@@ -1168,10 +1447,19 @@
           "amount": "0.07",
           "unit": "KILOGRAM"
         },
+        "demo_off_capacity_sheets": 200,
+        "demo_off_paper_weight": {
+          "amount": "250",
+          "unit": "GRAM_PER_SQUARE_METER"
+        },
         "demo_off_colour": "black",
-        "image": "sample-data/office/demo-off-1012-black.png",
+        "image": "sample-data/office/demo-off-1012-black.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1012-BLACK-IMG"
+          "DEMO-OFF-1012-BLACK-IMG",
+          "DEMO-OFF-1012-BLACK-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1012-DS"
         ],
         "demo_has_cad": false
       },
@@ -1205,9 +1493,19 @@
           "amount": "0.14",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-1013.png",
+        "demo_off_capacity_sheets": 50,
+        "demo_off_compartments": 2,
+        "image": "sample-data/office/demo-off-1013.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1013-IMG"
+          "DEMO-OFF-1013-IMG",
+          "DEMO-OFF-1013-IMG-2"
+        ],
+        "demo_off_drawings": [
+          "DEMO-OFF-1013-DRW-PDF",
+          "DEMO-OFF-1013-DRW-SVG"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1013-DS"
         ],
         "demo_has_cad": false
       },
@@ -1240,10 +1538,16 @@
           "amount": "0.14",
           "unit": "KILOGRAM"
         },
+        "demo_off_capacity_sheets": 50,
+        "demo_off_compartments": 2,
         "demo_off_colour": "blue",
-        "image": "sample-data/office/demo-off-1013-blue.png",
+        "image": "sample-data/office/demo-off-1013-blue.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1013-BLUE-IMG"
+          "DEMO-OFF-1013-BLUE-IMG",
+          "DEMO-OFF-1013-BLUE-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1013-DS"
         ],
         "demo_has_cad": false
       },
@@ -1277,10 +1581,16 @@
           "amount": "0.14",
           "unit": "KILOGRAM"
         },
+        "demo_off_capacity_sheets": 50,
+        "demo_off_compartments": 2,
         "demo_off_colour": "red",
-        "image": "sample-data/office/demo-off-1013-red.png",
+        "image": "sample-data/office/demo-off-1013-red.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1013-RED-IMG"
+          "DEMO-OFF-1013-RED-IMG",
+          "DEMO-OFF-1013-RED-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1013-DS"
         ],
         "demo_has_cad": false
       },
@@ -1314,10 +1624,16 @@
           "amount": "0.14",
           "unit": "KILOGRAM"
         },
+        "demo_off_capacity_sheets": 50,
+        "demo_off_compartments": 2,
         "demo_off_colour": "green",
-        "image": "sample-data/office/demo-off-1013-green.png",
+        "image": "sample-data/office/demo-off-1013-green.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1013-GREEN-IMG"
+          "DEMO-OFF-1013-GREEN-IMG",
+          "DEMO-OFF-1013-GREEN-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1013-DS"
         ],
         "demo_has_cad": false
       },
@@ -1352,9 +1668,14 @@
           "amount": "0.10",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-1014.png",
+        "demo_off_film_thickness": 150,
+        "image": "sample-data/office/demo-off-1014.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1014-IMG"
+          "DEMO-OFF-1014-IMG",
+          "DEMO-OFF-1014-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1014-DS"
         ],
         "demo_has_cad": false
       },
@@ -1387,9 +1708,19 @@
           "amount": "1.6",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-1015.png",
+        "demo_off_capacity_sheets": 100,
+        "demo_off_recycled_share": 80,
+        "demo_off_paper_weight": {
+          "amount": "250",
+          "unit": "GRAM_PER_SQUARE_METER"
+        },
+        "image": "sample-data/office/demo-off-1015.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1015-IMG"
+          "DEMO-OFF-1015-IMG",
+          "DEMO-OFF-1015-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1015-DS"
         ],
         "demo_has_cad": false
       },
@@ -1422,9 +1753,15 @@
           "amount": "0.50",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-1016.png",
+        "demo_off_film_thickness": 60,
+        "demo_off_openings": 1,
+        "image": "sample-data/office/demo-off-1016.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1016-IMG"
+          "DEMO-OFF-1016-IMG",
+          "DEMO-OFF-1016-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1016-DS"
         ],
         "demo_has_cad": false
       },
@@ -1457,9 +1794,18 @@
           "amount": "0.8",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-1017.png",
+        "demo_off_paper_weight": {
+          "amount": "180",
+          "unit": "GRAM_PER_SQUARE_METER"
+        },
+        "demo_off_recycled_share": 80,
+        "image": "sample-data/office/demo-off-1017.jpg",
         "demo_off_images": [
-          "DEMO-OFF-1017-IMG"
+          "DEMO-OFF-1017-IMG",
+          "DEMO-OFF-1017-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-1017-DS"
         ],
         "demo_has_cad": false
       },
@@ -1490,9 +1836,20 @@
           "amount": "0.09",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-2005.png",
+        "demo_off_writing_tip": "graphite",
+        "demo_off_hardness": "hb",
+        "demo_off_material": "wood",
+        "demo_off_pencil_diameter": {
+          "amount": "7",
+          "unit": "MILLIMETER"
+        },
+        "image": "sample-data/office/demo-off-2005.jpg",
         "demo_off_images": [
-          "DEMO-OFF-2005-IMG"
+          "DEMO-OFF-2005-IMG",
+          "DEMO-OFF-2005-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-2005-DS"
         ],
         "demo_has_cad": false
       },
@@ -1523,9 +1880,20 @@
           "amount": "0.09",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-2006.png",
+        "demo_off_writing_tip": "graphite",
+        "demo_off_hardness": "2b",
+        "demo_off_material": "wood",
+        "demo_off_pencil_diameter": {
+          "amount": "7",
+          "unit": "MILLIMETER"
+        },
+        "image": "sample-data/office/demo-off-2006.jpg",
         "demo_off_images": [
-          "DEMO-OFF-2006-IMG"
+          "DEMO-OFF-2006-IMG",
+          "DEMO-OFF-2006-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-2006-DS"
         ],
         "demo_has_cad": false
       },
@@ -1555,9 +1923,23 @@
           "amount": "0.06",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-2007.png",
+        "demo_off_openings": 2,
+        "demo_off_material": "metal",
+        "demo_off_pencil_diameter": {
+          "amount": "8",
+          "unit": "MILLIMETER"
+        },
+        "image": "sample-data/office/demo-off-2007.jpg",
         "demo_off_images": [
-          "DEMO-OFF-2007-IMG"
+          "DEMO-OFF-2007-IMG",
+          "DEMO-OFF-2007-IMG-2"
+        ],
+        "demo_off_drawings": [
+          "DEMO-OFF-2007-DRW-PDF",
+          "DEMO-OFF-2007-DRW-SVG"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-2007-DS"
         ],
         "demo_has_cad": false
       },
@@ -1587,9 +1969,20 @@
           "amount": "0.02",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-2008.png",
+        "demo_off_writing_tip": "gel",
+        "demo_off_line_width": {
+          "amount": "0.5",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_refillable": true,
+        "demo_off_material": "plastic",
+        "image": "sample-data/office/demo-off-2008.jpg",
         "demo_off_images": [
-          "DEMO-OFF-2008-IMG"
+          "DEMO-OFF-2008-IMG",
+          "DEMO-OFF-2008-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-2008-DS"
         ],
         "demo_has_cad": false
       },
@@ -1620,10 +2013,21 @@
           "amount": "0.02",
           "unit": "KILOGRAM"
         },
+        "demo_off_writing_tip": "gel",
+        "demo_off_line_width": {
+          "amount": "0.5",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_refillable": true,
+        "demo_off_material": "plastic",
         "demo_off_colour": "blue",
-        "image": "sample-data/office/demo-off-2008-blue.png",
+        "image": "sample-data/office/demo-off-2008-blue.jpg",
         "demo_off_images": [
-          "DEMO-OFF-2008-BLUE-IMG"
+          "DEMO-OFF-2008-BLUE-IMG",
+          "DEMO-OFF-2008-BLUE-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-2008-DS"
         ],
         "demo_has_cad": false
       },
@@ -1655,10 +2059,21 @@
           "amount": "0.02",
           "unit": "KILOGRAM"
         },
+        "demo_off_writing_tip": "gel",
+        "demo_off_line_width": {
+          "amount": "0.5",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_refillable": true,
+        "demo_off_material": "plastic",
         "demo_off_colour": "red",
-        "image": "sample-data/office/demo-off-2008-red.png",
+        "image": "sample-data/office/demo-off-2008-red.jpg",
         "demo_off_images": [
-          "DEMO-OFF-2008-RED-IMG"
+          "DEMO-OFF-2008-RED-IMG",
+          "DEMO-OFF-2008-RED-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-2008-DS"
         ],
         "demo_has_cad": false
       },
@@ -1690,10 +2105,21 @@
           "amount": "0.02",
           "unit": "KILOGRAM"
         },
+        "demo_off_writing_tip": "gel",
+        "demo_off_line_width": {
+          "amount": "0.5",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_refillable": true,
+        "demo_off_material": "plastic",
         "demo_off_colour": "black",
-        "image": "sample-data/office/demo-off-2008-black.png",
+        "image": "sample-data/office/demo-off-2008-black.jpg",
         "demo_off_images": [
-          "DEMO-OFF-2008-BLACK-IMG"
+          "DEMO-OFF-2008-BLACK-IMG",
+          "DEMO-OFF-2008-BLACK-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-2008-DS"
         ],
         "demo_has_cad": false
       },
@@ -1725,10 +2151,21 @@
           "amount": "0.02",
           "unit": "KILOGRAM"
         },
+        "demo_off_writing_tip": "gel",
+        "demo_off_line_width": {
+          "amount": "0.5",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_refillable": true,
+        "demo_off_material": "plastic",
         "demo_off_colour": "green",
-        "image": "sample-data/office/demo-off-2008-green.png",
+        "image": "sample-data/office/demo-off-2008-green.jpg",
         "demo_off_images": [
-          "DEMO-OFF-2008-GREEN-IMG"
+          "DEMO-OFF-2008-GREEN-IMG",
+          "DEMO-OFF-2008-GREEN-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-2008-DS"
         ],
         "demo_has_cad": false
       },
@@ -1761,9 +2198,20 @@
           "amount": "0.05",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-2009.png",
+        "demo_off_writing_tip": "fibre",
+        "demo_off_line_width": {
+          "amount": "0.4",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_refillable": false,
+        "demo_off_material": "plastic",
+        "image": "sample-data/office/demo-off-2009.jpg",
         "demo_off_images": [
-          "DEMO-OFF-2009-IMG"
+          "DEMO-OFF-2009-IMG",
+          "DEMO-OFF-2009-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-2009-DS"
         ],
         "demo_has_cad": false
       },
@@ -1794,9 +2242,20 @@
           "amount": "0.10",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-2010.png",
+        "demo_off_writing_tip": "round",
+        "demo_off_line_width": {
+          "amount": "2",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_refillable": false,
+        "demo_off_material": "plastic",
+        "image": "sample-data/office/demo-off-2010.jpg",
         "demo_off_images": [
-          "DEMO-OFF-2010-IMG"
+          "DEMO-OFF-2010-IMG",
+          "DEMO-OFF-2010-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-2010-DS"
         ],
         "demo_has_cad": false
       },
@@ -1830,9 +2289,19 @@
           "amount": "0.03",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-2011.png",
+        "demo_off_refillable": true,
+        "demo_off_material": "plastic",
+        "demo_off_tape_width": {
+          "amount": "5",
+          "unit": "MILLIMETER"
+        },
+        "image": "sample-data/office/demo-off-2011.jpg",
         "demo_off_images": [
-          "DEMO-OFF-2011-IMG"
+          "DEMO-OFF-2011-IMG",
+          "DEMO-OFF-2011-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-2011-DS"
         ],
         "demo_has_cad": false
       },
@@ -1862,9 +2331,25 @@
           "amount": "0.42",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-2012.png",
+        "demo_off_capacity_sheets": 25,
+        "demo_off_hole_spacing": {
+          "amount": "80",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_warranty_years": 2,
+        "demo_off_material": "metal",
+        "demo_off_openings": 2,
+        "image": "sample-data/office/demo-off-2012.jpg",
         "demo_off_images": [
-          "DEMO-OFF-2012-IMG"
+          "DEMO-OFF-2012-IMG",
+          "DEMO-OFF-2012-IMG-2"
+        ],
+        "demo_off_drawings": [
+          "DEMO-OFF-2012-DRW-PDF",
+          "DEMO-OFF-2012-DRW-SVG"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-2012-DS"
         ],
         "demo_has_cad": false
       },
@@ -1899,9 +2384,14 @@
           "amount": "0.02",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-2013.png",
+        "demo_off_scale": "mm_cm",
+        "image": "sample-data/office/demo-off-2013.jpg",
         "demo_off_images": [
-          "DEMO-OFF-2013-IMG"
+          "DEMO-OFF-2013-IMG",
+          "DEMO-OFF-2013-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-2013-DS"
         ],
         "demo_has_cad": false
       },
@@ -1935,9 +2425,22 @@
           "amount": "0.09",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-2014.png",
+        "demo_off_material": "metal",
+        "demo_off_blade_length": {
+          "amount": "90",
+          "unit": "MILLIMETER"
+        },
+        "image": "sample-data/office/demo-off-2014.jpg",
         "demo_off_images": [
-          "DEMO-OFF-2014-IMG"
+          "DEMO-OFF-2014-IMG",
+          "DEMO-OFF-2014-IMG-2"
+        ],
+        "demo_off_drawings": [
+          "DEMO-OFF-2014-DRW-PDF",
+          "DEMO-OFF-2014-DRW-SVG"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-2014-DS"
         ],
         "demo_has_cad": false
       },
@@ -1967,9 +2470,17 @@
           "amount": "0.02",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-2015.png",
+        "demo_off_shelf_life": 24,
+        "demo_off_refillable": false,
+        "demo_off_material": "plastic",
+        "demo_off_solvent_free": true,
+        "image": "sample-data/office/demo-off-2015.jpg",
         "demo_off_images": [
-          "DEMO-OFF-2015-IMG"
+          "DEMO-OFF-2015-IMG",
+          "DEMO-OFF-2015-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-2015-DS"
         ],
         "demo_has_cad": false
       },
@@ -2001,9 +2512,19 @@
           "amount": "0.20",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-2016.png",
+        "demo_off_paper_weight": {
+          "amount": "70",
+          "unit": "GRAM_PER_SQUARE_METER"
+        },
+        "demo_off_material": "paper",
+        "demo_off_whiteness": 150,
+        "image": "sample-data/office/demo-off-2016.jpg",
         "demo_off_images": [
-          "DEMO-OFF-2016-IMG"
+          "DEMO-OFF-2016-IMG",
+          "DEMO-OFF-2016-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-2016-DS"
         ],
         "demo_has_cad": false
       },
@@ -2035,9 +2556,19 @@
           "amount": "0.25",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-2017.png",
+        "demo_off_paper_weight": {
+          "amount": "80",
+          "unit": "GRAM_PER_SQUARE_METER"
+        },
+        "demo_off_material": "paper",
+        "demo_off_whiteness": 150,
+        "image": "sample-data/office/demo-off-2017.jpg",
         "demo_off_images": [
-          "DEMO-OFF-2017-IMG"
+          "DEMO-OFF-2017-IMG",
+          "DEMO-OFF-2017-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-2017-DS"
         ],
         "demo_has_cad": false
       },
@@ -2070,9 +2601,18 @@
           "amount": "0.20",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-2018.png",
+        "demo_off_paper_weight": {
+          "amount": "190",
+          "unit": "GRAM_PER_SQUARE_METER"
+        },
+        "demo_off_whiteness": 150,
+        "image": "sample-data/office/demo-off-2018.jpg",
         "demo_off_images": [
-          "DEMO-OFF-2018-IMG"
+          "DEMO-OFF-2018-IMG",
+          "DEMO-OFF-2018-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-2018-DS"
         ],
         "demo_has_cad": false
       },
@@ -2103,9 +2643,20 @@
           "amount": "0.12",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-2019.png",
+        "demo_off_writing_tip": "ball",
+        "demo_off_line_width": {
+          "amount": "0.5",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_refillable": true,
+        "demo_off_material": "plastic",
+        "image": "sample-data/office/demo-off-2019.jpg",
         "demo_off_images": [
-          "DEMO-OFF-2019-IMG"
+          "DEMO-OFF-2019-IMG",
+          "DEMO-OFF-2019-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-2019-DS"
         ],
         "demo_has_cad": false
       },
@@ -2136,9 +2687,19 @@
           "amount": "0.30",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-4001.png",
+        "demo_off_compartments": 3,
+        "demo_off_mount": "freestanding",
+        "image": "sample-data/office/demo-off-4001.jpg",
         "demo_off_images": [
-          "DEMO-OFF-4001-IMG"
+          "DEMO-OFF-4001-IMG",
+          "DEMO-OFF-4001-IMG-2"
+        ],
+        "demo_off_drawings": [
+          "DEMO-OFF-4001-DRW-PDF",
+          "DEMO-OFF-4001-DRW-SVG"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-4001-DS"
         ],
         "demo_has_cad": false
       },
@@ -2170,10 +2731,16 @@
           "amount": "0.30",
           "unit": "KILOGRAM"
         },
+        "demo_off_compartments": 3,
+        "demo_off_mount": "freestanding",
         "demo_off_colour": "blue",
-        "image": "sample-data/office/demo-off-4001-blue.png",
+        "image": "sample-data/office/demo-off-4001-blue.jpg",
         "demo_off_images": [
-          "DEMO-OFF-4001-BLUE-IMG"
+          "DEMO-OFF-4001-BLUE-IMG",
+          "DEMO-OFF-4001-BLUE-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-4001-DS"
         ],
         "demo_has_cad": false
       },
@@ -2206,10 +2773,16 @@
           "amount": "0.30",
           "unit": "KILOGRAM"
         },
+        "demo_off_compartments": 3,
+        "demo_off_mount": "freestanding",
         "demo_off_colour": "red",
-        "image": "sample-data/office/demo-off-4001-red.png",
+        "image": "sample-data/office/demo-off-4001-red.jpg",
         "demo_off_images": [
-          "DEMO-OFF-4001-RED-IMG"
+          "DEMO-OFF-4001-RED-IMG",
+          "DEMO-OFF-4001-RED-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-4001-DS"
         ],
         "demo_has_cad": false
       },
@@ -2242,10 +2815,16 @@
           "amount": "0.30",
           "unit": "KILOGRAM"
         },
+        "demo_off_compartments": 3,
+        "demo_off_mount": "freestanding",
         "demo_off_colour": "black",
-        "image": "sample-data/office/demo-off-4001-black.png",
+        "image": "sample-data/office/demo-off-4001-black.jpg",
         "demo_off_images": [
-          "DEMO-OFF-4001-BLACK-IMG"
+          "DEMO-OFF-4001-BLACK-IMG",
+          "DEMO-OFF-4001-BLACK-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-4001-DS"
         ],
         "demo_has_cad": false
       },
@@ -2278,10 +2857,16 @@
           "amount": "0.30",
           "unit": "KILOGRAM"
         },
+        "demo_off_compartments": 3,
+        "demo_off_mount": "freestanding",
         "demo_off_colour": "green",
-        "image": "sample-data/office/demo-off-4001-green.png",
+        "image": "sample-data/office/demo-off-4001-green.jpg",
         "demo_off_images": [
-          "DEMO-OFF-4001-GREEN-IMG"
+          "DEMO-OFF-4001-GREEN-IMG",
+          "DEMO-OFF-4001-GREEN-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-4001-DS"
         ],
         "demo_has_cad": false
       },
@@ -2317,9 +2902,18 @@
           "amount": "0.90",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-4002.png",
+        "demo_off_material": "plastic",
+        "image": "sample-data/office/demo-off-4002.jpg",
         "demo_off_images": [
-          "DEMO-OFF-4002-IMG"
+          "DEMO-OFF-4002-IMG",
+          "DEMO-OFF-4002-IMG-2"
+        ],
+        "demo_off_drawings": [
+          "DEMO-OFF-4002-DRW-PDF",
+          "DEMO-OFF-4002-DRW-SVG"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-4002-DS"
         ],
         "demo_has_cad": false
       },
@@ -2351,9 +2945,19 @@
           "amount": "0.25",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-4003.png",
+        "demo_off_mount": "freestanding",
+        "demo_off_capacity_sheets": 50,
+        "image": "sample-data/office/demo-off-4003.jpg",
         "demo_off_images": [
-          "DEMO-OFF-4003-IMG"
+          "DEMO-OFF-4003-IMG",
+          "DEMO-OFF-4003-IMG-2"
+        ],
+        "demo_off_drawings": [
+          "DEMO-OFF-4003-DRW-PDF",
+          "DEMO-OFF-4003-DRW-SVG"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-4003-DS"
         ],
         "demo_has_cad": false
       },
@@ -2387,9 +2991,18 @@
           "amount": "0.05",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-4004.png",
+        "demo_off_tape_width": {
+          "amount": "19",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_material": "plastic",
+        "image": "sample-data/office/demo-off-4004.jpg",
         "demo_off_images": [
-          "DEMO-OFF-4004-IMG"
+          "DEMO-OFF-4004-IMG",
+          "DEMO-OFF-4004-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-4004-DS"
         ],
         "demo_has_cad": false
       },
@@ -2419,9 +3032,24 @@
           "amount": "0.32",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-4005.png",
+        "demo_off_material": "metal",
+        "demo_off_tape_width": {
+          "amount": "19",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_mount": "freestanding",
+        "demo_off_warranty_years": 2,
+        "image": "sample-data/office/demo-off-4005.jpg",
         "demo_off_images": [
-          "DEMO-OFF-4005-IMG"
+          "DEMO-OFF-4005-IMG",
+          "DEMO-OFF-4005-IMG-2"
+        ],
+        "demo_off_drawings": [
+          "DEMO-OFF-4005-DRW-PDF",
+          "DEMO-OFF-4005-DRW-SVG"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-4005-DS"
         ],
         "demo_has_cad": false
       },
@@ -2452,9 +3080,19 @@
           "amount": "0.05",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-4006.png",
+        "demo_off_staple_size": "24_6",
+        "demo_off_material": "metal",
+        "demo_off_wire_gauge": {
+          "amount": "0.6",
+          "unit": "MILLIMETER"
+        },
+        "image": "sample-data/office/demo-off-4006.jpg",
         "demo_off_images": [
-          "DEMO-OFF-4006-IMG"
+          "DEMO-OFF-4006-IMG",
+          "DEMO-OFF-4006-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-4006-DS"
         ],
         "demo_has_cad": false
       },
@@ -2485,9 +3123,19 @@
           "amount": "0.25",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-4007.png",
+        "demo_off_staple_size": "26_6",
+        "demo_off_material": "metal",
+        "demo_off_wire_gauge": {
+          "amount": "0.5",
+          "unit": "MILLIMETER"
+        },
+        "image": "sample-data/office/demo-off-4007.jpg",
         "demo_off_images": [
-          "DEMO-OFF-4007-IMG"
+          "DEMO-OFF-4007-IMG",
+          "DEMO-OFF-4007-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-4007-DS"
         ],
         "demo_has_cad": false
       },
@@ -2518,9 +3166,19 @@
           "amount": "0.09",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-4008.png",
+        "demo_off_staple_size": "23_10",
+        "demo_off_material": "metal",
+        "demo_off_wire_gauge": {
+          "amount": "0.6",
+          "unit": "MILLIMETER"
+        },
+        "image": "sample-data/office/demo-off-4008.jpg",
         "demo_off_images": [
-          "DEMO-OFF-4008-IMG"
+          "DEMO-OFF-4008-IMG",
+          "DEMO-OFF-4008-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-4008-DS"
         ],
         "demo_has_cad": false
       },
@@ -2555,9 +3213,18 @@
           "amount": "0.03",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-4009.png",
+        "demo_off_material": "metal",
+        "demo_off_wire_gauge": {
+          "amount": "0.6",
+          "unit": "MILLIMETER"
+        },
+        "image": "sample-data/office/demo-off-4009.jpg",
         "demo_off_images": [
-          "DEMO-OFF-4009-IMG"
+          "DEMO-OFF-4009-IMG",
+          "DEMO-OFF-4009-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-4009-DS"
         ],
         "demo_has_cad": false
       },
@@ -2587,9 +3254,24 @@
           "amount": "0.35",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-4010.png",
+        "demo_off_max_load": {
+          "amount": "5",
+          "unit": "KILOGRAM"
+        },
+        "demo_off_warranty_years": 2,
+        "demo_off_material": "plastic",
+        "demo_off_digits": 4,
+        "image": "sample-data/office/demo-off-4010.jpg",
         "demo_off_images": [
-          "DEMO-OFF-4010-IMG"
+          "DEMO-OFF-4010-IMG",
+          "DEMO-OFF-4010-IMG-2"
+        ],
+        "demo_off_drawings": [
+          "DEMO-OFF-4010-DRW-PDF",
+          "DEMO-OFF-4010-DRW-SVG"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-4010-DS"
         ],
         "demo_has_cad": false
       },
@@ -2621,9 +3303,19 @@
           "amount": "0.40",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-4011.png",
+        "demo_off_capacity_sheets": 250,
+        "demo_off_mount": "freestanding",
+        "image": "sample-data/office/demo-off-4011.jpg",
         "demo_off_images": [
-          "DEMO-OFF-4011-IMG"
+          "DEMO-OFF-4011-IMG",
+          "DEMO-OFF-4011-IMG-2"
+        ],
+        "demo_off_drawings": [
+          "DEMO-OFF-4011-DRW-PDF",
+          "DEMO-OFF-4011-DRW-SVG"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-4011-DS"
         ],
         "demo_has_cad": false
       },
@@ -2653,9 +3345,21 @@
           "amount": "0.20",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-4012.png",
+        "demo_off_digits": 12,
+        "demo_off_warranty_years": 2,
+        "demo_off_material": "plastic",
+        "demo_off_mount": "freestanding",
+        "image": "sample-data/office/demo-off-4012.jpg",
         "demo_off_images": [
-          "DEMO-OFF-4012-IMG"
+          "DEMO-OFF-4012-IMG",
+          "DEMO-OFF-4012-IMG-2"
+        ],
+        "demo_off_drawings": [
+          "DEMO-OFF-4012-DRW-PDF",
+          "DEMO-OFF-4012-DRW-SVG"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-4012-DS"
         ],
         "demo_has_cad": false
       },
@@ -2688,9 +3392,14 @@
           "amount": "0.10",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-4013.png",
+        "demo_off_mount": "freestanding",
+        "image": "sample-data/office/demo-off-4013.jpg",
         "demo_off_images": [
-          "DEMO-OFF-4013-IMG"
+          "DEMO-OFF-4013-IMG",
+          "DEMO-OFF-4013-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-4013-DS"
         ],
         "demo_has_cad": false
       },
@@ -2721,9 +3430,14 @@
           "amount": "0.02",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-4014.png",
+        "demo_off_material": "metal",
+        "image": "sample-data/office/demo-off-4014.jpg",
         "demo_off_images": [
-          "DEMO-OFF-4014-IMG"
+          "DEMO-OFF-4014-IMG",
+          "DEMO-OFF-4014-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-4014-DS"
         ],
         "demo_has_cad": false
       },
@@ -2753,9 +3467,22 @@
           "amount": "0.03",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-4015.png",
+        "demo_off_material": "metal",
+        "demo_off_length": {
+          "amount": "220",
+          "unit": "MILLIMETER"
+        },
+        "image": "sample-data/office/demo-off-4015.jpg",
         "demo_off_images": [
-          "DEMO-OFF-4015-IMG"
+          "DEMO-OFF-4015-IMG",
+          "DEMO-OFF-4015-IMG-2"
+        ],
+        "demo_off_drawings": [
+          "DEMO-OFF-4015-DRW-PDF",
+          "DEMO-OFF-4015-DRW-SVG"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-4015-DS"
         ],
         "demo_has_cad": false
       },
@@ -2786,9 +3513,15 @@
           "amount": "0.20",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-5001.png",
+        "demo_off_wash_temperature": 60,
+        "demo_off_material": "microfibre",
+        "image": "sample-data/office/demo-off-5001.jpg",
         "demo_off_images": [
-          "DEMO-OFF-5001-IMG"
+          "DEMO-OFF-5001-IMG",
+          "DEMO-OFF-5001-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-5001-DS"
         ],
         "demo_has_cad": false
       },
@@ -2820,10 +3553,16 @@
           "amount": "0.20",
           "unit": "KILOGRAM"
         },
+        "demo_off_wash_temperature": 60,
+        "demo_off_material": "microfibre",
         "demo_off_colour": "blue",
-        "image": "sample-data/office/demo-off-5001-blue.png",
+        "image": "sample-data/office/demo-off-5001-blue.jpg",
         "demo_off_images": [
-          "DEMO-OFF-5001-BLUE-IMG"
+          "DEMO-OFF-5001-BLUE-IMG",
+          "DEMO-OFF-5001-BLUE-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-5001-DS"
         ],
         "demo_has_cad": false
       },
@@ -2856,10 +3595,16 @@
           "amount": "0.20",
           "unit": "KILOGRAM"
         },
+        "demo_off_wash_temperature": 60,
+        "demo_off_material": "microfibre",
         "demo_off_colour": "red",
-        "image": "sample-data/office/demo-off-5001-red.png",
+        "image": "sample-data/office/demo-off-5001-red.jpg",
         "demo_off_images": [
-          "DEMO-OFF-5001-RED-IMG"
+          "DEMO-OFF-5001-RED-IMG",
+          "DEMO-OFF-5001-RED-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-5001-DS"
         ],
         "demo_has_cad": false
       },
@@ -2892,10 +3637,16 @@
           "amount": "0.20",
           "unit": "KILOGRAM"
         },
+        "demo_off_wash_temperature": 60,
+        "demo_off_material": "microfibre",
         "demo_off_colour": "green",
-        "image": "sample-data/office/demo-off-5001-green.png",
+        "image": "sample-data/office/demo-off-5001-green.jpg",
         "demo_off_images": [
-          "DEMO-OFF-5001-GREEN-IMG"
+          "DEMO-OFF-5001-GREEN-IMG",
+          "DEMO-OFF-5001-GREEN-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-5001-DS"
         ],
         "demo_has_cad": false
       },
@@ -2928,10 +3679,16 @@
           "amount": "0.20",
           "unit": "KILOGRAM"
         },
+        "demo_off_wash_temperature": 60,
+        "demo_off_material": "microfibre",
         "demo_off_colour": "yellow",
-        "image": "sample-data/office/demo-off-5001-yellow.png",
+        "image": "sample-data/office/demo-off-5001-yellow.jpg",
         "demo_off_images": [
-          "DEMO-OFF-5001-YELLOW-IMG"
+          "DEMO-OFF-5001-YELLOW-IMG",
+          "DEMO-OFF-5001-YELLOW-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-5001-DS"
         ],
         "demo_has_cad": false
       },
@@ -2967,9 +3724,17 @@
           "amount": "1.1",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-5002.png",
+        "demo_off_ph_value": 10.5,
+        "demo_off_shelf_life": 24,
+        "demo_off_material": "plastic",
+        "demo_off_refillable": true,
+        "image": "sample-data/office/demo-off-5002.jpg",
         "demo_off_images": [
-          "DEMO-OFF-5002-IMG"
+          "DEMO-OFF-5002-IMG",
+          "DEMO-OFF-5002-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-5002-DS"
         ],
         "demo_has_cad": false
       },
@@ -3003,9 +3768,17 @@
           "amount": "5.3",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-5003.png",
+        "demo_off_ph_value": 10.5,
+        "demo_off_shelf_life": 24,
+        "demo_off_material": "plastic",
+        "demo_off_refillable": true,
+        "image": "sample-data/office/demo-off-5003.jpg",
         "demo_off_images": [
-          "DEMO-OFF-5003-IMG"
+          "DEMO-OFF-5003-IMG",
+          "DEMO-OFF-5003-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-5003-DS"
         ],
         "demo_has_cad": false
       },
@@ -3039,9 +3812,16 @@
           "amount": "0.85",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-5004.png",
+        "demo_off_ph_value": 10,
+        "demo_off_shelf_life": 24,
+        "demo_off_material": "plastic",
+        "image": "sample-data/office/demo-off-5004.jpg",
         "demo_off_images": [
-          "DEMO-OFF-5004-IMG"
+          "DEMO-OFF-5004-IMG",
+          "DEMO-OFF-5004-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-5004-DS"
         ],
         "demo_has_cad": false
       },
@@ -3075,9 +3855,16 @@
           "amount": "0.85",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-5005.png",
+        "demo_off_ph_value": 2,
+        "demo_off_shelf_life": 24,
+        "demo_off_material": "plastic",
+        "image": "sample-data/office/demo-off-5005.jpg",
         "demo_off_images": [
-          "DEMO-OFF-5005-IMG"
+          "DEMO-OFF-5005-IMG",
+          "DEMO-OFF-5005-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-5005-DS"
         ],
         "demo_has_cad": false
       },
@@ -3112,9 +3899,15 @@
           "amount": "0.60",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-5006.png",
+        "demo_off_film_thickness": 25,
+        "demo_off_material": "plastic",
+        "image": "sample-data/office/demo-off-5006.jpg",
         "demo_off_images": [
-          "DEMO-OFF-5006-IMG"
+          "DEMO-OFF-5006-IMG",
+          "DEMO-OFF-5006-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-5006-DS"
         ],
         "demo_has_cad": false
       },
@@ -3149,9 +3942,15 @@
           "amount": "0.70",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-5007.png",
+        "demo_off_film_thickness": 30,
+        "demo_off_material": "plastic",
+        "image": "sample-data/office/demo-off-5007.jpg",
         "demo_off_images": [
-          "DEMO-OFF-5007-IMG"
+          "DEMO-OFF-5007-IMG",
+          "DEMO-OFF-5007-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-5007-DS"
         ],
         "demo_has_cad": false
       },
@@ -3186,9 +3985,19 @@
           "amount": "0.60",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-5008.png",
+        "demo_off_mount": "freestanding",
+        "demo_off_warranty_years": 2,
+        "image": "sample-data/office/demo-off-5008.jpg",
         "demo_off_images": [
-          "DEMO-OFF-5008-IMG"
+          "DEMO-OFF-5008-IMG",
+          "DEMO-OFF-5008-IMG-2"
+        ],
+        "demo_off_drawings": [
+          "DEMO-OFF-5008-DRW-PDF",
+          "DEMO-OFF-5008-DRW-SVG"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-5008-DS"
         ],
         "demo_has_cad": false
       },
@@ -3224,10 +4033,16 @@
           "amount": "0.60",
           "unit": "KILOGRAM"
         },
+        "demo_off_mount": "freestanding",
+        "demo_off_warranty_years": 2,
         "demo_off_colour": "black",
-        "image": "sample-data/office/demo-off-5008-black.png",
+        "image": "sample-data/office/demo-off-5008-black.jpg",
         "demo_off_images": [
-          "DEMO-OFF-5008-BLACK-IMG"
+          "DEMO-OFF-5008-BLACK-IMG",
+          "DEMO-OFF-5008-BLACK-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-5008-DS"
         ],
         "demo_has_cad": false
       },
@@ -3264,10 +4079,16 @@
           "amount": "0.60",
           "unit": "KILOGRAM"
         },
+        "demo_off_mount": "freestanding",
+        "demo_off_warranty_years": 2,
         "demo_off_colour": "grey",
-        "image": "sample-data/office/demo-off-5008-grey.png",
+        "image": "sample-data/office/demo-off-5008-grey.jpg",
         "demo_off_images": [
-          "DEMO-OFF-5008-GREY-IMG"
+          "DEMO-OFF-5008-GREY-IMG",
+          "DEMO-OFF-5008-GREY-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-5008-DS"
         ],
         "demo_has_cad": false
       },
@@ -3304,10 +4125,16 @@
           "amount": "0.60",
           "unit": "KILOGRAM"
         },
+        "demo_off_mount": "freestanding",
+        "demo_off_warranty_years": 2,
         "demo_off_colour": "blue",
-        "image": "sample-data/office/demo-off-5008-blue.png",
+        "image": "sample-data/office/demo-off-5008-blue.jpg",
         "demo_off_images": [
-          "DEMO-OFF-5008-BLUE-IMG"
+          "DEMO-OFF-5008-BLUE-IMG",
+          "DEMO-OFF-5008-BLUE-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-5008-DS"
         ],
         "demo_has_cad": false
       },
@@ -3343,9 +4170,15 @@
           "amount": "0.20",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-5009.png",
+        "demo_off_wash_temperature": 60,
+        "demo_off_material": "microfibre",
+        "image": "sample-data/office/demo-off-5009.jpg",
         "demo_off_images": [
-          "DEMO-OFF-5009-IMG"
+          "DEMO-OFF-5009-IMG",
+          "DEMO-OFF-5009-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-5009-DS"
         ],
         "demo_has_cad": false
       },
@@ -3380,9 +4213,18 @@
           "amount": "1.2",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-5010.png",
+        "demo_off_warranty_years": 2,
+        "image": "sample-data/office/demo-off-5010.jpg",
         "demo_off_images": [
-          "DEMO-OFF-5010-IMG"
+          "DEMO-OFF-5010-IMG",
+          "DEMO-OFF-5010-IMG-2"
+        ],
+        "demo_off_drawings": [
+          "DEMO-OFF-5010-DRW-PDF",
+          "DEMO-OFF-5010-DRW-SVG"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-5010-DS"
         ],
         "demo_has_cad": false
       },
@@ -3413,9 +4255,14 @@
           "amount": "0.10",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-5011.png",
+        "demo_off_material": "plastic",
+        "image": "sample-data/office/demo-off-5011.jpg",
         "demo_off_images": [
-          "DEMO-OFF-5011-IMG"
+          "DEMO-OFF-5011-IMG",
+          "DEMO-OFF-5011-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-5011-DS"
         ],
         "demo_has_cad": false
       },
@@ -3449,9 +4296,18 @@
           "amount": "2.2",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-5012.png",
+        "demo_off_dilution": 10,
+        "demo_off_ph_value": 9.5,
+        "demo_off_shelf_life": 24,
+        "demo_off_refillable": true,
+        "demo_off_material": "plastic",
+        "image": "sample-data/office/demo-off-5012.jpg",
         "demo_off_images": [
-          "DEMO-OFF-5012-IMG"
+          "DEMO-OFF-5012-IMG",
+          "DEMO-OFF-5012-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-5012-DS"
         ],
         "demo_has_cad": false
       },
@@ -3482,9 +4338,20 @@
           "amount": "0.90",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-5013.png",
+        "demo_off_capacity_sheets": 250,
+        "demo_off_mount": "wall",
+        "demo_off_warranty_years": 2,
+        "image": "sample-data/office/demo-off-5013.jpg",
         "demo_off_images": [
-          "DEMO-OFF-5013-IMG"
+          "DEMO-OFF-5013-IMG",
+          "DEMO-OFF-5013-IMG-2"
+        ],
+        "demo_off_drawings": [
+          "DEMO-OFF-5013-DRW-PDF",
+          "DEMO-OFF-5013-DRW-SVG"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-5013-DS"
         ],
         "demo_has_cad": false
       },
@@ -3519,9 +4386,20 @@
           "amount": "0.30",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-5014.png",
+        "demo_off_mount": "wall",
+        "demo_off_refillable": true,
+        "demo_off_warranty_years": 2,
+        "image": "sample-data/office/demo-off-5014.jpg",
         "demo_off_images": [
-          "DEMO-OFF-5014-IMG"
+          "DEMO-OFF-5014-IMG",
+          "DEMO-OFF-5014-IMG-2"
+        ],
+        "demo_off_drawings": [
+          "DEMO-OFF-5014-DRW-PDF",
+          "DEMO-OFF-5014-DRW-SVG"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-5014-DS"
         ],
         "demo_has_cad": false
       },
@@ -3555,9 +4433,18 @@
           "amount": "0.60",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-5015.png",
+        "demo_off_material": "plastic",
+        "image": "sample-data/office/demo-off-5015.jpg",
         "demo_off_images": [
-          "DEMO-OFF-5015-IMG"
+          "DEMO-OFF-5015-IMG",
+          "DEMO-OFF-5015-IMG-2"
+        ],
+        "demo_off_drawings": [
+          "DEMO-OFF-5015-DRW-PDF",
+          "DEMO-OFF-5015-DRW-SVG"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-5015-DS"
         ],
         "demo_has_cad": false
       },
@@ -3589,9 +4476,19 @@
           "amount": "2.4",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-6001.png",
+        "demo_off_envelope_window": true,
+        "demo_off_self_seal": true,
+        "demo_off_paper_weight": {
+          "amount": "90",
+          "unit": "GRAM_PER_SQUARE_METER"
+        },
+        "image": "sample-data/office/demo-off-6001.jpg",
         "demo_off_images": [
-          "DEMO-OFF-6001-IMG"
+          "DEMO-OFF-6001-IMG",
+          "DEMO-OFF-6001-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-6001-DS"
         ],
         "demo_has_cad": false
       },
@@ -3623,9 +4520,19 @@
           "amount": "0.50",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-6002.png",
+        "demo_off_envelope_window": false,
+        "demo_off_self_seal": true,
+        "demo_off_paper_weight": {
+          "amount": "80",
+          "unit": "GRAM_PER_SQUARE_METER"
+        },
+        "image": "sample-data/office/demo-off-6002.jpg",
         "demo_off_images": [
-          "DEMO-OFF-6002-IMG"
+          "DEMO-OFF-6002-IMG",
+          "DEMO-OFF-6002-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-6002-DS"
         ],
         "demo_has_cad": false
       },
@@ -3657,9 +4564,19 @@
           "amount": "3.0",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-6003.png",
+        "demo_off_envelope_window": false,
+        "demo_off_self_seal": true,
+        "demo_off_paper_weight": {
+          "amount": "120",
+          "unit": "GRAM_PER_SQUARE_METER"
+        },
+        "image": "sample-data/office/demo-off-6003.jpg",
         "demo_off_images": [
-          "DEMO-OFF-6003-IMG"
+          "DEMO-OFF-6003-IMG",
+          "DEMO-OFF-6003-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-6003-DS"
         ],
         "demo_has_cad": false
       },
@@ -3690,9 +4607,23 @@
           "amount": "0.40",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-6004.png",
+        "demo_off_material": "paper",
+        "demo_off_self_seal": true,
+        "demo_off_bubble_size": {
+          "amount": "10",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_paper_weight": {
+          "amount": "80",
+          "unit": "GRAM_PER_SQUARE_METER"
+        },
+        "image": "sample-data/office/demo-off-6004.jpg",
         "demo_off_images": [
-          "DEMO-OFF-6004-IMG"
+          "DEMO-OFF-6004-IMG",
+          "DEMO-OFF-6004-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-6004-DS"
         ],
         "demo_has_cad": false
       },
@@ -3723,9 +4654,23 @@
           "amount": "0.70",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-6005.png",
+        "demo_off_material": "paper",
+        "demo_off_self_seal": true,
+        "demo_off_bubble_size": {
+          "amount": "10",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_paper_weight": {
+          "amount": "80",
+          "unit": "GRAM_PER_SQUARE_METER"
+        },
+        "image": "sample-data/office/demo-off-6005.jpg",
         "demo_off_images": [
-          "DEMO-OFF-6005-IMG"
+          "DEMO-OFF-6005-IMG",
+          "DEMO-OFF-6005-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-6005-DS"
         ],
         "demo_has_cad": false
       },
@@ -3759,9 +4704,19 @@
           "amount": "0.20",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-6006.png",
+        "demo_off_tape_width": {
+          "amount": "50",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_film_thickness": 45,
+        "demo_off_material": "plastic",
+        "image": "sample-data/office/demo-off-6006.jpg",
         "demo_off_images": [
-          "DEMO-OFF-6006-IMG"
+          "DEMO-OFF-6006-IMG",
+          "DEMO-OFF-6006-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-6006-DS"
         ],
         "demo_has_cad": false
       },
@@ -3796,9 +4751,18 @@
           "amount": "3.0",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-6007.png",
+        "demo_off_paper_weight": {
+          "amount": "80",
+          "unit": "GRAM_PER_SQUARE_METER"
+        },
+        "demo_off_recycled_share": 80,
+        "image": "sample-data/office/demo-off-6007.jpg",
         "demo_off_images": [
-          "DEMO-OFF-6007-IMG"
+          "DEMO-OFF-6007-IMG",
+          "DEMO-OFF-6007-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-6007-DS"
         ],
         "demo_has_cad": false
       },
@@ -3834,9 +4798,19 @@
           "amount": "2.4",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-6008.png",
+        "demo_off_corrugation": "single",
+        "demo_off_recycled_share": 80,
+        "image": "sample-data/office/demo-off-6008.jpg",
         "demo_off_images": [
-          "DEMO-OFF-6008-IMG"
+          "DEMO-OFF-6008-IMG",
+          "DEMO-OFF-6008-IMG-2"
+        ],
+        "demo_off_drawings": [
+          "DEMO-OFF-6008-DRW-PDF",
+          "DEMO-OFF-6008-DRW-SVG"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-6008-DS"
         ],
         "demo_has_cad": false
       },
@@ -3872,9 +4846,19 @@
           "amount": "4.6",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-6009.png",
+        "demo_off_corrugation": "double",
+        "demo_off_recycled_share": 80,
+        "image": "sample-data/office/demo-off-6009.jpg",
         "demo_off_images": [
-          "DEMO-OFF-6009-IMG"
+          "DEMO-OFF-6009-IMG",
+          "DEMO-OFF-6009-IMG-2"
+        ],
+        "demo_off_drawings": [
+          "DEMO-OFF-6009-DRW-PDF",
+          "DEMO-OFF-6009-DRW-SVG"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-6009-DS"
         ],
         "demo_has_cad": false
       },
@@ -3910,9 +4894,19 @@
           "amount": "3.8",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-6010.png",
+        "demo_off_corrugation": "double",
+        "demo_off_recycled_share": 80,
+        "image": "sample-data/office/demo-off-6010.jpg",
         "demo_off_images": [
-          "DEMO-OFF-6010-IMG"
+          "DEMO-OFF-6010-IMG",
+          "DEMO-OFF-6010-IMG-2"
+        ],
+        "demo_off_drawings": [
+          "DEMO-OFF-6010-DRW-PDF",
+          "DEMO-OFF-6010-DRW-SVG"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-6010-DS"
         ],
         "demo_has_cad": false
       },
@@ -3946,9 +4940,19 @@
           "amount": "0.80",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-6011.png",
+        "demo_off_bubble_size": {
+          "amount": "10",
+          "unit": "MILLIMETER"
+        },
+        "demo_off_film_thickness": 40,
+        "demo_off_material": "plastic",
+        "image": "sample-data/office/demo-off-6011.jpg",
         "demo_off_images": [
-          "DEMO-OFF-6011-IMG"
+          "DEMO-OFF-6011-IMG",
+          "DEMO-OFF-6011-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-6011-DS"
         ],
         "demo_has_cad": false
       },
@@ -3980,9 +4984,19 @@
           "amount": "0.50",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-6012.png",
+        "demo_off_labels_per_sheet": 14,
+        "demo_off_material": "paper",
+        "demo_off_paper_weight": {
+          "amount": "80",
+          "unit": "GRAM_PER_SQUARE_METER"
+        },
+        "image": "sample-data/office/demo-off-6012.jpg",
         "demo_off_images": [
-          "DEMO-OFF-6012-IMG"
+          "DEMO-OFF-6012-IMG",
+          "DEMO-OFF-6012-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-6012-DS"
         ],
         "demo_has_cad": false
       },
@@ -4014,9 +5028,19 @@
           "amount": "0.50",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-6013.png",
+        "demo_off_labels_per_sheet": 24,
+        "demo_off_material": "paper",
+        "demo_off_paper_weight": {
+          "amount": "80",
+          "unit": "GRAM_PER_SQUARE_METER"
+        },
+        "image": "sample-data/office/demo-off-6013.jpg",
         "demo_off_images": [
-          "DEMO-OFF-6013-IMG"
+          "DEMO-OFF-6013-IMG",
+          "DEMO-OFF-6013-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-6013-DS"
         ],
         "demo_has_cad": false
       },
@@ -4048,9 +5072,19 @@
           "amount": "0.50",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-6014.png",
+        "demo_off_labels_per_sheet": 1,
+        "demo_off_material": "paper",
+        "demo_off_paper_weight": {
+          "amount": "80",
+          "unit": "GRAM_PER_SQUARE_METER"
+        },
+        "image": "sample-data/office/demo-off-6014.jpg",
         "demo_off_images": [
-          "DEMO-OFF-6014-IMG"
+          "DEMO-OFF-6014-IMG",
+          "DEMO-OFF-6014-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-6014-DS"
         ],
         "demo_has_cad": false
       },
@@ -4080,9 +5114,18 @@
           "amount": "1.05",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-3004.png",
+        "demo_off_roast": "dark",
+        "demo_off_shelf_life": 12,
+        "demo_off_caffeine_free": false,
+        "demo_off_blend": "arabica_robusta",
+        "demo_off_organic": false,
+        "image": "sample-data/office/demo-off-3004.jpg",
         "demo_off_images": [
-          "DEMO-OFF-3004-IMG"
+          "DEMO-OFF-3004-IMG",
+          "DEMO-OFF-3004-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-3004-DS"
         ],
         "demo_has_cad": false
       },
@@ -4112,9 +5155,18 @@
           "amount": "0.53",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-3005.png",
+        "demo_off_roast": "medium",
+        "demo_off_shelf_life": 12,
+        "demo_off_caffeine_free": false,
+        "demo_off_blend": "arabica",
+        "demo_off_organic": true,
+        "image": "sample-data/office/demo-off-3005.jpg",
         "demo_off_images": [
-          "DEMO-OFF-3005-IMG"
+          "DEMO-OFF-3005-IMG",
+          "DEMO-OFF-3005-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-3005-DS"
         ],
         "demo_has_cad": false
       },
@@ -4145,9 +5197,17 @@
           "amount": "0.20",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-3006.png",
+        "demo_off_servings": 100,
+        "demo_off_shelf_life": 18,
+        "demo_off_caffeine_free": false,
+        "demo_off_material": "paper",
+        "image": "sample-data/office/demo-off-3006.jpg",
         "demo_off_images": [
-          "DEMO-OFF-3006-IMG"
+          "DEMO-OFF-3006-IMG",
+          "DEMO-OFF-3006-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-3006-DS"
         ],
         "demo_has_cad": false
       },
@@ -4178,9 +5238,17 @@
           "amount": "0.05",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-3007.png",
+        "demo_off_servings": 25,
+        "demo_off_shelf_life": 18,
+        "demo_off_caffeine_free": true,
+        "demo_off_material": "paper",
+        "image": "sample-data/office/demo-off-3007.jpg",
         "demo_off_images": [
-          "DEMO-OFF-3007-IMG"
+          "DEMO-OFF-3007-IMG",
+          "DEMO-OFF-3007-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-3007-DS"
         ],
         "demo_has_cad": false
       },
@@ -4210,9 +5278,15 @@
           "amount": "1.05",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-3008.png",
+        "demo_off_shelf_life": 24,
+        "demo_off_organic": false,
+        "image": "sample-data/office/demo-off-3008.jpg",
         "demo_off_images": [
-          "DEMO-OFF-3008-IMG"
+          "DEMO-OFF-3008-IMG",
+          "DEMO-OFF-3008-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-3008-DS"
         ],
         "demo_has_cad": false
       },
@@ -4247,9 +5321,14 @@
           "amount": "1.3",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-3009.png",
+        "demo_off_material": "paper",
+        "image": "sample-data/office/demo-off-3009.jpg",
         "demo_off_images": [
-          "DEMO-OFF-3009-IMG"
+          "DEMO-OFF-3009-IMG",
+          "DEMO-OFF-3009-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-3009-DS"
         ],
         "demo_has_cad": false
       },
@@ -4284,9 +5363,14 @@
           "amount": "1.0",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-3010.png",
+        "demo_off_material": "paper",
+        "image": "sample-data/office/demo-off-3010.jpg",
         "demo_off_images": [
-          "DEMO-OFF-3010-IMG"
+          "DEMO-OFF-3010-IMG",
+          "DEMO-OFF-3010-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-3010-DS"
         ],
         "demo_has_cad": false
       },
@@ -4313,14 +5397,22 @@
     "attribute_values": {
       "common": {
         "demo_off_pack_size": 1000,
-        "demo_off_material": "paper",
+        "demo_off_material": "wood",
         "demo_off_weight": {
           "amount": "0.50",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-3011.png",
+        "demo_off_length": {
+          "amount": "140",
+          "unit": "MILLIMETER"
+        },
+        "image": "sample-data/office/demo-off-3011.jpg",
         "demo_off_images": [
-          "DEMO-OFF-3011-IMG"
+          "DEMO-OFF-3011-IMG",
+          "DEMO-OFF-3011-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-3011-DS"
         ],
         "demo_has_cad": false
       },
@@ -4355,9 +5447,16 @@
           "amount": "9.3",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-3012.png",
+        "demo_off_shelf_life": 12,
+        "demo_off_material": "plastic",
+        "demo_off_ph_value": 7.2,
+        "image": "sample-data/office/demo-off-3012.jpg",
         "demo_off_images": [
-          "DEMO-OFF-3012-IMG"
+          "DEMO-OFF-3012-IMG",
+          "DEMO-OFF-3012-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-3012-DS"
         ],
         "demo_has_cad": false
       },
@@ -4389,9 +5488,17 @@
           "amount": "0.10",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-3013.png",
+        "demo_off_paper_weight": {
+          "amount": "80",
+          "unit": "GRAM_PER_SQUARE_METER"
+        },
+        "image": "sample-data/office/demo-off-3013.jpg",
         "demo_off_images": [
-          "DEMO-OFF-3013-IMG"
+          "DEMO-OFF-3013-IMG",
+          "DEMO-OFF-3013-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-3013-DS"
         ],
         "demo_has_cad": false
       },
@@ -4422,9 +5529,17 @@
           "amount": "0.04",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/office/demo-off-3014.png",
+        "demo_off_servings": 20,
+        "demo_off_shelf_life": 18,
+        "demo_off_caffeine_free": true,
+        "demo_off_material": "paper",
+        "image": "sample-data/office/demo-off-3014.jpg",
         "demo_off_images": [
-          "DEMO-OFF-3014-IMG"
+          "DEMO-OFF-3014-IMG",
+          "DEMO-OFF-3014-IMG-2"
+        ],
+        "demo_off_downloads": [
+          "DEMO-OFF-3014-DS"
         ],
         "demo_has_cad": false
       },

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="200" viewBox="0 0 640 200">
+  <title>Folianta</title>
+  <g transform="translate(20 44)">
+  <polygon points="0,72 72,0 96,24 24,96" fill="#1F6F6B"/>
+  <rect x="112" y="0" width="48" height="48" fill="#1F6F6B"/>
+  <circle cx="136.0" cy="88.0" r="24.0" fill="#1F6F6B"/>
+  </g>
+  <text x="200" y="120" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="76" fill="#2F343C">Folianta</text>
+</svg>

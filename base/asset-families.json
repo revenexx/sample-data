@@ -1,5 +1,7 @@
 [
   { "code": "product_images", "labels": { "de-DE": "Produktbilder", "en-US": "Product images" } },
   { "code": "technical_drawings", "labels": { "de-DE": "Technische Zeichnungen", "en-US": "Technical drawings" } },
-  { "code": "downloads", "labels": { "de-DE": "Downloads", "en-US": "Downloads" } }
+  { "code": "downloads", "labels": { "de-DE": "Downloads", "en-US": "Downloads" } },
+  { "code": "manufacturer_logos", "labels": { "de-DE": "Herstellerlogos", "en-US": "Manufacturer logos" } },
+  { "code": "category_images", "labels": { "de-DE": "Kategoriebilder", "en-US": "Category images" } }
 ]

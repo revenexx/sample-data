@@ -1,0 +1,30 @@
+{
+ "DEMO-IND": {
+  "photos": "cfe2fb1240baf7b8",
+  "prompt": "e47e02c4c3fd6ac2"
+ },
+ "DEMO-IND-ABRASIVES": {
+  "photos": "ab9bf85494a94400",
+  "prompt": "ce12b46636ca9e5c"
+ },
+ "DEMO-IND-FASTENERS": {
+  "photos": "4837587f0d32b88d",
+  "prompt": "35673cea5c1c8ce3"
+ },
+ "DEMO-IND-HAND-TOOLS": {
+  "photos": "563a02574a2986a9",
+  "prompt": "a1b98eb42e3f3d03"
+ },
+ "DEMO-IND-POWER-TOOLS": {
+  "photos": "f2ac194b266d0c5d",
+  "prompt": "0b559e3759b2aff8"
+ },
+ "DEMO-IND-SAFETY": {
+  "photos": "67c6e91ed064db7b",
+  "prompt": "38e30fa35d15db3f"
+ },
+ "DEMO-IND-WORKSHOP": {
+  "photos": "a40c4416f3a8b0b5",
+  "prompt": "35ed29fa3d5abff2"
+ }
+}

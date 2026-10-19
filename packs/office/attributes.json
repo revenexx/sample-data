@@ -152,6 +152,504 @@
     "is_filterable": true
   },
   {
+    "code": "demo_off_whiteness",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Weißgrad (CIE)",
+      "en-US": "Whiteness (CIE)"
+    },
+    "position": 10,
+    "external_id": "demo_off_whiteness"
+  },
+  {
+    "code": "demo_off_capacity_sheets",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Fassungsvermögen (Blatt)",
+      "en-US": "Capacity (sheets)"
+    },
+    "position": 11,
+    "external_id": "demo_off_capacity_sheets"
+  },
+  {
+    "code": "demo_off_ring_count",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Ringe",
+      "en-US": "Rings"
+    },
+    "position": 12,
+    "external_id": "demo_off_ring_count"
+  },
+  {
+    "code": "demo_off_hole_spacing",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Lochabstand",
+      "en-US": "Hole spacing"
+    },
+    "position": 13,
+    "external_id": "demo_off_hole_spacing",
+    "config": {
+      "units": [
+        "MILLIMETER"
+      ]
+    }
+  },
+  {
+    "code": "demo_off_recycled_share",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Recyclinganteil (%)",
+      "en-US": "Recycled content (%)"
+    },
+    "position": 14,
+    "external_id": "demo_off_recycled_share"
+  },
+  {
+    "code": "demo_off_line_width",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Strichstärke",
+      "en-US": "Line width"
+    },
+    "position": 15,
+    "external_id": "demo_off_line_width",
+    "config": {
+      "units": [
+        "MILLIMETER"
+      ]
+    }
+  },
+  {
+    "code": "demo_off_writing_tip",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Schreibspitze",
+      "en-US": "Writing tip"
+    },
+    "position": 16,
+    "external_id": "demo_off_writing_tip",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_off_refillable",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_off_general",
+    "labels": {
+      "de-DE": "Nachfüllbar",
+      "en-US": "Refillable"
+    },
+    "position": 17,
+    "external_id": "demo_off_refillable"
+  },
+  {
+    "code": "demo_off_hardness",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Härtegrad",
+      "en-US": "Hardness"
+    },
+    "position": 18,
+    "external_id": "demo_off_hardness"
+  },
+  {
+    "code": "demo_off_staple_size",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Heftklammer",
+      "en-US": "Staple size"
+    },
+    "position": 19,
+    "external_id": "demo_off_staple_size"
+  },
+  {
+    "code": "demo_off_wire_gauge",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Drahtstärke",
+      "en-US": "Wire gauge"
+    },
+    "position": 20,
+    "external_id": "demo_off_wire_gauge",
+    "config": {
+      "units": [
+        "MILLIMETER"
+      ]
+    }
+  },
+  {
+    "code": "demo_off_shelf_life",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_off_general",
+    "labels": {
+      "de-DE": "Haltbarkeit (Monate)",
+      "en-US": "Shelf life (months)"
+    },
+    "position": 21,
+    "external_id": "demo_off_shelf_life"
+  },
+  {
+    "code": "demo_off_servings",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Portionen (Tassen)",
+      "en-US": "Servings (cups)"
+    },
+    "position": 22,
+    "external_id": "demo_off_servings"
+  },
+  {
+    "code": "demo_off_roast",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Röstung",
+      "en-US": "Roast"
+    },
+    "position": 23,
+    "external_id": "demo_off_roast",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_off_caffeine_free",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_off_general",
+    "labels": {
+      "de-DE": "Koffeinfrei",
+      "en-US": "Caffeine-free"
+    },
+    "position": 24,
+    "external_id": "demo_off_caffeine_free"
+  },
+  {
+    "code": "demo_off_ph_value",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "pH-Wert",
+      "en-US": "pH value"
+    },
+    "position": 25,
+    "external_id": "demo_off_ph_value"
+  },
+  {
+    "code": "demo_off_dilution",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Dosierung (ml pro Liter)",
+      "en-US": "Dilution (ml per litre)"
+    },
+    "position": 26,
+    "external_id": "demo_off_dilution"
+  },
+  {
+    "code": "demo_off_wash_temperature",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Waschtemperatur (°C)",
+      "en-US": "Wash temperature (°C)"
+    },
+    "position": 27,
+    "external_id": "demo_off_wash_temperature"
+  },
+  {
+    "code": "demo_off_film_thickness",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Foliendicke (µm)",
+      "en-US": "Film thickness (µm)"
+    },
+    "position": 28,
+    "external_id": "demo_off_film_thickness"
+  },
+  {
+    "code": "demo_off_mount",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Befestigung",
+      "en-US": "Mounting"
+    },
+    "position": 29,
+    "external_id": "demo_off_mount"
+  },
+  {
+    "code": "demo_off_compartments",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Fächer",
+      "en-US": "Compartments"
+    },
+    "position": 30,
+    "external_id": "demo_off_compartments"
+  },
+  {
+    "code": "demo_off_max_load",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Wägebereich (max.)",
+      "en-US": "Weighing capacity (max.)"
+    },
+    "position": 31,
+    "external_id": "demo_off_max_load",
+    "config": {
+      "units": [
+        "KILOGRAM"
+      ]
+    }
+  },
+  {
+    "code": "demo_off_digits",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Anzeigestellen",
+      "en-US": "Display digits"
+    },
+    "position": 32,
+    "external_id": "demo_off_digits"
+  },
+  {
+    "code": "demo_off_labels_per_sheet",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Etiketten pro Bogen",
+      "en-US": "Labels per sheet"
+    },
+    "position": 33,
+    "external_id": "demo_off_labels_per_sheet"
+  },
+  {
+    "code": "demo_off_tape_width",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Bandbreite",
+      "en-US": "Tape width"
+    },
+    "position": 34,
+    "external_id": "demo_off_tape_width",
+    "config": {
+      "units": [
+        "MILLIMETER"
+      ]
+    }
+  },
+  {
+    "code": "demo_off_envelope_window",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Sichtfenster",
+      "en-US": "Window"
+    },
+    "position": 35,
+    "external_id": "demo_off_envelope_window"
+  },
+  {
+    "code": "demo_off_self_seal",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Selbstklebeverschluss",
+      "en-US": "Self-seal closure"
+    },
+    "position": 36,
+    "external_id": "demo_off_self_seal"
+  },
+  {
+    "code": "demo_off_corrugation",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Wellpappe",
+      "en-US": "Corrugated board"
+    },
+    "position": 37,
+    "external_id": "demo_off_corrugation"
+  },
+  {
+    "code": "demo_off_plies",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Lagen",
+      "en-US": "Plies"
+    },
+    "position": 38,
+    "external_id": "demo_off_plies"
+  },
+  {
+    "code": "demo_off_openings",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Öffnungen",
+      "en-US": "Openings"
+    },
+    "position": 39,
+    "external_id": "demo_off_openings"
+  },
+  {
+    "code": "demo_off_pencil_diameter",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Stiftdurchmesser",
+      "en-US": "Pencil diameter"
+    },
+    "position": 40,
+    "external_id": "demo_off_pencil_diameter",
+    "config": {
+      "units": [
+        "MILLIMETER"
+      ]
+    }
+  },
+  {
+    "code": "demo_off_bubble_size",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Noppengröße",
+      "en-US": "Bubble size"
+    },
+    "position": 41,
+    "external_id": "demo_off_bubble_size",
+    "config": {
+      "units": [
+        "MILLIMETER"
+      ]
+    }
+  },
+  {
+    "code": "demo_off_warranty_years",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_off_general",
+    "labels": {
+      "de-DE": "Garantie (Jahre)",
+      "en-US": "Warranty (years)"
+    },
+    "position": 42,
+    "external_id": "demo_off_warranty_years"
+  },
+  {
+    "code": "demo_off_scale",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Skala",
+      "en-US": "Scale"
+    },
+    "position": 43,
+    "external_id": "demo_off_scale"
+  },
+  {
+    "code": "demo_off_blend",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Bohnensorte",
+      "en-US": "Bean blend"
+    },
+    "position": 44,
+    "external_id": "demo_off_blend"
+  },
+  {
+    "code": "demo_off_organic",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_off_general",
+    "labels": {
+      "de-DE": "Bio",
+      "en-US": "Organic"
+    },
+    "position": 45,
+    "external_id": "demo_off_organic"
+  },
+  {
+    "code": "demo_off_solvent_free",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Lösungsmittelfrei",
+      "en-US": "Solvent-free"
+    },
+    "position": 46,
+    "external_id": "demo_off_solvent_free"
+  },
+  {
+    "code": "demo_off_blade_length",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_off_technical",
+    "labels": {
+      "de-DE": "Klingenlänge",
+      "en-US": "Blade length"
+    },
+    "position": 47,
+    "external_id": "demo_off_blade_length",
+    "config": {
+      "units": [
+        "MILLIMETER"
+      ]
+    }
+  },
+  {
     "code": "demo_off_images",
     "entity_type": "product",
     "type": "asset_collection",

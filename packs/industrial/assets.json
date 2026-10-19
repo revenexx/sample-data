@@ -2,752 +2,2198 @@
   {
     "code": "DEMO-IND-1001-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-1001.png",
+    "file": "assets/images/demo-ind-1001.jpg",
     "external_id": "DEMO-IND-1001-IMG"
+  },
+  {
+    "code": "DEMO-IND-1001-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-1001-2.jpg",
+    "external_id": "DEMO-IND-1001-IMG-2"
   },
   {
     "code": "DEMO-IND-1002-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-1002.png",
+    "file": "assets/images/demo-ind-1002.jpg",
     "external_id": "DEMO-IND-1002-IMG"
+  },
+  {
+    "code": "DEMO-IND-1002-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-1002-2.jpg",
+    "external_id": "DEMO-IND-1002-IMG-2"
   },
   {
     "code": "DEMO-IND-1003-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-1003.png",
+    "file": "assets/images/demo-ind-1003.jpg",
     "external_id": "DEMO-IND-1003-IMG"
+  },
+  {
+    "code": "DEMO-IND-1003-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-1003-2.jpg",
+    "external_id": "DEMO-IND-1003-IMG-2"
   },
   {
     "code": "DEMO-IND-1004-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-1004.png",
+    "file": "assets/images/demo-ind-1004.jpg",
     "external_id": "DEMO-IND-1004-IMG"
+  },
+  {
+    "code": "DEMO-IND-1004-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-1004-2.jpg",
+    "external_id": "DEMO-IND-1004-IMG-2"
   },
   {
     "code": "DEMO-IND-2001-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-2001.png",
+    "file": "assets/images/demo-ind-2001.jpg",
     "external_id": "DEMO-IND-2001-IMG"
+  },
+  {
+    "code": "DEMO-IND-2001-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-2001-2.jpg",
+    "external_id": "DEMO-IND-2001-IMG-2"
   },
   {
     "code": "DEMO-IND-2002-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-2002.png",
+    "file": "assets/images/demo-ind-2002.jpg",
     "external_id": "DEMO-IND-2002-IMG"
+  },
+  {
+    "code": "DEMO-IND-2002-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-2002-2.jpg",
+    "external_id": "DEMO-IND-2002-IMG-2"
   },
   {
     "code": "DEMO-IND-2003-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-2003.png",
+    "file": "assets/images/demo-ind-2003.jpg",
     "external_id": "DEMO-IND-2003-IMG"
+  },
+  {
+    "code": "DEMO-IND-2003-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-2003-2.jpg",
+    "external_id": "DEMO-IND-2003-IMG-2"
   },
   {
     "code": "DEMO-IND-3001-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3001.png",
+    "file": "assets/images/demo-ind-3001.jpg",
     "external_id": "DEMO-IND-3001-IMG"
+  },
+  {
+    "code": "DEMO-IND-3001-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3001-2.jpg",
+    "external_id": "DEMO-IND-3001-IMG-2"
   },
   {
     "code": "DEMO-IND-3001-S-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3001-s.png",
+    "file": "assets/images/demo-ind-3001-s.jpg",
     "external_id": "DEMO-IND-3001-S-IMG"
+  },
+  {
+    "code": "DEMO-IND-3001-S-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3001-s-2.jpg",
+    "external_id": "DEMO-IND-3001-S-IMG-2"
   },
   {
     "code": "DEMO-IND-3001-M-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3001-m.png",
+    "file": "assets/images/demo-ind-3001-m.jpg",
     "external_id": "DEMO-IND-3001-M-IMG"
+  },
+  {
+    "code": "DEMO-IND-3001-M-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3001-m-2.jpg",
+    "external_id": "DEMO-IND-3001-M-IMG-2"
   },
   {
     "code": "DEMO-IND-3001-L-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3001-l.png",
+    "file": "assets/images/demo-ind-3001-l.jpg",
     "external_id": "DEMO-IND-3001-L-IMG"
+  },
+  {
+    "code": "DEMO-IND-3001-L-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3001-l-2.jpg",
+    "external_id": "DEMO-IND-3001-L-IMG-2"
   },
   {
     "code": "DEMO-IND-3001-XL-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3001-xl.png",
+    "file": "assets/images/demo-ind-3001-xl.jpg",
     "external_id": "DEMO-IND-3001-XL-IMG"
+  },
+  {
+    "code": "DEMO-IND-3001-XL-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3001-xl-2.jpg",
+    "external_id": "DEMO-IND-3001-XL-IMG-2"
   },
   {
     "code": "DEMO-IND-3002-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3002.png",
+    "file": "assets/images/demo-ind-3002.jpg",
     "external_id": "DEMO-IND-3002-IMG"
+  },
+  {
+    "code": "DEMO-IND-3002-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3002-2.jpg",
+    "external_id": "DEMO-IND-3002-IMG-2"
   },
   {
     "code": "DEMO-IND-3003-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3003.png",
+    "file": "assets/images/demo-ind-3003.jpg",
     "external_id": "DEMO-IND-3003-IMG"
+  },
+  {
+    "code": "DEMO-IND-3003-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3003-2.jpg",
+    "external_id": "DEMO-IND-3003-IMG-2"
   },
   {
     "code": "DEMO-IND-1005-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-1005.png",
+    "file": "assets/images/demo-ind-1005.jpg",
     "external_id": "DEMO-IND-1005-IMG"
+  },
+  {
+    "code": "DEMO-IND-1005-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-1005-2.jpg",
+    "external_id": "DEMO-IND-1005-IMG-2"
   },
   {
     "code": "DEMO-IND-1006-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-1006.png",
+    "file": "assets/images/demo-ind-1006.jpg",
     "external_id": "DEMO-IND-1006-IMG"
+  },
+  {
+    "code": "DEMO-IND-1006-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-1006-2.jpg",
+    "external_id": "DEMO-IND-1006-IMG-2"
   },
   {
     "code": "DEMO-IND-1007-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-1007.png",
+    "file": "assets/images/demo-ind-1007.jpg",
     "external_id": "DEMO-IND-1007-IMG"
+  },
+  {
+    "code": "DEMO-IND-1007-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-1007-2.jpg",
+    "external_id": "DEMO-IND-1007-IMG-2"
   },
   {
     "code": "DEMO-IND-1008-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-1008.png",
+    "file": "assets/images/demo-ind-1008.jpg",
     "external_id": "DEMO-IND-1008-IMG"
+  },
+  {
+    "code": "DEMO-IND-1008-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-1008-2.jpg",
+    "external_id": "DEMO-IND-1008-IMG-2"
   },
   {
     "code": "DEMO-IND-1009-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-1009.png",
+    "file": "assets/images/demo-ind-1009.jpg",
     "external_id": "DEMO-IND-1009-IMG"
+  },
+  {
+    "code": "DEMO-IND-1009-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-1009-2.jpg",
+    "external_id": "DEMO-IND-1009-IMG-2"
   },
   {
     "code": "DEMO-IND-1010-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-1010.png",
+    "file": "assets/images/demo-ind-1010.jpg",
     "external_id": "DEMO-IND-1010-IMG"
+  },
+  {
+    "code": "DEMO-IND-1010-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-1010-2.jpg",
+    "external_id": "DEMO-IND-1010-IMG-2"
   },
   {
     "code": "DEMO-IND-1011-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-1011.png",
+    "file": "assets/images/demo-ind-1011.jpg",
     "external_id": "DEMO-IND-1011-IMG"
+  },
+  {
+    "code": "DEMO-IND-1011-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-1011-2.jpg",
+    "external_id": "DEMO-IND-1011-IMG-2"
   },
   {
     "code": "DEMO-IND-1012-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-1012.png",
+    "file": "assets/images/demo-ind-1012.jpg",
     "external_id": "DEMO-IND-1012-IMG"
+  },
+  {
+    "code": "DEMO-IND-1012-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-1012-2.jpg",
+    "external_id": "DEMO-IND-1012-IMG-2"
   },
   {
     "code": "DEMO-IND-1013-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-1013.png",
+    "file": "assets/images/demo-ind-1013.jpg",
     "external_id": "DEMO-IND-1013-IMG"
+  },
+  {
+    "code": "DEMO-IND-1013-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-1013-2.jpg",
+    "external_id": "DEMO-IND-1013-IMG-2"
   },
   {
     "code": "DEMO-IND-1014-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-1014.png",
+    "file": "assets/images/demo-ind-1014.jpg",
     "external_id": "DEMO-IND-1014-IMG"
+  },
+  {
+    "code": "DEMO-IND-1014-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-1014-2.jpg",
+    "external_id": "DEMO-IND-1014-IMG-2"
   },
   {
     "code": "DEMO-IND-1015-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-1015.png",
+    "file": "assets/images/demo-ind-1015.jpg",
     "external_id": "DEMO-IND-1015-IMG"
+  },
+  {
+    "code": "DEMO-IND-1015-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-1015-2.jpg",
+    "external_id": "DEMO-IND-1015-IMG-2"
   },
   {
     "code": "DEMO-IND-1016-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-1016.png",
+    "file": "assets/images/demo-ind-1016.jpg",
     "external_id": "DEMO-IND-1016-IMG"
+  },
+  {
+    "code": "DEMO-IND-1016-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-1016-2.jpg",
+    "external_id": "DEMO-IND-1016-IMG-2"
   },
   {
     "code": "DEMO-IND-1017-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-1017.png",
+    "file": "assets/images/demo-ind-1017.jpg",
     "external_id": "DEMO-IND-1017-IMG"
+  },
+  {
+    "code": "DEMO-IND-1017-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-1017-2.jpg",
+    "external_id": "DEMO-IND-1017-IMG-2"
   },
   {
     "code": "DEMO-IND-1018-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-1018.png",
+    "file": "assets/images/demo-ind-1018.jpg",
     "external_id": "DEMO-IND-1018-IMG"
+  },
+  {
+    "code": "DEMO-IND-1018-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-1018-2.jpg",
+    "external_id": "DEMO-IND-1018-IMG-2"
   },
   {
     "code": "DEMO-IND-2004-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-2004.png",
+    "file": "assets/images/demo-ind-2004.jpg",
     "external_id": "DEMO-IND-2004-IMG"
+  },
+  {
+    "code": "DEMO-IND-2004-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-2004-2.jpg",
+    "external_id": "DEMO-IND-2004-IMG-2"
   },
   {
     "code": "DEMO-IND-2005-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-2005.png",
+    "file": "assets/images/demo-ind-2005.jpg",
     "external_id": "DEMO-IND-2005-IMG"
+  },
+  {
+    "code": "DEMO-IND-2005-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-2005-2.jpg",
+    "external_id": "DEMO-IND-2005-IMG-2"
   },
   {
     "code": "DEMO-IND-2006-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-2006.png",
+    "file": "assets/images/demo-ind-2006.jpg",
     "external_id": "DEMO-IND-2006-IMG"
+  },
+  {
+    "code": "DEMO-IND-2006-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-2006-2.jpg",
+    "external_id": "DEMO-IND-2006-IMG-2"
   },
   {
     "code": "DEMO-IND-2007-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-2007.png",
+    "file": "assets/images/demo-ind-2007.jpg",
     "external_id": "DEMO-IND-2007-IMG"
+  },
+  {
+    "code": "DEMO-IND-2007-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-2007-2.jpg",
+    "external_id": "DEMO-IND-2007-IMG-2"
   },
   {
     "code": "DEMO-IND-2008-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-2008.png",
+    "file": "assets/images/demo-ind-2008.jpg",
     "external_id": "DEMO-IND-2008-IMG"
+  },
+  {
+    "code": "DEMO-IND-2008-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-2008-2.jpg",
+    "external_id": "DEMO-IND-2008-IMG-2"
   },
   {
     "code": "DEMO-IND-2009-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-2009.png",
+    "file": "assets/images/demo-ind-2009.jpg",
     "external_id": "DEMO-IND-2009-IMG"
+  },
+  {
+    "code": "DEMO-IND-2009-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-2009-2.jpg",
+    "external_id": "DEMO-IND-2009-IMG-2"
   },
   {
     "code": "DEMO-IND-2010-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-2010.png",
+    "file": "assets/images/demo-ind-2010.jpg",
     "external_id": "DEMO-IND-2010-IMG"
+  },
+  {
+    "code": "DEMO-IND-2010-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-2010-2.jpg",
+    "external_id": "DEMO-IND-2010-IMG-2"
   },
   {
     "code": "DEMO-IND-2011-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-2011.png",
+    "file": "assets/images/demo-ind-2011.jpg",
     "external_id": "DEMO-IND-2011-IMG"
+  },
+  {
+    "code": "DEMO-IND-2011-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-2011-2.jpg",
+    "external_id": "DEMO-IND-2011-IMG-2"
   },
   {
     "code": "DEMO-IND-2012-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-2012.png",
+    "file": "assets/images/demo-ind-2012.jpg",
     "external_id": "DEMO-IND-2012-IMG"
+  },
+  {
+    "code": "DEMO-IND-2012-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-2012-2.jpg",
+    "external_id": "DEMO-IND-2012-IMG-2"
   },
   {
     "code": "DEMO-IND-2013-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-2013.png",
+    "file": "assets/images/demo-ind-2013.jpg",
     "external_id": "DEMO-IND-2013-IMG"
+  },
+  {
+    "code": "DEMO-IND-2013-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-2013-2.jpg",
+    "external_id": "DEMO-IND-2013-IMG-2"
   },
   {
     "code": "DEMO-IND-2014-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-2014.png",
+    "file": "assets/images/demo-ind-2014.jpg",
     "external_id": "DEMO-IND-2014-IMG"
+  },
+  {
+    "code": "DEMO-IND-2014-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-2014-2.jpg",
+    "external_id": "DEMO-IND-2014-IMG-2"
   },
   {
     "code": "DEMO-IND-2015-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-2015.png",
+    "file": "assets/images/demo-ind-2015.jpg",
     "external_id": "DEMO-IND-2015-IMG"
+  },
+  {
+    "code": "DEMO-IND-2015-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-2015-2.jpg",
+    "external_id": "DEMO-IND-2015-IMG-2"
   },
   {
     "code": "DEMO-IND-2016-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-2016.png",
+    "file": "assets/images/demo-ind-2016.jpg",
     "external_id": "DEMO-IND-2016-IMG"
+  },
+  {
+    "code": "DEMO-IND-2016-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-2016-2.jpg",
+    "external_id": "DEMO-IND-2016-IMG-2"
   },
   {
     "code": "DEMO-IND-2017-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-2017.png",
+    "file": "assets/images/demo-ind-2017.jpg",
     "external_id": "DEMO-IND-2017-IMG"
+  },
+  {
+    "code": "DEMO-IND-2017-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-2017-2.jpg",
+    "external_id": "DEMO-IND-2017-IMG-2"
   },
   {
     "code": "DEMO-IND-2018-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-2018.png",
+    "file": "assets/images/demo-ind-2018.jpg",
     "external_id": "DEMO-IND-2018-IMG"
+  },
+  {
+    "code": "DEMO-IND-2018-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-2018-2.jpg",
+    "external_id": "DEMO-IND-2018-IMG-2"
   },
   {
     "code": "DEMO-IND-2019-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-2019.png",
+    "file": "assets/images/demo-ind-2019.jpg",
     "external_id": "DEMO-IND-2019-IMG"
+  },
+  {
+    "code": "DEMO-IND-2019-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-2019-2.jpg",
+    "external_id": "DEMO-IND-2019-IMG-2"
   },
   {
     "code": "DEMO-IND-2020-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-2020.png",
+    "file": "assets/images/demo-ind-2020.jpg",
     "external_id": "DEMO-IND-2020-IMG"
+  },
+  {
+    "code": "DEMO-IND-2020-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-2020-2.jpg",
+    "external_id": "DEMO-IND-2020-IMG-2"
   },
   {
     "code": "DEMO-IND-2021-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-2021.png",
+    "file": "assets/images/demo-ind-2021.jpg",
     "external_id": "DEMO-IND-2021-IMG"
+  },
+  {
+    "code": "DEMO-IND-2021-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-2021-2.jpg",
+    "external_id": "DEMO-IND-2021-IMG-2"
   },
   {
     "code": "DEMO-IND-2022-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-2022.png",
+    "file": "assets/images/demo-ind-2022.jpg",
     "external_id": "DEMO-IND-2022-IMG"
+  },
+  {
+    "code": "DEMO-IND-2022-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-2022-2.jpg",
+    "external_id": "DEMO-IND-2022-IMG-2"
   },
   {
     "code": "DEMO-IND-3004-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3004.png",
+    "file": "assets/images/demo-ind-3004.jpg",
     "external_id": "DEMO-IND-3004-IMG"
+  },
+  {
+    "code": "DEMO-IND-3004-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3004-2.jpg",
+    "external_id": "DEMO-IND-3004-IMG-2"
   },
   {
     "code": "DEMO-IND-3005-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3005.png",
+    "file": "assets/images/demo-ind-3005.jpg",
     "external_id": "DEMO-IND-3005-IMG"
+  },
+  {
+    "code": "DEMO-IND-3005-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3005-2.jpg",
+    "external_id": "DEMO-IND-3005-IMG-2"
   },
   {
     "code": "DEMO-IND-3006-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3006.png",
+    "file": "assets/images/demo-ind-3006.jpg",
     "external_id": "DEMO-IND-3006-IMG"
+  },
+  {
+    "code": "DEMO-IND-3006-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3006-2.jpg",
+    "external_id": "DEMO-IND-3006-IMG-2"
   },
   {
     "code": "DEMO-IND-3007-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3007.png",
+    "file": "assets/images/demo-ind-3007.jpg",
     "external_id": "DEMO-IND-3007-IMG"
+  },
+  {
+    "code": "DEMO-IND-3007-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3007-2.jpg",
+    "external_id": "DEMO-IND-3007-IMG-2"
   },
   {
     "code": "DEMO-IND-3008-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3008.png",
+    "file": "assets/images/demo-ind-3008.jpg",
     "external_id": "DEMO-IND-3008-IMG"
+  },
+  {
+    "code": "DEMO-IND-3008-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3008-2.jpg",
+    "external_id": "DEMO-IND-3008-IMG-2"
   },
   {
     "code": "DEMO-IND-3009-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3009.png",
+    "file": "assets/images/demo-ind-3009.jpg",
     "external_id": "DEMO-IND-3009-IMG"
+  },
+  {
+    "code": "DEMO-IND-3009-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3009-2.jpg",
+    "external_id": "DEMO-IND-3009-IMG-2"
   },
   {
     "code": "DEMO-IND-3010-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3010.png",
+    "file": "assets/images/demo-ind-3010.jpg",
     "external_id": "DEMO-IND-3010-IMG"
+  },
+  {
+    "code": "DEMO-IND-3010-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3010-2.jpg",
+    "external_id": "DEMO-IND-3010-IMG-2"
   },
   {
     "code": "DEMO-IND-3010-S-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3010-s.png",
+    "file": "assets/images/demo-ind-3010-s.jpg",
     "external_id": "DEMO-IND-3010-S-IMG"
+  },
+  {
+    "code": "DEMO-IND-3010-S-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3010-s-2.jpg",
+    "external_id": "DEMO-IND-3010-S-IMG-2"
   },
   {
     "code": "DEMO-IND-3010-M-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3010-m.png",
+    "file": "assets/images/demo-ind-3010-m.jpg",
     "external_id": "DEMO-IND-3010-M-IMG"
+  },
+  {
+    "code": "DEMO-IND-3010-M-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3010-m-2.jpg",
+    "external_id": "DEMO-IND-3010-M-IMG-2"
   },
   {
     "code": "DEMO-IND-3010-L-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3010-l.png",
+    "file": "assets/images/demo-ind-3010-l.jpg",
     "external_id": "DEMO-IND-3010-L-IMG"
+  },
+  {
+    "code": "DEMO-IND-3010-L-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3010-l-2.jpg",
+    "external_id": "DEMO-IND-3010-L-IMG-2"
   },
   {
     "code": "DEMO-IND-3010-XL-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3010-xl.png",
+    "file": "assets/images/demo-ind-3010-xl.jpg",
     "external_id": "DEMO-IND-3010-XL-IMG"
+  },
+  {
+    "code": "DEMO-IND-3010-XL-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3010-xl-2.jpg",
+    "external_id": "DEMO-IND-3010-XL-IMG-2"
   },
   {
     "code": "DEMO-IND-3011-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3011.png",
+    "file": "assets/images/demo-ind-3011.jpg",
     "external_id": "DEMO-IND-3011-IMG"
+  },
+  {
+    "code": "DEMO-IND-3011-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3011-2.jpg",
+    "external_id": "DEMO-IND-3011-IMG-2"
   },
   {
     "code": "DEMO-IND-3011-S-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3011-s.png",
+    "file": "assets/images/demo-ind-3011-s.jpg",
     "external_id": "DEMO-IND-3011-S-IMG"
+  },
+  {
+    "code": "DEMO-IND-3011-S-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3011-s-2.jpg",
+    "external_id": "DEMO-IND-3011-S-IMG-2"
   },
   {
     "code": "DEMO-IND-3011-M-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3011-m.png",
+    "file": "assets/images/demo-ind-3011-m.jpg",
     "external_id": "DEMO-IND-3011-M-IMG"
+  },
+  {
+    "code": "DEMO-IND-3011-M-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3011-m-2.jpg",
+    "external_id": "DEMO-IND-3011-M-IMG-2"
   },
   {
     "code": "DEMO-IND-3011-L-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3011-l.png",
+    "file": "assets/images/demo-ind-3011-l.jpg",
     "external_id": "DEMO-IND-3011-L-IMG"
+  },
+  {
+    "code": "DEMO-IND-3011-L-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3011-l-2.jpg",
+    "external_id": "DEMO-IND-3011-L-IMG-2"
   },
   {
     "code": "DEMO-IND-3011-XL-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3011-xl.png",
+    "file": "assets/images/demo-ind-3011-xl.jpg",
     "external_id": "DEMO-IND-3011-XL-IMG"
+  },
+  {
+    "code": "DEMO-IND-3011-XL-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3011-xl-2.jpg",
+    "external_id": "DEMO-IND-3011-XL-IMG-2"
   },
   {
     "code": "DEMO-IND-3012-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3012.png",
+    "file": "assets/images/demo-ind-3012.jpg",
     "external_id": "DEMO-IND-3012-IMG"
+  },
+  {
+    "code": "DEMO-IND-3012-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3012-2.jpg",
+    "external_id": "DEMO-IND-3012-IMG-2"
   },
   {
     "code": "DEMO-IND-3012-S-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3012-s.png",
+    "file": "assets/images/demo-ind-3012-s.jpg",
     "external_id": "DEMO-IND-3012-S-IMG"
+  },
+  {
+    "code": "DEMO-IND-3012-S-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3012-s-2.jpg",
+    "external_id": "DEMO-IND-3012-S-IMG-2"
   },
   {
     "code": "DEMO-IND-3012-M-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3012-m.png",
+    "file": "assets/images/demo-ind-3012-m.jpg",
     "external_id": "DEMO-IND-3012-M-IMG"
+  },
+  {
+    "code": "DEMO-IND-3012-M-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3012-m-2.jpg",
+    "external_id": "DEMO-IND-3012-M-IMG-2"
   },
   {
     "code": "DEMO-IND-3012-L-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3012-l.png",
+    "file": "assets/images/demo-ind-3012-l.jpg",
     "external_id": "DEMO-IND-3012-L-IMG"
+  },
+  {
+    "code": "DEMO-IND-3012-L-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3012-l-2.jpg",
+    "external_id": "DEMO-IND-3012-L-IMG-2"
   },
   {
     "code": "DEMO-IND-3012-XL-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3012-xl.png",
+    "file": "assets/images/demo-ind-3012-xl.jpg",
     "external_id": "DEMO-IND-3012-XL-IMG"
+  },
+  {
+    "code": "DEMO-IND-3012-XL-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3012-xl-2.jpg",
+    "external_id": "DEMO-IND-3012-XL-IMG-2"
   },
   {
     "code": "DEMO-IND-3013-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3013.png",
+    "file": "assets/images/demo-ind-3013.jpg",
     "external_id": "DEMO-IND-3013-IMG"
+  },
+  {
+    "code": "DEMO-IND-3013-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3013-2.jpg",
+    "external_id": "DEMO-IND-3013-IMG-2"
   },
   {
     "code": "DEMO-IND-3013-S-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3013-s.png",
+    "file": "assets/images/demo-ind-3013-s.jpg",
     "external_id": "DEMO-IND-3013-S-IMG"
+  },
+  {
+    "code": "DEMO-IND-3013-S-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3013-s-2.jpg",
+    "external_id": "DEMO-IND-3013-S-IMG-2"
   },
   {
     "code": "DEMO-IND-3013-M-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3013-m.png",
+    "file": "assets/images/demo-ind-3013-m.jpg",
     "external_id": "DEMO-IND-3013-M-IMG"
+  },
+  {
+    "code": "DEMO-IND-3013-M-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3013-m-2.jpg",
+    "external_id": "DEMO-IND-3013-M-IMG-2"
   },
   {
     "code": "DEMO-IND-3013-L-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3013-l.png",
+    "file": "assets/images/demo-ind-3013-l.jpg",
     "external_id": "DEMO-IND-3013-L-IMG"
+  },
+  {
+    "code": "DEMO-IND-3013-L-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3013-l-2.jpg",
+    "external_id": "DEMO-IND-3013-L-IMG-2"
   },
   {
     "code": "DEMO-IND-3013-XL-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3013-xl.png",
+    "file": "assets/images/demo-ind-3013-xl.jpg",
     "external_id": "DEMO-IND-3013-XL-IMG"
+  },
+  {
+    "code": "DEMO-IND-3013-XL-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3013-xl-2.jpg",
+    "external_id": "DEMO-IND-3013-XL-IMG-2"
   },
   {
     "code": "DEMO-IND-3014-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3014.png",
+    "file": "assets/images/demo-ind-3014.jpg",
     "external_id": "DEMO-IND-3014-IMG"
+  },
+  {
+    "code": "DEMO-IND-3014-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3014-2.jpg",
+    "external_id": "DEMO-IND-3014-IMG-2"
   },
   {
     "code": "DEMO-IND-3014-S-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3014-s.png",
+    "file": "assets/images/demo-ind-3014-s.jpg",
     "external_id": "DEMO-IND-3014-S-IMG"
+  },
+  {
+    "code": "DEMO-IND-3014-S-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3014-s-2.jpg",
+    "external_id": "DEMO-IND-3014-S-IMG-2"
   },
   {
     "code": "DEMO-IND-3014-M-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3014-m.png",
+    "file": "assets/images/demo-ind-3014-m.jpg",
     "external_id": "DEMO-IND-3014-M-IMG"
+  },
+  {
+    "code": "DEMO-IND-3014-M-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3014-m-2.jpg",
+    "external_id": "DEMO-IND-3014-M-IMG-2"
   },
   {
     "code": "DEMO-IND-3014-L-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3014-l.png",
+    "file": "assets/images/demo-ind-3014-l.jpg",
     "external_id": "DEMO-IND-3014-L-IMG"
+  },
+  {
+    "code": "DEMO-IND-3014-L-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3014-l-2.jpg",
+    "external_id": "DEMO-IND-3014-L-IMG-2"
   },
   {
     "code": "DEMO-IND-3014-XL-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3014-xl.png",
+    "file": "assets/images/demo-ind-3014-xl.jpg",
     "external_id": "DEMO-IND-3014-XL-IMG"
+  },
+  {
+    "code": "DEMO-IND-3014-XL-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3014-xl-2.jpg",
+    "external_id": "DEMO-IND-3014-XL-IMG-2"
   },
   {
     "code": "DEMO-IND-3015-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3015.png",
+    "file": "assets/images/demo-ind-3015.jpg",
     "external_id": "DEMO-IND-3015-IMG"
+  },
+  {
+    "code": "DEMO-IND-3015-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3015-2.jpg",
+    "external_id": "DEMO-IND-3015-IMG-2"
   },
   {
     "code": "DEMO-IND-3016-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3016.png",
+    "file": "assets/images/demo-ind-3016.jpg",
     "external_id": "DEMO-IND-3016-IMG"
+  },
+  {
+    "code": "DEMO-IND-3016-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3016-2.jpg",
+    "external_id": "DEMO-IND-3016-IMG-2"
   },
   {
     "code": "DEMO-IND-4001-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-4001.png",
+    "file": "assets/images/demo-ind-4001.jpg",
     "external_id": "DEMO-IND-4001-IMG"
+  },
+  {
+    "code": "DEMO-IND-4001-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-4001-2.jpg",
+    "external_id": "DEMO-IND-4001-IMG-2"
   },
   {
     "code": "DEMO-IND-4002-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-4002.png",
+    "file": "assets/images/demo-ind-4002.jpg",
     "external_id": "DEMO-IND-4002-IMG"
+  },
+  {
+    "code": "DEMO-IND-4002-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-4002-2.jpg",
+    "external_id": "DEMO-IND-4002-IMG-2"
   },
   {
     "code": "DEMO-IND-4003-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-4003.png",
+    "file": "assets/images/demo-ind-4003.jpg",
     "external_id": "DEMO-IND-4003-IMG"
+  },
+  {
+    "code": "DEMO-IND-4003-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-4003-2.jpg",
+    "external_id": "DEMO-IND-4003-IMG-2"
   },
   {
     "code": "DEMO-IND-4004-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-4004.png",
+    "file": "assets/images/demo-ind-4004.jpg",
     "external_id": "DEMO-IND-4004-IMG"
+  },
+  {
+    "code": "DEMO-IND-4004-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-4004-2.jpg",
+    "external_id": "DEMO-IND-4004-IMG-2"
   },
   {
     "code": "DEMO-IND-4005-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-4005.png",
+    "file": "assets/images/demo-ind-4005.jpg",
     "external_id": "DEMO-IND-4005-IMG"
+  },
+  {
+    "code": "DEMO-IND-4005-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-4005-2.jpg",
+    "external_id": "DEMO-IND-4005-IMG-2"
   },
   {
     "code": "DEMO-IND-4006-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-4006.png",
+    "file": "assets/images/demo-ind-4006.jpg",
     "external_id": "DEMO-IND-4006-IMG"
+  },
+  {
+    "code": "DEMO-IND-4006-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-4006-2.jpg",
+    "external_id": "DEMO-IND-4006-IMG-2"
   },
   {
     "code": "DEMO-IND-4007-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-4007.png",
+    "file": "assets/images/demo-ind-4007.jpg",
     "external_id": "DEMO-IND-4007-IMG"
+  },
+  {
+    "code": "DEMO-IND-4007-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-4007-2.jpg",
+    "external_id": "DEMO-IND-4007-IMG-2"
   },
   {
     "code": "DEMO-IND-4008-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-4008.png",
+    "file": "assets/images/demo-ind-4008.jpg",
     "external_id": "DEMO-IND-4008-IMG"
+  },
+  {
+    "code": "DEMO-IND-4008-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-4008-2.jpg",
+    "external_id": "DEMO-IND-4008-IMG-2"
   },
   {
     "code": "DEMO-IND-4009-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-4009.png",
+    "file": "assets/images/demo-ind-4009.jpg",
     "external_id": "DEMO-IND-4009-IMG"
+  },
+  {
+    "code": "DEMO-IND-4009-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-4009-2.jpg",
+    "external_id": "DEMO-IND-4009-IMG-2"
   },
   {
     "code": "DEMO-IND-4010-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-4010.png",
+    "file": "assets/images/demo-ind-4010.jpg",
     "external_id": "DEMO-IND-4010-IMG"
+  },
+  {
+    "code": "DEMO-IND-4010-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-4010-2.jpg",
+    "external_id": "DEMO-IND-4010-IMG-2"
   },
   {
     "code": "DEMO-IND-4011-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-4011.png",
+    "file": "assets/images/demo-ind-4011.jpg",
     "external_id": "DEMO-IND-4011-IMG"
+  },
+  {
+    "code": "DEMO-IND-4011-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-4011-2.jpg",
+    "external_id": "DEMO-IND-4011-IMG-2"
   },
   {
     "code": "DEMO-IND-4012-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-4012.png",
+    "file": "assets/images/demo-ind-4012.jpg",
     "external_id": "DEMO-IND-4012-IMG"
+  },
+  {
+    "code": "DEMO-IND-4012-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-4012-2.jpg",
+    "external_id": "DEMO-IND-4012-IMG-2"
   },
   {
     "code": "DEMO-IND-4013-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-4013.png",
+    "file": "assets/images/demo-ind-4013.jpg",
     "external_id": "DEMO-IND-4013-IMG"
+  },
+  {
+    "code": "DEMO-IND-4013-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-4013-2.jpg",
+    "external_id": "DEMO-IND-4013-IMG-2"
   },
   {
     "code": "DEMO-IND-4014-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-4014.png",
+    "file": "assets/images/demo-ind-4014.jpg",
     "external_id": "DEMO-IND-4014-IMG"
+  },
+  {
+    "code": "DEMO-IND-4014-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-4014-2.jpg",
+    "external_id": "DEMO-IND-4014-IMG-2"
   },
   {
     "code": "DEMO-IND-4015-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-4015.png",
+    "file": "assets/images/demo-ind-4015.jpg",
     "external_id": "DEMO-IND-4015-IMG"
+  },
+  {
+    "code": "DEMO-IND-4015-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-4015-2.jpg",
+    "external_id": "DEMO-IND-4015-IMG-2"
   },
   {
     "code": "DEMO-IND-4016-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-4016.png",
+    "file": "assets/images/demo-ind-4016.jpg",
     "external_id": "DEMO-IND-4016-IMG"
+  },
+  {
+    "code": "DEMO-IND-4016-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-4016-2.jpg",
+    "external_id": "DEMO-IND-4016-IMG-2"
   },
   {
     "code": "DEMO-IND-5001-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-5001.png",
+    "file": "assets/images/demo-ind-5001.jpg",
     "external_id": "DEMO-IND-5001-IMG"
+  },
+  {
+    "code": "DEMO-IND-5001-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-5001-2.jpg",
+    "external_id": "DEMO-IND-5001-IMG-2"
   },
   {
     "code": "DEMO-IND-5002-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-5002.png",
+    "file": "assets/images/demo-ind-5002.jpg",
     "external_id": "DEMO-IND-5002-IMG"
+  },
+  {
+    "code": "DEMO-IND-5002-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-5002-2.jpg",
+    "external_id": "DEMO-IND-5002-IMG-2"
   },
   {
     "code": "DEMO-IND-5003-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-5003.png",
+    "file": "assets/images/demo-ind-5003.jpg",
     "external_id": "DEMO-IND-5003-IMG"
+  },
+  {
+    "code": "DEMO-IND-5003-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-5003-2.jpg",
+    "external_id": "DEMO-IND-5003-IMG-2"
   },
   {
     "code": "DEMO-IND-5004-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-5004.png",
+    "file": "assets/images/demo-ind-5004.jpg",
     "external_id": "DEMO-IND-5004-IMG"
+  },
+  {
+    "code": "DEMO-IND-5004-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-5004-2.jpg",
+    "external_id": "DEMO-IND-5004-IMG-2"
   },
   {
     "code": "DEMO-IND-5005-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-5005.png",
+    "file": "assets/images/demo-ind-5005.jpg",
     "external_id": "DEMO-IND-5005-IMG"
+  },
+  {
+    "code": "DEMO-IND-5005-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-5005-2.jpg",
+    "external_id": "DEMO-IND-5005-IMG-2"
   },
   {
     "code": "DEMO-IND-5006-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-5006.png",
+    "file": "assets/images/demo-ind-5006.jpg",
     "external_id": "DEMO-IND-5006-IMG"
+  },
+  {
+    "code": "DEMO-IND-5006-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-5006-2.jpg",
+    "external_id": "DEMO-IND-5006-IMG-2"
   },
   {
     "code": "DEMO-IND-5007-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-5007.png",
+    "file": "assets/images/demo-ind-5007.jpg",
     "external_id": "DEMO-IND-5007-IMG"
+  },
+  {
+    "code": "DEMO-IND-5007-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-5007-2.jpg",
+    "external_id": "DEMO-IND-5007-IMG-2"
   },
   {
     "code": "DEMO-IND-5008-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-5008.png",
+    "file": "assets/images/demo-ind-5008.jpg",
     "external_id": "DEMO-IND-5008-IMG"
+  },
+  {
+    "code": "DEMO-IND-5008-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-5008-2.jpg",
+    "external_id": "DEMO-IND-5008-IMG-2"
   },
   {
     "code": "DEMO-IND-5009-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-5009.png",
+    "file": "assets/images/demo-ind-5009.jpg",
     "external_id": "DEMO-IND-5009-IMG"
+  },
+  {
+    "code": "DEMO-IND-5009-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-5009-2.jpg",
+    "external_id": "DEMO-IND-5009-IMG-2"
   },
   {
     "code": "DEMO-IND-5010-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-5010.png",
+    "file": "assets/images/demo-ind-5010.jpg",
     "external_id": "DEMO-IND-5010-IMG"
+  },
+  {
+    "code": "DEMO-IND-5010-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-5010-2.jpg",
+    "external_id": "DEMO-IND-5010-IMG-2"
   },
   {
     "code": "DEMO-IND-6001-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-6001.png",
+    "file": "assets/images/demo-ind-6001.jpg",
     "external_id": "DEMO-IND-6001-IMG"
+  },
+  {
+    "code": "DEMO-IND-6001-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-6001-2.jpg",
+    "external_id": "DEMO-IND-6001-IMG-2"
   },
   {
     "code": "DEMO-IND-6002-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-6002.png",
+    "file": "assets/images/demo-ind-6002.jpg",
     "external_id": "DEMO-IND-6002-IMG"
+  },
+  {
+    "code": "DEMO-IND-6002-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-6002-2.jpg",
+    "external_id": "DEMO-IND-6002-IMG-2"
   },
   {
     "code": "DEMO-IND-6003-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-6003.png",
+    "file": "assets/images/demo-ind-6003.jpg",
     "external_id": "DEMO-IND-6003-IMG"
+  },
+  {
+    "code": "DEMO-IND-6003-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-6003-2.jpg",
+    "external_id": "DEMO-IND-6003-IMG-2"
   },
   {
     "code": "DEMO-IND-6004-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-6004.png",
+    "file": "assets/images/demo-ind-6004.jpg",
     "external_id": "DEMO-IND-6004-IMG"
+  },
+  {
+    "code": "DEMO-IND-6004-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-6004-2.jpg",
+    "external_id": "DEMO-IND-6004-IMG-2"
   },
   {
     "code": "DEMO-IND-6005-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-6005.png",
+    "file": "assets/images/demo-ind-6005.jpg",
     "external_id": "DEMO-IND-6005-IMG"
+  },
+  {
+    "code": "DEMO-IND-6005-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-6005-2.jpg",
+    "external_id": "DEMO-IND-6005-IMG-2"
   },
   {
     "code": "DEMO-IND-6006-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-6006.png",
+    "file": "assets/images/demo-ind-6006.jpg",
     "external_id": "DEMO-IND-6006-IMG"
+  },
+  {
+    "code": "DEMO-IND-6006-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-6006-2.jpg",
+    "external_id": "DEMO-IND-6006-IMG-2"
   },
   {
     "code": "DEMO-IND-6007-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-6007.png",
+    "file": "assets/images/demo-ind-6007.jpg",
     "external_id": "DEMO-IND-6007-IMG"
+  },
+  {
+    "code": "DEMO-IND-6007-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-6007-2.jpg",
+    "external_id": "DEMO-IND-6007-IMG-2"
   },
   {
     "code": "DEMO-IND-6008-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-6008.png",
+    "file": "assets/images/demo-ind-6008.jpg",
     "external_id": "DEMO-IND-6008-IMG"
+  },
+  {
+    "code": "DEMO-IND-6008-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-6008-2.jpg",
+    "external_id": "DEMO-IND-6008-IMG-2"
   },
   {
     "code": "DEMO-IND-6009-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-6009.png",
+    "file": "assets/images/demo-ind-6009.jpg",
     "external_id": "DEMO-IND-6009-IMG"
+  },
+  {
+    "code": "DEMO-IND-6009-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-6009-2.jpg",
+    "external_id": "DEMO-IND-6009-IMG-2"
   },
   {
     "code": "DEMO-IND-6010-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-6010.png",
+    "file": "assets/images/demo-ind-6010.jpg",
     "external_id": "DEMO-IND-6010-IMG"
+  },
+  {
+    "code": "DEMO-IND-6010-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-6010-2.jpg",
+    "external_id": "DEMO-IND-6010-IMG-2"
   },
   {
     "code": "DEMO-IND-2023-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-2023.png",
+    "file": "assets/images/demo-ind-2023.jpg",
     "external_id": "DEMO-IND-2023-IMG"
+  },
+  {
+    "code": "DEMO-IND-2023-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-2023-2.jpg",
+    "external_id": "DEMO-IND-2023-IMG-2"
   },
   {
     "code": "DEMO-IND-3017-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3017.png",
+    "file": "assets/images/demo-ind-3017.jpg",
     "external_id": "DEMO-IND-3017-IMG"
+  },
+  {
+    "code": "DEMO-IND-3017-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3017-2.jpg",
+    "external_id": "DEMO-IND-3017-IMG-2"
   },
   {
     "code": "DEMO-IND-3018-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-3018.png",
+    "file": "assets/images/demo-ind-3018.jpg",
     "external_id": "DEMO-IND-3018-IMG"
+  },
+  {
+    "code": "DEMO-IND-3018-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-3018-2.jpg",
+    "external_id": "DEMO-IND-3018-IMG-2"
   },
   {
     "code": "DEMO-IND-4017-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-4017.png",
+    "file": "assets/images/demo-ind-4017.jpg",
     "external_id": "DEMO-IND-4017-IMG"
+  },
+  {
+    "code": "DEMO-IND-4017-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-4017-2.jpg",
+    "external_id": "DEMO-IND-4017-IMG-2"
   },
   {
     "code": "DEMO-IND-4018-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-4018.png",
+    "file": "assets/images/demo-ind-4018.jpg",
     "external_id": "DEMO-IND-4018-IMG"
+  },
+  {
+    "code": "DEMO-IND-4018-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-4018-2.jpg",
+    "external_id": "DEMO-IND-4018-IMG-2"
   },
   {
     "code": "DEMO-IND-5011-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-5011.png",
+    "file": "assets/images/demo-ind-5011.jpg",
     "external_id": "DEMO-IND-5011-IMG"
+  },
+  {
+    "code": "DEMO-IND-5011-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-5011-2.jpg",
+    "external_id": "DEMO-IND-5011-IMG-2"
   },
   {
     "code": "DEMO-IND-5012-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-5012.png",
+    "file": "assets/images/demo-ind-5012.jpg",
     "external_id": "DEMO-IND-5012-IMG"
+  },
+  {
+    "code": "DEMO-IND-5012-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-5012-2.jpg",
+    "external_id": "DEMO-IND-5012-IMG-2"
   },
   {
     "code": "DEMO-IND-6011-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-6011.png",
+    "file": "assets/images/demo-ind-6011.jpg",
     "external_id": "DEMO-IND-6011-IMG"
+  },
+  {
+    "code": "DEMO-IND-6011-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-6011-2.jpg",
+    "external_id": "DEMO-IND-6011-IMG-2"
   },
   {
     "code": "DEMO-IND-6012-IMG",
     "family": "product_images",
-    "file": "assets/images/demo-ind-6012.png",
+    "file": "assets/images/demo-ind-6012.jpg",
     "external_id": "DEMO-IND-6012-IMG"
+  },
+  {
+    "code": "DEMO-IND-6012-IMG-2",
+    "family": "product_images",
+    "file": "assets/images/demo-ind-6012-2.jpg",
+    "external_id": "DEMO-IND-6012-IMG-2"
+  },
+  {
+    "code": "DEMO-IND-1001-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1001-drawing.pdf",
+    "external_id": "DEMO-IND-1001-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-1001-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1001-drawing.svg",
+    "external_id": "DEMO-IND-1001-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-1002-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1002-drawing.pdf",
+    "external_id": "DEMO-IND-1002-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-1002-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1002-drawing.svg",
+    "external_id": "DEMO-IND-1002-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-1003-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1003-drawing.pdf",
+    "external_id": "DEMO-IND-1003-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-1003-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1003-drawing.svg",
+    "external_id": "DEMO-IND-1003-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-1004-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1004-drawing.pdf",
+    "external_id": "DEMO-IND-1004-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-1004-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1004-drawing.svg",
+    "external_id": "DEMO-IND-1004-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-1005-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1005-drawing.pdf",
+    "external_id": "DEMO-IND-1005-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-1005-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1005-drawing.svg",
+    "external_id": "DEMO-IND-1005-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-1006-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1006-drawing.pdf",
+    "external_id": "DEMO-IND-1006-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-1006-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1006-drawing.svg",
+    "external_id": "DEMO-IND-1006-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-1007-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1007-drawing.pdf",
+    "external_id": "DEMO-IND-1007-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-1007-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1007-drawing.svg",
+    "external_id": "DEMO-IND-1007-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-1008-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1008-drawing.pdf",
+    "external_id": "DEMO-IND-1008-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-1008-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1008-drawing.svg",
+    "external_id": "DEMO-IND-1008-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-1009-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1009-drawing.pdf",
+    "external_id": "DEMO-IND-1009-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-1009-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1009-drawing.svg",
+    "external_id": "DEMO-IND-1009-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-1010-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1010-drawing.pdf",
+    "external_id": "DEMO-IND-1010-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-1010-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1010-drawing.svg",
+    "external_id": "DEMO-IND-1010-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-1011-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1011-drawing.pdf",
+    "external_id": "DEMO-IND-1011-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-1011-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1011-drawing.svg",
+    "external_id": "DEMO-IND-1011-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-1012-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1012-drawing.pdf",
+    "external_id": "DEMO-IND-1012-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-1012-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1012-drawing.svg",
+    "external_id": "DEMO-IND-1012-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-1013-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1013-drawing.pdf",
+    "external_id": "DEMO-IND-1013-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-1013-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1013-drawing.svg",
+    "external_id": "DEMO-IND-1013-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-1014-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1014-drawing.pdf",
+    "external_id": "DEMO-IND-1014-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-1014-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1014-drawing.svg",
+    "external_id": "DEMO-IND-1014-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-1015-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1015-drawing.pdf",
+    "external_id": "DEMO-IND-1015-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-1015-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1015-drawing.svg",
+    "external_id": "DEMO-IND-1015-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-1016-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1016-drawing.pdf",
+    "external_id": "DEMO-IND-1016-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-1016-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1016-drawing.svg",
+    "external_id": "DEMO-IND-1016-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-1017-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1017-drawing.pdf",
+    "external_id": "DEMO-IND-1017-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-1017-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1017-drawing.svg",
+    "external_id": "DEMO-IND-1017-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-1018-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1018-drawing.pdf",
+    "external_id": "DEMO-IND-1018-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-1018-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-1018-drawing.svg",
+    "external_id": "DEMO-IND-1018-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-2004-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2004-drawing.pdf",
+    "external_id": "DEMO-IND-2004-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-2004-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2004-drawing.svg",
+    "external_id": "DEMO-IND-2004-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-2005-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2005-drawing.pdf",
+    "external_id": "DEMO-IND-2005-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-2005-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2005-drawing.svg",
+    "external_id": "DEMO-IND-2005-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-2006-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2006-drawing.pdf",
+    "external_id": "DEMO-IND-2006-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-2006-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2006-drawing.svg",
+    "external_id": "DEMO-IND-2006-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-2007-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2007-drawing.pdf",
+    "external_id": "DEMO-IND-2007-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-2007-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2007-drawing.svg",
+    "external_id": "DEMO-IND-2007-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-2008-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2008-drawing.pdf",
+    "external_id": "DEMO-IND-2008-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-2008-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2008-drawing.svg",
+    "external_id": "DEMO-IND-2008-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-2009-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2009-drawing.pdf",
+    "external_id": "DEMO-IND-2009-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-2009-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2009-drawing.svg",
+    "external_id": "DEMO-IND-2009-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-2010-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2010-drawing.pdf",
+    "external_id": "DEMO-IND-2010-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-2010-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2010-drawing.svg",
+    "external_id": "DEMO-IND-2010-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-2011-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2011-drawing.pdf",
+    "external_id": "DEMO-IND-2011-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-2011-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2011-drawing.svg",
+    "external_id": "DEMO-IND-2011-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-2012-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2012-drawing.pdf",
+    "external_id": "DEMO-IND-2012-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-2012-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2012-drawing.svg",
+    "external_id": "DEMO-IND-2012-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-2013-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2013-drawing.pdf",
+    "external_id": "DEMO-IND-2013-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-2013-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2013-drawing.svg",
+    "external_id": "DEMO-IND-2013-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-2016-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2016-drawing.pdf",
+    "external_id": "DEMO-IND-2016-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-2016-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2016-drawing.svg",
+    "external_id": "DEMO-IND-2016-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-2017-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2017-drawing.pdf",
+    "external_id": "DEMO-IND-2017-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-2017-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2017-drawing.svg",
+    "external_id": "DEMO-IND-2017-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-2018-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2018-drawing.pdf",
+    "external_id": "DEMO-IND-2018-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-2018-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2018-drawing.svg",
+    "external_id": "DEMO-IND-2018-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-2019-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2019-drawing.pdf",
+    "external_id": "DEMO-IND-2019-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-2019-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2019-drawing.svg",
+    "external_id": "DEMO-IND-2019-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-2021-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2021-drawing.pdf",
+    "external_id": "DEMO-IND-2021-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-2021-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2021-drawing.svg",
+    "external_id": "DEMO-IND-2021-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-2022-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2022-drawing.pdf",
+    "external_id": "DEMO-IND-2022-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-2022-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2022-drawing.svg",
+    "external_id": "DEMO-IND-2022-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-4001-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-4001-drawing.pdf",
+    "external_id": "DEMO-IND-4001-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-4001-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-4001-drawing.svg",
+    "external_id": "DEMO-IND-4001-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-4004-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-4004-drawing.pdf",
+    "external_id": "DEMO-IND-4004-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-4004-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-4004-drawing.svg",
+    "external_id": "DEMO-IND-4004-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-4005-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-4005-drawing.pdf",
+    "external_id": "DEMO-IND-4005-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-4005-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-4005-drawing.svg",
+    "external_id": "DEMO-IND-4005-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-4006-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-4006-drawing.pdf",
+    "external_id": "DEMO-IND-4006-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-4006-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-4006-drawing.svg",
+    "external_id": "DEMO-IND-4006-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-4007-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-4007-drawing.pdf",
+    "external_id": "DEMO-IND-4007-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-4007-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-4007-drawing.svg",
+    "external_id": "DEMO-IND-4007-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-4008-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-4008-drawing.pdf",
+    "external_id": "DEMO-IND-4008-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-4008-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-4008-drawing.svg",
+    "external_id": "DEMO-IND-4008-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-4010-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-4010-drawing.pdf",
+    "external_id": "DEMO-IND-4010-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-4010-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-4010-drawing.svg",
+    "external_id": "DEMO-IND-4010-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-4011-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-4011-drawing.pdf",
+    "external_id": "DEMO-IND-4011-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-4011-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-4011-drawing.svg",
+    "external_id": "DEMO-IND-4011-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-4012-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-4012-drawing.pdf",
+    "external_id": "DEMO-IND-4012-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-4012-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-4012-drawing.svg",
+    "external_id": "DEMO-IND-4012-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-4015-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-4015-drawing.pdf",
+    "external_id": "DEMO-IND-4015-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-4015-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-4015-drawing.svg",
+    "external_id": "DEMO-IND-4015-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-4016-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-4016-drawing.pdf",
+    "external_id": "DEMO-IND-4016-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-4016-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-4016-drawing.svg",
+    "external_id": "DEMO-IND-4016-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-6001-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-6001-drawing.pdf",
+    "external_id": "DEMO-IND-6001-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-6001-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-6001-drawing.svg",
+    "external_id": "DEMO-IND-6001-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-6002-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-6002-drawing.pdf",
+    "external_id": "DEMO-IND-6002-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-6002-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-6002-drawing.svg",
+    "external_id": "DEMO-IND-6002-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-6003-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-6003-drawing.pdf",
+    "external_id": "DEMO-IND-6003-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-6003-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-6003-drawing.svg",
+    "external_id": "DEMO-IND-6003-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-6004-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-6004-drawing.pdf",
+    "external_id": "DEMO-IND-6004-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-6004-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-6004-drawing.svg",
+    "external_id": "DEMO-IND-6004-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-6005-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-6005-drawing.pdf",
+    "external_id": "DEMO-IND-6005-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-6005-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-6005-drawing.svg",
+    "external_id": "DEMO-IND-6005-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-6006-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-6006-drawing.pdf",
+    "external_id": "DEMO-IND-6006-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-6006-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-6006-drawing.svg",
+    "external_id": "DEMO-IND-6006-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-6007-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-6007-drawing.pdf",
+    "external_id": "DEMO-IND-6007-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-6007-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-6007-drawing.svg",
+    "external_id": "DEMO-IND-6007-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-6008-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-6008-drawing.pdf",
+    "external_id": "DEMO-IND-6008-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-6008-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-6008-drawing.svg",
+    "external_id": "DEMO-IND-6008-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-6009-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-6009-drawing.pdf",
+    "external_id": "DEMO-IND-6009-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-6009-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-6009-drawing.svg",
+    "external_id": "DEMO-IND-6009-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-2023-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2023-drawing.pdf",
+    "external_id": "DEMO-IND-2023-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-2023-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-2023-drawing.svg",
+    "external_id": "DEMO-IND-2023-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-4018-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-4018-drawing.pdf",
+    "external_id": "DEMO-IND-4018-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-4018-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-4018-drawing.svg",
+    "external_id": "DEMO-IND-4018-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-6011-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-6011-drawing.pdf",
+    "external_id": "DEMO-IND-6011-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-6011-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-6011-drawing.svg",
+    "external_id": "DEMO-IND-6011-DRW-SVG"
+  },
+  {
+    "code": "DEMO-IND-6012-DRW-PDF",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-6012-drawing.pdf",
+    "external_id": "DEMO-IND-6012-DRW-PDF"
+  },
+  {
+    "code": "DEMO-IND-6012-DRW-SVG",
+    "family": "technical_drawings",
+    "file": "assets/drawings/demo-ind-6012-drawing.svg",
+    "external_id": "DEMO-IND-6012-DRW-SVG"
   },
   {
     "code": "DEMO-IND-2002-HEX-BOLT-M8X40-PDF",
@@ -786,16 +2232,16 @@
     "external_id": "DEMO-IND-2003-CUTTING-DISC-125-SVG"
   },
   {
-    "code": "DEMO-IND-2002-HEX-BOLT-M8X40-STEP",
-    "family": "downloads",
-    "file": "assets/cad/demo-ind-2002-hex-bolt-m8x40.step",
-    "external_id": "DEMO-IND-2002-HEX-BOLT-M8X40-STEP"
-  },
-  {
     "code": "DEMO-IND-2001-WOOD-SCREW-4X40-STEP",
     "family": "downloads",
     "file": "assets/cad/demo-ind-2001-wood-screw-4x40.step",
     "external_id": "DEMO-IND-2001-WOOD-SCREW-4X40-STEP"
+  },
+  {
+    "code": "DEMO-IND-2002-HEX-BOLT-M8X40-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-ind-2002-hex-bolt-m8x40.step",
+    "external_id": "DEMO-IND-2002-HEX-BOLT-M8X40-STEP"
   },
   {
     "code": "DEMO-IND-2003-CUTTING-DISC-125-STEP",
@@ -804,9 +2250,813 @@
     "external_id": "DEMO-IND-2003-CUTTING-DISC-125-STEP"
   },
   {
-    "code": "DEMO-IND-1001-DATA-SHEET",
+    "code": "DEMO-IND-2004-WOOD-SCREW-3-5X30-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-ind-2004-wood-screw-3-5x30.step",
+    "external_id": "DEMO-IND-2004-WOOD-SCREW-3-5X30-STEP"
+  },
+  {
+    "code": "DEMO-IND-2005-WOOD-SCREW-5X60-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-ind-2005-wood-screw-5x60.step",
+    "external_id": "DEMO-IND-2005-WOOD-SCREW-5X60-STEP"
+  },
+  {
+    "code": "DEMO-IND-2006-WOOD-SCREW-5X80-STAINLESS-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-ind-2006-wood-screw-5x80-stainless.step",
+    "external_id": "DEMO-IND-2006-WOOD-SCREW-5X80-STAINLESS-STEP"
+  },
+  {
+    "code": "DEMO-IND-2007-HEX-BOLT-M6X30-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-ind-2007-hex-bolt-m6x30.step",
+    "external_id": "DEMO-IND-2007-HEX-BOLT-M6X30-STEP"
+  },
+  {
+    "code": "DEMO-IND-2008-HEX-BOLT-M10X60-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-ind-2008-hex-bolt-m10x60.step",
+    "external_id": "DEMO-IND-2008-HEX-BOLT-M10X60-STEP"
+  },
+  {
+    "code": "DEMO-IND-2009-HEX-NUT-M8-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-ind-2009-hex-nut-m8.step",
+    "external_id": "DEMO-IND-2009-HEX-NUT-M8-STEP"
+  },
+  {
+    "code": "DEMO-IND-2010-HEX-NUT-M6-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-ind-2010-hex-nut-m6.step",
+    "external_id": "DEMO-IND-2010-HEX-NUT-M6-STEP"
+  },
+  {
+    "code": "DEMO-IND-2011-FLAT-WASHER-M8-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-ind-2011-flat-washer-m8.step",
+    "external_id": "DEMO-IND-2011-FLAT-WASHER-M8-STEP"
+  },
+  {
+    "code": "DEMO-IND-2012-THREADED-ROD-M8X1000-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-ind-2012-threaded-rod-m8x1000.step",
+    "external_id": "DEMO-IND-2012-THREADED-ROD-M8X1000-STEP"
+  },
+  {
+    "code": "DEMO-IND-2013-EXPANSION-PLUG-8X40-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-ind-2013-expansion-plug-8x40.step",
+    "external_id": "DEMO-IND-2013-EXPANSION-PLUG-8X40-STEP"
+  },
+  {
+    "code": "DEMO-IND-2014-CABLE-TIE-200X3-6-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-ind-2014-cable-tie-200x3-6.step",
+    "external_id": "DEMO-IND-2014-CABLE-TIE-200X3-6-STEP"
+  },
+  {
+    "code": "DEMO-IND-2015-WIRE-NAIL-2-8X60-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-ind-2015-wire-nail-2-8x60.step",
+    "external_id": "DEMO-IND-2015-WIRE-NAIL-2-8X60-STEP"
+  },
+  {
+    "code": "DEMO-IND-2016-GRUB-SCREW-M6X20-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-ind-2016-grub-screw-m6x20.step",
+    "external_id": "DEMO-IND-2016-GRUB-SCREW-M6X20-STEP"
+  },
+  {
+    "code": "DEMO-IND-2017-CHEESE-HEAD-SCREW-M5X16-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-ind-2017-cheese-head-screw-m5x16.step",
+    "external_id": "DEMO-IND-2017-CHEESE-HEAD-SCREW-M5X16-STEP"
+  },
+  {
+    "code": "DEMO-IND-2018-PAN-HEAD-SCREW-M4X12-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-ind-2018-pan-head-screw-m4x12.step",
+    "external_id": "DEMO-IND-2018-PAN-HEAD-SCREW-M4X12-STEP"
+  },
+  {
+    "code": "DEMO-IND-2019-SHEET-METAL-SCREW-4-2X19-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-ind-2019-sheet-metal-screw-4-2x19.step",
+    "external_id": "DEMO-IND-2019-SHEET-METAL-SCREW-4-2X19-STEP"
+  },
+  {
+    "code": "DEMO-IND-2021-SQUARE-NUT-M10-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-ind-2021-square-nut-m10.step",
+    "external_id": "DEMO-IND-2021-SQUARE-NUT-M10-STEP"
+  },
+  {
+    "code": "DEMO-IND-2022-HEX-BOLT-M12X80-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-ind-2022-hex-bolt-m12x80.step",
+    "external_id": "DEMO-IND-2022-HEX-BOLT-M12X80-STEP"
+  },
+  {
+    "code": "DEMO-IND-2023-FLAT-WASHER-M10-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-ind-2023-flat-washer-m10.step",
+    "external_id": "DEMO-IND-2023-FLAT-WASHER-M10-STEP"
+  },
+  {
+    "code": "DEMO-IND-5001-FLAP-DISC-115-P80-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-ind-5001-flap-disc-115-p80.step",
+    "external_id": "DEMO-IND-5001-FLAP-DISC-115-P80-STEP"
+  },
+  {
+    "code": "DEMO-IND-5002-FLAP-DISC-115-P120-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-ind-5002-flap-disc-115-p120.step",
+    "external_id": "DEMO-IND-5002-FLAP-DISC-115-P120-STEP"
+  },
+  {
+    "code": "DEMO-IND-5007-CUTTING-DISC-115-INOX-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-ind-5007-cutting-disc-115-inox.step",
+    "external_id": "DEMO-IND-5007-CUTTING-DISC-115-INOX-STEP"
+  },
+  {
+    "code": "DEMO-IND-5008-DIAMOND-CUTTING-DISC-230-STEP",
+    "family": "downloads",
+    "file": "assets/cad/demo-ind-5008-diamond-cutting-disc-230.step",
+    "external_id": "DEMO-IND-5008-DIAMOND-CUTTING-DISC-230-STEP"
+  },
+  {
+    "code": "DEMO-IND-1001-DS",
     "family": "downloads",
     "file": "assets/downloads/demo-ind-1001-data-sheet.pdf",
-    "external_id": "DEMO-IND-1001-DATA-SHEET"
+    "external_id": "DEMO-IND-1001-DS"
+  },
+  {
+    "code": "DEMO-IND-1002-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-1002-data-sheet.pdf",
+    "external_id": "DEMO-IND-1002-DS"
+  },
+  {
+    "code": "DEMO-IND-1003-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-1003-data-sheet.pdf",
+    "external_id": "DEMO-IND-1003-DS"
+  },
+  {
+    "code": "DEMO-IND-1004-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-1004-data-sheet.pdf",
+    "external_id": "DEMO-IND-1004-DS"
+  },
+  {
+    "code": "DEMO-IND-2001-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-2001-data-sheet.pdf",
+    "external_id": "DEMO-IND-2001-DS"
+  },
+  {
+    "code": "DEMO-IND-2002-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-2002-data-sheet.pdf",
+    "external_id": "DEMO-IND-2002-DS"
+  },
+  {
+    "code": "DEMO-IND-2003-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-2003-data-sheet.pdf",
+    "external_id": "DEMO-IND-2003-DS"
+  },
+  {
+    "code": "DEMO-IND-3001-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-3001-data-sheet.pdf",
+    "external_id": "DEMO-IND-3001-DS"
+  },
+  {
+    "code": "DEMO-IND-3002-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-3002-data-sheet.pdf",
+    "external_id": "DEMO-IND-3002-DS"
+  },
+  {
+    "code": "DEMO-IND-3003-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-3003-data-sheet.pdf",
+    "external_id": "DEMO-IND-3003-DS"
+  },
+  {
+    "code": "DEMO-IND-1005-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-1005-data-sheet.pdf",
+    "external_id": "DEMO-IND-1005-DS"
+  },
+  {
+    "code": "DEMO-IND-1006-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-1006-data-sheet.pdf",
+    "external_id": "DEMO-IND-1006-DS"
+  },
+  {
+    "code": "DEMO-IND-1007-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-1007-data-sheet.pdf",
+    "external_id": "DEMO-IND-1007-DS"
+  },
+  {
+    "code": "DEMO-IND-1008-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-1008-data-sheet.pdf",
+    "external_id": "DEMO-IND-1008-DS"
+  },
+  {
+    "code": "DEMO-IND-1009-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-1009-data-sheet.pdf",
+    "external_id": "DEMO-IND-1009-DS"
+  },
+  {
+    "code": "DEMO-IND-1010-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-1010-data-sheet.pdf",
+    "external_id": "DEMO-IND-1010-DS"
+  },
+  {
+    "code": "DEMO-IND-1011-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-1011-data-sheet.pdf",
+    "external_id": "DEMO-IND-1011-DS"
+  },
+  {
+    "code": "DEMO-IND-1012-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-1012-data-sheet.pdf",
+    "external_id": "DEMO-IND-1012-DS"
+  },
+  {
+    "code": "DEMO-IND-1013-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-1013-data-sheet.pdf",
+    "external_id": "DEMO-IND-1013-DS"
+  },
+  {
+    "code": "DEMO-IND-1014-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-1014-data-sheet.pdf",
+    "external_id": "DEMO-IND-1014-DS"
+  },
+  {
+    "code": "DEMO-IND-1015-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-1015-data-sheet.pdf",
+    "external_id": "DEMO-IND-1015-DS"
+  },
+  {
+    "code": "DEMO-IND-1016-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-1016-data-sheet.pdf",
+    "external_id": "DEMO-IND-1016-DS"
+  },
+  {
+    "code": "DEMO-IND-1017-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-1017-data-sheet.pdf",
+    "external_id": "DEMO-IND-1017-DS"
+  },
+  {
+    "code": "DEMO-IND-1018-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-1018-data-sheet.pdf",
+    "external_id": "DEMO-IND-1018-DS"
+  },
+  {
+    "code": "DEMO-IND-2004-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-2004-data-sheet.pdf",
+    "external_id": "DEMO-IND-2004-DS"
+  },
+  {
+    "code": "DEMO-IND-2005-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-2005-data-sheet.pdf",
+    "external_id": "DEMO-IND-2005-DS"
+  },
+  {
+    "code": "DEMO-IND-2006-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-2006-data-sheet.pdf",
+    "external_id": "DEMO-IND-2006-DS"
+  },
+  {
+    "code": "DEMO-IND-2007-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-2007-data-sheet.pdf",
+    "external_id": "DEMO-IND-2007-DS"
+  },
+  {
+    "code": "DEMO-IND-2008-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-2008-data-sheet.pdf",
+    "external_id": "DEMO-IND-2008-DS"
+  },
+  {
+    "code": "DEMO-IND-2009-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-2009-data-sheet.pdf",
+    "external_id": "DEMO-IND-2009-DS"
+  },
+  {
+    "code": "DEMO-IND-2010-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-2010-data-sheet.pdf",
+    "external_id": "DEMO-IND-2010-DS"
+  },
+  {
+    "code": "DEMO-IND-2011-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-2011-data-sheet.pdf",
+    "external_id": "DEMO-IND-2011-DS"
+  },
+  {
+    "code": "DEMO-IND-2012-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-2012-data-sheet.pdf",
+    "external_id": "DEMO-IND-2012-DS"
+  },
+  {
+    "code": "DEMO-IND-2013-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-2013-data-sheet.pdf",
+    "external_id": "DEMO-IND-2013-DS"
+  },
+  {
+    "code": "DEMO-IND-2014-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-2014-data-sheet.pdf",
+    "external_id": "DEMO-IND-2014-DS"
+  },
+  {
+    "code": "DEMO-IND-2015-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-2015-data-sheet.pdf",
+    "external_id": "DEMO-IND-2015-DS"
+  },
+  {
+    "code": "DEMO-IND-2016-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-2016-data-sheet.pdf",
+    "external_id": "DEMO-IND-2016-DS"
+  },
+  {
+    "code": "DEMO-IND-2017-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-2017-data-sheet.pdf",
+    "external_id": "DEMO-IND-2017-DS"
+  },
+  {
+    "code": "DEMO-IND-2018-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-2018-data-sheet.pdf",
+    "external_id": "DEMO-IND-2018-DS"
+  },
+  {
+    "code": "DEMO-IND-2019-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-2019-data-sheet.pdf",
+    "external_id": "DEMO-IND-2019-DS"
+  },
+  {
+    "code": "DEMO-IND-2020-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-2020-data-sheet.pdf",
+    "external_id": "DEMO-IND-2020-DS"
+  },
+  {
+    "code": "DEMO-IND-2021-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-2021-data-sheet.pdf",
+    "external_id": "DEMO-IND-2021-DS"
+  },
+  {
+    "code": "DEMO-IND-2022-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-2022-data-sheet.pdf",
+    "external_id": "DEMO-IND-2022-DS"
+  },
+  {
+    "code": "DEMO-IND-3004-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-3004-data-sheet.pdf",
+    "external_id": "DEMO-IND-3004-DS"
+  },
+  {
+    "code": "DEMO-IND-3005-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-3005-data-sheet.pdf",
+    "external_id": "DEMO-IND-3005-DS"
+  },
+  {
+    "code": "DEMO-IND-3006-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-3006-data-sheet.pdf",
+    "external_id": "DEMO-IND-3006-DS"
+  },
+  {
+    "code": "DEMO-IND-3007-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-3007-data-sheet.pdf",
+    "external_id": "DEMO-IND-3007-DS"
+  },
+  {
+    "code": "DEMO-IND-3008-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-3008-data-sheet.pdf",
+    "external_id": "DEMO-IND-3008-DS"
+  },
+  {
+    "code": "DEMO-IND-3009-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-3009-data-sheet.pdf",
+    "external_id": "DEMO-IND-3009-DS"
+  },
+  {
+    "code": "DEMO-IND-3010-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-3010-data-sheet.pdf",
+    "external_id": "DEMO-IND-3010-DS"
+  },
+  {
+    "code": "DEMO-IND-3011-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-3011-data-sheet.pdf",
+    "external_id": "DEMO-IND-3011-DS"
+  },
+  {
+    "code": "DEMO-IND-3012-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-3012-data-sheet.pdf",
+    "external_id": "DEMO-IND-3012-DS"
+  },
+  {
+    "code": "DEMO-IND-3013-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-3013-data-sheet.pdf",
+    "external_id": "DEMO-IND-3013-DS"
+  },
+  {
+    "code": "DEMO-IND-3014-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-3014-data-sheet.pdf",
+    "external_id": "DEMO-IND-3014-DS"
+  },
+  {
+    "code": "DEMO-IND-3015-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-3015-data-sheet.pdf",
+    "external_id": "DEMO-IND-3015-DS"
+  },
+  {
+    "code": "DEMO-IND-3016-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-3016-data-sheet.pdf",
+    "external_id": "DEMO-IND-3016-DS"
+  },
+  {
+    "code": "DEMO-IND-4001-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-4001-data-sheet.pdf",
+    "external_id": "DEMO-IND-4001-DS"
+  },
+  {
+    "code": "DEMO-IND-4002-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-4002-data-sheet.pdf",
+    "external_id": "DEMO-IND-4002-DS"
+  },
+  {
+    "code": "DEMO-IND-4003-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-4003-data-sheet.pdf",
+    "external_id": "DEMO-IND-4003-DS"
+  },
+  {
+    "code": "DEMO-IND-4004-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-4004-data-sheet.pdf",
+    "external_id": "DEMO-IND-4004-DS"
+  },
+  {
+    "code": "DEMO-IND-4005-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-4005-data-sheet.pdf",
+    "external_id": "DEMO-IND-4005-DS"
+  },
+  {
+    "code": "DEMO-IND-4006-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-4006-data-sheet.pdf",
+    "external_id": "DEMO-IND-4006-DS"
+  },
+  {
+    "code": "DEMO-IND-4007-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-4007-data-sheet.pdf",
+    "external_id": "DEMO-IND-4007-DS"
+  },
+  {
+    "code": "DEMO-IND-4008-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-4008-data-sheet.pdf",
+    "external_id": "DEMO-IND-4008-DS"
+  },
+  {
+    "code": "DEMO-IND-4009-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-4009-data-sheet.pdf",
+    "external_id": "DEMO-IND-4009-DS"
+  },
+  {
+    "code": "DEMO-IND-4010-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-4010-data-sheet.pdf",
+    "external_id": "DEMO-IND-4010-DS"
+  },
+  {
+    "code": "DEMO-IND-4011-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-4011-data-sheet.pdf",
+    "external_id": "DEMO-IND-4011-DS"
+  },
+  {
+    "code": "DEMO-IND-4012-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-4012-data-sheet.pdf",
+    "external_id": "DEMO-IND-4012-DS"
+  },
+  {
+    "code": "DEMO-IND-4013-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-4013-data-sheet.pdf",
+    "external_id": "DEMO-IND-4013-DS"
+  },
+  {
+    "code": "DEMO-IND-4014-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-4014-data-sheet.pdf",
+    "external_id": "DEMO-IND-4014-DS"
+  },
+  {
+    "code": "DEMO-IND-4015-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-4015-data-sheet.pdf",
+    "external_id": "DEMO-IND-4015-DS"
+  },
+  {
+    "code": "DEMO-IND-4016-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-4016-data-sheet.pdf",
+    "external_id": "DEMO-IND-4016-DS"
+  },
+  {
+    "code": "DEMO-IND-5001-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-5001-data-sheet.pdf",
+    "external_id": "DEMO-IND-5001-DS"
+  },
+  {
+    "code": "DEMO-IND-5002-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-5002-data-sheet.pdf",
+    "external_id": "DEMO-IND-5002-DS"
+  },
+  {
+    "code": "DEMO-IND-5003-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-5003-data-sheet.pdf",
+    "external_id": "DEMO-IND-5003-DS"
+  },
+  {
+    "code": "DEMO-IND-5004-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-5004-data-sheet.pdf",
+    "external_id": "DEMO-IND-5004-DS"
+  },
+  {
+    "code": "DEMO-IND-5005-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-5005-data-sheet.pdf",
+    "external_id": "DEMO-IND-5005-DS"
+  },
+  {
+    "code": "DEMO-IND-5006-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-5006-data-sheet.pdf",
+    "external_id": "DEMO-IND-5006-DS"
+  },
+  {
+    "code": "DEMO-IND-5007-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-5007-data-sheet.pdf",
+    "external_id": "DEMO-IND-5007-DS"
+  },
+  {
+    "code": "DEMO-IND-5008-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-5008-data-sheet.pdf",
+    "external_id": "DEMO-IND-5008-DS"
+  },
+  {
+    "code": "DEMO-IND-5009-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-5009-data-sheet.pdf",
+    "external_id": "DEMO-IND-5009-DS"
+  },
+  {
+    "code": "DEMO-IND-5010-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-5010-data-sheet.pdf",
+    "external_id": "DEMO-IND-5010-DS"
+  },
+  {
+    "code": "DEMO-IND-6001-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-6001-data-sheet.pdf",
+    "external_id": "DEMO-IND-6001-DS"
+  },
+  {
+    "code": "DEMO-IND-6002-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-6002-data-sheet.pdf",
+    "external_id": "DEMO-IND-6002-DS"
+  },
+  {
+    "code": "DEMO-IND-6003-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-6003-data-sheet.pdf",
+    "external_id": "DEMO-IND-6003-DS"
+  },
+  {
+    "code": "DEMO-IND-6004-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-6004-data-sheet.pdf",
+    "external_id": "DEMO-IND-6004-DS"
+  },
+  {
+    "code": "DEMO-IND-6005-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-6005-data-sheet.pdf",
+    "external_id": "DEMO-IND-6005-DS"
+  },
+  {
+    "code": "DEMO-IND-6006-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-6006-data-sheet.pdf",
+    "external_id": "DEMO-IND-6006-DS"
+  },
+  {
+    "code": "DEMO-IND-6007-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-6007-data-sheet.pdf",
+    "external_id": "DEMO-IND-6007-DS"
+  },
+  {
+    "code": "DEMO-IND-6008-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-6008-data-sheet.pdf",
+    "external_id": "DEMO-IND-6008-DS"
+  },
+  {
+    "code": "DEMO-IND-6009-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-6009-data-sheet.pdf",
+    "external_id": "DEMO-IND-6009-DS"
+  },
+  {
+    "code": "DEMO-IND-6010-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-6010-data-sheet.pdf",
+    "external_id": "DEMO-IND-6010-DS"
+  },
+  {
+    "code": "DEMO-IND-2023-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-2023-data-sheet.pdf",
+    "external_id": "DEMO-IND-2023-DS"
+  },
+  {
+    "code": "DEMO-IND-3017-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-3017-data-sheet.pdf",
+    "external_id": "DEMO-IND-3017-DS"
+  },
+  {
+    "code": "DEMO-IND-3018-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-3018-data-sheet.pdf",
+    "external_id": "DEMO-IND-3018-DS"
+  },
+  {
+    "code": "DEMO-IND-4017-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-4017-data-sheet.pdf",
+    "external_id": "DEMO-IND-4017-DS"
+  },
+  {
+    "code": "DEMO-IND-4018-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-4018-data-sheet.pdf",
+    "external_id": "DEMO-IND-4018-DS"
+  },
+  {
+    "code": "DEMO-IND-5011-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-5011-data-sheet.pdf",
+    "external_id": "DEMO-IND-5011-DS"
+  },
+  {
+    "code": "DEMO-IND-5012-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-5012-data-sheet.pdf",
+    "external_id": "DEMO-IND-5012-DS"
+  },
+  {
+    "code": "DEMO-IND-6011-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-6011-data-sheet.pdf",
+    "external_id": "DEMO-IND-6011-DS"
+  },
+  {
+    "code": "DEMO-IND-6012-DS",
+    "family": "downloads",
+    "file": "assets/downloads/demo-ind-6012-data-sheet.pdf",
+    "external_id": "DEMO-IND-6012-DS"
+  },
+  {
+    "code": "DEMO-BRAKKWERK-LOGO",
+    "family": "manufacturer_logos",
+    "file": "assets/logos/demo-brakkwerk.svg",
+    "external_id": "DEMO-BRAKKWERK-LOGO"
+  },
+  {
+    "code": "DEMO-BRAKKWERK-LOGO-PNG",
+    "family": "manufacturer_logos",
+    "file": "assets/logos/demo-brakkwerk.png",
+    "external_id": "DEMO-BRAKKWERK-LOGO-PNG"
+  },
+  {
+    "code": "DEMO-HARTFELL-LOGO",
+    "family": "manufacturer_logos",
+    "file": "assets/logos/demo-hartfell.svg",
+    "external_id": "DEMO-HARTFELL-LOGO"
+  },
+  {
+    "code": "DEMO-HARTFELL-LOGO-PNG",
+    "family": "manufacturer_logos",
+    "file": "assets/logos/demo-hartfell.png",
+    "external_id": "DEMO-HARTFELL-LOGO-PNG"
+  },
+  {
+    "code": "DEMO-IND-IMG",
+    "family": "category_images",
+    "file": "assets/categories/demo-ind.jpg",
+    "external_id": "DEMO-IND-IMG"
+  },
+  {
+    "code": "DEMO-IND-POWER-TOOLS-IMG",
+    "family": "category_images",
+    "file": "assets/categories/demo-ind-power-tools.jpg",
+    "external_id": "DEMO-IND-POWER-TOOLS-IMG"
+  },
+  {
+    "code": "DEMO-IND-FASTENERS-IMG",
+    "family": "category_images",
+    "file": "assets/categories/demo-ind-fasteners.jpg",
+    "external_id": "DEMO-IND-FASTENERS-IMG"
+  },
+  {
+    "code": "DEMO-IND-SAFETY-IMG",
+    "family": "category_images",
+    "file": "assets/categories/demo-ind-safety.jpg",
+    "external_id": "DEMO-IND-SAFETY-IMG"
+  },
+  {
+    "code": "DEMO-IND-HAND-TOOLS-IMG",
+    "family": "category_images",
+    "file": "assets/categories/demo-ind-hand-tools.jpg",
+    "external_id": "DEMO-IND-HAND-TOOLS-IMG"
+  },
+  {
+    "code": "DEMO-IND-ABRASIVES-IMG",
+    "family": "category_images",
+    "file": "assets/categories/demo-ind-abrasives.jpg",
+    "external_id": "DEMO-IND-ABRASIVES-IMG"
+  },
+  {
+    "code": "DEMO-IND-WORKSHOP-IMG",
+    "family": "category_images",
+    "file": "assets/categories/demo-ind-workshop.jpg",
+    "external_id": "DEMO-IND-WORKSHOP-IMG"
   }
 ]

@@ -1,0 +1,30 @@
+{
+ "DEMO-OFF": {
+  "photos": "4c787e9c75f7f244",
+  "prompt": "023add994d117a84"
+ },
+ "DEMO-OFF-BREAKROOM": {
+  "photos": "0672bce282e79504",
+  "prompt": "963f6b5eeca024ab"
+ },
+ "DEMO-OFF-CLEAN": {
+  "photos": "78b17405eb275341",
+  "prompt": "e96a73d562f2fa4c"
+ },
+ "DEMO-OFF-DESK": {
+  "photos": "cb5ebc9fdd90d5db",
+  "prompt": "9c6cad39d9eb97a4"
+ },
+ "DEMO-OFF-MAIL": {
+  "photos": "87274a56ebc89c15",
+  "prompt": "93e29bda999cdf1a"
+ },
+ "DEMO-OFF-PAPER": {
+  "photos": "e6519076ec3ef01a",
+  "prompt": "018117c002a00534"
+ },
+ "DEMO-OFF-WRITING": {
+  "photos": "9de59f011747d465",
+  "prompt": "8b1b16056d6811e3"
+ }
+}

@@ -33,9 +33,19 @@ Each pack has the following:
 - **Two fictional manufacturers.**
 - **A list price list** with quantity breaks, plus contract prices for the buyer company.
 - **Stock**, with a few products below their reorder point and two out of stock.
-- **About 130 files:** an illustration for every product, dimension drawings (SVG and PDF), a data sheet (PDF) and, in every pack except `office`, 3D models (STEP). The base adds one filterable yes/no attribute, *With CAD files (STEP)* (`demo_has_cad`), which finds the products with a 3D model across every pack.
+- **400 to 500 files:** a product photo and a close-up in use for every product, a technical drawing (SVG and PDF) for most models, a data sheet (PDF) for every model, a logo for each manufacturer, an image for each category and, in every pack except `office`, 3D models (STEP). The base adds one filterable yes/no attribute, *With CAD files (STEP)* (`demo_has_cad`), which finds the products with a 3D model across every pack.
 
 A model and each of its variants are separate product records, so `seed.sh` reports 125 products per pack, 500 for all four.
+
+This is how the packs look in a shop:
+
+![The industrial pack in a shop](docs/shop-ind.png)
+
+![The electrical pack in a shop](docs/shop-ele.png)
+
+![The office pack in a shop](docs/shop-off.png)
+
+![The lab pack in a shop](docs/shop-lab.png)
 
 All names, products and companies are invented. Every record you look up by code carries the prefix `DEMO-` (`demo_` where a code takes no hyphen, such as attributes and the market `demo_de`), so you can tell sample data from your own as long as you don't use these prefixes yourself. Values inside those records, such as option codes (`black`, `a4`), the market's tax classes (`standard`, `reduced`), locales and the currency, are plain. [What it changes on your tenant](#what-it-changes-on-your-tenant) lists everything it writes.
 
@@ -67,7 +77,7 @@ Every load includes the base; `--pack` adds packs: `industrial`, `electrical`, `
 ./seed.sh --pack lab --dry-run       # show what would happen, change nothing
 ```
 
-The first run uploads about 130 files per pack, and storage accepts 60 uploads a minute, so loading the base and one pack takes about three minutes; `seed.sh` waits out the limit on its own. Later runs upload only what changed, but still check every record, so they take a little over a minute per pack. You see one line per step:
+The first run uploads 400 to 500 files per pack (photos, drawings, data sheets, logos and category images; about 1,900 for all four), and storage accepts 60 uploads a minute, so `seed.sh` spends most of its time waiting out that limit, on its own. Loading one pack into an empty tenant takes about 10 minutes, all four about 40. Later runs upload only what changed, but still check every record, so they take about 4 minutes per pack. You see one line per step:
 
 ```
 Seeding tenant your-tenant
@@ -222,7 +232,7 @@ api "/products?parent_id=$MODEL" | jq -r '.items[] | "\(.sku): \(.label)"'
 
 ### 9. Images, drawings, data sheets and 3D models
 
-Every product has an image. Selected parts also have a dimension drawing, a data sheet or a 3D model (STEP), uploaded to your tenant's storage in the folder `sample-data/<pack>` (0.3 to 0.55 MB per pack). In Cockpit, open the media library and pick `demo-ind-2002-hex-bolt-m8x40.step`. The bolt opens in the 3D viewer, at real size (15 × 13 × 45.3 mm); on a phone it opens in AR. Data sheets are PDFs, drawings come as SVG and PDF, and all of them are marked *SAMPLE — fictional product*.
+Every product has a photo and a close-up in use, every model a data sheet, and most models a technical drawing; selected parts also have a 3D model (STEP). Manufacturers get a logo and categories an image. All of it is uploaded to your tenant's storage in the folder `sample-data/<pack>` (14 to 27 MB per pack). In Cockpit, open the media library and pick `demo-ind-2002-hex-bolt-m8x40.step`. The bolt opens in the 3D viewer, at real size (15 × 13 × 45.3 mm); on a phone it opens in AR. Data sheets are PDFs, drawings come as SVG and PDF, and all of them are marked *SAMPLE — fictional product*.
 
 ### 10. Your ERP keys
 
@@ -271,8 +281,8 @@ Each pack is generated from a short spec in `tools/packs/<pack>.py`. To add one:
 
 1. Copy a spec to `tools/packs/<yours>.py`. Use your own prefix, categories, attributes and products.
 2. Run `python3 tools/build-pack.py <yours>` to write `packs/<yours>/`.
-3. Add illustrations in `tools/art/<yours>.mjs`, then run `node tools/build-art.mjs <yours>` (needs `rsvg-convert`, from librsvg).
-4. Add drawings and data sheets in `tools/docs/<yours>.mjs`, then run `node tools/build-docs.mjs <yours>`.
+3. Add product photos: write simple 3D models and short descriptions in `tools/photo/models/<yours>_*.py` (see `office_example.py`), then run `python3 tools/build-photos.py <yours>`. It needs Blender and a local image model on Apple silicon; the script's header explains the one-time setup.
+4. Add hand-made drawings in `tools/docs/<yours>.mjs` and run `node tools/build-docs.mjs <yours>`; `node tools/build-datasheets.mjs <yours>` writes a data sheet for every model.
 5. Optionally add 3D parts in `tools/cad/<yours>.py` (needs `pip install cadquery`).
 6. Run `./seed.sh --pack <yours>` twice. The second run must report `0 created`.
 
@@ -282,5 +292,5 @@ Steps 3 to 5 are only for generating the files. Loading never needs them.
 
 - **Scripts:** MIT, see [LICENSE](LICENSE).
 - **Data, images, drawings, data sheets and 3D models:** CC BY 4.0, see [LICENSE-DATA](LICENSE-DATA).
-- **Assets:** every file was made for this repository by the scripts in `tools/`. [ASSETS.md](ASSETS.md) lists each file and how it was made.
+- **Assets:** every file was made for this repository by the scripts in `tools/`. [ASSETS.md](ASSETS.md) lists each file and how it was made. The product photos are AI-generated from our own 3D models with a locally run, Apache-2.0 licensed image model.
 - **Fictional content:** the products, manufacturers and companies are invented. Any resemblance to real products or companies is unintended.

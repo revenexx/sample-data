@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="200" viewBox="0 0 640 200">
+  <title>Probara</title>
+  <g transform="translate(20 44)">
+  <polygon points="0,72 72,0 96,24 24,96" fill="#9B2C6B"/>
+  <polygon points="112,48 136,0 160,48" fill="#9B2C6B"/>
+  <rect x="112" y="64" width="48" height="48" fill="#3A2A35"/>
+  </g>
+  <text x="200" y="120" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="76" fill="#2F343C">Probara</text>
+</svg>

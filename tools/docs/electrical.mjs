@@ -65,12 +65,4 @@ export const drawings = {
   'demo-ele-2003-socket-outlet': { sku: 'DEMO-ELE-2003', scale: '2:1', svg: socketOutlet },
 };
 
-export const datasheets = {
-  'demo-ele-1001-data-sheet': {
-    sku: 'DEMO-ELE-1001',
-    rows: [
-      ['Cores / Adern', '3 × 1.5 mm²'], ['Conductor / Leiter', 'Copper / Kupfer'], ['Rated voltage / Nennspannung', '300 V'],
-      ['Length / Länge', '100 m ring / Ring'], ['Weight / Gewicht', '9.4 kg (ring / Ring)'], ['Insulation / Isolierung', 'PVC'],
-    ],
-  },
-};
+export const datasheets = {};

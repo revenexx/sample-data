@@ -1,5 +1,23 @@
 [
   {
+    "attribute": "demo_off_blend",
+    "code": "arabica",
+    "labels": {
+      "de-DE": "100 % Arabica",
+      "en-US": "100% Arabica"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_off_blend",
+    "code": "arabica_robusta",
+    "labels": {
+      "de-DE": "Arabica und Robusta",
+      "en-US": "Arabica and Robusta"
+    },
+    "position": 1
+  },
+  {
     "attribute": "demo_off_format",
     "code": "a3",
     "labels": {
@@ -142,5 +160,203 @@
       "en-US": "Paper"
     },
     "position": 2
+  },
+  {
+    "attribute": "demo_off_material",
+    "code": "metal",
+    "labels": {
+      "de-DE": "Metall",
+      "en-US": "Metal"
+    },
+    "position": 3
+  },
+  {
+    "attribute": "demo_off_material",
+    "code": "wood",
+    "labels": {
+      "de-DE": "Holz",
+      "en-US": "Wood"
+    },
+    "position": 4
+  },
+  {
+    "attribute": "demo_off_material",
+    "code": "microfibre",
+    "labels": {
+      "de-DE": "Mikrofaser",
+      "en-US": "Microfibre"
+    },
+    "position": 5
+  },
+  {
+    "attribute": "demo_off_writing_tip",
+    "code": "ball",
+    "labels": {
+      "de-DE": "Kugel",
+      "en-US": "Ballpoint"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_off_writing_tip",
+    "code": "gel",
+    "labels": {
+      "de-DE": "Gel",
+      "en-US": "Gel"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_off_writing_tip",
+    "code": "fibre",
+    "labels": {
+      "de-DE": "Faser",
+      "en-US": "Fibre"
+    },
+    "position": 2
+  },
+  {
+    "attribute": "demo_off_writing_tip",
+    "code": "chisel",
+    "labels": {
+      "de-DE": "Keil",
+      "en-US": "Chisel"
+    },
+    "position": 3
+  },
+  {
+    "attribute": "demo_off_writing_tip",
+    "code": "round",
+    "labels": {
+      "de-DE": "Rund",
+      "en-US": "Round"
+    },
+    "position": 4
+  },
+  {
+    "attribute": "demo_off_writing_tip",
+    "code": "graphite",
+    "labels": {
+      "de-DE": "Graphit",
+      "en-US": "Graphite"
+    },
+    "position": 5
+  },
+  {
+    "attribute": "demo_off_hardness",
+    "code": "hb",
+    "labels": {
+      "de-DE": "HB",
+      "en-US": "HB"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_off_hardness",
+    "code": "2b",
+    "labels": {
+      "de-DE": "2B",
+      "en-US": "2B"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_off_staple_size",
+    "code": "24_6",
+    "labels": {
+      "de-DE": "24/6",
+      "en-US": "24/6"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_off_staple_size",
+    "code": "26_6",
+    "labels": {
+      "de-DE": "26/6",
+      "en-US": "26/6"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_off_staple_size",
+    "code": "23_10",
+    "labels": {
+      "de-DE": "23/10",
+      "en-US": "23/10"
+    },
+    "position": 2
+  },
+  {
+    "attribute": "demo_off_roast",
+    "code": "light",
+    "labels": {
+      "de-DE": "Hell",
+      "en-US": "Light"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_off_roast",
+    "code": "medium",
+    "labels": {
+      "de-DE": "Mittel",
+      "en-US": "Medium"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_off_roast",
+    "code": "dark",
+    "labels": {
+      "de-DE": "Dunkel",
+      "en-US": "Dark"
+    },
+    "position": 2
+  },
+  {
+    "attribute": "demo_off_mount",
+    "code": "wall",
+    "labels": {
+      "de-DE": "Wandmontage",
+      "en-US": "Wall-mounted"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_off_mount",
+    "code": "freestanding",
+    "labels": {
+      "de-DE": "Standgerät",
+      "en-US": "Freestanding"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_off_corrugation",
+    "code": "single",
+    "labels": {
+      "de-DE": "Einwellig",
+      "en-US": "Single-wall"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_off_corrugation",
+    "code": "double",
+    "labels": {
+      "de-DE": "Zweiwellig",
+      "en-US": "Double-wall"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_off_scale",
+    "code": "mm_cm",
+    "labels": {
+      "de-DE": "mm/cm",
+      "en-US": "mm/cm"
+    },
+    "position": 0
   }
 ]

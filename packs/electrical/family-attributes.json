@@ -157,26 +157,248 @@
   },
   {
     "family": "DEMO-ELE-ARTICLE",
-    "attribute": "demo_ele_images",
+    "attribute": "demo_ele_warranty",
     "position": 26,
     "is_required": false
   },
   {
     "family": "DEMO-ELE-ARTICLE",
-    "attribute": "demo_ele_drawings",
+    "attribute": "demo_ele_material",
     "position": 27,
     "is_required": false
   },
   {
     "family": "DEMO-ELE-ARTICLE",
-    "attribute": "demo_ele_downloads",
+    "attribute": "demo_ele_protection_class",
     "position": 28,
     "is_required": false
   },
   {
     "family": "DEMO-ELE-ARTICLE",
-    "attribute": "demo_has_cad",
+    "attribute": "demo_ele_cable_type",
     "position": 29,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_conductor_class",
+    "position": 30,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_insulation",
+    "position": 31,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_max_current",
+    "position": 32,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_max_temp",
+    "position": 33,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_switch_type",
+    "position": 34,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_outlets",
+    "position": 35,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_earthing_contact",
+    "position": 36,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_usb_ports",
+    "position": 37,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_terminal_cross_section",
+    "position": 38,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_electrical_life",
+    "position": 39,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_luminous_efficacy",
+    "position": 40,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_colour_rendering",
+    "position": 41,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_lifetime",
+    "position": 42,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_dimmable",
+    "position": 43,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_emergency_hours",
+    "position": 44,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_detection_range",
+    "position": 45,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_breaking_capacity",
+    "position": 46,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_trip_time",
+    "position": 47,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_rcd_type",
+    "position": 48,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_surge_protection",
+    "position": 49,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_discharge_current",
+    "position": 50,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_gangs",
+    "position": 51,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_flame_retardant",
+    "position": 52,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_insulated",
+    "position": 53,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_clamping_range",
+    "position": 54,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_tensile_strength",
+    "position": 55,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_strap_width",
+    "position": 56,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_min_cross_section",
+    "position": 57,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_max_cross_section",
+    "position": 58,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_vde_tested",
+    "position": 59,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_measurement_range",
+    "position": 60,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_measurement_category",
+    "position": 61,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_max_cable_diameter",
+    "position": 62,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_images",
+    "position": 63,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_drawings",
+    "position": 64,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_ele_downloads",
+    "position": 65,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-ELE-ARTICLE",
+    "attribute": "demo_has_cad",
+    "position": 66,
     "is_required": false
   }
 ]

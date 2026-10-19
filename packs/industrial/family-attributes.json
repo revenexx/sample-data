@@ -121,26 +121,350 @@
   },
   {
     "family": "DEMO-IND-ARTICLE",
-    "attribute": "demo_ind_images",
+    "attribute": "demo_ind_no_load_speed",
     "position": 20,
     "is_required": false
   },
   {
     "family": "DEMO-IND-ARTICLE",
-    "attribute": "demo_ind_drawings",
+    "attribute": "demo_ind_torque_max",
     "position": 21,
     "is_required": false
   },
   {
     "family": "DEMO-IND-ARTICLE",
-    "attribute": "demo_ind_downloads",
+    "attribute": "demo_ind_chuck_size",
     "position": 22,
     "is_required": false
   },
   {
     "family": "DEMO-IND-ARTICLE",
-    "attribute": "demo_has_cad",
+    "attribute": "demo_ind_protection_class",
     "position": 23,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_cable_length",
+    "position": 24,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_cutting_depth",
+    "position": 25,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_stroke_rate",
+    "position": 26,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_impact_rate",
+    "position": 27,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_charge_time",
+    "position": 28,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_dust_extraction",
+    "position": 29,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_variable_speed",
+    "position": 30,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_led_light",
+    "position": 31,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_battery_type",
+    "position": 32,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_cell_count",
+    "position": 33,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_charge_indicator",
+    "position": 34,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_gears",
+    "position": 35,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_temperature_max",
+    "position": 36,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_heat_levels",
+    "position": 37,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_belt_width",
+    "position": 38,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_filter_class",
+    "position": 39,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_noise_level",
+    "position": 40,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_head_type",
+    "position": 41,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_drive_type",
+    "position": 42,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_thread_type",
+    "position": 43,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_strength_class",
+    "position": 44,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_point_type",
+    "position": 45,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_diameter",
+    "position": 46,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_bore_diameter",
+    "position": 47,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_outer_diameter",
+    "position": 48,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_thickness",
+    "position": 49,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_sheet_thickness",
+    "position": 50,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_max_speed",
+    "position": 51,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_drill_diameter",
+    "position": 52,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_drill_depth",
+    "position": 53,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_backing",
+    "position": 54,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_sizes_count",
+    "position": 55,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_hardness",
+    "position": 56,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_opening_width",
+    "position": 57,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_cut_capacity",
+    "position": 58,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_max_pressure",
+    "position": 59,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_mobile",
+    "position": 60,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_adjustable",
+    "position": 61,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_tooth_count",
+    "position": 62,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_warranty",
+    "position": 63,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_colour",
+    "position": 64,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_packaging",
+    "position": 65,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_reusable",
+    "position": 66,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_norm",
+    "position": 67,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_accuracy",
+    "position": 68,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_accuracy_class",
+    "position": 69,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_handle",
+    "position": 70,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_teeth_per_inch",
+    "position": 71,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_file_cut",
+    "position": 72,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_compartments",
+    "position": 73,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_images",
+    "position": 74,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_drawings",
+    "position": 75,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_ind_downloads",
+    "position": 76,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-IND-ARTICLE",
+    "attribute": "demo_has_cad",
+    "position": 77,
     "is_required": false
   }
 ]

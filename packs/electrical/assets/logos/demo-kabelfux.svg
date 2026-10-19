@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="200" viewBox="0 0 640 200">
+  <title>Kabelfux</title>
+  <g transform="translate(20 44)">
+  <rect x="0" y="0" width="96" height="96" fill="#4A6078"/>
+  <polygon points="112,48 136,0 160,48" fill="#2F3E4E"/>
+  <circle cx="136.0" cy="88.0" r="24.0" fill="#2F3E4E"/>
+  </g>
+  <text x="200" y="120" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="76" fill="#2F343C">Kabelfux</text>
+</svg>

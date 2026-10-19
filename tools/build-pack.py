@@ -32,10 +32,8 @@ WRITTEN = set()
 
 def prune(out, assets):
     """Delete what this build no longer produces, so nothing stale is committed
-    or loaded: data files it did not write, and asset files no record names
-    (an illustration's .svg source stays next to its .png)."""
+    or loaded: data files it did not write, and asset files no record names."""
     keep = {out / a["file"] for a in assets}
-    keep |= {p.with_suffix(".svg") for p in keep if p.parent.name == "images"}
     for path in sorted(out.rglob("*")):
         if path.is_file() and path not in WRITTEN and path not in keep and (path.suffix == ".json" or "assets" in path.relative_to(out).parts):
             path.unlink()
@@ -100,6 +98,9 @@ def build(pack):
     write(out / "manufacturers.json", [
         {"code": m["code"], "name": m["name"], "legal_name": f"{m['legal_name']} (fictional)", "country": "DE", "city": "Musterstadt",
          "external_id": m["code"], "descriptions": L(*m["about"])} for m in P["makers"]])
+    # The logo is a file, so it can only be set after the files step has uploaded it: a second
+    # manufacturers step (after files) PUTs just the logo onto the same records.
+    write(out / "manufacturer-logos.json", [{"code": m["code"], "logo": f"{m['code']}-LOGO"} for m in P["makers"]])
 
     # Products: the model's variants are generated from the axis options.
     products, links = [], []
@@ -107,7 +108,7 @@ def build(pack):
         common = {f"{attr_pre}{k}": val for k, val in values.items()}
         # The main image as a storage key (folder/file, no tenant): what a
         # storefront reads to show the product, next to the asset collection.
-        common["image"] = f"sample-data/{pack}/{sku.lower()}.png"
+        common["image"] = f"sample-data/{pack}/{sku.lower()}.jpg"
         rec = {"sku": sku, "kind": kind, "family": family, "manufacturer": p["maker"], "tax_class": p.get("tax_class", "standard"),
                "enabled": True, "external_id": sku,
                "attribute_values": {"common": common, "locale_specific": {
@@ -136,7 +137,21 @@ def build(pack):
         return code
     for rec in products:
         sku = rec["sku"]
-        media.setdefault(sku, {})[f"{attr_pre}images"] = [asset(f"{sku}-IMG", "product_images", f"images/{sku.lower()}.png")]
+        images = [asset(f"{sku}-IMG", "product_images", f"images/{sku.lower()}.jpg")]
+        # The second image, the product in use (tools/build-scenes.py), when it exists.
+        if (out / "assets" / "images" / f"{sku.lower()}-2.jpg").exists():
+            images.append(asset(f"{sku}-IMG-2", "product_images", f"images/{sku.lower()}-2.jpg"))
+        media.setdefault(sku, {})[f"{attr_pre}images"] = images
+    # Automatic drawings (tools/build-drawings.py) for SKUs without a hand-made one.
+    hand = set(P.get("drawings", {}).values())
+    for rec in products:
+        sku = rec["sku"]
+        name = sku.lower() + "-drawing"
+        if sku in hand or not (out / "assets" / "drawings" / f"{name}.pdf").exists():
+            continue
+        base = sku + "-DRW"
+        media[sku][f"{attr_pre}drawings"] = [asset(f"{base}-PDF", "technical_drawings", f"drawings/{name}.pdf"),
+                                             asset(f"{base}-SVG", "technical_drawings", f"drawings/{name}.svg")]
     for name, sku in P.get("drawings", {}).items():
         base = name.upper()
         media[sku][f"{attr_pre}drawings"] = [asset(f"{base}-PDF", "technical_drawings", f"drawings/{name}.pdf"),
@@ -145,6 +160,29 @@ def build(pack):
         media[sku].setdefault(f"{attr_pre}downloads", []).append(asset(f"{name.upper()}-STEP", "downloads", f"cad/{name}.step"))
     for name, sku in P.get("datasheets", {}).items():
         media[sku].setdefault(f"{attr_pre}downloads", []).append(asset(name.upper(), "downloads", f"downloads/{name}.pdf"))
+    # Automatic data sheets (tools/build-datasheets.mjs) for parents without a hand-made one. One asset per
+    # parent, linked to the parent and to each of its variants.
+    hand_sheets = set(P.get("datasheets", {}).values())
+    for rec in products:
+        sku = rec["sku"]
+        name = sku.lower() + "-data-sheet"
+        if rec.get("parent") or sku in hand_sheets or not (out / "assets" / "downloads" / f"{name}.pdf").exists():
+            continue
+        sheet = asset(f"{sku}-DS", "downloads", f"downloads/{name}.pdf")
+        for linked in [sku] + [r["sku"] for r in products if r.get("parent") == sku]:
+            media[linked].setdefault(f"{attr_pre}downloads", []).append(sheet)
+    # Manufacturer logos (tools/build-logos.py): the SVG is the logo, the PNG a raster copy.
+    for m in P["makers"]:
+        stem = m["code"].lower()
+        asset(f"{m['code']}-LOGO", "manufacturer_logos", f"logos/{stem}.svg")
+        asset(f"{m['code']}-LOGO-PNG", "manufacturer_logos", f"logos/{stem}.png")
+    # Category images (tools/build-categories.py), set after the files step like the logos.
+    cat_images = []
+    for c in P["categories"]:
+        if (out / "assets" / "categories" / f"{c['code'].lower()}.jpg").exists():
+            asset(f"{c['code']}-IMG", "category_images", f"categories/{c['code'].lower()}.jpg")
+            cat_images.append({"code": c["code"], "values": {"image": f"{c['code']}-IMG"}})
+    write(out / "category-images.json", cat_images)
     order = ["images", "drawings", "downloads"]
     for rec in products:
         for key in order:
@@ -191,6 +229,13 @@ def build(pack):
         {"name": "files", "kind": "files", "folder": f"sample-data/{pack}", "tags": ["revenexx-sample-data", f"pack-{pack}"],
          "route": "/products/assets", "key": ["asset_family_id", "code"], "file": "assets.json",
          "refs": {"asset_family_id": {"field": "family", "route": "/products/asset_families", "key": "code", "in": "body"}}},
+        # Only sets the logo (PUT merges). "remove": "with_parent" = not removed on its own: the maker goes with
+        # the "manufacturers" step, which remove.sh runs after this one.
+        {"name": "manufacturer logos", "route": "/products/manufacturers", "key": "code", "file": "manufacturer-logos.json",
+         "remove": "with_parent"},
+        # Only sets the category image; the category goes with the "categories" step.
+        {"name": "category images", "route": "/products/categories", "key": "code", "file": "category-images.json",
+         "remove": "with_parent"},
         {"name": "products", "route": "/products", "key": "sku", "file": "products.json",
          "refs": {"family_id": ref("family", "/products/families"), "manufacturer_id": ref("manufacturer", "/products/manufacturers"),
                   "family_variant_id": ref("family_variant", "/products/family_variants"), "parent_id": ref("parent", "/products", "sku")}},

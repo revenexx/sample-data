@@ -264,6 +264,734 @@
     "is_filterable": true
   },
   {
+    "code": "demo_ind_no_load_speed",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Leerlaufdrehzahl max.",
+      "en-US": "Max. no-load speed"
+    },
+    "position": 17,
+    "external_id": "demo_ind_no_load_speed",
+    "config": {
+      "units": [
+        "REVOLUTIONS_PER_MINUTE"
+      ]
+    }
+  },
+  {
+    "code": "demo_ind_torque_max",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Drehmoment max. (Nm)",
+      "en-US": "Max. torque (Nm)"
+    },
+    "position": 18,
+    "external_id": "demo_ind_torque_max"
+  },
+  {
+    "code": "demo_ind_chuck_size",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Spannfutter (mm)",
+      "en-US": "Chuck capacity (mm)"
+    },
+    "position": 19,
+    "external_id": "demo_ind_chuck_size"
+  },
+  {
+    "code": "demo_ind_protection_class",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Schutzklasse",
+      "en-US": "Protection class"
+    },
+    "position": 20,
+    "external_id": "demo_ind_protection_class"
+  },
+  {
+    "code": "demo_ind_cable_length",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Kabellänge",
+      "en-US": "Cable length"
+    },
+    "position": 21,
+    "external_id": "demo_ind_cable_length",
+    "config": {
+      "units": [
+        "METER"
+      ]
+    }
+  },
+  {
+    "code": "demo_ind_cutting_depth",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Schnitttiefe max.",
+      "en-US": "Max. cutting depth"
+    },
+    "position": 22,
+    "external_id": "demo_ind_cutting_depth",
+    "config": {
+      "units": [
+        "MILLIMETER"
+      ]
+    }
+  },
+  {
+    "code": "demo_ind_stroke_rate",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Hubzahl (Hübe/min)",
+      "en-US": "Stroke rate (strokes/min)"
+    },
+    "position": 23,
+    "external_id": "demo_ind_stroke_rate"
+  },
+  {
+    "code": "demo_ind_impact_rate",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Schlagzahl (Schläge/min)",
+      "en-US": "Impact rate (impacts/min)"
+    },
+    "position": 24,
+    "external_id": "demo_ind_impact_rate"
+  },
+  {
+    "code": "demo_ind_charge_time",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Ladezeit (Min.)",
+      "en-US": "Charge time (min)"
+    },
+    "position": 25,
+    "external_id": "demo_ind_charge_time"
+  },
+  {
+    "code": "demo_ind_dust_extraction",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Staubabsaugung",
+      "en-US": "Dust extraction"
+    },
+    "position": 26,
+    "external_id": "demo_ind_dust_extraction"
+  },
+  {
+    "code": "demo_ind_variable_speed",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Drehzahlregelung",
+      "en-US": "Variable speed"
+    },
+    "position": 27,
+    "external_id": "demo_ind_variable_speed"
+  },
+  {
+    "code": "demo_ind_led_light",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "LED-Arbeitslicht",
+      "en-US": "LED work light"
+    },
+    "position": 28,
+    "external_id": "demo_ind_led_light"
+  },
+  {
+    "code": "demo_ind_battery_type",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Akkutechnik",
+      "en-US": "Battery technology"
+    },
+    "position": 29,
+    "external_id": "demo_ind_battery_type"
+  },
+  {
+    "code": "demo_ind_cell_count",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Zellen (Anzahl)",
+      "en-US": "Cells (number)"
+    },
+    "position": 30,
+    "external_id": "demo_ind_cell_count"
+  },
+  {
+    "code": "demo_ind_charge_indicator",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Ladestandsanzeige",
+      "en-US": "Charge indicator"
+    },
+    "position": 31,
+    "external_id": "demo_ind_charge_indicator"
+  },
+  {
+    "code": "demo_ind_gears",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Gänge (Anzahl)",
+      "en-US": "Gears (number)"
+    },
+    "position": 32,
+    "external_id": "demo_ind_gears"
+  },
+  {
+    "code": "demo_ind_temperature_max",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Temperatur max. (°C)",
+      "en-US": "Max. temperature (°C)"
+    },
+    "position": 33,
+    "external_id": "demo_ind_temperature_max"
+  },
+  {
+    "code": "demo_ind_heat_levels",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Heizstufen (Anzahl)",
+      "en-US": "Heat levels (number)"
+    },
+    "position": 34,
+    "external_id": "demo_ind_heat_levels"
+  },
+  {
+    "code": "demo_ind_belt_width",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Bandbreite",
+      "en-US": "Belt width"
+    },
+    "position": 35,
+    "external_id": "demo_ind_belt_width",
+    "config": {
+      "units": [
+        "MILLIMETER"
+      ]
+    }
+  },
+  {
+    "code": "demo_ind_filter_class",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Filterklasse",
+      "en-US": "Filter class"
+    },
+    "position": 36,
+    "external_id": "demo_ind_filter_class"
+  },
+  {
+    "code": "demo_ind_noise_level",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Schalldruck (dB(A))",
+      "en-US": "Sound pressure (dB(A))"
+    },
+    "position": 37,
+    "external_id": "demo_ind_noise_level",
+    "config": {
+      "units": [
+        "DECIBEL"
+      ]
+    }
+  },
+  {
+    "code": "demo_ind_head_type",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Kopfform",
+      "en-US": "Head type"
+    },
+    "position": 38,
+    "external_id": "demo_ind_head_type",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ind_drive_type",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Antrieb",
+      "en-US": "Drive"
+    },
+    "position": 39,
+    "external_id": "demo_ind_drive_type",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ind_thread_type",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Gewindeart",
+      "en-US": "Thread type"
+    },
+    "position": 40,
+    "external_id": "demo_ind_thread_type"
+  },
+  {
+    "code": "demo_ind_strength_class",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Festigkeitsklasse",
+      "en-US": "Property class"
+    },
+    "position": 41,
+    "external_id": "demo_ind_strength_class"
+  },
+  {
+    "code": "demo_ind_point_type",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Spitze",
+      "en-US": "Point"
+    },
+    "position": 42,
+    "external_id": "demo_ind_point_type"
+  },
+  {
+    "code": "demo_ind_diameter",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Durchmesser",
+      "en-US": "Diameter"
+    },
+    "position": 43,
+    "external_id": "demo_ind_diameter",
+    "config": {
+      "units": [
+        "MILLIMETER"
+      ]
+    }
+  },
+  {
+    "code": "demo_ind_bore_diameter",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Bohrung",
+      "en-US": "Bore diameter"
+    },
+    "position": 44,
+    "external_id": "demo_ind_bore_diameter",
+    "config": {
+      "units": [
+        "MILLIMETER"
+      ]
+    }
+  },
+  {
+    "code": "demo_ind_outer_diameter",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Außendurchmesser",
+      "en-US": "Outer diameter"
+    },
+    "position": 45,
+    "external_id": "demo_ind_outer_diameter",
+    "config": {
+      "units": [
+        "MILLIMETER"
+      ]
+    }
+  },
+  {
+    "code": "demo_ind_thickness",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Dicke",
+      "en-US": "Thickness"
+    },
+    "position": 46,
+    "external_id": "demo_ind_thickness",
+    "config": {
+      "units": [
+        "MILLIMETER"
+      ]
+    }
+  },
+  {
+    "code": "demo_ind_sheet_thickness",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Blechdicke max.",
+      "en-US": "Max. sheet thickness"
+    },
+    "position": 47,
+    "external_id": "demo_ind_sheet_thickness",
+    "config": {
+      "units": [
+        "MILLIMETER"
+      ]
+    }
+  },
+  {
+    "code": "demo_ind_max_speed",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Höchstdrehzahl",
+      "en-US": "Max. speed"
+    },
+    "position": 48,
+    "external_id": "demo_ind_max_speed",
+    "config": {
+      "units": [
+        "REVOLUTIONS_PER_MINUTE"
+      ]
+    }
+  },
+  {
+    "code": "demo_ind_drill_diameter",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Bohrlochdurchmesser",
+      "en-US": "Hole diameter"
+    },
+    "position": 49,
+    "external_id": "demo_ind_drill_diameter",
+    "config": {
+      "units": [
+        "MILLIMETER"
+      ]
+    }
+  },
+  {
+    "code": "demo_ind_drill_depth",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Bohrtiefe",
+      "en-US": "Hole depth"
+    },
+    "position": 50,
+    "external_id": "demo_ind_drill_depth",
+    "config": {
+      "units": [
+        "MILLIMETER"
+      ]
+    }
+  },
+  {
+    "code": "demo_ind_backing",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Trägermaterial",
+      "en-US": "Backing"
+    },
+    "position": 51,
+    "external_id": "demo_ind_backing",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ind_sizes_count",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ind_general",
+    "labels": {
+      "de-DE": "Größen (Anzahl)",
+      "en-US": "Sizes (number)"
+    },
+    "position": 52,
+    "external_id": "demo_ind_sizes_count"
+  },
+  {
+    "code": "demo_ind_hardness",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Härte (HRC)",
+      "en-US": "Hardness (HRC)"
+    },
+    "position": 53,
+    "external_id": "demo_ind_hardness"
+  },
+  {
+    "code": "demo_ind_opening_width",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Spannweite max.",
+      "en-US": "Max. opening"
+    },
+    "position": 54,
+    "external_id": "demo_ind_opening_width",
+    "config": {
+      "units": [
+        "MILLIMETER"
+      ]
+    }
+  },
+  {
+    "code": "demo_ind_cut_capacity",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Drahtdurchmesser max.",
+      "en-US": "Max. wire diameter"
+    },
+    "position": 55,
+    "external_id": "demo_ind_cut_capacity",
+    "config": {
+      "units": [
+        "MILLIMETER"
+      ]
+    }
+  },
+  {
+    "code": "demo_ind_max_pressure",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Betriebsdruck max. (bar)",
+      "en-US": "Max. operating pressure (bar)"
+    },
+    "position": 56,
+    "external_id": "demo_ind_max_pressure"
+  },
+  {
+    "code": "demo_ind_mobile",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Fahrbar",
+      "en-US": "Mobile"
+    },
+    "position": 57,
+    "external_id": "demo_ind_mobile",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ind_adjustable",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Verstellbar",
+      "en-US": "Adjustable"
+    },
+    "position": 58,
+    "external_id": "demo_ind_adjustable"
+  },
+  {
+    "code": "demo_ind_tooth_count",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Zähne (Anzahl)",
+      "en-US": "Teeth (number)"
+    },
+    "position": 59,
+    "external_id": "demo_ind_tooth_count"
+  },
+  {
+    "code": "demo_ind_warranty",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ind_general",
+    "labels": {
+      "de-DE": "Garantie (Jahre)",
+      "en-US": "Warranty (years)"
+    },
+    "position": 60,
+    "external_id": "demo_ind_warranty"
+  },
+  {
+    "code": "demo_ind_colour",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ind_general",
+    "labels": {
+      "de-DE": "Farbe",
+      "en-US": "Colour"
+    },
+    "position": 61,
+    "external_id": "demo_ind_colour"
+  },
+  {
+    "code": "demo_ind_packaging",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ind_general",
+    "labels": {
+      "de-DE": "Verpackung",
+      "en-US": "Packaging"
+    },
+    "position": 62,
+    "external_id": "demo_ind_packaging"
+  },
+  {
+    "code": "demo_ind_reusable",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_ind_general",
+    "labels": {
+      "de-DE": "Wiederverwendbar",
+      "en-US": "Reusable"
+    },
+    "position": 63,
+    "external_id": "demo_ind_reusable"
+  },
+  {
+    "code": "demo_ind_norm",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ind_general",
+    "labels": {
+      "de-DE": "Norm",
+      "en-US": "Standard"
+    },
+    "position": 64,
+    "external_id": "demo_ind_norm",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ind_accuracy",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Messgenauigkeit (mm/m)",
+      "en-US": "Accuracy (mm/m)"
+    },
+    "position": 65,
+    "external_id": "demo_ind_accuracy"
+  },
+  {
+    "code": "demo_ind_accuracy_class",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Genauigkeitsklasse (EG)",
+      "en-US": "Accuracy class (EC)"
+    },
+    "position": 66,
+    "external_id": "demo_ind_accuracy_class"
+  },
+  {
+    "code": "demo_ind_handle",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Griff",
+      "en-US": "Handle"
+    },
+    "position": 67,
+    "external_id": "demo_ind_handle"
+  },
+  {
+    "code": "demo_ind_teeth_per_inch",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Zähne pro Zoll (TPI)",
+      "en-US": "Teeth per inch (TPI)"
+    },
+    "position": 68,
+    "external_id": "demo_ind_teeth_per_inch"
+  },
+  {
+    "code": "demo_ind_file_cut",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Hieb",
+      "en-US": "Cut"
+    },
+    "position": 69,
+    "external_id": "demo_ind_file_cut"
+  },
+  {
+    "code": "demo_ind_compartments",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ind_technical",
+    "labels": {
+      "de-DE": "Fächer / Böden",
+      "en-US": "Compartments / shelves"
+    },
+    "position": 70,
+    "external_id": "demo_ind_compartments"
+  },
+  {
     "code": "demo_ind_images",
     "entity_type": "product",
     "type": "asset_collection",

@@ -91,26 +91,236 @@
   },
   {
     "family": "DEMO-LAB-ARTICLE",
-    "attribute": "demo_lab_images",
+    "attribute": "demo_lab_power_rating",
     "position": 15,
     "is_required": false
   },
   {
     "family": "DEMO-LAB-ARTICLE",
-    "attribute": "demo_lab_drawings",
+    "attribute": "demo_lab_power_supply",
     "position": 16,
     "is_required": false
   },
   {
     "family": "DEMO-LAB-ARTICLE",
-    "attribute": "demo_lab_downloads",
+    "attribute": "demo_lab_ip_rating",
     "position": 17,
     "is_required": false
   },
   {
     "family": "DEMO-LAB-ARTICLE",
-    "attribute": "demo_has_cad",
+    "attribute": "demo_lab_noise_level",
     "position": 18,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_control",
+    "position": 19,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_display",
+    "position": 20,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_warranty",
+    "position": 21,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_readability",
+    "position": 22,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_weighing_range",
+    "position": 23,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_timer_range",
+    "position": 24,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_ultimate_vacuum",
+    "position": 25,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_min_temp",
+    "position": 26,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_channels",
+    "position": 27,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_adjustable",
+    "position": 28,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_autoclavable",
+    "position": 29,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_dnase_free",
+    "position": 30,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_filter_insert",
+    "position": 31,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_antistatic",
+    "position": 32,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_stackable",
+    "position": 33,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_diameter",
+    "position": 34,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_pore_size",
+    "position": 35,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_graduation",
+    "position": 36,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_tolerance_class",
+    "position": 37,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_tolerance_ml",
+    "position": 38,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_ground_joint",
+    "position": 39,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_vacuum_resistant",
+    "position": 40,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_wall_thickness",
+    "position": 41,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_norm",
+    "position": 42,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_anti_fog",
+    "position": 43,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_uv_protection",
+    "position": 44,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_size",
+    "position": 45,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_powder_free",
+    "position": 46,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_flame_retardant",
+    "position": 47,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_line_width",
+    "position": 48,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_waterproof",
+    "position": 49,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_images",
+    "position": 50,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_drawings",
+    "position": 51,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_lab_downloads",
+    "position": 52,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-LAB-ARTICLE",
+    "attribute": "demo_has_cad",
+    "position": 53,
     "is_required": false
   }
 ]

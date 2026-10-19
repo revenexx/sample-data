@@ -17,12 +17,27 @@
           "amount": "1.4",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-1001.png",
+        "demo_ind_no_load_speed": {
+          "amount": "1800",
+          "unit": "REVOLUTIONS_PER_MINUTE"
+        },
+        "demo_ind_torque_max": 50,
+        "demo_ind_chuck_size": 13,
+        "demo_ind_led_light": true,
+        "demo_ind_battery_type": "li_ion",
+        "demo_ind_colour": "burgundy",
+        "demo_ind_warranty": 2,
+        "image": "sample-data/industrial/demo-ind-1001.jpg",
         "demo_ind_images": [
-          "DEMO-IND-1001-IMG"
+          "DEMO-IND-1001-IMG",
+          "DEMO-IND-1001-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-1001-DRW-PDF",
+          "DEMO-IND-1001-DRW-SVG"
         ],
         "demo_ind_downloads": [
-          "DEMO-IND-1001-DATA-SHEET"
+          "DEMO-IND-1001-DS"
         ],
         "demo_has_cad": false
       },
@@ -56,9 +71,27 @@
           "amount": "1.2",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-1002.png",
+        "demo_ind_no_load_speed": {
+          "amount": "3000",
+          "unit": "REVOLUTIONS_PER_MINUTE"
+        },
+        "demo_ind_torque_max": 170,
+        "demo_ind_impact_rate": 3300,
+        "demo_ind_gears": 2,
+        "demo_ind_battery_type": "li_ion",
+        "demo_ind_colour": "burgundy",
+        "demo_ind_warranty": 2,
+        "image": "sample-data/industrial/demo-ind-1002.jpg",
         "demo_ind_images": [
-          "DEMO-IND-1002-IMG"
+          "DEMO-IND-1002-IMG",
+          "DEMO-IND-1002-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-1002-DRW-PDF",
+          "DEMO-IND-1002-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-1002-DS"
         ],
         "demo_has_cad": false
       },
@@ -92,9 +125,32 @@
           "amount": "2.1",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-1003.png",
+        "demo_ind_power": {
+          "amount": "1200",
+          "unit": "WATT"
+        },
+        "demo_ind_no_load_speed": {
+          "amount": "11000",
+          "unit": "REVOLUTIONS_PER_MINUTE"
+        },
+        "demo_ind_protection_class": "ii",
+        "demo_ind_cable_length": {
+          "amount": "2.5",
+          "unit": "METER"
+        },
+        "demo_ind_colour": "burgundy",
+        "demo_ind_warranty": 2,
+        "image": "sample-data/industrial/demo-ind-1003.jpg",
         "demo_ind_images": [
-          "DEMO-IND-1003-IMG"
+          "DEMO-IND-1003-IMG",
+          "DEMO-IND-1003-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-1003-DRW-PDF",
+          "DEMO-IND-1003-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-1003-DS"
         ],
         "demo_has_cad": false
       },
@@ -132,9 +188,21 @@
           "amount": "0.6",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-1004.png",
+        "demo_ind_battery_type": "li_ion",
+        "demo_ind_cell_count": 10,
+        "demo_ind_charge_indicator": true,
+        "demo_ind_warranty": 2,
+        "image": "sample-data/industrial/demo-ind-1004.jpg",
         "demo_ind_images": [
-          "DEMO-IND-1004-IMG"
+          "DEMO-IND-1004-IMG",
+          "DEMO-IND-1004-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-1004-DRW-PDF",
+          "DEMO-IND-1004-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-1004-DS"
         ],
         "demo_has_cad": false
       },
@@ -166,16 +234,26 @@
         },
         "demo_ind_material": "steel_zinc",
         "demo_ind_pack_size": 500,
-        "image": "sample-data/industrial/demo-ind-2001.png",
+        "demo_ind_head_type": "countersunk",
+        "demo_ind_drive_type": "hexalobular",
+        "demo_ind_diameter": {
+          "amount": "4.0",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_thread_type": "partial",
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-2001.jpg",
         "demo_ind_images": [
-          "DEMO-IND-2001-IMG"
+          "DEMO-IND-2001-IMG",
+          "DEMO-IND-2001-IMG-2"
         ],
         "demo_ind_drawings": [
           "DEMO-IND-2001-WOOD-SCREW-4X40-PDF",
           "DEMO-IND-2001-WOOD-SCREW-4X40-SVG"
         ],
         "demo_ind_downloads": [
-          "DEMO-IND-2001-WOOD-SCREW-4X40-STEP"
+          "DEMO-IND-2001-WOOD-SCREW-4X40-STEP",
+          "DEMO-IND-2001-DS"
         ],
         "demo_has_cad": true
       },
@@ -208,16 +286,22 @@
         },
         "demo_ind_material": "steel_zinc",
         "demo_ind_pack_size": 100,
-        "image": "sample-data/industrial/demo-ind-2002.png",
+        "demo_ind_head_type": "hex",
+        "demo_ind_strength_class": "8_8",
+        "demo_ind_thread_type": "full",
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-2002.jpg",
         "demo_ind_images": [
-          "DEMO-IND-2002-IMG"
+          "DEMO-IND-2002-IMG",
+          "DEMO-IND-2002-IMG-2"
         ],
         "demo_ind_drawings": [
           "DEMO-IND-2002-HEX-BOLT-M8X40-PDF",
           "DEMO-IND-2002-HEX-BOLT-M8X40-SVG"
         ],
         "demo_ind_downloads": [
-          "DEMO-IND-2002-HEX-BOLT-M8X40-STEP"
+          "DEMO-IND-2002-HEX-BOLT-M8X40-STEP",
+          "DEMO-IND-2002-DS"
         ],
         "demo_has_cad": true
       },
@@ -248,16 +332,32 @@
           "unit": "MILLIMETER"
         },
         "demo_ind_pack_size": 10,
-        "image": "sample-data/industrial/demo-ind-2003.png",
+        "demo_ind_material": "corundum",
+        "demo_ind_thickness": {
+          "amount": "1.0",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_max_speed": {
+          "amount": "12200",
+          "unit": "REVOLUTIONS_PER_MINUTE"
+        },
+        "demo_ind_bore_diameter": {
+          "amount": "22.2",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-2003.jpg",
         "demo_ind_images": [
-          "DEMO-IND-2003-IMG"
+          "DEMO-IND-2003-IMG",
+          "DEMO-IND-2003-IMG-2"
         ],
         "demo_ind_drawings": [
           "DEMO-IND-2003-CUTTING-DISC-125-PDF",
           "DEMO-IND-2003-CUTTING-DISC-125-SVG"
         ],
         "demo_ind_downloads": [
-          "DEMO-IND-2003-CUTTING-DISC-125-STEP"
+          "DEMO-IND-2003-CUTTING-DISC-125-STEP",
+          "DEMO-IND-2003-DS"
         ],
         "demo_has_cad": true
       },
@@ -285,9 +385,16 @@
       "common": {
         "demo_ind_material": "nitrile",
         "demo_ind_cut_level": "b",
-        "image": "sample-data/industrial/demo-ind-3001.png",
+        "demo_ind_norm": "en388",
+        "demo_ind_reusable": true,
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-3001.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3001-IMG"
+          "DEMO-IND-3001-IMG",
+          "DEMO-IND-3001-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3001-DS"
         ],
         "demo_has_cad": false
       },
@@ -316,10 +423,17 @@
       "common": {
         "demo_ind_material": "nitrile",
         "demo_ind_cut_level": "b",
+        "demo_ind_norm": "en388",
+        "demo_ind_reusable": true,
+        "demo_ind_packaging": "box",
         "demo_ind_glove_size": "s",
-        "image": "sample-data/industrial/demo-ind-3001-s.png",
+        "image": "sample-data/industrial/demo-ind-3001-s.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3001-S-IMG"
+          "DEMO-IND-3001-S-IMG",
+          "DEMO-IND-3001-S-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3001-DS"
         ],
         "demo_has_cad": false
       },
@@ -349,10 +463,17 @@
       "common": {
         "demo_ind_material": "nitrile",
         "demo_ind_cut_level": "b",
+        "demo_ind_norm": "en388",
+        "demo_ind_reusable": true,
+        "demo_ind_packaging": "box",
         "demo_ind_glove_size": "m",
-        "image": "sample-data/industrial/demo-ind-3001-m.png",
+        "image": "sample-data/industrial/demo-ind-3001-m.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3001-M-IMG"
+          "DEMO-IND-3001-M-IMG",
+          "DEMO-IND-3001-M-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3001-DS"
         ],
         "demo_has_cad": false
       },
@@ -382,10 +503,17 @@
       "common": {
         "demo_ind_material": "nitrile",
         "demo_ind_cut_level": "b",
+        "demo_ind_norm": "en388",
+        "demo_ind_reusable": true,
+        "demo_ind_packaging": "box",
         "demo_ind_glove_size": "l",
-        "image": "sample-data/industrial/demo-ind-3001-l.png",
+        "image": "sample-data/industrial/demo-ind-3001-l.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3001-L-IMG"
+          "DEMO-IND-3001-L-IMG",
+          "DEMO-IND-3001-L-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3001-DS"
         ],
         "demo_has_cad": false
       },
@@ -415,10 +543,17 @@
       "common": {
         "demo_ind_material": "nitrile",
         "demo_ind_cut_level": "b",
+        "demo_ind_norm": "en388",
+        "demo_ind_reusable": true,
+        "demo_ind_packaging": "box",
         "demo_ind_glove_size": "xl",
-        "image": "sample-data/industrial/demo-ind-3001-xl.png",
+        "image": "sample-data/industrial/demo-ind-3001-xl.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3001-XL-IMG"
+          "DEMO-IND-3001-XL-IMG",
+          "DEMO-IND-3001-XL-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3001-DS"
         ],
         "demo_has_cad": false
       },
@@ -451,9 +586,17 @@
           "amount": "0.03",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-3002.png",
+        "demo_ind_norm": "en166",
+        "demo_ind_reusable": true,
+        "demo_ind_colour": "clear",
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-3002.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3002-IMG"
+          "DEMO-IND-3002-IMG",
+          "DEMO-IND-3002-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3002-DS"
         ],
         "demo_has_cad": false
       },
@@ -487,9 +630,17 @@
           "amount": "0.22",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-3003.png",
+        "demo_ind_norm": "en352",
+        "demo_ind_reusable": true,
+        "demo_ind_adjustable": true,
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-3003.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3003-IMG"
+          "DEMO-IND-3003-IMG",
+          "DEMO-IND-3003-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3003-DS"
         ],
         "demo_has_cad": false
       },
@@ -523,9 +674,30 @@
           "amount": "2.3",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-1005.png",
+        "demo_ind_chuck_size": 13,
+        "demo_ind_protection_class": "ii",
+        "demo_ind_cable_length": {
+          "amount": "3.0",
+          "unit": "METER"
+        },
+        "demo_ind_no_load_speed": {
+          "amount": "3000",
+          "unit": "REVOLUTIONS_PER_MINUTE"
+        },
+        "demo_ind_impact_rate": 47000,
+        "demo_ind_warranty": 2,
+        "demo_ind_colour": "burgundy",
+        "image": "sample-data/industrial/demo-ind-1005.jpg",
         "demo_ind_images": [
-          "DEMO-IND-1005-IMG"
+          "DEMO-IND-1005-IMG",
+          "DEMO-IND-1005-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-1005-DRW-PDF",
+          "DEMO-IND-1005-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-1005-DS"
         ],
         "demo_has_cad": false
       },
@@ -559,9 +731,30 @@
           "amount": "2.0",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-1006.png",
+        "demo_ind_protection_class": "ii",
+        "demo_ind_cable_length": {
+          "amount": "4.0",
+          "unit": "METER"
+        },
+        "demo_ind_stroke_rate": 2800,
+        "demo_ind_cutting_depth": {
+          "amount": "80",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_variable_speed": true,
+        "demo_ind_warranty": 2,
+        "demo_ind_colour": "burgundy",
+        "image": "sample-data/industrial/demo-ind-1006.jpg",
         "demo_ind_images": [
-          "DEMO-IND-1006-IMG"
+          "DEMO-IND-1006-IMG",
+          "DEMO-IND-1006-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-1006-DRW-PDF",
+          "DEMO-IND-1006-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-1006-DS"
         ],
         "demo_has_cad": false
       },
@@ -599,9 +792,32 @@
           "amount": "4.6",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-1007.png",
+        "demo_ind_protection_class": "ii",
+        "demo_ind_cable_length": {
+          "amount": "2.5",
+          "unit": "METER"
+        },
+        "demo_ind_cutting_depth": {
+          "amount": "65",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_no_load_speed": {
+          "amount": "5000",
+          "unit": "REVOLUTIONS_PER_MINUTE"
+        },
+        "demo_ind_warranty": 2,
+        "demo_ind_colour": "burgundy",
+        "image": "sample-data/industrial/demo-ind-1007.jpg",
         "demo_ind_images": [
-          "DEMO-IND-1007-IMG"
+          "DEMO-IND-1007-IMG",
+          "DEMO-IND-1007-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-1007-DRW-PDF",
+          "DEMO-IND-1007-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-1007-DS"
         ],
         "demo_has_cad": false
       },
@@ -635,9 +851,26 @@
           "amount": "1.9",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-1008.png",
+        "demo_ind_stroke_rate": 2600,
+        "demo_ind_cutting_depth": {
+          "amount": "60",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_battery_type": "li_ion",
+        "demo_ind_variable_speed": true,
+        "demo_ind_warranty": 2,
+        "demo_ind_colour": "burgundy",
+        "image": "sample-data/industrial/demo-ind-1008.jpg",
         "demo_ind_images": [
-          "DEMO-IND-1008-IMG"
+          "DEMO-IND-1008-IMG",
+          "DEMO-IND-1008-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-1008-DRW-PDF",
+          "DEMO-IND-1008-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-1008-DS"
         ],
         "demo_has_cad": false
       },
@@ -675,9 +908,28 @@
           "amount": "3.9",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-1009.png",
+        "demo_ind_cutting_depth": {
+          "amount": "55",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_no_load_speed": {
+          "amount": "5000",
+          "unit": "REVOLUTIONS_PER_MINUTE"
+        },
+        "demo_ind_battery_type": "li_ion",
+        "demo_ind_colour": "burgundy",
+        "demo_ind_warranty": 2,
+        "image": "sample-data/industrial/demo-ind-1009.jpg",
         "demo_ind_images": [
-          "DEMO-IND-1009-IMG"
+          "DEMO-IND-1009-IMG",
+          "DEMO-IND-1009-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-1009-DRW-PDF",
+          "DEMO-IND-1009-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-1009-DS"
         ],
         "demo_has_cad": false
       },
@@ -711,9 +963,23 @@
           "amount": "0.9",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-1010.png",
+        "demo_ind_stroke_rate": 20000,
+        "demo_ind_battery_type": "li_ion",
+        "demo_ind_variable_speed": true,
+        "demo_ind_cell_count": 3,
+        "demo_ind_warranty": 2,
+        "demo_ind_colour": "burgundy",
+        "image": "sample-data/industrial/demo-ind-1010.jpg",
         "demo_ind_images": [
-          "DEMO-IND-1010-IMG"
+          "DEMO-IND-1010-IMG",
+          "DEMO-IND-1010-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-1010-DRW-PDF",
+          "DEMO-IND-1010-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-1010-DS"
         ],
         "demo_has_cad": false
       },
@@ -751,9 +1017,26 @@
           "amount": "1.6",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-1011.png",
+        "demo_ind_no_load_speed": {
+          "amount": "12000",
+          "unit": "REVOLUTIONS_PER_MINUTE"
+        },
+        "demo_ind_dust_extraction": true,
+        "demo_ind_variable_speed": true,
+        "demo_ind_protection_class": "ii",
+        "demo_ind_warranty": 2,
+        "demo_ind_colour": "burgundy",
+        "image": "sample-data/industrial/demo-ind-1011.jpg",
         "demo_ind_images": [
-          "DEMO-IND-1011-IMG"
+          "DEMO-IND-1011-IMG",
+          "DEMO-IND-1011-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-1011-DRW-PDF",
+          "DEMO-IND-1011-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-1011-DS"
         ],
         "demo_has_cad": false
       },
@@ -787,9 +1070,26 @@
           "amount": "1.3",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-1012.png",
+        "demo_ind_protection_class": "ii",
+        "demo_ind_cable_length": {
+          "amount": "2.5",
+          "unit": "METER"
+        },
+        "demo_ind_stroke_rate": 14000,
+        "demo_ind_variable_speed": false,
+        "demo_ind_warranty": 2,
+        "demo_ind_colour": "burgundy",
+        "image": "sample-data/industrial/demo-ind-1012.jpg",
         "demo_ind_images": [
-          "DEMO-IND-1012-IMG"
+          "DEMO-IND-1012-IMG",
+          "DEMO-IND-1012-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-1012-DRW-PDF",
+          "DEMO-IND-1012-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-1012-DS"
         ],
         "demo_has_cad": false
       },
@@ -823,9 +1123,26 @@
           "amount": "0.7",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-1013.png",
+        "demo_ind_temperature_max": 600,
+        "demo_ind_heat_levels": 2,
+        "demo_ind_protection_class": "ii",
+        "demo_ind_cable_length": {
+          "amount": "2.5",
+          "unit": "METER"
+        },
+        "demo_ind_warranty": 2,
+        "demo_ind_colour": "burgundy",
+        "image": "sample-data/industrial/demo-ind-1013.jpg",
         "demo_ind_images": [
-          "DEMO-IND-1013-IMG"
+          "DEMO-IND-1013-IMG",
+          "DEMO-IND-1013-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-1013-DRW-PDF",
+          "DEMO-IND-1013-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-1013-DS"
         ],
         "demo_has_cad": false
       },
@@ -859,9 +1176,29 @@
           "amount": "3.8",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-1014.png",
+        "demo_ind_dust_extraction": true,
+        "demo_ind_protection_class": "ii",
+        "demo_ind_cable_length": {
+          "amount": "2.5",
+          "unit": "METER"
+        },
+        "demo_ind_belt_width": {
+          "amount": "75",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_warranty": 2,
+        "demo_ind_colour": "burgundy",
+        "image": "sample-data/industrial/demo-ind-1014.jpg",
         "demo_ind_images": [
-          "DEMO-IND-1014-IMG"
+          "DEMO-IND-1014-IMG",
+          "DEMO-IND-1014-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-1014-DRW-PDF",
+          "DEMO-IND-1014-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-1014-DS"
         ],
         "demo_has_cad": false
       },
@@ -895,9 +1232,21 @@
           "amount": "0.5",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-1015.png",
+        "demo_ind_charge_time": 60,
+        "demo_ind_battery_type": "li_ion",
+        "demo_ind_charge_indicator": true,
+        "demo_ind_warranty": 2,
+        "image": "sample-data/industrial/demo-ind-1015.jpg",
         "demo_ind_images": [
-          "DEMO-IND-1015-IMG"
+          "DEMO-IND-1015-IMG",
+          "DEMO-IND-1015-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-1015-DRW-PDF",
+          "DEMO-IND-1015-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-1015-DS"
         ],
         "demo_has_cad": false
       },
@@ -935,9 +1284,21 @@
           "amount": "0.3",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-1016.png",
+        "demo_ind_battery_type": "li_ion",
+        "demo_ind_cell_count": 3,
+        "demo_ind_charge_indicator": true,
+        "demo_ind_warranty": 2,
+        "image": "sample-data/industrial/demo-ind-1016.jpg",
         "demo_ind_images": [
-          "DEMO-IND-1016-IMG"
+          "DEMO-IND-1016-IMG",
+          "DEMO-IND-1016-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-1016-DRW-PDF",
+          "DEMO-IND-1016-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-1016-DS"
         ],
         "demo_has_cad": false
       },
@@ -975,9 +1336,25 @@
           "amount": "8.5",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-1017.png",
+        "demo_ind_protection_class": "i",
+        "demo_ind_cable_length": {
+          "amount": "5.0",
+          "unit": "METER"
+        },
+        "demo_ind_filter_class": "m",
+        "demo_ind_colour": "burgundy",
+        "demo_ind_warranty": 2,
+        "image": "sample-data/industrial/demo-ind-1017.jpg",
         "demo_ind_images": [
-          "DEMO-IND-1017-IMG"
+          "DEMO-IND-1017-IMG",
+          "DEMO-IND-1017-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-1017-DRW-PDF",
+          "DEMO-IND-1017-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-1017-DS"
         ],
         "demo_has_cad": false
       },
@@ -1015,9 +1392,24 @@
           "amount": "1.8",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-1018.png",
+        "demo_ind_no_load_speed": {
+          "amount": "9000",
+          "unit": "REVOLUTIONS_PER_MINUTE"
+        },
+        "demo_ind_battery_type": "li_ion",
+        "demo_ind_colour": "burgundy",
+        "demo_ind_warranty": 2,
+        "image": "sample-data/industrial/demo-ind-1018.jpg",
         "demo_ind_images": [
-          "DEMO-IND-1018-IMG"
+          "DEMO-IND-1018-IMG",
+          "DEMO-IND-1018-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-1018-DRW-PDF",
+          "DEMO-IND-1018-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-1018-DS"
         ],
         "demo_has_cad": false
       },
@@ -1049,11 +1441,28 @@
         },
         "demo_ind_material": "steel_zinc",
         "demo_ind_pack_size": 500,
-        "image": "sample-data/industrial/demo-ind-2004.png",
+        "demo_ind_head_type": "countersunk",
+        "demo_ind_drive_type": "cross_recess",
+        "demo_ind_diameter": {
+          "amount": "3.5",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_thread_type": "full",
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-2004.jpg",
         "demo_ind_images": [
-          "DEMO-IND-2004-IMG"
+          "DEMO-IND-2004-IMG",
+          "DEMO-IND-2004-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_ind_drawings": [
+          "DEMO-IND-2004-DRW-PDF",
+          "DEMO-IND-2004-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-2004-WOOD-SCREW-3-5X30-STEP",
+          "DEMO-IND-2004-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1083,11 +1492,28 @@
         },
         "demo_ind_material": "steel_zinc",
         "demo_ind_pack_size": 200,
-        "image": "sample-data/industrial/demo-ind-2005.png",
+        "demo_ind_head_type": "countersunk",
+        "demo_ind_drive_type": "cross_recess",
+        "demo_ind_diameter": {
+          "amount": "5.0",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_thread_type": "partial",
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-2005.jpg",
         "demo_ind_images": [
-          "DEMO-IND-2005-IMG"
+          "DEMO-IND-2005-IMG",
+          "DEMO-IND-2005-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_ind_drawings": [
+          "DEMO-IND-2005-DRW-PDF",
+          "DEMO-IND-2005-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-2005-WOOD-SCREW-5X60-STEP",
+          "DEMO-IND-2005-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1117,11 +1543,27 @@
         },
         "demo_ind_material": "stainless_a2",
         "demo_ind_pack_size": 100,
-        "image": "sample-data/industrial/demo-ind-2006.png",
+        "demo_ind_head_type": "countersunk",
+        "demo_ind_diameter": {
+          "amount": "5.0",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_thread_type": "partial",
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-2006.jpg",
         "demo_ind_images": [
-          "DEMO-IND-2006-IMG"
+          "DEMO-IND-2006-IMG",
+          "DEMO-IND-2006-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_ind_drawings": [
+          "DEMO-IND-2006-DRW-PDF",
+          "DEMO-IND-2006-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-2006-WOOD-SCREW-5X80-STAINLESS-STEP",
+          "DEMO-IND-2006-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1152,11 +1594,24 @@
         },
         "demo_ind_material": "steel_zinc",
         "demo_ind_pack_size": 200,
-        "image": "sample-data/industrial/demo-ind-2007.png",
+        "demo_ind_head_type": "hex",
+        "demo_ind_strength_class": "8_8",
+        "demo_ind_thread_type": "full",
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-2007.jpg",
         "demo_ind_images": [
-          "DEMO-IND-2007-IMG"
+          "DEMO-IND-2007-IMG",
+          "DEMO-IND-2007-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_ind_drawings": [
+          "DEMO-IND-2007-DRW-PDF",
+          "DEMO-IND-2007-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-2007-HEX-BOLT-M6X30-STEP",
+          "DEMO-IND-2007-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1187,11 +1642,24 @@
         },
         "demo_ind_material": "steel_zinc",
         "demo_ind_pack_size": 50,
-        "image": "sample-data/industrial/demo-ind-2008.png",
+        "demo_ind_head_type": "hex",
+        "demo_ind_strength_class": "8_8",
+        "demo_ind_thread_type": "partial",
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-2008.jpg",
         "demo_ind_images": [
-          "DEMO-IND-2008-IMG"
+          "DEMO-IND-2008-IMG",
+          "DEMO-IND-2008-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_ind_drawings": [
+          "DEMO-IND-2008-DRW-PDF",
+          "DEMO-IND-2008-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-2008-HEX-BOLT-M10X60-STEP",
+          "DEMO-IND-2008-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1218,11 +1686,27 @@
         "demo_ind_thread": "m8",
         "demo_ind_material": "steel_zinc",
         "demo_ind_pack_size": 100,
-        "image": "sample-data/industrial/demo-ind-2009.png",
+        "demo_ind_strength_class": "8",
+        "demo_ind_thread_type": "standard",
+        "demo_ind_diameter": {
+          "amount": "8.0",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-2009.jpg",
         "demo_ind_images": [
-          "DEMO-IND-2009-IMG"
+          "DEMO-IND-2009-IMG",
+          "DEMO-IND-2009-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_ind_drawings": [
+          "DEMO-IND-2009-DRW-PDF",
+          "DEMO-IND-2009-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-2009-HEX-NUT-M8-STEP",
+          "DEMO-IND-2009-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1249,11 +1733,27 @@
         "demo_ind_thread": "m6",
         "demo_ind_material": "steel_zinc",
         "demo_ind_pack_size": 200,
-        "image": "sample-data/industrial/demo-ind-2010.png",
+        "demo_ind_strength_class": "8",
+        "demo_ind_thread_type": "standard",
+        "demo_ind_diameter": {
+          "amount": "6.0",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-2010.jpg",
         "demo_ind_images": [
-          "DEMO-IND-2010-IMG"
+          "DEMO-IND-2010-IMG",
+          "DEMO-IND-2010-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_ind_drawings": [
+          "DEMO-IND-2010-DRW-PDF",
+          "DEMO-IND-2010-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-2010-HEX-NUT-M6-STEP",
+          "DEMO-IND-2010-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1280,11 +1780,33 @@
         "demo_ind_thread": "m8",
         "demo_ind_material": "steel_zinc",
         "demo_ind_pack_size": 200,
-        "image": "sample-data/industrial/demo-ind-2011.png",
+        "demo_ind_bore_diameter": {
+          "amount": "8.4",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_thickness": {
+          "amount": "1.6",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_outer_diameter": {
+          "amount": "16",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-2011.jpg",
         "demo_ind_images": [
-          "DEMO-IND-2011-IMG"
+          "DEMO-IND-2011-IMG",
+          "DEMO-IND-2011-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_ind_drawings": [
+          "DEMO-IND-2011-DRW-PDF",
+          "DEMO-IND-2011-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-2011-FLAT-WASHER-M8-STEP",
+          "DEMO-IND-2011-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1315,11 +1837,26 @@
         },
         "demo_ind_material": "steel_zinc",
         "demo_ind_pack_size": 1,
-        "image": "sample-data/industrial/demo-ind-2012.png",
+        "demo_ind_thread_type": "full",
+        "demo_ind_diameter": {
+          "amount": "8.0",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-2012.jpg",
         "demo_ind_images": [
-          "DEMO-IND-2012-IMG"
+          "DEMO-IND-2012-IMG",
+          "DEMO-IND-2012-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_ind_drawings": [
+          "DEMO-IND-2012-DRW-PDF",
+          "DEMO-IND-2012-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-2012-THREADED-ROD-M8X1000-STEP",
+          "DEMO-IND-2012-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1349,11 +1886,33 @@
         },
         "demo_ind_material": "plastic_abs",
         "demo_ind_pack_size": 100,
-        "image": "sample-data/industrial/demo-ind-2013.png",
+        "demo_ind_diameter": {
+          "amount": "8.0",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_drill_diameter": {
+          "amount": "8.0",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_drill_depth": {
+          "amount": "50",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-2013.jpg",
         "demo_ind_images": [
-          "DEMO-IND-2013-IMG"
+          "DEMO-IND-2013-IMG",
+          "DEMO-IND-2013-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_ind_drawings": [
+          "DEMO-IND-2013-DRW-PDF",
+          "DEMO-IND-2013-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-2013-EXPANSION-PLUG-8X40-STEP",
+          "DEMO-IND-2013-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1383,11 +1942,26 @@
         },
         "demo_ind_material": "plastic_abs",
         "demo_ind_pack_size": 100,
-        "image": "sample-data/industrial/demo-ind-2014.png",
+        "demo_ind_colour": "black",
+        "demo_ind_width": {
+          "amount": "3.6",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_weight": {
+          "amount": "0.1",
+          "unit": "KILOGRAM"
+        },
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-2014.jpg",
         "demo_ind_images": [
-          "DEMO-IND-2014-IMG"
+          "DEMO-IND-2014-IMG",
+          "DEMO-IND-2014-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_ind_downloads": [
+          "DEMO-IND-2014-CABLE-TIE-200X3-6-STEP",
+          "DEMO-IND-2014-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1421,11 +1995,22 @@
           "unit": "KILOGRAM"
         },
         "demo_ind_pack_size": 1,
-        "image": "sample-data/industrial/demo-ind-2015.png",
+        "demo_ind_diameter": {
+          "amount": "2.8",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_head_type": "flat",
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-2015.jpg",
         "demo_ind_images": [
-          "DEMO-IND-2015-IMG"
+          "DEMO-IND-2015-IMG",
+          "DEMO-IND-2015-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_ind_downloads": [
+          "DEMO-IND-2015-WIRE-NAIL-2-8X60-STEP",
+          "DEMO-IND-2015-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1456,11 +2041,23 @@
         },
         "demo_ind_material": "stainless_a2",
         "demo_ind_pack_size": 100,
-        "image": "sample-data/industrial/demo-ind-2016.png",
+        "demo_ind_drive_type": "hex_socket",
+        "demo_ind_point_type": "cup",
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-2016.jpg",
         "demo_ind_images": [
-          "DEMO-IND-2016-IMG"
+          "DEMO-IND-2016-IMG",
+          "DEMO-IND-2016-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_ind_drawings": [
+          "DEMO-IND-2016-DRW-PDF",
+          "DEMO-IND-2016-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-2016-GRUB-SCREW-M6X20-STEP",
+          "DEMO-IND-2016-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1491,11 +2088,23 @@
         },
         "demo_ind_material": "stainless_a2",
         "demo_ind_pack_size": 200,
-        "image": "sample-data/industrial/demo-ind-2017.png",
+        "demo_ind_head_type": "cheese",
+        "demo_ind_drive_type": "hex_socket",
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-2017.jpg",
         "demo_ind_images": [
-          "DEMO-IND-2017-IMG"
+          "DEMO-IND-2017-IMG",
+          "DEMO-IND-2017-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_ind_drawings": [
+          "DEMO-IND-2017-DRW-PDF",
+          "DEMO-IND-2017-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-2017-CHEESE-HEAD-SCREW-M5X16-STEP",
+          "DEMO-IND-2017-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1526,11 +2135,23 @@
         },
         "demo_ind_material": "steel_zinc",
         "demo_ind_pack_size": 500,
-        "image": "sample-data/industrial/demo-ind-2018.png",
+        "demo_ind_head_type": "pan",
+        "demo_ind_drive_type": "cross_recess",
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-2018.jpg",
         "demo_ind_images": [
-          "DEMO-IND-2018-IMG"
+          "DEMO-IND-2018-IMG",
+          "DEMO-IND-2018-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_ind_drawings": [
+          "DEMO-IND-2018-DRW-PDF",
+          "DEMO-IND-2018-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-2018-PAN-HEAD-SCREW-M4X12-STEP",
+          "DEMO-IND-2018-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1560,11 +2181,30 @@
         },
         "demo_ind_material": "steel_zinc",
         "demo_ind_pack_size": 500,
-        "image": "sample-data/industrial/demo-ind-2019.png",
+        "demo_ind_diameter": {
+          "amount": "4.2",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_point_type": "drill",
+        "demo_ind_sheet_thickness": {
+          "amount": "2",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-2019.jpg",
         "demo_ind_images": [
-          "DEMO-IND-2019-IMG"
+          "DEMO-IND-2019-IMG",
+          "DEMO-IND-2019-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_ind_drawings": [
+          "DEMO-IND-2019-DRW-PDF",
+          "DEMO-IND-2019-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-2019-SHEET-METAL-SCREW-4-2X19-STEP",
+          "DEMO-IND-2019-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1590,9 +2230,20 @@
       "common": {
         "demo_ind_material": "steel_zinc",
         "demo_ind_pack_size": 300,
-        "image": "sample-data/industrial/demo-ind-2020.png",
+        "demo_ind_packaging": "plastic_box",
+        "demo_ind_sizes_count": 4,
+        "demo_ind_weight": {
+          "amount": "2.2",
+          "unit": "KILOGRAM"
+        },
+        "demo_ind_thread_type": "standard",
+        "image": "sample-data/industrial/demo-ind-2020.jpg",
         "demo_ind_images": [
-          "DEMO-IND-2020-IMG"
+          "DEMO-IND-2020-IMG",
+          "DEMO-IND-2020-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-2020-DS"
         ],
         "demo_has_cad": false
       },
@@ -1621,11 +2272,27 @@
         "demo_ind_thread": "m10",
         "demo_ind_material": "steel_zinc",
         "demo_ind_pack_size": 50,
-        "image": "sample-data/industrial/demo-ind-2021.png",
+        "demo_ind_strength_class": "8",
+        "demo_ind_thread_type": "standard",
+        "demo_ind_diameter": {
+          "amount": "10.0",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-2021.jpg",
         "demo_ind_images": [
-          "DEMO-IND-2021-IMG"
+          "DEMO-IND-2021-IMG",
+          "DEMO-IND-2021-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_ind_drawings": [
+          "DEMO-IND-2021-DRW-PDF",
+          "DEMO-IND-2021-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-2021-SQUARE-NUT-M10-STEP",
+          "DEMO-IND-2021-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1656,11 +2323,24 @@
         },
         "demo_ind_material": "steel_zinc",
         "demo_ind_pack_size": 25,
-        "image": "sample-data/industrial/demo-ind-2022.png",
+        "demo_ind_head_type": "hex",
+        "demo_ind_strength_class": "8_8",
+        "demo_ind_thread_type": "partial",
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-2022.jpg",
         "demo_ind_images": [
-          "DEMO-IND-2022-IMG"
+          "DEMO-IND-2022-IMG",
+          "DEMO-IND-2022-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_ind_drawings": [
+          "DEMO-IND-2022-DRW-PDF",
+          "DEMO-IND-2022-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-2022-HEX-BOLT-M12X80-STEP",
+          "DEMO-IND-2022-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1688,9 +2368,19 @@
           "amount": "0.37",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-3004.png",
+        "demo_ind_material": "plastic_abs",
+        "demo_ind_norm": "en397",
+        "demo_ind_reusable": true,
+        "demo_ind_adjustable": true,
+        "demo_ind_colour": "white",
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-3004.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3004-IMG"
+          "DEMO-IND-3004-IMG",
+          "DEMO-IND-3004-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3004-DS"
         ],
         "demo_has_cad": false
       },
@@ -1721,9 +2411,16 @@
           "unit": "DECIBEL"
         },
         "demo_ind_pack_size": 200,
-        "image": "sample-data/industrial/demo-ind-3005.png",
+        "demo_ind_norm": "en352",
+        "demo_ind_reusable": false,
+        "demo_ind_packaging": "dispenser",
+        "image": "sample-data/industrial/demo-ind-3005.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3005-IMG"
+          "DEMO-IND-3005-IMG",
+          "DEMO-IND-3005-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3005-DS"
         ],
         "demo_has_cad": false
       },
@@ -1754,9 +2451,17 @@
           "amount": "0.03",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-3006.png",
+        "demo_ind_norm": "en166",
+        "demo_ind_reusable": true,
+        "demo_ind_colour": "smoke",
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-3006.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3006-IMG"
+          "DEMO-IND-3006-IMG",
+          "DEMO-IND-3006-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3006-DS"
         ],
         "demo_has_cad": false
       },
@@ -1787,9 +2492,18 @@
           "amount": "0.18",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-3007.png",
+        "demo_ind_norm": "en166",
+        "demo_ind_reusable": true,
+        "demo_ind_adjustable": true,
+        "demo_ind_colour": "clear",
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-3007.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3007-IMG"
+          "DEMO-IND-3007-IMG",
+          "DEMO-IND-3007-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3007-DS"
         ],
         "demo_has_cad": false
       },
@@ -1819,9 +2533,18 @@
           "amount": "0.15",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-3008.png",
+        "demo_ind_norm": "en20471",
+        "demo_ind_colour": "orange",
+        "demo_ind_reusable": true,
+        "demo_ind_pack_size": 1,
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-3008.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3008-IMG"
+          "DEMO-IND-3008-IMG",
+          "DEMO-IND-3008-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3008-DS"
         ],
         "demo_has_cad": false
       },
@@ -1852,9 +2575,17 @@
           "amount": "0.9",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-3009.png",
+        "demo_ind_norm": "en11611",
+        "demo_ind_reusable": true,
+        "demo_ind_adjustable": true,
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-3009.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3009-IMG"
+          "DEMO-IND-3009-IMG",
+          "DEMO-IND-3009-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3009-DS"
         ],
         "demo_has_cad": false
       },
@@ -1882,9 +2613,16 @@
       "common": {
         "demo_ind_material": "nitrile",
         "demo_ind_cut_level": "a",
-        "image": "sample-data/industrial/demo-ind-3010.png",
+        "demo_ind_norm": "en388",
+        "demo_ind_reusable": false,
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-3010.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3010-IMG"
+          "DEMO-IND-3010-IMG",
+          "DEMO-IND-3010-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3010-DS"
         ],
         "demo_has_cad": false
       },
@@ -1913,10 +2651,17 @@
       "common": {
         "demo_ind_material": "nitrile",
         "demo_ind_cut_level": "a",
+        "demo_ind_norm": "en388",
+        "demo_ind_reusable": false,
+        "demo_ind_packaging": "box",
         "demo_ind_glove_size": "s",
-        "image": "sample-data/industrial/demo-ind-3010-s.png",
+        "image": "sample-data/industrial/demo-ind-3010-s.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3010-S-IMG"
+          "DEMO-IND-3010-S-IMG",
+          "DEMO-IND-3010-S-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3010-DS"
         ],
         "demo_has_cad": false
       },
@@ -1946,10 +2691,17 @@
       "common": {
         "demo_ind_material": "nitrile",
         "demo_ind_cut_level": "a",
+        "demo_ind_norm": "en388",
+        "demo_ind_reusable": false,
+        "demo_ind_packaging": "box",
         "demo_ind_glove_size": "m",
-        "image": "sample-data/industrial/demo-ind-3010-m.png",
+        "image": "sample-data/industrial/demo-ind-3010-m.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3010-M-IMG"
+          "DEMO-IND-3010-M-IMG",
+          "DEMO-IND-3010-M-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3010-DS"
         ],
         "demo_has_cad": false
       },
@@ -1979,10 +2731,17 @@
       "common": {
         "demo_ind_material": "nitrile",
         "demo_ind_cut_level": "a",
+        "demo_ind_norm": "en388",
+        "demo_ind_reusable": false,
+        "demo_ind_packaging": "box",
         "demo_ind_glove_size": "l",
-        "image": "sample-data/industrial/demo-ind-3010-l.png",
+        "image": "sample-data/industrial/demo-ind-3010-l.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3010-L-IMG"
+          "DEMO-IND-3010-L-IMG",
+          "DEMO-IND-3010-L-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3010-DS"
         ],
         "demo_has_cad": false
       },
@@ -2012,10 +2771,17 @@
       "common": {
         "demo_ind_material": "nitrile",
         "demo_ind_cut_level": "a",
+        "demo_ind_norm": "en388",
+        "demo_ind_reusable": false,
+        "demo_ind_packaging": "box",
         "demo_ind_glove_size": "xl",
-        "image": "sample-data/industrial/demo-ind-3010-xl.png",
+        "image": "sample-data/industrial/demo-ind-3010-xl.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3010-XL-IMG"
+          "DEMO-IND-3010-XL-IMG",
+          "DEMO-IND-3010-XL-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3010-DS"
         ],
         "demo_has_cad": false
       },
@@ -2045,9 +2811,20 @@
       "common": {
         "demo_ind_material": "leather",
         "demo_ind_cut_level": "a",
-        "image": "sample-data/industrial/demo-ind-3011.png",
+        "demo_ind_norm": "en388",
+        "demo_ind_reusable": true,
+        "demo_ind_packaging": "box",
+        "demo_ind_weight": {
+          "amount": "0.15",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-3011.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3011-IMG"
+          "DEMO-IND-3011-IMG",
+          "DEMO-IND-3011-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3011-DS"
         ],
         "demo_has_cad": false
       },
@@ -2076,10 +2853,21 @@
       "common": {
         "demo_ind_material": "leather",
         "demo_ind_cut_level": "a",
+        "demo_ind_norm": "en388",
+        "demo_ind_reusable": true,
+        "demo_ind_packaging": "box",
+        "demo_ind_weight": {
+          "amount": "0.15",
+          "unit": "KILOGRAM"
+        },
         "demo_ind_glove_size": "s",
-        "image": "sample-data/industrial/demo-ind-3011-s.png",
+        "image": "sample-data/industrial/demo-ind-3011-s.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3011-S-IMG"
+          "DEMO-IND-3011-S-IMG",
+          "DEMO-IND-3011-S-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3011-DS"
         ],
         "demo_has_cad": false
       },
@@ -2109,10 +2897,21 @@
       "common": {
         "demo_ind_material": "leather",
         "demo_ind_cut_level": "a",
+        "demo_ind_norm": "en388",
+        "demo_ind_reusable": true,
+        "demo_ind_packaging": "box",
+        "demo_ind_weight": {
+          "amount": "0.15",
+          "unit": "KILOGRAM"
+        },
         "demo_ind_glove_size": "m",
-        "image": "sample-data/industrial/demo-ind-3011-m.png",
+        "image": "sample-data/industrial/demo-ind-3011-m.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3011-M-IMG"
+          "DEMO-IND-3011-M-IMG",
+          "DEMO-IND-3011-M-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3011-DS"
         ],
         "demo_has_cad": false
       },
@@ -2142,10 +2941,21 @@
       "common": {
         "demo_ind_material": "leather",
         "demo_ind_cut_level": "a",
+        "demo_ind_norm": "en388",
+        "demo_ind_reusable": true,
+        "demo_ind_packaging": "box",
+        "demo_ind_weight": {
+          "amount": "0.15",
+          "unit": "KILOGRAM"
+        },
         "demo_ind_glove_size": "l",
-        "image": "sample-data/industrial/demo-ind-3011-l.png",
+        "image": "sample-data/industrial/demo-ind-3011-l.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3011-L-IMG"
+          "DEMO-IND-3011-L-IMG",
+          "DEMO-IND-3011-L-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3011-DS"
         ],
         "demo_has_cad": false
       },
@@ -2175,10 +2985,21 @@
       "common": {
         "demo_ind_material": "leather",
         "demo_ind_cut_level": "a",
+        "demo_ind_norm": "en388",
+        "demo_ind_reusable": true,
+        "demo_ind_packaging": "box",
+        "demo_ind_weight": {
+          "amount": "0.15",
+          "unit": "KILOGRAM"
+        },
         "demo_ind_glove_size": "xl",
-        "image": "sample-data/industrial/demo-ind-3011-xl.png",
+        "image": "sample-data/industrial/demo-ind-3011-xl.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3011-XL-IMG"
+          "DEMO-IND-3011-XL-IMG",
+          "DEMO-IND-3011-XL-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3011-DS"
         ],
         "demo_has_cad": false
       },
@@ -2208,20 +3029,31 @@
       "common": {
         "demo_ind_material": "stainless_a2",
         "demo_ind_cut_level": "c",
-        "image": "sample-data/industrial/demo-ind-3012.png",
+        "demo_ind_norm": "en388",
+        "demo_ind_reusable": true,
+        "demo_ind_packaging": "box",
+        "demo_ind_weight": {
+          "amount": "0.25",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-3012.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3012-IMG"
+          "DEMO-IND-3012-IMG",
+          "DEMO-IND-3012-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3012-DS"
         ],
         "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
-          "name": "Stechschutzhandschuhe aus Edelstahlgeflecht",
-          "description": "Handschuh aus Edelstahlgeflecht mit Schnittschutz, für Zerlegearbeiten."
+          "name": "Stechschutzhandschuh aus Edelstahlgeflecht, Einzelstück",
+          "description": "Handschuh aus Edelstahlgeflecht mit Schnittschutz, für Zerlegearbeiten. Einzeln verkauft, für links und rechts tragbar."
         },
         "en-US": {
-          "name": "Stab-resistant gloves in stainless mesh",
-          "description": "Glove in stainless steel mesh with cut protection, for cutting and deboning work."
+          "name": "Stab-resistant glove in stainless mesh, single",
+          "description": "Glove in stainless steel mesh with cut protection, for cutting and deboning work. Sold singly, fits the left or the right hand."
         }
       }
     },
@@ -2239,21 +3071,32 @@
       "common": {
         "demo_ind_material": "stainless_a2",
         "demo_ind_cut_level": "c",
+        "demo_ind_norm": "en388",
+        "demo_ind_reusable": true,
+        "demo_ind_packaging": "box",
+        "demo_ind_weight": {
+          "amount": "0.25",
+          "unit": "KILOGRAM"
+        },
         "demo_ind_glove_size": "s",
-        "image": "sample-data/industrial/demo-ind-3012-s.png",
+        "image": "sample-data/industrial/demo-ind-3012-s.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3012-S-IMG"
+          "DEMO-IND-3012-S-IMG",
+          "DEMO-IND-3012-S-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3012-DS"
         ],
         "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
-          "name": "Edelstahlhandschuhe, Größe S",
-          "description": "Handschuh aus Edelstahlgeflecht mit Schnittschutz, für Zerlegearbeiten."
+          "name": "Edelstahlhandschuh, Größe S",
+          "description": "Handschuh aus Edelstahlgeflecht mit Schnittschutz, für Zerlegearbeiten. Einzeln verkauft, für links und rechts tragbar."
         },
         "en-US": {
-          "name": "Stainless mesh gloves, size S",
-          "description": "Glove in stainless steel mesh with cut protection, for cutting and deboning work."
+          "name": "Stainless mesh glove, size S",
+          "description": "Glove in stainless steel mesh with cut protection, for cutting and deboning work. Sold singly, fits the left or the right hand."
         }
       }
     },
@@ -2272,21 +3115,32 @@
       "common": {
         "demo_ind_material": "stainless_a2",
         "demo_ind_cut_level": "c",
+        "demo_ind_norm": "en388",
+        "demo_ind_reusable": true,
+        "demo_ind_packaging": "box",
+        "demo_ind_weight": {
+          "amount": "0.25",
+          "unit": "KILOGRAM"
+        },
         "demo_ind_glove_size": "m",
-        "image": "sample-data/industrial/demo-ind-3012-m.png",
+        "image": "sample-data/industrial/demo-ind-3012-m.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3012-M-IMG"
+          "DEMO-IND-3012-M-IMG",
+          "DEMO-IND-3012-M-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3012-DS"
         ],
         "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
-          "name": "Edelstahlhandschuhe, Größe M",
-          "description": "Handschuh aus Edelstahlgeflecht mit Schnittschutz, für Zerlegearbeiten."
+          "name": "Edelstahlhandschuh, Größe M",
+          "description": "Handschuh aus Edelstahlgeflecht mit Schnittschutz, für Zerlegearbeiten. Einzeln verkauft, für links und rechts tragbar."
         },
         "en-US": {
-          "name": "Stainless mesh gloves, size M",
-          "description": "Glove in stainless steel mesh with cut protection, for cutting and deboning work."
+          "name": "Stainless mesh glove, size M",
+          "description": "Glove in stainless steel mesh with cut protection, for cutting and deboning work. Sold singly, fits the left or the right hand."
         }
       }
     },
@@ -2305,21 +3159,32 @@
       "common": {
         "demo_ind_material": "stainless_a2",
         "demo_ind_cut_level": "c",
+        "demo_ind_norm": "en388",
+        "demo_ind_reusable": true,
+        "demo_ind_packaging": "box",
+        "demo_ind_weight": {
+          "amount": "0.25",
+          "unit": "KILOGRAM"
+        },
         "demo_ind_glove_size": "l",
-        "image": "sample-data/industrial/demo-ind-3012-l.png",
+        "image": "sample-data/industrial/demo-ind-3012-l.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3012-L-IMG"
+          "DEMO-IND-3012-L-IMG",
+          "DEMO-IND-3012-L-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3012-DS"
         ],
         "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
-          "name": "Edelstahlhandschuhe, Größe L",
-          "description": "Handschuh aus Edelstahlgeflecht mit Schnittschutz, für Zerlegearbeiten."
+          "name": "Edelstahlhandschuh, Größe L",
+          "description": "Handschuh aus Edelstahlgeflecht mit Schnittschutz, für Zerlegearbeiten. Einzeln verkauft, für links und rechts tragbar."
         },
         "en-US": {
-          "name": "Stainless mesh gloves, size L",
-          "description": "Glove in stainless steel mesh with cut protection, for cutting and deboning work."
+          "name": "Stainless mesh glove, size L",
+          "description": "Glove in stainless steel mesh with cut protection, for cutting and deboning work. Sold singly, fits the left or the right hand."
         }
       }
     },
@@ -2338,21 +3203,32 @@
       "common": {
         "demo_ind_material": "stainless_a2",
         "demo_ind_cut_level": "c",
+        "demo_ind_norm": "en388",
+        "demo_ind_reusable": true,
+        "demo_ind_packaging": "box",
+        "demo_ind_weight": {
+          "amount": "0.25",
+          "unit": "KILOGRAM"
+        },
         "demo_ind_glove_size": "xl",
-        "image": "sample-data/industrial/demo-ind-3012-xl.png",
+        "image": "sample-data/industrial/demo-ind-3012-xl.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3012-XL-IMG"
+          "DEMO-IND-3012-XL-IMG",
+          "DEMO-IND-3012-XL-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3012-DS"
         ],
         "demo_has_cad": false
       },
       "locale_specific": {
         "de-DE": {
-          "name": "Edelstahlhandschuhe, Größe XL",
-          "description": "Handschuh aus Edelstahlgeflecht mit Schnittschutz, für Zerlegearbeiten."
+          "name": "Edelstahlhandschuh, Größe XL",
+          "description": "Handschuh aus Edelstahlgeflecht mit Schnittschutz, für Zerlegearbeiten. Einzeln verkauft, für links und rechts tragbar."
         },
         "en-US": {
-          "name": "Stainless mesh gloves, size XL",
-          "description": "Glove in stainless steel mesh with cut protection, for cutting and deboning work."
+          "name": "Stainless mesh glove, size XL",
+          "description": "Glove in stainless steel mesh with cut protection, for cutting and deboning work. Sold singly, fits the left or the right hand."
         }
       }
     },
@@ -2371,9 +3247,20 @@
       "common": {
         "demo_ind_material": "nitrile",
         "demo_ind_cut_level": "c",
-        "image": "sample-data/industrial/demo-ind-3013.png",
+        "demo_ind_norm": "en388",
+        "demo_ind_reusable": false,
+        "demo_ind_packaging": "box",
+        "demo_ind_weight": {
+          "amount": "0.05",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-3013.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3013-IMG"
+          "DEMO-IND-3013-IMG",
+          "DEMO-IND-3013-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3013-DS"
         ],
         "demo_has_cad": false
       },
@@ -2402,10 +3289,21 @@
       "common": {
         "demo_ind_material": "nitrile",
         "demo_ind_cut_level": "c",
+        "demo_ind_norm": "en388",
+        "demo_ind_reusable": false,
+        "demo_ind_packaging": "box",
+        "demo_ind_weight": {
+          "amount": "0.05",
+          "unit": "KILOGRAM"
+        },
         "demo_ind_glove_size": "s",
-        "image": "sample-data/industrial/demo-ind-3013-s.png",
+        "image": "sample-data/industrial/demo-ind-3013-s.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3013-S-IMG"
+          "DEMO-IND-3013-S-IMG",
+          "DEMO-IND-3013-S-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3013-DS"
         ],
         "demo_has_cad": false
       },
@@ -2435,10 +3333,21 @@
       "common": {
         "demo_ind_material": "nitrile",
         "demo_ind_cut_level": "c",
+        "demo_ind_norm": "en388",
+        "demo_ind_reusable": false,
+        "demo_ind_packaging": "box",
+        "demo_ind_weight": {
+          "amount": "0.05",
+          "unit": "KILOGRAM"
+        },
         "demo_ind_glove_size": "m",
-        "image": "sample-data/industrial/demo-ind-3013-m.png",
+        "image": "sample-data/industrial/demo-ind-3013-m.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3013-M-IMG"
+          "DEMO-IND-3013-M-IMG",
+          "DEMO-IND-3013-M-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3013-DS"
         ],
         "demo_has_cad": false
       },
@@ -2468,10 +3377,21 @@
       "common": {
         "demo_ind_material": "nitrile",
         "demo_ind_cut_level": "c",
+        "demo_ind_norm": "en388",
+        "demo_ind_reusable": false,
+        "demo_ind_packaging": "box",
+        "demo_ind_weight": {
+          "amount": "0.05",
+          "unit": "KILOGRAM"
+        },
         "demo_ind_glove_size": "l",
-        "image": "sample-data/industrial/demo-ind-3013-l.png",
+        "image": "sample-data/industrial/demo-ind-3013-l.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3013-L-IMG"
+          "DEMO-IND-3013-L-IMG",
+          "DEMO-IND-3013-L-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3013-DS"
         ],
         "demo_has_cad": false
       },
@@ -2501,10 +3421,21 @@
       "common": {
         "demo_ind_material": "nitrile",
         "demo_ind_cut_level": "c",
+        "demo_ind_norm": "en388",
+        "demo_ind_reusable": false,
+        "demo_ind_packaging": "box",
+        "demo_ind_weight": {
+          "amount": "0.05",
+          "unit": "KILOGRAM"
+        },
         "demo_ind_glove_size": "xl",
-        "image": "sample-data/industrial/demo-ind-3013-xl.png",
+        "image": "sample-data/industrial/demo-ind-3013-xl.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3013-XL-IMG"
+          "DEMO-IND-3013-XL-IMG",
+          "DEMO-IND-3013-XL-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3013-DS"
         ],
         "demo_has_cad": false
       },
@@ -2533,9 +3464,20 @@
     "attribute_values": {
       "common": {
         "demo_ind_material": "leather",
-        "image": "sample-data/industrial/demo-ind-3014.png",
+        "demo_ind_norm": "en12477",
+        "demo_ind_reusable": true,
+        "demo_ind_weight": {
+          "amount": "0.2",
+          "unit": "KILOGRAM"
+        },
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-3014.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3014-IMG"
+          "DEMO-IND-3014-IMG",
+          "DEMO-IND-3014-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3014-DS"
         ],
         "demo_has_cad": false
       },
@@ -2563,10 +3505,21 @@
     "attribute_values": {
       "common": {
         "demo_ind_material": "leather",
+        "demo_ind_norm": "en12477",
+        "demo_ind_reusable": true,
+        "demo_ind_weight": {
+          "amount": "0.2",
+          "unit": "KILOGRAM"
+        },
+        "demo_ind_packaging": "box",
         "demo_ind_glove_size": "s",
-        "image": "sample-data/industrial/demo-ind-3014-s.png",
+        "image": "sample-data/industrial/demo-ind-3014-s.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3014-S-IMG"
+          "DEMO-IND-3014-S-IMG",
+          "DEMO-IND-3014-S-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3014-DS"
         ],
         "demo_has_cad": false
       },
@@ -2595,10 +3548,21 @@
     "attribute_values": {
       "common": {
         "demo_ind_material": "leather",
+        "demo_ind_norm": "en12477",
+        "demo_ind_reusable": true,
+        "demo_ind_weight": {
+          "amount": "0.2",
+          "unit": "KILOGRAM"
+        },
+        "demo_ind_packaging": "box",
         "demo_ind_glove_size": "m",
-        "image": "sample-data/industrial/demo-ind-3014-m.png",
+        "image": "sample-data/industrial/demo-ind-3014-m.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3014-M-IMG"
+          "DEMO-IND-3014-M-IMG",
+          "DEMO-IND-3014-M-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3014-DS"
         ],
         "demo_has_cad": false
       },
@@ -2627,10 +3591,21 @@
     "attribute_values": {
       "common": {
         "demo_ind_material": "leather",
+        "demo_ind_norm": "en12477",
+        "demo_ind_reusable": true,
+        "demo_ind_weight": {
+          "amount": "0.2",
+          "unit": "KILOGRAM"
+        },
+        "demo_ind_packaging": "box",
         "demo_ind_glove_size": "l",
-        "image": "sample-data/industrial/demo-ind-3014-l.png",
+        "image": "sample-data/industrial/demo-ind-3014-l.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3014-L-IMG"
+          "DEMO-IND-3014-L-IMG",
+          "DEMO-IND-3014-L-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3014-DS"
         ],
         "demo_has_cad": false
       },
@@ -2659,10 +3634,21 @@
     "attribute_values": {
       "common": {
         "demo_ind_material": "leather",
+        "demo_ind_norm": "en12477",
+        "demo_ind_reusable": true,
+        "demo_ind_weight": {
+          "amount": "0.2",
+          "unit": "KILOGRAM"
+        },
+        "demo_ind_packaging": "box",
         "demo_ind_glove_size": "xl",
-        "image": "sample-data/industrial/demo-ind-3014-xl.png",
+        "image": "sample-data/industrial/demo-ind-3014-xl.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3014-XL-IMG"
+          "DEMO-IND-3014-XL-IMG",
+          "DEMO-IND-3014-XL-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3014-DS"
         ],
         "demo_has_cad": false
       },
@@ -2695,9 +3681,17 @@
           "amount": "0.45",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-3015.png",
+        "demo_ind_norm": "en14404",
+        "demo_ind_reusable": true,
+        "demo_ind_adjustable": true,
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-3015.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3015-IMG"
+          "DEMO-IND-3015-IMG",
+          "DEMO-IND-3015-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3015-DS"
         ],
         "demo_has_cad": false
       },
@@ -2728,9 +3722,17 @@
           "amount": "1.2",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-3016.png",
+        "demo_ind_colour": "red_white",
+        "demo_ind_packaging": "roll",
+        "demo_ind_reusable": false,
+        "demo_ind_pack_size": 1,
+        "image": "sample-data/industrial/demo-ind-3016.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3016-IMG"
+          "DEMO-IND-3016-IMG",
+          "DEMO-IND-3016-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3016-DS"
         ],
         "demo_has_cad": false
       },
@@ -2758,9 +3760,26 @@
       "common": {
         "demo_ind_material": "chrome_vanadium",
         "demo_ind_pack_size": 6,
-        "image": "sample-data/industrial/demo-ind-4001.png",
+        "demo_ind_hardness": 58,
+        "demo_ind_warranty": 5,
+        "demo_ind_weight": {
+          "amount": "0.6",
+          "unit": "KILOGRAM"
+        },
+        "demo_ind_sizes_count": 6,
+        "demo_ind_packaging": "box",
+        "demo_ind_handle": "two_component",
+        "image": "sample-data/industrial/demo-ind-4001.jpg",
         "demo_ind_images": [
-          "DEMO-IND-4001-IMG"
+          "DEMO-IND-4001-IMG",
+          "DEMO-IND-4001-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-4001-DRW-PDF",
+          "DEMO-IND-4001-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-4001-DS"
         ],
         "demo_has_cad": false
       },
@@ -2789,9 +3808,20 @@
         "demo_ind_drive_size": "quarter",
         "demo_ind_material": "chrome_vanadium",
         "demo_ind_pack_size": 26,
-        "image": "sample-data/industrial/demo-ind-4002.png",
+        "demo_ind_hardness": 58,
+        "demo_ind_warranty": 5,
+        "demo_ind_weight": {
+          "amount": "1.4",
+          "unit": "KILOGRAM"
+        },
+        "demo_ind_packaging": "plastic_box",
+        "image": "sample-data/industrial/demo-ind-4002.jpg",
         "demo_ind_images": [
-          "DEMO-IND-4002-IMG"
+          "DEMO-IND-4002-IMG",
+          "DEMO-IND-4002-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-4002-DS"
         ],
         "demo_has_cad": false
       },
@@ -2820,9 +3850,20 @@
         "demo_ind_drive_size": "half",
         "demo_ind_material": "chrome_vanadium",
         "demo_ind_pack_size": 20,
-        "image": "sample-data/industrial/demo-ind-4003.png",
+        "demo_ind_hardness": 58,
+        "demo_ind_warranty": 5,
+        "demo_ind_weight": {
+          "amount": "2.6",
+          "unit": "KILOGRAM"
+        },
+        "demo_ind_packaging": "plastic_box",
+        "image": "sample-data/industrial/demo-ind-4003.jpg",
         "demo_ind_images": [
-          "DEMO-IND-4003-IMG"
+          "DEMO-IND-4003-IMG",
+          "DEMO-IND-4003-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-4003-DS"
         ],
         "demo_has_cad": false
       },
@@ -2850,9 +3891,24 @@
       "common": {
         "demo_ind_material": "chrome_vanadium",
         "demo_ind_pack_size": 8,
-        "image": "sample-data/industrial/demo-ind-4004.png",
+        "demo_ind_hardness": 58,
+        "demo_ind_warranty": 5,
+        "demo_ind_weight": {
+          "amount": "1.6",
+          "unit": "KILOGRAM"
+        },
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-4004.jpg",
         "demo_ind_images": [
-          "DEMO-IND-4004-IMG"
+          "DEMO-IND-4004-IMG",
+          "DEMO-IND-4004-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-4004-DRW-PDF",
+          "DEMO-IND-4004-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-4004-DS"
         ],
         "demo_has_cad": false
       },
@@ -2887,9 +3943,24 @@
           "amount": "0.45",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-4005.png",
+        "demo_ind_hardness": 58,
+        "demo_ind_warranty": 5,
+        "demo_ind_opening_width": {
+          "amount": "35",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-4005.jpg",
         "demo_ind_images": [
-          "DEMO-IND-4005-IMG"
+          "DEMO-IND-4005-IMG",
+          "DEMO-IND-4005-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-4005-DRW-PDF",
+          "DEMO-IND-4005-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-4005-DS"
         ],
         "demo_has_cad": false
       },
@@ -2924,9 +3995,20 @@
           "amount": "0.25",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-4006.png",
+        "demo_ind_hardness": 58,
+        "demo_ind_warranty": 5,
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-4006.jpg",
         "demo_ind_images": [
-          "DEMO-IND-4006-IMG"
+          "DEMO-IND-4006-IMG",
+          "DEMO-IND-4006-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-4006-DRW-PDF",
+          "DEMO-IND-4006-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-4006-DS"
         ],
         "demo_has_cad": false
       },
@@ -2960,9 +4042,25 @@
           "amount": "0.12",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-4007.png",
+        "demo_ind_material": "chrome_vanadium",
+        "demo_ind_hardness": 60,
+        "demo_ind_warranty": 5,
+        "demo_ind_cut_capacity": {
+          "amount": "2.5",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-4007.jpg",
         "demo_ind_images": [
-          "DEMO-IND-4007-IMG"
+          "DEMO-IND-4007-IMG",
+          "DEMO-IND-4007-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-4007-DRW-PDF",
+          "DEMO-IND-4007-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-4007-DS"
         ],
         "demo_has_cad": false
       },
@@ -2996,9 +4094,25 @@
           "amount": "0.3",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-4008.png",
+        "demo_ind_material": "chrome_vanadium",
+        "demo_ind_hardness": 58,
+        "demo_ind_warranty": 5,
+        "demo_ind_opening_width": {
+          "amount": "40",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-4008.jpg",
         "demo_ind_images": [
-          "DEMO-IND-4008-IMG"
+          "DEMO-IND-4008-IMG",
+          "DEMO-IND-4008-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-4008-DRW-PDF",
+          "DEMO-IND-4008-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-4008-DS"
         ],
         "demo_has_cad": false
       },
@@ -3029,9 +4143,17 @@
           "amount": "0.7",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-4009.png",
+        "demo_ind_hardness": 52,
+        "demo_ind_warranty": 5,
+        "demo_ind_packaging": "box",
+        "demo_ind_handle": "ash",
+        "image": "sample-data/industrial/demo-ind-4009.jpg",
         "demo_ind_images": [
-          "DEMO-IND-4009-IMG"
+          "DEMO-IND-4009-IMG",
+          "DEMO-IND-4009-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-4009-DS"
         ],
         "demo_has_cad": false
       },
@@ -3061,9 +4183,25 @@
           "amount": "0.6",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-4010.png",
+        "demo_ind_warranty": 5,
+        "demo_ind_packaging": "box",
+        "demo_ind_material": "rubber",
+        "demo_ind_handle": "two_component",
+        "demo_ind_diameter": {
+          "amount": "60",
+          "unit": "MILLIMETER"
+        },
+        "image": "sample-data/industrial/demo-ind-4010.jpg",
         "demo_ind_images": [
-          "DEMO-IND-4010-IMG"
+          "DEMO-IND-4010-IMG",
+          "DEMO-IND-4010-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-4010-DRW-PDF",
+          "DEMO-IND-4010-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-4010-DS"
         ],
         "demo_has_cad": false
       },
@@ -3094,9 +4232,22 @@
           "unit": "MILLIMETER"
         },
         "demo_ind_material": "chrome_vanadium",
-        "image": "sample-data/industrial/demo-ind-4011.png",
+        "demo_ind_hardness": 60,
+        "demo_ind_warranty": 5,
+        "demo_ind_packaging": "box",
+        "demo_ind_file_cut": "second",
+        "demo_ind_handle": "two_component",
+        "image": "sample-data/industrial/demo-ind-4011.jpg",
         "demo_ind_images": [
-          "DEMO-IND-4011-IMG"
+          "DEMO-IND-4011-IMG",
+          "DEMO-IND-4011-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-4011-DRW-PDF",
+          "DEMO-IND-4011-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-4011-DS"
         ],
         "demo_has_cad": false
       },
@@ -3130,9 +4281,22 @@
           "amount": "0.3",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-4012.png",
+        "demo_ind_warranty": 5,
+        "demo_ind_adjustable": true,
+        "demo_ind_packaging": "box",
+        "demo_ind_teeth_per_inch": 24,
+        "demo_ind_handle": "two_component",
+        "image": "sample-data/industrial/demo-ind-4012.jpg",
         "demo_ind_images": [
-          "DEMO-IND-4012-IMG"
+          "DEMO-IND-4012-IMG",
+          "DEMO-IND-4012-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-4012-DRW-PDF",
+          "DEMO-IND-4012-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-4012-DS"
         ],
         "demo_has_cad": false
       },
@@ -3167,9 +4331,16 @@
           "amount": "0.9",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-4013.png",
+        "demo_ind_warranty": 5,
+        "demo_ind_packaging": "box",
+        "demo_ind_accuracy": 0.5,
+        "image": "sample-data/industrial/demo-ind-4013.jpg",
         "demo_ind_images": [
-          "DEMO-IND-4013-IMG"
+          "DEMO-IND-4013-IMG",
+          "DEMO-IND-4013-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-4013-DS"
         ],
         "demo_has_cad": false
       },
@@ -3203,9 +4374,16 @@
           "amount": "0.2",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-4014.png",
+        "demo_ind_warranty": 5,
+        "demo_ind_packaging": "box",
+        "demo_ind_accuracy_class": "ec_ii",
+        "image": "sample-data/industrial/demo-ind-4014.jpg",
         "demo_ind_images": [
-          "DEMO-IND-4014-IMG"
+          "DEMO-IND-4014-IMG",
+          "DEMO-IND-4014-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-4014-DS"
         ],
         "demo_has_cad": false
       },
@@ -3236,9 +4414,20 @@
           "unit": "MILLIMETER"
         },
         "demo_ind_material": "chrome_vanadium",
-        "image": "sample-data/industrial/demo-ind-4015.png",
+        "demo_ind_hardness": 55,
+        "demo_ind_warranty": 5,
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-4015.jpg",
         "demo_ind_images": [
-          "DEMO-IND-4015-IMG"
+          "DEMO-IND-4015-IMG",
+          "DEMO-IND-4015-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-4015-DRW-PDF",
+          "DEMO-IND-4015-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-4015-DS"
         ],
         "demo_has_cad": false
       },
@@ -3266,9 +4455,21 @@
       "common": {
         "demo_ind_material": "chrome_vanadium",
         "demo_ind_pack_size": 9,
-        "image": "sample-data/industrial/demo-ind-4016.png",
+        "demo_ind_hardness": 55,
+        "demo_ind_warranty": 5,
+        "demo_ind_packaging": "plastic_box",
+        "demo_ind_sizes_count": 9,
+        "image": "sample-data/industrial/demo-ind-4016.jpg",
         "demo_ind_images": [
-          "DEMO-IND-4016-IMG"
+          "DEMO-IND-4016-IMG",
+          "DEMO-IND-4016-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-4016-DRW-PDF",
+          "DEMO-IND-4016-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-4016-DS"
         ],
         "demo_has_cad": false
       },
@@ -3301,11 +4502,25 @@
         "demo_ind_grit": "p80",
         "demo_ind_material": "corundum",
         "demo_ind_pack_size": 10,
-        "image": "sample-data/industrial/demo-ind-5001.png",
+        "demo_ind_bore_diameter": {
+          "amount": "22.2",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_max_speed": {
+          "amount": "13300",
+          "unit": "REVOLUTIONS_PER_MINUTE"
+        },
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-5001.jpg",
         "demo_ind_images": [
-          "DEMO-IND-5001-IMG"
+          "DEMO-IND-5001-IMG",
+          "DEMO-IND-5001-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_ind_downloads": [
+          "DEMO-IND-5001-FLAP-DISC-115-P80-STEP",
+          "DEMO-IND-5001-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -3336,11 +4551,25 @@
         "demo_ind_grit": "p120",
         "demo_ind_material": "corundum",
         "demo_ind_pack_size": 10,
-        "image": "sample-data/industrial/demo-ind-5002.png",
+        "demo_ind_bore_diameter": {
+          "amount": "22.2",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_max_speed": {
+          "amount": "13300",
+          "unit": "REVOLUTIONS_PER_MINUTE"
+        },
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-5002.jpg",
         "demo_ind_images": [
-          "DEMO-IND-5002-IMG"
+          "DEMO-IND-5002-IMG",
+          "DEMO-IND-5002-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_ind_downloads": [
+          "DEMO-IND-5002-FLAP-DISC-115-P120-STEP",
+          "DEMO-IND-5002-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -3375,9 +4604,15 @@
         "demo_ind_grit": "p120",
         "demo_ind_material": "corundum",
         "demo_ind_pack_size": 5,
-        "image": "sample-data/industrial/demo-ind-5003.png",
+        "demo_ind_backing": "cloth",
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-5003.jpg",
         "demo_ind_images": [
-          "DEMO-IND-5003-IMG"
+          "DEMO-IND-5003-IMG",
+          "DEMO-IND-5003-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-5003-DS"
         ],
         "demo_has_cad": false
       },
@@ -3409,9 +4644,16 @@
         },
         "demo_ind_grit": "p180",
         "demo_ind_pack_size": 50,
-        "image": "sample-data/industrial/demo-ind-5004.png",
+        "demo_ind_backing": "paper",
+        "demo_ind_packaging": "box",
+        "demo_ind_material": "corundum",
+        "image": "sample-data/industrial/demo-ind-5004.jpg",
         "demo_ind_images": [
-          "DEMO-IND-5004-IMG"
+          "DEMO-IND-5004-IMG",
+          "DEMO-IND-5004-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-5004-DS"
         ],
         "demo_has_cad": false
       },
@@ -3443,9 +4685,16 @@
         },
         "demo_ind_grit": "p80",
         "demo_ind_pack_size": 50,
-        "image": "sample-data/industrial/demo-ind-5005.png",
+        "demo_ind_backing": "paper",
+        "demo_ind_packaging": "box",
+        "demo_ind_material": "corundum",
+        "image": "sample-data/industrial/demo-ind-5005.jpg",
         "demo_ind_images": [
-          "DEMO-IND-5005-IMG"
+          "DEMO-IND-5005-IMG",
+          "DEMO-IND-5005-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-5005-DS"
         ],
         "demo_has_cad": false
       },
@@ -3481,9 +4730,19 @@
         },
         "demo_ind_grit": "p120",
         "demo_ind_material": "corundum",
-        "image": "sample-data/industrial/demo-ind-5006.png",
+        "demo_ind_backing": "paper",
+        "demo_ind_packaging": "roll",
+        "demo_ind_weight": {
+          "amount": "0.3",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-5006.jpg",
         "demo_ind_images": [
-          "DEMO-IND-5006-IMG"
+          "DEMO-IND-5006-IMG",
+          "DEMO-IND-5006-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-5006-DS"
         ],
         "demo_has_cad": false
       },
@@ -3514,11 +4773,30 @@
           "unit": "MILLIMETER"
         },
         "demo_ind_pack_size": 25,
-        "image": "sample-data/industrial/demo-ind-5007.png",
+        "demo_ind_material": "corundum",
+        "demo_ind_thickness": {
+          "amount": "1.0",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_bore_diameter": {
+          "amount": "22.2",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_max_speed": {
+          "amount": "13300",
+          "unit": "REVOLUTIONS_PER_MINUTE"
+        },
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-5007.jpg",
         "demo_ind_images": [
-          "DEMO-IND-5007-IMG"
+          "DEMO-IND-5007-IMG",
+          "DEMO-IND-5007-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_ind_downloads": [
+          "DEMO-IND-5007-CUTTING-DISC-115-INOX-STEP",
+          "DEMO-IND-5007-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -3550,11 +4828,29 @@
           "amount": "0.9",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-5008.png",
+        "demo_ind_thickness": {
+          "amount": "2.6",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_bore_diameter": {
+          "amount": "22.2",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_max_speed": {
+          "amount": "6600",
+          "unit": "REVOLUTIONS_PER_MINUTE"
+        },
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-5008.jpg",
         "demo_ind_images": [
-          "DEMO-IND-5008-IMG"
+          "DEMO-IND-5008-IMG",
+          "DEMO-IND-5008-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_ind_downloads": [
+          "DEMO-IND-5008-DIAMOND-CUTTING-DISC-230-STEP",
+          "DEMO-IND-5008-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -3588,9 +4884,15 @@
         },
         "demo_ind_material": "corundum",
         "demo_ind_pack_size": 1,
-        "image": "sample-data/industrial/demo-ind-5009.png",
+        "demo_ind_backing": "fleece",
+        "demo_ind_packaging": "roll",
+        "image": "sample-data/industrial/demo-ind-5009.jpg",
         "demo_ind_images": [
-          "DEMO-IND-5009-IMG"
+          "DEMO-IND-5009-IMG",
+          "DEMO-IND-5009-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-5009-DS"
         ],
         "demo_has_cad": false
       },
@@ -3621,9 +4923,20 @@
           "unit": "MILLIMETER"
         },
         "demo_ind_pack_size": 5,
-        "image": "sample-data/industrial/demo-ind-5010.png",
+        "demo_ind_backing": "foam",
+        "demo_ind_packaging": "box",
+        "demo_ind_colour": "white",
+        "demo_ind_weight": {
+          "amount": "0.1",
+          "unit": "KILOGRAM"
+        },
+        "image": "sample-data/industrial/demo-ind-5010.jpg",
         "demo_ind_images": [
-          "DEMO-IND-5010-IMG"
+          "DEMO-IND-5010-IMG",
+          "DEMO-IND-5010-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-5010-DS"
         ],
         "demo_has_cad": false
       },
@@ -3661,9 +4974,19 @@
           "amount": "48",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-6001.png",
+        "demo_ind_material": "steel",
+        "demo_ind_warranty": 5,
+        "image": "sample-data/industrial/demo-ind-6001.jpg",
         "demo_ind_images": [
-          "DEMO-IND-6001-IMG"
+          "DEMO-IND-6001-IMG",
+          "DEMO-IND-6001-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-6001-DRW-PDF",
+          "DEMO-IND-6001-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-6001-DS"
         ],
         "demo_has_cad": false
       },
@@ -3697,9 +5020,20 @@
           "amount": "9.5",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-6002.png",
+        "demo_ind_material": "steel",
+        "demo_ind_warranty": 5,
+        "demo_ind_adjustable": true,
+        "image": "sample-data/industrial/demo-ind-6002.jpg",
         "demo_ind_images": [
-          "DEMO-IND-6002-IMG"
+          "DEMO-IND-6002-IMG",
+          "DEMO-IND-6002-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-6002-DRW-PDF",
+          "DEMO-IND-6002-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-6002-DS"
         ],
         "demo_has_cad": false
       },
@@ -3733,9 +5067,21 @@
           "amount": "28",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-6003.png",
+        "demo_ind_mobile": true,
+        "demo_ind_material": "steel",
+        "demo_ind_warranty": 2,
+        "demo_ind_compartments": 3,
+        "image": "sample-data/industrial/demo-ind-6003.jpg",
         "demo_ind_images": [
-          "DEMO-IND-6003-IMG"
+          "DEMO-IND-6003-IMG",
+          "DEMO-IND-6003-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-6003-DRW-PDF",
+          "DEMO-IND-6003-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-6003-DS"
         ],
         "demo_has_cad": false
       },
@@ -3773,9 +5119,24 @@
           "amount": "14",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-6004.png",
+        "demo_ind_protection_class": "i",
+        "demo_ind_mobile": true,
+        "demo_ind_cable_length": {
+          "amount": "5.0",
+          "unit": "METER"
+        },
+        "demo_ind_warranty": 2,
+        "image": "sample-data/industrial/demo-ind-6004.jpg",
         "demo_ind_images": [
-          "DEMO-IND-6004-IMG"
+          "DEMO-IND-6004-IMG",
+          "DEMO-IND-6004-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-6004-DRW-PDF",
+          "DEMO-IND-6004-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-6004-DS"
         ],
         "demo_has_cad": false
       },
@@ -3813,9 +5174,23 @@
           "amount": "22",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-6005.png",
+        "demo_ind_protection_class": "i",
+        "demo_ind_noise_level": {
+          "amount": "75",
+          "unit": "DECIBEL"
+        },
+        "demo_ind_warranty": 2,
+        "image": "sample-data/industrial/demo-ind-6005.jpg",
         "demo_ind_images": [
-          "DEMO-IND-6005-IMG"
+          "DEMO-IND-6005-IMG",
+          "DEMO-IND-6005-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-6005-DRW-PDF",
+          "DEMO-IND-6005-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-6005-DS"
         ],
         "demo_has_cad": false
       },
@@ -3849,9 +5224,20 @@
           "amount": "9.5",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-6006.png",
+        "demo_ind_mobile": true,
+        "demo_ind_material": "steel",
+        "demo_ind_warranty": 2,
+        "image": "sample-data/industrial/demo-ind-6006.jpg",
         "demo_ind_images": [
-          "DEMO-IND-6006-IMG"
+          "DEMO-IND-6006-IMG",
+          "DEMO-IND-6006-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-6006-DRW-PDF",
+          "DEMO-IND-6006-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-6006-DS"
         ],
         "demo_has_cad": false
       },
@@ -3889,9 +5275,20 @@
           "amount": "21",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-6007.png",
+        "demo_ind_material": "steel",
+        "demo_ind_warranty": 5,
+        "demo_ind_compartments": 4,
+        "image": "sample-data/industrial/demo-ind-6007.jpg",
         "demo_ind_images": [
-          "DEMO-IND-6007-IMG"
+          "DEMO-IND-6007-IMG",
+          "DEMO-IND-6007-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-6007-DRW-PDF",
+          "DEMO-IND-6007-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-6007-DS"
         ],
         "demo_has_cad": false
       },
@@ -3922,9 +5319,20 @@
           "amount": "1.1",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-6008.png",
+        "demo_ind_material": "plastic_abs",
+        "demo_ind_warranty": 2,
+        "demo_ind_compartments": 3,
+        "image": "sample-data/industrial/demo-ind-6008.jpg",
         "demo_ind_images": [
-          "DEMO-IND-6008-IMG"
+          "DEMO-IND-6008-IMG",
+          "DEMO-IND-6008-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-6008-DRW-PDF",
+          "DEMO-IND-6008-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-6008-DS"
         ],
         "demo_has_cad": false
       },
@@ -3958,9 +5366,25 @@
           "amount": "1.8",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-6009.png",
+        "demo_ind_protection_class": "i",
+        "demo_ind_cable_length": {
+          "amount": "3.0",
+          "unit": "METER"
+        },
+        "demo_ind_led_light": true,
+        "demo_ind_adjustable": true,
+        "demo_ind_warranty": 2,
+        "image": "sample-data/industrial/demo-ind-6009.jpg",
         "demo_ind_images": [
-          "DEMO-IND-6009-IMG"
+          "DEMO-IND-6009-IMG",
+          "DEMO-IND-6009-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-6009-DRW-PDF",
+          "DEMO-IND-6009-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-6009-DS"
         ],
         "demo_has_cad": false
       },
@@ -3994,9 +5418,20 @@
           "amount": "2.6",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-6010.png",
+        "demo_ind_max_pressure": 15,
+        "demo_ind_warranty": 1,
+        "demo_ind_bore_diameter": {
+          "amount": "9",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_material": "pvc",
+        "image": "sample-data/industrial/demo-ind-6010.jpg",
         "demo_ind_images": [
-          "DEMO-IND-6010-IMG"
+          "DEMO-IND-6010-IMG",
+          "DEMO-IND-6010-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-6010-DS"
         ],
         "demo_has_cad": false
       },
@@ -4025,11 +5460,33 @@
         "demo_ind_thread": "m10",
         "demo_ind_material": "steel_zinc",
         "demo_ind_pack_size": 100,
-        "image": "sample-data/industrial/demo-ind-2023.png",
+        "demo_ind_bore_diameter": {
+          "amount": "10.5",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_thickness": {
+          "amount": "2.0",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_outer_diameter": {
+          "amount": "20",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-2023.jpg",
         "demo_ind_images": [
-          "DEMO-IND-2023-IMG"
+          "DEMO-IND-2023-IMG",
+          "DEMO-IND-2023-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_ind_drawings": [
+          "DEMO-IND-2023-DRW-PDF",
+          "DEMO-IND-2023-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-2023-FLAT-WASHER-M10-STEP",
+          "DEMO-IND-2023-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -4057,9 +5514,18 @@
           "amount": "0.6",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-3017.png",
+        "demo_ind_norm": "en343",
+        "demo_ind_colour": "yellow",
+        "demo_ind_reusable": true,
+        "demo_ind_adjustable": true,
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-3017.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3017-IMG"
+          "DEMO-IND-3017-IMG",
+          "DEMO-IND-3017-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3017-DS"
         ],
         "demo_has_cad": false
       },
@@ -4086,9 +5552,18 @@
     "attribute_values": {
       "common": {
         "demo_ind_pack_size": 20,
-        "image": "sample-data/industrial/demo-ind-3018.png",
+        "demo_ind_norm": "en149",
+        "demo_ind_filter_class": "ffp2",
+        "demo_ind_reusable": false,
+        "demo_ind_packaging": "box",
+        "demo_ind_colour": "white",
+        "image": "sample-data/industrial/demo-ind-3018.jpg",
         "demo_ind_images": [
-          "DEMO-IND-3018-IMG"
+          "DEMO-IND-3018-IMG",
+          "DEMO-IND-3018-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-3018-DS"
         ],
         "demo_has_cad": false
       },
@@ -4123,9 +5598,20 @@
           "amount": "0.3",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-4017.png",
+        "demo_ind_hardness": 58,
+        "demo_ind_warranty": 5,
+        "demo_ind_opening_width": {
+          "amount": "45",
+          "unit": "MILLIMETER"
+        },
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-4017.jpg",
         "demo_ind_images": [
-          "DEMO-IND-4017-IMG"
+          "DEMO-IND-4017-IMG",
+          "DEMO-IND-4017-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-4017-DS"
         ],
         "demo_has_cad": false
       },
@@ -4156,9 +5642,22 @@
           "amount": "0.6",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-4018.png",
+        "demo_ind_tooth_count": 72,
+        "demo_ind_warranty": 5,
+        "demo_ind_packaging": "box",
+        "demo_ind_handle": "two_component",
+        "demo_ind_material": "chrome_vanadium",
+        "image": "sample-data/industrial/demo-ind-4018.jpg",
         "demo_ind_images": [
-          "DEMO-IND-4018-IMG"
+          "DEMO-IND-4018-IMG",
+          "DEMO-IND-4018-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-4018-DRW-PDF",
+          "DEMO-IND-4018-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-4018-DS"
         ],
         "demo_has_cad": false
       },
@@ -4193,9 +5692,16 @@
           "amount": "5000",
           "unit": "MILLIMETER"
         },
-        "image": "sample-data/industrial/demo-ind-5011.png",
+        "demo_ind_backing": "paper",
+        "demo_ind_packaging": "roll",
+        "demo_ind_material": "corundum",
+        "image": "sample-data/industrial/demo-ind-5011.jpg",
         "demo_ind_images": [
-          "DEMO-IND-5011-IMG"
+          "DEMO-IND-5011-IMG",
+          "DEMO-IND-5011-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-5011-DS"
         ],
         "demo_has_cad": false
       },
@@ -4226,9 +5732,20 @@
           "amount": "115",
           "unit": "MILLIMETER"
         },
-        "image": "sample-data/industrial/demo-ind-5012.png",
+        "demo_ind_backing": "foam",
+        "demo_ind_material": "corundum",
+        "demo_ind_weight": {
+          "amount": "0.03",
+          "unit": "KILOGRAM"
+        },
+        "demo_ind_packaging": "box",
+        "image": "sample-data/industrial/demo-ind-5012.jpg",
         "demo_ind_images": [
-          "DEMO-IND-5012-IMG"
+          "DEMO-IND-5012-IMG",
+          "DEMO-IND-5012-IMG-2"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-5012-DS"
         ],
         "demo_has_cad": false
       },
@@ -4262,9 +5779,20 @@
           "amount": "24",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-6011.png",
+        "demo_ind_adjustable": true,
+        "demo_ind_material": "steel",
+        "demo_ind_warranty": 2,
+        "image": "sample-data/industrial/demo-ind-6011.jpg",
         "demo_ind_images": [
-          "DEMO-IND-6011-IMG"
+          "DEMO-IND-6011-IMG",
+          "DEMO-IND-6011-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-6011-DRW-PDF",
+          "DEMO-IND-6011-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-6011-DS"
         ],
         "demo_has_cad": false
       },
@@ -4298,9 +5826,19 @@
           "amount": "3.2",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/industrial/demo-ind-6012.png",
+        "demo_ind_material": "plastic_abs",
+        "demo_ind_warranty": 2,
+        "image": "sample-data/industrial/demo-ind-6012.jpg",
         "demo_ind_images": [
-          "DEMO-IND-6012-IMG"
+          "DEMO-IND-6012-IMG",
+          "DEMO-IND-6012-IMG-2"
+        ],
+        "demo_ind_drawings": [
+          "DEMO-IND-6012-DRW-PDF",
+          "DEMO-IND-6012-DRW-SVG"
+        ],
+        "demo_ind_downloads": [
+          "DEMO-IND-6012-DS"
         ],
         "demo_has_cad": false
       },
