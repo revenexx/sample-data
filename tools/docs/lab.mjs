@@ -63,13 +63,4 @@ export const drawings = {
   'demo-lab-2002-pipette-tip-200ul': { sku: 'DEMO-LAB-2002', scale: '8:1', svg: tip200 },
 };
 
-export const datasheets = {
-  'demo-lab-1001-data-sheet': {
-    sku: 'DEMO-LAB-1001',
-    rows: [
-      ['Max. speed / Max. Drehzahl', '15,000 rpm'], ['Max. RCF / Max. RZB', '21,000 × g'], ['Capacity / Kapazität', '24 × 1.5/2.0 ml'],
-      ['Lid / Deckel', 'with lid lock / mit Verriegelung'], ['Weight / Gewicht', '3.6 kg'],
-      ['Consumables / Verbrauchsmaterial', 'DEMO-LAB-3001 (1.5 ml tubes)'],
-    ],
-  },
-};
+export const datasheets = {};

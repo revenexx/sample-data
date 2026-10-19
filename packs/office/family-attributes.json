@@ -79,26 +79,254 @@
   },
   {
     "family": "DEMO-OFF-ARTICLE",
-    "attribute": "demo_off_images",
+    "attribute": "demo_off_whiteness",
     "position": 13,
     "is_required": false
   },
   {
     "family": "DEMO-OFF-ARTICLE",
-    "attribute": "demo_off_drawings",
+    "attribute": "demo_off_capacity_sheets",
     "position": 14,
     "is_required": false
   },
   {
     "family": "DEMO-OFF-ARTICLE",
-    "attribute": "demo_off_downloads",
+    "attribute": "demo_off_ring_count",
     "position": 15,
     "is_required": false
   },
   {
     "family": "DEMO-OFF-ARTICLE",
-    "attribute": "demo_has_cad",
+    "attribute": "demo_off_hole_spacing",
     "position": 16,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_recycled_share",
+    "position": 17,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_line_width",
+    "position": 18,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_writing_tip",
+    "position": 19,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_refillable",
+    "position": 20,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_hardness",
+    "position": 21,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_staple_size",
+    "position": 22,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_wire_gauge",
+    "position": 23,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_shelf_life",
+    "position": 24,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_servings",
+    "position": 25,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_roast",
+    "position": 26,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_caffeine_free",
+    "position": 27,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_ph_value",
+    "position": 28,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_dilution",
+    "position": 29,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_wash_temperature",
+    "position": 30,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_film_thickness",
+    "position": 31,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_mount",
+    "position": 32,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_compartments",
+    "position": 33,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_max_load",
+    "position": 34,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_digits",
+    "position": 35,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_labels_per_sheet",
+    "position": 36,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_tape_width",
+    "position": 37,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_envelope_window",
+    "position": 38,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_self_seal",
+    "position": 39,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_corrugation",
+    "position": 40,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_plies",
+    "position": 41,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_openings",
+    "position": 42,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_pencil_diameter",
+    "position": 43,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_bubble_size",
+    "position": 44,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_warranty_years",
+    "position": 45,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_scale",
+    "position": 46,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_blend",
+    "position": 47,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_organic",
+    "position": 48,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_solvent_free",
+    "position": 49,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_blade_length",
+    "position": 50,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_images",
+    "position": 51,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_drawings",
+    "position": 52,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_off_downloads",
+    "position": 53,
+    "is_required": false
+  },
+  {
+    "family": "DEMO-OFF-ARTICLE",
+    "attribute": "demo_has_cad",
+    "position": 54,
     "is_required": false
   }
 ]

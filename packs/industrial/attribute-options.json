@@ -1,5 +1,77 @@
 [
   {
+    "attribute": "demo_ind_accuracy_class",
+    "code": "ec_i",
+    "labels": {
+      "de-DE": "Klasse I",
+      "en-US": "Class I"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ind_accuracy_class",
+    "code": "ec_ii",
+    "labels": {
+      "de-DE": "Klasse II",
+      "en-US": "Class II"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ind_handle",
+    "code": "ash",
+    "labels": {
+      "de-DE": "Eschenholz",
+      "en-US": "Ash wood"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ind_handle",
+    "code": "two_component",
+    "labels": {
+      "de-DE": "Zweikomponenten-Kunststoff",
+      "en-US": "Two-component plastic"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ind_handle",
+    "code": "fibreglass",
+    "labels": {
+      "de-DE": "Glasfaser",
+      "en-US": "Fibreglass"
+    },
+    "position": 2
+  },
+  {
+    "attribute": "demo_ind_file_cut",
+    "code": "bastard",
+    "labels": {
+      "de-DE": "Hieb 1 (Bastard)",
+      "en-US": "Bastard cut"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ind_file_cut",
+    "code": "second",
+    "labels": {
+      "de-DE": "Hieb 2 (Halbschlicht)",
+      "en-US": "Second cut"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ind_file_cut",
+    "code": "smooth",
+    "labels": {
+      "de-DE": "Hieb 3 (Schlicht)",
+      "en-US": "Smooth cut"
+    },
+    "position": 2
+  },
+  {
     "attribute": "demo_ind_thread",
     "code": "m4",
     "labels": {
@@ -144,6 +216,33 @@
     "position": 9
   },
   {
+    "attribute": "demo_ind_material",
+    "code": "rubber",
+    "labels": {
+      "de-DE": "Gummi",
+      "en-US": "Rubber"
+    },
+    "position": 10
+  },
+  {
+    "attribute": "demo_ind_material",
+    "code": "pvc",
+    "labels": {
+      "de-DE": "PVC",
+      "en-US": "PVC"
+    },
+    "position": 11
+  },
+  {
+    "attribute": "demo_ind_material",
+    "code": "steel",
+    "labels": {
+      "de-DE": "Stahl",
+      "en-US": "Steel"
+    },
+    "position": 12
+  },
+  {
     "attribute": "demo_ind_grit",
     "code": "p40",
     "labels": {
@@ -277,5 +376,437 @@
       "en-US": "C"
     },
     "position": 2
+  },
+  {
+    "attribute": "demo_ind_colour",
+    "code": "black",
+    "labels": {
+      "de-DE": "Schwarz",
+      "en-US": "Black"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ind_colour",
+    "code": "white",
+    "labels": {
+      "de-DE": "Weiß",
+      "en-US": "White"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ind_colour",
+    "code": "yellow",
+    "labels": {
+      "de-DE": "Gelb",
+      "en-US": "Yellow"
+    },
+    "position": 2
+  },
+  {
+    "attribute": "demo_ind_colour",
+    "code": "orange",
+    "labels": {
+      "de-DE": "Orange",
+      "en-US": "Orange"
+    },
+    "position": 3
+  },
+  {
+    "attribute": "demo_ind_colour",
+    "code": "red_white",
+    "labels": {
+      "de-DE": "Rot-weiß",
+      "en-US": "Red and white"
+    },
+    "position": 4
+  },
+  {
+    "attribute": "demo_ind_colour",
+    "code": "clear",
+    "labels": {
+      "de-DE": "Klar",
+      "en-US": "Clear"
+    },
+    "position": 5
+  },
+  {
+    "attribute": "demo_ind_colour",
+    "code": "smoke",
+    "labels": {
+      "de-DE": "Getönt (grau)",
+      "en-US": "Tinted (smoke)"
+    },
+    "position": 6
+  },
+  {
+    "attribute": "demo_ind_colour",
+    "code": "anthracite",
+    "labels": {
+      "de-DE": "Anthrazit",
+      "en-US": "Anthracite"
+    },
+    "position": 7
+  },
+  {
+    "attribute": "demo_ind_colour",
+    "code": "burgundy",
+    "labels": {
+      "de-DE": "Bordeaux",
+      "en-US": "Burgundy"
+    },
+    "position": 8
+  },
+  {
+    "attribute": "demo_ind_packaging",
+    "code": "box",
+    "labels": {
+      "de-DE": "Karton",
+      "en-US": "Carton"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ind_packaging",
+    "code": "plastic_box",
+    "labels": {
+      "de-DE": "Kunststoffbox",
+      "en-US": "Plastic box"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ind_packaging",
+    "code": "dispenser",
+    "labels": {
+      "de-DE": "Spenderbox",
+      "en-US": "Dispenser box"
+    },
+    "position": 2
+  },
+  {
+    "attribute": "demo_ind_packaging",
+    "code": "roll",
+    "labels": {
+      "de-DE": "Rolle",
+      "en-US": "Roll"
+    },
+    "position": 3
+  },
+  {
+    "attribute": "demo_ind_protection_class",
+    "code": "ii",
+    "labels": {
+      "de-DE": "II (schutzisoliert)",
+      "en-US": "II (double insulated)"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ind_protection_class",
+    "code": "i",
+    "labels": {
+      "de-DE": "I (mit Schutzleiter)",
+      "en-US": "I (earthed)"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ind_battery_type",
+    "code": "li_ion",
+    "labels": {
+      "de-DE": "Lithium-Ionen",
+      "en-US": "Lithium-ion"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ind_filter_class",
+    "code": "l",
+    "labels": {
+      "de-DE": "L",
+      "en-US": "L"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ind_filter_class",
+    "code": "m",
+    "labels": {
+      "de-DE": "M",
+      "en-US": "M"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ind_filter_class",
+    "code": "ffp2",
+    "labels": {
+      "de-DE": "FFP2",
+      "en-US": "FFP2"
+    },
+    "position": 2
+  },
+  {
+    "attribute": "demo_ind_head_type",
+    "code": "countersunk",
+    "labels": {
+      "de-DE": "Senkkopf",
+      "en-US": "Countersunk"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ind_head_type",
+    "code": "hex",
+    "labels": {
+      "de-DE": "Sechskant",
+      "en-US": "Hex"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ind_head_type",
+    "code": "cheese",
+    "labels": {
+      "de-DE": "Zylinderkopf",
+      "en-US": "Cheese head"
+    },
+    "position": 2
+  },
+  {
+    "attribute": "demo_ind_head_type",
+    "code": "pan",
+    "labels": {
+      "de-DE": "Linsenkopf",
+      "en-US": "Pan head"
+    },
+    "position": 3
+  },
+  {
+    "attribute": "demo_ind_head_type",
+    "code": "flat",
+    "labels": {
+      "de-DE": "Flachkopf",
+      "en-US": "Flat head"
+    },
+    "position": 4
+  },
+  {
+    "attribute": "demo_ind_drive_type",
+    "code": "hexalobular",
+    "labels": {
+      "de-DE": "Innensechsrund",
+      "en-US": "Hexalobular"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ind_drive_type",
+    "code": "hex_socket",
+    "labels": {
+      "de-DE": "Innensechskant",
+      "en-US": "Hex socket"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ind_drive_type",
+    "code": "cross_recess",
+    "labels": {
+      "de-DE": "Kreuzschlitz",
+      "en-US": "Cross recess"
+    },
+    "position": 2
+  },
+  {
+    "attribute": "demo_ind_thread_type",
+    "code": "full",
+    "labels": {
+      "de-DE": "Vollgewinde",
+      "en-US": "Full thread"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ind_thread_type",
+    "code": "partial",
+    "labels": {
+      "de-DE": "Teilgewinde",
+      "en-US": "Partial thread"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ind_thread_type",
+    "code": "standard",
+    "labels": {
+      "de-DE": "Regelgewinde",
+      "en-US": "Standard thread"
+    },
+    "position": 2
+  },
+  {
+    "attribute": "demo_ind_strength_class",
+    "code": "8",
+    "labels": {
+      "de-DE": "8",
+      "en-US": "8"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ind_strength_class",
+    "code": "8_8",
+    "labels": {
+      "de-DE": "8.8",
+      "en-US": "8.8"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ind_point_type",
+    "code": "cup",
+    "labels": {
+      "de-DE": "Ringschneide",
+      "en-US": "Cup point"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ind_point_type",
+    "code": "drill",
+    "labels": {
+      "de-DE": "Bohrspitze",
+      "en-US": "Drill point"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ind_backing",
+    "code": "cloth",
+    "labels": {
+      "de-DE": "Gewebe",
+      "en-US": "Cloth"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ind_backing",
+    "code": "paper",
+    "labels": {
+      "de-DE": "Papier",
+      "en-US": "Paper"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ind_backing",
+    "code": "fleece",
+    "labels": {
+      "de-DE": "Vlies",
+      "en-US": "Fleece"
+    },
+    "position": 2
+  },
+  {
+    "attribute": "demo_ind_backing",
+    "code": "foam",
+    "labels": {
+      "de-DE": "Schaumstoff",
+      "en-US": "Foam"
+    },
+    "position": 3
+  },
+  {
+    "attribute": "demo_ind_norm",
+    "code": "en166",
+    "labels": {
+      "de-DE": "EN 166",
+      "en-US": "EN 166"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ind_norm",
+    "code": "en352",
+    "labels": {
+      "de-DE": "EN 352",
+      "en-US": "EN 352"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ind_norm",
+    "code": "en397",
+    "labels": {
+      "de-DE": "EN 397",
+      "en-US": "EN 397"
+    },
+    "position": 2
+  },
+  {
+    "attribute": "demo_ind_norm",
+    "code": "en20471",
+    "labels": {
+      "de-DE": "EN ISO 20471",
+      "en-US": "EN ISO 20471"
+    },
+    "position": 3
+  },
+  {
+    "attribute": "demo_ind_norm",
+    "code": "en388",
+    "labels": {
+      "de-DE": "EN 388",
+      "en-US": "EN 388"
+    },
+    "position": 4
+  },
+  {
+    "attribute": "demo_ind_norm",
+    "code": "en11611",
+    "labels": {
+      "de-DE": "EN ISO 11611",
+      "en-US": "EN ISO 11611"
+    },
+    "position": 5
+  },
+  {
+    "attribute": "demo_ind_norm",
+    "code": "en12477",
+    "labels": {
+      "de-DE": "EN 12477",
+      "en-US": "EN 12477"
+    },
+    "position": 6
+  },
+  {
+    "attribute": "demo_ind_norm",
+    "code": "en14404",
+    "labels": {
+      "de-DE": "EN 14404",
+      "en-US": "EN 14404"
+    },
+    "position": 7
+  },
+  {
+    "attribute": "demo_ind_norm",
+    "code": "en343",
+    "labels": {
+      "de-DE": "EN 343",
+      "en-US": "EN 343"
+    },
+    "position": 8
+  },
+  {
+    "attribute": "demo_ind_norm",
+    "code": "en149",
+    "labels": {
+      "de-DE": "EN 149",
+      "en-US": "EN 149"
+    },
+    "position": 9
   }
 ]

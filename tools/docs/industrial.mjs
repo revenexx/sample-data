@@ -59,12 +59,4 @@ export const drawings = {
   'demo-ind-2003-cutting-disc-125': { sku: 'DEMO-IND-2003', scale: '3:1', svg: disc },
 };
 
-export const datasheets = {
-  'demo-ind-1001-data-sheet': {
-    sku: 'DEMO-IND-1001',
-    rows: [
-      ['Voltage / Spannung', '18 V'], ['Weight / Gewicht', '1.4 kg (without battery)'], ['Gears / Gänge', '2'],
-      ['Max. torque / Drehmoment', '55 Nm'], ['Chuck / Bohrfutter', '13 mm keyless'], ['Battery / Akku', 'not included, see DEMO-IND-1004'],
-    ],
-  },
-};
+export const datasheets = {};

@@ -37,12 +37,4 @@ export const drawings = {
   'demo-off-1003-lever-arch-80': { sku: 'DEMO-OFF-1003', scale: '1.6:1', svg: binder(80, { lever: true }) },
 };
 
-export const datasheets = {
-  'demo-off-1001-data-sheet': {
-    sku: 'DEMO-OFF-1001',
-    rows: [
-      ['Format / Format', 'A4 (210 × 297 mm)'], ['Paper weight / Grammatur', '80 g/m²'],
-      ['Sheets per pack / Blatt pro Packung', '500'], ['Weight / Gewicht', '2.5 kg'],
-    ],
-  },
-};
+export const datasheets = {};

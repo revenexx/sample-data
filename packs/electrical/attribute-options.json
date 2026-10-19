@@ -171,6 +171,15 @@
     "position": 2
   },
   {
+    "attribute": "demo_ele_mounting",
+    "code": "din_rail",
+    "labels": {
+      "de-DE": "Hutschiene",
+      "en-US": "DIN rail"
+    },
+    "position": 3
+  },
+  {
     "attribute": "demo_ele_colour",
     "code": "white",
     "labels": {
@@ -214,6 +223,15 @@
       "en-US": "Stainless steel"
     },
     "position": 4
+  },
+  {
+    "attribute": "demo_ele_colour",
+    "code": "grey",
+    "labels": {
+      "de-DE": "Grau",
+      "en-US": "Grey"
+    },
+    "position": 5
   },
   {
     "attribute": "demo_ele_poles",
@@ -376,5 +394,293 @@
       "en-US": "E27"
     },
     "position": 0
+  },
+  {
+    "attribute": "demo_ele_material",
+    "code": "pa",
+    "labels": {
+      "de-DE": "Polyamid",
+      "en-US": "Polyamide"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ele_material",
+    "code": "pvc",
+    "labels": {
+      "de-DE": "PVC",
+      "en-US": "PVC"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ele_material",
+    "code": "pp",
+    "labels": {
+      "de-DE": "Polypropylen",
+      "en-US": "Polypropylene"
+    },
+    "position": 2
+  },
+  {
+    "attribute": "demo_ele_material",
+    "code": "pc",
+    "labels": {
+      "de-DE": "Polycarbonat",
+      "en-US": "Polycarbonate"
+    },
+    "position": 3
+  },
+  {
+    "attribute": "demo_ele_material",
+    "code": "abs",
+    "labels": {
+      "de-DE": "ABS",
+      "en-US": "ABS"
+    },
+    "position": 4
+  },
+  {
+    "attribute": "demo_ele_material",
+    "code": "copper",
+    "labels": {
+      "de-DE": "Kupfer",
+      "en-US": "Copper"
+    },
+    "position": 5
+  },
+  {
+    "attribute": "demo_ele_material",
+    "code": "cr_v",
+    "labels": {
+      "de-DE": "Chrom-Vanadium-Stahl",
+      "en-US": "Chrome-vanadium steel"
+    },
+    "position": 6
+  },
+  {
+    "attribute": "demo_ele_protection_class",
+    "code": "i",
+    "labels": {
+      "de-DE": "Schutzklasse I",
+      "en-US": "Protection class I"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ele_protection_class",
+    "code": "ii",
+    "labels": {
+      "de-DE": "Schutzklasse II",
+      "en-US": "Protection class II"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ele_protection_class",
+    "code": "iii",
+    "labels": {
+      "de-DE": "Schutzklasse III",
+      "en-US": "Protection class III"
+    },
+    "position": 2
+  },
+  {
+    "attribute": "demo_ele_cable_type",
+    "code": "nym_j",
+    "labels": {
+      "de-DE": "NYM-J",
+      "en-US": "NYM-J"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ele_cable_type",
+    "code": "h07v_u",
+    "labels": {
+      "de-DE": "H07V-U",
+      "en-US": "H07V-U"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ele_cable_type",
+    "code": "h07rn_f",
+    "labels": {
+      "de-DE": "H07RN-F",
+      "en-US": "H07RN-F"
+    },
+    "position": 2
+  },
+  {
+    "attribute": "demo_ele_cable_type",
+    "code": "cat5e",
+    "labels": {
+      "de-DE": "Cat 5e (Datenleitung)",
+      "en-US": "Cat 5e (data cable)"
+    },
+    "position": 3
+  },
+  {
+    "attribute": "demo_ele_conductor_class",
+    "code": "class1",
+    "labels": {
+      "de-DE": "Klasse 1 (massiv)",
+      "en-US": "Class 1 (solid)"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ele_conductor_class",
+    "code": "class5",
+    "labels": {
+      "de-DE": "Klasse 5 (feindrähtig)",
+      "en-US": "Class 5 (flexible)"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ele_insulation",
+    "code": "pvc",
+    "labels": {
+      "de-DE": "PVC",
+      "en-US": "PVC"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ele_insulation",
+    "code": "pe",
+    "labels": {
+      "de-DE": "PE (Polyethylen)",
+      "en-US": "PE (polyethylene)"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ele_insulation",
+    "code": "rubber",
+    "labels": {
+      "de-DE": "Gummi (EPR)",
+      "en-US": "Rubber (EPR)"
+    },
+    "position": 2
+  },
+  {
+    "attribute": "demo_ele_switch_type",
+    "code": "one_way",
+    "labels": {
+      "de-DE": "Ausschalter, einpolig",
+      "en-US": "One-way switch"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ele_switch_type",
+    "code": "two_way",
+    "labels": {
+      "de-DE": "Wechselschalter",
+      "en-US": "Two-way switch"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ele_switch_type",
+    "code": "intermediate",
+    "labels": {
+      "de-DE": "Kreuzschalter",
+      "en-US": "Intermediate switch"
+    },
+    "position": 2
+  },
+  {
+    "attribute": "demo_ele_switch_type",
+    "code": "two_pole",
+    "labels": {
+      "de-DE": "Ausschalter, zweipolig",
+      "en-US": "Two-pole switch"
+    },
+    "position": 3
+  },
+  {
+    "attribute": "demo_ele_switch_type",
+    "code": "push",
+    "labels": {
+      "de-DE": "Taster",
+      "en-US": "Push button"
+    },
+    "position": 4
+  },
+  {
+    "attribute": "demo_ele_switch_type",
+    "code": "roller",
+    "labels": {
+      "de-DE": "Rollladentaster",
+      "en-US": "Roller shutter switch"
+    },
+    "position": 5
+  },
+  {
+    "attribute": "demo_ele_switch_type",
+    "code": "socket",
+    "labels": {
+      "de-DE": "Steckdose",
+      "en-US": "Socket outlet"
+    },
+    "position": 6
+  },
+  {
+    "attribute": "demo_ele_switch_type",
+    "code": "dimmer",
+    "labels": {
+      "de-DE": "Drehdimmer",
+      "en-US": "Rotary dimmer"
+    },
+    "position": 7
+  },
+  {
+    "attribute": "demo_ele_rcd_type",
+    "code": "ac",
+    "labels": {
+      "de-DE": "Typ AC",
+      "en-US": "Type AC"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ele_rcd_type",
+    "code": "a",
+    "labels": {
+      "de-DE": "Typ A",
+      "en-US": "Type A"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ele_measurement_category",
+    "code": "cat_ii",
+    "labels": {
+      "de-DE": "CAT II",
+      "en-US": "CAT II"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_ele_measurement_category",
+    "code": "cat_iii",
+    "labels": {
+      "de-DE": "CAT III",
+      "en-US": "CAT III"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_ele_measurement_category",
+    "code": "cat_iv",
+    "labels": {
+      "de-DE": "CAT IV",
+      "en-US": "CAT IV"
+    },
+    "position": 2
   }
 ]

@@ -172,6 +172,449 @@
     "external_id": "demo_lab_cut_level"
   },
   {
+    "code": "demo_lab_power_rating",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Leistungsaufnahme",
+      "en-US": "Power consumption"
+    },
+    "position": 12,
+    "external_id": "demo_lab_power_rating",
+    "config": {
+      "units": [
+        "WATT"
+      ]
+    }
+  },
+  {
+    "code": "demo_lab_power_supply",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Stromversorgung",
+      "en-US": "Power supply"
+    },
+    "position": 13,
+    "external_id": "demo_lab_power_supply",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_lab_ip_rating",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Schutzart (IP)",
+      "en-US": "Protection rating (IP)"
+    },
+    "position": 14,
+    "external_id": "demo_lab_ip_rating"
+  },
+  {
+    "code": "demo_lab_noise_level",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Schallpegel",
+      "en-US": "Noise level"
+    },
+    "position": 15,
+    "external_id": "demo_lab_noise_level",
+    "config": {
+      "units": [
+        "DECIBEL"
+      ]
+    }
+  },
+  {
+    "code": "demo_lab_control",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Bedienung",
+      "en-US": "Control"
+    },
+    "position": 16,
+    "external_id": "demo_lab_control"
+  },
+  {
+    "code": "demo_lab_display",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Digitalanzeige",
+      "en-US": "Digital display"
+    },
+    "position": 17,
+    "external_id": "demo_lab_display"
+  },
+  {
+    "code": "demo_lab_warranty",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_lab_general",
+    "labels": {
+      "de-DE": "Garantie (Jahre)",
+      "en-US": "Warranty (years)"
+    },
+    "position": 18,
+    "external_id": "demo_lab_warranty"
+  },
+  {
+    "code": "demo_lab_readability",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Ablesbarkeit (g)",
+      "en-US": "Readability (g)"
+    },
+    "position": 19,
+    "external_id": "demo_lab_readability",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_lab_weighing_range",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Wägebereich",
+      "en-US": "Weighing range"
+    },
+    "position": 20,
+    "external_id": "demo_lab_weighing_range",
+    "config": {
+      "units": [
+        "GRAM"
+      ]
+    },
+    "is_filterable": true
+  },
+  {
+    "code": "demo_lab_timer_range",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Messbereich Timer (min)",
+      "en-US": "Timer range (min)"
+    },
+    "position": 21,
+    "external_id": "demo_lab_timer_range"
+  },
+  {
+    "code": "demo_lab_ultimate_vacuum",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Endvakuum (mbar)",
+      "en-US": "Ultimate vacuum (mbar)"
+    },
+    "position": 22,
+    "external_id": "demo_lab_ultimate_vacuum"
+  },
+  {
+    "code": "demo_lab_min_temp",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Min. Temperatur (°C)",
+      "en-US": "Min. temperature (°C)"
+    },
+    "position": 23,
+    "external_id": "demo_lab_min_temp"
+  },
+  {
+    "code": "demo_lab_channels",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Kanäle",
+      "en-US": "Channels"
+    },
+    "position": 24,
+    "external_id": "demo_lab_channels",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_lab_adjustable",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Verstellbar",
+      "en-US": "Adjustable"
+    },
+    "position": 25,
+    "external_id": "demo_lab_adjustable"
+  },
+  {
+    "code": "demo_lab_autoclavable",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Autoklavierbar",
+      "en-US": "Autoclavable"
+    },
+    "position": 26,
+    "external_id": "demo_lab_autoclavable",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_lab_dnase_free",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "DNase-/RNase-frei",
+      "en-US": "DNase/RNase-free"
+    },
+    "position": 27,
+    "external_id": "demo_lab_dnase_free",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_lab_filter_insert",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Mit Filtereinsatz",
+      "en-US": "With filter insert"
+    },
+    "position": 28,
+    "external_id": "demo_lab_filter_insert"
+  },
+  {
+    "code": "demo_lab_antistatic",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Antistatisch",
+      "en-US": "Antistatic"
+    },
+    "position": 29,
+    "external_id": "demo_lab_antistatic"
+  },
+  {
+    "code": "demo_lab_stackable",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Stapelbar",
+      "en-US": "Stackable"
+    },
+    "position": 30,
+    "external_id": "demo_lab_stackable"
+  },
+  {
+    "code": "demo_lab_diameter",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Durchmesser (mm)",
+      "en-US": "Diameter (mm)"
+    },
+    "position": 31,
+    "external_id": "demo_lab_diameter"
+  },
+  {
+    "code": "demo_lab_pore_size",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Porengröße (µm)",
+      "en-US": "Pore size (µm)"
+    },
+    "position": 32,
+    "external_id": "demo_lab_pore_size"
+  },
+  {
+    "code": "demo_lab_graduation",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Teilung (ml)",
+      "en-US": "Graduation (ml)"
+    },
+    "position": 33,
+    "external_id": "demo_lab_graduation"
+  },
+  {
+    "code": "demo_lab_tolerance_class",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Toleranzklasse",
+      "en-US": "Tolerance class"
+    },
+    "position": 34,
+    "external_id": "demo_lab_tolerance_class",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_lab_tolerance_ml",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Toleranz (± ml)",
+      "en-US": "Tolerance (± ml)"
+    },
+    "position": 35,
+    "external_id": "demo_lab_tolerance_ml"
+  },
+  {
+    "code": "demo_lab_ground_joint",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Normschliff",
+      "en-US": "Standard taper joint"
+    },
+    "position": 36,
+    "external_id": "demo_lab_ground_joint"
+  },
+  {
+    "code": "demo_lab_vacuum_resistant",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Vakuumbeständig",
+      "en-US": "Vacuum-resistant"
+    },
+    "position": 37,
+    "external_id": "demo_lab_vacuum_resistant"
+  },
+  {
+    "code": "demo_lab_wall_thickness",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Wandstärke (mm)",
+      "en-US": "Wall thickness (mm)"
+    },
+    "position": 38,
+    "external_id": "demo_lab_wall_thickness"
+  },
+  {
+    "code": "demo_lab_norm",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Norm",
+      "en-US": "Standard"
+    },
+    "position": 39,
+    "external_id": "demo_lab_norm",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_lab_anti_fog",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Beschlagfrei",
+      "en-US": "Anti-fog"
+    },
+    "position": 40,
+    "external_id": "demo_lab_anti_fog"
+  },
+  {
+    "code": "demo_lab_uv_protection",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "UV-Schutz",
+      "en-US": "UV protection"
+    },
+    "position": 41,
+    "external_id": "demo_lab_uv_protection"
+  },
+  {
+    "code": "demo_lab_size",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_lab_general",
+    "labels": {
+      "de-DE": "Größe",
+      "en-US": "Size"
+    },
+    "position": 42,
+    "external_id": "demo_lab_size"
+  },
+  {
+    "code": "demo_lab_powder_free",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Puderfrei",
+      "en-US": "Powder-free"
+    },
+    "position": 43,
+    "external_id": "demo_lab_powder_free"
+  },
+  {
+    "code": "demo_lab_flame_retardant",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Flammhemmend",
+      "en-US": "Flame retardant"
+    },
+    "position": 44,
+    "external_id": "demo_lab_flame_retardant"
+  },
+  {
+    "code": "demo_lab_line_width",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Strichstärke (mm)",
+      "en-US": "Line width (mm)"
+    },
+    "position": 45,
+    "external_id": "demo_lab_line_width"
+  },
+  {
+    "code": "demo_lab_waterproof",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_lab_technical",
+    "labels": {
+      "de-DE": "Wasserfest",
+      "en-US": "Waterproof"
+    },
+    "position": 46,
+    "external_id": "demo_lab_waterproof"
+  },
+  {
     "code": "demo_lab_images",
     "entity_type": "product",
     "type": "asset_collection",

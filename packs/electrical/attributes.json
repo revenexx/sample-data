@@ -346,6 +346,467 @@
     "is_filterable": true
   },
   {
+    "code": "demo_ele_warranty",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ele_general",
+    "labels": {
+      "de-DE": "Garantie (Jahre)",
+      "en-US": "Warranty (years)"
+    },
+    "position": 23,
+    "external_id": "demo_ele_warranty"
+  },
+  {
+    "code": "demo_ele_material",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ele_general",
+    "labels": {
+      "de-DE": "Material",
+      "en-US": "Material"
+    },
+    "position": 24,
+    "external_id": "demo_ele_material"
+  },
+  {
+    "code": "demo_ele_protection_class",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Schutzklasse",
+      "en-US": "Protection class"
+    },
+    "position": 25,
+    "external_id": "demo_ele_protection_class"
+  },
+  {
+    "code": "demo_ele_cable_type",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Leitungstyp",
+      "en-US": "Cable type"
+    },
+    "position": 26,
+    "external_id": "demo_ele_cable_type",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ele_conductor_class",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Leiterklasse",
+      "en-US": "Conductor class"
+    },
+    "position": 27,
+    "external_id": "demo_ele_conductor_class"
+  },
+  {
+    "code": "demo_ele_insulation",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Isolierung",
+      "en-US": "Insulation"
+    },
+    "position": 28,
+    "external_id": "demo_ele_insulation"
+  },
+  {
+    "code": "demo_ele_max_current",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Strombelastbarkeit, Verlegeart B2 bzw. B1 (Einzelader)",
+      "en-US": "Current-carrying capacity, method B2 (B1 for single cores)"
+    },
+    "position": 29,
+    "external_id": "demo_ele_max_current",
+    "config": {
+      "units": [
+        "AMPERE"
+      ]
+    }
+  },
+  {
+    "code": "demo_ele_max_temp",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Betriebstemperatur max. (°C)",
+      "en-US": "Max. operating temperature (°C)"
+    },
+    "position": 30,
+    "external_id": "demo_ele_max_temp"
+  },
+  {
+    "code": "demo_ele_switch_type",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Schaltungsart",
+      "en-US": "Switching type"
+    },
+    "position": 31,
+    "external_id": "demo_ele_switch_type",
+    "is_filterable": true
+  },
+  {
+    "code": "demo_ele_outlets",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Steckdosen",
+      "en-US": "Socket outlets"
+    },
+    "position": 32,
+    "external_id": "demo_ele_outlets"
+  },
+  {
+    "code": "demo_ele_earthing_contact",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Schutzkontakt",
+      "en-US": "Earthing contact"
+    },
+    "position": 33,
+    "external_id": "demo_ele_earthing_contact"
+  },
+  {
+    "code": "demo_ele_usb_ports",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "USB-Ladeanschlüsse",
+      "en-US": "USB charging ports"
+    },
+    "position": 34,
+    "external_id": "demo_ele_usb_ports"
+  },
+  {
+    "code": "demo_ele_terminal_cross_section",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Anschlussquerschnitt (mm²)",
+      "en-US": "Terminal cross section (mm²)"
+    },
+    "position": 35,
+    "external_id": "demo_ele_terminal_cross_section"
+  },
+  {
+    "code": "demo_ele_electrical_life",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Schaltspiele",
+      "en-US": "Operating cycles"
+    },
+    "position": 36,
+    "external_id": "demo_ele_electrical_life"
+  },
+  {
+    "code": "demo_ele_luminous_efficacy",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Lichtausbeute (lm/W)",
+      "en-US": "Luminous efficacy (lm/W)"
+    },
+    "position": 37,
+    "external_id": "demo_ele_luminous_efficacy"
+  },
+  {
+    "code": "demo_ele_colour_rendering",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Farbwiedergabe (Ra)",
+      "en-US": "Colour rendering index (Ra)"
+    },
+    "position": 38,
+    "external_id": "demo_ele_colour_rendering"
+  },
+  {
+    "code": "demo_ele_lifetime",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Lebensdauer (Stunden)",
+      "en-US": "Lifetime (hours)"
+    },
+    "position": 39,
+    "external_id": "demo_ele_lifetime"
+  },
+  {
+    "code": "demo_ele_dimmable",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Dimmbar",
+      "en-US": "Dimmable"
+    },
+    "position": 40,
+    "external_id": "demo_ele_dimmable"
+  },
+  {
+    "code": "demo_ele_emergency_hours",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Notlichtdauer (Stunden)",
+      "en-US": "Emergency duration (hours)"
+    },
+    "position": 41,
+    "external_id": "demo_ele_emergency_hours"
+  },
+  {
+    "code": "demo_ele_detection_range",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Reichweite (m)",
+      "en-US": "Detection range (m)"
+    },
+    "position": 42,
+    "external_id": "demo_ele_detection_range"
+  },
+  {
+    "code": "demo_ele_breaking_capacity",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Ausschaltvermögen (kA)",
+      "en-US": "Breaking capacity (kA)"
+    },
+    "position": 43,
+    "external_id": "demo_ele_breaking_capacity"
+  },
+  {
+    "code": "demo_ele_trip_time",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Auslösezeit max. (ms)",
+      "en-US": "Max. trip time (ms)"
+    },
+    "position": 44,
+    "external_id": "demo_ele_trip_time"
+  },
+  {
+    "code": "demo_ele_rcd_type",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "RCD-Typ",
+      "en-US": "RCD type"
+    },
+    "position": 45,
+    "external_id": "demo_ele_rcd_type"
+  },
+  {
+    "code": "demo_ele_surge_protection",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Schutzpegel Up (kV)",
+      "en-US": "Voltage protection level Up (kV)"
+    },
+    "position": 46,
+    "external_id": "demo_ele_surge_protection"
+  },
+  {
+    "code": "demo_ele_discharge_current",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Nennableitstrom In (kA)",
+      "en-US": "Nominal discharge current In (kA)"
+    },
+    "position": 47,
+    "external_id": "demo_ele_discharge_current"
+  },
+  {
+    "code": "demo_ele_gangs",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Anzahl Felder",
+      "en-US": "Number of gangs"
+    },
+    "position": 48,
+    "external_id": "demo_ele_gangs"
+  },
+  {
+    "code": "demo_ele_flame_retardant",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Flammwidrig",
+      "en-US": "Flame retardant"
+    },
+    "position": 49,
+    "external_id": "demo_ele_flame_retardant"
+  },
+  {
+    "code": "demo_ele_insulated",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Isoliert",
+      "en-US": "Insulated"
+    },
+    "position": 50,
+    "external_id": "demo_ele_insulated"
+  },
+  {
+    "code": "demo_ele_clamping_range",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Klemmbereich max. (mm)",
+      "en-US": "Max. clamping range (mm)"
+    },
+    "position": 51,
+    "external_id": "demo_ele_clamping_range"
+  },
+  {
+    "code": "demo_ele_tensile_strength",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Zugfestigkeit (N)",
+      "en-US": "Tensile strength (N)"
+    },
+    "position": 52,
+    "external_id": "demo_ele_tensile_strength"
+  },
+  {
+    "code": "demo_ele_strap_width",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Bandbreite (mm)",
+      "en-US": "Strap width (mm)"
+    },
+    "position": 53,
+    "external_id": "demo_ele_strap_width",
+    "config": {
+      "units": [
+        "MILLIMETER"
+      ]
+    }
+  },
+  {
+    "code": "demo_ele_min_cross_section",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Min. Leiterquerschnitt (mm²)",
+      "en-US": "Min. conductor cross section (mm²)"
+    },
+    "position": 54,
+    "external_id": "demo_ele_min_cross_section"
+  },
+  {
+    "code": "demo_ele_max_cross_section",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Max. Leiterquerschnitt (mm²)",
+      "en-US": "Max. conductor cross section (mm²)"
+    },
+    "position": 55,
+    "external_id": "demo_ele_max_cross_section"
+  },
+  {
+    "code": "demo_ele_vde_tested",
+    "entity_type": "product",
+    "type": "boolean",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "VDE-geprüft (1000 V)",
+      "en-US": "VDE-tested (1000 V)"
+    },
+    "position": 56,
+    "external_id": "demo_ele_vde_tested"
+  },
+  {
+    "code": "demo_ele_measurement_range",
+    "entity_type": "product",
+    "type": "metric",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Messbereich max. (V)",
+      "en-US": "Max. measuring range (V)"
+    },
+    "position": 57,
+    "external_id": "demo_ele_measurement_range",
+    "config": {
+      "units": [
+        "VOLT"
+      ]
+    }
+  },
+  {
+    "code": "demo_ele_measurement_category",
+    "entity_type": "product",
+    "type": "select",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Messkategorie",
+      "en-US": "Measurement category"
+    },
+    "position": 58,
+    "external_id": "demo_ele_measurement_category"
+  },
+  {
+    "code": "demo_ele_max_cable_diameter",
+    "entity_type": "product",
+    "type": "number",
+    "group": "demo_ele_technical",
+    "labels": {
+      "de-DE": "Kabeldurchmesser max. (mm)",
+      "en-US": "Max. cable diameter (mm)"
+    },
+    "position": 59,
+    "external_id": "demo_ele_max_cable_diameter"
+  },
+  {
     "code": "demo_ele_images",
     "entity_type": "product",
     "type": "asset_collection",

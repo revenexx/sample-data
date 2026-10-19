@@ -1,0 +1,44 @@
+[
+  {
+    "code": "DEMO-LAB",
+    "values": {
+      "image": "DEMO-LAB-IMG"
+    }
+  },
+  {
+    "code": "DEMO-LAB-INSTRUMENTS",
+    "values": {
+      "image": "DEMO-LAB-INSTRUMENTS-IMG"
+    }
+  },
+  {
+    "code": "DEMO-LAB-PIPETTES",
+    "values": {
+      "image": "DEMO-LAB-PIPETTES-IMG"
+    }
+  },
+  {
+    "code": "DEMO-LAB-CONSUMABLES",
+    "values": {
+      "image": "DEMO-LAB-CONSUMABLES-IMG"
+    }
+  },
+  {
+    "code": "DEMO-LAB-GLASSWARE",
+    "values": {
+      "image": "DEMO-LAB-GLASSWARE-IMG"
+    }
+  },
+  {
+    "code": "DEMO-LAB-SAFETY",
+    "values": {
+      "image": "DEMO-LAB-SAFETY-IMG"
+    }
+  },
+  {
+    "code": "DEMO-LAB-STORAGE",
+    "values": {
+      "image": "DEMO-LAB-STORAGE-IMG"
+    }
+  }
+]

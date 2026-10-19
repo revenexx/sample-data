@@ -1,0 +1,44 @@
+[
+  {
+    "code": "DEMO-OFF",
+    "values": {
+      "image": "DEMO-OFF-IMG"
+    }
+  },
+  {
+    "code": "DEMO-OFF-PAPER",
+    "values": {
+      "image": "DEMO-OFF-PAPER-IMG"
+    }
+  },
+  {
+    "code": "DEMO-OFF-WRITING",
+    "values": {
+      "image": "DEMO-OFF-WRITING-IMG"
+    }
+  },
+  {
+    "code": "DEMO-OFF-BREAKROOM",
+    "values": {
+      "image": "DEMO-OFF-BREAKROOM-IMG"
+    }
+  },
+  {
+    "code": "DEMO-OFF-DESK",
+    "values": {
+      "image": "DEMO-OFF-DESK-IMG"
+    }
+  },
+  {
+    "code": "DEMO-OFF-CLEAN",
+    "values": {
+      "image": "DEMO-OFF-CLEAN-IMG"
+    }
+  },
+  {
+    "code": "DEMO-OFF-MAIL",
+    "values": {
+      "image": "DEMO-OFF-MAIL-IMG"
+    }
+  }
+]

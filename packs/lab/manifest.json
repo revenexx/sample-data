@@ -150,6 +150,20 @@
       }
     },
     {
+      "name": "manufacturer logos",
+      "route": "/products/manufacturers",
+      "key": "code",
+      "file": "manufacturer-logos.json",
+      "remove": "with_parent"
+    },
+    {
+      "name": "category images",
+      "route": "/products/categories",
+      "key": "code",
+      "file": "category-images.json",
+      "remove": "with_parent"
+    },
+    {
       "name": "products",
       "route": "/products",
       "key": "sku",

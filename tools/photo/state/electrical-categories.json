@@ -1,0 +1,30 @@
+{
+ "DEMO-ELE": {
+  "photos": "4fff1aace32cd161",
+  "prompt": "60c930f6da1322f0"
+ },
+ "DEMO-ELE-CABLES": {
+  "photos": "a4b279f9a0332d52",
+  "prompt": "22d08b79ab2591cc"
+ },
+ "DEMO-ELE-LIGHTING": {
+  "photos": "969f7572a0e94f4e",
+  "prompt": "9fdfab117bd03339"
+ },
+ "DEMO-ELE-MATERIAL": {
+  "photos": "f1c93d047e43d047",
+  "prompt": "c6d0117fd71162a9"
+ },
+ "DEMO-ELE-PROTECTION": {
+  "photos": "960f45d20c481b7e",
+  "prompt": "189c28c1094170bf"
+ },
+ "DEMO-ELE-SWITCHES": {
+  "photos": "fd25dbcc440d0901",
+  "prompt": "971e2c882ab5f9b0"
+ },
+ "DEMO-ELE-TOOLS": {
+  "photos": "47d13838c6c044d2",
+  "prompt": "1732c56822c940d0"
+ }
+}

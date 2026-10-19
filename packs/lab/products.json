@@ -19,12 +19,28 @@
           "amount": "3.6",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-1001.png",
+        "demo_lab_power_rating": {
+          "amount": "400",
+          "unit": "WATT"
+        },
+        "demo_lab_power_supply": "mains",
+        "demo_lab_noise_level": {
+          "amount": "58",
+          "unit": "DECIBEL"
+        },
+        "demo_lab_control": "knob",
+        "demo_lab_warranty": 2,
+        "image": "sample-data/lab/demo-lab-1001.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-1001-IMG"
+          "DEMO-LAB-1001-IMG",
+          "DEMO-LAB-1001-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-1001-DRW-PDF",
+          "DEMO-LAB-1001-DRW-SVG"
         ],
         "demo_lab_downloads": [
-          "DEMO-LAB-1001-DATA-SHEET"
+          "DEMO-LAB-1001-DS"
         ],
         "demo_has_cad": false
       },
@@ -60,9 +76,28 @@
           "amount": "14.8",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-1002.png",
+        "demo_lab_power_rating": {
+          "amount": "500",
+          "unit": "WATT"
+        },
+        "demo_lab_power_supply": "mains",
+        "demo_lab_noise_level": {
+          "amount": "62",
+          "unit": "DECIBEL"
+        },
+        "demo_lab_control": "keypad",
+        "demo_lab_warranty": 2,
+        "image": "sample-data/lab/demo-lab-1002.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-1002-IMG"
+          "DEMO-LAB-1002-IMG",
+          "DEMO-LAB-1002-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-1002-DRW-PDF",
+          "DEMO-LAB-1002-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-1002-DS"
         ],
         "demo_has_cad": false
       },
@@ -96,9 +131,28 @@
           "amount": "1.9",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-1003.png",
+        "demo_lab_power_rating": {
+          "amount": "25",
+          "unit": "WATT"
+        },
+        "demo_lab_power_supply": "mains",
+        "demo_lab_control": "touch",
+        "demo_lab_noise_level": {
+          "amount": "50",
+          "unit": "DECIBEL"
+        },
+        "demo_lab_warranty": 2,
+        "image": "sample-data/lab/demo-lab-1003.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-1003-IMG"
+          "DEMO-LAB-1003-IMG",
+          "DEMO-LAB-1003-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-1003-DRW-PDF",
+          "DEMO-LAB-1003-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-1003-DS"
         ],
         "demo_has_cad": false
       },
@@ -128,9 +182,26 @@
           "amount": "0.12",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-1004.png",
+        "demo_lab_timer_range": 99,
+        "demo_lab_power_supply": "battery",
+        "demo_lab_display": true,
+        "demo_lab_control": "keypad",
+        "demo_lab_warranty": 2,
+        "demo_lab_noise_level": {
+          "amount": "75",
+          "unit": "DECIBEL"
+        },
+        "image": "sample-data/lab/demo-lab-1004.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-1004-IMG"
+          "DEMO-LAB-1004-IMG",
+          "DEMO-LAB-1004-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-1004-DRW-PDF",
+          "DEMO-LAB-1004-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-1004-DS"
         ],
         "demo_has_cad": false
       },
@@ -160,9 +231,23 @@
           "amount": "0.12",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-2001.png",
+        "demo_lab_channels": 1,
+        "demo_lab_adjustable": true,
+        "demo_lab_control": "mechanical",
+        "demo_lab_autoclavable": true,
+        "demo_lab_material": "polypropylene",
+        "demo_lab_warranty": 2,
+        "image": "sample-data/lab/demo-lab-2001.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-2001-IMG"
+          "DEMO-LAB-2001-IMG",
+          "DEMO-LAB-2001-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-2001-DRW-PDF",
+          "DEMO-LAB-2001-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-2001-DS"
         ],
         "demo_has_cad": false
       },
@@ -193,10 +278,20 @@
           "amount": "0.12",
           "unit": "KILOGRAM"
         },
+        "demo_lab_channels": 1,
+        "demo_lab_adjustable": true,
+        "demo_lab_control": "mechanical",
+        "demo_lab_autoclavable": true,
+        "demo_lab_material": "polypropylene",
+        "demo_lab_warranty": 2,
         "demo_lab_volume_range": "10ul",
-        "image": "sample-data/lab/demo-lab-2001-10ul.png",
+        "image": "sample-data/lab/demo-lab-2001-10ul.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-2001-10UL-IMG"
+          "DEMO-LAB-2001-10UL-IMG",
+          "DEMO-LAB-2001-10UL-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-2001-DS"
         ],
         "demo_has_cad": false
       },
@@ -228,10 +323,20 @@
           "amount": "0.12",
           "unit": "KILOGRAM"
         },
+        "demo_lab_channels": 1,
+        "demo_lab_adjustable": true,
+        "demo_lab_control": "mechanical",
+        "demo_lab_autoclavable": true,
+        "demo_lab_material": "polypropylene",
+        "demo_lab_warranty": 2,
         "demo_lab_volume_range": "200ul",
-        "image": "sample-data/lab/demo-lab-2001-200ul.png",
+        "image": "sample-data/lab/demo-lab-2001-200ul.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-2001-200UL-IMG"
+          "DEMO-LAB-2001-200UL-IMG",
+          "DEMO-LAB-2001-200UL-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-2001-DS"
         ],
         "demo_has_cad": false
       },
@@ -263,10 +368,20 @@
           "amount": "0.12",
           "unit": "KILOGRAM"
         },
+        "demo_lab_channels": 1,
+        "demo_lab_adjustable": true,
+        "demo_lab_control": "mechanical",
+        "demo_lab_autoclavable": true,
+        "demo_lab_material": "polypropylene",
+        "demo_lab_warranty": 2,
         "demo_lab_volume_range": "1000ul",
-        "image": "sample-data/lab/demo-lab-2001-1000ul.png",
+        "image": "sample-data/lab/demo-lab-2001-1000ul.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-2001-1000UL-IMG"
+          "DEMO-LAB-2001-1000UL-IMG",
+          "DEMO-LAB-2001-1000UL-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-2001-DS"
         ],
         "demo_has_cad": false
       },
@@ -304,16 +419,22 @@
           "amount": "0.1",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-2002.png",
+        "demo_lab_autoclavable": true,
+        "demo_lab_dnase_free": true,
+        "demo_lab_filter_insert": false,
+        "demo_lab_max_temp": 121,
+        "image": "sample-data/lab/demo-lab-2002.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-2002-IMG"
+          "DEMO-LAB-2002-IMG",
+          "DEMO-LAB-2002-IMG-2"
         ],
         "demo_lab_drawings": [
           "DEMO-LAB-2002-PIPETTE-TIP-200UL-PDF",
           "DEMO-LAB-2002-PIPETTE-TIP-200UL-SVG"
         ],
         "demo_lab_downloads": [
-          "DEMO-LAB-2002-PIPETTE-TIP-200UL-STEP"
+          "DEMO-LAB-2002-PIPETTE-TIP-200UL-STEP",
+          "DEMO-LAB-2002-DS"
         ],
         "demo_has_cad": true
       },
@@ -349,16 +470,22 @@
           "amount": "0.2",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-3001.png",
+        "demo_lab_autoclavable": true,
+        "demo_lab_dnase_free": true,
+        "demo_lab_max_temp": 121,
+        "demo_lab_min_temp": -80,
+        "image": "sample-data/lab/demo-lab-3001.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-3001-IMG"
+          "DEMO-LAB-3001-IMG",
+          "DEMO-LAB-3001-IMG-2"
         ],
         "demo_lab_drawings": [
           "DEMO-LAB-3001-MICROCENTRIFUGE-TUBE-1-5ML-PDF",
           "DEMO-LAB-3001-MICROCENTRIFUGE-TUBE-1-5ML-SVG"
         ],
         "demo_lab_downloads": [
-          "DEMO-LAB-3001-MICROCENTRIFUGE-TUBE-1-5ML-STEP"
+          "DEMO-LAB-3001-MICROCENTRIFUGE-TUBE-1-5ML-STEP",
+          "DEMO-LAB-3001-DS"
         ],
         "demo_has_cad": true
       },
@@ -394,16 +521,22 @@
           "amount": "1.1",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-3002.png",
+        "demo_lab_autoclavable": true,
+        "demo_lab_dnase_free": true,
+        "demo_lab_graduation": 5,
+        "demo_lab_max_temp": 121,
+        "image": "sample-data/lab/demo-lab-3002.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-3002-IMG"
+          "DEMO-LAB-3002-IMG",
+          "DEMO-LAB-3002-IMG-2"
         ],
         "demo_lab_drawings": [
           "DEMO-LAB-3002-CENTRIFUGE-TUBE-50ML-PDF",
           "DEMO-LAB-3002-CENTRIFUGE-TUBE-50ML-SVG"
         ],
         "demo_lab_downloads": [
-          "DEMO-LAB-3002-CENTRIFUGE-TUBE-50ML-STEP"
+          "DEMO-LAB-3002-CENTRIFUGE-TUBE-50ML-STEP",
+          "DEMO-LAB-3002-DS"
         ],
         "demo_has_cad": true
       },
@@ -436,11 +569,19 @@
           "amount": "2.4",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-3003.png",
+        "demo_lab_diameter": 90,
+        "demo_lab_stackable": true,
+        "demo_lab_autoclavable": false,
+        "image": "sample-data/lab/demo-lab-3003.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-3003-IMG"
+          "DEMO-LAB-3003-IMG",
+          "DEMO-LAB-3003-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_downloads": [
+          "DEMO-LAB-3003-PETRI-DISH-90-STEP",
+          "DEMO-LAB-3003-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -470,9 +611,17 @@
           "amount": "0.4",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-3004.png",
+        "demo_lab_wall_thickness": 0.1,
+        "demo_lab_powder_free": true,
+        "demo_lab_norm": "en374",
+        "demo_lab_sterile": false,
+        "image": "sample-data/lab/demo-lab-3004.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-3004-IMG"
+          "DEMO-LAB-3004-IMG",
+          "DEMO-LAB-3004-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-3004-DS"
         ],
         "demo_has_cad": false
       },
@@ -504,9 +653,25 @@
           "amount": "1.8",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-1005.png",
+        "demo_lab_power_rating": {
+          "amount": "300",
+          "unit": "WATT"
+        },
+        "demo_lab_power_supply": "mains",
+        "demo_lab_control": "knob",
+        "demo_lab_ip_rating": "ip20",
+        "demo_lab_warranty": 2,
+        "image": "sample-data/lab/demo-lab-1005.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-1005-IMG"
+          "DEMO-LAB-1005-IMG",
+          "DEMO-LAB-1005-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-1005-DRW-PDF",
+          "DEMO-LAB-1005-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-1005-DS"
         ],
         "demo_has_cad": false
       },
@@ -542,9 +707,25 @@
           "amount": "4.5",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-1006.png",
+        "demo_lab_power_rating": {
+          "amount": "400",
+          "unit": "WATT"
+        },
+        "demo_lab_power_supply": "mains",
+        "demo_lab_control": "keypad",
+        "demo_lab_display": true,
+        "demo_lab_warranty": 2,
+        "image": "sample-data/lab/demo-lab-1006.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-1006-IMG"
+          "DEMO-LAB-1006-IMG",
+          "DEMO-LAB-1006-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-1006-DRW-PDF",
+          "DEMO-LAB-1006-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-1006-DS"
         ],
         "demo_has_cad": false
       },
@@ -579,9 +760,25 @@
           "amount": "5.2",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-1007.png",
+        "demo_lab_power_rating": {
+          "amount": "500",
+          "unit": "WATT"
+        },
+        "demo_lab_power_supply": "mains",
+        "demo_lab_display": true,
+        "demo_lab_control": "knob",
+        "demo_lab_warranty": 2,
+        "image": "sample-data/lab/demo-lab-1007.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-1007-IMG"
+          "DEMO-LAB-1007-IMG",
+          "DEMO-LAB-1007-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-1007-DRW-PDF",
+          "DEMO-LAB-1007-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-1007-DS"
         ],
         "demo_has_cad": false
       },
@@ -615,9 +812,28 @@
           "amount": "3.4",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-1008.png",
+        "demo_lab_power_rating": {
+          "amount": "60",
+          "unit": "WATT"
+        },
+        "demo_lab_power_supply": "mains",
+        "demo_lab_control": "knob",
+        "demo_lab_noise_level": {
+          "amount": "55",
+          "unit": "DECIBEL"
+        },
+        "demo_lab_warranty": 2,
+        "image": "sample-data/lab/demo-lab-1008.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-1008-IMG"
+          "DEMO-LAB-1008-IMG",
+          "DEMO-LAB-1008-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-1008-DRW-PDF",
+          "DEMO-LAB-1008-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-1008-DS"
         ],
         "demo_has_cad": false
       },
@@ -647,9 +863,29 @@
           "amount": "2.6",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-1009.png",
+        "demo_lab_weighing_range": {
+          "amount": "3200",
+          "unit": "GRAM"
+        },
+        "demo_lab_readability": 0.01,
+        "demo_lab_display": true,
+        "demo_lab_power_supply": "mains",
+        "demo_lab_power_rating": {
+          "amount": "12",
+          "unit": "WATT"
+        },
+        "demo_lab_warranty": 2,
+        "image": "sample-data/lab/demo-lab-1009.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-1009-IMG"
+          "DEMO-LAB-1009-IMG",
+          "DEMO-LAB-1009-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-1009-DRW-PDF",
+          "DEMO-LAB-1009-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-1009-DS"
         ],
         "demo_has_cad": false
       },
@@ -679,9 +915,29 @@
           "amount": "6.3",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-1010.png",
+        "demo_lab_weighing_range": {
+          "amount": "220",
+          "unit": "GRAM"
+        },
+        "demo_lab_readability": 0.0001,
+        "demo_lab_display": true,
+        "demo_lab_power_supply": "mains",
+        "demo_lab_power_rating": {
+          "amount": "15",
+          "unit": "WATT"
+        },
+        "demo_lab_warranty": 2,
+        "image": "sample-data/lab/demo-lab-1010.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-1010-IMG"
+          "DEMO-LAB-1010-IMG",
+          "DEMO-LAB-1010-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-1010-DRW-PDF",
+          "DEMO-LAB-1010-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-1010-DS"
         ],
         "demo_has_cad": false
       },
@@ -711,9 +967,29 @@
           "amount": "1.6",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-1011.png",
+        "demo_lab_weighing_range": {
+          "amount": "500",
+          "unit": "GRAM"
+        },
+        "demo_lab_readability": 0.1,
+        "demo_lab_display": true,
+        "demo_lab_power_supply": "mains",
+        "demo_lab_power_rating": {
+          "amount": "12",
+          "unit": "WATT"
+        },
+        "demo_lab_warranty": 2,
+        "image": "sample-data/lab/demo-lab-1011.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-1011-IMG"
+          "DEMO-LAB-1011-IMG",
+          "DEMO-LAB-1011-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-1011-DRW-PDF",
+          "DEMO-LAB-1011-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-1011-DS"
         ],
         "demo_has_cad": false
       },
@@ -743,9 +1019,26 @@
           "amount": "1.4",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-1012.png",
+        "demo_lab_display": true,
+        "demo_lab_power_supply": "mains",
+        "demo_lab_power_rating": {
+          "amount": "5",
+          "unit": "WATT"
+        },
+        "demo_lab_ip_rating": "ip54",
+        "demo_lab_warranty": 2,
+        "demo_lab_control": "keypad",
+        "image": "sample-data/lab/demo-lab-1012.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-1012-IMG"
+          "DEMO-LAB-1012-IMG",
+          "DEMO-LAB-1012-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-1012-DRW-PDF",
+          "DEMO-LAB-1012-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-1012-DS"
         ],
         "demo_has_cad": false
       },
@@ -775,9 +1068,29 @@
           "amount": "6.8",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-1013.png",
+        "demo_lab_power_rating": {
+          "amount": "90",
+          "unit": "WATT"
+        },
+        "demo_lab_power_supply": "mains",
+        "demo_lab_noise_level": {
+          "amount": "48",
+          "unit": "DECIBEL"
+        },
+        "demo_lab_ultimate_vacuum": 2,
+        "demo_lab_warranty": 2,
+        "demo_lab_control": "knob",
+        "image": "sample-data/lab/demo-lab-1013.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-1013-IMG"
+          "DEMO-LAB-1013-IMG",
+          "DEMO-LAB-1013-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-1013-DRW-PDF",
+          "DEMO-LAB-1013-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-1013-DS"
         ],
         "demo_has_cad": false
       },
@@ -811,9 +1124,25 @@
           "amount": "6.2",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-1014.png",
+        "demo_lab_power_rating": {
+          "amount": "200",
+          "unit": "WATT"
+        },
+        "demo_lab_power_supply": "mains",
+        "demo_lab_max_temp": 80,
+        "demo_lab_control": "knob",
+        "demo_lab_warranty": 2,
+        "image": "sample-data/lab/demo-lab-1014.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-1014-IMG"
+          "DEMO-LAB-1014-IMG",
+          "DEMO-LAB-1014-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-1014-DRW-PDF",
+          "DEMO-LAB-1014-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-1014-DS"
         ],
         "demo_has_cad": false
       },
@@ -848,9 +1177,25 @@
           "amount": "24.5",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-1015.png",
+        "demo_lab_power_rating": {
+          "amount": "1200",
+          "unit": "WATT"
+        },
+        "demo_lab_power_supply": "mains",
+        "demo_lab_control": "keypad",
+        "demo_lab_display": true,
+        "demo_lab_warranty": 2,
+        "image": "sample-data/lab/demo-lab-1015.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-1015-IMG"
+          "DEMO-LAB-1015-IMG",
+          "DEMO-LAB-1015-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-1015-DRW-PDF",
+          "DEMO-LAB-1015-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-1015-DS"
         ],
         "demo_has_cad": false
       },
@@ -884,9 +1229,28 @@
           "amount": "9.8",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-1016.png",
+        "demo_lab_power_rating": {
+          "amount": "40",
+          "unit": "WATT"
+        },
+        "demo_lab_power_supply": "mains",
+        "demo_lab_control": "knob",
+        "demo_lab_noise_level": {
+          "amount": "50",
+          "unit": "DECIBEL"
+        },
+        "demo_lab_warranty": 2,
+        "image": "sample-data/lab/demo-lab-1016.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-1016-IMG"
+          "DEMO-LAB-1016-IMG",
+          "DEMO-LAB-1016-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-1016-DRW-PDF",
+          "DEMO-LAB-1016-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-1016-DS"
         ],
         "demo_has_cad": false
       },
@@ -918,9 +1282,22 @@
           "amount": "0.1",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-1017.png",
+        "demo_lab_min_temp": -50,
+        "demo_lab_power_supply": "battery",
+        "demo_lab_display": true,
+        "demo_lab_ip_rating": "ip65",
+        "demo_lab_warranty": 2,
+        "image": "sample-data/lab/demo-lab-1017.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-1017-IMG"
+          "DEMO-LAB-1017-IMG",
+          "DEMO-LAB-1017-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-1017-DRW-PDF",
+          "DEMO-LAB-1017-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-1017-DS"
         ],
         "demo_has_cad": false
       },
@@ -956,9 +1333,28 @@
           "amount": "0.9",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-1018.png",
+        "demo_lab_power_rating": {
+          "amount": "25",
+          "unit": "WATT"
+        },
+        "demo_lab_power_supply": "mains",
+        "demo_lab_noise_level": {
+          "amount": "60",
+          "unit": "DECIBEL"
+        },
+        "demo_lab_control": "knob",
+        "demo_lab_warranty": 2,
+        "image": "sample-data/lab/demo-lab-1018.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-1018-IMG"
+          "DEMO-LAB-1018-IMG",
+          "DEMO-LAB-1018-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-1018-DRW-PDF",
+          "DEMO-LAB-1018-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-1018-DS"
         ],
         "demo_has_cad": false
       },
@@ -988,9 +1384,23 @@
           "amount": "0.12",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-2003.png",
+        "demo_lab_channels": 1,
+        "demo_lab_adjustable": true,
+        "demo_lab_control": "mechanical",
+        "demo_lab_autoclavable": true,
+        "demo_lab_material": "polypropylene",
+        "demo_lab_warranty": 2,
+        "image": "sample-data/lab/demo-lab-2003.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-2003-IMG"
+          "DEMO-LAB-2003-IMG",
+          "DEMO-LAB-2003-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-2003-DRW-PDF",
+          "DEMO-LAB-2003-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-2003-DS"
         ],
         "demo_has_cad": false
       },
@@ -1021,10 +1431,20 @@
           "amount": "0.12",
           "unit": "KILOGRAM"
         },
+        "demo_lab_channels": 1,
+        "demo_lab_adjustable": true,
+        "demo_lab_control": "mechanical",
+        "demo_lab_autoclavable": true,
+        "demo_lab_material": "polypropylene",
+        "demo_lab_warranty": 2,
         "demo_lab_volume_range": "2ul",
-        "image": "sample-data/lab/demo-lab-2003-2ul.png",
+        "image": "sample-data/lab/demo-lab-2003-2ul.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-2003-2UL-IMG"
+          "DEMO-LAB-2003-2UL-IMG",
+          "DEMO-LAB-2003-2UL-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-2003-DS"
         ],
         "demo_has_cad": false
       },
@@ -1056,10 +1476,20 @@
           "amount": "0.12",
           "unit": "KILOGRAM"
         },
+        "demo_lab_channels": 1,
+        "demo_lab_adjustable": true,
+        "demo_lab_control": "mechanical",
+        "demo_lab_autoclavable": true,
+        "demo_lab_material": "polypropylene",
+        "demo_lab_warranty": 2,
         "demo_lab_volume_range": "20ul",
-        "image": "sample-data/lab/demo-lab-2003-20ul.png",
+        "image": "sample-data/lab/demo-lab-2003-20ul.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-2003-20UL-IMG"
+          "DEMO-LAB-2003-20UL-IMG",
+          "DEMO-LAB-2003-20UL-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-2003-DS"
         ],
         "demo_has_cad": false
       },
@@ -1091,9 +1521,23 @@
           "amount": "0.31",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-2004.png",
+        "demo_lab_channels": 8,
+        "demo_lab_adjustable": true,
+        "demo_lab_control": "mechanical",
+        "demo_lab_autoclavable": true,
+        "demo_lab_material": "polypropylene",
+        "demo_lab_warranty": 2,
+        "image": "sample-data/lab/demo-lab-2004.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-2004-IMG"
+          "DEMO-LAB-2004-IMG",
+          "DEMO-LAB-2004-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-2004-DRW-PDF",
+          "DEMO-LAB-2004-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-2004-DS"
         ],
         "demo_has_cad": false
       },
@@ -1124,10 +1568,20 @@
           "amount": "0.31",
           "unit": "KILOGRAM"
         },
+        "demo_lab_channels": 8,
+        "demo_lab_adjustable": true,
+        "demo_lab_control": "mechanical",
+        "demo_lab_autoclavable": true,
+        "demo_lab_material": "polypropylene",
+        "demo_lab_warranty": 2,
         "demo_lab_volume_range": "20ul",
-        "image": "sample-data/lab/demo-lab-2004-20ul.png",
+        "image": "sample-data/lab/demo-lab-2004-20ul.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-2004-20UL-IMG"
+          "DEMO-LAB-2004-20UL-IMG",
+          "DEMO-LAB-2004-20UL-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-2004-DS"
         ],
         "demo_has_cad": false
       },
@@ -1159,10 +1613,20 @@
           "amount": "0.31",
           "unit": "KILOGRAM"
         },
+        "demo_lab_channels": 8,
+        "demo_lab_adjustable": true,
+        "demo_lab_control": "mechanical",
+        "demo_lab_autoclavable": true,
+        "demo_lab_material": "polypropylene",
+        "demo_lab_warranty": 2,
         "demo_lab_volume_range": "200ul",
-        "image": "sample-data/lab/demo-lab-2004-200ul.png",
+        "image": "sample-data/lab/demo-lab-2004-200ul.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-2004-200UL-IMG"
+          "DEMO-LAB-2004-200UL-IMG",
+          "DEMO-LAB-2004-200UL-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-2004-DS"
         ],
         "demo_has_cad": false
       },
@@ -1194,10 +1658,20 @@
           "amount": "0.31",
           "unit": "KILOGRAM"
         },
+        "demo_lab_channels": 8,
+        "demo_lab_adjustable": true,
+        "demo_lab_control": "mechanical",
+        "demo_lab_autoclavable": true,
+        "demo_lab_material": "polypropylene",
+        "demo_lab_warranty": 2,
         "demo_lab_volume_range": "1000ul",
-        "image": "sample-data/lab/demo-lab-2004-1000ul.png",
+        "image": "sample-data/lab/demo-lab-2004-1000ul.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-2004-1000UL-IMG"
+          "DEMO-LAB-2004-1000UL-IMG",
+          "DEMO-LAB-2004-1000UL-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-2004-DS"
         ],
         "demo_has_cad": false
       },
@@ -1229,9 +1703,23 @@
           "amount": "0.2",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-2005.png",
+        "demo_lab_channels": 1,
+        "demo_lab_adjustable": true,
+        "demo_lab_control": "mechanical",
+        "demo_lab_material": "polypropylene",
+        "demo_lab_warranty": 2,
+        "demo_lab_autoclavable": true,
+        "image": "sample-data/lab/demo-lab-2005.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-2005-IMG"
+          "DEMO-LAB-2005-IMG",
+          "DEMO-LAB-2005-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-2005-DRW-PDF",
+          "DEMO-LAB-2005-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-2005-DS"
         ],
         "demo_has_cad": false
       },
@@ -1262,10 +1750,20 @@
           "amount": "0.2",
           "unit": "KILOGRAM"
         },
+        "demo_lab_channels": 1,
+        "demo_lab_adjustable": true,
+        "demo_lab_control": "mechanical",
+        "demo_lab_material": "polypropylene",
+        "demo_lab_warranty": 2,
+        "demo_lab_autoclavable": true,
         "demo_lab_volume_range": "5ml",
-        "image": "sample-data/lab/demo-lab-2005-5ml.png",
+        "image": "sample-data/lab/demo-lab-2005-5ml.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-2005-5ML-IMG"
+          "DEMO-LAB-2005-5ML-IMG",
+          "DEMO-LAB-2005-5ML-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-2005-DS"
         ],
         "demo_has_cad": false
       },
@@ -1297,10 +1795,20 @@
           "amount": "0.2",
           "unit": "KILOGRAM"
         },
+        "demo_lab_channels": 1,
+        "demo_lab_adjustable": true,
+        "demo_lab_control": "mechanical",
+        "demo_lab_material": "polypropylene",
+        "demo_lab_warranty": 2,
+        "demo_lab_autoclavable": true,
         "demo_lab_volume_range": "10ml",
-        "image": "sample-data/lab/demo-lab-2005-10ml.png",
+        "image": "sample-data/lab/demo-lab-2005-10ml.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-2005-10ML-IMG"
+          "DEMO-LAB-2005-10ML-IMG",
+          "DEMO-LAB-2005-10ML-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-2005-DS"
         ],
         "demo_has_cad": false
       },
@@ -1332,9 +1840,24 @@
           "amount": "0.2",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-2006.png",
+        "demo_lab_channels": 1,
+        "demo_lab_adjustable": true,
+        "demo_lab_control": "electronic",
+        "demo_lab_display": true,
+        "demo_lab_autoclavable": false,
+        "demo_lab_material": "polypropylene",
+        "demo_lab_warranty": 2,
+        "image": "sample-data/lab/demo-lab-2006.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-2006-IMG"
+          "DEMO-LAB-2006-IMG",
+          "DEMO-LAB-2006-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-2006-DRW-PDF",
+          "DEMO-LAB-2006-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-2006-DS"
         ],
         "demo_has_cad": false
       },
@@ -1365,10 +1888,21 @@
           "amount": "0.2",
           "unit": "KILOGRAM"
         },
+        "demo_lab_channels": 1,
+        "demo_lab_adjustable": true,
+        "demo_lab_control": "electronic",
+        "demo_lab_display": true,
+        "demo_lab_autoclavable": false,
+        "demo_lab_material": "polypropylene",
+        "demo_lab_warranty": 2,
         "demo_lab_volume_range": "10ul",
-        "image": "sample-data/lab/demo-lab-2006-10ul.png",
+        "image": "sample-data/lab/demo-lab-2006-10ul.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-2006-10UL-IMG"
+          "DEMO-LAB-2006-10UL-IMG",
+          "DEMO-LAB-2006-10UL-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-2006-DS"
         ],
         "demo_has_cad": false
       },
@@ -1400,10 +1934,21 @@
           "amount": "0.2",
           "unit": "KILOGRAM"
         },
+        "demo_lab_channels": 1,
+        "demo_lab_adjustable": true,
+        "demo_lab_control": "electronic",
+        "demo_lab_display": true,
+        "demo_lab_autoclavable": false,
+        "demo_lab_material": "polypropylene",
+        "demo_lab_warranty": 2,
         "demo_lab_volume_range": "200ul",
-        "image": "sample-data/lab/demo-lab-2006-200ul.png",
+        "image": "sample-data/lab/demo-lab-2006-200ul.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-2006-200UL-IMG"
+          "DEMO-LAB-2006-200UL-IMG",
+          "DEMO-LAB-2006-200UL-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-2006-DS"
         ],
         "demo_has_cad": false
       },
@@ -1435,10 +1980,21 @@
           "amount": "0.2",
           "unit": "KILOGRAM"
         },
+        "demo_lab_channels": 1,
+        "demo_lab_adjustable": true,
+        "demo_lab_control": "electronic",
+        "demo_lab_display": true,
+        "demo_lab_autoclavable": false,
+        "demo_lab_material": "polypropylene",
+        "demo_lab_warranty": 2,
         "demo_lab_volume_range": "1000ul",
-        "image": "sample-data/lab/demo-lab-2006-1000ul.png",
+        "image": "sample-data/lab/demo-lab-2006-1000ul.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-2006-1000UL-IMG"
+          "DEMO-LAB-2006-1000UL-IMG",
+          "DEMO-LAB-2006-1000UL-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-2006-DS"
         ],
         "demo_has_cad": false
       },
@@ -1472,9 +2028,19 @@
           "amount": "0.6",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-2007.png",
+        "demo_lab_autoclavable": true,
+        "demo_lab_max_temp": 121,
+        "image": "sample-data/lab/demo-lab-2007.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-2007-IMG"
+          "DEMO-LAB-2007-IMG",
+          "DEMO-LAB-2007-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-2007-DRW-PDF",
+          "DEMO-LAB-2007-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-2007-DS"
         ],
         "demo_has_cad": false
       },
@@ -1510,11 +2076,20 @@
           "amount": "0.08",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-2008.png",
+        "demo_lab_autoclavable": true,
+        "demo_lab_dnase_free": true,
+        "demo_lab_filter_insert": false,
+        "demo_lab_max_temp": 121,
+        "image": "sample-data/lab/demo-lab-2008.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-2008-IMG"
+          "DEMO-LAB-2008-IMG",
+          "DEMO-LAB-2008-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_downloads": [
+          "DEMO-LAB-2008-PIPETTE-TIP-10UL-STEP",
+          "DEMO-LAB-2008-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1548,11 +2123,20 @@
           "amount": "0.2",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-2009.png",
+        "demo_lab_autoclavable": true,
+        "demo_lab_dnase_free": true,
+        "demo_lab_filter_insert": false,
+        "demo_lab_max_temp": 121,
+        "image": "sample-data/lab/demo-lab-2009.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-2009-IMG"
+          "DEMO-LAB-2009-IMG",
+          "DEMO-LAB-2009-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_downloads": [
+          "DEMO-LAB-2009-PIPETTE-TIP-1000UL-STEP",
+          "DEMO-LAB-2009-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1586,11 +2170,20 @@
           "amount": "0.08",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-2010.png",
+        "demo_lab_autoclavable": true,
+        "demo_lab_dnase_free": true,
+        "demo_lab_filter_insert": false,
+        "demo_lab_max_temp": 121,
+        "image": "sample-data/lab/demo-lab-2010.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-2010-IMG"
+          "DEMO-LAB-2010-IMG",
+          "DEMO-LAB-2010-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_downloads": [
+          "DEMO-LAB-2010-PIPETTE-TIP-20UL-STEP",
+          "DEMO-LAB-2010-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1624,11 +2217,20 @@
           "amount": "0.1",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-2011.png",
+        "demo_lab_autoclavable": true,
+        "demo_lab_dnase_free": true,
+        "demo_lab_filter_insert": true,
+        "demo_lab_max_temp": 121,
+        "image": "sample-data/lab/demo-lab-2011.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-2011-IMG"
+          "DEMO-LAB-2011-IMG",
+          "DEMO-LAB-2011-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_downloads": [
+          "DEMO-LAB-2011-FILTER-PIPETTE-TIP-200UL-STEP",
+          "DEMO-LAB-2011-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1662,11 +2264,20 @@
           "amount": "0.9",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-2012.png",
+        "demo_lab_autoclavable": true,
+        "demo_lab_dnase_free": true,
+        "demo_lab_filter_insert": false,
+        "demo_lab_max_temp": 121,
+        "image": "sample-data/lab/demo-lab-2012.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-2012-IMG"
+          "DEMO-LAB-2012-IMG",
+          "DEMO-LAB-2012-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_downloads": [
+          "DEMO-LAB-2012-PIPETTE-TIP-200UL-BAG-STEP",
+          "DEMO-LAB-2012-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1701,11 +2312,19 @@
           "amount": "0.08",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-2013.png",
+        "demo_lab_autoclavable": false,
+        "demo_lab_dnase_free": true,
+        "demo_lab_filter_insert": false,
+        "image": "sample-data/lab/demo-lab-2013.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-2013-IMG"
+          "DEMO-LAB-2013-IMG",
+          "DEMO-LAB-2013-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_downloads": [
+          "DEMO-LAB-2013-PIPETTE-TIP-10UL-STERILE-STEP",
+          "DEMO-LAB-2013-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1739,11 +2358,20 @@
           "amount": "0.2",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-3005.png",
+        "demo_lab_autoclavable": true,
+        "demo_lab_dnase_free": true,
+        "demo_lab_max_temp": 121,
+        "demo_lab_min_temp": -80,
+        "image": "sample-data/lab/demo-lab-3005.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-3005-IMG"
+          "DEMO-LAB-3005-IMG",
+          "DEMO-LAB-3005-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_downloads": [
+          "DEMO-LAB-3005-MICROCENTRIFUGE-TUBE-2ML-STEP",
+          "DEMO-LAB-3005-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1777,11 +2405,20 @@
           "amount": "0.15",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-3006.png",
+        "demo_lab_autoclavable": true,
+        "demo_lab_dnase_free": true,
+        "demo_lab_max_temp": 121,
+        "demo_lab_min_temp": -80,
+        "image": "sample-data/lab/demo-lab-3006.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-3006-IMG"
+          "DEMO-LAB-3006-IMG",
+          "DEMO-LAB-3006-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_downloads": [
+          "DEMO-LAB-3006-MICROCENTRIFUGE-TUBE-0-5ML-STEP",
+          "DEMO-LAB-3006-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1815,11 +2452,20 @@
           "amount": "0.9",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-3007.png",
+        "demo_lab_autoclavable": true,
+        "demo_lab_dnase_free": true,
+        "demo_lab_graduation": 1,
+        "demo_lab_max_temp": 121,
+        "image": "sample-data/lab/demo-lab-3007.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-3007-IMG"
+          "DEMO-LAB-3007-IMG",
+          "DEMO-LAB-3007-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_downloads": [
+          "DEMO-LAB-3007-CENTRIFUGE-TUBE-15ML-STEP",
+          "DEMO-LAB-3007-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1854,11 +2500,19 @@
           "amount": "1.1",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-3008.png",
+        "demo_lab_autoclavable": false,
+        "demo_lab_dnase_free": true,
+        "demo_lab_graduation": 5,
+        "image": "sample-data/lab/demo-lab-3008.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-3008-IMG"
+          "DEMO-LAB-3008-IMG",
+          "DEMO-LAB-3008-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_downloads": [
+          "DEMO-LAB-3008-CENTRIFUGE-TUBE-50ML-STERILE-STEP",
+          "DEMO-LAB-3008-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1892,11 +2546,19 @@
           "amount": "0.1",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-3009.png",
+        "demo_lab_min_temp": -196,
+        "demo_lab_autoclavable": false,
+        "demo_lab_dnase_free": true,
+        "image": "sample-data/lab/demo-lab-3009.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-3009-IMG"
+          "DEMO-LAB-3009-IMG",
+          "DEMO-LAB-3009-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_downloads": [
+          "DEMO-LAB-3009-CRYO-TUBE-2ML-STEP",
+          "DEMO-LAB-3009-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1930,11 +2592,19 @@
           "amount": "0.3",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-3010.png",
+        "demo_lab_diameter": 12,
+        "demo_lab_autoclavable": false,
+        "demo_lab_stackable": true,
+        "image": "sample-data/lab/demo-lab-3010.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-3010-IMG"
+          "DEMO-LAB-3010-IMG",
+          "DEMO-LAB-3010-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_downloads": [
+          "DEMO-LAB-3010-SAMPLE-TUBE-5ML-ROUND-BOTTOM-STEP",
+          "DEMO-LAB-3010-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1964,11 +2634,20 @@
           "amount": "0.9",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-3011.png",
+        "demo_lab_capacity": 96,
+        "demo_lab_stackable": true,
+        "demo_lab_autoclavable": false,
+        "demo_lab_dnase_free": true,
+        "image": "sample-data/lab/demo-lab-3011.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-3011-IMG"
+          "DEMO-LAB-3011-IMG",
+          "DEMO-LAB-3011-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_downloads": [
+          "DEMO-LAB-3011-MICROPLATE-96-WELLS-STEP",
+          "DEMO-LAB-3011-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -1998,11 +2677,20 @@
           "amount": "0.9",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-3012.png",
+        "demo_lab_capacity": 384,
+        "demo_lab_stackable": true,
+        "demo_lab_autoclavable": false,
+        "demo_lab_dnase_free": true,
+        "image": "sample-data/lab/demo-lab-3012.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-3012-IMG"
+          "DEMO-LAB-3012-IMG",
+          "DEMO-LAB-3012-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_downloads": [
+          "DEMO-LAB-3012-MICROPLATE-384-WELLS-STEP",
+          "DEMO-LAB-3012-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -2032,11 +2720,20 @@
           "amount": "0.3",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-3013.png",
+        "demo_lab_antistatic": true,
+        "demo_lab_stackable": true,
+        "demo_lab_autoclavable": false,
+        "demo_lab_sterile": false,
+        "image": "sample-data/lab/demo-lab-3013.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-3013-IMG"
+          "DEMO-LAB-3013-IMG",
+          "DEMO-LAB-3013-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_downloads": [
+          "DEMO-LAB-3013-WEIGHING-BOAT-80X80-STEP",
+          "DEMO-LAB-3013-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -2070,9 +2767,16 @@
           "amount": "0.6",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-3014.png",
+        "demo_lab_graduation": 1,
+        "demo_lab_autoclavable": false,
+        "demo_lab_sterile": false,
+        "image": "sample-data/lab/demo-lab-3014.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-3014-IMG"
+          "DEMO-LAB-3014-IMG",
+          "DEMO-LAB-3014-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-3014-DS"
         ],
         "demo_has_cad": false
       },
@@ -2103,9 +2807,18 @@
           "amount": "0.2",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-3015.png",
+        "demo_lab_diameter": 125,
+        "demo_lab_pore_size": 8,
+        "demo_lab_sterile": false,
+        "demo_lab_autoclavable": false,
+        "demo_lab_wall_thickness": 0.2,
+        "image": "sample-data/lab/demo-lab-3015.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-3015-IMG"
+          "DEMO-LAB-3015-IMG",
+          "DEMO-LAB-3015-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-3015-DS"
         ],
         "demo_has_cad": false
       },
@@ -2136,9 +2849,18 @@
           "amount": "0.1",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-3016.png",
+        "demo_lab_diameter": 70,
+        "demo_lab_pore_size": 8,
+        "demo_lab_sterile": false,
+        "demo_lab_autoclavable": false,
+        "demo_lab_wall_thickness": 0.2,
+        "image": "sample-data/lab/demo-lab-3016.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-3016-IMG"
+          "DEMO-LAB-3016-IMG",
+          "DEMO-LAB-3016-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-3016-DS"
         ],
         "demo_has_cad": false
       },
@@ -2170,9 +2892,17 @@
           "amount": "0.2",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-3017.png",
+        "demo_lab_autoclavable": true,
+        "demo_lab_dnase_free": true,
+        "demo_lab_max_temp": 121,
+        "demo_lab_sterile": false,
+        "image": "sample-data/lab/demo-lab-3017.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-3017-IMG"
+          "DEMO-LAB-3017-IMG",
+          "DEMO-LAB-3017-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-3017-DS"
         ],
         "demo_has_cad": false
       },
@@ -2204,11 +2934,20 @@
           "amount": "0.2",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-3018.png",
+        "demo_lab_antistatic": true,
+        "demo_lab_stackable": true,
+        "demo_lab_autoclavable": false,
+        "demo_lab_sterile": false,
+        "image": "sample-data/lab/demo-lab-3018.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-3018-IMG"
+          "DEMO-LAB-3018-IMG",
+          "DEMO-LAB-3018-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_downloads": [
+          "DEMO-LAB-3018-WEIGHING-BOAT-40X40-STEP",
+          "DEMO-LAB-3018-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -2241,11 +2980,23 @@
           "amount": "0.2",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-4001.png",
+        "demo_lab_tolerance_class": "class_b",
+        "demo_lab_graduation": 1,
+        "demo_lab_autoclavable": true,
+        "image": "sample-data/lab/demo-lab-4001.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-4001-IMG"
+          "DEMO-LAB-4001-IMG",
+          "DEMO-LAB-4001-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_drawings": [
+          "DEMO-LAB-4001-DRW-PDF",
+          "DEMO-LAB-4001-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-4001-MEASURING-CYLINDER-100ML-STEP",
+          "DEMO-LAB-4001-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -2278,11 +3029,23 @@
           "amount": "0.4",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-4002.png",
+        "demo_lab_tolerance_class": "class_b",
+        "demo_lab_graduation": 2,
+        "demo_lab_autoclavable": true,
+        "image": "sample-data/lab/demo-lab-4002.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-4002-IMG"
+          "DEMO-LAB-4002-IMG",
+          "DEMO-LAB-4002-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_drawings": [
+          "DEMO-LAB-4002-DRW-PDF",
+          "DEMO-LAB-4002-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-4002-MEASURING-CYLINDER-250ML-STEP",
+          "DEMO-LAB-4002-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -2315,11 +3078,23 @@
           "amount": "0.9",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-4003.png",
+        "demo_lab_tolerance_class": "class_b",
+        "demo_lab_graduation": 10,
+        "demo_lab_autoclavable": true,
+        "image": "sample-data/lab/demo-lab-4003.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-4003-IMG"
+          "DEMO-LAB-4003-IMG",
+          "DEMO-LAB-4003-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_drawings": [
+          "DEMO-LAB-4003-DRW-PDF",
+          "DEMO-LAB-4003-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-4003-MEASURING-CYLINDER-1000ML-STEP",
+          "DEMO-LAB-4003-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -2352,11 +3127,24 @@
           "amount": "0.25",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-4004.png",
+        "demo_lab_tolerance_class": "uncalibrated",
+        "demo_lab_graduation": 50,
+        "demo_lab_autoclavable": true,
+        "demo_lab_vacuum_resistant": false,
+        "image": "sample-data/lab/demo-lab-4004.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-4004-IMG"
+          "DEMO-LAB-4004-IMG",
+          "DEMO-LAB-4004-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_drawings": [
+          "DEMO-LAB-4004-DRW-PDF",
+          "DEMO-LAB-4004-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-4004-ERLENMEYER-FLASK-250ML-STEP",
+          "DEMO-LAB-4004-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -2389,11 +3177,24 @@
           "amount": "0.4",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-4005.png",
+        "demo_lab_tolerance_class": "uncalibrated",
+        "demo_lab_graduation": 100,
+        "demo_lab_autoclavable": true,
+        "demo_lab_vacuum_resistant": false,
+        "image": "sample-data/lab/demo-lab-4005.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-4005-IMG"
+          "DEMO-LAB-4005-IMG",
+          "DEMO-LAB-4005-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_drawings": [
+          "DEMO-LAB-4005-DRW-PDF",
+          "DEMO-LAB-4005-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-4005-ERLENMEYER-FLASK-500ML-STEP",
+          "DEMO-LAB-4005-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -2426,11 +3227,24 @@
           "amount": "0.4",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-4006.png",
+        "demo_lab_tolerance_class": "uncalibrated",
+        "demo_lab_ground_joint": "ns29_32",
+        "demo_lab_autoclavable": true,
+        "demo_lab_vacuum_resistant": true,
+        "image": "sample-data/lab/demo-lab-4006.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-4006-IMG"
+          "DEMO-LAB-4006-IMG",
+          "DEMO-LAB-4006-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_drawings": [
+          "DEMO-LAB-4006-DRW-PDF",
+          "DEMO-LAB-4006-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-4006-ROUND-BOTTOM-FLASK-500ML-NS29-32-STEP",
+          "DEMO-LAB-4006-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -2463,11 +3277,24 @@
           "amount": "0.2",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-4007.png",
+        "demo_lab_tolerance_class": "uncalibrated",
+        "demo_lab_graduation": 50,
+        "demo_lab_autoclavable": true,
+        "demo_lab_stackable": true,
+        "image": "sample-data/lab/demo-lab-4007.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-4007-IMG"
+          "DEMO-LAB-4007-IMG",
+          "DEMO-LAB-4007-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_drawings": [
+          "DEMO-LAB-4007-DRW-PDF",
+          "DEMO-LAB-4007-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-4007-BEAKER-250ML-LOW-FORM-STEP",
+          "DEMO-LAB-4007-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -2500,11 +3327,24 @@
           "amount": "0.6",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-4008.png",
+        "demo_lab_tolerance_class": "uncalibrated",
+        "demo_lab_graduation": 100,
+        "demo_lab_autoclavable": true,
+        "demo_lab_stackable": true,
+        "image": "sample-data/lab/demo-lab-4008.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-4008-IMG"
+          "DEMO-LAB-4008-IMG",
+          "DEMO-LAB-4008-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_drawings": [
+          "DEMO-LAB-4008-DRW-PDF",
+          "DEMO-LAB-4008-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-4008-BEAKER-1000ML-TALL-FORM-STEP",
+          "DEMO-LAB-4008-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -2534,11 +3374,23 @@
           "amount": "0.3",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-4009.png",
+        "demo_lab_diameter": 16,
+        "demo_lab_autoclavable": true,
+        "demo_lab_tolerance_class": "uncalibrated",
+        "image": "sample-data/lab/demo-lab-4009.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-4009-IMG"
+          "DEMO-LAB-4009-IMG",
+          "DEMO-LAB-4009-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_drawings": [
+          "DEMO-LAB-4009-DRW-PDF",
+          "DEMO-LAB-4009-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-4009-TEST-TUBE-16X160-STEP",
+          "DEMO-LAB-4009-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -2571,11 +3423,24 @@
           "amount": "0.2",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-4010.png",
+        "demo_lab_tolerance_class": "class_a",
+        "demo_lab_tolerance_ml": 0.1,
+        "demo_lab_autoclavable": true,
+        "demo_lab_ground_joint": "ns14_23",
+        "image": "sample-data/lab/demo-lab-4010.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-4010-IMG"
+          "DEMO-LAB-4010-IMG",
+          "DEMO-LAB-4010-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_drawings": [
+          "DEMO-LAB-4010-DRW-PDF",
+          "DEMO-LAB-4010-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-4010-VOLUMETRIC-FLASK-100ML-STEP",
+          "DEMO-LAB-4010-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -2608,11 +3473,23 @@
           "amount": "0.05",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-4011.png",
+        "demo_lab_tolerance_class": "class_a",
+        "demo_lab_tolerance_ml": 0.02,
+        "demo_lab_autoclavable": true,
+        "image": "sample-data/lab/demo-lab-4011.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-4011-IMG"
+          "DEMO-LAB-4011-IMG",
+          "DEMO-LAB-4011-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_drawings": [
+          "DEMO-LAB-4011-DRW-PDF",
+          "DEMO-LAB-4011-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-4011-VOLUMETRIC-PIPETTE-10ML-STEP",
+          "DEMO-LAB-4011-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -2645,11 +3522,24 @@
           "amount": "0.3",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-4012.png",
+        "demo_lab_tolerance_class": "class_a",
+        "demo_lab_graduation": 0.1,
+        "demo_lab_tolerance_ml": 0.05,
+        "demo_lab_autoclavable": true,
+        "image": "sample-data/lab/demo-lab-4012.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-4012-IMG"
+          "DEMO-LAB-4012-IMG",
+          "DEMO-LAB-4012-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_drawings": [
+          "DEMO-LAB-4012-DRW-PDF",
+          "DEMO-LAB-4012-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-4012-BURETTE-50ML-STEP",
+          "DEMO-LAB-4012-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -2682,9 +3572,20 @@
           "amount": "0.4",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-4013.png",
+        "demo_lab_autoclavable": false,
+        "demo_lab_ground_joint": "ns29_32",
+        "demo_lab_tolerance_class": "uncalibrated",
+        "image": "sample-data/lab/demo-lab-4013.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-4013-IMG"
+          "DEMO-LAB-4013-IMG",
+          "DEMO-LAB-4013-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-4013-DRW-PDF",
+          "DEMO-LAB-4013-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-4013-DS"
         ],
         "demo_has_cad": false
       },
@@ -2719,9 +3620,19 @@
           "amount": "2.1",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-4014.png",
+        "demo_lab_autoclavable": false,
+        "demo_lab_tolerance_class": "uncalibrated",
+        "image": "sample-data/lab/demo-lab-4014.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-4014-IMG"
+          "DEMO-LAB-4014-IMG",
+          "DEMO-LAB-4014-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-4014-DRW-PDF",
+          "DEMO-LAB-4014-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-4014-DS"
         ],
         "demo_has_cad": false
       },
@@ -2756,9 +3667,20 @@
           "amount": "0.8",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-4015.png",
+        "demo_lab_autoclavable": true,
+        "demo_lab_ground_joint": "ns29_32",
+        "demo_lab_tolerance_class": "uncalibrated",
+        "image": "sample-data/lab/demo-lab-4015.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-4015-IMG"
+          "DEMO-LAB-4015-IMG",
+          "DEMO-LAB-4015-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-4015-DRW-PDF",
+          "DEMO-LAB-4015-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-4015-DS"
         ],
         "demo_has_cad": false
       },
@@ -2789,11 +3711,23 @@
           "amount": "0.1",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-4016.png",
+        "demo_lab_diameter": 75,
+        "demo_lab_autoclavable": true,
+        "demo_lab_tolerance_class": "uncalibrated",
+        "image": "sample-data/lab/demo-lab-4016.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-4016-IMG"
+          "DEMO-LAB-4016-IMG",
+          "DEMO-LAB-4016-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_drawings": [
+          "DEMO-LAB-4016-DRW-PDF",
+          "DEMO-LAB-4016-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-4016-GLASS-FUNNEL-75MM-STEP",
+          "DEMO-LAB-4016-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -2827,11 +3761,22 @@
           "amount": "0.1",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-4017.png",
+        "demo_lab_diameter": 6,
+        "demo_lab_autoclavable": true,
+        "image": "sample-data/lab/demo-lab-4017.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-4017-IMG"
+          "DEMO-LAB-4017-IMG",
+          "DEMO-LAB-4017-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_drawings": [
+          "DEMO-LAB-4017-DRW-PDF",
+          "DEMO-LAB-4017-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-4017-GLASS-STIRRING-ROD-200X6-STEP",
+          "DEMO-LAB-4017-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -2859,9 +3804,18 @@
           "amount": "0.1",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-5001.png",
+        "demo_lab_norm": "en166",
+        "demo_lab_adjustable": true,
+        "demo_lab_anti_fog": true,
+        "demo_lab_uv_protection": true,
+        "demo_lab_material": "polycarbonate",
+        "image": "sample-data/lab/demo-lab-5001.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-5001-IMG"
+          "DEMO-LAB-5001-IMG",
+          "DEMO-LAB-5001-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-5001-DS"
         ],
         "demo_has_cad": false
       },
@@ -2891,9 +3845,18 @@
           "amount": "0.1",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-5002.png",
+        "demo_lab_norm": "en166",
+        "demo_lab_anti_fog": true,
+        "demo_lab_uv_protection": true,
+        "demo_lab_material": "polycarbonate",
+        "demo_lab_adjustable": false,
+        "image": "sample-data/lab/demo-lab-5002.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-5002-IMG"
+          "DEMO-LAB-5002-IMG",
+          "DEMO-LAB-5002-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-5002-DS"
         ],
         "demo_has_cad": false
       },
@@ -2923,9 +3886,15 @@
           "amount": "0.5",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-5003.png",
+        "demo_lab_size": 50,
+        "demo_lab_material": "cotton_blend",
+        "image": "sample-data/lab/demo-lab-5003.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-5003-IMG"
+          "DEMO-LAB-5003-IMG",
+          "DEMO-LAB-5003-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-5003-DS"
         ],
         "demo_has_cad": false
       },
@@ -2956,9 +3925,16 @@
           "amount": "0.1",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-5004.png",
+        "demo_lab_norm": "en388",
+        "demo_lab_size": 9,
+        "demo_lab_sterile": false,
+        "image": "sample-data/lab/demo-lab-5004.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-5004-IMG"
+          "DEMO-LAB-5004-IMG",
+          "DEMO-LAB-5004-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-5004-DS"
         ],
         "demo_has_cad": false
       },
@@ -2989,9 +3965,16 @@
           "amount": "0.1",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-5005.png",
+        "demo_lab_norm": "en388",
+        "demo_lab_size": 9,
+        "demo_lab_sterile": false,
+        "image": "sample-data/lab/demo-lab-5005.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-5005-IMG"
+          "DEMO-LAB-5005-IMG",
+          "DEMO-LAB-5005-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-5005-DS"
         ],
         "demo_has_cad": false
       },
@@ -3023,9 +4006,16 @@
           "amount": "0.6",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-5006.png",
+        "demo_lab_wall_thickness": 0.03,
+        "demo_lab_sterile": false,
+        "demo_lab_autoclavable": false,
+        "image": "sample-data/lab/demo-lab-5006.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-5006-IMG"
+          "DEMO-LAB-5006-IMG",
+          "DEMO-LAB-5006-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-5006-DS"
         ],
         "demo_has_cad": false
       },
@@ -3056,9 +4046,17 @@
           "amount": "0.1",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-5007.png",
+        "demo_lab_norm": "en166",
+        "demo_lab_adjustable": true,
+        "demo_lab_anti_fog": true,
+        "demo_lab_uv_protection": true,
+        "image": "sample-data/lab/demo-lab-5007.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-5007-IMG"
+          "DEMO-LAB-5007-IMG",
+          "DEMO-LAB-5007-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-5007-DS"
         ],
         "demo_has_cad": false
       },
@@ -3093,9 +4091,19 @@
           "amount": "2.2",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-5008.png",
+        "demo_lab_volume": {
+          "amount": "10000",
+          "unit": "MILLILITER"
+        },
+        "demo_lab_stackable": true,
+        "demo_lab_autoclavable": false,
+        "image": "sample-data/lab/demo-lab-5008.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-5008-IMG"
+          "DEMO-LAB-5008-IMG",
+          "DEMO-LAB-5008-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-5008-DS"
         ],
         "demo_has_cad": false
       },
@@ -3130,9 +4138,16 @@
           "amount": "0.6",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-5009.png",
+        "demo_lab_stackable": true,
+        "demo_lab_autoclavable": false,
+        "demo_lab_sterile": false,
+        "image": "sample-data/lab/demo-lab-5009.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-5009-IMG"
+          "DEMO-LAB-5009-IMG",
+          "DEMO-LAB-5009-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-5009-DS"
         ],
         "demo_has_cad": false
       },
@@ -3163,9 +4178,17 @@
           "amount": "0.2",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-5010.png",
+        "demo_lab_material": "silicone",
+        "demo_lab_size": 10,
+        "demo_lab_sterile": false,
+        "demo_lab_autoclavable": false,
+        "image": "sample-data/lab/demo-lab-5010.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-5010-IMG"
+          "DEMO-LAB-5010-IMG",
+          "DEMO-LAB-5010-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-5010-DS"
         ],
         "demo_has_cad": false
       },
@@ -3195,9 +4218,15 @@
           "amount": "0.6",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-5011.png",
+        "demo_lab_size": 54,
+        "demo_lab_material": "cotton_blend",
+        "image": "sample-data/lab/demo-lab-5011.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-5011-IMG"
+          "DEMO-LAB-5011-IMG",
+          "DEMO-LAB-5011-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-5011-DS"
         ],
         "demo_has_cad": false
       },
@@ -3228,9 +4257,16 @@
           "amount": "0.1",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-5012.png",
+        "demo_lab_material": "polypropylene",
+        "demo_lab_autoclavable": false,
+        "demo_lab_sterile": false,
+        "image": "sample-data/lab/demo-lab-5012.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-5012-IMG"
+          "DEMO-LAB-5012-IMG",
+          "DEMO-LAB-5012-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-5012-DS"
         ],
         "demo_has_cad": false
       },
@@ -3262,11 +4298,23 @@
           "amount": "0.4",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-6001.png",
+        "demo_lab_autoclavable": true,
+        "demo_lab_stackable": true,
+        "demo_lab_max_temp": 121,
+        "image": "sample-data/lab/demo-lab-6001.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-6001-IMG"
+          "DEMO-LAB-6001-IMG",
+          "DEMO-LAB-6001-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_drawings": [
+          "DEMO-LAB-6001-DRW-PDF",
+          "DEMO-LAB-6001-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-6001-TEST-TUBE-RACK-24-STEP",
+          "DEMO-LAB-6001-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -3296,11 +4344,23 @@
           "amount": "0.5",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-6002.png",
+        "demo_lab_autoclavable": true,
+        "demo_lab_stackable": true,
+        "demo_lab_max_temp": 121,
+        "image": "sample-data/lab/demo-lab-6002.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-6002-IMG"
+          "DEMO-LAB-6002-IMG",
+          "DEMO-LAB-6002-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_drawings": [
+          "DEMO-LAB-6002-DRW-PDF",
+          "DEMO-LAB-6002-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-6002-RACK-50ML-TUBES-15-STEP",
+          "DEMO-LAB-6002-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -3330,11 +4390,23 @@
           "amount": "0.3",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-6003.png",
+        "demo_lab_autoclavable": true,
+        "demo_lab_stackable": true,
+        "demo_lab_max_temp": 121,
+        "image": "sample-data/lab/demo-lab-6003.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-6003-IMG"
+          "DEMO-LAB-6003-IMG",
+          "DEMO-LAB-6003-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_drawings": [
+          "DEMO-LAB-6003-DRW-PDF",
+          "DEMO-LAB-6003-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-6003-RACK-1-5ML-TUBES-96-STEP",
+          "DEMO-LAB-6003-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -3364,11 +4436,24 @@
           "amount": "0.2",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-6004.png",
+        "demo_lab_min_temp": -80,
+        "demo_lab_stackable": true,
+        "demo_lab_autoclavable": true,
+        "demo_lab_dnase_free": true,
+        "image": "sample-data/lab/demo-lab-6004.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-6004-IMG"
+          "DEMO-LAB-6004-IMG",
+          "DEMO-LAB-6004-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_drawings": [
+          "DEMO-LAB-6004-DRW-PDF",
+          "DEMO-LAB-6004-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-6004-CRYO-BOX-81-STEP",
+          "DEMO-LAB-6004-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -3398,11 +4483,24 @@
           "amount": "0.3",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-6005.png",
+        "demo_lab_autoclavable": true,
+        "demo_lab_stackable": true,
+        "demo_lab_min_temp": -80,
+        "demo_lab_dnase_free": true,
+        "image": "sample-data/lab/demo-lab-6005.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-6005-IMG"
+          "DEMO-LAB-6005-IMG",
+          "DEMO-LAB-6005-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_drawings": [
+          "DEMO-LAB-6005-DRW-PDF",
+          "DEMO-LAB-6005-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-6005-SAMPLE-BOX-100-STEP",
+          "DEMO-LAB-6005-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -3435,9 +4533,20 @@
           "amount": "0.5",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-6006.png",
+        "demo_lab_stackable": true,
+        "demo_lab_autoclavable": false,
+        "demo_lab_max_temp": 60,
+        "image": "sample-data/lab/demo-lab-6006.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-6006-IMG"
+          "DEMO-LAB-6006-IMG",
+          "DEMO-LAB-6006-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-6006-DRW-PDF",
+          "DEMO-LAB-6006-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-6006-DS"
         ],
         "demo_has_cad": false
       },
@@ -3469,9 +4578,19 @@
           "amount": "0.6",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-6007.png",
+        "demo_lab_autoclavable": true,
+        "demo_lab_max_temp": 121,
+        "image": "sample-data/lab/demo-lab-6007.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-6007-IMG"
+          "DEMO-LAB-6007-IMG",
+          "DEMO-LAB-6007-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-6007-DRW-PDF",
+          "DEMO-LAB-6007-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-6007-DS"
         ],
         "demo_has_cad": false
       },
@@ -3506,9 +4625,20 @@
           "amount": "0.8",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-6008.png",
+        "demo_lab_autoclavable": true,
+        "demo_lab_diameter": 100,
+        "demo_lab_max_temp": 121,
+        "image": "sample-data/lab/demo-lab-6008.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-6008-IMG"
+          "DEMO-LAB-6008-IMG",
+          "DEMO-LAB-6008-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-6008-DRW-PDF",
+          "DEMO-LAB-6008-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-6008-DS"
         ],
         "demo_has_cad": false
       },
@@ -3543,9 +4673,21 @@
           "amount": "0.2",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-6009.png",
+        "demo_lab_autoclavable": false,
+        "demo_lab_min_temp": -80,
+        "demo_lab_stackable": true,
+        "demo_lab_dnase_free": true,
+        "image": "sample-data/lab/demo-lab-6009.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-6009-IMG"
+          "DEMO-LAB-6009-IMG",
+          "DEMO-LAB-6009-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-6009-DRW-PDF",
+          "DEMO-LAB-6009-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-6009-DS"
         ],
         "demo_has_cad": false
       },
@@ -3576,9 +4718,18 @@
           "amount": "0.02",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-6010.png",
+        "demo_lab_min_temp": -196,
+        "demo_lab_waterproof": true,
+        "demo_lab_autoclavable": false,
+        "demo_lab_material": "polyester",
+        "demo_lab_dnase_free": true,
+        "image": "sample-data/lab/demo-lab-6010.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-6010-IMG"
+          "DEMO-LAB-6010-IMG",
+          "DEMO-LAB-6010-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-6010-DS"
         ],
         "demo_has_cad": false
       },
@@ -3613,9 +4764,21 @@
           "amount": "1.8",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-6011.png",
+        "demo_lab_stackable": true,
+        "demo_lab_autoclavable": false,
+        "demo_lab_max_temp": 60,
+        "demo_lab_dnase_free": true,
+        "image": "sample-data/lab/demo-lab-6011.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-6011-IMG"
+          "DEMO-LAB-6011-IMG",
+          "DEMO-LAB-6011-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-6011-DRW-PDF",
+          "DEMO-LAB-6011-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-6011-DS"
         ],
         "demo_has_cad": false
       },
@@ -3647,11 +4810,24 @@
           "amount": "0.2",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-6012.png",
+        "demo_lab_autoclavable": true,
+        "demo_lab_stackable": true,
+        "demo_lab_min_temp": -80,
+        "demo_lab_dnase_free": true,
+        "image": "sample-data/lab/demo-lab-6012.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-6012-IMG"
+          "DEMO-LAB-6012-IMG",
+          "DEMO-LAB-6012-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_drawings": [
+          "DEMO-LAB-6012-DRW-PDF",
+          "DEMO-LAB-6012-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-6012-SAMPLE-BOX-25-STEP",
+          "DEMO-LAB-6012-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -3683,9 +4859,28 @@
           "amount": "1.6",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-1019.png",
+        "demo_lab_power_rating": {
+          "amount": "25",
+          "unit": "WATT"
+        },
+        "demo_lab_power_supply": "mains",
+        "demo_lab_control": "knob",
+        "demo_lab_warranty": 2,
+        "demo_lab_noise_level": {
+          "amount": "45",
+          "unit": "DECIBEL"
+        },
+        "image": "sample-data/lab/demo-lab-1019.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-1019-IMG"
+          "DEMO-LAB-1019-IMG",
+          "DEMO-LAB-1019-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-1019-DRW-PDF",
+          "DEMO-LAB-1019-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-1019-DS"
         ],
         "demo_has_cad": false
       },
@@ -3716,9 +4911,29 @@
           "amount": "6.5",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-1020.png",
+        "demo_lab_volume": {
+          "amount": "10000",
+          "unit": "MILLILITER"
+        },
+        "demo_lab_power_rating": {
+          "amount": "1500",
+          "unit": "WATT"
+        },
+        "demo_lab_power_supply": "mains",
+        "demo_lab_ip_rating": "ip54",
+        "demo_lab_control": "knob",
+        "demo_lab_warranty": 2,
+        "image": "sample-data/lab/demo-lab-1020.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-1020-IMG"
+          "DEMO-LAB-1020-IMG",
+          "DEMO-LAB-1020-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-1020-DRW-PDF",
+          "DEMO-LAB-1020-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-1020-DS"
         ],
         "demo_has_cad": false
       },
@@ -3749,9 +4964,29 @@
           "amount": "35",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-1021.png",
+        "demo_lab_volume": {
+          "amount": "23000",
+          "unit": "MILLILITER"
+        },
+        "demo_lab_power_rating": {
+          "amount": "1000",
+          "unit": "WATT"
+        },
+        "demo_lab_power_supply": "mains",
+        "demo_lab_control": "keypad",
+        "demo_lab_display": true,
+        "demo_lab_warranty": 2,
+        "image": "sample-data/lab/demo-lab-1021.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-1021-IMG"
+          "DEMO-LAB-1021-IMG",
+          "DEMO-LAB-1021-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-1021-DRW-PDF",
+          "DEMO-LAB-1021-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-1021-DS"
         ],
         "demo_has_cad": false
       },
@@ -3781,9 +5016,33 @@
           "amount": "38",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-1022.png",
+        "demo_lab_volume": {
+          "amount": "85000",
+          "unit": "MILLILITER"
+        },
+        "demo_lab_power_rating": {
+          "amount": "90",
+          "unit": "WATT"
+        },
+        "demo_lab_power_supply": "mains",
+        "demo_lab_noise_level": {
+          "amount": "40",
+          "unit": "DECIBEL"
+        },
+        "demo_lab_min_temp": 2,
+        "demo_lab_display": true,
+        "demo_lab_warranty": 2,
+        "image": "sample-data/lab/demo-lab-1022.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-1022-IMG"
+          "DEMO-LAB-1022-IMG",
+          "DEMO-LAB-1022-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-1022-DRW-PDF",
+          "DEMO-LAB-1022-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-1022-DS"
         ],
         "demo_has_cad": false
       },
@@ -3812,11 +5071,23 @@
         "demo_lab_volume_range": "2ul",
         "demo_lab_material": "polypropylene",
         "demo_lab_pack_size": 96,
-        "image": "sample-data/lab/demo-lab-2014.png",
+        "demo_lab_weight": {
+          "amount": "0.08",
+          "unit": "KILOGRAM"
+        },
+        "demo_lab_autoclavable": true,
+        "demo_lab_dnase_free": true,
+        "demo_lab_filter_insert": false,
+        "image": "sample-data/lab/demo-lab-2014.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-2014-IMG"
+          "DEMO-LAB-2014-IMG",
+          "DEMO-LAB-2014-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_downloads": [
+          "DEMO-LAB-2014-PIPETTE-TIP-2UL-STEP",
+          "DEMO-LAB-2014-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -3843,11 +5114,23 @@
         "demo_lab_volume_range": "1000ul",
         "demo_lab_material": "polypropylene",
         "demo_lab_pack_size": 96,
-        "image": "sample-data/lab/demo-lab-2015.png",
+        "demo_lab_weight": {
+          "amount": "0.2",
+          "unit": "KILOGRAM"
+        },
+        "demo_lab_filter_insert": true,
+        "demo_lab_autoclavable": true,
+        "demo_lab_dnase_free": true,
+        "image": "sample-data/lab/demo-lab-2015.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-2015-IMG"
+          "DEMO-LAB-2015-IMG",
+          "DEMO-LAB-2015-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_downloads": [
+          "DEMO-LAB-2015-FILTER-PIPETTE-TIP-1000UL-STEP",
+          "DEMO-LAB-2015-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -3875,9 +5158,23 @@
           "amount": "0.4",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-2016.png",
+        "demo_lab_display": true,
+        "demo_lab_control": "electronic",
+        "demo_lab_power_supply": "rechargeable",
+        "demo_lab_material": "polycarbonate",
+        "demo_lab_warranty": 2,
+        "demo_lab_autoclavable": false,
+        "image": "sample-data/lab/demo-lab-2016.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-2016-IMG"
+          "DEMO-LAB-2016-IMG",
+          "DEMO-LAB-2016-IMG-2"
+        ],
+        "demo_lab_drawings": [
+          "DEMO-LAB-2016-DRW-PDF",
+          "DEMO-LAB-2016-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-2016-DS"
         ],
         "demo_has_cad": false
       },
@@ -3908,9 +5205,18 @@
           "amount": "0.2",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-3019.png",
+        "demo_lab_dnase_free": true,
+        "demo_lab_sterile": false,
+        "demo_lab_autoclavable": false,
+        "demo_lab_wall_thickness": 0.13,
+        "demo_lab_max_temp": 60,
+        "image": "sample-data/lab/demo-lab-3019.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-3019-IMG"
+          "DEMO-LAB-3019-IMG",
+          "DEMO-LAB-3019-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-3019-DS"
         ],
         "demo_has_cad": false
       },
@@ -3938,9 +5244,21 @@
       "common": {
         "demo_lab_material": "polyethylene",
         "demo_lab_pack_size": 100,
-        "image": "sample-data/lab/demo-lab-3020.png",
+        "demo_lab_dnase_free": true,
+        "demo_lab_autoclavable": false,
+        "demo_lab_diameter": 12,
+        "demo_lab_weight": {
+          "amount": "0.05",
+          "unit": "KILOGRAM"
+        },
+        "demo_lab_sterile": false,
+        "image": "sample-data/lab/demo-lab-3020.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-3020-IMG"
+          "DEMO-LAB-3020-IMG",
+          "DEMO-LAB-3020-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-3020-DS"
         ],
         "demo_has_cad": false
       },
@@ -3967,9 +5285,21 @@
     "attribute_values": {
       "common": {
         "demo_lab_pack_size": 4,
-        "image": "sample-data/lab/demo-lab-3021.png",
+        "demo_lab_weight": {
+          "amount": "0.05",
+          "unit": "KILOGRAM"
+        },
+        "demo_lab_waterproof": true,
+        "demo_lab_autoclavable": false,
+        "demo_lab_material": "polypropylene",
+        "demo_lab_line_width": 1,
+        "image": "sample-data/lab/demo-lab-3021.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-3021-IMG"
+          "DEMO-LAB-3021-IMG",
+          "DEMO-LAB-3021-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-3021-DS"
         ],
         "demo_has_cad": false
       },
@@ -4005,11 +5335,19 @@
           "amount": "0.3",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-3022.png",
+        "demo_lab_autoclavable": true,
+        "demo_lab_dnase_free": true,
+        "demo_lab_max_temp": 121,
+        "image": "sample-data/lab/demo-lab-3022.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-3022-IMG"
+          "DEMO-LAB-3022-IMG",
+          "DEMO-LAB-3022-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_downloads": [
+          "DEMO-LAB-3022-SCREW-CAP-TUBE-4ML-STEP",
+          "DEMO-LAB-3022-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -4038,9 +5376,17 @@
           "amount": "0.6",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-3023.png",
+        "demo_lab_material": "polyester",
+        "demo_lab_dnase_free": true,
+        "demo_lab_sterile": false,
+        "demo_lab_autoclavable": false,
+        "image": "sample-data/lab/demo-lab-3023.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-3023-IMG"
+          "DEMO-LAB-3023-IMG",
+          "DEMO-LAB-3023-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-3023-DS"
         ],
         "demo_has_cad": false
       },
@@ -4067,9 +5413,22 @@
     "attribute_values": {
       "common": {
         "demo_lab_pack_size": 20,
-        "image": "sample-data/lab/demo-lab-3024.png",
+        "demo_lab_material": "silicone",
+        "demo_lab_autoclavable": true,
+        "demo_lab_max_temp": 121,
+        "demo_lab_dnase_free": true,
+        "demo_lab_weight": {
+          "amount": "0.1",
+          "unit": "KILOGRAM"
+        },
+        "demo_lab_sterile": false,
+        "image": "sample-data/lab/demo-lab-3024.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-3024-IMG"
+          "DEMO-LAB-3024-IMG",
+          "DEMO-LAB-3024-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-3024-DS"
         ],
         "demo_has_cad": false
       },
@@ -4104,11 +5463,24 @@
           "amount": "0.2",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-4018.png",
+        "demo_lab_tolerance_class": "uncalibrated",
+        "demo_lab_graduation": 10,
+        "demo_lab_autoclavable": true,
+        "demo_lab_vacuum_resistant": false,
+        "image": "sample-data/lab/demo-lab-4018.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-4018-IMG"
+          "DEMO-LAB-4018-IMG",
+          "DEMO-LAB-4018-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_drawings": [
+          "DEMO-LAB-4018-DRW-PDF",
+          "DEMO-LAB-4018-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-4018-ERLENMEYER-FLASK-100ML-STEP",
+          "DEMO-LAB-4018-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -4141,11 +5513,24 @@
           "amount": "0.3",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-4019.png",
+        "demo_lab_ground_joint": "ns29_32",
+        "demo_lab_autoclavable": true,
+        "demo_lab_tolerance_class": "uncalibrated",
+        "demo_lab_vacuum_resistant": true,
+        "image": "sample-data/lab/demo-lab-4019.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-4019-IMG"
+          "DEMO-LAB-4019-IMG",
+          "DEMO-LAB-4019-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_drawings": [
+          "DEMO-LAB-4019-DRW-PDF",
+          "DEMO-LAB-4019-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-4019-ROUND-BOTTOM-FLASK-250ML-NS29-32-STEP",
+          "DEMO-LAB-4019-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -4178,11 +5563,24 @@
           "amount": "0.1",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-4020.png",
+        "demo_lab_tolerance_class": "class_b",
+        "demo_lab_graduation": 0.2,
+        "demo_lab_autoclavable": true,
+        "demo_lab_vacuum_resistant": false,
+        "image": "sample-data/lab/demo-lab-4020.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-4020-IMG"
+          "DEMO-LAB-4020-IMG",
+          "DEMO-LAB-4020-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_drawings": [
+          "DEMO-LAB-4020-DRW-PDF",
+          "DEMO-LAB-4020-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-4020-MEASURING-CYLINDER-10ML-STEP",
+          "DEMO-LAB-4020-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -4212,11 +5610,26 @@
           "unit": "MILLILITER"
         },
         "demo_lab_pack_size": 12,
-        "image": "sample-data/lab/demo-lab-4021.png",
+        "demo_lab_weight": {
+          "amount": "0.25",
+          "unit": "KILOGRAM"
+        },
+        "demo_lab_autoclavable": true,
+        "demo_lab_diameter": 25,
+        "image": "sample-data/lab/demo-lab-4021.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-4021-IMG"
+          "DEMO-LAB-4021-IMG",
+          "DEMO-LAB-4021-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_drawings": [
+          "DEMO-LAB-4021-DRW-PDF",
+          "DEMO-LAB-4021-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-4021-SCREW-CAP-VIAL-20ML-STEP",
+          "DEMO-LAB-4021-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -4245,9 +5658,18 @@
           "amount": "0.3",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-5013.png",
+        "demo_lab_material": "pvc",
+        "demo_lab_powder_free": true,
+        "demo_lab_wall_thickness": 0.1,
+        "demo_lab_sterile": false,
+        "demo_lab_autoclavable": false,
+        "image": "sample-data/lab/demo-lab-5013.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-5013-IMG"
+          "DEMO-LAB-5013-IMG",
+          "DEMO-LAB-5013-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-5013-DS"
         ],
         "demo_has_cad": false
       },
@@ -4277,9 +5699,18 @@
           "amount": "0.2",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-5014.png",
+        "demo_lab_norm": "en166",
+        "demo_lab_uv_protection": true,
+        "demo_lab_adjustable": true,
+        "demo_lab_material": "polycarbonate",
+        "demo_lab_anti_fog": false,
+        "image": "sample-data/lab/demo-lab-5014.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-5014-IMG"
+          "DEMO-LAB-5014-IMG",
+          "DEMO-LAB-5014-IMG-2"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-5014-DS"
         ],
         "demo_has_cad": false
       },
@@ -4311,11 +5742,24 @@
           "amount": "0.4",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-6013.png",
+        "demo_lab_autoclavable": true,
+        "demo_lab_max_temp": 121,
+        "demo_lab_stackable": true,
+        "demo_lab_dnase_free": true,
+        "image": "sample-data/lab/demo-lab-6013.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-6013-IMG"
+          "DEMO-LAB-6013-IMG",
+          "DEMO-LAB-6013-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_drawings": [
+          "DEMO-LAB-6013-DRW-PDF",
+          "DEMO-LAB-6013-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-6013-RACK-2ML-TUBES-48-STEP",
+          "DEMO-LAB-6013-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -4341,16 +5785,28 @@
       "common": {
         "demo_lab_capacity": 81,
         "demo_lab_material": "polycarbonate",
-        "demo_lab_max_temp": -80,
         "demo_lab_weight": {
           "amount": "0.5",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-6014.png",
+        "demo_lab_stackable": true,
+        "demo_lab_autoclavable": true,
+        "demo_lab_dnase_free": true,
+        "demo_lab_min_temp": -80,
+        "image": "sample-data/lab/demo-lab-6014.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-6014-IMG"
+          "DEMO-LAB-6014-IMG",
+          "DEMO-LAB-6014-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_drawings": [
+          "DEMO-LAB-6014-DRW-PDF",
+          "DEMO-LAB-6014-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-6014-CRYO-BOX-81-POLYCARBONATE-STEP",
+          "DEMO-LAB-6014-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {
@@ -4379,11 +5835,24 @@
           "amount": "0.3",
           "unit": "KILOGRAM"
         },
-        "image": "sample-data/lab/demo-lab-6015.png",
+        "demo_lab_material": "cardboard",
+        "demo_lab_stackable": true,
+        "demo_lab_autoclavable": false,
+        "demo_lab_sterile": false,
+        "image": "sample-data/lab/demo-lab-6015.jpg",
         "demo_lab_images": [
-          "DEMO-LAB-6015-IMG"
+          "DEMO-LAB-6015-IMG",
+          "DEMO-LAB-6015-IMG-2"
         ],
-        "demo_has_cad": false
+        "demo_lab_drawings": [
+          "DEMO-LAB-6015-DRW-PDF",
+          "DEMO-LAB-6015-DRW-SVG"
+        ],
+        "demo_lab_downloads": [
+          "DEMO-LAB-6015-SAMPLE-ARCHIVE-BOX-CARD-100-STEP",
+          "DEMO-LAB-6015-DS"
+        ],
+        "demo_has_cad": true
       },
       "locale_specific": {
         "de-DE": {

@@ -1,0 +1,114 @@
+#!/usr/bin/env bash
+# The one entry point: the terminal UI, or flags for scripts and CI.
+set -euo pipefail
+ROOT=$(cd "$(dirname "$0")" && pwd)
+# shellcheck source=lib/env.sh
+source "$ROOT/lib/env.sh"
+# shellcheck source=lib/lock.sh
+source "$ROOT/lib/lock.sh"
+
+usage() {
+  cat <<'U'
+sample-data: load the revenexx sample data into a tenant, or remove it again.
+
+  ./sample-data                  open the terminal UI (needs an interactive terminal and Node 20+)
+  ./sample-data --load <pack>    load a pack (and the base, if it is missing): industrial, electrical, office, lab or all
+  ./sample-data --with-base      with --load: load the base even if it is complete
+  ./sample-data --remove <pack>  remove a pack (or all)
+  ./sample-data --remove-base    remove the base too (market, company, promotions)
+  ./sample-data --dry-run        with --load or --remove: show what would happen, change nothing
+  ./sample-data --test-order     place one real test order (asks first; --yes skips the question)
+  ./sample-data --status         show the run that is going, or "no run"
+  ./sample-data --stop           stop the run that is going
+  ./sample-data --help           this text
+
+One run at a time: while a run goes (also one started in the terminal UI, which
+keeps running when you close it), a second one refuses. Exit code 3 means busy.
+
+--load and --remove may be repeated. Use one of them per call, not both.
+Settings come from .env (copy .env.example) or the environment, which wins:
+REVENEXX_TENANT, REVENEXX_API_KEY (or REVENEXX_TOKEN), and REVENEXX_BASE_URL
+only for another API address (default https://api.revenexx.com/v1).
+U
+}
+
+die() { echo "$*" >&2; exit 2; }
+
+# Name for each flag's value, without a leading dash.
+need() { case "${2:-}" in ""|-*) die "$1 needs a pack name (or all)" ;; esac; }
+
+LOAD=""; REMOVE=""; BASE=0; DRY=0; ORDER=0; YES=0; WITH_BASE=0; STATUS=0; STOP=0
+if [ $# -eq 0 ]; then
+  if [ -t 0 ] && [ -t 1 ]; then
+    major=$(node -p 'process.versions.node.split(".")[0]' 2>/dev/null || echo 0)
+    if [ "$major" -lt 20 ]; then
+      echo "The terminal UI needs Node 20 or newer (https://nodejs.org, or: brew install node)." >&2
+      echo >&2
+      usage >&2
+      exit 1
+    fi
+    if [ ! -d "$ROOT/tui/node_modules" ]; then
+      echo "First start: installing the terminal UI's dependencies (once)..."
+      npm --prefix "$ROOT/tui" install --no-audit --no-fund --loglevel=error
+    fi
+    exec npm --prefix "$ROOT/tui" start --silent
+  fi
+  usage >&2
+  exit 2
+fi
+# The TUI reads .env itself (so its header can name the source); the flags path loads it here.
+load_dotenv "$ROOT/.env"
+while [ $# -gt 0 ]; do
+  case "$1" in
+    --load) need "$1" "${2:-}"; LOAD="$LOAD $2"; shift 2 ;;
+    --remove) need "$1" "${2:-}"; REMOVE="$REMOVE $2"; shift 2 ;;
+    --remove-base) BASE=1; shift ;;
+    --dry-run) DRY=1; shift ;;
+    --test-order) ORDER=1; shift ;;
+    --yes) YES=1; shift ;;
+    --with-base) WITH_BASE=1; shift ;;
+    --status) STATUS=1; shift ;;
+    --stop) STOP=1; shift ;;
+    -h|--help) usage; exit 0 ;;
+    *) die "unknown option: $1 (see ./sample-data --help)" ;;
+  esac
+done
+
+if [ "$STATUS$STOP" != 00 ]; then
+  [ "$STATUS$STOP" != 11 ] || die "use --status or --stop, not both"
+  [ -z "$LOAD$REMOVE" ] && [ "$BASE$DRY$ORDER$YES$WITH_BASE" = 00000 ] || die "--status and --stop stand alone"
+  [ "$STATUS" = 0 ] || { run_status; exit 0; }
+  run_stop; exit $?
+fi
+# Say so before asking anything when a run is going; the engine takes the lock itself, so this is only early.
+run_lock_check
+if [ "$ORDER" = 1 ]; then
+  [ -z "$LOAD$REMOVE" ] && [ "$BASE" = 0 ] && [ "$DRY" = 0 ] || die "--test-order stands alone"
+  : "${REVENEXX_TENANT:?set REVENEXX_TENANT (in .env or the environment)}"
+  echo "Orders cannot be deleted. This places a real test order (reference SAMPLE-TEST) in tenant $REVENEXX_TENANT;" >&2
+  echo "removing the sample data later only cancels it, it stays in the order history. It needs the base and the industrial pack." >&2
+  if [ "$YES" = 0 ]; then
+    [ -t 0 ] || die "not a terminal: add --yes to place the order"
+    case "${REVENEXX_BASE_URL:-https://api.revenexx.com/v1}" in
+      http://localhost[:/]*|http://127.*|http://\[::1\]*) ;;
+      *) printf 'This is not a local stack. Type the tenant name to confirm: ' >&2; read -r typed
+         [ "$typed" = "$REVENEXX_TENANT" ] || { echo "not confirmed" >&2; exit 1; } ;;
+    esac
+    printf 'Place it? (y/N) ' >&2; read -r answer
+    case "$answer" in y|Y) ;; *) echo "not placed" >&2; exit 1 ;; esac
+  fi
+  exec bash "$ROOT/examples/place-test-order.sh"
+fi
+[ -z "$LOAD" ] || [ -z "$REMOVE$([ "$BASE" = 1 ] && echo x)" ] || die "use --load or --remove in one call, not both"
+args=()
+[ "$DRY" = 0 ] || args+=(--dry-run)
+if [ -n "$LOAD" ]; then
+  [ "$BASE" = 0 ] || die "--remove-base goes with --remove"
+  for p in $LOAD; do args+=(--pack "$p"); done
+  [ "$WITH_BASE" = 1 ] || args+=(--skip-base-if-complete)
+  exec bash "$ROOT/lib/load.sh" ${args[@]+"${args[@]}"}
+fi
+[ -n "$REMOVE" ] || [ "$BASE" = 1 ] || die "nothing to do: pass --load <pack>, --remove <pack> and/or --remove-base"
+for p in $REMOVE; do args+=(--pack "$p"); done
+[ "$BASE" = 0 ] || args+=(--base)
+exec bash "$ROOT/lib/remove.sh" ${args[@]+"${args[@]}"}

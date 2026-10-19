@@ -133,5 +133,221 @@
       "en-US": "Stainless steel"
     },
     "position": 7
+  },
+  {
+    "attribute": "demo_lab_material",
+    "code": "cotton_blend",
+    "labels": {
+      "de-DE": "Mischgewebe",
+      "en-US": "Cotton blend"
+    },
+    "position": 8
+  },
+  {
+    "attribute": "demo_lab_material",
+    "code": "polyester",
+    "labels": {
+      "de-DE": "Polyester",
+      "en-US": "Polyester"
+    },
+    "position": 9
+  },
+  {
+    "attribute": "demo_lab_material",
+    "code": "pvc",
+    "labels": {
+      "de-DE": "PVC",
+      "en-US": "PVC"
+    },
+    "position": 10
+  },
+  {
+    "attribute": "demo_lab_material",
+    "code": "silicone",
+    "labels": {
+      "de-DE": "Silikon",
+      "en-US": "Silicone"
+    },
+    "position": 11
+  },
+  {
+    "attribute": "demo_lab_material",
+    "code": "cardboard",
+    "labels": {
+      "de-DE": "Karton",
+      "en-US": "Cardboard"
+    },
+    "position": 12
+  },
+  {
+    "attribute": "demo_lab_power_supply",
+    "code": "mains",
+    "labels": {
+      "de-DE": "Netz 230 V",
+      "en-US": "Mains 230 V"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_lab_power_supply",
+    "code": "battery",
+    "labels": {
+      "de-DE": "Batterie",
+      "en-US": "Battery"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_lab_power_supply",
+    "code": "rechargeable",
+    "labels": {
+      "de-DE": "Akku",
+      "en-US": "Rechargeable battery"
+    },
+    "position": 2
+  },
+  {
+    "attribute": "demo_lab_ip_rating",
+    "code": "ip20",
+    "labels": {
+      "de-DE": "IP20",
+      "en-US": "IP20"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_lab_ip_rating",
+    "code": "ip54",
+    "labels": {
+      "de-DE": "IP54",
+      "en-US": "IP54"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_lab_ip_rating",
+    "code": "ip65",
+    "labels": {
+      "de-DE": "IP65",
+      "en-US": "IP65"
+    },
+    "position": 2
+  },
+  {
+    "attribute": "demo_lab_control",
+    "code": "knob",
+    "labels": {
+      "de-DE": "Drehregler",
+      "en-US": "Rotary knob"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_lab_control",
+    "code": "touch",
+    "labels": {
+      "de-DE": "Touch",
+      "en-US": "Touch"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_lab_control",
+    "code": "keypad",
+    "labels": {
+      "de-DE": "Tastenfeld",
+      "en-US": "Keypad"
+    },
+    "position": 2
+  },
+  {
+    "attribute": "demo_lab_control",
+    "code": "mechanical",
+    "labels": {
+      "de-DE": "Mechanisch",
+      "en-US": "Mechanical"
+    },
+    "position": 3
+  },
+  {
+    "attribute": "demo_lab_control",
+    "code": "electronic",
+    "labels": {
+      "de-DE": "Elektronisch",
+      "en-US": "Electronic"
+    },
+    "position": 4
+  },
+  {
+    "attribute": "demo_lab_tolerance_class",
+    "code": "class_a",
+    "labels": {
+      "de-DE": "Klasse A",
+      "en-US": "Class A"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_lab_tolerance_class",
+    "code": "class_b",
+    "labels": {
+      "de-DE": "Klasse B",
+      "en-US": "Class B"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_lab_tolerance_class",
+    "code": "uncalibrated",
+    "labels": {
+      "de-DE": "Nicht kalibriert",
+      "en-US": "Not calibrated"
+    },
+    "position": 2
+  },
+  {
+    "attribute": "demo_lab_ground_joint",
+    "code": "ns14_23",
+    "labels": {
+      "de-DE": "NS 14/23",
+      "en-US": "NS 14/23"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_lab_ground_joint",
+    "code": "ns29_32",
+    "labels": {
+      "de-DE": "NS 29/32",
+      "en-US": "NS 29/32"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_lab_norm",
+    "code": "en166",
+    "labels": {
+      "de-DE": "EN 166",
+      "en-US": "EN 166"
+    },
+    "position": 0
+  },
+  {
+    "attribute": "demo_lab_norm",
+    "code": "en374",
+    "labels": {
+      "de-DE": "EN 374",
+      "en-US": "EN 374"
+    },
+    "position": 1
+  },
+  {
+    "attribute": "demo_lab_norm",
+    "code": "en388",
+    "labels": {
+      "de-DE": "EN 388",
+      "en-US": "EN 388"
+    },
+    "position": 2
   }
 ]

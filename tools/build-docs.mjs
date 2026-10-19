@@ -1,23 +1,27 @@
 #!/usr/bin/env node
 // Technical drawings (SVG + PDF) and data sheets (PDF) for one pack, generated
 // from our own numbers and the pack's product data. Development tool only:
-// the files are committed, seed.sh never runs this.
+// the files are committed, the seeder never runs this.
 //
-//   node tools/build-docs.mjs industrial
+//   node tools/build-docs.mjs industrial            # drawings and data sheets
+//   node tools/build-docs.mjs industrial --sheets   # data sheets only
 //
-// Needs Google Chrome for the PDFs (CHROME=/path/to/chrome to override), and
-// the pack's illustrations: run tools/build-art.mjs first.
+// The drawing PDFs need Google Chrome (CHROME=/path/to/chrome to override); the
+// data sheets are written directly (tools/sheet-pdf.mjs) from the pack's product
+// photos: run tools/build-photos.py first.
 import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { tmpdir } from 'node:os';
 import { dirname, join } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
-import { ACCENT } from './art/style.mjs';
+import { dataSheetPdf } from './sheet-pdf.mjs';
+import { ACCENT, FOOTER } from './sheet-style.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 
 const pack = process.argv[2];
-if (!pack) { console.error('usage: node tools/build-docs.mjs <pack>'); process.exit(2); }
+if (!pack) { console.error('usage: node tools/build-docs.mjs <pack> [--sheets]'); process.exit(2); }
+const sheetsOnly = process.argv.includes('--sheets');
 const { drawings, datasheets } = await import(`./docs/${pack}.mjs`);
 const CHROME = process.env.CHROME || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
 const PACK = join(ROOT, 'packs', pack);
@@ -30,7 +34,7 @@ mkdirSync(tmp, { recursive: true });
 
 // Chrome stamps the print time into the PDF; a fixed stamp of the same length
 // (byte offsets stay valid) makes a rebuild without changes byte-identical, so
-// seed.sh does not upload it again.
+// the seeder does not upload it again.
 function pdf(html, file) {
   const page = join(tmp, 'page.html');
   writeFileSync(page, html);
@@ -50,7 +54,7 @@ const page = (body, landscape) => `<!doctype html><html><head><meta charset="utf
 
 const drawingsDir = join(PACK, 'assets', 'drawings');
 mkdirSync(drawingsDir, { recursive: true });
-for (const [name, d] of Object.entries(drawings)) {
+for (const [name, d] of sheetsOnly ? [] : Object.entries(drawings)) {
   const p = bySku[d.sku];
   const title = esc(p.attribute_values.locale_specific['en-US'].name);
   // Title block: what a drawing sheet carries, plus the sample marking.
@@ -76,24 +80,15 @@ for (const [name, sheet] of Object.entries(datasheets)) {
   const p = bySku[sheet.sku];
   const en = p.attribute_values.locale_specific['en-US'];
   const de = p.attribute_values.locale_specific['de-DE'];
-  const rows = sheet.rows.map(([k, v]) => `<tr><th>${esc(k)}</th><td>${esc(v)}</td></tr>`).join('');
-  const art = readFileSync(join(PACK, 'assets', 'images', `${sheet.sku.toLowerCase()}.svg`), 'utf8');
-  if (!art.includes('width="800" height="800"')) throw new Error(`unexpected size in the illustration of ${sheet.sku}`);
-  const image = art.replace('width="800" height="800"', 'width="260" height="260"');
-  const accent = ACCENT[pack];
-  pdf(page(`
-    <style>
-      header { display: flex; justify-content: space-between; border-bottom: 3px solid ${accent}; padding-bottom: 8px; }
-      h1 { font-size: 24px; margin: 18px 0 4px; } h2 { font-size: 15px; color: #5b6270; margin: 0 0 18px; font-weight: 400; }
-      .grid { display: flex; gap: 28px; } table { border-collapse: collapse; width: 100%; font-size: 13px; }
-      th { text-align: left; width: 45%; color: #5b6270; font-weight: 400; } th, td { padding: 7px 0; border-bottom: 1px solid #e3e5e8; }
-      p { font-size: 13px; line-height: 1.5; } footer { margin-top: 28px; font-size: 11px; color: #5b6270; }
-    </style>
-    <header><b>${esc(makers[p.manufacturer])}</b><span class="sample">SAMPLE — fictional product</span></header>
-    <h1>${esc(en.name)}</h1><h2>${esc(de.name)} · ${esc(p.sku)}</h2>
-    <div class="grid"><div>${image}</div><div style="flex:1"><table>${rows}</table></div></div>
-    <p>${esc(en.description)}</p><p lang="de">${esc(de.description)}</p>
-    <footer>Product data sheet from the revenexx sample data. The product, the maker and every value on this sheet are invented for demonstration; this is not a real product and not a declaration of conformity.</footer>`, false),
-  join(downloadsDir, `${name}.pdf`));
+  writeFileSync(join(downloadsDir, `${name}.pdf`), dataSheetPdf({
+    maker: makers[p.manufacturer],
+    title: en.name,
+    subtitle: `${de.name} · ${p.sku}`,
+    jpeg: readFileSync(join(PACK, 'assets', 'images', `${sheet.sku.toLowerCase()}.jpg`)),
+    rows: sheet.rows,
+    paragraphs: [en.description, de.description],
+    footer: FOOTER,
+    accent: ACCENT[pack],
+  }));
   console.log(`  downloads/${name}.pdf`);
 }
