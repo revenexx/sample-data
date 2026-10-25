@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "sample-data"
+  description: "Sample data for a revenexx shop: four industry catalogues with prices, stock and media, a buyer company and promotions, loaded and removed with one script."
+  annotations:
+    github.com/project-slug: revenexx/sample-data
+spec:
+  type: other
+  owner: group:default/developer-experience
+  system: revenue-cloud
+  lifecycle: experimental
