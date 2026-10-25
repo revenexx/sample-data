@@ -1,0 +1,83 @@
+# The quality gate, per atlas → handbook/engineering/cicd-standard.md, rule 1.
+#
+# Two kinds of check live here, and both run on every pull request:
+#
+#   tui    the terminal UI: format, lint, types and tests of tui/
+#   shell  the one-run lock of the loader (lib/lock.sh), tested by
+#          tests/run-lock.sh with plain processes, no tenant and no API
+#
+# The data packs, the loader scripts and the Python build tools have no checks
+# of their own yet, so there is nothing of theirs to run.
+#
+# The tui job writes out the steps of revenexx/.github's node-ci.yml rather
+# than calling it: that workflow is private, and GitHub lets only private
+# repositories of the organisation call it. This repository is public. Once it
+# can call it, the job becomes
+#
+#   tui:
+#     uses: revenexx/.github/.github/workflows/node-ci.yml@v1
+#     with:
+#       package-manager: npm
+#       working-directory: tui
+#
+# and the concurrency block goes, because node-ci.yml sets its own.
+name: CI
+
+on:
+  pull_request:
+  # So a later deploy or publish workflow runs this exact gate in front of
+  # itself rather than a second copy. No `push: main`: there is no deploy, and
+  # the gate already ran on the pull request that reached main.
+  workflow_call:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  tui:
+    name: tui (install · format · lint · types · test)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: tui
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: tui/package-lock.json
+
+      # Fails when the lockfile does not match package.json, so a stale
+      # lockfile is a gate failure rather than a silent fix.
+      - name: Install
+        run: npm ci
+
+      - name: Format
+        run: npm run format:check
+
+      # Errors that were there before the linter are recorded in
+      # eslint-suppressions.json; a new one fails, a fixed one must be pruned.
+      - name: Lint
+        run: npm run lint
+
+      - name: Types
+        run: npm run typecheck
+
+      - name: Test
+        run: npm test
+
+  shell:
+    name: shell (run lock)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      # bash, jq and pkill are on the runner image; nothing to install.
+      - name: Run lock
+        run: tests/run-lock.sh
