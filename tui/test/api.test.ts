@@ -4,9 +4,23 @@ import { ShopReader, readCounts } from "../src/api.ts";
 import type { PackTarget } from "../src/plan.ts";
 
 const pack = {
-  name: "p", products: 3, categories: 2, attributes: 2, makers: 2, assets: 2, lists: 1, stock: 2, prices: 4,
-  manufacturers: ["M1", "M2"], categoryCodes: ["C1", "C2"], attributeCodes: ["a1", "a2"], assetNames: ["a.jpg", "b.jpg"],
-  stockSkus: ["S1", "S2"], priceLists: ["L1"], folder: "sample-data/p", steps: [],
+  name: "p",
+  products: 3,
+  categories: 2,
+  attributes: 2,
+  makers: 2,
+  assets: 2,
+  lists: 1,
+  stock: 2,
+  prices: 4,
+  manufacturers: ["M1", "M2"],
+  categoryCodes: ["C1", "C2"],
+  attributeCodes: ["a1", "a2"],
+  assetNames: ["a.jpg", "b.jpg"],
+  stockSkus: ["S1", "S2"],
+  priceLists: ["L1"],
+  folder: "sample-data/p",
+  steps: [],
 } as PackTarget;
 
 const fakeFetch = (calls: string[]) =>
@@ -14,17 +28,23 @@ const fakeFetch = (calls: string[]) =>
     const path = url.replace("http://x/v1", "");
     calls.push(path);
     const json = (b: unknown) => ({ ok: true, status: 200, json: async () => b }) as Response;
-    if (path.startsWith("/products/manufacturers?limit=200")) return json({ items: [{ code: "M1" }, { code: "M2" }], page: { hasMore: false } });
+    if (path.startsWith("/products/manufacturers?limit=200"))
+      return json({ items: [{ code: "M1" }, { code: "M2" }], page: { hasMore: false } });
     if (path.startsWith("/products/manufacturers")) return json({ items: [{ id: path.includes("M1") ? "m1" : "m2" }] });
-    if (path.startsWith("/products/categories")) return json({ items: [{ code: "C1" }, { code: "OTHER" }], page: { hasMore: false } });
-    if (path.startsWith("/products/attributes?limit=200&offset=0")) return json({ items: [{ code: "a1" }], page: { hasMore: true } });
-    if (path.startsWith("/products/attributes?limit=200&offset=200")) return json({ items: [{ code: "a2" }], page: { hasMore: false } });
+    if (path.startsWith("/products/categories"))
+      return json({ items: [{ code: "C1" }, { code: "OTHER" }], page: { hasMore: false } });
+    if (path.startsWith("/products/attributes?limit=200&offset=0"))
+      return json({ items: [{ code: "a1" }], page: { hasMore: true } });
+    if (path.startsWith("/products/attributes?limit=200&offset=200"))
+      return json({ items: [{ code: "a2" }], page: { hasMore: false } });
     if (path.startsWith("/prices/lists?limit=200")) return json({ items: [{ code: "L1" }], page: { hasMore: false } });
     if (path.startsWith("/products?manufacturer_id=m1")) return json({ items: [{}], page: { total: 2 } });
     if (path.startsWith("/products?manufacturer_id=m2")) return json({ items: [{}], page: { total: 1 } });
     if (path === "/storage/folders") return json({ data: [{ id: "f1", path: "/sample-data/p/" }] });
-    if (path.startsWith("/storage/assets")) return json({ data: [{ original_name: "a.jpg" }, { original_name: "old.jpg" }], meta: { last_page: 1 } });
-    if (path.startsWith("/inventories/stock")) return json({ items: [{ sku: "S1" }, { sku: "OTHER" }], page: { hasMore: false } });
+    if (path.startsWith("/storage/assets"))
+      return json({ data: [{ original_name: "a.jpg" }, { original_name: "old.jpg" }], meta: { last_page: 1 } });
+    if (path.startsWith("/inventories/stock"))
+      return json({ items: [{ sku: "S1" }, { sku: "OTHER" }], page: { hasMore: false } });
     if (path.startsWith("/prices/lists?")) return json({ items: [{ id: "l1" }] });
     if (path.startsWith("/prices/lists/l1/entries")) return json({ items: [{}], page: { total: 4 } });
     return { ok: false, status: 404, json: async () => ({}) } as Response;
@@ -34,19 +54,44 @@ test("counts a pack by its manufacturers, folder, price lists and stock SKUs", a
   const calls: string[] = [];
   const reader = new ShopReader({ baseUrl: "http://x/v1", tenant: "t", apiKey: "", token: "tok" }, fakeFetch(calls));
   const c = await readCounts(reader, [pack]);
-  assert.deepEqual(c.p, { products: 3, categories: 1, attributes: 2, makers: 2, assets: 1, lists: 1, prices: 4, stock: 1 });
+  assert.deepEqual(c.p, {
+    products: 3,
+    categories: 1,
+    attributes: 2,
+    makers: 2,
+    assets: 1,
+    lists: 1,
+    prices: 4,
+    stock: 1,
+  });
 });
 
 test("a pack that is not there counts zero", async () => {
-  const reader = new ShopReader({ baseUrl: "http://x/v1", tenant: "t", apiKey: "", token: "tok" }, (async (u: string) => ({
-    ok: true, status: 200, json: async () => (u.includes("/storage/folders") ? { data: [] } : { items: [], page: { total: 0, hasMore: false } }),
+  const reader = new ShopReader({ baseUrl: "http://x/v1", tenant: "t", apiKey: "", token: "tok" }, (async (
+    u: string,
+  ) => ({
+    ok: true,
+    status: 200,
+    json: async () =>
+      u.includes("/storage/folders") ? { data: [] } : { items: [], page: { total: 0, hasMore: false } },
   })) as unknown as typeof fetch);
-  assert.deepEqual((await readCounts(reader, [pack])).p, { products: 0, categories: 0, attributes: 0, makers: 0, assets: 0, lists: 0, prices: 0, stock: 0 });
+  assert.deepEqual((await readCounts(reader, [pack])).p, {
+    products: 0,
+    categories: 0,
+    attributes: 0,
+    makers: 0,
+    assets: 0,
+    lists: 0,
+    prices: 0,
+    stock: 0,
+  });
 });
 
 test("API errors name the route and status", async () => {
   const reader = new ShopReader({ baseUrl: "http://x/v1", tenant: "t", apiKey: "", token: "" }, (async () => ({
-    ok: false, status: 401, json: async () => ({ message: "no" }),
+    ok: false,
+    status: 401,
+    json: async () => ({ message: "no" }),
   })) as unknown as typeof fetch);
   await assert.rejects(reader.get("/products?limit=1"), /\/products answered 401: no/);
 });

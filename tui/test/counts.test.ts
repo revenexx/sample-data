@@ -11,17 +11,58 @@ const target = { categories: 0, attributes: 0, makers: 0, lists: 0, products: 10
 
 test("totalOf: a row as a whole, each count capped at its target", () => {
   const t = { ...target, categories: 7, lists: 2 };
-  assert.deepEqual(totalOf({ ...t, products: 12, categories: 3 }, t), { have: 10 + 3 + 20 + 5 + 8 + 2, target: 10 + 7 + 20 + 5 + 8 + 2 });
+  assert.deepEqual(totalOf({ ...t, products: 12, categories: 3 }, t), {
+    have: 10 + 3 + 20 + 5 + 8 + 2,
+    target: 10 + 7 + 20 + 5 + 8 + 2,
+  });
 });
 
 test("packState: loaded, partial, not loaded, running", () => {
-  assert.equal(packState({ categories: 0, attributes: 0, makers: 0, lists: 0, products: 10, assets: 20, stock: 5, prices: 8 }, target), "loaded");
-  assert.equal(packState({ categories: 0, attributes: 0, makers: 0, lists: 0, products: 12, assets: 20, stock: 5, prices: 8 }, target), "loaded");
-  assert.equal(packState({ categories: 0, attributes: 0, makers: 0, lists: 0, products: 10, assets: 19, stock: 5, prices: 8 }, target), "partial");
-  assert.equal(packState({ categories: 0, attributes: 0, makers: 0, lists: 0, products: 0, assets: 0, stock: 0, prices: 0 }, target), "not loaded");
+  assert.equal(
+    packState(
+      { categories: 0, attributes: 0, makers: 0, lists: 0, products: 10, assets: 20, stock: 5, prices: 8 },
+      target,
+    ),
+    "loaded",
+  );
+  assert.equal(
+    packState(
+      { categories: 0, attributes: 0, makers: 0, lists: 0, products: 12, assets: 20, stock: 5, prices: 8 },
+      target,
+    ),
+    "loaded",
+  );
+  assert.equal(
+    packState(
+      { categories: 0, attributes: 0, makers: 0, lists: 0, products: 10, assets: 19, stock: 5, prices: 8 },
+      target,
+    ),
+    "partial",
+  );
+  assert.equal(
+    packState(
+      { categories: 0, attributes: 0, makers: 0, lists: 0, products: 0, assets: 0, stock: 0, prices: 0 },
+      target,
+    ),
+    "not loaded",
+  );
   assert.equal(packState(null, target), "unknown");
-  assert.equal(packState({ categories: 0, attributes: 0, makers: 0, lists: 0, products: 0, assets: 0, stock: 0, prices: 0 }, target, "seed"), "loading");
-  assert.equal(packState({ categories: 0, attributes: 0, makers: 0, lists: 0, products: 10, assets: 20, stock: 5, prices: 8 }, target, "remove"), "removing");
+  assert.equal(
+    packState(
+      { categories: 0, attributes: 0, makers: 0, lists: 0, products: 0, assets: 0, stock: 0, prices: 0 },
+      target,
+      "seed",
+    ),
+    "loading",
+  );
+  assert.equal(
+    packState(
+      { categories: 0, attributes: 0, makers: 0, lists: 0, products: 10, assets: 20, stock: 5, prices: 8 },
+      target,
+      "remove",
+    ),
+    "removing",
+  );
 });
 
 test("baseState", () => {
@@ -51,8 +92,15 @@ test("formatCount", () => {
 });
 
 test("local hosts get the LOCAL badge, others are production", () => {
-  for (const u of ["http://localhost:8080/v1", "http://127.0.0.1:8080/v1", "http://[::1]:8080/v1"]) assert.equal(isLocal(u), true, u);
-  for (const u of ["https://api.revenexx.com/v1", "https://localhost.evil.com/v1", "https://127.0.0.1.example.com", "nonsense"]) assert.equal(isLocal(u), false, u);
+  for (const u of ["http://localhost:8080/v1", "http://127.0.0.1:8080/v1", "http://[::1]:8080/v1"])
+    assert.equal(isLocal(u), true, u);
+  for (const u of [
+    "https://api.revenexx.com/v1",
+    "https://localhost.evil.com/v1",
+    "https://127.0.0.1.example.com",
+    "nonsense",
+  ])
+    assert.equal(isLocal(u), false, u);
   assert.equal(hostOf("http://localhost:8080/v1"), "localhost:8080");
 });
 
@@ -64,7 +112,10 @@ test("config reads the lib/load.sh variables", () => {
 
 test("targets come from the pack files", () => {
   const t = loadTargets();
-  assert.deepEqual(t.packs.map((p) => p.name), ["industrial", "electrical", "office", "lab"]);
+  assert.deepEqual(
+    t.packs.map((p) => p.name),
+    ["industrial", "electrical", "office", "lab"],
+  );
   const lab = t.packs.find((p) => p.name === "lab")!;
   assert.equal(lab.products, 125);
   assert.equal(lab.assets, 557);
@@ -78,9 +129,15 @@ test("targets come from the pack files", () => {
 test("config reads the repo's .env and the environment wins", () => {
   const dir = mkdtempSync(join(tmpdir(), "cfg-"));
   const f = join(dir, ".env");
-  writeFileSync(f, "# c\nREVENEXX_TENANT=\"from-file\"\nexport REVENEXX_TOKEN=tok # note\nOTHER=1\nREVENEXX_BASE_URL=http://localhost:8080/v1\n");
+  writeFileSync(
+    f,
+    '# c\nREVENEXX_TENANT="from-file"\nexport REVENEXX_TOKEN=tok # note\nOTHER=1\nREVENEXX_BASE_URL=http://localhost:8080/v1\n',
+  );
   const fileOnly = configFromEnv({}, f);
-  assert.deepEqual([fileOnly.tenant, fileOnly.token, fileOnly.baseUrl, fileOnly.source], ["from-file", "tok", "http://localhost:8080/v1", ".env"]);
+  assert.deepEqual(
+    [fileOnly.tenant, fileOnly.token, fileOnly.baseUrl, fileOnly.source],
+    ["from-file", "tok", "http://localhost:8080/v1", ".env"],
+  );
   const mixed = configFromEnv({ REVENEXX_TENANT: "shell" }, f);
   assert.equal(mixed.tenant, "shell");
   assert.equal(mixed.token, "tok");

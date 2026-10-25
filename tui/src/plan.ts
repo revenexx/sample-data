@@ -77,7 +77,9 @@ export const loadPack = (root: string, name: string): PackTarget => {
   const products = readArray(join(dir, "products.json"));
   const assets = readArray(join(dir, "assets.json"));
   // lib/load.sh books no row for a target of 0 without other fields (an out-of-stock product).
-  const stock = readArray(join(dir, "stock.json")).filter((s) => s.on_hand > 0 || Object.keys(s).some((k) => !["sku", "location", "on_hand"].includes(k)));
+  const stock = readArray(join(dir, "stock.json")).filter(
+    (s) => s.on_hand > 0 || Object.keys(s).some((k) => !["sku", "location", "on_hand"].includes(k)),
+  );
   const priceFiles = readArray(join(dir, "price-entries.json"));
   const manifest = readJson(join(dir, "manifest.json"));
   const filesStep = (manifest.steps as any[]).find((s) => s.kind === "files");

@@ -6,7 +6,17 @@ import { test } from "node:test";
 import { busyText, describeLock, parseLockInfo, pidAlive, readLast, readLock, runDirOf } from "../src/lock.ts";
 import { attachRun, LineBuffer, readAppended } from "../src/runner.ts";
 
-const INFO = ["pid=4242", "pidstart=Mon Oct 19 16:12:03 2026", "pgid=4242", "action=remove", "scopes=office base", "started=1760883123", "dry=0", "events=/r/.run/events-1.jsonl", ""].join("\n");
+const INFO = [
+  "pid=4242",
+  "pidstart=Mon Oct 19 16:12:03 2026",
+  "pgid=4242",
+  "action=remove",
+  "scopes=office base",
+  "started=1760883123",
+  "dry=0",
+  "events=/r/.run/events-1.jsonl",
+  "",
+].join("\n");
 const tmp = () => mkdtempSync(join(tmpdir(), "run-lock-"));
 const withLock = (dir: string, info: string | null) => {
   mkdirSync(join(dir, "lock"), { recursive: true });
@@ -88,7 +98,10 @@ test("readLast needs a code and an events path", () => {
   const dir = tmp();
   try {
     assert.equal(readLast("/x", dir), null);
-    writeFileSync(join(dir, "last.json"), JSON.stringify({ pid: 1, action: "load", scopes: "office", started: 1, ended: 2, code: 143, events: "/e" }));
+    writeFileSync(
+      join(dir, "last.json"),
+      JSON.stringify({ pid: 1, action: "load", scopes: "office", started: 1, ended: 2, code: 143, events: "/e" }),
+    );
     assert.equal(readLast("/x", dir)?.code, 143);
     writeFileSync(join(dir, "last.json"), "{ not json");
     assert.equal(readLast("/x", dir), null);
@@ -100,7 +113,10 @@ test("readLast needs a code and an events path", () => {
 test("the refusal names the run and the way out", () => {
   const i = parseLockInfo(INFO)!;
   assert.match(describeLock(i), /^remove office base since \d\d:\d\d \(pid 4242\)$/);
-  assert.match(busyText(i), /^a run is already going: remove office base since \d\d:\d\d \(pid 4242\); wait for it or stop it with \.\/sample-data --stop$/);
+  assert.match(
+    busyText(i),
+    /^a run is already going: remove office base since \d\d:\d\d \(pid 4242\); wait for it or stop it with \.\/sample-data --stop$/,
+  );
   assert.match(describeLock({ ...i, action: "order", scopes: ["order"], dry: false }), /^test order since/);
   assert.match(describeLock({ ...i, dry: true }), /\(dry run\) since/);
 });
@@ -108,7 +124,10 @@ test("the refusal names the run and the way out", () => {
 test("LineBuffer keeps a half-written line for the next read; readAppended reads from an offset", () => {
   const b = new LineBuffer();
   assert.equal(b.push('{"ev":"ok","text":"a"}\n{"ev":"do').length, 1);
-  assert.deepEqual(b.push('ne"}\nnoise\n').map((e) => e.ev), ["done"]);
+  assert.deepEqual(
+    b.push('ne"}\nnoise\n').map((e) => e.ev),
+    ["done"],
+  );
   const dir = tmp();
   try {
     const f = join(dir, "e.jsonl");
@@ -125,17 +144,38 @@ test("LineBuffer keeps a half-written line for the next read; readAppended reads
 test("attachRun replays the events file, follows it, and reports the exit from last.json once the lock is gone", () =>
   inRunDir(async (dir) => {
     const events = join(dir, "events-1.jsonl");
-    writeFileSync(events, '{"ev":"scope","action":"seed","scope":"office","steps":2}\n{"ev":"step_start","i":0,"name":"x","kind":"upsert"}\n');
-    const info = [`pid=${process.pid}`, "pidstart=", "pgid=1", "action=load", "scopes=office", "started=1", "dry=0", `events=${events}`, ""].join("\n");
+    writeFileSync(
+      events,
+      '{"ev":"scope","action":"seed","scope":"office","steps":2}\n{"ev":"step_start","i":0,"name":"x","kind":"upsert"}\n',
+    );
+    const info = [
+      `pid=${process.pid}`,
+      "pidstart=",
+      "pgid=1",
+      "action=load",
+      "scopes=office",
+      "started=1",
+      "dry=0",
+      `events=${events}`,
+      "",
+    ].join("\n");
     withLock(dir, info);
     const got: string[] = [];
     let exit: [number | null, string] | null = null;
-    const h = attachRun("/x", parseLockInfo(info)!, { events: (es) => got.push(...es.map((e) => e.ev)), exit: (c, t) => (exit = [c, t]) }, 20);
+    const h = attachRun(
+      "/x",
+      parseLockInfo(info)!,
+      { events: (es) => got.push(...es.map((e) => e.ev)), exit: (c, t) => (exit = [c, t]) },
+      20,
+    );
     await wait(100);
     assert.deepEqual(got, ["scope", "step_start"]);
     assert.equal(exit, null);
     appendFileSync(events, '{"ev":"done"}\n');
-    writeFileSync(join(dir, "last.json"), JSON.stringify({ pid: process.pid, action: "load", scopes: "office", started: 1, ended: 2, code: 0, events }));
+    writeFileSync(
+      join(dir, "last.json"),
+      JSON.stringify({ pid: process.pid, action: "load", scopes: "office", started: 1, ended: 2, code: 0, events }),
+    );
     rmSync(join(dir, "lock"), { recursive: true });
     await wait(100);
     assert.deepEqual(got, ["scope", "step_start", "done"]);
@@ -147,7 +187,17 @@ test("attachRun: a lock whose process died without last.json ends as a run witho
   inRunDir(async (dir) => {
     const events = join(dir, "events-2.jsonl");
     writeFileSync(events, "");
-    const info = ["pid=4194301", "pidstart=", "pgid=1", "action=remove", "scopes=lab", "started=1", "dry=0", `events=${events}`, ""].join("\n");
+    const info = [
+      "pid=4194301",
+      "pidstart=",
+      "pgid=1",
+      "action=remove",
+      "scopes=lab",
+      "started=1",
+      "dry=0",
+      `events=${events}`,
+      "",
+    ].join("\n");
     withLock(dir, info);
     let exit: [number | null, string] | null = null;
     attachRun("/x", parseLockInfo(info)!, { events: () => {}, exit: (c, t) => (exit = [c, t]) }, 20);

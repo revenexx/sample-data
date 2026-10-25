@@ -28,7 +28,11 @@ export const argsFor = (r: RunRequest): string[] => {
 
 /** Order the run visits its scopes: seed does the base first (when it runs at all), remove does it last. */
 export const scopesFor = (r: RunRequest): string[] =>
-  r.action === "order" ? ["order"] : r.action === "seed" ? [...(r.base ? ["base"] : []), ...r.packs] : [...r.packs, ...(r.base ? ["base"] : [])];
+  r.action === "order"
+    ? ["order"]
+    : r.action === "seed"
+      ? [...(r.base ? ["base"] : []), ...r.packs]
+      : [...r.packs, ...(r.base ? ["base"] : [])];
 
 export type Handle = {
   /** Asks the engine to stop the run (./sample-data --stop). */
@@ -80,7 +84,10 @@ export class LineBuffer {
 export const outputTail = (eventsFile: string): string => {
   try {
     const text = readFileSync(eventsFile.replace(/events-([^/]*)\.jsonl$/, "out-$1.log"), "utf8");
-    const lines = text.split("\n").map((l) => l.replace(/^\s*[✓✗!]\s*/, "").trim()).filter(Boolean);
+    const lines = text
+      .split("\n")
+      .map((l) => l.replace(/^\s*[✓✗!]\s*/, "").trim())
+      .filter(Boolean);
     return lines[lines.length - 1] ?? "";
   } catch {
     return "";
@@ -146,11 +153,15 @@ const follow = (
 };
 
 /** Follows a run that is already going: the whole events file is replayed, then followed live. */
-export const attachRun = (root: string, info: LockInfo, on: RunCallbacks, every?: number): Handle => follow(root, info.events, on, null, every);
+export const attachRun = (root: string, info: LockInfo, on: RunCallbacks, every?: number): Handle =>
+  follow(root, info.events, on, null, every);
 
 /** Starts a run in its own session (closing this window does not touch it), output into .run/out-<id>.log. */
 export const startRun = (root: string, cfg: Config, req: RunRequest, on: RunCallbacks, every?: number): Handle => {
-  const script = join(root, req.action === "seed" ? "lib/load.sh" : req.action === "order" ? "examples/place-test-order.sh" : "lib/remove.sh");
+  const script = join(
+    root,
+    req.action === "seed" ? "lib/load.sh" : req.action === "order" ? "examples/place-test-order.sh" : "lib/remove.sh",
+  );
   const runDir = runDirOf(root);
   mkdirSync(runDir, { recursive: true });
   const id = `${Date.now()}`;
