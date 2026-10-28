@@ -5,6 +5,7 @@ metadata:
   description: "Sample data for a revenexx shop: four industry catalogues with prices, stock and media, a buyer company and promotions, loaded and removed with one script."
   annotations:
     github.com/project-slug: revenexx/sample-data
+    backstage.io/techdocs-ref: url:https://github.com/revenexx/sample-data/tree/main/
 spec:
   type: other
   owner: group:default/developer-experience
