@@ -126,7 +126,8 @@ export const applyEvent = (run: RunState, e: SeedEvent, now: number): RunState =
       const idx = lastIdx(run.log, (l) => l.status === "run");
       return {
         ...run,
-        scopeStates: sc && run.scope ? { ...run.scopeStates, [run.scope]: { ...sc, pos: sc.pos + 1, frac: 0 } } : run.scopeStates,
+        scopeStates:
+          sc && run.scope ? { ...run.scopeStates, [run.scope]: { ...sc, pos: sc.pos + 1, frac: 0 } } : run.scopeStates,
         log: idx < 0 ? run.log : patchLast(run.log, idx, { status: "ok" }),
       };
     }
@@ -135,8 +136,12 @@ export const applyEvent = (run: RunState, e: SeedEvent, now: number): RunState =
       if (idx >= 0) {
         const cur = run.log[idx];
         // A second result line for the same step (remove_files) gets its own row.
-        if (cur.detail !== "") return { ...run, log: push(run.log, { status: "ok", scope: cur.scope, name: "", detail: e.text }) };
-        return { ...run, log: patchLast(run.log, idx, { detail: stripName(e.text, cur.name), done: undefined, total: undefined }) };
+        if (cur.detail !== "")
+          return { ...run, log: push(run.log, { status: "ok", scope: cur.scope, name: "", detail: e.text }) };
+        return {
+          ...run,
+          log: patchLast(run.log, idx, { detail: stripName(e.text, cur.name), done: undefined, total: undefined }),
+        };
       }
       return { ...run, log: push(run.log, { status: "ok", scope: run.scope ?? "", name: "", detail: e.text }) };
     }
@@ -149,7 +154,12 @@ export const applyEvent = (run: RunState, e: SeedEvent, now: number): RunState =
     case "error": {
       const idx = lastIdx(run.log, (l) => l.status === "run");
       const log = idx >= 0 ? patchLast(run.log, idx, { status: "err" }) : run.log;
-      return { ...run, failed: true, error: e.text, log: push(log, { status: "err", scope: run.scope ?? "", name: "", detail: e.text }) };
+      return {
+        ...run,
+        failed: true,
+        error: e.text,
+        log: push(log, { status: "err", scope: run.scope ?? "", name: "", detail: e.text }),
+      };
     }
     case "done":
       return { ...run, finished: true, endedAt: now };
@@ -223,4 +233,6 @@ export const formatDuration = (ms: number): string => {
 
 /** Seconds of an announced rate-limit wait that are left. */
 export const rateLimitLeft = (run: RunState, now: number): number | null =>
-  run.rateLimitWait == null || run.rateLimitAt == null ? null : Math.max(0, Math.ceil(run.rateLimitWait - (now - run.rateLimitAt) / 1000));
+  run.rateLimitWait == null || run.rateLimitAt == null
+    ? null
+    : Math.max(0, Math.ceil(run.rateLimitWait - (now - run.rateLimitAt) / 1000));

@@ -1,10 +1,25 @@
 /** The pure part of the main table: counts against targets, state, bars. */
-export const METRICS = ["products", "categories", "attributes", "makers", "assets", "lists", "prices", "stock"] as const;
+export const METRICS = [
+  "products",
+  "categories",
+  "attributes",
+  "makers",
+  "assets",
+  "lists",
+  "prices",
+  "stock",
+] as const;
 export type Metric = (typeof METRICS)[number];
 /** Column headers; "lists" is the pack's price lists. */
 export const METRIC_LABEL: Record<Metric, string> = {
-  products: "products", categories: "categories", attributes: "attributes", makers: "makers",
-  assets: "assets", lists: "price lists", prices: "prices", stock: "stock",
+  products: "products",
+  categories: "categories",
+  attributes: "attributes",
+  makers: "makers",
+  assets: "assets",
+  lists: "price lists",
+  prices: "prices",
+  stock: "stock",
 };
 /** The columns a narrow window drops first, in this order; the four of the first version stay. */
 export const OPTIONAL_METRICS: Metric[] = ["lists", "makers", "attributes", "categories"];
@@ -13,21 +28,21 @@ export type Targets4 = Record<Metric, number>;
 
 /** A row as a whole: records in the shop (capped at each target) against all targets. */
 export const totalOf = (counts: Counts, target: Targets4): { have: number; target: number } =>
-  METRICS.reduce((t, m) => ({ have: t.have + Math.min(counts[m], target[m]), target: t.target + target[m] }), { have: 0, target: 0 });
+  METRICS.reduce((t, m) => ({ have: t.have + Math.min(counts[m], target[m]), target: t.target + target[m] }), {
+    have: 0,
+    target: 0,
+  });
 export type PackState = "loaded" | "partial" | "not loaded" | "loading" | "removing" | "unknown";
 
 /** Share of the target that is in the shop, 0..1. An empty target counts as done. */
-export const ratio = (have: number, target: number): number => (target <= 0 ? 1 : Math.min(1, Math.max(0, have / target)));
+export const ratio = (have: number, target: number): number =>
+  target <= 0 ? 1 : Math.min(1, Math.max(0, have / target));
 
 /**
  * loaded: everything at target or above; not loaded: nothing at all;
  * partial: anything in between. `running` overrides while a run touches the pack.
  */
-export const packState = (
-  counts: Counts | null,
-  target: Targets4,
-  running?: "seed" | "remove",
-): PackState => {
+export const packState = (counts: Counts | null, target: Targets4, running?: "seed" | "remove"): PackState => {
   if (running === "seed") return "loading";
   if (running === "remove") return "removing";
   if (!counts) return "unknown";

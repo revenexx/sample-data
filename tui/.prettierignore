@@ -1,0 +1,25 @@
+# Build output. Prettier 3 also reads .gitignore; listed here so the file
+# says the same under prettier 2 and in repositories that do not ignore them.
+dist
+build
+coverage
+.nuxt
+.next
+.output
+node_modules
+
+# Yarn's committed release and Plug'n'Play files are written by Yarn.
+.yarn
+.pnp.*
+
+# Lockfiles are written by the package manager, not by people.
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Written by `eslint --suppress-all` and `--prune-suppressions`, not by people.
+eslint-suppressions.json
+
+# Add what this repository vendors or generates: fixtures kept verbatim,
+# files copied in from another repository, generated clients. Reformatting
+# them collides with every upstream update.

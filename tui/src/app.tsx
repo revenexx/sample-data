@@ -5,7 +5,21 @@ import { join } from "node:path";
 import { orderAlert, orderBlocker, orderConfirm, wrapText } from "./order.ts";
 import { updateEnvFile } from "./dotenv.ts";
 import { ApiError, ShopReader, readCounts, type Fetch } from "./api.ts";
-import { baseState, cellBar, needsBase, formatCount, METRICS, METRIC_LABEL, OPTIONAL_METRICS, packState, ratio, totalOf, type Counts, type Metric, type PackState } from "./counts.ts";
+import {
+  baseState,
+  cellBar,
+  needsBase,
+  formatCount,
+  METRICS,
+  METRIC_LABEL,
+  OPTIONAL_METRICS,
+  packState,
+  ratio,
+  totalOf,
+  type Counts,
+  type Metric,
+  type PackState,
+} from "./counts.ts";
 import { hasCredentials, hostOf, isLocal, type Config } from "./config.ts";
 import {
   applyEvent,
@@ -55,10 +69,13 @@ const STATE_LABEL: Record<PackState, string> = {
   unknown: "…",
 };
 const stateColor = (s: PackState): Partial<Seg> =>
-  s === "loaded" ? { color: theme.success }
-  : s === "partial" || s === "loading" ? { color: theme.warn }
-  : s === "removing" ? { color: theme.danger }
-  : { dim: true };
+  s === "loaded"
+    ? { color: theme.success }
+    : s === "partial" || s === "loading"
+      ? { color: theme.warn }
+      : s === "removing"
+        ? { color: theme.danger }
+        : { dim: true };
 
 const useSize = (fixed?: { columns: number; rows: number }) => {
   const { stdout } = useStdout();
@@ -81,14 +98,18 @@ const Header = ({ cfg, w }: { cfg: Config; w: number }) => {
     <Box width={w} justifyContent="space-between">
       <Text bold>
         {word.map((c, i) => (
-          <Text key={i} color={colors[i]}>{c}</Text>
+          <Text key={i} color={colors[i]}>
+            {c}
+          </Text>
         ))}
         <Text color={theme.accent}> seed</Text>
       </Text>
       <Box gap={1}>
         {local ? <Badge bg={theme.success}>{" LOCAL "}</Badge> : <Badge bg={theme.warn}>{" ▲ PRODUCTION "}</Badge>}
         <Text dimColor>tenant</Text>
-        <Text bold color={theme.accent}>{cfg.tenant || "(none)"}</Text>
+        <Text bold color={theme.accent}>
+          {cfg.tenant || "(none)"}
+        </Text>
         <Text dimColor>→</Text>
         <Text color={theme.accent}>{hostOf(cfg.baseUrl)}</Text>
         {cfg.source ? <Text dimColor>({cfg.source})</Text> : null}
@@ -131,17 +152,24 @@ const labelOf = (e: LogEntry) => (e.name ? `${e.scope} · ${e.name}` : "");
 
 const logRow = (e: LogEntry, labelW: number): Seg[] => {
   const glyph =
-    e.status === "ok" ? seg("✓ ", { color: theme.success })
-    : e.status === "run" ? seg("● ", { color: theme.warn })
-    : e.status === "warn" ? seg("! ", { color: theme.warn })
-    : seg("✗ ", { color: theme.danger });
+    e.status === "ok"
+      ? seg("✓ ", { color: theme.success })
+      : e.status === "run"
+        ? seg("● ", { color: theme.warn })
+        : e.status === "warn"
+          ? seg("! ", { color: theme.warn })
+          : seg("✗ ", { color: theme.danger });
   const label = labelOf(e);
   const detail = e.status === "run" && e.total ? `${e.done ?? 0} / ${e.total}` : e.detail;
   return [
     seg(" "),
     glyph,
     seg(pad(label, labelW - 2) + "  "),
-    e.status === "warn" ? seg(detail, { color: theme.warn }) : e.status === "err" ? seg(detail, { color: theme.danger }) : seg(detail, { bold: e.status === "run" }),
+    e.status === "warn"
+      ? seg(detail, { color: theme.warn })
+      : e.status === "err"
+        ? seg(detail, { color: theme.danger })
+        : seg(detail, { bold: e.status === "run" }),
   ];
 };
 
@@ -176,7 +204,13 @@ export const App = ({ config, targets, root, fetchImpl, size, poll = [8000, 6000
   const packs = targets.packs;
   const plans = useMemo(() => {
     const p: Record<string, typeof targets.base.steps> = { base: targets.base.steps };
-    p.order = Array.from({ length: 7 }, (_, i) => ({ name: `step ${i + 1}`, kind: "upsert", total: 1, weight: 1, removeWeight: 0 }));
+    p.order = Array.from({ length: 7 }, (_, i) => ({
+      name: `step ${i + 1}`,
+      kind: "upsert",
+      total: 1,
+      weight: 1,
+      removeWeight: 0,
+    }));
     for (const k of packs) p[k.name] = k.steps;
     return p;
   }, [targets, packs]);
@@ -275,7 +309,8 @@ export const App = ({ config, targets, root, fetchImpl, size, poll = [8000, 6000
     (req: RunRequest) => {
       setMessage("");
       const fresh = newRun(req.action === "remove" ? "remove" : "seed", req.dry, scopesFor(req), Date.now());
-      if (req.action === "seed" && !req.base) fresh.log = [{ status: "ok", scope: "base", name: "", detail: "base already loaded, skipped" }];
+      if (req.action === "seed" && !req.base)
+        fresh.log = [{ status: "ok", scope: "base", name: "", detail: "base already loaded, skipped" }];
       setRun(fresh);
       handle.current = startRun(root, cfg, req, follower(req.dry));
     },
@@ -313,7 +348,10 @@ export const App = ({ config, targets, root, fetchImpl, size, poll = [8000, 6000
 
   const ask = (req: RunRequest) => {
     if (req.dry) return begin(req);
-    if (req.action === "order") return setMode(orderConfirm(isLocal(cfg.baseUrl)) === "yn" ? { kind: "yn", req } : { kind: "typed", value: "", req });
+    if (req.action === "order")
+      return setMode(
+        orderConfirm(isLocal(cfg.baseUrl)) === "yn" ? { kind: "yn", req } : { kind: "typed", value: "", req },
+      );
     if (!isLocal(cfg.baseUrl)) return setMode({ kind: "typed", value: "", req });
     if (req.action === "remove") return setMode({ kind: "yn", req });
     begin(req);
@@ -341,7 +379,9 @@ export const App = ({ config, targets, root, fetchImpl, size, poll = [8000, 6000
   };
 
   const describe = (req: RunRequest) =>
-    req.action === "order" ? "test order" : `${req.action} ${[...req.packs, ...(req.base ? ["base"] : [])].join(" + ")}`;
+    req.action === "order"
+      ? "test order"
+      : `${req.action} ${[...req.packs, ...(req.base ? ["base"] : [])].join(" + ")}`;
 
   // ---- keys -------------------------------------------------------------------
   useInput((input, key) => {
@@ -375,7 +415,10 @@ export const App = ({ config, targets, root, fetchImpl, size, poll = [8000, 6000
     }
   });
 
-  const handlePrompt = (input: string, key: { return?: boolean; escape?: boolean; backspace?: boolean; delete?: boolean }) => {
+  const handlePrompt = (
+    input: string,
+    key: { return?: boolean; escape?: boolean; backspace?: boolean; delete?: boolean },
+  ) => {
     const mode = modeRef.current;
     if (mode.kind === "normal") return;
     if (key.escape) return setMode({ kind: "normal" });
@@ -439,14 +482,20 @@ export const App = ({ config, targets, root, fetchImpl, size, poll = [8000, 6000
 
   // ---- table rows ----------------------------------------------------------------
   const inner = W - 2;
-  const lay = tableLayout(inner, targets.base.checks.length, Math.max(...targets.base.checks.map((c) => c.label.length)) + 1);
-  const runningScope = (name: string): "seed" | "remove" | undefined => (running && run!.scopes.includes(name) ? run!.action : undefined);
+  const lay = tableLayout(
+    inner,
+    targets.base.checks.length,
+    Math.max(...targets.base.checks.map((c) => c.label.length)) + 1,
+  );
+  const runningScope = (name: string): "seed" | "remove" | undefined =>
+    running && run!.scopes.includes(name) ? run!.action : undefined;
 
   const tableRows: Seg[][] = [];
   // One line per row: the coloured counts, then one ▰▱ bar with a percentage for the row as a whole.
   // The cursor row gets a muted tint across the whole line.
   type Cell = { text: string; ratio: number; dim: boolean };
-  const tone = (c: Cell) => (c.dim ? undefined : c.ratio >= 1 ? theme.success : c.ratio > 0 ? theme.warn : theme.danger);
+  const tone = (c: Cell) =>
+    c.dim ? undefined : c.ratio >= 1 ? theme.success : c.ratio > 0 ? theme.warn : theme.danger;
   const rowLine = (name: string, st: PackState, cells: Cell[], colW: number, total: Cell, at: number): Seg[] => {
     const isCursor = at === cursor && mode.kind === "normal";
     const on = selected.has(name);
@@ -462,13 +511,20 @@ export const App = ({ config, targets, root, fetchImpl, size, poll = [8000, 6000
     // complete green, partly there yellow, nothing there red; not counted yet stays dim
     for (const c of cells) {
       const t = tone(c);
-      line.push(seg(pad(c.text, colW), { ...(c.dim && !isCursor ? { dim: true } : {}), ...(t ? { color: t } : {}), ...b }));
+      line.push(
+        seg(pad(c.text, colW), { ...(c.dim && !isCursor ? { dim: true } : {}), ...(t ? { color: t } : {}), ...b }),
+      );
     }
     if (lay.totalBar > 0) {
       const t = tone(total);
       const cb = cellBar(total.ratio, lay.totalBar);
       line.push(seg("  ", b), seg(cb.filled, { color: t ?? theme.accent, ...b }), seg(cb.empty, { dim: true, ...b }));
-      line.push(seg(padLeft(total.dim ? "" : `${Math.floor(total.ratio * 100)} %`, lay.pctW), { ...(t ? { color: t } : {}), ...b }));
+      line.push(
+        seg(padLeft(total.dim ? "" : `${Math.floor(total.ratio * 100)} %`, lay.pctW), {
+          ...(t ? { color: t } : {}),
+          ...b,
+        }),
+      );
     }
     if (bg) line.push(seg(" ".repeat(200), { bg }));
     return line;
@@ -480,7 +536,11 @@ export const App = ({ config, targets, root, fetchImpl, size, poll = [8000, 6000
   ];
   const baseColW = lay.baseCol;
   const baseCols = targets.base.checks.map((c) => c.label);
-  const bst = base ? baseState(base.found, base.total, runningScope("base")) : runningScope("base") ? "loading" : "unknown";
+  const bst = base
+    ? baseState(base.found, base.total, runningScope("base"))
+    : runningScope("base")
+      ? "loading"
+      : "unknown";
   tableRows.push(header("base", baseCols, baseColW));
   tableRows.push(
     rowLine(
@@ -488,7 +548,11 @@ export const App = ({ config, targets, root, fetchImpl, size, poll = [8000, 6000
       bst,
       targets.base.checks.map((c, i) => {
         const have = base ? base.cols[i] : null;
-        return { text: formatCount(have, c.target), ratio: have === null ? 0 : ratio(have, c.target), dim: have === null };
+        return {
+          text: formatCount(have, c.target),
+          ratio: have === null ? 0 : ratio(have, c.target),
+          dim: have === null,
+        };
       }),
       baseColW,
       { text: "", ratio: base ? ratio(base.found, base.total) : 0, dim: !base },
@@ -496,7 +560,13 @@ export const App = ({ config, targets, root, fetchImpl, size, poll = [8000, 6000
     ),
   );
   tableRows.push([]);
-  tableRows.push(header("pack", lay.metrics.map((m) => METRIC_LABEL[m]), lay.col));
+  tableRows.push(
+    header(
+      "pack",
+      lay.metrics.map((m) => METRIC_LABEL[m]),
+      lay.col,
+    ),
+  );
   packs.forEach((p, i) => {
     const c = counts[p.name] ?? null;
     const sum = c ? totalOf(c, p) : null;
@@ -521,7 +591,8 @@ export const App = ({ config, targets, root, fetchImpl, size, poll = [8000, 6000
   const shown = entries.slice(-logLines);
   const labelW = Math.min(40, Math.max(...shown.map((e) => labelOf(e).length), 20)) + 2;
   const logRows: Seg[][] = shown.map((e) => logRow(e, labelW));
-  while (logRows.length < logLines) logRows.push([seg(logRows.length === 0 && !run ? " nothing run yet · s seed, d dry run" : "", { dim: true })]);
+  while (logRows.length < logLines)
+    logRows.push([seg(logRows.length === 0 && !run ? " nothing run yet · s seed, d dry run" : "", { dim: true })]);
 
   // ---- status bar --------------------------------------------------------------------
   const status = (): { segs: Seg[]; bg: string } => {
@@ -529,11 +600,19 @@ export const App = ({ config, targets, root, fetchImpl, size, poll = [8000, 6000
     if (run && !run.finished) {
       const frac = overallFraction(run, plans);
       const eta = etaSeconds(frac, now - run.startedAt);
-      const verb = run.scopes[0] === "order" ? "TEST ORDER" : run.dry ? "DRY RUN" : run.action === "seed" ? "SEEDING" : "REMOVING";
+      const verb =
+        run.scopes[0] === "order" ? "TEST ORDER" : run.dry ? "DRY RUN" : run.action === "seed" ? "SEEDING" : "REMOVING";
       const left = ` ${verb} ${run.scope ?? "…"}  step ${run.action === "remove" ? run.stepCount - run.stepIndex : run.stepIndex + 1}/${run.stepCount || "…"} ${run.stepName} `;
       const wait = rateLimitLeft(run, now);
       const pct = ` ${Math.round(frac * 100)} %`;
-      const note = wait !== null && wait > 0 ? `rate limit, ${wait} s` : throttled ? "rate limited, counting slower" : eta !== null ? formatEta(eta) : "estimating…";
+      const note =
+        wait !== null && wait > 0
+          ? `rate limit, ${wait} s`
+          : throttled
+            ? "rate limited, counting slower"
+            : eta !== null
+              ? formatEta(eta)
+              : "estimating…";
       const right = `  ${note} `;
       const barW = Math.max(6, Math.min(30, W - cells(left) - cells(pct) - cells(right) - 1));
       const cb = cellBar(frac, barW);
@@ -550,12 +629,23 @@ export const App = ({ config, targets, root, fetchImpl, size, poll = [8000, 6000
       };
     }
     if (run && run.finished) {
-      const orderNo = run.scopes[0] === "order" ? run.log.map((l) => /^(\S+): [\d.]+ \w+ incl\. tax/.exec(l.detail)?.[1]).filter(Boolean).pop() : undefined;
+      const orderNo =
+        run.scopes[0] === "order"
+          ? run.log
+              .map((l) => /^(\S+): [\d.]+ \w+ incl\. tax/.exec(l.detail)?.[1])
+              .filter(Boolean)
+              .pop()
+          : undefined;
       const took = formatDuration((run.endedAt ?? now) - run.startedAt);
       const what = `${run.dry ? "dry run: " : ""}${describe({ action: run.scopes[0] === "order" ? "order" : run.action, packs: run.scopes.filter((s) => s !== "base" && s !== "order"), base: run.scopes.includes("base"), dry: run.dry })}`;
       return run.failed
         ? { bg, segs: [seg(` ✗ FAILED  ${what} · ${run.error ?? ""}`, { color: theme.danger, bold: true })] }
-        : { bg, segs: [seg(` ✓ DONE  ${what}${orderNo ? ` ${orderNo}` : ""} · ${took}`, { color: theme.success, bold: true })] };
+        : {
+            bg,
+            segs: [
+              seg(` ✓ DONE  ${what}${orderNo ? ` ${orderNo}` : ""} · ${took}`, { color: theme.success, bold: true }),
+            ],
+          };
     }
     return { bg: "", segs: [] };
   };
@@ -565,7 +655,12 @@ export const App = ({ config, targets, root, fetchImpl, size, poll = [8000, 6000
     idleLine.push(seg(` ${message}`, { color: theme.warn }));
   } else if (!run) {
     const age = readAt ? `${Math.max(0, Math.round((now - readAt) / 1000))} s ago` : "…";
-    idleLine.push(seg(` ${selected.size} selected · counts ${age}${orderBlock && readAt ? ` · test order: ${orderBlock}` : ""}${throttled ? " · rate limited, counting slower" : ""}`, { dim: true }));
+    idleLine.push(
+      seg(
+        ` ${selected.size} selected · counts ${age}${orderBlock && readAt ? ` · test order: ${orderBlock}` : ""}${throttled ? " · rate limited, counting slower" : ""}`,
+        { dim: true },
+      ),
+    );
   }
   const note = readError || message;
   const hints = running
@@ -574,17 +669,54 @@ export const App = ({ config, targets, root, fetchImpl, size, poll = [8000, 6000
 
   // ---- bottom lines -------------------------------------------------------------------
   let prompt: Seg[] | null = null;
-  if (mode.kind === "tenant") prompt = [seg(" Tenant: ", { color: theme.accent, bold: true }), seg(mode.value), seg("▮"), seg("   enter next · esc cancel", { dim: true })];
-  if (mode.kind === "baseUrl") prompt = [seg(" API address: ", { color: theme.accent, bold: true }), seg(mode.value), seg("▮"), seg("   enter apply · esc cancel", { dim: true })];
+  if (mode.kind === "tenant")
+    prompt = [
+      seg(" Tenant: ", { color: theme.accent, bold: true }),
+      seg(mode.value),
+      seg("▮"),
+      seg("   enter next · esc cancel", { dim: true }),
+    ];
+  if (mode.kind === "baseUrl")
+    prompt = [
+      seg(" API address: ", { color: theme.accent, bold: true }),
+      seg(mode.value),
+      seg("▮"),
+      seg("   enter apply · esc cancel", { dim: true }),
+    ];
   if (mode.kind === "typed")
-    prompt = [seg(" ▲ PRODUCTION ", { color: theme.onAccent, bg: theme.warn, bold: true }), seg(` ${describe(mode.req)} on ${cfg.tenant}: type the tenant name to confirm: `), seg(mode.value), seg("▮"), seg("  esc cancel", { dim: true })];
-  if (mode.kind === "saveEnv") prompt = [seg(" Save tenant and address to .env? ", { color: theme.accent, bold: true }), seg("y / N", { bold: true })];
-  if (mode.kind === "quit") prompt = [seg(" The run goes on in the background. Quit? ", { color: theme.accent, bold: true }), seg("(y/N)", { bold: true })];
-  if (mode.kind === "stop") prompt = [seg(" Stop the run? ", { color: theme.danger, bold: true }), seg("(y/N)", { bold: true })];
+    prompt = [
+      seg(" ▲ PRODUCTION ", { color: theme.onAccent, bg: theme.warn, bold: true }),
+      seg(` ${describe(mode.req)} on ${cfg.tenant}: type the tenant name to confirm: `),
+      seg(mode.value),
+      seg("▮"),
+      seg("  esc cancel", { dim: true }),
+    ];
+  if (mode.kind === "saveEnv")
+    prompt = [
+      seg(" Save tenant and address to .env? ", { color: theme.accent, bold: true }),
+      seg("y / N", { bold: true }),
+    ];
+  if (mode.kind === "quit")
+    prompt = [
+      seg(" The run goes on in the background. Quit? ", { color: theme.accent, bold: true }),
+      seg("(y/N)", { bold: true }),
+    ];
+  if (mode.kind === "stop")
+    prompt = [seg(" Stop the run? ", { color: theme.danger, bold: true }), seg("(y/N)", { bold: true })];
   const isOrder = (mode.kind === "yn" || mode.kind === "typed") && mode.req.action === "order";
-  const alertRows: Seg[][] = isOrder ? wrapText(orderAlert(cfg.tenant), W - 2).map((l) => [seg(` ${l}`, { color: theme.warn, bold: true })]) : [];
-  if (mode.kind === "yn" && isOrder) prompt = [seg(" Place it? ", { color: theme.warn, bold: true }), seg("(y/N)", { bold: true })];
-  else if (mode.kind === "yn") prompt = [seg(` ${describe(mode.req)} on ${cfg.tenant}: deletes the sample records. Continue? `, { color: theme.danger, bold: true }), seg("y / N", { bold: true })];
+  const alertRows: Seg[][] = isOrder
+    ? wrapText(orderAlert(cfg.tenant), W - 2).map((l) => [seg(` ${l}`, { color: theme.warn, bold: true })])
+    : [];
+  if (mode.kind === "yn" && isOrder)
+    prompt = [seg(" Place it? ", { color: theme.warn, bold: true }), seg("(y/N)", { bold: true })];
+  else if (mode.kind === "yn")
+    prompt = [
+      seg(` ${describe(mode.req)} on ${cfg.tenant}: deletes the sample records. Continue? `, {
+        color: theme.danger,
+        bold: true,
+      }),
+      seg("y / N", { bold: true }),
+    ];
 
   return (
     <Box flexDirection="column" width={W}>

@@ -1,0 +1,44 @@
+{
+  "src/api.ts": {
+    "@typescript-eslint/no-explicit-any": {
+      "count": 6
+    },
+    "no-empty": {
+      "count": 1
+    }
+  },
+  "src/app.tsx": {
+    "@typescript-eslint/no-explicit-any": {
+      "count": 2
+    },
+    "@typescript-eslint/no-unused-expressions": {
+      "count": 1
+    },
+    "@typescript-eslint/no-unused-vars": {
+      "count": 1
+    },
+    "no-control-regex": {
+      "count": 1
+    }
+  },
+  "src/config.ts": {
+    "no-empty": {
+      "count": 1
+    }
+  },
+  "src/lock.ts": {
+    "@typescript-eslint/no-explicit-any": {
+      "count": 1
+    }
+  },
+  "src/plan.ts": {
+    "@typescript-eslint/no-explicit-any": {
+      "count": 5
+    }
+  },
+  "src/ui.tsx": {
+    "no-useless-assignment": {
+      "count": 1
+    }
+  }
+}

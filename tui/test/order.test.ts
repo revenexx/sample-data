@@ -4,7 +4,16 @@ import { orderAlert, orderBlocker, orderConfirm, wrapText } from "../src/order.t
 import type { PackTarget } from "../src/plan.ts";
 
 const industrial = { name: "industrial", products: 125 } as PackTarget;
-const counts = (products: number) => ({ products, categories: 0, attributes: 0, makers: 0, lists: 0, assets: 0, stock: 0, prices: 0 });
+const counts = (products: number) => ({
+  products,
+  categories: 0,
+  attributes: 0,
+  makers: 0,
+  lists: 0,
+  assets: 0,
+  stock: 0,
+  prices: 0,
+});
 
 test("the alert names the reference, the tenant and that orders cannot be deleted", () => {
   const t = orderAlert("acme");

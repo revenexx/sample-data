@@ -8,7 +8,11 @@ import { App, tableLayout } from "../src/app.tsx";
 import { loadTargets } from "../src/plan.ts";
 
 const targets = loadTargets();
-const empty = (async () => ({ ok: true, status: 200, json: async () => ({ items: [], data: [], page: { total: 0, hasMore: false } }) })) as unknown as typeof fetch;
+const empty = (async () => ({
+  ok: true,
+  status: 200,
+  json: async () => ({ items: [], data: [], page: { total: 0, hasMore: false } }),
+})) as unknown as typeof fetch;
 const wait = (ms = 80) => new Promise((r) => setTimeout(r, ms));
 const mounted: { unmount: () => void }[] = [];
 afterEach(() => {
@@ -16,7 +20,14 @@ afterEach(() => {
 });
 const mount = (baseUrl: string, columns = 100) => {
   const app = render(
-    <App config={{ baseUrl, tenant: "acme", apiKey: "k", token: "" }} targets={targets} root="/nonexistent" fetchImpl={empty} size={{ columns, rows: 30 }} poll={[60000, 60000]} />,
+    <App
+      config={{ baseUrl, tenant: "acme", apiKey: "k", token: "" }}
+      targets={targets}
+      root="/nonexistent"
+      fetchImpl={empty}
+      size={{ columns, rows: 30 }}
+      poll={[60000, 60000]}
+    />,
   );
   mounted.push(app);
   return app;
@@ -46,7 +57,16 @@ test("the table shows the base and every pack on one line each: counts against t
 
 test("a wide window shows all eight counts and a total bar per row; a narrow one keeps the first four", () => {
   const wide = tableLayout(160);
-  assert.deepEqual(wide.metrics, ["products", "categories", "attributes", "makers", "assets", "lists", "prices", "stock"]);
+  assert.deepEqual(wide.metrics, [
+    "products",
+    "categories",
+    "attributes",
+    "makers",
+    "assets",
+    "lists",
+    "prices",
+    "stock",
+  ]);
   assert.ok(wide.totalBar >= 6);
   assert.ok(wide.prefix + wide.metrics.length * wide.col + 2 + wide.totalBar + wide.pctW <= 160);
   const narrow = tableLayout(98);
@@ -103,7 +123,8 @@ test("a selection is needed, space toggles it, t changes the tenant and the head
 test("at 80 columns no line is wider than the terminal", async () => {
   const a = mount("https://api.revenexx.com/v1", 80);
   await wait();
-  for (const line of a.lastFrame()!.split("\n")) assert.ok([...line].length <= 80, `too wide (${[...line].length}): ${line}`);
+  for (const line of a.lastFrame()!.split("\n"))
+    assert.ok([...line].length <= 80, `too wide (${[...line].length}): ${line}`);
   a.unmount();
 });
 
@@ -125,7 +146,17 @@ test("a run that is already going is shown live; s is refused, q asks and leaves
     mkdirSync(join(dir, "lock"));
     writeFileSync(
       join(dir, "lock", "info"),
-      [`pid=${process.pid}`, "pidstart=", "pgid=1", "action=remove", "scopes=office", `started=${Math.floor(Date.now() / 1000)}`, "dry=0", `events=${events}`, ""].join("\n"),
+      [
+        `pid=${process.pid}`,
+        "pidstart=",
+        "pgid=1",
+        "action=remove",
+        "scopes=office",
+        `started=${Math.floor(Date.now() / 1000)}`,
+        "dry=0",
+        `events=${events}`,
+        "",
+      ].join("\n"),
     );
     const a = mount("http://localhost:8080/v1");
     await wait(700);
@@ -148,7 +179,10 @@ test("a run that is already going is shown live; s is refused, q asks and leaves
     assert.match(a.lastFrame()!, /REMOVING office/);
     // the run ends: the lock goes, last.json says how
     appendFileSync(events, '{"ev":"done"}\n');
-    writeFileSync(join(dir, "last.json"), JSON.stringify({ pid: process.pid, action: "remove", scopes: "office", started: 1, ended: 2, code: 0, events }));
+    writeFileSync(
+      join(dir, "last.json"),
+      JSON.stringify({ pid: process.pid, action: "remove", scopes: "office", started: 1, ended: 2, code: 0, events }),
+    );
     rmSync(join(dir, "lock"), { recursive: true });
     await wait(700);
     assert.match(a.lastFrame()!, /✓ DONE\s+remove office/);

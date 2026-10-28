@@ -16,7 +16,8 @@ export const orderBlocker = (
 ): string | null => {
   if (!industrial) return "no industrial pack here";
   if (!counts || !base) return "counts not read yet";
-  if (counts.products < industrial.products || base.found < base.total) return "load the base and the industrial pack first";
+  if (counts.products < industrial.products || base.found < base.total)
+    return "load the base and the industrial pack first";
   return null;
 };
 

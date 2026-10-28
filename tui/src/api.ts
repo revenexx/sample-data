@@ -11,7 +11,10 @@ import type { BaseTarget, PackTarget } from "./plan.ts";
 export type Fetch = typeof fetch;
 
 export class ApiError extends Error {
-  constructor(message: string, readonly status = 0) {
+  constructor(
+    message: string,
+    readonly status = 0,
+  ) {
     super(message);
   }
 }
@@ -72,7 +75,10 @@ export class ShopReader {
         const b: any = await res.json();
         msg = b?.message ?? b?.error?.message ?? "";
       } catch {}
-      throw new ApiError(`${path.split("?")[0]} answered ${res.status}${msg ? `: ${String(msg).slice(0, 120)}` : ""}`, res.status);
+      throw new ApiError(
+        `${path.split("?")[0]} answered ${res.status}${msg ? `: ${String(msg).slice(0, 120)}` : ""}`,
+        res.status,
+      );
     }
     return res.json();
   }
@@ -126,7 +132,9 @@ export class ShopReader {
     const names = new Set(pack.assetNames);
     let n = 0;
     for (let page = 1; ; page++) {
-      const b = await this.get(`/storage/assets?filter%5Bfolder_id%5D=${folder.id}&limit=200&sort=original_name&page=${page}`);
+      const b = await this.get(
+        `/storage/assets?filter%5Bfolder_id%5D=${folder.id}&limit=200&sort=original_name&page=${page}`,
+      );
       for (const a of items(b)) if (names.has(a.original_name)) n++;
       if (page >= (b?.meta?.last_page ?? 1)) break;
     }
@@ -151,7 +159,9 @@ export class ShopReader {
 
   async prices(pack: PackTarget): Promise<number> {
     const counts = await Promise.all(
-      pack.priceLists.map((code) => this.totalUnder("/prices/lists", "code", code, (id) => `/prices/lists/${id}/entries?limit=1`)),
+      pack.priceLists.map((code) =>
+        this.totalUnder("/prices/lists", "code", code, (id) => `/prices/lists/${id}/entries?limit=1`),
+      ),
     );
     return counts.reduce((a, b) => a + b, 0);
   }
@@ -175,7 +185,10 @@ export class ShopReader {
             }),
           ),
         );
-        return Math.min(per.reduce((a, b) => a + b, 0), c.target);
+        return Math.min(
+          per.reduce((a, b) => a + b, 0),
+          c.target,
+        );
       }),
     );
     return { found: cols.reduce((a, b) => a + b, 0), total: base.checks.reduce((a, c) => a + c.target, 0), cols };

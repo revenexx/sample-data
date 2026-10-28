@@ -26,9 +26,18 @@ export type LockState =
   /** The run's process is gone without letting go (kill -9, power loss). */
   | { kind: "stale"; info: LockInfo };
 
-export type LastRun = { pid: number; action: string; scopes: string; started: number; ended: number; code: number; events: string };
+export type LastRun = {
+  pid: number;
+  action: string;
+  scopes: string;
+  started: number;
+  ended: number;
+  code: number;
+  events: string;
+};
 
-export const runDirOf = (root: string, env: NodeJS.ProcessEnv = process.env): string => env.SAMPLE_DATA_RUN_DIR || join(root, ".run");
+export const runDirOf = (root: string, env: NodeJS.ProcessEnv = process.env): string =>
+  env.SAMPLE_DATA_RUN_DIR || join(root, ".run");
 
 export const parseLockInfo = (text: string): LockInfo | null => {
   const kv: Record<string, string> = {};
@@ -38,7 +47,8 @@ export const parseLockInfo = (text: string): LockInfo | null => {
   }
   const pid = Number(kv.pid);
   const action = kv.action;
-  if (!Number.isInteger(pid) || pid <= 0 || (action !== "load" && action !== "remove" && action !== "order")) return null;
+  if (!Number.isInteger(pid) || pid <= 0 || (action !== "load" && action !== "remove" && action !== "order"))
+    return null;
   return {
     pid,
     pidstart: kv.pidstart ?? "",
@@ -60,14 +70,21 @@ export const pidAlive = (pid: number, pidstart: string): boolean => {
   }
   if (!pidstart) return true;
   try {
-    const now = execFileSync("ps", ["-o", "lstart=", "-p", String(pid)], { encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] }).trim();
+    const now = execFileSync("ps", ["-o", "lstart=", "-p", String(pid)], {
+      encoding: "utf8",
+      stdio: ["ignore", "pipe", "ignore"],
+    }).trim();
     return now === pidstart;
   } catch {
     return false;
   }
 };
 
-export const readLock = (root: string, alive: (pid: number, pidstart: string) => boolean = pidAlive, runDir = runDirOf(root)): LockState => {
+export const readLock = (
+  root: string,
+  alive: (pid: number, pidstart: string) => boolean = pidAlive,
+  runDir = runDirOf(root),
+): LockState => {
   let text: string;
   try {
     text = readFileSync(join(runDir, "lock", "info"), "utf8");

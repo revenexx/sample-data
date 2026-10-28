@@ -68,7 +68,9 @@ export const hostOf = (baseUrl: string): string => parse(baseUrl)?.host ?? baseU
 
 /** Local means the machine itself: localhost, 127.x, ::1. Anything else is production. */
 export const isLocal = (baseUrl: string): boolean => {
-  const host = parse(baseUrl)?.hostname.replace(/^\[|\]$/g, "").toLowerCase();
+  const host = parse(baseUrl)
+    ?.hostname.replace(/^\[|\]$/g, "")
+    .toLowerCase();
   if (!host) return false;
   return host === "localhost" || host.endsWith(".localhost") || host === "::1" || /^127(\.\d{1,3}){3}$/.test(host);
 };
