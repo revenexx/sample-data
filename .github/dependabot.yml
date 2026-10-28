@@ -1,0 +1,49 @@
+# Dependabot for sample-data, from the template in revenexx/.github (DX-93,
+# DX-660). Two things here are pinned: the terminal UI's npm packages, by
+# tui/package-lock.json, and the actions in the workflows. The loader is bash,
+# curl and jq, and the Python and Node build tools in tools/ have no manifest,
+# so there is nothing of theirs to bump.
+#
+# Security updates are a repository setting, not something declared here; the
+# `npm-security` group below only bundles them. Version updates come monthly.
+# Minor and patch arrive as one pull request, a major on its own.
+version: 2
+
+updates:
+  - package-ecosystem: "npm"
+    directory: "/tui"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "chore(deps)"
+    ignore:
+      # The types follow the Node release CI runs (22), not ahead of it.
+      - dependency-name: "@types/node"
+        update-types: ["version-update:semver-major"]
+    groups:
+      npm-security:
+        applies-to: security-updates
+        patterns: ["*"]
+      npm-minor-and-patch:
+        applies-to: version-updates
+        patterns: ["*"]
+        update-types: ["minor", "patch"]
+
+  # Third-party actions. Our own reusable workflows (revenexx/.github, @v1)
+  # are not touched: they move by their tag. ci.yml calls none of them yet,
+  # since this repository is public; the ignore is for the day it can.
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    commit-message:
+      prefix: "chore(ci)"
+    ignore:
+      - dependency-name: "revenexx/.github"
+      - dependency-name: "revenexx/.github/*"
+      - dependency-name: "revenexx/.github/**"
+    groups:
+      actions:
+        patterns: ["*"]
+        update-types: ["minor", "patch"]
