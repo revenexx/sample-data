@@ -6,9 +6,11 @@
 #
 # Security updates are a repository setting, not something declared here; the
 # `npm-security` group below only bundles them. Version updates come weekly,
-# one pull request per ecosystem, majors included (DX-704). A group that turns
-# red gets `@dependabot ignore <package> major version` and a ticket for the
-# package.
+# one pull request per ecosystem, majors included (DX-704). If a group turns
+# red, the package that broke it gets an `ignore` for its major below, with the
+# reason and the ticket that lifts it, in a pull request of its own; once that
+# is merged, Dependabot replaces the red pull request. The `ignore` goes when
+# the ticket is done.
 version: 2
 
 updates:
