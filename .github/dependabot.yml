@@ -5,15 +5,17 @@
 # so there is nothing of theirs to bump.
 #
 # Security updates are a repository setting, not something declared here; the
-# `npm-security` group below only bundles them. Version updates come monthly.
-# Minor and patch arrive as one pull request, a major on its own.
+# `npm-security` group below only bundles them. Version updates come weekly,
+# one pull request per ecosystem, majors included (DX-704). A group that turns
+# red gets `@dependabot ignore <package> major version` and a ticket for the
+# package.
 version: 2
 
 updates:
   - package-ecosystem: "npm"
     directory: "/tui"
     schedule:
-      interval: "monthly"
+      interval: "weekly"
     open-pull-requests-limit: 5
     commit-message:
       prefix: "chore(deps)"
@@ -25,18 +27,18 @@ updates:
       npm-security:
         applies-to: security-updates
         patterns: ["*"]
-      npm-minor-and-patch:
+      npm:
         applies-to: version-updates
         patterns: ["*"]
-        update-types: ["minor", "patch"]
 
-  # Third-party actions. Our own reusable workflows (revenexx/.github, @v1)
+  # Third-party actions; where a workflow names one by major tag (`@v4`), every
+  # update is a major. Our own reusable workflows (revenexx/.github, @v1)
   # are not touched: they move by their tag. ci.yml calls none of them yet,
   # since this repository is public; the ignore is for the day it can.
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "monthly"
+      interval: "weekly"
     commit-message:
       prefix: "chore(ci)"
     ignore:
@@ -46,4 +48,3 @@ updates:
     groups:
       actions:
         patterns: ["*"]
-        update-types: ["minor", "patch"]
