@@ -78,7 +78,8 @@ const stateColor = (s: PackState): Partial<Seg> =>
         : { dim: true };
 
 const useSize = (fixed?: { columns: number; rows: number }) => {
-  const { stdout } = useStdout();
+  // ink types stdout as a plain stream since 8; columns and rows are on the TTY.
+  const stdout = useStdout().stdout as NodeJS.WriteStream | undefined;
   const read = () => fixed ?? { columns: stdout?.columns ?? 100, rows: stdout?.rows ?? 30 };
   const [size, setSize] = useState(read);
   useEffect(() => {
