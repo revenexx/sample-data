@@ -23,6 +23,11 @@ updates:
       # The types follow the Node release CI runs (22), not ahead of it.
       - dependency-name: "@types/node"
         update-types: ["version-update:semver-major"]
+      # typescript-eslint 8 accepts TypeScript below 6.1 only; with 7 the
+      # install fails (ERESOLVE). DX-705 lifts this once typescript-eslint
+      # takes 7.
+      - dependency-name: "typescript"
+        update-types: ["version-update:semver-major"]
     groups:
       npm-security:
         applies-to: security-updates
