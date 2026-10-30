@@ -1,0 +1,32 @@
+{
+  "name": "branch-names",
+  "target": "branch",
+  "enforcement": "active",
+  "conditions": {
+    "ref_name": {
+      "include": [
+        "~ALL"
+      ],
+      "exclude": [
+        "~DEFAULT_BRANCH",
+        "refs/heads/feature/**",
+        "refs/heads/feature-*",
+        "refs/heads/fix/**",
+        "refs/heads/fix-*",
+        "refs/heads/chore/**",
+        "refs/heads/chore-*",
+        "refs/heads/doc/**",
+        "refs/heads/doc-*",
+        "refs/heads/docs/**",
+        "refs/heads/docs-*",
+        "refs/heads/dependabot/**"
+      ]
+    }
+  },
+  "bypass_actors": [],
+  "rules": [
+    {
+      "type": "creation"
+    }
+  ]
+}
