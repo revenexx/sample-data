@@ -1,16 +1,16 @@
-# Dependabot for sample-data, from the template in revenexx/.github (DX-93,
-# DX-660). Two things here are pinned: the terminal UI's npm packages, by
+# Dependabot for sample-data, from the template in revenexx/.github. Two
+# things here are pinned: the terminal UI's npm packages, by
 # tui/package-lock.json, and the actions in the workflows. The loader is bash,
 # curl and jq, and the Python and Node build tools in tools/ have no manifest,
 # so there is nothing of theirs to bump.
 #
 # Security updates are a repository setting, not something declared here; the
 # `npm-security` group below only bundles them. Version updates come weekly,
-# one pull request per ecosystem, majors included (DX-704). If a group turns
-# red, the package that broke it gets an `ignore` for its major below, with the
-# reason and the ticket that lifts it, in a pull request of its own; once that
-# is merged, Dependabot replaces the red pull request. The `ignore` goes when
-# the ticket is done.
+# one pull request per ecosystem, majors included. If a group turns red, the
+# package that broke it gets an `ignore` for its major below, with the reason
+# and what lifts it, in a pull request of its own; once that is merged,
+# Dependabot replaces the red pull request. The `ignore` goes once that is
+# fixed.
 version: 2
 
 updates:
@@ -26,8 +26,8 @@ updates:
       - dependency-name: "@types/node"
         update-types: ["version-update:semver-major"]
       # typescript-eslint 8 accepts TypeScript below 6.1 only; with 7 the
-      # install fails (ERESOLVE). DX-705 lifts this once typescript-eslint
-      # takes 7.
+      # install fails (ERESOLVE). This goes once typescript-eslint takes
+      # TypeScript 7.
       - dependency-name: "typescript"
         update-types: ["version-update:semver-major"]
     groups:
