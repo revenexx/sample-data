@@ -8,6 +8,7 @@ export const METRICS = [
   "lists",
   "prices",
   "stock",
+  "pages",
 ] as const;
 export type Metric = (typeof METRICS)[number];
 /** Column headers; "lists" is the pack's price lists. */
@@ -20,6 +21,7 @@ export const METRIC_LABEL: Record<Metric, string> = {
   lists: "price lists",
   prices: "prices",
   stock: "stock",
+  pages: "pages",
 };
 /** The columns a narrow window drops first, in this order; the four of the first version stay. */
 export const OPTIONAL_METRICS: Metric[] = ["lists", "makers", "attributes", "categories"];

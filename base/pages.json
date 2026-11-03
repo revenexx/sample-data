@@ -1,0 +1,272 @@
+[
+  {
+    "slug": "contact",
+    "title": "Kontakt",
+    "bundle": "standard",
+    "sourceLanguage": "de",
+    "translations": [
+      {
+        "langcode": "en",
+        "title": "Contact",
+        "slug": "contact"
+      }
+    ],
+    "meta": {
+      "sample_data": "base"
+    },
+    "blocks": [
+      {
+        "bundle": "title",
+        "props": {
+          "title": "Kontakt"
+        },
+        "props_i18n": {
+          "en": {
+            "title": "Contact"
+          }
+        },
+        "options": {
+          "size": "h1"
+        }
+      },
+      {
+        "bundle": "text",
+        "props": {
+          "text": "<p>Fragen zu einem Angebot, einer Bestellung oder Ihrem Firmenkonto? Schreiben Sie uns, wir antworten werktags innerhalb eines Tages.</p><p>E-Mail: <a href=\"mailto:kontakt@beispiel-shop.example\">kontakt@beispiel-shop.example</a><br>Telefon: +49 000 0000000 (Platzhalter)<br>Montag bis Freitag, 8 bis 17 Uhr</p>"
+        },
+        "props_i18n": {
+          "en": {
+            "text": "<p>Questions about a quote, an order or your company account? Write to us; we answer within one working day.</p><p>Email: <a href=\"mailto:kontakt@beispiel-shop.example\">kontakt@beispiel-shop.example</a><br>Phone: +49 000 0000000 (placeholder)<br>Monday to Friday, 8 am to 5 pm</p>"
+          }
+        }
+      },
+      {
+        "bundle": "text",
+        "props": {
+          "text": "<p><em>Diese Seite gehört zu den revenexx-Beispieldaten. Shop, Firmen, Marken und Produkte sind erfunden. Ersetzen oder löschen Sie sie, bevor Ihr Shop live geht.</em></p>"
+        },
+        "props_i18n": {
+          "en": {
+            "text": "<p><em>This page is part of the revenexx sample data. The shop, companies, brands and products are fictional. Replace or delete it before your shop goes live.</em></p>"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "slug": "legal/imprint",
+    "title": "Impressum",
+    "bundle": "standard",
+    "sourceLanguage": "de",
+    "translations": [
+      {
+        "langcode": "en",
+        "title": "Imprint",
+        "slug": "legal/imprint"
+      }
+    ],
+    "meta": {
+      "sample_data": "base"
+    },
+    "blocks": [
+      {
+        "bundle": "title",
+        "props": {
+          "title": "Impressum"
+        },
+        "props_i18n": {
+          "en": {
+            "title": "Imprint"
+          }
+        },
+        "options": {
+          "size": "h1"
+        }
+      },
+      {
+        "bundle": "text",
+        "props": {
+          "text": "<p><strong>Platzhalter.</strong> Kein gültiger Rechtstext: ersetzen Sie ihn durch Ihren eigenen, bevor Ihr Shop live geht.</p>"
+        },
+        "props_i18n": {
+          "en": {
+            "text": "<p><strong>Placeholder.</strong> Not a valid legal text: replace it with your own before your shop goes live.</p>"
+          }
+        }
+      },
+      {
+        "bundle": "text",
+        "props": {
+          "text": "<p>[Firmenname]<br>[Straße und Hausnummer]<br>[PLZ und Ort]<br>Deutschland</p><p>Vertreten durch: [Geschäftsführung]<br>Registergericht: [Amtsgericht], [Registernummer]<br>USt-IdNr.: [Umsatzsteuer-Identifikationsnummer]</p><p>E-Mail: kontakt@beispiel-shop.example</p>"
+        },
+        "props_i18n": {
+          "en": {
+            "text": "<p>[Company name]<br>[Street and number]<br>[Postcode and town]<br>Germany</p><p>Represented by: [Managing directors]<br>Register court: [Local court], [Register number]<br>VAT ID: [VAT identification number]</p><p>Email: kontakt@beispiel-shop.example</p>"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "slug": "legal/terms",
+    "title": "Allgemeine Geschäftsbedingungen",
+    "bundle": "standard",
+    "sourceLanguage": "de",
+    "translations": [
+      {
+        "langcode": "en",
+        "title": "Terms and conditions",
+        "slug": "legal/terms"
+      }
+    ],
+    "meta": {
+      "sample_data": "base"
+    },
+    "blocks": [
+      {
+        "bundle": "title",
+        "props": {
+          "title": "Allgemeine Geschäftsbedingungen"
+        },
+        "props_i18n": {
+          "en": {
+            "title": "Terms and conditions"
+          }
+        },
+        "options": {
+          "size": "h1"
+        }
+      },
+      {
+        "bundle": "text",
+        "props": {
+          "text": "<p><strong>Platzhalter.</strong> Kein gültiger Rechtstext: ersetzen Sie ihn durch Ihren eigenen, bevor Ihr Shop live geht.</p>"
+        },
+        "props_i18n": {
+          "en": {
+            "text": "<p><strong>Placeholder.</strong> Not a valid legal text: replace it with your own before your shop goes live.</p>"
+          }
+        }
+      },
+      {
+        "bundle": "text",
+        "props": {
+          "text": "<h3>1. Geltungsbereich</h3><p>[Für wen und welche Bestellungen diese Bedingungen gelten. Dieser Shop richtet sich an Unternehmen.]</p><h3>2. Vertragsschluss</h3><p>[Wann ein Vertrag zustande kommt, z. B. mit der Auftragsbestätigung.]</p><h3>3. Preise und Zahlung</h3><p>[Nettopreise zzgl. Umsatzsteuer, Zahlungsziel, Zahlung auf Rechnung.]</p><h3>4. Lieferung</h3><p>[Lieferzeiten, Versandkosten, Gefahrübergang.]</p><h3>5. Gewährleistung</h3><p>[Ihre Regelung.]</p>"
+        },
+        "props_i18n": {
+          "en": {
+            "text": "<h3>1. Scope</h3><p>[Whom and which orders these terms apply to. This shop serves businesses.]</p><h3>2. Conclusion of contract</h3><p>[When a contract is made, e.g. with the order confirmation.]</p><h3>3. Prices and payment</h3><p>[Net prices plus VAT, payment term, payment by invoice.]</p><h3>4. Delivery</h3><p>[Delivery times, shipping costs, transfer of risk.]</p><h3>5. Warranty</h3><p>[Your terms.]</p>"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "slug": "legal/privacy",
+    "title": "Datenschutz",
+    "bundle": "standard",
+    "sourceLanguage": "de",
+    "translations": [
+      {
+        "langcode": "en",
+        "title": "Privacy policy",
+        "slug": "legal/privacy"
+      }
+    ],
+    "meta": {
+      "sample_data": "base"
+    },
+    "blocks": [
+      {
+        "bundle": "title",
+        "props": {
+          "title": "Datenschutzerklärung"
+        },
+        "props_i18n": {
+          "en": {
+            "title": "Privacy policy"
+          }
+        },
+        "options": {
+          "size": "h1"
+        }
+      },
+      {
+        "bundle": "text",
+        "props": {
+          "text": "<p><strong>Platzhalter.</strong> Kein gültiger Rechtstext: ersetzen Sie ihn durch Ihren eigenen, bevor Ihr Shop live geht.</p>"
+        },
+        "props_i18n": {
+          "en": {
+            "text": "<p><strong>Placeholder.</strong> Not a valid legal text: replace it with your own before your shop goes live.</p>"
+          }
+        }
+      },
+      {
+        "bundle": "text",
+        "props": {
+          "text": "<h3>Verantwortlicher</h3><p>[Firmenname, Anschrift, E-Mail]</p><h3>Welche Daten wir verarbeiten</h3><p>[Kontodaten, Bestelldaten, Server-Logs, Cookies.]</p><h3>Zwecke und Rechtsgrundlagen</h3><p>[Vertragserfüllung, berechtigtes Interesse, Einwilligung.]</p><h3>Ihre Rechte</h3><p>[Auskunft, Berichtigung, Löschung, Widerspruch, Beschwerde bei der Aufsichtsbehörde.]</p>"
+        },
+        "props_i18n": {
+          "en": {
+            "text": "<h3>Controller</h3><p>[Company name, address, email]</p><h3>What data we process</h3><p>[Account data, order data, server logs, cookies.]</p><h3>Purposes and legal bases</h3><p>[Performance of contract, legitimate interest, consent.]</p><h3>Your rights</h3><p>[Access, rectification, erasure, objection, complaint to the supervisory authority.]</p>"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "slug": "legal/cookies",
+    "title": "Cookies",
+    "bundle": "standard",
+    "sourceLanguage": "de",
+    "translations": [
+      {
+        "langcode": "en",
+        "title": "Cookies",
+        "slug": "legal/cookies"
+      }
+    ],
+    "meta": {
+      "sample_data": "base"
+    },
+    "blocks": [
+      {
+        "bundle": "title",
+        "props": {
+          "title": "Cookie-Richtlinie"
+        },
+        "props_i18n": {
+          "en": {
+            "title": "Cookie policy"
+          }
+        },
+        "options": {
+          "size": "h1"
+        }
+      },
+      {
+        "bundle": "text",
+        "props": {
+          "text": "<p><strong>Platzhalter.</strong> Kein gültiger Rechtstext: ersetzen Sie ihn durch Ihren eigenen, bevor Ihr Shop live geht.</p>"
+        },
+        "props_i18n": {
+          "en": {
+            "text": "<p><strong>Placeholder.</strong> Not a valid legal text: replace it with your own before your shop goes live.</p>"
+          }
+        }
+      },
+      {
+        "bundle": "text",
+        "props": {
+          "text": "<p>[Welche Cookies der Shop setzt, wozu, wie lange, und wie Besucher ihre Einwilligung ändern.]</p>"
+        },
+        "props_i18n": {
+          "en": {
+            "text": "<p>[Which cookies the shop sets, what for, for how long, and how visitors change their consent.]</p>"
+          }
+        }
+      }
+    ]
+  }
+]

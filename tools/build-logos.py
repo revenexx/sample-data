@@ -5,7 +5,8 @@
     python3 tools/build-logos.py industrial     # one pack
 
 Writes packs/<pack>/assets/logos/<code lowercase>.svg and a 512 px wide PNG
-beside it (rsvg-convert). Deterministic: the shapes and the colours come from a
+beside it (rsvg-convert), plus <code>-card.png: the logo on a white card with a
+light edge, which stays readable on a dark storefront (the landing pages use it). Deterministic: the shapes and the colours come from a
 SHA-256 of the maker code, never from Python's per-run hash seed, so a re-run
 writes the same bytes. build-pack.py links both files as assets.
 
@@ -77,6 +78,12 @@ def logo_svg(pack, code, name):
 '''
 
 
+def card_svg(logo):
+    """The logo on a white, rounded card: its anthracite wordmark disappears on a dark page otherwise."""
+    card = '<rect x="2" y="2" width="636" height="196" rx="28" fill="#FFFFFF" stroke="#E2E5EA" stroke-width="3"/>'
+    return logo.replace("</title>", "</title>\n  " + card, 1)
+
+
 def load_makers(pack):
     path = ROOT / "tools" / "packs" / f"{pack}.py"
     spec = importlib.util.spec_from_file_location(f"pack_{pack}", path)
@@ -97,7 +104,9 @@ def build(pack):
         svg = out / f"{stem}.svg"
         svg.write_text(logo_svg(pack, code, name), encoding="utf-8")
         subprocess.run(["rsvg-convert", "-w", "512", "-o", str(out / f"{stem}.png"), str(svg)], check=True)
-        print(f"  packs/{pack}/assets/logos/{stem}.svg + .png ({name})")
+        subprocess.run(["rsvg-convert", "-w", "512", "-o", str(out / f"{stem}-card.png")],
+                       input=card_svg(svg.read_text(encoding="utf-8")).encode(), check=True)
+        print(f"  packs/{pack}/assets/logos/{stem}.svg + .png + -card.png ({name})")
 
 
 if __name__ == "__main__":

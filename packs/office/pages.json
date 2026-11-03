@@ -1,0 +1,1061 @@
+[
+  {
+    "slug": "office",
+    "title": "Büro- & Objektbedarf",
+    "bundle": "standard",
+    "sourceLanguage": "de",
+    "translations": [
+      {
+        "langcode": "en",
+        "title": "Office & facility supplies",
+        "slug": "office"
+      }
+    ],
+    "meta": {
+      "sample_data": "office"
+    },
+    "blocks": [
+      {
+        "bundle": "marketing_banner",
+        "props": {},
+        "options": {
+          "contentWidth": "full"
+        },
+        "children": {
+          "content": [
+            {
+              "bundle": "row",
+              "props": {},
+              "options": {
+                "gap": "lg"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "column",
+                    "props": {},
+                    "options": {
+                      "width": "7"
+                    },
+                    "children": {
+                      "content": [
+                        {
+                          "bundle": "badge",
+                          "props": {
+                            "label": "Beispieldaten"
+                          },
+                          "props_i18n": {
+                            "en": {
+                              "label": "Sample data"
+                            }
+                          }
+                        },
+                        {
+                          "bundle": "title_description",
+                          "props": {
+                            "headline": "Büro- & Objektbedarf",
+                            "description": "Papier, Schreibwaren, Büro- und Pausenraumbedarf für Unternehmen, auf Rechnung und mit Kostenstellen."
+                          },
+                          "props_i18n": {
+                            "en": {
+                              "headline": "Office & facility supplies",
+                              "description": "Paper, stationery, office and breakroom supplies for businesses, on invoice and with cost centres."
+                            }
+                          },
+                          "options": {
+                            "titleSize": "h1",
+                            "titleColor": "primary",
+                            "descriptionSize": "lg",
+                            "descriptionColor": "primary"
+                          }
+                        },
+                        {
+                          "bundle": "cta",
+                          "props": {
+                            "label": "Zum Sortiment"
+                          },
+                          "props_i18n": {
+                            "en": {
+                              "label": "Browse the range"
+                            }
+                          },
+                          "options": {
+                            "url": "/category/DEMO-OFF",
+                            "variant": "solid",
+                            "color": "primary",
+                            "size": "lg",
+                            "inlineBlock": true
+                          }
+                        },
+                        {
+                          "bundle": "cta",
+                          "props": {
+                            "label": "Über uns"
+                          },
+                          "props_i18n": {
+                            "en": {
+                              "label": "About us"
+                            }
+                          },
+                          "options": {
+                            "url": "/office/about",
+                            "variant": "outline",
+                            "color": "primary",
+                            "size": "lg",
+                            "inlineBlock": true
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "bundle": "column",
+                    "props": {},
+                    "options": {
+                      "width": "5"
+                    },
+                    "children": {
+                      "content": [
+                        {
+                          "bundle": "image",
+                          "props": {
+                            "filePath": "sample-data/office/demo-off.jpg",
+                            "alt": "Büro- & Objektbedarf"
+                          },
+                          "props_i18n": {
+                            "en": {
+                              "alt": "Office & facility supplies"
+                            }
+                          },
+                          "options": {
+                            "maxWidth": "full"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "bundle": "row",
+        "props": {},
+        "options": {
+          "gap": "md"
+        },
+        "children": {
+          "content": [
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "icon_label",
+                    "props": {
+                      "heading": "Ab Lager",
+                      "label": "Lieferung in 1–2 Werktagen"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "heading": "From stock",
+                        "label": "Delivery in 1–2 working days"
+                      }
+                    },
+                    "options": {
+                      "icon": "delivery"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "icon_label",
+                    "props": {
+                      "heading": "Staffelpreise",
+                      "label": "für 44 Artikel, ab 10 Stück"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "heading": "Quantity prices",
+                        "label": "on 44 items, from 10 pieces"
+                      }
+                    },
+                    "options": {
+                      "icon": "offer"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "icon_label",
+                    "props": {
+                      "heading": "Auf Rechnung",
+                      "label": "30 Tage Zahlungsziel"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "heading": "On invoice",
+                        "label": "30 days' payment terms"
+                      }
+                    },
+                    "options": {
+                      "icon": "payment"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "icon_label",
+                    "props": {
+                      "heading": "Technische Unterlagen",
+                      "label": "94 Datenblätter"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "heading": "Technical documents",
+                        "label": "94 data sheets"
+                      }
+                    },
+                    "options": {
+                      "icon": "file"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "bundle": "spacer",
+        "props": {},
+        "options": {
+          "size": "md"
+        }
+      },
+      {
+        "bundle": "title",
+        "props": {
+          "title": "Unser Sortiment"
+        },
+        "props_i18n": {
+          "en": {
+            "title": "Our range"
+          }
+        },
+        "options": {
+          "size": "h2"
+        }
+      },
+      {
+        "bundle": "row",
+        "props": {},
+        "options": {
+          "gap": "lg"
+        },
+        "children": {
+          "content": [
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/office/demo-off-paper.jpg",
+                      "alt": "Papier & Ablage",
+                      "headline": "Papier & Ablage",
+                      "description": "Zur Kategorie"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Paper & filing",
+                        "headline": "Paper & filing",
+                        "description": "Go to the category"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-OFF/DEMO-OFF-PAPER",
+                      "ratio": "4x3",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/office/demo-off-writing.jpg",
+                      "alt": "Schreiben & Schreibtisch",
+                      "headline": "Schreiben & Schreibtisch",
+                      "description": "Zur Kategorie"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Writing & desk",
+                        "headline": "Writing & desk",
+                        "description": "Go to the category"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-OFF/DEMO-OFF-WRITING",
+                      "ratio": "4x3",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/office/demo-off-breakroom.jpg",
+                      "alt": "Pause & Hygiene",
+                      "headline": "Pause & Hygiene",
+                      "description": "Zur Kategorie"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Breakroom & facility",
+                        "headline": "Breakroom & facility",
+                        "description": "Go to the category"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-OFF/DEMO-OFF-BREAKROOM",
+                      "ratio": "4x3",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "bundle": "row",
+        "props": {},
+        "options": {
+          "gap": "lg"
+        },
+        "children": {
+          "content": [
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/office/demo-off-desk.jpg",
+                      "alt": "Schreibtischzubehör",
+                      "headline": "Schreibtischzubehör",
+                      "description": "Zur Kategorie"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Desk accessories",
+                        "headline": "Desk accessories",
+                        "description": "Go to the category"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-OFF/DEMO-OFF-DESK",
+                      "ratio": "4x3",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/office/demo-off-clean.jpg",
+                      "alt": "Reinigung & Pflege",
+                      "headline": "Reinigung & Pflege",
+                      "description": "Zur Kategorie"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Cleaning & care",
+                        "headline": "Cleaning & care",
+                        "description": "Go to the category"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-OFF/DEMO-OFF-CLEAN",
+                      "ratio": "4x3",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/office/demo-off-mail.jpg",
+                      "alt": "Versand & Verpackung",
+                      "headline": "Versand & Verpackung",
+                      "description": "Zur Kategorie"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Mailing & packaging",
+                        "headline": "Mailing & packaging",
+                        "description": "Go to the category"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-OFF/DEMO-OFF-MAIL",
+                      "ratio": "4x3",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "bundle": "product_grid",
+        "props": {},
+        "options": {
+          "category": "{\"slug\": \"DEMO-OFF-BREAKROOM\", \"label\": \"Pause & Hygiene\"}",
+          "title": "Beliebt",
+          "rows": "1",
+          "perRow": "4",
+          "buttonAction": "order",
+          "sort": "relevance"
+        }
+      },
+      {
+        "bundle": "spacer",
+        "props": {},
+        "options": {
+          "size": "lg"
+        }
+      },
+      {
+        "bundle": "title",
+        "props": {
+          "title": "Aus der Praxis"
+        },
+        "props_i18n": {
+          "en": {
+            "title": "In practice"
+          }
+        },
+        "options": {
+          "size": "h2"
+        }
+      },
+      {
+        "bundle": "row",
+        "props": {},
+        "options": {
+          "gap": "md"
+        },
+        "children": {
+          "content": [
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/office/demo-off-1001-2.jpg",
+                      "alt": "Kopierpapier A4, 80 g/m², 500 Blatt",
+                      "headline": "Papier & Ablage",
+                      "description": "Kopierpapier A4, 80 g/m², 500 Blatt"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Copy paper A4, 80 g/m², 500 sheets",
+                        "headline": "Paper & filing",
+                        "description": "Copy paper A4, 80 g/m², 500 sheets"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-OFF/DEMO-OFF-PAPER",
+                      "ratio": "1x1",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/office/demo-off-2001-2.jpg",
+                      "alt": "Kugelschreiber blau, 50er-Box",
+                      "headline": "Schreiben & Schreibtisch",
+                      "description": "Kugelschreiber blau, 50er-Box"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Ballpoint pens blue, box of 50",
+                        "headline": "Writing & desk",
+                        "description": "Ballpoint pens blue, box of 50"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-OFF/DEMO-OFF-WRITING",
+                      "ratio": "1x1",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/office/demo-off-3001-2.jpg",
+                      "alt": "Kaffeebohnen 1 kg",
+                      "headline": "Pause & Hygiene",
+                      "description": "Kaffeebohnen 1 kg"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Coffee beans 1 kg",
+                        "headline": "Breakroom & facility",
+                        "description": "Coffee beans 1 kg"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-OFF/DEMO-OFF-BREAKROOM",
+                      "ratio": "1x1",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/office/demo-off-4002-2.jpg",
+                      "alt": "Schreibunterlage 60 × 40 cm",
+                      "headline": "Schreibtischzubehör",
+                      "description": "Schreibunterlage 60 × 40 cm"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Desk pad 60 × 40 cm",
+                        "headline": "Desk accessories",
+                        "description": "Desk pad 60 × 40 cm"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-OFF/DEMO-OFF-DESK",
+                      "ratio": "1x1",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "bundle": "spacer",
+        "props": {},
+        "options": {
+          "size": "lg"
+        }
+      },
+      {
+        "bundle": "title",
+        "props": {
+          "title": "Unsere Marken"
+        },
+        "props_i18n": {
+          "en": {
+            "title": "Our makers"
+          }
+        },
+        "options": {
+          "size": "h2"
+        }
+      },
+      {
+        "bundle": "row",
+        "props": {},
+        "options": {
+          "gap": "lg"
+        },
+        "children": {
+          "content": [
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image",
+                    "props": {
+                      "filePath": "sample-data/office/demo-folianta-card.png",
+                      "alt": "Folianta"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Folianta"
+                      }
+                    },
+                    "options": {
+                      "maxWidth": "full"
+                    }
+                  },
+                  {
+                    "bundle": "text",
+                    "props": {
+                      "text": "<p>Hersteller von Papier und Ablagesystemen · 47 Artikel</p>"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "text": "<p>Maker of paper and filing systems · 47 items</p>"
+                      }
+                    }
+                  },
+                  {
+                    "bundle": "cta",
+                    "props": {
+                      "label": "Alle Produkte von Folianta"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "label": "All products by Folianta"
+                      }
+                    },
+                    "options": {
+                      "url": "/search?q=Folianta&manufacturer=Folianta",
+                      "variant": "outline",
+                      "color": "primary",
+                      "size": "lg"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image",
+                    "props": {
+                      "filePath": "sample-data/office/demo-klarbuero-card.png",
+                      "alt": "Klarbüro"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Klarbüro"
+                      }
+                    },
+                    "options": {
+                      "maxWidth": "full"
+                    }
+                  },
+                  {
+                    "bundle": "text",
+                    "props": {
+                      "text": "<p>Lieferant für Schreibtisch- und Pausenbedarf · 78 Artikel</p>"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "text": "<p>Supplier of desk and breakroom supplies · 78 items</p>"
+                      }
+                    }
+                  },
+                  {
+                    "bundle": "cta",
+                    "props": {
+                      "label": "Alle Produkte von Klarbüro"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "label": "All products by Klarbüro"
+                      }
+                    },
+                    "options": {
+                      "url": "/search?q=Klarb%C3%BCro&manufacturer=Klarb%C3%BCro",
+                      "variant": "outline",
+                      "color": "primary",
+                      "size": "lg"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "bundle": "spacer",
+        "props": {},
+        "options": {
+          "size": "lg"
+        }
+      },
+      {
+        "bundle": "quick_order",
+        "props": {},
+        "options": {
+          "icon": "keyboard"
+        }
+      },
+      {
+        "bundle": "spacer",
+        "props": {},
+        "options": {
+          "size": "lg"
+        }
+      },
+      {
+        "bundle": "title",
+        "props": {
+          "title": "Häufige Fragen"
+        },
+        "props_i18n": {
+          "en": {
+            "title": "Frequently asked questions"
+          }
+        },
+        "options": {
+          "size": "h2"
+        }
+      },
+      {
+        "bundle": "accordion",
+        "props": {
+          "type": "single",
+          "openFirst": true
+        },
+        "children": {
+          "items": [
+            {
+              "bundle": "accordion_item",
+              "props": {
+                "label": "Gibt es Staffelpreise?",
+                "content": "<p>Ja. Ab bestimmten Mengen sinkt der Stückpreis; Firmenkunden mit Rahmenvertrag sehen ihre Vertragspreise.</p>"
+              },
+              "props_i18n": {
+                "en": {
+                  "label": "Are there quantity prices?",
+                  "content": "<p>Yes. The unit price drops at set quantities; company customers with a contract see their contract prices.</p>"
+                }
+              }
+            },
+            {
+              "bundle": "accordion_item",
+              "props": {
+                "label": "Kann ich auf Rechnung bestellen?",
+                "content": "<p>Ja, Firmenkunden zahlen auf Rechnung mit 30 Tagen Zahlungsziel.</p>"
+              },
+              "props_i18n": {
+                "en": {
+                  "label": "Can I pay on invoice?",
+                  "content": "<p>Yes, company customers pay on invoice with 30 days' payment terms.</p>"
+                }
+              }
+            },
+            {
+              "bundle": "accordion_item",
+              "props": {
+                "label": "Was kostet der Versand?",
+                "content": "<p>Die Versandkosten richten sich nach dem Gewicht der Bestellung und werden im Warenkorb angezeigt.</p>"
+              },
+              "props_i18n": {
+                "en": {
+                  "label": "What does shipping cost?",
+                  "content": "<p>Shipping is priced by the weight of the order and shown in the cart.</p>"
+                }
+              }
+            },
+            {
+              "bundle": "accordion_item",
+              "props": {
+                "label": "Gibt es Rabatte?",
+                "content": "<p>Ab 100 € Bestellwert ziehen wir automatisch 5 % ab. Gutscheincodes lösen Sie im Warenkorb ein.</p>"
+              },
+              "props_i18n": {
+                "en": {
+                  "label": "Are there discounts?",
+                  "content": "<p>From an order value of 100 € we take 5 % off automatically. Redeem voucher codes in the cart.</p>"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "bundle": "cta",
+        "props": {
+          "label": "Kontakt aufnehmen"
+        },
+        "props_i18n": {
+          "en": {
+            "label": "Get in touch"
+          }
+        },
+        "options": {
+          "url": "/office/contact",
+          "variant": "outline",
+          "color": "primary",
+          "size": "lg"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "office/about",
+    "title": "Über uns: Büro- & Objektbedarf",
+    "bundle": "standard",
+    "sourceLanguage": "de",
+    "translations": [
+      {
+        "langcode": "en",
+        "title": "About us: Office & facility supplies",
+        "slug": "office/about"
+      }
+    ],
+    "meta": {
+      "sample_data": "office"
+    },
+    "blocks": [
+      {
+        "bundle": "title",
+        "props": {
+          "title": "Über uns"
+        },
+        "props_i18n": {
+          "en": {
+            "title": "About us"
+          }
+        },
+        "options": {
+          "size": "h1"
+        }
+      },
+      {
+        "bundle": "text",
+        "props": {
+          "text": "<p>Wir versorgen Büros, Praxen und Verwaltungen mit Verbrauchsmaterial: Papier und Ablage, Schreibwaren, Reinigungs- und Pausenraumbedarf, Versandmaterial.</p><p>Unsere Eigenmarken <strong>Klarbüro</strong> (Schreibtisch und Ablage) und <strong>Folianta</strong> (Papier und Versand) gibt es in Mengen, die zu einem Büro passen.</p>"
+        },
+        "props_i18n": {
+          "en": {
+            "text": "<p>We supply offices, practices and administrations with consumables: paper and filing, stationery, cleaning and breakroom supplies, mailing material.</p><p>Our own brands <strong>Klarbüro</strong> (desk and filing) and <strong>Folianta</strong> (paper and mailing) come in quantities that suit an office.</p>"
+          }
+        }
+      },
+      {
+        "bundle": "cta",
+        "props": {
+          "label": "Zum Sortiment"
+        },
+        "props_i18n": {
+          "en": {
+            "label": "Browse the range"
+          }
+        },
+        "options": {
+          "url": "/category/DEMO-OFF",
+          "variant": "solid",
+          "color": "primary",
+          "size": "lg"
+        }
+      },
+      {
+        "bundle": "text",
+        "props": {
+          "text": "<p><em>Diese Seite gehört zu den revenexx-Beispieldaten. Shop, Firmen, Marken und Produkte sind erfunden. Ersetzen oder löschen Sie sie, bevor Ihr Shop live geht.</em></p>"
+        },
+        "props_i18n": {
+          "en": {
+            "text": "<p><em>This page is part of the revenexx sample data. The shop, companies, brands and products are fictional. Replace or delete it before your shop goes live.</em></p>"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "slug": "office/contact",
+    "title": "Kontakt: Büro- & Objektbedarf",
+    "bundle": "standard",
+    "sourceLanguage": "de",
+    "translations": [
+      {
+        "langcode": "en",
+        "title": "Contact: Office & facility supplies",
+        "slug": "office/contact"
+      }
+    ],
+    "meta": {
+      "sample_data": "office"
+    },
+    "blocks": [
+      {
+        "bundle": "title",
+        "props": {
+          "title": "Kontakt"
+        },
+        "props_i18n": {
+          "en": {
+            "title": "Contact"
+          }
+        },
+        "options": {
+          "size": "h1"
+        }
+      },
+      {
+        "bundle": "text",
+        "props": {
+          "text": "<p>Ihr Ansprechpartner für Büro- & Objektbedarf: schreiben Sie an <a href=\"mailto:buero@beispiel-shop.example\">buero@beispiel-shop.example</a>, oder rufen Sie an unter +49 000 0000000 (Platzhalter), Montag bis Freitag, 8 bis 17 Uhr.</p><p>Für Angebote über größere Mengen nennen Sie uns Artikelnummern und Mengen; wir antworten innerhalb eines Werktags.</p>"
+        },
+        "props_i18n": {
+          "en": {
+            "text": "<p>Your contact for office & facility supplies: write to <a href=\"mailto:buero@beispiel-shop.example\">buero@beispiel-shop.example</a>, or call +49 000 0000000 (placeholder), Monday to Friday, 8 am to 5 pm.</p><p>For quotes on larger quantities, send us item numbers and quantities; we answer within one working day.</p>"
+          }
+        }
+      },
+      {
+        "bundle": "text",
+        "props": {
+          "text": "<p><em>Diese Seite gehört zu den revenexx-Beispieldaten. Shop, Firmen, Marken und Produkte sind erfunden. Ersetzen oder löschen Sie sie, bevor Ihr Shop live geht.</em></p>"
+        },
+        "props_i18n": {
+          "en": {
+            "text": "<p><em>This page is part of the revenexx sample data. The shop, companies, brands and products are fictional. Replace or delete it before your shop goes live.</em></p>"
+          }
+        }
+      }
+    ]
+  }
+]

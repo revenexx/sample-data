@@ -50,5 +50,14 @@ for pack in $PACKS; do
   say "pack: $pack"
   run_manifest "packs/$pack/manifest.json"
 done
+# Nothing in the shop links to the packs' own pages (the loader never touches the tenant's menus or
+# home page), so name them here; the log line also reaches the terminal UI.
+if [ "$DRY_RUN" != 1 ]; then
+  say "In your shop (the storefront may add a language prefix, e.g. /de/lab):"
+  for pack in $PACKS; do
+    [ -f "packs/$pack/pages.json" ] || continue
+    ok "$(printf '%-11s landing page /%s' "$pack" "$pack")"
+  done
+fi
 say "done"
 ev '{"ev":"done"}'

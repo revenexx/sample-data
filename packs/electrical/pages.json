@@ -1,0 +1,1061 @@
+[
+  {
+    "slug": "electrical",
+    "title": "Elektroinstallation",
+    "bundle": "standard",
+    "sourceLanguage": "de",
+    "translations": [
+      {
+        "langcode": "en",
+        "title": "Electrical installation",
+        "slug": "electrical"
+      }
+    ],
+    "meta": {
+      "sample_data": "electrical"
+    },
+    "blocks": [
+      {
+        "bundle": "marketing_banner",
+        "props": {},
+        "options": {
+          "contentWidth": "full"
+        },
+        "children": {
+          "content": [
+            {
+              "bundle": "row",
+              "props": {},
+              "options": {
+                "gap": "lg"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "column",
+                    "props": {},
+                    "options": {
+                      "width": "7"
+                    },
+                    "children": {
+                      "content": [
+                        {
+                          "bundle": "badge",
+                          "props": {
+                            "label": "Beispieldaten"
+                          },
+                          "props_i18n": {
+                            "en": {
+                              "label": "Sample data"
+                            }
+                          }
+                        },
+                        {
+                          "bundle": "title_description",
+                          "props": {
+                            "headline": "Elektroinstallation",
+                            "description": "Kabel, Schalter, Leuchten und Verteilertechnik für Elektroinstallateure, mit Projektpreisen und Lieferung auf die Baustelle."
+                          },
+                          "props_i18n": {
+                            "en": {
+                              "headline": "Electrical installation",
+                              "description": "Cables, switches, lighting and distribution gear for electricians, with project prices and delivery to the site."
+                            }
+                          },
+                          "options": {
+                            "titleSize": "h1",
+                            "titleColor": "primary",
+                            "descriptionSize": "lg",
+                            "descriptionColor": "primary"
+                          }
+                        },
+                        {
+                          "bundle": "cta",
+                          "props": {
+                            "label": "Zum Sortiment"
+                          },
+                          "props_i18n": {
+                            "en": {
+                              "label": "Browse the range"
+                            }
+                          },
+                          "options": {
+                            "url": "/category/DEMO-ELE",
+                            "variant": "solid",
+                            "color": "primary",
+                            "size": "lg",
+                            "inlineBlock": true
+                          }
+                        },
+                        {
+                          "bundle": "cta",
+                          "props": {
+                            "label": "Über uns"
+                          },
+                          "props_i18n": {
+                            "en": {
+                              "label": "About us"
+                            }
+                          },
+                          "options": {
+                            "url": "/electrical/about",
+                            "variant": "outline",
+                            "color": "primary",
+                            "size": "lg",
+                            "inlineBlock": true
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "bundle": "column",
+                    "props": {},
+                    "options": {
+                      "width": "5"
+                    },
+                    "children": {
+                      "content": [
+                        {
+                          "bundle": "image",
+                          "props": {
+                            "filePath": "sample-data/electrical/demo-ele.jpg",
+                            "alt": "Elektroinstallation"
+                          },
+                          "props_i18n": {
+                            "en": {
+                              "alt": "Electrical installation"
+                            }
+                          },
+                          "options": {
+                            "maxWidth": "full"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "bundle": "row",
+        "props": {},
+        "options": {
+          "gap": "md"
+        },
+        "children": {
+          "content": [
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "icon_label",
+                    "props": {
+                      "heading": "Ab Lager",
+                      "label": "Lieferung in 1–2 Werktagen"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "heading": "From stock",
+                        "label": "Delivery in 1–2 working days"
+                      }
+                    },
+                    "options": {
+                      "icon": "delivery"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "icon_label",
+                    "props": {
+                      "heading": "Staffelpreise",
+                      "label": "für 38 Artikel, ab 10 Stück"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "heading": "Quantity prices",
+                        "label": "on 38 items, from 10 pieces"
+                      }
+                    },
+                    "options": {
+                      "icon": "offer"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "icon_label",
+                    "props": {
+                      "heading": "Auf Rechnung",
+                      "label": "30 Tage Zahlungsziel"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "heading": "On invoice",
+                        "label": "30 days' payment terms"
+                      }
+                    },
+                    "options": {
+                      "icon": "payment"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "icon_label",
+                    "props": {
+                      "heading": "Technische Unterlagen",
+                      "label": "99 Datenblätter, 51 CAD-Dateien"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "heading": "Technical documents",
+                        "label": "99 data sheets, 51 CAD files"
+                      }
+                    },
+                    "options": {
+                      "icon": "file"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "bundle": "spacer",
+        "props": {},
+        "options": {
+          "size": "md"
+        }
+      },
+      {
+        "bundle": "title",
+        "props": {
+          "title": "Unser Sortiment"
+        },
+        "props_i18n": {
+          "en": {
+            "title": "Our range"
+          }
+        },
+        "options": {
+          "size": "h2"
+        }
+      },
+      {
+        "bundle": "row",
+        "props": {},
+        "options": {
+          "gap": "lg"
+        },
+        "children": {
+          "content": [
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/electrical/demo-ele-cables.jpg",
+                      "alt": "Kabel & Leitungen",
+                      "headline": "Kabel & Leitungen",
+                      "description": "Zur Kategorie"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Cables & wires",
+                        "headline": "Cables & wires",
+                        "description": "Go to the category"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-ELE/DEMO-ELE-CABLES",
+                      "ratio": "4x3",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/electrical/demo-ele-switches.jpg",
+                      "alt": "Schalter & Steckdosen",
+                      "headline": "Schalter & Steckdosen",
+                      "description": "Zur Kategorie"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Switches & sockets",
+                        "headline": "Switches & sockets",
+                        "description": "Go to the category"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-ELE/DEMO-ELE-SWITCHES",
+                      "ratio": "4x3",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/electrical/demo-ele-lighting.jpg",
+                      "alt": "Beleuchtung",
+                      "headline": "Beleuchtung",
+                      "description": "Zur Kategorie"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Lighting",
+                        "headline": "Lighting",
+                        "description": "Go to the category"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-ELE/DEMO-ELE-LIGHTING",
+                      "ratio": "4x3",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "bundle": "row",
+        "props": {},
+        "options": {
+          "gap": "lg"
+        },
+        "children": {
+          "content": [
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/electrical/demo-ele-protection.jpg",
+                      "alt": "Schutz & Verteilung",
+                      "headline": "Schutz & Verteilung",
+                      "description": "Zur Kategorie"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Protection & distribution",
+                        "headline": "Protection & distribution",
+                        "description": "Go to the category"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-ELE/DEMO-ELE-PROTECTION",
+                      "ratio": "4x3",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/electrical/demo-ele-material.jpg",
+                      "alt": "Installationsmaterial",
+                      "headline": "Installationsmaterial",
+                      "description": "Zur Kategorie"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Installation material",
+                        "headline": "Installation material",
+                        "description": "Go to the category"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-ELE/DEMO-ELE-MATERIAL",
+                      "ratio": "4x3",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/electrical/demo-ele-tools.jpg",
+                      "alt": "Werkzeug & Prüftechnik",
+                      "headline": "Werkzeug & Prüftechnik",
+                      "description": "Zur Kategorie"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Tools & testers",
+                        "headline": "Tools & testers",
+                        "description": "Go to the category"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-ELE/DEMO-ELE-TOOLS",
+                      "ratio": "4x3",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "bundle": "product_grid",
+        "props": {},
+        "options": {
+          "category": "{\"slug\": \"DEMO-ELE-TOOLS\", \"label\": \"Werkzeug & Prüftechnik\"}",
+          "title": "Beliebt",
+          "rows": "1",
+          "perRow": "4",
+          "buttonAction": "order",
+          "sort": "relevance"
+        }
+      },
+      {
+        "bundle": "spacer",
+        "props": {},
+        "options": {
+          "size": "lg"
+        }
+      },
+      {
+        "bundle": "title",
+        "props": {
+          "title": "Aus der Praxis"
+        },
+        "props_i18n": {
+          "en": {
+            "title": "In practice"
+          }
+        },
+        "options": {
+          "size": "h2"
+        }
+      },
+      {
+        "bundle": "row",
+        "props": {},
+        "options": {
+          "gap": "md"
+        },
+        "children": {
+          "content": [
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/electrical/demo-ele-1001-2.jpg",
+                      "alt": "Installationsleitung 3 × 1,5 mm², 100 m Ring",
+                      "headline": "Kabel & Leitungen",
+                      "description": "Installationsleitung 3 × 1,5 mm², 100 m Ring"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Installation cable 3 × 1.5 mm², 100 m ring",
+                        "headline": "Cables & wires",
+                        "description": "Installation cable 3 × 1.5 mm², 100 m ring"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-ELE/DEMO-ELE-CABLES",
+                      "ratio": "1x1",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/electrical/demo-ele-2001-2.jpg",
+                      "alt": "Lichtschalter Unterputz, einpolig",
+                      "headline": "Schalter & Steckdosen",
+                      "description": "Lichtschalter Unterputz, einpolig"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Light switch flush-mounted, single pole",
+                        "headline": "Switches & sockets",
+                        "description": "Light switch flush-mounted, single pole"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-ELE/DEMO-ELE-SWITCHES",
+                      "ratio": "1x1",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/electrical/demo-ele-3001-2.jpg",
+                      "alt": "LED-Panel 62 × 62 cm, 36 W, neutralweiß",
+                      "headline": "Beleuchtung",
+                      "description": "LED-Panel 62 × 62 cm, 36 W, neutralweiß"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "LED panel 62 × 62 cm, 36 W, neutral white",
+                        "headline": "Lighting",
+                        "description": "LED panel 62 × 62 cm, 36 W, neutral white"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-ELE/DEMO-ELE-LIGHTING",
+                      "ratio": "1x1",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/electrical/demo-ele-4001-2.jpg",
+                      "alt": "Leitungsschutzschalter 1-polig, B 10 A",
+                      "headline": "Schutz & Verteilung",
+                      "description": "Leitungsschutzschalter 1-polig, B 10 A"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Circuit breaker 1-pole, B 10 A",
+                        "headline": "Protection & distribution",
+                        "description": "Circuit breaker 1-pole, B 10 A"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-ELE/DEMO-ELE-PROTECTION",
+                      "ratio": "1x1",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "bundle": "spacer",
+        "props": {},
+        "options": {
+          "size": "lg"
+        }
+      },
+      {
+        "bundle": "title",
+        "props": {
+          "title": "Unsere Marken"
+        },
+        "props_i18n": {
+          "en": {
+            "title": "Our makers"
+          }
+        },
+        "options": {
+          "size": "h2"
+        }
+      },
+      {
+        "bundle": "row",
+        "props": {},
+        "options": {
+          "gap": "lg"
+        },
+        "children": {
+          "content": [
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image",
+                    "props": {
+                      "filePath": "sample-data/electrical/demo-kabelfux-card.png",
+                      "alt": "Kabelfux"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Kabelfux"
+                      }
+                    },
+                    "options": {
+                      "maxWidth": "full"
+                    }
+                  },
+                  {
+                    "bundle": "text",
+                    "props": {
+                      "text": "<p>Hersteller von Leitungen und Installationsmaterial · 99 Artikel</p>"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "text": "<p>Maker of cables and installation material · 99 items</p>"
+                      }
+                    }
+                  },
+                  {
+                    "bundle": "cta",
+                    "props": {
+                      "label": "Alle Produkte von Kabelfux"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "label": "All products by Kabelfux"
+                      }
+                    },
+                    "options": {
+                      "url": "/search?q=Kabelfux&manufacturer=Kabelfux",
+                      "variant": "outline",
+                      "color": "primary",
+                      "size": "lg"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image",
+                    "props": {
+                      "filePath": "sample-data/electrical/demo-hellgrund-card.png",
+                      "alt": "Hellgrund"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Hellgrund"
+                      }
+                    },
+                    "options": {
+                      "maxWidth": "full"
+                    }
+                  },
+                  {
+                    "bundle": "text",
+                    "props": {
+                      "text": "<p>Hersteller von Leuchten und Lichtsteuerung · 26 Artikel</p>"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "text": "<p>Maker of luminaires and lighting controls · 26 items</p>"
+                      }
+                    }
+                  },
+                  {
+                    "bundle": "cta",
+                    "props": {
+                      "label": "Alle Produkte von Hellgrund"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "label": "All products by Hellgrund"
+                      }
+                    },
+                    "options": {
+                      "url": "/search?q=Hellgrund&manufacturer=Hellgrund",
+                      "variant": "outline",
+                      "color": "primary",
+                      "size": "lg"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "bundle": "spacer",
+        "props": {},
+        "options": {
+          "size": "lg"
+        }
+      },
+      {
+        "bundle": "quick_order",
+        "props": {},
+        "options": {
+          "icon": "keyboard"
+        }
+      },
+      {
+        "bundle": "spacer",
+        "props": {},
+        "options": {
+          "size": "lg"
+        }
+      },
+      {
+        "bundle": "title",
+        "props": {
+          "title": "Häufige Fragen"
+        },
+        "props_i18n": {
+          "en": {
+            "title": "Frequently asked questions"
+          }
+        },
+        "options": {
+          "size": "h2"
+        }
+      },
+      {
+        "bundle": "accordion",
+        "props": {
+          "type": "single",
+          "openFirst": true
+        },
+        "children": {
+          "items": [
+            {
+              "bundle": "accordion_item",
+              "props": {
+                "label": "Gibt es Staffelpreise?",
+                "content": "<p>Ja. Ab bestimmten Mengen sinkt der Stückpreis; Firmenkunden mit Rahmenvertrag sehen ihre Vertragspreise.</p>"
+              },
+              "props_i18n": {
+                "en": {
+                  "label": "Are there quantity prices?",
+                  "content": "<p>Yes. The unit price drops at set quantities; company customers with a contract see their contract prices.</p>"
+                }
+              }
+            },
+            {
+              "bundle": "accordion_item",
+              "props": {
+                "label": "Kann ich auf Rechnung bestellen?",
+                "content": "<p>Ja, Firmenkunden zahlen auf Rechnung mit 30 Tagen Zahlungsziel.</p>"
+              },
+              "props_i18n": {
+                "en": {
+                  "label": "Can I pay on invoice?",
+                  "content": "<p>Yes, company customers pay on invoice with 30 days' payment terms.</p>"
+                }
+              }
+            },
+            {
+              "bundle": "accordion_item",
+              "props": {
+                "label": "Was kostet der Versand?",
+                "content": "<p>Die Versandkosten richten sich nach dem Gewicht der Bestellung und werden im Warenkorb angezeigt.</p>"
+              },
+              "props_i18n": {
+                "en": {
+                  "label": "What does shipping cost?",
+                  "content": "<p>Shipping is priced by the weight of the order and shown in the cart.</p>"
+                }
+              }
+            },
+            {
+              "bundle": "accordion_item",
+              "props": {
+                "label": "Gibt es Rabatte?",
+                "content": "<p>Ab 100 € Bestellwert ziehen wir automatisch 5 % ab. Gutscheincodes lösen Sie im Warenkorb ein.</p>"
+              },
+              "props_i18n": {
+                "en": {
+                  "label": "Are there discounts?",
+                  "content": "<p>From an order value of 100 € we take 5 % off automatically. Redeem voucher codes in the cart.</p>"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "bundle": "cta",
+        "props": {
+          "label": "Kontakt aufnehmen"
+        },
+        "props_i18n": {
+          "en": {
+            "label": "Get in touch"
+          }
+        },
+        "options": {
+          "url": "/electrical/contact",
+          "variant": "outline",
+          "color": "primary",
+          "size": "lg"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "electrical/about",
+    "title": "Über uns: Elektroinstallation",
+    "bundle": "standard",
+    "sourceLanguage": "de",
+    "translations": [
+      {
+        "langcode": "en",
+        "title": "About us: Electrical installation",
+        "slug": "electrical/about"
+      }
+    ],
+    "meta": {
+      "sample_data": "electrical"
+    },
+    "blocks": [
+      {
+        "bundle": "title",
+        "props": {
+          "title": "Über uns"
+        },
+        "props_i18n": {
+          "en": {
+            "title": "About us"
+          }
+        },
+        "options": {
+          "size": "h1"
+        }
+      },
+      {
+        "bundle": "text",
+        "props": {
+          "text": "<p>Wir sind Großhändler für Elektroinstallation: Installationskabel, Schalterprogramme, Leuchtmittel, Schutzgeräte und das Werkzeug, mit dem sie montiert werden.</p><p>Unsere Eigenmarken <strong>Kabelfux</strong> (Kabel und Installationsmaterial) und <strong>Hellgrund</strong> (Licht und Schalter) liefern wir ab Lager in ganzen Ringen und Verpackungseinheiten.</p>"
+        },
+        "props_i18n": {
+          "en": {
+            "text": "<p>We are an electrical wholesaler: installation cable, switch ranges, lamps, protective devices and the tools to fit them.</p><p>Our own brands <strong>Kabelfux</strong> (cable and installation material) and <strong>Hellgrund</strong> (lighting and switches) ship from stock in full coils and packs.</p>"
+          }
+        }
+      },
+      {
+        "bundle": "cta",
+        "props": {
+          "label": "Zum Sortiment"
+        },
+        "props_i18n": {
+          "en": {
+            "label": "Browse the range"
+          }
+        },
+        "options": {
+          "url": "/category/DEMO-ELE",
+          "variant": "solid",
+          "color": "primary",
+          "size": "lg"
+        }
+      },
+      {
+        "bundle": "text",
+        "props": {
+          "text": "<p><em>Diese Seite gehört zu den revenexx-Beispieldaten. Shop, Firmen, Marken und Produkte sind erfunden. Ersetzen oder löschen Sie sie, bevor Ihr Shop live geht.</em></p>"
+        },
+        "props_i18n": {
+          "en": {
+            "text": "<p><em>This page is part of the revenexx sample data. The shop, companies, brands and products are fictional. Replace or delete it before your shop goes live.</em></p>"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "slug": "electrical/contact",
+    "title": "Kontakt: Elektroinstallation",
+    "bundle": "standard",
+    "sourceLanguage": "de",
+    "translations": [
+      {
+        "langcode": "en",
+        "title": "Contact: Electrical installation",
+        "slug": "electrical/contact"
+      }
+    ],
+    "meta": {
+      "sample_data": "electrical"
+    },
+    "blocks": [
+      {
+        "bundle": "title",
+        "props": {
+          "title": "Kontakt"
+        },
+        "props_i18n": {
+          "en": {
+            "title": "Contact"
+          }
+        },
+        "options": {
+          "size": "h1"
+        }
+      },
+      {
+        "bundle": "text",
+        "props": {
+          "text": "<p>Ihr Ansprechpartner für Elektroinstallation: schreiben Sie an <a href=\"mailto:elektro@beispiel-shop.example\">elektro@beispiel-shop.example</a>, oder rufen Sie an unter +49 000 0000000 (Platzhalter), Montag bis Freitag, 8 bis 17 Uhr.</p><p>Für Angebote über größere Mengen nennen Sie uns Artikelnummern und Mengen; wir antworten innerhalb eines Werktags.</p>"
+        },
+        "props_i18n": {
+          "en": {
+            "text": "<p>Your contact for electrical installation: write to <a href=\"mailto:elektro@beispiel-shop.example\">elektro@beispiel-shop.example</a>, or call +49 000 0000000 (placeholder), Monday to Friday, 8 am to 5 pm.</p><p>For quotes on larger quantities, send us item numbers and quantities; we answer within one working day.</p>"
+          }
+        }
+      },
+      {
+        "bundle": "text",
+        "props": {
+          "text": "<p><em>Diese Seite gehört zu den revenexx-Beispieldaten. Shop, Firmen, Marken und Produkte sind erfunden. Ersetzen oder löschen Sie sie, bevor Ihr Shop live geht.</em></p>"
+        },
+        "props_i18n": {
+          "en": {
+            "text": "<p><em>This page is part of the revenexx sample data. The shop, companies, brands and products are fictional. Replace or delete it before your shop goes live.</em></p>"
+          }
+        }
+      }
+    ]
+  }
+]

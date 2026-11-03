@@ -33,7 +33,7 @@ WRITTEN = set()
 def prune(out, assets):
     """Delete what this build no longer produces, so nothing stale is committed
     or loaded: data files it did not write, and asset files no record names."""
-    keep = {out / a["file"] for a in assets}
+    keep = {out / a["file"] for a in assets} | {out / "pages.json"}
     for path in sorted(out.rglob("*")):
         if path.is_file() and path not in WRITTEN and path not in keep and (path.suffix == ".json" or "assets" in path.relative_to(out).parts):
             path.unlink()
@@ -171,11 +171,13 @@ def build(pack):
         sheet = asset(f"{sku}-DS", "downloads", f"downloads/{name}.pdf")
         for linked in [sku] + [r["sku"] for r in products if r.get("parent") == sku]:
             media[linked].setdefault(f"{attr_pre}downloads", []).append(sheet)
-    # Manufacturer logos (tools/build-logos.py): the SVG is the logo, the PNG a raster copy.
+    # Manufacturer logos (tools/build-logos.py): the SVG is the logo, the PNG a raster copy, the card PNG the
+    # logo on a white card for the landing pages (readable on a dark storefront).
     for m in P["makers"]:
         stem = m["code"].lower()
         asset(f"{m['code']}-LOGO", "manufacturer_logos", f"logos/{stem}.svg")
         asset(f"{m['code']}-LOGO-PNG", "manufacturer_logos", f"logos/{stem}.png")
+        asset(f"{m['code']}-LOGO-CARD", "manufacturer_logos", f"logos/{stem}-card.png")
     # Category images (tools/build-categories.py), set after the files step like the logos.
     cat_images = []
     for c in P["categories"]:
@@ -246,6 +248,8 @@ def build(pack):
          "refs": {"organization_id": ref("organization", "/customers/organizations", "customer_number")}},
         {"name": "price entries", "kind": "price_entries", "file": "price-entries.json"},
         {"name": "stock", "kind": "stock", "file": "stock.json"},
+        # Written by tools/build-pages.py.
+        {"name": "content pages", "kind": "pages", "file": "pages.json"},
     ]})
     prune(out, assets)
     print(f"  packs/{pack}: {len(products)} products, {len(assets)} assets")

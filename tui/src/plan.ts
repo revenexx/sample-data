@@ -32,12 +32,15 @@ export type PackTarget = {
   assetNames: string[];
   stockSkus: string[];
   priceLists: string[];
+  /** Slugs of the pack's content pages (pages.json). */
+  pageSlugs: string[];
+  pages: number;
   folder: string;
   steps: StepPlan[];
 };
 
 /** Records of one route, looked up by exact key; `tiers` also counts the shipping method's rate-tier set. */
-export type BasePart = { route: string; key: string; values: string[]; tiers?: boolean };
+export type BasePart = { route: string; key: string; values: string[]; tiers?: boolean; pages?: string };
 /** One column of the base row: a few routes counted together against one target. */
 export type BaseCheck = { label: string; parts: BasePart[]; target: number };
 export type BaseTarget = { checks: BaseCheck[]; steps: StepPlan[] };
@@ -59,7 +62,7 @@ export const stepWeight = (kind: string, total: number): number => {
 const removable = (step: any): boolean => {
   const kind = step.kind ?? "upsert";
   if (step.mode === "ensure" || step.remove === "with_parent") return false;
-  return kind === "upsert" || kind === "files" || kind === "stock";
+  return kind === "upsert" || kind === "files" || kind === "stock" || kind === "pages";
 };
 
 export const loadSteps = (manifestFile: string): StepPlan[] => {
@@ -86,6 +89,7 @@ export const loadPack = (root: string, name: string): PackTarget => {
   const categories = readArray(join(dir, "categories.json"));
   const attributes = readArray(join(dir, "attributes.json"));
   const makers = [...new Set<string>(products.map((p) => p.manufacturer).filter(Boolean))];
+  const pages = readArray(join(dir, "pages.json"));
   return {
     name,
     products: products.length,
@@ -102,6 +106,8 @@ export const loadPack = (root: string, name: string): PackTarget => {
     assetNames: assets.map((a) => basename(a.file)),
     stockSkus: stock.map((s) => s.sku),
     priceLists: priceFiles.map((l) => l.list),
+    pageSlugs: pages.map((p) => String(p.slug)),
+    pages: pages.length,
     folder: filesStep?.folder ?? `sample-data/${name}`,
     steps: loadSteps(join(dir, "manifest.json")),
   };
@@ -124,18 +130,25 @@ export const loadBase = (root: string): BaseTarget => {
     checks: [
       column("market", part("/markets", "code", "markets.json")),
       column(
-        "company+contacts",
+        "company",
         part("/customers/organizations", "customer_number", "organizations.json"),
         part("/customers/contacts", "external_id", "contacts.json"),
         part("/customers/addresses", "external_id", "addresses.json"),
       ),
       column(
-        "promos+vouchers",
+        "promotions",
         part("/promotions/promotions", "code", "promotions.json"),
         part("/promotions/batches", "request_ref", "voucher-batches.json"),
         part("/promotions/vouchers", "code", "vouchers.json"),
       ),
       column("shipping", part("/shipping/methods", "code", "shipping-methods.json", true)),
+      // Pages have no slug filter: counted from one read of every live page, by slug and sample-data mark.
+      column("pages", {
+        route: "/pages/pages",
+        key: "slug",
+        values: readArray(join(dir, "pages.json")).map((p) => String(p.slug)),
+        pages: "base",
+      }),
     ],
     steps: loadSteps(join(dir, "manifest.json")),
   };

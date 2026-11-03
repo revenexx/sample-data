@@ -2400,6 +2400,12 @@
     "external_id": "DEMO-FOLIANTA-LOGO-PNG"
   },
   {
+    "code": "DEMO-FOLIANTA-LOGO-CARD",
+    "family": "manufacturer_logos",
+    "file": "assets/logos/demo-folianta-card.png",
+    "external_id": "DEMO-FOLIANTA-LOGO-CARD"
+  },
+  {
     "code": "DEMO-KLARBUERO-LOGO",
     "family": "manufacturer_logos",
     "file": "assets/logos/demo-klarbuero.svg",
@@ -2410,6 +2416,12 @@
     "family": "manufacturer_logos",
     "file": "assets/logos/demo-klarbuero.png",
     "external_id": "DEMO-KLARBUERO-LOGO-PNG"
+  },
+  {
+    "code": "DEMO-KLARBUERO-LOGO-CARD",
+    "family": "manufacturer_logos",
+    "file": "assets/logos/demo-klarbuero-card.png",
+    "external_id": "DEMO-KLARBUERO-LOGO-CARD"
   },
   {
     "code": "DEMO-OFF-IMG",

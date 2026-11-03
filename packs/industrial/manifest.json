@@ -241,6 +241,11 @@
       "name": "stock",
       "kind": "stock",
       "file": "stock.json"
+    },
+    {
+      "name": "content pages",
+      "kind": "pages",
+      "file": "pages.json"
     }
   ]
 }

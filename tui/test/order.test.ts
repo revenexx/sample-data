@@ -13,6 +13,7 @@ const counts = (products: number) => ({
   assets: 0,
   stock: 0,
   prices: 0,
+  pages: 0,
 });
 
 test("the alert names the reference, the tenant and that orders cannot be deleted", () => {

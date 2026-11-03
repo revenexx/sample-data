@@ -1,0 +1,1061 @@
+[
+  {
+    "slug": "lab",
+    "title": "Laborbedarf",
+    "bundle": "standard",
+    "sourceLanguage": "de",
+    "translations": [
+      {
+        "langcode": "en",
+        "title": "Laboratory supplies",
+        "slug": "lab"
+      }
+    ],
+    "meta": {
+      "sample_data": "lab"
+    },
+    "blocks": [
+      {
+        "bundle": "marketing_banner",
+        "props": {},
+        "options": {
+          "contentWidth": "full"
+        },
+        "children": {
+          "content": [
+            {
+              "bundle": "row",
+              "props": {},
+              "options": {
+                "gap": "lg"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "column",
+                    "props": {},
+                    "options": {
+                      "width": "7"
+                    },
+                    "children": {
+                      "content": [
+                        {
+                          "bundle": "badge",
+                          "props": {
+                            "label": "Beispieldaten"
+                          },
+                          "props_i18n": {
+                            "en": {
+                              "label": "Sample data"
+                            }
+                          }
+                        },
+                        {
+                          "bundle": "title_description",
+                          "props": {
+                            "headline": "Laborbedarf",
+                            "description": "Geräte, Pipetten, Glaswaren und Verbrauchsmaterial für Labore in Forschung, Analytik und Qualitätssicherung."
+                          },
+                          "props_i18n": {
+                            "en": {
+                              "headline": "Laboratory supplies",
+                              "description": "Instruments, pipettes, glassware and consumables for labs in research, analytics and quality control."
+                            }
+                          },
+                          "options": {
+                            "titleSize": "h1",
+                            "titleColor": "primary",
+                            "descriptionSize": "lg",
+                            "descriptionColor": "primary"
+                          }
+                        },
+                        {
+                          "bundle": "cta",
+                          "props": {
+                            "label": "Zum Sortiment"
+                          },
+                          "props_i18n": {
+                            "en": {
+                              "label": "Browse the range"
+                            }
+                          },
+                          "options": {
+                            "url": "/category/DEMO-LAB",
+                            "variant": "solid",
+                            "color": "primary",
+                            "size": "lg",
+                            "inlineBlock": true
+                          }
+                        },
+                        {
+                          "bundle": "cta",
+                          "props": {
+                            "label": "Über uns"
+                          },
+                          "props_i18n": {
+                            "en": {
+                              "label": "About us"
+                            }
+                          },
+                          "options": {
+                            "url": "/lab/about",
+                            "variant": "outline",
+                            "color": "primary",
+                            "size": "lg",
+                            "inlineBlock": true
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "bundle": "column",
+                    "props": {},
+                    "options": {
+                      "width": "5"
+                    },
+                    "children": {
+                      "content": [
+                        {
+                          "bundle": "image",
+                          "props": {
+                            "filePath": "sample-data/lab/demo-lab.jpg",
+                            "alt": "Laborbedarf"
+                          },
+                          "props_i18n": {
+                            "en": {
+                              "alt": "Laboratory supplies"
+                            }
+                          },
+                          "options": {
+                            "maxWidth": "full"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "bundle": "row",
+        "props": {},
+        "options": {
+          "gap": "md"
+        },
+        "children": {
+          "content": [
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "icon_label",
+                    "props": {
+                      "heading": "Ab Lager",
+                      "label": "Lieferung in 1–2 Werktagen"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "heading": "From stock",
+                        "label": "Delivery in 1–2 working days"
+                      }
+                    },
+                    "options": {
+                      "icon": "delivery"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "icon_label",
+                    "props": {
+                      "heading": "Staffelpreise",
+                      "label": "für 15 Artikel, ab 5 Stück"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "heading": "Quantity prices",
+                        "label": "on 15 items, from 5 pieces"
+                      }
+                    },
+                    "options": {
+                      "icon": "offer"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "icon_label",
+                    "props": {
+                      "heading": "Auf Rechnung",
+                      "label": "30 Tage Zahlungsziel"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "heading": "On invoice",
+                        "label": "30 days' payment terms"
+                      }
+                    },
+                    "options": {
+                      "icon": "payment"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "icon_label",
+                    "props": {
+                      "heading": "Technische Unterlagen",
+                      "label": "112 Datenblätter, 50 CAD-Dateien"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "heading": "Technical documents",
+                        "label": "112 data sheets, 50 CAD files"
+                      }
+                    },
+                    "options": {
+                      "icon": "file"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "bundle": "spacer",
+        "props": {},
+        "options": {
+          "size": "md"
+        }
+      },
+      {
+        "bundle": "title",
+        "props": {
+          "title": "Unser Sortiment"
+        },
+        "props_i18n": {
+          "en": {
+            "title": "Our range"
+          }
+        },
+        "options": {
+          "size": "h2"
+        }
+      },
+      {
+        "bundle": "row",
+        "props": {},
+        "options": {
+          "gap": "lg"
+        },
+        "children": {
+          "content": [
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/lab/demo-lab-instruments.jpg",
+                      "alt": "Geräte",
+                      "headline": "Geräte",
+                      "description": "Zur Kategorie"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Instruments",
+                        "headline": "Instruments",
+                        "description": "Go to the category"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-LAB/DEMO-LAB-INSTRUMENTS",
+                      "ratio": "4x3",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/lab/demo-lab-pipettes.jpg",
+                      "alt": "Pipetten & Spitzen",
+                      "headline": "Pipetten & Spitzen",
+                      "description": "Zur Kategorie"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Pipettes & tips",
+                        "headline": "Pipettes & tips",
+                        "description": "Go to the category"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-LAB/DEMO-LAB-PIPETTES",
+                      "ratio": "4x3",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/lab/demo-lab-consumables.jpg",
+                      "alt": "Verbrauchsmaterial",
+                      "headline": "Verbrauchsmaterial",
+                      "description": "Zur Kategorie"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Consumables",
+                        "headline": "Consumables",
+                        "description": "Go to the category"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-LAB/DEMO-LAB-CONSUMABLES",
+                      "ratio": "4x3",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "bundle": "row",
+        "props": {},
+        "options": {
+          "gap": "lg"
+        },
+        "children": {
+          "content": [
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/lab/demo-lab-glassware.jpg",
+                      "alt": "Glaswaren",
+                      "headline": "Glaswaren",
+                      "description": "Zur Kategorie"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Glassware",
+                        "headline": "Glassware",
+                        "description": "Go to the category"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-LAB/DEMO-LAB-GLASSWARE",
+                      "ratio": "4x3",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/lab/demo-lab-safety.jpg",
+                      "alt": "Laborsicherheit",
+                      "headline": "Laborsicherheit",
+                      "description": "Zur Kategorie"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Lab safety",
+                        "headline": "Lab safety",
+                        "description": "Go to the category"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-LAB/DEMO-LAB-SAFETY",
+                      "ratio": "4x3",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/lab/demo-lab-storage.jpg",
+                      "alt": "Aufbewahrung & Racks",
+                      "headline": "Aufbewahrung & Racks",
+                      "description": "Zur Kategorie"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Storage & racks",
+                        "headline": "Storage & racks",
+                        "description": "Go to the category"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-LAB/DEMO-LAB-STORAGE",
+                      "ratio": "4x3",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "bundle": "product_grid",
+        "props": {},
+        "options": {
+          "category": "{\"slug\": \"DEMO-LAB-INSTRUMENTS\", \"label\": \"Geräte\"}",
+          "title": "Beliebt",
+          "rows": "1",
+          "perRow": "4",
+          "buttonAction": "order",
+          "sort": "relevance"
+        }
+      },
+      {
+        "bundle": "spacer",
+        "props": {},
+        "options": {
+          "size": "lg"
+        }
+      },
+      {
+        "bundle": "title",
+        "props": {
+          "title": "Aus der Praxis"
+        },
+        "props_i18n": {
+          "en": {
+            "title": "In practice"
+          }
+        },
+        "options": {
+          "size": "h2"
+        }
+      },
+      {
+        "bundle": "row",
+        "props": {},
+        "options": {
+          "gap": "md"
+        },
+        "children": {
+          "content": [
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/lab/demo-lab-1001-2.jpg",
+                      "alt": "Mikrozentrifuge 24 × 1,5/2,0 ml",
+                      "headline": "Geräte",
+                      "description": "Mikrozentrifuge 24 × 1,5/2,0 ml"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Microcentrifuge 24 × 1.5/2.0 ml",
+                        "headline": "Instruments",
+                        "description": "Microcentrifuge 24 × 1.5/2.0 ml"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-LAB/DEMO-LAB-INSTRUMENTS",
+                      "ratio": "1x1",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/lab/demo-lab-2002-2.jpg",
+                      "alt": "Pipettenspitzen 200 µl, Rack à 96",
+                      "headline": "Pipetten & Spitzen",
+                      "description": "Pipettenspitzen 200 µl, Rack à 96"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Pipette tips 200 µl, rack of 96",
+                        "headline": "Pipettes & tips",
+                        "description": "Pipette tips 200 µl, rack of 96"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-LAB/DEMO-LAB-PIPETTES",
+                      "ratio": "1x1",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/lab/demo-lab-3001-2.jpg",
+                      "alt": "Mikrozentrifugenröhrchen 1,5 ml, Beutel à 500",
+                      "headline": "Verbrauchsmaterial",
+                      "description": "Mikrozentrifugenröhrchen 1,5 ml, Beutel à 500"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Microcentrifuge tubes 1.5 ml, bag of 500",
+                        "headline": "Consumables",
+                        "description": "Microcentrifuge tubes 1.5 ml, bag of 500"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-LAB/DEMO-LAB-CONSUMABLES",
+                      "ratio": "1x1",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/lab/demo-lab-4001-2.jpg",
+                      "alt": "Messzylinder 100 ml, Borosilikatglas",
+                      "headline": "Glaswaren",
+                      "description": "Messzylinder 100 ml, Borosilikatglas"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Measuring cylinder 100 ml, borosilicate glass",
+                        "headline": "Glassware",
+                        "description": "Measuring cylinder 100 ml, borosilicate glass"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-LAB/DEMO-LAB-GLASSWARE",
+                      "ratio": "1x1",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "bundle": "spacer",
+        "props": {},
+        "options": {
+          "size": "lg"
+        }
+      },
+      {
+        "bundle": "title",
+        "props": {
+          "title": "Unsere Marken"
+        },
+        "props_i18n": {
+          "en": {
+            "title": "Our makers"
+          }
+        },
+        "options": {
+          "size": "h2"
+        }
+      },
+      {
+        "bundle": "row",
+        "props": {},
+        "options": {
+          "gap": "lg"
+        },
+        "children": {
+          "content": [
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image",
+                    "props": {
+                      "filePath": "sample-data/lab/demo-probara-card.png",
+                      "alt": "Probara"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Probara"
+                      }
+                    },
+                    "options": {
+                      "maxWidth": "full"
+                    }
+                  },
+                  {
+                    "bundle": "text",
+                    "props": {
+                      "text": "<p>Hersteller von Laborgeräten · 46 Artikel</p>"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "text": "<p>Maker of laboratory instruments · 46 items</p>"
+                      }
+                    }
+                  },
+                  {
+                    "bundle": "cta",
+                    "props": {
+                      "label": "Alle Produkte von Probara"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "label": "All products by Probara"
+                      }
+                    },
+                    "options": {
+                      "url": "/search?q=Probara&manufacturer=Probara",
+                      "variant": "outline",
+                      "color": "primary",
+                      "size": "lg"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image",
+                    "props": {
+                      "filePath": "sample-data/lab/demo-pipetrix-card.png",
+                      "alt": "Pipetrix"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Pipetrix"
+                      }
+                    },
+                    "options": {
+                      "maxWidth": "full"
+                    }
+                  },
+                  {
+                    "bundle": "text",
+                    "props": {
+                      "text": "<p>Hersteller von Pipetten und Laborverbrauchsmaterial · 79 Artikel</p>"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "text": "<p>Maker of pipettes and laboratory consumables · 79 items</p>"
+                      }
+                    }
+                  },
+                  {
+                    "bundle": "cta",
+                    "props": {
+                      "label": "Alle Produkte von Pipetrix"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "label": "All products by Pipetrix"
+                      }
+                    },
+                    "options": {
+                      "url": "/search?q=Pipetrix&manufacturer=Pipetrix",
+                      "variant": "outline",
+                      "color": "primary",
+                      "size": "lg"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "bundle": "spacer",
+        "props": {},
+        "options": {
+          "size": "lg"
+        }
+      },
+      {
+        "bundle": "quick_order",
+        "props": {},
+        "options": {
+          "icon": "keyboard"
+        }
+      },
+      {
+        "bundle": "spacer",
+        "props": {},
+        "options": {
+          "size": "lg"
+        }
+      },
+      {
+        "bundle": "title",
+        "props": {
+          "title": "Häufige Fragen"
+        },
+        "props_i18n": {
+          "en": {
+            "title": "Frequently asked questions"
+          }
+        },
+        "options": {
+          "size": "h2"
+        }
+      },
+      {
+        "bundle": "accordion",
+        "props": {
+          "type": "single",
+          "openFirst": true
+        },
+        "children": {
+          "items": [
+            {
+              "bundle": "accordion_item",
+              "props": {
+                "label": "Gibt es Staffelpreise?",
+                "content": "<p>Ja. Ab bestimmten Mengen sinkt der Stückpreis; Firmenkunden mit Rahmenvertrag sehen ihre Vertragspreise.</p>"
+              },
+              "props_i18n": {
+                "en": {
+                  "label": "Are there quantity prices?",
+                  "content": "<p>Yes. The unit price drops at set quantities; company customers with a contract see their contract prices.</p>"
+                }
+              }
+            },
+            {
+              "bundle": "accordion_item",
+              "props": {
+                "label": "Kann ich auf Rechnung bestellen?",
+                "content": "<p>Ja, Firmenkunden zahlen auf Rechnung mit 30 Tagen Zahlungsziel.</p>"
+              },
+              "props_i18n": {
+                "en": {
+                  "label": "Can I pay on invoice?",
+                  "content": "<p>Yes, company customers pay on invoice with 30 days' payment terms.</p>"
+                }
+              }
+            },
+            {
+              "bundle": "accordion_item",
+              "props": {
+                "label": "Was kostet der Versand?",
+                "content": "<p>Die Versandkosten richten sich nach dem Gewicht der Bestellung und werden im Warenkorb angezeigt.</p>"
+              },
+              "props_i18n": {
+                "en": {
+                  "label": "What does shipping cost?",
+                  "content": "<p>Shipping is priced by the weight of the order and shown in the cart.</p>"
+                }
+              }
+            },
+            {
+              "bundle": "accordion_item",
+              "props": {
+                "label": "Gibt es Rabatte?",
+                "content": "<p>Ab 100 € Bestellwert ziehen wir automatisch 5 % ab. Gutscheincodes lösen Sie im Warenkorb ein.</p>"
+              },
+              "props_i18n": {
+                "en": {
+                  "label": "Are there discounts?",
+                  "content": "<p>From an order value of 100 € we take 5 % off automatically. Redeem voucher codes in the cart.</p>"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "bundle": "cta",
+        "props": {
+          "label": "Kontakt aufnehmen"
+        },
+        "props_i18n": {
+          "en": {
+            "label": "Get in touch"
+          }
+        },
+        "options": {
+          "url": "/lab/contact",
+          "variant": "outline",
+          "color": "primary",
+          "size": "lg"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "lab/about",
+    "title": "Über uns: Laborbedarf",
+    "bundle": "standard",
+    "sourceLanguage": "de",
+    "translations": [
+      {
+        "langcode": "en",
+        "title": "About us: Laboratory supplies",
+        "slug": "lab/about"
+      }
+    ],
+    "meta": {
+      "sample_data": "lab"
+    },
+    "blocks": [
+      {
+        "bundle": "title",
+        "props": {
+          "title": "Über uns"
+        },
+        "props_i18n": {
+          "en": {
+            "title": "About us"
+          }
+        },
+        "options": {
+          "size": "h1"
+        }
+      },
+      {
+        "bundle": "text",
+        "props": {
+          "text": "<p>Wir beliefern Labore in Forschung, Analytik und Qualitätssicherung: Laborgeräte, Pipetten und Spitzen, Glaswaren, Verbrauchsmaterial und Laborsicherheit.</p><p>Unsere Eigenmarken <strong>Probara</strong> (Geräte und Glaswaren) und <strong>Pipetrix</strong> (Pipetten und Spitzen) gibt es in Packungsgrößen für den Laboralltag.</p>"
+        },
+        "props_i18n": {
+          "en": {
+            "text": "<p>We supply labs in research, analytics and quality control: instruments, pipettes and tips, glassware, consumables and lab safety.</p><p>Our own brands <strong>Probara</strong> (instruments and glassware) and <strong>Pipetrix</strong> (pipettes and tips) come in pack sizes made for daily lab work.</p>"
+          }
+        }
+      },
+      {
+        "bundle": "cta",
+        "props": {
+          "label": "Zum Sortiment"
+        },
+        "props_i18n": {
+          "en": {
+            "label": "Browse the range"
+          }
+        },
+        "options": {
+          "url": "/category/DEMO-LAB",
+          "variant": "solid",
+          "color": "primary",
+          "size": "lg"
+        }
+      },
+      {
+        "bundle": "text",
+        "props": {
+          "text": "<p><em>Diese Seite gehört zu den revenexx-Beispieldaten. Shop, Firmen, Marken und Produkte sind erfunden. Ersetzen oder löschen Sie sie, bevor Ihr Shop live geht.</em></p>"
+        },
+        "props_i18n": {
+          "en": {
+            "text": "<p><em>This page is part of the revenexx sample data. The shop, companies, brands and products are fictional. Replace or delete it before your shop goes live.</em></p>"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "slug": "lab/contact",
+    "title": "Kontakt: Laborbedarf",
+    "bundle": "standard",
+    "sourceLanguage": "de",
+    "translations": [
+      {
+        "langcode": "en",
+        "title": "Contact: Laboratory supplies",
+        "slug": "lab/contact"
+      }
+    ],
+    "meta": {
+      "sample_data": "lab"
+    },
+    "blocks": [
+      {
+        "bundle": "title",
+        "props": {
+          "title": "Kontakt"
+        },
+        "props_i18n": {
+          "en": {
+            "title": "Contact"
+          }
+        },
+        "options": {
+          "size": "h1"
+        }
+      },
+      {
+        "bundle": "text",
+        "props": {
+          "text": "<p>Ihr Ansprechpartner für Laborbedarf: schreiben Sie an <a href=\"mailto:labor@beispiel-shop.example\">labor@beispiel-shop.example</a>, oder rufen Sie an unter +49 000 0000000 (Platzhalter), Montag bis Freitag, 8 bis 17 Uhr.</p><p>Für Angebote über größere Mengen nennen Sie uns Artikelnummern und Mengen; wir antworten innerhalb eines Werktags.</p>"
+        },
+        "props_i18n": {
+          "en": {
+            "text": "<p>Your contact for laboratory supplies: write to <a href=\"mailto:labor@beispiel-shop.example\">labor@beispiel-shop.example</a>, or call +49 000 0000000 (placeholder), Monday to Friday, 8 am to 5 pm.</p><p>For quotes on larger quantities, send us item numbers and quantities; we answer within one working day.</p>"
+          }
+        }
+      },
+      {
+        "bundle": "text",
+        "props": {
+          "text": "<p><em>Diese Seite gehört zu den revenexx-Beispieldaten. Shop, Firmen, Marken und Produkte sind erfunden. Ersetzen oder löschen Sie sie, bevor Ihr Shop live geht.</em></p>"
+        },
+        "props_i18n": {
+          "en": {
+            "text": "<p><em>This page is part of the revenexx sample data. The shop, companies, brands and products are fictional. Replace or delete it before your shop goes live.</em></p>"
+          }
+        }
+      }
+    ]
+  }
+]

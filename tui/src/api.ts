@@ -152,6 +152,24 @@ export class ShopReader {
     return out;
   }
 
+  /**
+   * Every live content page as `slug|scope`, where scope is the page's sample-data mark
+   * (meta.sample_data), once per refresh. A tenant without the Pages app reads as no pages.
+   */
+  async samplePages(): Promise<Set<string>> {
+    const out = new Set<string>();
+    try {
+      for (let offset = 0; ; offset += 200) {
+        const b = await this.get(`/pages/pages?limit=200&offset=${offset}`);
+        for (const r of items(b)) out.add(`${r.slug}|${r.meta?.sample_data ?? ""}`);
+        if (!b?.page?.hasMore) break;
+      }
+    } catch {
+      // no Pages app (or no access): nothing counted
+    }
+    return out;
+  }
+
   /** Every stock row, once: shared by all packs of a refresh. */
   stockSkus(): Promise<Set<string>> {
     return this.allOf("/inventories/stock", "sku");
@@ -168,11 +186,13 @@ export class ShopReader {
 
   /** The base's records that exist, per column and in total, against each column's target. */
   async base(base: BaseTarget): Promise<{ found: number; total: number; cols: number[] }> {
+    const pages = base.checks.some((c) => c.parts.some((p) => p.pages)) ? await this.samplePages() : new Set<string>();
     const cols = await Promise.all(
       base.checks.map(async (c) => {
         const per = await Promise.all(
           c.parts.flatMap((p) =>
             p.values.map(async (v) => {
+              if (p.pages) return pages.has(`${v}|${p.pages}`) ? 1 : 0;
               const b = await this.get(`${p.route}?${p.key}=${encodeURIComponent(v)}&limit=1`);
               const hit = items(b)[0];
               if (!hit) return 0;
@@ -195,14 +215,15 @@ export class ShopReader {
   }
 }
 
-/** The counts of the given packs (one shared read of each list: stock, categories, attributes, makers, price lists). */
+/** The counts of the given packs (one shared read of each list: stock, categories, attributes, makers, price lists, pages). */
 export const readCounts = async (reader: ShopReader, packs: PackTarget[]): Promise<Record<string, Counts>> => {
-  const [stock, categories, attributes, makers, lists] = await Promise.all([
+  const [stock, categories, attributes, makers, lists, pages] = await Promise.all([
     reader.stockSkus(),
     reader.allOf("/products/categories", "code"),
     reader.allOf("/products/attributes", "code"),
     reader.allOf("/products/manufacturers", "code"),
     reader.allOf("/prices/lists", "code"),
+    reader.samplePages(),
   ]);
   const among = (codes: string[], have: Set<string>) => codes.filter((c) => have.has(c)).length;
   const rows = await Promise.all(
@@ -217,6 +238,7 @@ export const readCounts = async (reader: ShopReader, packs: PackTarget[]): Promi
         lists: among(p.priceLists, lists),
         prices,
         stock: among(p.stockSkus, stock),
+        pages: p.pageSlugs.filter((s) => pages.has(`${s}|${p.name}`)).length,
       };
       return [p.name, counts] as const;
     }),

@@ -1,0 +1,1061 @@
+[
+  {
+    "slug": "industrial",
+    "title": "Werkstatt & Industriebedarf",
+    "bundle": "standard",
+    "sourceLanguage": "de",
+    "translations": [
+      {
+        "langcode": "en",
+        "title": "Workshop & industrial supply",
+        "slug": "industrial"
+      }
+    ],
+    "meta": {
+      "sample_data": "industrial"
+    },
+    "blocks": [
+      {
+        "bundle": "marketing_banner",
+        "props": {},
+        "options": {
+          "contentWidth": "full"
+        },
+        "children": {
+          "content": [
+            {
+              "bundle": "row",
+              "props": {},
+              "options": {
+                "gap": "lg"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "column",
+                    "props": {},
+                    "options": {
+                      "width": "7"
+                    },
+                    "children": {
+                      "content": [
+                        {
+                          "bundle": "badge",
+                          "props": {
+                            "label": "Beispieldaten"
+                          },
+                          "props_i18n": {
+                            "en": {
+                              "label": "Sample data"
+                            }
+                          }
+                        },
+                        {
+                          "bundle": "title_description",
+                          "props": {
+                            "headline": "Werkstatt & Industriebedarf",
+                            "description": "Werkzeug, Befestigung und Arbeitsschutz für Werkstatt und Fertigung, mit Staffelpreisen und Lieferung ab Lager."
+                          },
+                          "props_i18n": {
+                            "en": {
+                              "headline": "Workshop & industrial supply",
+                              "description": "Tools, fasteners and safety gear for workshop and production, with quantity prices and delivery from stock."
+                            }
+                          },
+                          "options": {
+                            "titleSize": "h1",
+                            "titleColor": "primary",
+                            "descriptionSize": "lg",
+                            "descriptionColor": "primary"
+                          }
+                        },
+                        {
+                          "bundle": "cta",
+                          "props": {
+                            "label": "Zum Sortiment"
+                          },
+                          "props_i18n": {
+                            "en": {
+                              "label": "Browse the range"
+                            }
+                          },
+                          "options": {
+                            "url": "/category/DEMO-IND",
+                            "variant": "solid",
+                            "color": "primary",
+                            "size": "lg",
+                            "inlineBlock": true
+                          }
+                        },
+                        {
+                          "bundle": "cta",
+                          "props": {
+                            "label": "Über uns"
+                          },
+                          "props_i18n": {
+                            "en": {
+                              "label": "About us"
+                            }
+                          },
+                          "options": {
+                            "url": "/industrial/about",
+                            "variant": "outline",
+                            "color": "primary",
+                            "size": "lg",
+                            "inlineBlock": true
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "bundle": "column",
+                    "props": {},
+                    "options": {
+                      "width": "5"
+                    },
+                    "children": {
+                      "content": [
+                        {
+                          "bundle": "image",
+                          "props": {
+                            "filePath": "sample-data/industrial/demo-ind.jpg",
+                            "alt": "Werkstatt & Industriebedarf"
+                          },
+                          "props_i18n": {
+                            "en": {
+                              "alt": "Workshop & industrial supply"
+                            }
+                          },
+                          "options": {
+                            "maxWidth": "full"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "bundle": "row",
+        "props": {},
+        "options": {
+          "gap": "md"
+        },
+        "children": {
+          "content": [
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "icon_label",
+                    "props": {
+                      "heading": "Ab Lager",
+                      "label": "Lieferung in 1–2 Werktagen"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "heading": "From stock",
+                        "label": "Delivery in 1–2 working days"
+                      }
+                    },
+                    "options": {
+                      "icon": "delivery"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "icon_label",
+                    "props": {
+                      "heading": "Staffelpreise",
+                      "label": "für 31 Artikel, ab 10 Stück"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "heading": "Quantity prices",
+                        "label": "on 31 items, from 10 pieces"
+                      }
+                    },
+                    "options": {
+                      "icon": "offer"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "icon_label",
+                    "props": {
+                      "heading": "Auf Rechnung",
+                      "label": "30 Tage Zahlungsziel"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "heading": "On invoice",
+                        "label": "30 days' payment terms"
+                      }
+                    },
+                    "options": {
+                      "icon": "payment"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "icon_label",
+                    "props": {
+                      "heading": "Technische Unterlagen",
+                      "label": "101 Datenblätter, 26 CAD-Dateien"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "heading": "Technical documents",
+                        "label": "101 data sheets, 26 CAD files"
+                      }
+                    },
+                    "options": {
+                      "icon": "file"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "bundle": "spacer",
+        "props": {},
+        "options": {
+          "size": "md"
+        }
+      },
+      {
+        "bundle": "title",
+        "props": {
+          "title": "Unser Sortiment"
+        },
+        "props_i18n": {
+          "en": {
+            "title": "Our range"
+          }
+        },
+        "options": {
+          "size": "h2"
+        }
+      },
+      {
+        "bundle": "row",
+        "props": {},
+        "options": {
+          "gap": "lg"
+        },
+        "children": {
+          "content": [
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/industrial/demo-ind-power-tools.jpg",
+                      "alt": "Elektrowerkzeuge",
+                      "headline": "Elektrowerkzeuge",
+                      "description": "Zur Kategorie"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Power tools",
+                        "headline": "Power tools",
+                        "description": "Go to the category"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-IND/DEMO-IND-POWER-TOOLS",
+                      "ratio": "4x3",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/industrial/demo-ind-fasteners.jpg",
+                      "alt": "Befestigung & Verbrauchsmaterial",
+                      "headline": "Befestigung & Verbrauchsmaterial",
+                      "description": "Zur Kategorie"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Fasteners & consumables",
+                        "headline": "Fasteners & consumables",
+                        "description": "Go to the category"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-IND/DEMO-IND-FASTENERS",
+                      "ratio": "4x3",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/industrial/demo-ind-safety.jpg",
+                      "alt": "Arbeitsschutz",
+                      "headline": "Arbeitsschutz",
+                      "description": "Zur Kategorie"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Workwear & safety",
+                        "headline": "Workwear & safety",
+                        "description": "Go to the category"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-IND/DEMO-IND-SAFETY",
+                      "ratio": "4x3",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "bundle": "row",
+        "props": {},
+        "options": {
+          "gap": "lg"
+        },
+        "children": {
+          "content": [
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/industrial/demo-ind-hand-tools.jpg",
+                      "alt": "Handwerkzeug",
+                      "headline": "Handwerkzeug",
+                      "description": "Zur Kategorie"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Hand tools",
+                        "headline": "Hand tools",
+                        "description": "Go to the category"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-IND/DEMO-IND-HAND-TOOLS",
+                      "ratio": "4x3",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/industrial/demo-ind-abrasives.jpg",
+                      "alt": "Schleif- & Trennmittel",
+                      "headline": "Schleif- & Trennmittel",
+                      "description": "Zur Kategorie"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Abrasives & cutting",
+                        "headline": "Abrasives & cutting",
+                        "description": "Go to the category"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-IND/DEMO-IND-ABRASIVES",
+                      "ratio": "4x3",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/industrial/demo-ind-workshop.jpg",
+                      "alt": "Werkstattausstattung",
+                      "headline": "Werkstattausstattung",
+                      "description": "Zur Kategorie"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Workshop equipment",
+                        "headline": "Workshop equipment",
+                        "description": "Go to the category"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-IND/DEMO-IND-WORKSHOP",
+                      "ratio": "4x3",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "bundle": "product_grid",
+        "props": {},
+        "options": {
+          "category": "{\"slug\": \"DEMO-IND-WORKSHOP\", \"label\": \"Werkstattausstattung\"}",
+          "title": "Beliebt",
+          "rows": "1",
+          "perRow": "4",
+          "buttonAction": "order",
+          "sort": "relevance"
+        }
+      },
+      {
+        "bundle": "spacer",
+        "props": {},
+        "options": {
+          "size": "lg"
+        }
+      },
+      {
+        "bundle": "title",
+        "props": {
+          "title": "Aus der Praxis"
+        },
+        "props_i18n": {
+          "en": {
+            "title": "In practice"
+          }
+        },
+        "options": {
+          "size": "h2"
+        }
+      },
+      {
+        "bundle": "row",
+        "props": {},
+        "options": {
+          "gap": "md"
+        },
+        "children": {
+          "content": [
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/industrial/demo-ind-1001-2.jpg",
+                      "alt": "Akku-Bohrschrauber 18 V",
+                      "headline": "Elektrowerkzeuge",
+                      "description": "Akku-Bohrschrauber 18 V"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Cordless drill driver 18 V",
+                        "headline": "Power tools",
+                        "description": "Cordless drill driver 18 V"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-IND/DEMO-IND-POWER-TOOLS",
+                      "ratio": "1x1",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/industrial/demo-ind-2001-2.jpg",
+                      "alt": "Holzschrauben 4 × 40 mm, 500 Stück",
+                      "headline": "Befestigung & Verbrauchsmaterial",
+                      "description": "Holzschrauben 4 × 40 mm, 500 Stück"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Wood screws 4 × 40 mm, box of 500",
+                        "headline": "Fasteners & consumables",
+                        "description": "Wood screws 4 × 40 mm, box of 500"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-IND/DEMO-IND-FASTENERS",
+                      "ratio": "1x1",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/industrial/demo-ind-3002-2.jpg",
+                      "alt": "Schutzbrille, klar",
+                      "headline": "Arbeitsschutz",
+                      "description": "Schutzbrille, klar"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Safety glasses, clear",
+                        "headline": "Workwear & safety",
+                        "description": "Safety glasses, clear"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-IND/DEMO-IND-SAFETY",
+                      "ratio": "1x1",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "3"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image_teaser",
+                    "props": {
+                      "filePath": "sample-data/industrial/demo-ind-4001-2.jpg",
+                      "alt": "Schraubendreher-Set, 6-teilig",
+                      "headline": "Handwerkzeug",
+                      "description": "Schraubendreher-Set, 6-teilig"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Screwdriver set, 6 pieces",
+                        "headline": "Hand tools",
+                        "description": "Screwdriver set, 6 pieces"
+                      }
+                    },
+                    "options": {
+                      "url": "/category/DEMO-IND/DEMO-IND-HAND-TOOLS",
+                      "ratio": "1x1",
+                      "showText": true,
+                      "textColor": "light"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "bundle": "spacer",
+        "props": {},
+        "options": {
+          "size": "lg"
+        }
+      },
+      {
+        "bundle": "title",
+        "props": {
+          "title": "Unsere Marken"
+        },
+        "props_i18n": {
+          "en": {
+            "title": "Our makers"
+          }
+        },
+        "options": {
+          "size": "h2"
+        }
+      },
+      {
+        "bundle": "row",
+        "props": {},
+        "options": {
+          "gap": "lg"
+        },
+        "children": {
+          "content": [
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image",
+                    "props": {
+                      "filePath": "sample-data/industrial/demo-brakkwerk-card.png",
+                      "alt": "Brakkwerk"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Brakkwerk"
+                      }
+                    },
+                    "options": {
+                      "maxWidth": "full"
+                    }
+                  },
+                  {
+                    "bundle": "text",
+                    "props": {
+                      "text": "<p>Hersteller von Elektrowerkzeugen und Befestigungstechnik · 83 Artikel</p>"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "text": "<p>Maker of power tools and fasteners · 83 items</p>"
+                      }
+                    }
+                  },
+                  {
+                    "bundle": "cta",
+                    "props": {
+                      "label": "Alle Produkte von Brakkwerk"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "label": "All products by Brakkwerk"
+                      }
+                    },
+                    "options": {
+                      "url": "/search?q=Brakkwerk&manufacturer=Brakkwerk",
+                      "variant": "outline",
+                      "color": "primary",
+                      "size": "lg"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bundle": "column",
+              "props": {},
+              "options": {
+                "width": "4"
+              },
+              "children": {
+                "content": [
+                  {
+                    "bundle": "image",
+                    "props": {
+                      "filePath": "sample-data/industrial/demo-hartfell-card.png",
+                      "alt": "Hartfell"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "alt": "Hartfell"
+                      }
+                    },
+                    "options": {
+                      "maxWidth": "full"
+                    }
+                  },
+                  {
+                    "bundle": "text",
+                    "props": {
+                      "text": "<p>Hersteller von Arbeitsschutz · 42 Artikel</p>"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "text": "<p>Maker of personal protective equipment · 42 items</p>"
+                      }
+                    }
+                  },
+                  {
+                    "bundle": "cta",
+                    "props": {
+                      "label": "Alle Produkte von Hartfell"
+                    },
+                    "props_i18n": {
+                      "en": {
+                        "label": "All products by Hartfell"
+                      }
+                    },
+                    "options": {
+                      "url": "/search?q=Hartfell&manufacturer=Hartfell",
+                      "variant": "outline",
+                      "color": "primary",
+                      "size": "lg"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "bundle": "spacer",
+        "props": {},
+        "options": {
+          "size": "lg"
+        }
+      },
+      {
+        "bundle": "quick_order",
+        "props": {},
+        "options": {
+          "icon": "keyboard"
+        }
+      },
+      {
+        "bundle": "spacer",
+        "props": {},
+        "options": {
+          "size": "lg"
+        }
+      },
+      {
+        "bundle": "title",
+        "props": {
+          "title": "Häufige Fragen"
+        },
+        "props_i18n": {
+          "en": {
+            "title": "Frequently asked questions"
+          }
+        },
+        "options": {
+          "size": "h2"
+        }
+      },
+      {
+        "bundle": "accordion",
+        "props": {
+          "type": "single",
+          "openFirst": true
+        },
+        "children": {
+          "items": [
+            {
+              "bundle": "accordion_item",
+              "props": {
+                "label": "Gibt es Staffelpreise?",
+                "content": "<p>Ja. Ab bestimmten Mengen sinkt der Stückpreis; Firmenkunden mit Rahmenvertrag sehen ihre Vertragspreise.</p>"
+              },
+              "props_i18n": {
+                "en": {
+                  "label": "Are there quantity prices?",
+                  "content": "<p>Yes. The unit price drops at set quantities; company customers with a contract see their contract prices.</p>"
+                }
+              }
+            },
+            {
+              "bundle": "accordion_item",
+              "props": {
+                "label": "Kann ich auf Rechnung bestellen?",
+                "content": "<p>Ja, Firmenkunden zahlen auf Rechnung mit 30 Tagen Zahlungsziel.</p>"
+              },
+              "props_i18n": {
+                "en": {
+                  "label": "Can I pay on invoice?",
+                  "content": "<p>Yes, company customers pay on invoice with 30 days' payment terms.</p>"
+                }
+              }
+            },
+            {
+              "bundle": "accordion_item",
+              "props": {
+                "label": "Was kostet der Versand?",
+                "content": "<p>Die Versandkosten richten sich nach dem Gewicht der Bestellung und werden im Warenkorb angezeigt.</p>"
+              },
+              "props_i18n": {
+                "en": {
+                  "label": "What does shipping cost?",
+                  "content": "<p>Shipping is priced by the weight of the order and shown in the cart.</p>"
+                }
+              }
+            },
+            {
+              "bundle": "accordion_item",
+              "props": {
+                "label": "Gibt es Rabatte?",
+                "content": "<p>Ab 100 € Bestellwert ziehen wir automatisch 5 % ab. Gutscheincodes lösen Sie im Warenkorb ein.</p>"
+              },
+              "props_i18n": {
+                "en": {
+                  "label": "Are there discounts?",
+                  "content": "<p>From an order value of 100 € we take 5 % off automatically. Redeem voucher codes in the cart.</p>"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "bundle": "cta",
+        "props": {
+          "label": "Kontakt aufnehmen"
+        },
+        "props_i18n": {
+          "en": {
+            "label": "Get in touch"
+          }
+        },
+        "options": {
+          "url": "/industrial/contact",
+          "variant": "outline",
+          "color": "primary",
+          "size": "lg"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "industrial/about",
+    "title": "Über uns: Werkstatt & Industriebedarf",
+    "bundle": "standard",
+    "sourceLanguage": "de",
+    "translations": [
+      {
+        "langcode": "en",
+        "title": "About us: Workshop & industrial supply",
+        "slug": "industrial/about"
+      }
+    ],
+    "meta": {
+      "sample_data": "industrial"
+    },
+    "blocks": [
+      {
+        "bundle": "title",
+        "props": {
+          "title": "Über uns"
+        },
+        "props_i18n": {
+          "en": {
+            "title": "About us"
+          }
+        },
+        "options": {
+          "size": "h1"
+        }
+      },
+      {
+        "bundle": "text",
+        "props": {
+          "text": "<p>Wir beliefern Werkstätten, Instandhaltung und Fertigungsbetriebe mit allem, was täglich gebraucht wird: vom Akku-Bohrschrauber bis zur Schraube, vom Schleifmittel bis zur Schutzbrille.</p><p>Unsere Eigenmarken <strong>Brakkwerk</strong> (Elektrowerkzeug und Werkstattausstattung) und <strong>Hartfell</strong> (Arbeitsschutz und Verbrauchsmaterial) sind auf den harten Alltag im Betrieb ausgelegt.</p>"
+        },
+        "props_i18n": {
+          "en": {
+            "text": "<p>We supply workshops, maintenance teams and production sites with what they use every day: from the cordless drill to the screw, from abrasives to safety glasses.</p><p>Our own brands <strong>Brakkwerk</strong> (power tools and workshop equipment) and <strong>Hartfell</strong> (safety and consumables) are built for daily use on the shop floor.</p>"
+          }
+        }
+      },
+      {
+        "bundle": "cta",
+        "props": {
+          "label": "Zum Sortiment"
+        },
+        "props_i18n": {
+          "en": {
+            "label": "Browse the range"
+          }
+        },
+        "options": {
+          "url": "/category/DEMO-IND",
+          "variant": "solid",
+          "color": "primary",
+          "size": "lg"
+        }
+      },
+      {
+        "bundle": "text",
+        "props": {
+          "text": "<p><em>Diese Seite gehört zu den revenexx-Beispieldaten. Shop, Firmen, Marken und Produkte sind erfunden. Ersetzen oder löschen Sie sie, bevor Ihr Shop live geht.</em></p>"
+        },
+        "props_i18n": {
+          "en": {
+            "text": "<p><em>This page is part of the revenexx sample data. The shop, companies, brands and products are fictional. Replace or delete it before your shop goes live.</em></p>"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "slug": "industrial/contact",
+    "title": "Kontakt: Werkstatt & Industriebedarf",
+    "bundle": "standard",
+    "sourceLanguage": "de",
+    "translations": [
+      {
+        "langcode": "en",
+        "title": "Contact: Workshop & industrial supply",
+        "slug": "industrial/contact"
+      }
+    ],
+    "meta": {
+      "sample_data": "industrial"
+    },
+    "blocks": [
+      {
+        "bundle": "title",
+        "props": {
+          "title": "Kontakt"
+        },
+        "props_i18n": {
+          "en": {
+            "title": "Contact"
+          }
+        },
+        "options": {
+          "size": "h1"
+        }
+      },
+      {
+        "bundle": "text",
+        "props": {
+          "text": "<p>Ihr Ansprechpartner für Werkstatt & Industriebedarf: schreiben Sie an <a href=\"mailto:werkstatt@beispiel-shop.example\">werkstatt@beispiel-shop.example</a>, oder rufen Sie an unter +49 000 0000000 (Platzhalter), Montag bis Freitag, 8 bis 17 Uhr.</p><p>Für Angebote über größere Mengen nennen Sie uns Artikelnummern und Mengen; wir antworten innerhalb eines Werktags.</p>"
+        },
+        "props_i18n": {
+          "en": {
+            "text": "<p>Your contact for workshop & industrial supply: write to <a href=\"mailto:werkstatt@beispiel-shop.example\">werkstatt@beispiel-shop.example</a>, or call +49 000 0000000 (placeholder), Monday to Friday, 8 am to 5 pm.</p><p>For quotes on larger quantities, send us item numbers and quantities; we answer within one working day.</p>"
+          }
+        }
+      },
+      {
+        "bundle": "text",
+        "props": {
+          "text": "<p><em>Diese Seite gehört zu den revenexx-Beispieldaten. Shop, Firmen, Marken und Produkte sind erfunden. Ersetzen oder löschen Sie sie, bevor Ihr Shop live geht.</em></p>"
+        },
+        "props_i18n": {
+          "en": {
+            "text": "<p><em>This page is part of the revenexx sample data. The shop, companies, brands and products are fictional. Replace or delete it before your shop goes live.</em></p>"
+          }
+        }
+      }
+    ]
+  }
+]

@@ -51,12 +51,12 @@ test("the table shows the base and every pack on one line each: counts against t
   for (const p of ["industrial", "electrical", "office", "lab"]) assert.match(f, new RegExp(p));
   assert.match(f, /industrial\s+not loaded\s+0\/125\s+0\/\d+\s+0\/\d+\s+0\/\d+/);
   assert.match(f, /base\s+not loaded\s+0\/1\s+0\/5\s+0\/6\s+0\/2/);
-  assert.match(f, /company\+contacts/);
+  assert.match(f, /company\s+promotions\s+shipping\s+pages/);
   a.unmount();
 });
 
-test("a wide window shows all eight counts and a total bar per row; a narrow one keeps the first four", () => {
-  const wide = tableLayout(160);
+test("a wide window shows all nine counts and a total bar per row; a narrow one keeps the first four and pages", () => {
+  const wide = tableLayout(170);
   assert.deepEqual(wide.metrics, [
     "products",
     "categories",
@@ -66,11 +66,12 @@ test("a wide window shows all eight counts and a total bar per row; a narrow one
     "lists",
     "prices",
     "stock",
+    "pages",
   ]);
   assert.ok(wide.totalBar >= 6);
-  assert.ok(wide.prefix + wide.metrics.length * wide.col + 2 + wide.totalBar + wide.pctW <= 160);
+  assert.ok(wide.prefix + wide.metrics.length * wide.col + 2 + wide.totalBar + wide.pctW <= 170);
   const narrow = tableLayout(98);
-  assert.deepEqual(narrow.metrics, ["products", "assets", "prices", "stock"]);
+  assert.deepEqual(narrow.metrics, ["products", "assets", "prices", "stock", "pages"]);
   assert.equal(narrow.totalBar, 0);
   assert.ok(narrow.baseCol >= 17);
 });

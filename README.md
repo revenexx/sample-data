@@ -21,7 +21,7 @@ A load brings the **packs** you choose, and the **base** they need (it is skippe
 
 | | What's in it |
 | --- | --- |
-| **Base** | A market `demo_de` (Germany, EUR, German and English, 19 % and 7 % VAT) and the buyer company *Muster Bau & Technik GmbH*, with a buyer, an approver, and billing and shipping addresses. Also an automatic promotion (5 % off from 100 €), two voucher codes and a shipping method priced by weight. The base also calls your tenant's setup routes, which create the standard sales channel and channel types, shipping carriers and methods, payment methods, order and return number ranges, customer roles and value lists (payment terms, lifecycle stages), the standard price list, and the stock location `main` with its availability states if they are missing, and leave existing ones alone. |
+| **Base** | A market `demo_de` (Germany, EUR, German and English, 19 % and 7 % VAT) and the buyer company *Muster Bau & Technik GmbH*, with a buyer, an approver, and billing and shipping addresses. Also an automatic promotion (5 % off from 100 €), two voucher codes and a shipping method priced by weight. The base also calls your tenant's setup routes, which create the standard sales channel and channel types, shipping carriers and methods, payment methods, order and return number ranges, customer roles and value lists (payment terms, lifecycle stages), the standard price list, and the stock location `main` with its availability states if they are missing, and leave existing ones alone. Plus placeholder pages for contact, imprint, terms, privacy and cookies at the paths the storefront theme's footer links to (`/contact`, `/legal/imprint`, `/legal/terms`, `/legal/privacy`, `/legal/cookies`). |
 | **`industrial`** | Workshop and industrial supply: power tools, fasteners, safety gear, hand tools, abrasives, workshop equipment. 101 products, 6 of them work gloves in 4 sizes. |
 | **`electrical`** | Electrical installation: cables, switches and sockets, lighting, protection and distribution, installation material, tools and testers. 99 products, 8 of them in several colours. |
 | **`office`** | Office and facility supplies: paper and filing, writing, breakroom, desk accessories, cleaning, mailing and packaging. 94 products, 9 of them in several colours. |
@@ -34,6 +34,7 @@ Each pack has the following:
 - **Two fictional manufacturers.**
 - **A list price list** with quantity breaks, plus contract prices for the buyer company.
 - **Stock**, with a few products below their reorder point and two out of stock.
+- **Three content pages,** published in German and English: a landing page at `/<pack>` (a banner with a photo, what the shop promises, the six categories as photo tiles, popular products, photos of products in use, the makers, quick order and frequent questions), `/<pack>/about` and `/<pack>/contact`.
 - **400 to 500 files:** a product photo and a close-up in use for every product, a technical drawing (SVG and PDF) for most models, a data sheet (PDF) for every model, a logo for each manufacturer, an image for each category and, in every pack except `office`, 3D models (STEP). The base adds one filterable yes/no attribute, *With CAD files (STEP)* (`demo_has_cad`), which finds the products with a 3D model across every pack.
 
 A model and each of its variants are separate product records, so the loader reports 125 products per pack, 500 for all four.
@@ -48,14 +49,16 @@ This is how the packs look in a shop:
 
 ![The lab pack in a shop](docs/shop-lab.png)
 
+![The industrial pack's landing page in a shop: a banner with a photo, what the shop promises, and the categories as photo tiles](docs/pages-ind.png)
+
 All names, products and companies are invented. Every record you look up by code carries the prefix `DEMO-` (`demo_` where a code takes no hyphen, such as attributes and the market `demo_de`), so you can tell sample data from your own as long as you don't use these prefixes yourself. Values inside those records, such as option codes (`black`, `a4`), the market's tax classes (`standard`, `reduced`), locales and the currency, are plain. [What it changes on your tenant](#what-it-changes-on-your-tenant) lists everything it writes.
 
 ## Before you start
 
 You need:
 
-1. **A tenant you can experiment on, not your production tenant.** A playground tenant is ideal; [Get a test tenant](https://revenexx.dev/docs/getting-started/prerequisites#get-a-test-tenant) explains how to get one, with its **slug** and an **API key**. On a test tenant a development key with the `*` scope is simplest. A narrower key needs `products.*`, `prices.*`, `inventories.*`, `customers.*`, `promotions.*`, `markets.*`, `channels.*`, `shipping.*`, `payments.*`, `orders.*`, `carts.*` and `storage`.
-2. **The commerce apps installed** on that tenant: Products, Pricing, Inventories, Customers, Promotions, Markets, Channels, Shipping, Payments, Orders and Carts. Install them from the Marketplace in Cockpit, the revenexx back office. If one is missing, the loader stops at the first step that needs it and prints the error.
+1. **A tenant you can experiment on, not your production tenant.** A playground tenant is ideal; [Get a test tenant](https://revenexx.dev/docs/getting-started/prerequisites#get-a-test-tenant) explains how to get one, with its **slug** and an **API key**. On a test tenant a development key with the `*` scope is simplest. A narrower key needs `products.*`, `prices.*`, `inventories.*`, `customers.*`, `promotions.*`, `markets.*`, `channels.*`, `shipping.*`, `payments.*`, `orders.*`, `carts.*`, `pages.*` and `storage`.
+2. **The commerce apps installed** on that tenant: Products, Pricing, Inventories, Customers, Promotions, Markets, Channels, Shipping, Payments, Orders, Carts and Pages. Install them from the Marketplace in Cockpit, the revenexx back office. If one is missing, the loader stops at the first step that needs it and prints the error.
 3. **`bash`, `curl` and `jq`**, and **Node 20 or newer** for the terminal UI. `bash` and `curl` come with macOS and Linux; install `jq` and Node if they are missing (`brew install jq node`, `apt install jq nodejs`). On Windows, use WSL. Without Node you can still use [the flags](#without-a-terminal).
 
 ```bash
@@ -73,7 +76,7 @@ cp .env.example .env     # then fill in your tenant slug and API key
 ./sample-data
 ```
 
-That opens a full-screen view: one row per pack with what is in your shop right now against what the pack holds (products, categories, attributes, makers, files, price lists, price entries, stock rows), green when complete, yellow when partial, red when missing, one bar per row for the pack as a whole, and a live log while a run goes. A window narrower than about 150 columns shows only products, files, prices and stock. The first start installs the interface's dependencies once.
+That opens a full-screen view: one row per pack with what is in your shop right now against what the pack holds (products, categories, attributes, makers, files, price lists, price entries, stock rows, content pages; for the base: market, company, promotions, shipping, pages), green when complete, yellow when partial, red when missing, one bar per row for the pack as a whole, and a live log while a run goes. A window narrower than about 160 columns shows only products, files, prices, stock and pages. The first start installs the interface's dependencies once.
 
 ![The terminal UI at rest: what each pack has in the shop against what it holds](docs/tui-overview.png)
 
@@ -267,7 +270,7 @@ api '/products?external_id=DEMO-IND-1001' | jq -r '.items[0].sku'
 
 In the terminal UI, select packs and press `r`, or `R` for everything including the base (market, company and promotions). It asks before it deletes.
 
-Removal deletes exactly the records the loader created, found by their codes, and deletes them permanently (not just to the trash), so you can load the data again later. Uploaded files are deleted too. Remove packs before or together with the base: the packs' contract prices belong to the base's company.
+Removal deletes exactly the records the loader created, found by their codes, and deletes them permanently (not just to the trash), so you can load the data again later. Uploaded files are deleted too. Content pages go to the Pages trash (the Pages app has no permanent delete); their paths are free again at once. Remove packs before or together with the base: the packs' contract prices belong to the base's company.
 
 What stays, on purpose:
 
@@ -292,6 +295,8 @@ For CI and scripts, the same runs as flags (same settings as above):
 
 `--load` and `--remove` can be repeated, but not mixed in one call. The exit code is non-zero if a step fails.
 
+**Where to look in the shop.** Nothing in your shop links to the packs' own pages: the loader never changes your menus or your home page. A load ends by naming them, for example `lab: landing page /lab`. Open them in your storefront; it may put a language prefix in front, such as `/de/lab`. The storefront theme shows these pages in German on every language for now: it does not yet ask the Pages app for the English translation.
+
 The terminal UI reads the progress of a run from the engines (`lib/load.sh`, `lib/remove.sh`) from a file in `.run/` (or the one `SEED_EVENTS` names): one JSON line per step start and finish, per few records, per rate-limit wait and per result line. They print exactly what they always did. Tests: `npm --prefix tui test`, and `tests/run-lock.sh` for the one-run lock.
 
 ## How it works
@@ -305,6 +310,8 @@ The terminal UI reads the progress of a run from the engines (`lib/load.sh`, `li
 Everything the loader writes:
 
 - **Records with a `DEMO-` or `demo_` code** (a record of yours that already carries one of these codes is treated as sample data): the market with its currency, locales and tax classes; the company, contacts and addresses; promotions, their effects and conditions, the voucher batch and vouchers; the shipping method with its rate tiers; and per pack the categories, attribute groups, attributes and options, family and variants, manufacturers, products and their category links, product assets, price lists and entries, and stock levels. Removing deletes these again.
+- **Content pages** (base and per pack, see [What you get](#what-you-get)), marked as sample data in their metadata. A path your tenant already has a page at is kept as it is and reported; removing deletes only the pages the loader created.
+- **No mail templates or triggers.** Your tenant's default messages already cover the one mail this data can cause: the order confirmation of a [test order](#4-place-a-test-order).
 - **Files** in the storage folder `sample-data/<pack>`. Removing deletes the whole folder, including any file you put there yourself.
 - **Created only if missing, never changed:** the product attributes `name`, `description` and `image` (the main picture's storage key, which storefronts read), and the asset families `product_images`, `technical_drawings` and `downloads`. Your own data may use them, so removing leaves them.
 - **Your tenant's setup**, created through the setup routes if missing: the standard sales channel and channel types, shipping carriers and methods, payment methods, order and return number ranges, customer roles and value lists (payment terms, lifecycle stages), the standard price list, and the stock location `main` with its availability states. Stock goes to the location `main`. Removing leaves all of these.
@@ -320,7 +327,8 @@ Each pack is generated from a short spec in `tools/packs/<pack>.py`. To add one:
 3. Add product photos: write simple 3D models and short descriptions in `tools/photo/models/<yours>_*.py` (see `office_example.py`), then run `python3 tools/build-photos.py <yours>`. It needs Blender and a local image model on Apple silicon; the script's header explains the one-time setup.
 4. Add hand-made drawings in `tools/docs/<yours>.mjs` and run `node tools/build-docs.mjs <yours>`; `node tools/build-datasheets.mjs <yours>` writes a data sheet for every model.
 5. Optionally add 3D parts in `tools/cad/<yours>.py` (needs `pip install cadquery`).
-6. Run `./sample-data --load <yours>` twice. The second run must report `0 created`.
+6. Add its content pages to `PACKS` in `tools/build-pages.py` and run `python3 tools/build-pages.py <yours>`.
+7. Run `./sample-data --load <yours>` twice. The second run must report `0 created`.
 
 Steps 3 to 5 are only for generating the files. Loading never needs them.
 

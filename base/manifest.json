@@ -189,6 +189,11 @@
       "if_in_use": {
         "status": "disabled"
       }
+    },
+    {
+      "name": "content pages",
+      "kind": "pages",
+      "file": "pages.json"
     }
   ]
 }

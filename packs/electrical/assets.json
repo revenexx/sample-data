@@ -3240,6 +3240,12 @@
     "external_id": "DEMO-KABELFUX-LOGO-PNG"
   },
   {
+    "code": "DEMO-KABELFUX-LOGO-CARD",
+    "family": "manufacturer_logos",
+    "file": "assets/logos/demo-kabelfux-card.png",
+    "external_id": "DEMO-KABELFUX-LOGO-CARD"
+  },
+  {
     "code": "DEMO-HELLGRUND-LOGO",
     "family": "manufacturer_logos",
     "file": "assets/logos/demo-hellgrund.svg",
@@ -3250,6 +3256,12 @@
     "family": "manufacturer_logos",
     "file": "assets/logos/demo-hellgrund.png",
     "external_id": "DEMO-HELLGRUND-LOGO-PNG"
+  },
+  {
+    "code": "DEMO-HELLGRUND-LOGO-CARD",
+    "family": "manufacturer_logos",
+    "file": "assets/logos/demo-hellgrund-card.png",
+    "external_id": "DEMO-HELLGRUND-LOGO-CARD"
   },
   {
     "code": "DEMO-ELE-IMG",

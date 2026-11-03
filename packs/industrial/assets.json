@@ -3006,6 +3006,12 @@
     "external_id": "DEMO-BRAKKWERK-LOGO-PNG"
   },
   {
+    "code": "DEMO-BRAKKWERK-LOGO-CARD",
+    "family": "manufacturer_logos",
+    "file": "assets/logos/demo-brakkwerk-card.png",
+    "external_id": "DEMO-BRAKKWERK-LOGO-CARD"
+  },
+  {
     "code": "DEMO-HARTFELL-LOGO",
     "family": "manufacturer_logos",
     "file": "assets/logos/demo-hartfell.svg",
@@ -3016,6 +3022,12 @@
     "family": "manufacturer_logos",
     "file": "assets/logos/demo-hartfell.png",
     "external_id": "DEMO-HARTFELL-LOGO-PNG"
+  },
+  {
+    "code": "DEMO-HARTFELL-LOGO-CARD",
+    "family": "manufacturer_logos",
+    "file": "assets/logos/demo-hartfell-card.png",
+    "external_id": "DEMO-HARTFELL-LOGO-CARD"
   },
   {
     "code": "DEMO-IND-IMG",

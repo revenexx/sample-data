@@ -3288,6 +3288,12 @@
     "external_id": "DEMO-PROBARA-LOGO-PNG"
   },
   {
+    "code": "DEMO-PROBARA-LOGO-CARD",
+    "family": "manufacturer_logos",
+    "file": "assets/logos/demo-probara-card.png",
+    "external_id": "DEMO-PROBARA-LOGO-CARD"
+  },
+  {
     "code": "DEMO-PIPETRIX-LOGO",
     "family": "manufacturer_logos",
     "file": "assets/logos/demo-pipetrix.svg",
@@ -3298,6 +3304,12 @@
     "family": "manufacturer_logos",
     "file": "assets/logos/demo-pipetrix.png",
     "external_id": "DEMO-PIPETRIX-LOGO-PNG"
+  },
+  {
+    "code": "DEMO-PIPETRIX-LOGO-CARD",
+    "family": "manufacturer_logos",
+    "file": "assets/logos/demo-pipetrix-card.png",
+    "external_id": "DEMO-PIPETRIX-LOGO-CARD"
   },
   {
     "code": "DEMO-LAB-IMG",

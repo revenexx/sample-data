@@ -7,7 +7,17 @@ import { bar, baseState, needsBase, formatCount, packState, ratio, totalOf } fro
 import { configFromEnv, parseDotenv, hostOf, isLocal } from "../src/config.ts";
 import { loadTargets } from "../src/plan.ts";
 
-const target = { categories: 0, attributes: 0, makers: 0, lists: 0, products: 10, assets: 20, stock: 5, prices: 8 };
+const target = {
+  categories: 0,
+  attributes: 0,
+  makers: 0,
+  lists: 0,
+  products: 10,
+  assets: 20,
+  stock: 5,
+  prices: 8,
+  pages: 0,
+};
 
 test("totalOf: a row as a whole, each count capped at its target", () => {
   const t = { ...target, categories: 7, lists: 2 };
@@ -20,28 +30,28 @@ test("totalOf: a row as a whole, each count capped at its target", () => {
 test("packState: loaded, partial, not loaded, running", () => {
   assert.equal(
     packState(
-      { categories: 0, attributes: 0, makers: 0, lists: 0, products: 10, assets: 20, stock: 5, prices: 8 },
+      { categories: 0, attributes: 0, makers: 0, lists: 0, products: 10, assets: 20, stock: 5, prices: 8, pages: 0 },
       target,
     ),
     "loaded",
   );
   assert.equal(
     packState(
-      { categories: 0, attributes: 0, makers: 0, lists: 0, products: 12, assets: 20, stock: 5, prices: 8 },
+      { categories: 0, attributes: 0, makers: 0, lists: 0, products: 12, assets: 20, stock: 5, prices: 8, pages: 0 },
       target,
     ),
     "loaded",
   );
   assert.equal(
     packState(
-      { categories: 0, attributes: 0, makers: 0, lists: 0, products: 10, assets: 19, stock: 5, prices: 8 },
+      { categories: 0, attributes: 0, makers: 0, lists: 0, products: 10, assets: 19, stock: 5, prices: 8, pages: 0 },
       target,
     ),
     "partial",
   );
   assert.equal(
     packState(
-      { categories: 0, attributes: 0, makers: 0, lists: 0, products: 0, assets: 0, stock: 0, prices: 0 },
+      { categories: 0, attributes: 0, makers: 0, lists: 0, products: 0, assets: 0, stock: 0, prices: 0, pages: 0 },
       target,
     ),
     "not loaded",
@@ -49,7 +59,7 @@ test("packState: loaded, partial, not loaded, running", () => {
   assert.equal(packState(null, target), "unknown");
   assert.equal(
     packState(
-      { categories: 0, attributes: 0, makers: 0, lists: 0, products: 0, assets: 0, stock: 0, prices: 0 },
+      { categories: 0, attributes: 0, makers: 0, lists: 0, products: 0, assets: 0, stock: 0, prices: 0, pages: 0 },
       target,
       "seed",
     ),
@@ -57,7 +67,7 @@ test("packState: loaded, partial, not loaded, running", () => {
   );
   assert.equal(
     packState(
-      { categories: 0, attributes: 0, makers: 0, lists: 0, products: 10, assets: 20, stock: 5, prices: 8 },
+      { categories: 0, attributes: 0, makers: 0, lists: 0, products: 10, assets: 20, stock: 5, prices: 8, pages: 0 },
       target,
       "remove",
     ),
@@ -118,7 +128,7 @@ test("targets come from the pack files", () => {
   );
   const lab = t.packs.find((p) => p.name === "lab")!;
   assert.equal(lab.products, 125);
-  assert.equal(lab.assets, 557);
+  assert.equal(lab.assets, 559);
   assert.equal(lab.stock, 120);
   assert.equal(lab.prices, 166);
   assert.equal(lab.assetNames.length, lab.assets);

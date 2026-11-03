@@ -19,6 +19,8 @@ const pack = {
   assetNames: ["a.jpg", "b.jpg"],
   stockSkus: ["S1", "S2"],
   priceLists: ["L1"],
+  pageSlugs: ["p", "p/about"],
+  pages: 2,
   folder: "sample-data/p",
   steps: [],
 } as PackTarget;
@@ -46,11 +48,20 @@ const fakeFetch = (calls: string[]) =>
     if (path.startsWith("/inventories/stock"))
       return json({ items: [{ sku: "S1" }, { sku: "OTHER" }], page: { hasMore: false } });
     if (path.startsWith("/prices/lists?")) return json({ items: [{ id: "l1" }] });
+    // "p/about" is a page of the tenant's own (no sample-data mark): not counted.
+    if (path.startsWith("/pages/pages"))
+      return json({
+        items: [
+          { slug: "p", meta: { sample_data: "p" } },
+          { slug: "p/about", meta: {} },
+        ],
+        page: { hasMore: false },
+      });
     if (path.startsWith("/prices/lists/l1/entries")) return json({ items: [{}], page: { total: 4 } });
     return { ok: false, status: 404, json: async () => ({}) } as Response;
   }) as unknown as typeof fetch;
 
-test("counts a pack by its manufacturers, folder, price lists and stock SKUs", async () => {
+test("counts a pack by its manufacturers, folder, price lists, stock SKUs and marked pages", async () => {
   const calls: string[] = [];
   const reader = new ShopReader({ baseUrl: "http://x/v1", tenant: "t", apiKey: "", token: "tok" }, fakeFetch(calls));
   const c = await readCounts(reader, [pack]);
@@ -63,6 +74,7 @@ test("counts a pack by its manufacturers, folder, price lists and stock SKUs", a
     lists: 1,
     prices: 4,
     stock: 1,
+    pages: 1,
   });
 });
 
@@ -84,6 +96,7 @@ test("a pack that is not there counts zero", async () => {
     lists: 0,
     prices: 0,
     stock: 0,
+    pages: 0,
   });
 });
 

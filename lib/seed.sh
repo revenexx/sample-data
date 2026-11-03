@@ -713,6 +713,69 @@ run_defaults() {
   ok "$(printf '%-22s %s routes called' "$(jq -r '.name' <<<"$step")" "$n")"
 }
 
+# ---- content pages ---------------------------------------------------------------------------
+
+# live_pages: every live page of the tenant, as one JSON list of {id, slug, meta}
+# in $SEED_TMP/pages.json. The pages app has no slug filter, so the list is read
+# whole, 200 at a time (its ceiling).
+live_pages() {
+  local off=0 n
+  : > "$SEED_TMP/pages.jsonl"
+  while :; do
+    api GET "/pages/pages?limit=200&offset=$off"
+    [ "$API_STATUS" = 200 ] || return 1
+    printf '%s' "$API_BODY" | jq -c '(.items // .data // [])[] | {id, slug, meta}' >> "$SEED_TMP/pages.jsonl"
+    n=$(printf '%s' "$API_BODY" | jq '(.items // .data // []) | length')
+    [ "$n" -lt 200 ] && break
+    off=$((off + 200))
+  done
+  jq -s . "$SEED_TMP/pages.jsonl" > "$SEED_TMP/pages.json"
+}
+
+# run_pages STEP_JSON DIR: post the pages whose slug is free to the pages app's
+# seed route (fill mode), which creates them and publishes them at once. A taken
+# slug is kept as it is, ours or not: a page is never overwritten.
+run_pages() {
+  local step=$1 dir=$2 name file count missing n=0 res
+  name=$(jq -r '.name' <<<"$step")
+  file="$dir/$(jq -r '.file' <<<"$step")"
+  count=$(jq 'length' "$file")
+  live_pages || die "$name: listing pages answered $API_STATUS: $(api_error)"
+  jq -r --slurpfile live "$SEED_TMP/pages.json" \
+    '.[] | .slug as $s | .meta.sample_data as $m | $live[0][] | select(.slug == $s and .meta.sample_data != $m) | .slug' "$file" |
+    while IFS= read -r s; do warn "$name: /$s is a page of the tenant; kept, not replaced"; done
+  missing=$(jq -c --slurpfile live "$SEED_TMP/pages.json" '[($live[0] | map(.slug)) as $have | .[] | select(.slug as $s | $have | index($s) | not)]' "$file")
+  n=$(jq 'length' <<<"$missing")
+  if [ "$n" -gt 0 ] && [ "$DRY_RUN" != 1 ]; then
+    api POST /pages/seed "$(jq -c '{mode: "fill", pages: .}' <<<"$missing")"
+    case "$API_STATUS" in 200|201) ;; *) die "$name: seed answered $API_STATUS: $(api_error)" ;; esac
+    res=$(printf '%s' "$API_BODY" | jq -r '[(.pages.failed // [])[] | "\(.slug): \(.reason)"] + [(.deferred.pages // [])[] | "\(.): deferred"] | join("; ")')
+    [ -z "$res" ] || die "$name: $res"
+    n=$(printf '%s' "$API_BODY" | jq '.added.pages | length')
+  fi
+  ok "$(printf '%-22s %s created, %s kept' "$name" "$n" "$((count - n))")"
+}
+
+# remove_pages STEP_JSON DIR: delete the pages this data created, found by slug
+# and by their meta.sample_data mark. The pages app only moves a page to its
+# trash (there is no purge); the slug is free again for a later load.
+remove_pages() {
+  local step=$1 dir=$2 name file id n=0 gone
+  name=$(jq -r '.name' <<<"$step")
+  file="$dir/$(jq -r '.file' <<<"$step")"
+  live_pages || { failed "$name: listing pages answered $API_STATUS: $(api_error)"; return; }
+  while IFS= read -r id; do
+    if [ "$DRY_RUN" != 1 ]; then
+      api DELETE "/pages/pages/$id"
+      case "$API_STATUS" in 200|204|404) ;; *) failed "$name: delete $id answered $API_STATUS: $(api_error)"; continue ;; esac
+    fi
+    n=$((n + 1))
+  done < <(jq -r --slurpfile live "$SEED_TMP/pages.json" \
+    '.[] | .slug as $s | .meta.sample_data as $m | $live[0][] | select(.slug == $s and .meta.sample_data == $m) | .id' "$file")
+  gone=$(( $(jq 'length' "$file") - n ))
+  ok "$(printf '%-22s %s removed, %s not there' "$name" "$n" "$gone")"
+}
+
 # ---- manifests ---------------------------------------------------------------------------
 
 # run_manifest FILE: run every step of one manifest in order.
@@ -733,6 +796,7 @@ run_manifest() {
       replace) run_replace "$step" "$dir" ;;
       stock) run_stock "$step" "$dir" ;;
       files) run_files "$step" "$dir" ;;
+      pages) run_pages "$step" "$dir" ;;
       *) die "unknown step kind '$kind' in $manifest" ;;
     esac
     ev_step end "$i" "$step"
@@ -740,8 +804,8 @@ run_manifest() {
 }
 
 # base_complete: every record of base/ (market, company with contacts and
-# addresses, promotions with voucher batches and vouchers, shipping method) is
-# in the tenant, found by its key. Read-only.
+# addresses, promotions with voucher batches and vouchers, shipping method,
+# content pages) is in the tenant, found by its key. Read-only.
 base_complete() {
   local spec route key file v
   for spec in "/markets|code|markets.json" \
@@ -759,6 +823,8 @@ base_complete() {
       printf '%s' "$API_BODY" | jq -e '(.items // .data // []) | length > 0' >/dev/null || return 1
     done < <(jq -r --arg k "$key" '.[] | .[$k]' "base/$file")
   done
+  live_pages || return 1
+  jq -e --slurpfile live "$SEED_TMP/pages.json" '($live[0] | map(.slug)) as $have | all(.[]; .slug as $s | $have | index($s))' base/pages.json >/dev/null
 }
 
 # ---- removal ---------------------------------------------------------------------------------
@@ -936,6 +1002,7 @@ remove_manifest() {
       upsert) remove_upsert "$step" "$dir" ;;
       files) remove_files "$step" "$dir" ;;
       stock) remove_stock "$step" "$dir" ;;
+      pages) remove_pages "$step" "$dir" ;;
       defaults|price_entries|children|replace) ;;   # tenant defaults stay; entries, children and sets go with their parent
       *) die "unknown step kind '$kind' in $manifest" ;;
     esac
