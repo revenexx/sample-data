@@ -332,6 +332,12 @@ Each pack is generated from a short spec in `tools/packs/<pack>.py`. To add one:
 
 Steps 3 to 5 are only for generating the files. Loading never needs them.
 
+## Where this repository departs from the estate standard
+
+Our CI/CD standard asks for the reason for every deliberate deviation here.
+
+- **No required review on `main` (§4.1).** A small team maintains this repository, so a required review would mean waiting for someone else or approving without reading. A pull request, the required checks, no force-push and no bypass still hold.
+
 ## Licence
 
 - **Scripts:** MIT, see [LICENSE](LICENSE).
