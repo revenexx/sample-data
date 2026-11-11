@@ -26,7 +26,7 @@
     "@types/node": "^22.0.0",
     "@types/react": "^19.3.0",
     "eslint": "^10.14.0",
-    "globals": "^17.13.0",
+    "globals": "^17.14.0",
     "ink-testing-library": "^4.0.0",
     "prettier": "^3.9.10",
     "typescript": "^5.6.0",
