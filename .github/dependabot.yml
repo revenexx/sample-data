@@ -53,5 +53,8 @@ updates:
       - dependency-name: "revenexx/.github/*"
       - dependency-name: "revenexx/.github/**"
     groups:
+      actions-security:
+        applies-to: security-updates
+        patterns: ["*"]
       actions:
         patterns: ["*"]
