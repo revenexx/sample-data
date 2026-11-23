@@ -14,8 +14,8 @@ PACK = {
         {"code": "DEMO-LAB-SAFETY", "parent": "DEMO-LAB", "labels": ("Laborsicherheit", "Lab safety"), "position": 4},
         {"code": "DEMO-LAB-STORAGE", "parent": "DEMO-LAB", "labels": ("Aufbewahrung & Racks", "Storage & racks"), "position": 5},
     ],
-    "groups": [("general", ("Allgemein", "General")), ("technical", ("Technische Daten", "Technical data")),
-               ("media", ("Medien & Downloads", "Media & downloads"))],
+    "groups": [("general", ("Allgemein (Labor)", "General (Lab)")), ("technical", ("Technische Daten (Labor)", "Technical data (Lab)")),
+               ("media", ("Medien & Downloads (Labor)", "Media & downloads (Lab)"))],
     "attributes": [
         {"code": "max_speed", "type": "metric", "group": "technical", "labels": ("Maximale Drehzahl", "Max. speed"),
          "units": ["REVOLUTIONS_PER_MINUTE"], "filterable": True},
@@ -731,7 +731,7 @@ PACK = {
     },
     "datasheets": {},
     "price_lists": {"list": ("Listenpreise Labor (Demo)", "Lab list prices (demo)"),
-                    "contract": ("Vertragspreise Muster Labor (Demo)", "Contract prices Muster Labor (demo)")},
+                    "contract": ("Vertragspreise Labor – Muster Bau (Demo)", "Lab contract prices – Muster Bau (demo)")},
     "prices": {
         "DEMO-LAB-1001": [(1, 239.00)], "DEMO-LAB-1002": [(1, 649.00)], "DEMO-LAB-1003": [(1, 119.00)], "DEMO-LAB-1004": [(1, 24.90)],
         "DEMO-LAB-2001-10UL": [(1, 139.00)], "DEMO-LAB-2001-200UL": [(1, 139.00)], "DEMO-LAB-2001-1000UL": [(1, 149.00)],

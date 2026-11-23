@@ -14,10 +14,10 @@
   },
   {
     "code": "DEMO-OFF-CONTRACT",
-    "name": "Contract prices Muster Büro (demo)",
+    "name": "Office contract prices – Muster Bau (demo)",
     "labels": {
-      "de-DE": "Vertragspreise Muster Büro (Demo)",
-      "en-US": "Contract prices Muster Büro (demo)"
+      "de-DE": "Vertragspreise Büro – Muster Bau (Demo)",
+      "en-US": "Office contract prices – Muster Bau (demo)"
     },
     "organization": "DEMO-C-1001",
     "currency": "EUR",

@@ -1,0 +1,217 @@
+[
+  {
+    "code": "length",
+    "standard_unit": "METER",
+    "labels": {
+      "de-DE": "Länge",
+      "en-US": "Length"
+    },
+    "units": [
+      {
+        "code": "MILLIMETER",
+        "symbol": "mm",
+        "convert_factor": 0.001
+      },
+      {
+        "code": "METER",
+        "symbol": "m",
+        "convert_factor": 1
+      }
+    ]
+  },
+  {
+    "code": "weight",
+    "standard_unit": "KILOGRAM",
+    "labels": {
+      "de-DE": "Gewicht",
+      "en-US": "Weight"
+    },
+    "units": [
+      {
+        "code": "GRAM",
+        "symbol": "g",
+        "convert_factor": 0.001
+      },
+      {
+        "code": "KILOGRAM",
+        "symbol": "kg",
+        "convert_factor": 1
+      }
+    ]
+  },
+  {
+    "code": "volume",
+    "standard_unit": "LITER",
+    "labels": {
+      "de-DE": "Volumen",
+      "en-US": "Volume"
+    },
+    "units": [
+      {
+        "code": "MICROLITER",
+        "symbol": "µl",
+        "convert_factor": 1e-06
+      },
+      {
+        "code": "MILLILITER",
+        "symbol": "ml",
+        "convert_factor": 0.001
+      },
+      {
+        "code": "LITER",
+        "symbol": "l",
+        "convert_factor": 1
+      }
+    ]
+  },
+  {
+    "code": "voltage",
+    "standard_unit": "VOLT",
+    "labels": {
+      "de-DE": "Spannung",
+      "en-US": "Voltage"
+    },
+    "units": [
+      {
+        "code": "VOLT",
+        "symbol": "V",
+        "convert_factor": 1
+      }
+    ]
+  },
+  {
+    "code": "electric_current",
+    "standard_unit": "AMPERE",
+    "labels": {
+      "de-DE": "Stromstärke",
+      "en-US": "Electric current"
+    },
+    "units": [
+      {
+        "code": "AMPERE",
+        "symbol": "A",
+        "convert_factor": 1
+      }
+    ]
+  },
+  {
+    "code": "electric_charge",
+    "standard_unit": "AMPERE_HOUR",
+    "labels": {
+      "de-DE": "Ladung",
+      "en-US": "Electric charge"
+    },
+    "units": [
+      {
+        "code": "AMPERE_HOUR",
+        "symbol": "Ah",
+        "convert_factor": 1
+      }
+    ]
+  },
+  {
+    "code": "power",
+    "standard_unit": "WATT",
+    "labels": {
+      "de-DE": "Leistung",
+      "en-US": "Power"
+    },
+    "units": [
+      {
+        "code": "WATT",
+        "symbol": "W",
+        "convert_factor": 1
+      }
+    ]
+  },
+  {
+    "code": "luminous_flux",
+    "standard_unit": "LUMEN",
+    "labels": {
+      "de-DE": "Lichtstrom",
+      "en-US": "Luminous flux"
+    },
+    "units": [
+      {
+        "code": "LUMEN",
+        "symbol": "lm",
+        "convert_factor": 1
+      }
+    ]
+  },
+  {
+    "code": "temperature",
+    "standard_unit": "KELVIN",
+    "labels": {
+      "de-DE": "Temperatur",
+      "en-US": "Temperature"
+    },
+    "units": [
+      {
+        "code": "KELVIN",
+        "symbol": "K",
+        "convert_factor": 1
+      }
+    ]
+  },
+  {
+    "code": "angle",
+    "standard_unit": "DEGREE",
+    "labels": {
+      "de-DE": "Winkel",
+      "en-US": "Angle"
+    },
+    "units": [
+      {
+        "code": "DEGREE",
+        "symbol": "°",
+        "convert_factor": 1
+      }
+    ]
+  },
+  {
+    "code": "sound_level",
+    "standard_unit": "DECIBEL",
+    "labels": {
+      "de-DE": "Schallpegel",
+      "en-US": "Sound level"
+    },
+    "units": [
+      {
+        "code": "DECIBEL",
+        "symbol": "dB",
+        "convert_factor": 1
+      }
+    ]
+  },
+  {
+    "code": "area_density",
+    "standard_unit": "GRAM_PER_SQUARE_METER",
+    "labels": {
+      "de-DE": "Flächengewicht",
+      "en-US": "Area density"
+    },
+    "units": [
+      {
+        "code": "GRAM_PER_SQUARE_METER",
+        "symbol": "g/m²",
+        "convert_factor": 1
+      }
+    ]
+  },
+  {
+    "code": "rotational_speed",
+    "standard_unit": "REVOLUTIONS_PER_MINUTE",
+    "labels": {
+      "de-DE": "Drehzahl",
+      "en-US": "Rotational speed"
+    },
+    "units": [
+      {
+        "code": "REVOLUTIONS_PER_MINUTE",
+        "symbol": "min⁻¹",
+        "convert_factor": 1
+      }
+    ]
+  }
+]

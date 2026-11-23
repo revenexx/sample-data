@@ -13,7 +13,8 @@
     "config": {
       "units": [
         "VOLT"
-      ]
+      ],
+      "metric_family": "voltage"
     },
     "is_filterable": true
   },
@@ -31,7 +32,8 @@
     "config": {
       "units": [
         "AMPERE_HOUR"
-      ]
+      ],
+      "metric_family": "electric_charge"
     }
   },
   {
@@ -48,7 +50,8 @@
     "config": {
       "units": [
         "MILLIMETER"
-      ]
+      ],
+      "metric_family": "length"
     },
     "is_filterable": true
   },
@@ -79,7 +82,8 @@
     "config": {
       "units": [
         "MILLIMETER"
-      ]
+      ],
+      "metric_family": "length"
     },
     "is_filterable": true
   },
@@ -147,7 +151,8 @@
     "config": {
       "units": [
         "DECIBEL"
-      ]
+      ],
+      "metric_family": "sound_level"
     }
   },
   {
@@ -164,7 +169,8 @@
     "config": {
       "units": [
         "KILOGRAM"
-      ]
+      ],
+      "metric_family": "weight"
     }
   },
   {
@@ -181,7 +187,8 @@
     "config": {
       "units": [
         "MILLIMETER"
-      ]
+      ],
+      "metric_family": "length"
     },
     "is_filterable": true
   },
@@ -199,7 +206,8 @@
     "config": {
       "units": [
         "WATT"
-      ]
+      ],
+      "metric_family": "power"
     },
     "is_filterable": true
   },
@@ -217,7 +225,8 @@
     "config": {
       "units": [
         "LITER"
-      ]
+      ],
+      "metric_family": "volume"
     }
   },
   {
@@ -234,7 +243,8 @@
     "config": {
       "units": [
         "KILOGRAM"
-      ]
+      ],
+      "metric_family": "weight"
     }
   },
   {
@@ -277,7 +287,8 @@
     "config": {
       "units": [
         "REVOLUTIONS_PER_MINUTE"
-      ]
+      ],
+      "metric_family": "rotational_speed"
     }
   },
   {
@@ -330,7 +341,8 @@
     "config": {
       "units": [
         "METER"
-      ]
+      ],
+      "metric_family": "length"
     }
   },
   {
@@ -347,7 +359,8 @@
     "config": {
       "units": [
         "MILLIMETER"
-      ]
+      ],
+      "metric_family": "length"
     }
   },
   {
@@ -508,7 +521,8 @@
     "config": {
       "units": [
         "MILLIMETER"
-      ]
+      ],
+      "metric_family": "length"
     }
   },
   {
@@ -537,7 +551,8 @@
     "config": {
       "units": [
         "DECIBEL"
-      ]
+      ],
+      "metric_family": "sound_level"
     }
   },
   {
@@ -616,7 +631,8 @@
     "config": {
       "units": [
         "MILLIMETER"
-      ]
+      ],
+      "metric_family": "length"
     }
   },
   {
@@ -633,7 +649,8 @@
     "config": {
       "units": [
         "MILLIMETER"
-      ]
+      ],
+      "metric_family": "length"
     }
   },
   {
@@ -650,7 +667,8 @@
     "config": {
       "units": [
         "MILLIMETER"
-      ]
+      ],
+      "metric_family": "length"
     }
   },
   {
@@ -667,7 +685,8 @@
     "config": {
       "units": [
         "MILLIMETER"
-      ]
+      ],
+      "metric_family": "length"
     }
   },
   {
@@ -684,7 +703,8 @@
     "config": {
       "units": [
         "MILLIMETER"
-      ]
+      ],
+      "metric_family": "length"
     }
   },
   {
@@ -701,7 +721,8 @@
     "config": {
       "units": [
         "REVOLUTIONS_PER_MINUTE"
-      ]
+      ],
+      "metric_family": "rotational_speed"
     }
   },
   {
@@ -718,7 +739,8 @@
     "config": {
       "units": [
         "MILLIMETER"
-      ]
+      ],
+      "metric_family": "length"
     }
   },
   {
@@ -735,7 +757,8 @@
     "config": {
       "units": [
         "MILLIMETER"
-      ]
+      ],
+      "metric_family": "length"
     }
   },
   {
@@ -789,7 +812,8 @@
     "config": {
       "units": [
         "MILLIMETER"
-      ]
+      ],
+      "metric_family": "length"
     }
   },
   {
@@ -806,7 +830,8 @@
     "config": {
       "units": [
         "MILLIMETER"
-      ]
+      ],
+      "metric_family": "length"
     }
   },
   {

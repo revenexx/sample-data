@@ -14,10 +14,10 @@
   },
   {
     "code": "DEMO-ELE-CONTRACT",
-    "name": "Contract prices Muster Bau (demo)",
+    "name": "Electrical contract prices – Muster Bau (demo)",
     "labels": {
-      "de-DE": "Vertragspreise Muster Bau (Demo)",
-      "en-US": "Contract prices Muster Bau (demo)"
+      "de-DE": "Vertragspreise Elektro – Muster Bau (Demo)",
+      "en-US": "Electrical contract prices – Muster Bau (demo)"
     },
     "organization": "DEMO-C-1001",
     "currency": "EUR",

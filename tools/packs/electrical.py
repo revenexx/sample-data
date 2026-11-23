@@ -14,8 +14,8 @@ PACK = {
         {"code": "DEMO-ELE-MATERIAL", "parent": "DEMO-ELE", "labels": ("Installationsmaterial", "Installation material"), "position": 4},
         {"code": "DEMO-ELE-TOOLS", "parent": "DEMO-ELE", "labels": ("Werkzeug & Prüftechnik", "Tools & testers"), "position": 5},
     ],
-    "groups": [("general", ("Allgemein", "General")), ("technical", ("Technische Daten", "Technical data")),
-               ("media", ("Medien & Downloads", "Media & downloads"))],
+    "groups": [("general", ("Allgemein (Elektro)", "General (Electrical)")), ("technical", ("Technische Daten (Elektro)", "Technical data (Electrical)")),
+               ("media", ("Medien & Downloads (Elektro)", "Media & downloads (Electrical)"))],
     "attributes": [
         {"code": "cores_cross_section", "type": "select", "group": "technical", "labels": ("Adern & Querschnitt", "Cores & cross section"), "filterable": True},
         {"code": "length", "type": "metric", "group": "technical", "labels": ("Länge", "Length"), "units": ["METER"], "filterable": True},
@@ -695,7 +695,7 @@ PACK = {
     },
     "datasheets": {},
     "price_lists": {"list": ("Listenpreise Elektro (Demo)", "Electrical list prices (demo)"),
-                    "contract": ("Vertragspreise Muster Bau (Demo)", "Contract prices Muster Bau (demo)")},
+                    "contract": ("Vertragspreise Elektro – Muster Bau (Demo)", "Electrical contract prices – Muster Bau (demo)")},
     "prices": {
         "DEMO-ELE-1001": [(1, 89.00), (10, 84.00), (50, 79.00)], "DEMO-ELE-1002": [(1, 119.00), (10, 112.00), (50, 105.00)],
         "DEMO-ELE-1003": [(1, 39.90), (10, 36.90), (50, 33.90)], "DEMO-ELE-2001": [(1, 5.90)], "DEMO-ELE-2002": [(1, 4.90)],

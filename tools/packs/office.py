@@ -14,8 +14,8 @@ PACK = {
         {"code": "DEMO-OFF-CLEAN", "parent": "DEMO-OFF", "labels": ("Reinigung & Pflege", "Cleaning & care"), "position": 4},
         {"code": "DEMO-OFF-MAIL", "parent": "DEMO-OFF", "labels": ("Versand & Verpackung", "Mailing & packaging"), "position": 5},
     ],
-    "groups": [("general", ("Allgemein", "General")), ("technical", ("Technische Daten", "Technical data")),
-               ("media", ("Medien & Downloads", "Media & downloads"))],
+    "groups": [("general", ("Allgemein (Büro)", "General (Office)")), ("technical", ("Technische Daten (Büro)", "Technical data (Office)")),
+               ("media", ("Medien & Downloads (Büro)", "Media & downloads (Office)"))],
     "attributes": [
         {"code": "format", "type": "select", "group": "technical", "labels": ("Format", "Format"), "filterable": True},
         {"code": "paper_weight", "type": "metric", "group": "technical", "labels": ("Grammatur", "Paper weight"),
@@ -600,7 +600,7 @@ PACK = {
     "cad": {},
     "datasheets": {},
     "price_lists": {"list": ("Listenpreise Büro (Demo)", "Office list prices (demo)"),
-                    "contract": ("Vertragspreise Muster Büro (Demo)", "Contract prices Muster Büro (demo)")},
+                    "contract": ("Vertragspreise Büro – Muster Bau (Demo)", "Office contract prices – Muster Bau (demo)")},
     "prices": {
         "DEMO-OFF-1001": [(1, 5.90), (10, 5.40), (50, 4.90)],
         "DEMO-OFF-1002-BLUE": [(1, 4.90)], "DEMO-OFF-1002-RED": [(1, 4.90)], "DEMO-OFF-1002-BLACK": [(1, 4.90)],

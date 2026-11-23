@@ -26,7 +26,8 @@
     "config": {
       "units": [
         "GRAM_PER_SQUARE_METER"
-      ]
+      ],
+      "metric_family": "area_density"
     },
     "is_filterable": true
   },
@@ -69,7 +70,8 @@
     "config": {
       "units": [
         "MILLIMETER"
-      ]
+      ],
+      "metric_family": "length"
     },
     "is_filterable": true
   },
@@ -99,7 +101,8 @@
     "config": {
       "units": [
         "LITER"
-      ]
+      ],
+      "metric_family": "volume"
     }
   },
   {
@@ -116,7 +119,8 @@
     "config": {
       "units": [
         "KILOGRAM"
-      ]
+      ],
+      "metric_family": "weight"
     }
   },
   {
@@ -134,7 +138,8 @@
       "units": [
         "MILLIMETER",
         "METER"
-      ]
+      ],
+      "metric_family": "length"
     },
     "is_filterable": true
   },
@@ -201,7 +206,8 @@
     "config": {
       "units": [
         "MILLIMETER"
-      ]
+      ],
+      "metric_family": "length"
     }
   },
   {
@@ -230,7 +236,8 @@
     "config": {
       "units": [
         "MILLIMETER"
-      ]
+      ],
+      "metric_family": "length"
     }
   },
   {
@@ -296,7 +303,8 @@
     "config": {
       "units": [
         "MILLIMETER"
-      ]
+      ],
+      "metric_family": "length"
     }
   },
   {
@@ -434,7 +442,8 @@
     "config": {
       "units": [
         "KILOGRAM"
-      ]
+      ],
+      "metric_family": "weight"
     }
   },
   {
@@ -475,7 +484,8 @@
     "config": {
       "units": [
         "MILLIMETER"
-      ]
+      ],
+      "metric_family": "length"
     }
   },
   {
@@ -552,7 +562,8 @@
     "config": {
       "units": [
         "MILLIMETER"
-      ]
+      ],
+      "metric_family": "length"
     }
   },
   {
@@ -569,7 +580,8 @@
     "config": {
       "units": [
         "MILLIMETER"
-      ]
+      ],
+      "metric_family": "length"
     }
   },
   {
@@ -646,7 +658,8 @@
     "config": {
       "units": [
         "MILLIMETER"
-      ]
+      ],
+      "metric_family": "length"
     }
   },
   {

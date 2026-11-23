@@ -2,7 +2,7 @@
 # Engine behind `./sample-data --remove`: removes the sample data again, exactly
 # the records lib/load.sh created, found by their codes. The tenant defaults,
 # the stock locations and generic records (the name and description attributes,
-# the asset families) stay.
+# the asset families, the measurement families) stay.
 #
 #   lib/remove.sh --pack industrial     # one pack
 #   lib/remove.sh --pack all --base     # every pack and the base (market, company, promotions)

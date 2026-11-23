@@ -13,7 +13,8 @@
     "config": {
       "units": [
         "REVOLUTIONS_PER_MINUTE"
-      ]
+      ],
+      "metric_family": "rotational_speed"
     },
     "is_filterable": true
   },
@@ -57,7 +58,8 @@
       "units": [
         "MICROLITER",
         "MILLILITER"
-      ]
+      ],
+      "metric_family": "volume"
     },
     "is_filterable": true
   },
@@ -126,7 +128,8 @@
     "config": {
       "units": [
         "KILOGRAM"
-      ]
+      ],
+      "metric_family": "weight"
     }
   },
   {
@@ -143,7 +146,8 @@
     "config": {
       "units": [
         "MILLIMETER"
-      ]
+      ],
+      "metric_family": "length"
     }
   },
   {
@@ -185,7 +189,8 @@
     "config": {
       "units": [
         "WATT"
-      ]
+      ],
+      "metric_family": "power"
     }
   },
   {
@@ -227,7 +232,8 @@
     "config": {
       "units": [
         "DECIBEL"
-      ]
+      ],
+      "metric_family": "sound_level"
     }
   },
   {
@@ -293,7 +299,8 @@
     "config": {
       "units": [
         "GRAM"
-      ]
+      ],
+      "metric_family": "weight"
     },
     "is_filterable": true
   },

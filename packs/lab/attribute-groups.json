@@ -2,24 +2,24 @@
   {
     "code": "demo_lab_general",
     "labels": {
-      "de-DE": "Allgemein",
-      "en-US": "General"
+      "de-DE": "Allgemein (Labor)",
+      "en-US": "General (Lab)"
     },
     "position": 0
   },
   {
     "code": "demo_lab_technical",
     "labels": {
-      "de-DE": "Technische Daten",
-      "en-US": "Technical data"
+      "de-DE": "Technische Daten (Labor)",
+      "en-US": "Technical data (Lab)"
     },
     "position": 1
   },
   {
     "code": "demo_lab_media",
     "labels": {
-      "de-DE": "Medien & Downloads",
-      "en-US": "Media & downloads"
+      "de-DE": "Medien & Downloads (Labor)",
+      "en-US": "Media & downloads (Lab)"
     },
     "position": 2
   }

@@ -2,24 +2,24 @@
   {
     "code": "demo_ele_general",
     "labels": {
-      "de-DE": "Allgemein",
-      "en-US": "General"
+      "de-DE": "Allgemein (Elektro)",
+      "en-US": "General (Electrical)"
     },
     "position": 0
   },
   {
     "code": "demo_ele_technical",
     "labels": {
-      "de-DE": "Technische Daten",
-      "en-US": "Technical data"
+      "de-DE": "Technische Daten (Elektro)",
+      "en-US": "Technical data (Electrical)"
     },
     "position": 1
   },
   {
     "code": "demo_ele_media",
     "labels": {
-      "de-DE": "Medien & Downloads",
-      "en-US": "Media & downloads"
+      "de-DE": "Medien & Downloads (Elektro)",
+      "en-US": "Media & downloads (Electrical)"
     },
     "position": 2
   }
