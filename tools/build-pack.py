@@ -99,7 +99,8 @@ def build(pack):
         {"attribute": f"{attr_pre}{attr}", "code": code, "labels": L(*labels), "position": i}
         for attr, options in P["options"].items() for i, (code, labels) in enumerate(options)])
 
-    write(out / "families.json", [{"code": family, "labels": L(*P["family"]["labels"]), "label_attribute": "name", "external_id": family}])
+    write(out / "families.json", [{"code": family, "labels": L(*P["family"]["labels"]), "label_attribute": "name",
+                                        "image_attribute": f"{attr_pre}images", "external_id": family}])
     fam_attrs = ["name", "description", "image"] + [f"{attr_pre}{a['code']}" for a in P["attributes"]]
     fam_attrs += [f"{attr_pre}images", f"{attr_pre}drawings", f"{attr_pre}downloads"]
     # demo_has_cad lives in the base (one filter across every pack): products with a STEP model.

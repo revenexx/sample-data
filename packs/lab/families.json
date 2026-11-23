@@ -6,6 +6,7 @@
       "en-US": "Laboratory article"
     },
     "label_attribute": "name",
+    "image_attribute": "demo_lab_images",
     "external_id": "DEMO-LAB-ARTICLE"
   }
 ]
