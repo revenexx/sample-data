@@ -275,7 +275,7 @@ Removal deletes exactly the records the loader created, found by their codes, an
 What stays, on purpose:
 
 - **Your tenant's own settings:** channel, shipping and payment methods, order numbers, roles, stock locations.
-- **Shared fields:** the `name`, `description` and `image` attributes and the asset families. Your own data may use them.
+- **Shared fields:** the `name`, `description` and `image` attributes, the asset families and the measurement families. Your own data may use them.
 - **Orders and what they refer to.** Orders cannot be deleted. `--base` first cancels the open orders the example script placed (they carry the reference `SAMPLE-TEST`) and gives their discounts back; the cancelled orders stay. Orders you placed yourself are never touched. A voucher or promotion that was ever redeemed is disabled or archived instead of deleted, and a company or contact with other open orders is blocked, so your order history stays intact. Loading the data again reactivates these records. A spotless tenant takes deleting the tenant.
 
 ## Without a terminal
@@ -313,7 +313,7 @@ Everything the loader writes:
 - **Content pages** (base and per pack, see [What you get](#what-you-get)), marked as sample data in their metadata. A path your tenant already has a page at is kept as it is and reported; removing deletes only the pages the loader created.
 - **No mail templates or triggers.** Your tenant's default messages already cover the one mail this data can cause: the order confirmation of a [test order](#4-place-a-test-order).
 - **Files** in the storage folder `sample-data/<pack>`. Removing deletes the whole folder, including any file you put there yourself.
-- **Created only if missing, never changed:** the product attributes `name`, `description` and `image` (the main picture's storage key, which storefronts read), and the asset families `product_images`, `technical_drawings` and `downloads`. Your own data may use them, so removing leaves them.
+- **Created only if missing, never changed:** the product attributes `name`, `description` and `image` (the main picture's storage key, which storefronts read), the asset families `product_images`, `technical_drawings` and `downloads`, and the measurement families the metric attributes name (`length`, `weight`, `volume`, `voltage`, `power` and the others in `base/measurement-families.json`, each with its units, their symbols and conversion factors). Your own data may use them, so removing leaves them.
 - **Your tenant's setup**, created through the setup routes if missing: the standard sales channel and channel types, shipping carriers and methods, payment methods, order and return number ranges, customer roles and value lists (payment terms, lifecycle stages), the standard price list, and the stock location `main` with its availability states. Stock goes to the location `main`. Removing leaves all of these.
 
 Orders you place yourself, for example with `examples/place-test-order.sh`, are yours: neither loading nor removing touches them. Apart from that, it never changes or deletes any other record of yours.

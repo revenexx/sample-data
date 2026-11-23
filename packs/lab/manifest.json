@@ -31,6 +31,13 @@
       "file": "../../base/shared-attributes.json"
     },
     {
+      "name": "measurement families",
+      "mode": "ensure",
+      "route": "/products/measurement_families",
+      "key": "code",
+      "file": "../../base/measurement-families.json"
+    },
+    {
       "name": "attributes",
       "route": "/products/attributes",
       "key": [

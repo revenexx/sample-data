@@ -14,10 +14,10 @@
   },
   {
     "code": "DEMO-IND-CONTRACT",
-    "name": "Contract prices Muster Bau (demo)",
+    "name": "Industrial contract prices – Muster Bau (demo)",
     "labels": {
-      "de-DE": "Vertragspreise Muster Bau (Demo)",
-      "en-US": "Contract prices Muster Bau (demo)"
+      "de-DE": "Vertragspreise Werkstatt – Muster Bau (Demo)",
+      "en-US": "Industrial contract prices – Muster Bau (demo)"
     },
     "organization": "DEMO-C-1001",
     "currency": "EUR",

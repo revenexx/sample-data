@@ -14,10 +14,10 @@
   },
   {
     "code": "DEMO-LAB-CONTRACT",
-    "name": "Contract prices Muster Labor (demo)",
+    "name": "Lab contract prices – Muster Bau (demo)",
     "labels": {
-      "de-DE": "Vertragspreise Muster Labor (Demo)",
-      "en-US": "Contract prices Muster Labor (demo)"
+      "de-DE": "Vertragspreise Labor – Muster Bau (Demo)",
+      "en-US": "Lab contract prices – Muster Bau (demo)"
     },
     "organization": "DEMO-C-1001",
     "currency": "EUR",

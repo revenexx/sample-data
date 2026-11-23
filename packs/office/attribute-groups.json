@@ -2,24 +2,24 @@
   {
     "code": "demo_off_general",
     "labels": {
-      "de-DE": "Allgemein",
-      "en-US": "General"
+      "de-DE": "Allgemein (Büro)",
+      "en-US": "General (Office)"
     },
     "position": 0
   },
   {
     "code": "demo_off_technical",
     "labels": {
-      "de-DE": "Technische Daten",
-      "en-US": "Technical data"
+      "de-DE": "Technische Daten (Büro)",
+      "en-US": "Technical data (Office)"
     },
     "position": 1
   },
   {
     "code": "demo_off_media",
     "labels": {
-      "de-DE": "Medien & Downloads",
-      "en-US": "Media & downloads"
+      "de-DE": "Medien & Downloads (Büro)",
+      "en-US": "Media & downloads (Office)"
     },
     "position": 2
   }

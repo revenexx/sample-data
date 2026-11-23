@@ -14,8 +14,8 @@ PACK = {
         {"code": "DEMO-IND-ABRASIVES", "parent": "DEMO-IND", "labels": ("Schleif- & Trennmittel", "Abrasives & cutting"), "position": 4},
         {"code": "DEMO-IND-WORKSHOP", "parent": "DEMO-IND", "labels": ("Werkstattausstattung", "Workshop equipment"), "position": 5},
     ],
-    "groups": [("general", ("Allgemein", "General")), ("technical", ("Technische Daten", "Technical data")),
-               ("media", ("Medien & Downloads", "Media & downloads"))],
+    "groups": [("general", ("Allgemein (Werkstatt)", "General (Industrial)")), ("technical", ("Technische Daten (Werkstatt)", "Technical data (Industrial)")),
+               ("media", ("Medien & Downloads (Werkstatt)", "Media & downloads (Industrial)"))],
     "attributes": [
         {"code": "voltage", "type": "metric", "group": "technical", "labels": ("Spannung", "Voltage"), "units": ["VOLT"], "filterable": True},
         {"code": "battery_capacity", "type": "metric", "group": "technical", "labels": ("Akkukapazität", "Battery capacity"), "units": ["AMPERE_HOUR"]},
@@ -580,7 +580,7 @@ PACK = {
     },
     "datasheets": {},
     "price_lists": {"list": ("Listenpreise Werkstatt (Demo)", "Industrial list prices (demo)"),
-                    "contract": ("Vertragspreise Muster Bau (Demo)", "Contract prices Muster Bau (demo)")},
+                    "contract": ("Vertragspreise Werkstatt – Muster Bau (Demo)", "Industrial contract prices – Muster Bau (demo)")},
     "prices": {
         "DEMO-IND-1001": [(1, 129.00)], "DEMO-IND-1002": [(1, 149.00)], "DEMO-IND-1003": [(1, 89.00)], "DEMO-IND-1004": [(1, 79.00)],
         "DEMO-IND-2001": [(1, 18.90), (10, 16.90), (50, 14.90)], "DEMO-IND-2002": [(1, 12.50), (10, 10.90), (50, 9.40)],

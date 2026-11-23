@@ -51,6 +51,20 @@ def ref(field, route, key="code", place="body", where=None):
     return {"field": field, "route": route, "key": key, "in": place, **({"where": where} if where else {})}
 
 
+# The measurement families every pack shares (base/measurement-families.json):
+# a metric attribute names the one family that holds all of its units.
+FAMILY_OF_UNIT = {u["code"]: f["code"]
+                  for f in json.loads((ROOT / "base" / "measurement-families.json").read_text(encoding="utf-8"))
+                  for u in f["units"]}
+
+
+def family_of(code, units):
+    families = {FAMILY_OF_UNIT.get(u) for u in units}
+    if len(families) != 1 or None in families:
+        sys.exit(f"attribute {code}: units {units} are not all in one measurement family of base/measurement-families.json")
+    return families.pop()
+
+
 def build(pack):
     P = load_spec(pack)
     out = ROOT / "packs" / pack
@@ -69,7 +83,7 @@ def build(pack):
         rec = {"code": f"{attr_pre}{a['code']}", "entity_type": "product", "type": a["type"], "group": f"{attr_pre}{a['group']}",
                "labels": L(*a["labels"]), "position": i, "external_id": f"{attr_pre}{a['code']}"}
         if a.get("units"):
-            rec["config"] = {"units": a["units"]}
+            rec["config"] = {"units": a["units"], "metric_family": family_of(a["code"], a["units"])}
         if a.get("filterable"):
             rec["is_filterable"] = True
         attrs.append(rec)
@@ -217,6 +231,9 @@ def build(pack):
         {"name": "attribute groups", "route": "/products/attribute_groups", "key": "code", "file": "attribute-groups.json"},
         {"name": "shared attributes", "mode": "ensure", "route": "/products/attributes", "key": ["entity_type", "code"],
          "file": "../../base/shared-attributes.json"},
+        # Before the attributes: a metric attribute names its family in config.metric_family.
+        {"name": "measurement families", "mode": "ensure", "route": "/products/measurement_families", "key": "code",
+         "file": "../../base/measurement-families.json"},
         {"name": "attributes", "route": "/products/attributes", "key": ["entity_type", "code"], "file": "attributes.json",
          "refs": {"group_id": ref("group", "/products/attribute_groups")}},
         {"name": "attribute options", "route": "/products/attribute_options", "key": ["attribute_id", "code"], "file": "attribute-options.json",

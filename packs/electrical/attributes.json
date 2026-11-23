@@ -26,7 +26,8 @@
     "config": {
       "units": [
         "METER"
-      ]
+      ],
+      "metric_family": "length"
     },
     "is_filterable": true
   },
@@ -44,7 +45,8 @@
     "config": {
       "units": [
         "VOLT"
-      ]
+      ],
+      "metric_family": "voltage"
     },
     "is_filterable": true
   },
@@ -101,7 +103,8 @@
     "config": {
       "units": [
         "WATT"
-      ]
+      ],
+      "metric_family": "power"
     },
     "is_filterable": true
   },
@@ -119,7 +122,8 @@
     "config": {
       "units": [
         "LUMEN"
-      ]
+      ],
+      "metric_family": "luminous_flux"
     }
   },
   {
@@ -136,7 +140,8 @@
     "config": {
       "units": [
         "KELVIN"
-      ]
+      ],
+      "metric_family": "temperature"
     }
   },
   {
@@ -153,7 +158,8 @@
     "config": {
       "units": [
         "DEGREE"
-      ]
+      ],
+      "metric_family": "angle"
     }
   },
   {
@@ -170,7 +176,8 @@
     "config": {
       "units": [
         "KILOGRAM"
-      ]
+      ],
+      "metric_family": "weight"
     }
   },
   {
@@ -187,7 +194,8 @@
     "config": {
       "units": [
         "AMPERE"
-      ]
+      ],
+      "metric_family": "electric_current"
     },
     "is_filterable": true
   },
@@ -257,7 +265,8 @@
     "config": {
       "units": [
         "MILLIMETER"
-      ]
+      ],
+      "metric_family": "length"
     }
   },
   {
@@ -274,7 +283,8 @@
     "config": {
       "units": [
         "MILLIMETER"
-      ]
+      ],
+      "metric_family": "length"
     }
   },
   {
@@ -291,7 +301,8 @@
     "config": {
       "units": [
         "MILLIMETER"
-      ]
+      ],
+      "metric_family": "length"
     }
   },
   {
@@ -432,7 +443,8 @@
     "config": {
       "units": [
         "AMPERE"
-      ]
+      ],
+      "metric_family": "electric_current"
     }
   },
   {
@@ -726,7 +738,8 @@
     "config": {
       "units": [
         "MILLIMETER"
-      ]
+      ],
+      "metric_family": "length"
     }
   },
   {
@@ -779,7 +792,8 @@
     "config": {
       "units": [
         "VOLT"
-      ]
+      ],
+      "metric_family": "voltage"
     }
   },
   {

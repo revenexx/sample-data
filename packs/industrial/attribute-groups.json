@@ -2,24 +2,24 @@
   {
     "code": "demo_ind_general",
     "labels": {
-      "de-DE": "Allgemein",
-      "en-US": "General"
+      "de-DE": "Allgemein (Werkstatt)",
+      "en-US": "General (Industrial)"
     },
     "position": 0
   },
   {
     "code": "demo_ind_technical",
     "labels": {
-      "de-DE": "Technische Daten",
-      "en-US": "Technical data"
+      "de-DE": "Technische Daten (Werkstatt)",
+      "en-US": "Technical data (Industrial)"
     },
     "position": 1
   },
   {
     "code": "demo_ind_media",
     "labels": {
-      "de-DE": "Medien & Downloads",
-      "en-US": "Media & downloads"
+      "de-DE": "Medien & Downloads (Werkstatt)",
+      "en-US": "Media & downloads (Industrial)"
     },
     "position": 2
   }

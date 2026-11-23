@@ -405,7 +405,7 @@ run_upsert() {
   local name file created=0 updated=0 same=0 mode
   name=$(jq -r '.name' <<<"$step")
   # "ensure": create when missing, never touch an existing record. For generic
-  # codes (name, description, asset families) a tenant may already have.
+  # codes (name, description, asset and measurement families) a tenant may already have.
   mode=$(jq -r '.mode // "upsert"' <<<"$step")
   file="$dir/$(jq -r '.file' <<<"$step")"
   apply_upsert "$step" "$file" update create
@@ -622,6 +622,7 @@ run_files() {
     | $recs[0] | to_entries[] | .value.file as $p | ($p | split("/") | last) as $b
     | [.key, $p, $b, ($H[$p] // ""), ($E[$b].id // ""), ($E[$b].h // "")] | @tsv')
   : > "$SEED_TMP/sids.tsv"
+  : > "$SEED_TMP/uploads.jsonl"
   while IFS=$'\t' read -r i path base hash sid ohash; do
     ev_progress "$i" "$count" 1
     path="$dir/$path"
@@ -636,14 +637,26 @@ run_files() {
       upload "$path" "$folder" "$tags"
       case "$API_STATUS" in 200|201) ;; *) die "$name: uploading $base answered $API_STATUS: $(api_error)" ;; esac
       sid=$(printf '%s' "$API_BODY" | jq -r '(.data // .).id')
+      printf '%s' "$API_BODY" | jq -c '(.data // .)' >> "$SEED_TMP/uploads.jsonl"
       uploaded=$((uploaded + 1))
     fi
     printf '%s\t%s\n' "$i" "$sid" >> "$SEED_TMP/sids.tsv"
   done <<<"$plan"
   # The product assets: the catalogue's record of each file, keyed by family + code.
-  jq -c --rawfile s "$SEED_TMP/sids.tsv" '
+  # Each also carries where storage delivers the file from (its URL's path) and
+  # the file's name, format and size, read off the upload answer or the folder
+  # listing: an asset with only its storage id names no file to show.
+  jq -c --rawfile s "$SEED_TMP/sids.tsv" --slurpfile exs "$SEED_TMP/existing.json" --slurpfile ups "$SEED_TMP/uploads.jsonl" '
     ($s | split("\n") | map(select(length > 0) | split("\t") | {(.[0]): .[1]}) | add // {}) as $S
-    | to_entries | map(.key as $i | .value | del(.file) + {source: "storage", storage_asset_id: $S[($i | tostring)]})' "$file" > "$SEED_TMP/assets.json"
+    | ((($exs[0] | if type == "object" then (.data // .items // []) else . end) + $ups) | map(select(type == "object" and .id != null) | {(.id): .}) | add // {}) as $F
+    | to_entries | map(.key as $i | $S[($i | tostring)] as $sid | ($F[$sid] // {}) as $f
+      | (($f.original_name // $f.path_name // "") | tostring) as $n
+      | .value | del(.file)
+      + {source: "storage", storage_asset_id: $sid}
+      + ((($f.url // "") | tostring | [capture("^[a-z]+://[^/]+/(?<p>[^?#]+)")] | first | .p?) as $dp | if $dp then {delivery_path: $dp} else {} end)
+      + (if $n != "" then {file_name: $n} else {} end)
+      + (($n | [capture("[.](?<x>[A-Za-z0-9]{1,10})$")] | first | .x?) as $x | if $x then {file_format: ($x | ascii_upcase)} else {} end)
+      + (if ($f.size_bytes | type) == "number" and $f.size_bytes >= 0 then {file_size: $f.size_bytes} else {} end))' "$file" > "$SEED_TMP/assets.json"
   apply_upsert "$step" "$SEED_TMP/assets.json" asset asset
   ok "$(printf '%-22s %s uploaded, %s unchanged; %s assets created, %s updated, %s unchanged' "$name" "$uploaded" "$kept" "$created" "$updated" "$same")"
 }
