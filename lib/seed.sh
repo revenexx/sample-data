@@ -405,7 +405,7 @@ run_upsert() {
   local name file created=0 updated=0 same=0 mode
   name=$(jq -r '.name' <<<"$step")
   # "ensure": create when missing, never touch an existing record. For generic
-  # codes (name, description, asset families) a tenant may already have.
+  # codes (name, description, asset and measurement families) a tenant may already have.
   mode=$(jq -r '.mode // "upsert"' <<<"$step")
   file="$dir/$(jq -r '.file' <<<"$step")"
   apply_upsert "$step" "$file" update create
@@ -650,10 +650,10 @@ run_files() {
     ($s | split("\n") | map(select(length > 0) | split("\t") | {(.[0]): .[1]}) | add // {}) as $S
     | ((($exs[0] | if type == "object" then (.data // .items // []) else . end) + $ups) | map(select(type == "object" and .id != null) | {(.id): .}) | add // {}) as $F
     | to_entries | map(.key as $i | $S[($i | tostring)] as $sid | ($F[$sid] // {}) as $f
-      | (($f.path_name // $f.original_name // "") | tostring) as $n
+      | (($f.original_name // $f.path_name // "") | tostring) as $n
       | .value | del(.file)
       + {source: "storage", storage_asset_id: $sid}
-      + ((($f.url // "") | tostring | [capture("^[a-z]+://[^/]+/(?<p>.+)$")] | first | .p?) as $dp | if $dp then {delivery_path: $dp} else {} end)
+      + ((($f.url // "") | tostring | [capture("^[a-z]+://[^/]+/(?<p>[^?#]+)")] | first | .p?) as $dp | if $dp then {delivery_path: $dp} else {} end)
       + (if $n != "" then {file_name: $n} else {} end)
       + (($n | [capture("[.](?<x>[A-Za-z0-9]{1,10})$")] | first | .x?) as $x | if $x then {file_format: ($x | ascii_upcase)} else {} end)
       + (if ($f.size_bytes | type) == "number" and $f.size_bytes >= 0 then {file_size: $f.size_bytes} else {} end))' "$file" > "$SEED_TMP/assets.json"
