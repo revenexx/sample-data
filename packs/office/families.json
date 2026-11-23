@@ -6,6 +6,7 @@
       "en-US": "Office article"
     },
     "label_attribute": "name",
+    "image_attribute": "demo_off_images",
     "external_id": "DEMO-OFF-ARTICLE"
   }
 ]

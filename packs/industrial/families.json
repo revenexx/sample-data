@@ -6,6 +6,7 @@
       "en-US": "Workshop article"
     },
     "label_attribute": "name",
+    "image_attribute": "demo_ind_images",
     "external_id": "DEMO-IND-ARTICLE"
   }
 ]

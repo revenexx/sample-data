@@ -6,6 +6,7 @@
       "en-US": "Electrical article"
     },
     "label_attribute": "name",
+    "image_attribute": "demo_ele_images",
     "external_id": "DEMO-ELE-ARTICLE"
   }
 ]
